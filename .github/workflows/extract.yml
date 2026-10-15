@@ -1,8 +1,8 @@
 name: 1. Extract questions
 
-# Run this by hand (Actions tab > "1. Extract questions" > Run workflow)
-# after adding input/question_bank.pdf. Re-running it rebuilds the images
-# and question list; Gemini tags are kept.
+# Run this by hand (Actions tab > "1. Extract questions" > Run workflow).
+# The question bank PDF is too large to commit through the website, so it is
+# attached to a release instead and downloaded here.
 on:
   workflow_dispatch:
 
@@ -19,6 +19,14 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - name: Fetch the question bank PDF from the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f input/question_bank.pdf ]; then
+            gh release download --pattern "question_bank.pdf" --dir input
+          fi
+          ls -lh input
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
