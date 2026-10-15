@@ -2,7 +2,8 @@ name: 1. Extract questions
 
 # Run this by hand (Actions tab > "1. Extract questions" > Run workflow).
 # The question bank PDF is too large to commit through the website, so it is
-# attached to a release instead and downloaded here.
+# attached to a release instead and downloaded here (overwriting any file
+# already in input/).
 on:
   workflow_dispatch:
 
@@ -23,9 +24,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ ! -f input/question_bank.pdf ]; then
-            gh release download --pattern "question_bank.pdf" --dir input
-          fi
+          gh release download --pattern "question_bank.pdf" --dir input --clobber
           ls -lh input
       - uses: actions/setup-python@v5
         with:
