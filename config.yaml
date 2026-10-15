@@ -20,7 +20,7 @@ dedupe:
 
 gemini:
   # Check https://ai.google.dev/gemini-api/docs/models for current free-tier models.
-  model: gemini-2.5-flash
+  model: gemini-3.8-flash
   questions_per_request: 8
   max_requests_per_run: 10  # the Action runs hourly; it stops early if the quota runs out
   seconds_between_requests: 15
