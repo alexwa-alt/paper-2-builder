@@ -50,24 +50,34 @@ def make_client():
 
 
 def ask(client, model, parts):
-    """One Gemini request returning parsed JSON. Retries once on a per-minute
-    rate limit; raises QuotaExhausted if the limit persists."""
+    """One Gemini request returning parsed JSON.
+
+    Rate limits (429) and temporary overloads (500/503) are retried a few
+    times with increasing waits. If they persist, QuotaExhausted is raised so
+    the run stops cleanly and the next scheduled run carries on.
+    """
     from google.genai import errors, types
     config = types.GenerateContentConfig(response_mime_type="application/json",
                                          temperature=0.2)
-    for attempt in range(2):
+    waits = [30, 90, 180]
+    for attempt in range(len(waits) + 1):
         try:
             resp = client.models.generate_content(model=model, contents=parts,
                                                   config=config)
             return parse_json_text(resp.text or "")
         except errors.APIError as e:
-            if getattr(e, "code", None) == 429 or "RESOURCE_EXHAUSTED" in str(e):
-                if attempt == 0:
-                    print("  rate limited - waiting 65 s and trying once more")
-                    time.sleep(65)
-                    continue
+            code = getattr(e, "code", None)
+            if code == 404:
+                sys.exit(f"Gemini model '{model}' was not found: {str(e)[:300]}\n"
+                         "Update gemini.model in config.yaml.")
+            temporary = code in (429, 500, 502, 503, 504) or any(
+                s in str(e) for s in ("RESOURCE_EXHAUSTED", "UNAVAILABLE"))
+            if not temporary:
+                raise
+            if attempt == len(waits):
                 raise QuotaExhausted(str(e)[:200])
-            raise
+            print(f"  Gemini busy or rate limited ({code}) - waiting {waits[attempt]} s")
+            time.sleep(waits[attempt])
 
 
 def image_part(path):
@@ -337,7 +347,8 @@ def main():
             save_json(TAGS_FILE, tags)
             time.sleep(gcfg["seconds_between_requests"])
     except QuotaExhausted as e:
-        print(f"Free quota used up for now ({e}). The next scheduled run will continue.")
+        print(f"Gemini is busy or the free quota is used up for now ({e}). "
+              "The next scheduled run will continue.")
     finally:
         n = mark_repeats(questions, tags)
         save_json(TAGS_FILE, tags)
