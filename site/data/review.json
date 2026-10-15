@@ -1,0 +1,41 @@
+{
+ "summary": {
+  "images_without_a_question": 1,
+  "section_disagrees_with_contents_page": 14,
+  "duplicates_in_different_sections": 12
+ },
+ "duplicates_merged": 117,
+ "images_without_a_question": [
+  1
+ ],
+ "section_disagrees_with_contents_page": [
+  "120. 0625_w17_qp_22 Q3: heading says 1.2, contents page says 1.3",
+  "316. 0625_w17_qp_23 Q7: heading says 1.5, contents page says 1.6",
+  "317. 0625_w17_qp_23 Q9: heading says 1.5, contents page says 1.6",
+  "592. 0625_w17_qp_21 Q16: heading says 2.1, contents page says 2.2",
+  "593. 0625_w17_qp_22 Q19: heading says 2.1, contents page says 2.2",
+  "694. 0625_w17_qp_22 Q18: heading says 2.2, contents page says 2.3",
+  "695. 0625_w17_qp_23 Q17: heading says 2.2, contents page says 2.3",
+  "696. 0625_w17_qp_23 Q18: heading says 2.2, contents page says 2.3",
+  "967. 0625_w17_qp_23 Q25: heading says 3.3, contents page says 3.4",
+  "1068. 0625_w17_qp_23 Q28: heading says 4.1, contents page says 4.2",
+  "1069. 0625_w17_qp_23 Q29: heading says 4.1, contents page says 4.2",
+  "1301. 0625_w17_qp_23 Q33: heading says 4.3, contents page says 4.4",
+  "1319. 0625_m17_qp_22 Q34: heading says 4.4, contents page says 4.5",
+  "1468. 0625_w17_qp_22 Q38: heading says 5.1, contents page says 5.2"
+ ],
+ "duplicates_in_different_sections": [
+  "58: 1.2, 1.3",
+  "127: 1.3, 1.4",
+  "347: 1.6, 1.7",
+  "494: 1.8, 2.1",
+  "539: 1.8, 2.2",
+  "569: 2.1, 2.2",
+  "776: 3.1, 3.3",
+  "797: 3.1, 3.3",
+  "962: 3.3, 3.4",
+  "1105: 4.2, 4.3",
+  "1443: 5.1, 5.2",
+  "1459: 5.1, 5.2"
+ ]
+}
