@@ -1,0 +1,1957 @@
+{
+ "objectives": [
+  {
+   "code": "1.1.1",
+   "section": "1.1",
+   "level": "core",
+   "text": "Describe the use of rulers and measuring cylinders to find a length or a volume"
+  },
+  {
+   "code": "1.1.2",
+   "section": "1.1",
+   "level": "core",
+   "text": "Describe how to measure a variety of time intervals using clocks and digital timers"
+  },
+  {
+   "code": "1.1.3",
+   "section": "1.1",
+   "level": "core",
+   "text": "Determine an average value for a small distance and for a short interval of time by measuring multiples (including the period of oscillation of a pendulum)"
+  },
+  {
+   "code": "1.1.4",
+   "section": "1.1",
+   "level": "supplement",
+   "text": "Understand that a scalar quantity has magnitude (size) only and that a vector quantity has magnitude and direction"
+  },
+  {
+   "code": "1.1.5",
+   "section": "1.1",
+   "level": "supplement",
+   "text": "Know that the following quantities are scalars: distance, speed, time, mass, energy and temperature"
+  },
+  {
+   "code": "1.1.6",
+   "section": "1.1",
+   "level": "supplement",
+   "text": "Know that the following quantities are vectors: force, weight, velocity, acceleration, momentum, electric field strength and gravitational field strength"
+  },
+  {
+   "code": "1.1.7",
+   "section": "1.1",
+   "level": "supplement",
+   "text": "Determine, by calculation or graphically, the resultant of two vectors at right angles, limited to forces or velocities only"
+  },
+  {
+   "code": "1.2.1",
+   "section": "1.2",
+   "level": "core",
+   "text": "Define speed as distance travelled per unit time; recall and use the equation v = s / t"
+  },
+  {
+   "code": "1.2.2",
+   "section": "1.2",
+   "level": "core",
+   "text": "Define velocity as speed in a given direction"
+  },
+  {
+   "code": "1.2.3",
+   "section": "1.2",
+   "level": "core",
+   "text": "Recall and use the equation average speed = total distance travelled / total time taken"
+  },
+  {
+   "code": "1.2.4",
+   "section": "1.2",
+   "level": "core",
+   "text": "Sketch, plot and interpret distance–time and speed–time graphs"
+  },
+  {
+   "code": "1.2.5",
+   "section": "1.2",
+   "level": "core",
+   "text": "Determine, qualitatively, from given data or the shape of a distance–time graph or speed–time graph when an object is at rest, moving constantly, accelerating, decelerating"
+  },
+  {
+   "code": "1.2.6",
+   "section": "1.2",
+   "level": "core",
+   "text": "Calculate speed from the gradient of a straight-line section of a distance–time graph"
+  },
+  {
+   "code": "1.2.7",
+   "section": "1.2",
+   "level": "core",
+   "text": "Calculate the area under a speed–time graph to determine the distance travelled for motion with constant speed or constant acceleration"
+  },
+  {
+   "code": "1.2.8",
+   "section": "1.2",
+   "level": "core",
+   "text": "State that the acceleration of free fall g near Earth's surface is approximately constant and is approximately 9.8 m/s²"
+  },
+  {
+   "code": "1.2.9",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Define acceleration as change in velocity per unit time; recall and use the equation a = Δv / Δt"
+  },
+  {
+   "code": "1.2.10",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Determine from given data or the shape of a speed–time graph when an object is moving with constant acceleration or changing acceleration"
+  },
+  {
+   "code": "1.2.11",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Calculate acceleration from the gradient of a speed–time graph"
+  },
+  {
+   "code": "1.2.12",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Know that a deceleration is a negative acceleration and use this in calculations"
+  },
+  {
+   "code": "1.2.13",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Describe the motion of objects falling in a uniform gravitational field with and without air/liquid resistance (including terminal velocity)"
+  },
+  {
+   "code": "1.3.1",
+   "section": "1.3",
+   "level": "core",
+   "text": "State that mass is a measure of the quantity of matter in an object at rest relative to the observer"
+  },
+  {
+   "code": "1.3.2",
+   "section": "1.3",
+   "level": "core",
+   "text": "State that weight is a gravitational force on an object that has mass"
+  },
+  {
+   "code": "1.3.3",
+   "section": "1.3",
+   "level": "core",
+   "text": "Define gravitational field strength as force per unit mass; recall and use g = W / m, equivalent to free fall acceleration"
+  },
+  {
+   "code": "1.3.4",
+   "section": "1.3",
+   "level": "core",
+   "text": "Know that weights (and masses) may be compared using a balance"
+  },
+  {
+   "code": "1.3.5",
+   "section": "1.3",
+   "level": "supplement",
+   "text": "Describe, and use the concept of, weight as the effect of a gravitational field on a mass"
+  },
+  {
+   "code": "1.4.1",
+   "section": "1.4",
+   "level": "core",
+   "text": "Define density as mass per unit volume; recall and use the equation ρ = m / V"
+  },
+  {
+   "code": "1.4.2",
+   "section": "1.4",
+   "level": "core",
+   "text": "Describe how to determine density of a liquid, regularly shaped solid, and irregularly shaped solid sinking in liquid, including appropriate calculations"
+  },
+  {
+   "code": "1.4.3",
+   "section": "1.4",
+   "level": "core",
+   "text": "Determine whether an object floats based on density data"
+  },
+  {
+   "code": "1.4.4",
+   "section": "1.4",
+   "level": "supplement",
+   "text": "Determine whether one liquid will float on another liquid based on density data given that the liquids do not mix"
+  },
+  {
+   "code": "1.5.1.1",
+   "section": "1.5",
+   "level": "core",
+   "text": "Know that forces may produce changes in the size and shape of an object"
+  },
+  {
+   "code": "1.5.1.2",
+   "section": "1.5",
+   "level": "core",
+   "text": "Sketch, plot and interpret load–extension graphs for an elastic solid and describe the associated experimental procedures"
+  },
+  {
+   "code": "1.5.1.3",
+   "section": "1.5",
+   "level": "core",
+   "text": "Determine the resultant of two or more forces acting along the same straight line"
+  },
+  {
+   "code": "1.5.1.4",
+   "section": "1.5",
+   "level": "core",
+   "text": "Know that an object remains at rest or continues in a straight line at constant speed unless acted on by a resultant force"
+  },
+  {
+   "code": "1.5.1.5",
+   "section": "1.5",
+   "level": "core",
+   "text": "State that a resultant force may change the velocity of an object by changing its direction of motion or its speed"
+  },
+  {
+   "code": "1.5.1.6",
+   "section": "1.5",
+   "level": "core",
+   "text": "Describe solid friction as the force between two surfaces that may impede motion and produce heating"
+  },
+  {
+   "code": "1.5.1.7",
+   "section": "1.5",
+   "level": "core",
+   "text": "Know that friction (drag) acts on an object moving through a liquid"
+  },
+  {
+   "code": "1.5.1.8",
+   "section": "1.5",
+   "level": "core",
+   "text": "Know that friction (drag) acts on an object moving through a gas (e.g. air resistance)"
+  },
+  {
+   "code": "1.5.1.9",
+   "section": "1.5",
+   "level": "supplement",
+   "text": "Define the spring constant as force per unit extension; recall and use the equation k = F / x"
+  },
+  {
+   "code": "1.5.1.10",
+   "section": "1.5",
+   "level": "supplement",
+   "text": "Define and use the term 'limit of proportionality' for a load–extension graph and identify this point on the graph"
+  },
+  {
+   "code": "1.5.1.11",
+   "section": "1.5",
+   "level": "supplement",
+   "text": "Recall and use the equation F = ma and know that the force and the acceleration are in the same direction"
+  },
+  {
+   "code": "1.5.1.12",
+   "section": "1.5",
+   "level": "supplement",
+   "text": "Describe qualitatively motion in a circular path due to a perpendicular force: effects of varying speed, force, mass, and radius"
+  },
+  {
+   "code": "1.5.2.1",
+   "section": "1.5",
+   "level": "core",
+   "text": "Describe the moment of a force as a measure of its turning effect and give everyday examples"
+  },
+  {
+   "code": "1.5.2.2",
+   "section": "1.5",
+   "level": "core",
+   "text": "Define moment of a force as force × perpendicular distance from pivot; recall and use this equation"
+  },
+  {
+   "code": "1.5.2.3",
+   "section": "1.5",
+   "level": "core",
+   "text": "Apply the principle of moments to situations with one force each side of the pivot, including balancing of a beam"
+  },
+  {
+   "code": "1.5.2.4",
+   "section": "1.5",
+   "level": "core",
+   "text": "State that, when there is no resultant force and no resultant moment, an object is in equilibrium"
+  },
+  {
+   "code": "1.5.2.5",
+   "section": "1.5",
+   "level": "supplement",
+   "text": "Apply the principle of moments to other situations, including those with more than one force each side of the pivot"
+  },
+  {
+   "code": "1.5.2.6",
+   "section": "1.5",
+   "level": "supplement",
+   "text": "Describe an experiment to demonstrate that there is no resultant moment on an object in equilibrium"
+  },
+  {
+   "code": "1.5.3.1",
+   "section": "1.5",
+   "level": "core",
+   "text": "State what is meant by centre of gravity"
+  },
+  {
+   "code": "1.5.3.2",
+   "section": "1.5",
+   "level": "core",
+   "text": "Describe an experiment to determine the position of the centre of gravity of an irregularly shaped plane lamina"
+  },
+  {
+   "code": "1.5.3.3",
+   "section": "1.5",
+   "level": "core",
+   "text": "Describe, qualitatively, the effect of the position of the centre of gravity on the stability of simple objects"
+  },
+  {
+   "code": "1.6.1",
+   "section": "1.6",
+   "level": "supplement",
+   "text": "Define momentum as mass × velocity; recall and use the equation p = mv"
+  },
+  {
+   "code": "1.6.2",
+   "section": "1.6",
+   "level": "supplement",
+   "text": "Define impulse as force × time for which force acts; recall and use impulse = FΔt = Δ(mv)"
+  },
+  {
+   "code": "1.6.3",
+   "section": "1.6",
+   "level": "supplement",
+   "text": "Apply the principle of the conservation of momentum to solve simple problems in one dimension"
+  },
+  {
+   "code": "1.6.4",
+   "section": "1.6",
+   "level": "supplement",
+   "text": "Define resultant force as the change in momentum per unit time; recall and use the equation F = Δp / Δt"
+  },
+  {
+   "code": "1.7.1.1",
+   "section": "1.7",
+   "level": "core",
+   "text": "State that energy may be stored as kinetic, gravitational potential, chemical, elastic, nuclear, electrostatic and internal (thermal)"
+  },
+  {
+   "code": "1.7.1.2",
+   "section": "1.7",
+   "level": "core",
+   "text": "Describe how energy is transferred between stores by forces, electrical currents, heating, and by electromagnetic, sound and other waves"
+  },
+  {
+   "code": "1.7.1.3",
+   "section": "1.7",
+   "level": "core",
+   "text": "Know the principle of conservation of energy and apply it to simple examples including interpreting simple flow diagrams"
+  },
+  {
+   "code": "1.7.1.4",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Recall and use the equation for kinetic energy Ek = 1/2mv²"
+  },
+  {
+   "code": "1.7.1.5",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Recall and use the equation for the change in gravitational potential energy ΔEp = mgΔh"
+  },
+  {
+   "code": "1.7.1.6",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Know the principle of conservation of energy and apply to complex multi-stage examples, including Sankey diagrams"
+  },
+  {
+   "code": "1.7.2.1",
+   "section": "1.7",
+   "level": "core",
+   "text": "Understand that mechanical or electrical work done is equal to the energy transferred"
+  },
+  {
+   "code": "1.7.2.2",
+   "section": "1.7",
+   "level": "core",
+   "text": "Recall and use the equation for mechanical working W = Fd = ΔE"
+  },
+  {
+   "code": "1.7.3.1",
+   "section": "1.7",
+   "level": "core",
+   "text": "Describe how useful energy is obtained or power generated from fossil fuels, biofuels, water, geothermal, nuclear, and the Sun"
+  },
+  {
+   "code": "1.7.3.2",
+   "section": "1.7",
+   "level": "core",
+   "text": "Describe advantages and disadvantages of each energy resource in terms of renewability, availability, reliability, scale and environmental impact"
+  },
+  {
+   "code": "1.7.3.3",
+   "section": "1.7",
+   "level": "core",
+   "text": "Understand, qualitatively, the concept of efficiency of energy transfer"
+  },
+  {
+   "code": "1.7.3.4",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Know that radiation from the Sun is the main energy source for all resources except geothermal, nuclear and tidal"
+  },
+  {
+   "code": "1.7.3.5",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Know that energy is released by nuclear fusion in the Sun"
+  },
+  {
+   "code": "1.7.3.6",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Know that research investigates using energy released by nuclear fusion to produce electrical energy on a large scale"
+  },
+  {
+   "code": "1.7.3.7",
+   "section": "1.7",
+   "level": "supplement",
+   "text": "Define efficiency in terms of useful energy/power output over total energy/power input; recall and use these equations"
+  },
+  {
+   "code": "1.7.4.1",
+   "section": "1.7",
+   "level": "core",
+   "text": "Define power as work done or energy transferred per unit time; recall and use P = W / t and P = ΔE / t"
+  },
+  {
+   "code": "1.8.1",
+   "section": "1.8",
+   "level": "core",
+   "text": "Define pressure as force per unit area; recall and use the equation p = F / A"
+  },
+  {
+   "code": "1.8.2",
+   "section": "1.8",
+   "level": "core",
+   "text": "Describe how pressure varies with force and area in the context of everyday examples"
+  },
+  {
+   "code": "1.8.3",
+   "section": "1.8",
+   "level": "core",
+   "text": "Describe, qualitatively, how the pressure beneath the surface of a liquid changes with depth and density of the liquid"
+  },
+  {
+   "code": "1.8.4",
+   "section": "1.8",
+   "level": "supplement",
+   "text": "Recall and use the equation for the change in pressure beneath the surface of a liquid Δp = ρgΔh"
+  },
+  {
+   "code": "2.1.1.1",
+   "section": "2.1",
+   "level": "core",
+   "text": "Know the distinguishing properties of solids, liquids and gases"
+  },
+  {
+   "code": "2.1.1.2",
+   "section": "2.1",
+   "level": "core",
+   "text": "Know the terms for the changes in state between solids, liquids and gases (gas to solid and solid to gas transfers are not required)"
+  },
+  {
+   "code": "2.1.2.1",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe the particle structure of solids, liquids and gases in terms of arrangement, separation and motion of particles, and represent these using particle diagrams"
+  },
+  {
+   "code": "2.1.2.2",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe the relationship between particle motion and temperature, including absolute zero (−273°C) where particles have least kinetic energy"
+  },
+  {
+   "code": "2.1.2.3",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe the pressure and the changes in pressure of a gas in terms of the motion of its particles and their collisions with a surface"
+  },
+  {
+   "code": "2.1.2.4",
+   "section": "2.1",
+   "level": "core",
+   "text": "Know that the random motion of microscopic particles in a suspension is evidence for the kinetic particle model of matter"
+  },
+  {
+   "code": "2.1.2.5",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe and explain Brownian motion in terms of random collisions between microscopic particles in a suspension and the particles of the gas or liquid"
+  },
+  {
+   "code": "2.1.2.6",
+   "section": "2.1",
+   "level": "supplement",
+   "text": "Know that the forces and distances between particles and the motion of particles affects properties of solids, liquids and gases"
+  },
+  {
+   "code": "2.1.2.7",
+   "section": "2.1",
+   "level": "supplement",
+   "text": "Describe pressure and changes in pressure of a gas in terms of forces exerted by particles colliding with surfaces, creating a force per unit area"
+  },
+  {
+   "code": "2.1.2.8",
+   "section": "2.1",
+   "level": "supplement",
+   "text": "Know that microscopic particles may be moved by collisions with light fast-moving molecules and correctly use terms atoms or molecules distinct from microscopic particles"
+  },
+  {
+   "code": "2.1.3.1",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe qualitatively, in terms of particles, the effect on pressure of a fixed mass of gas of temperature change or volume change"
+  },
+  {
+   "code": "2.1.3.2",
+   "section": "2.1",
+   "level": "core",
+   "text": "Convert temperatures between kelvin and degrees Celsius; recall and use the equation T (in K) = θ (in °C) + 273"
+  },
+  {
+   "code": "2.1.3.3",
+   "section": "2.1",
+   "level": "supplement",
+   "text": "Recall and use the equation pV = constant for a fixed mass of gas at constant temperature, including a graphical representation of this relationship"
+  },
+  {
+   "code": "2.2.1.1",
+   "section": "2.2",
+   "level": "core",
+   "text": "Describe, qualitatively, the thermal expansion of solids, liquids and gases at constant pressure"
+  },
+  {
+   "code": "2.2.1.2",
+   "section": "2.2",
+   "level": "core",
+   "text": "Describe some of the everyday applications and consequences of thermal expansion"
+  },
+  {
+   "code": "2.2.1.3",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Explain, in terms of motion and arrangement of particles, the relative order of magnitudes of expansion of solids, liquids and gases as temperatures rise"
+  },
+  {
+   "code": "2.2.2.1",
+   "section": "2.2",
+   "level": "core",
+   "text": "Know that a rise in the temperature of an object increases its internal energy"
+  },
+  {
+   "code": "2.2.2.2",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Describe an increase in temperature of an object in terms of an increase in the average kinetic energies of all of the particles"
+  },
+  {
+   "code": "2.2.2.3",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Define specific heat capacity as energy required per unit mass per unit temperature increase; recall and use the equation c = ΔE / (mΔθ)"
+  },
+  {
+   "code": "2.2.2.4",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Describe experiments to measure the specific heat capacity of a solid and a liquid"
+  },
+  {
+   "code": "2.2.3.1",
+   "section": "2.2",
+   "level": "core",
+   "text": "Describe melting and boiling in terms of energy input without a change in temperature"
+  },
+  {
+   "code": "2.2.3.2",
+   "section": "2.2",
+   "level": "core",
+   "text": "Know the melting and boiling temperatures for water at standard atmospheric pressure"
+  },
+  {
+   "code": "2.2.3.3",
+   "section": "2.2",
+   "level": "core",
+   "text": "Describe condensation and solidification in terms of particles"
+  },
+  {
+   "code": "2.2.3.4",
+   "section": "2.2",
+   "level": "core",
+   "text": "Describe evaporation in terms of the escape of more energetic particles from the surface of a liquid"
+  },
+  {
+   "code": "2.2.3.5",
+   "section": "2.2",
+   "level": "core",
+   "text": "Know that evaporation causes cooling of a liquid"
+  },
+  {
+   "code": "2.2.3.6",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Describe the differences between boiling and evaporation"
+  },
+  {
+   "code": "2.2.3.7",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Describe how temperature, surface area and air movement over a surface affect evaporation"
+  },
+  {
+   "code": "2.2.3.8",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Explain the cooling of an object in contact with an evaporating liquid"
+  },
+  {
+   "code": "2.3.1.1",
+   "section": "2.3",
+   "level": "core",
+   "text": "Describe experiments to demonstrate the properties of good thermal conductors and bad thermal conductors (thermal insulators)"
+  },
+  {
+   "code": "2.3.1.2",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Describe thermal conduction in solids in terms of atomic/molecular lattice vibrations and movement of free (delocalised) electrons in metallic conductors"
+  },
+  {
+   "code": "2.3.1.3",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Describe, in terms of particles, why thermal conduction is bad in gases and most liquids"
+  },
+  {
+   "code": "2.3.1.4",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Know that there are many solids that conduct thermal energy better than thermal insulators but less well than good thermal conductors"
+  },
+  {
+   "code": "2.3.2.1",
+   "section": "2.3",
+   "level": "core",
+   "text": "Know that convection is an important method of thermal energy transfer in liquids and gases"
+  },
+  {
+   "code": "2.3.2.2",
+   "section": "2.3",
+   "level": "core",
+   "text": "Explain convection in liquids and gases in terms of density changes and describe experiments to illustrate convection"
+  },
+  {
+   "code": "2.3.3.1",
+   "section": "2.3",
+   "level": "core",
+   "text": "Know that thermal radiation is infrared radiation and that all objects emit this radiation"
+  },
+  {
+   "code": "2.3.3.2",
+   "section": "2.3",
+   "level": "core",
+   "text": "Know that thermal energy transfer by thermal radiation does not require a medium"
+  },
+  {
+   "code": "2.3.3.3",
+   "section": "2.3",
+   "level": "core",
+   "text": "Describe the effect of surface colour (black or white) and texture (dull or shiny) on emission, absorption and reflection of infrared radiation"
+  },
+  {
+   "code": "2.3.3.4",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Know that for an object to be at constant temperature it needs to transfer energy away at the same rate it receives energy"
+  },
+  {
+   "code": "2.3.3.5",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Know what happens to an object if the rate it receives energy is less or more than the rate it transfers energy away"
+  },
+  {
+   "code": "2.3.3.6",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Know how the temperature of the Earth is affected by factors controlling the balance between incoming and emitted radiation"
+  },
+  {
+   "code": "2.3.3.7",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Describe experiments to distinguish between good and bad emitters of infrared radiation"
+  },
+  {
+   "code": "2.3.3.8",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Describe experiments to distinguish between good and bad absorbers of infrared radiation"
+  },
+  {
+   "code": "2.3.3.9",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Describe how the rate of emission of radiation depends on the surface temperature and surface area of an object"
+  },
+  {
+   "code": "2.3.4.1",
+   "section": "2.3",
+   "level": "core",
+   "text": "Explain basic everyday applications and consequences of conduction, convection and radiation, including heating kitchen pans and heating a room by convection"
+  },
+  {
+   "code": "2.3.4.2",
+   "section": "2.3",
+   "level": "supplement",
+   "text": "Explain complex applications and consequences of conduction, convection and radiation where multiple transfer types are significant, including fires and car radiators"
+  },
+  {
+   "code": "3.1.1",
+   "section": "3.1",
+   "level": "core",
+   "text": "Know that waves transfer energy without transferring matter"
+  },
+  {
+   "code": "3.1.2",
+   "section": "3.1",
+   "level": "core",
+   "text": "Describe what is meant by wave motion as illustrated by vibrations in ropes and springs, and by experiments using water waves"
+  },
+  {
+   "code": "3.1.3",
+   "section": "3.1",
+   "level": "core",
+   "text": "Describe the features of a wave in terms of wavefront, wavelength, frequency, crest (peak), trough, amplitude and wave speed"
+  },
+  {
+   "code": "3.1.4",
+   "section": "3.1",
+   "level": "core",
+   "text": "Recall and use the equation for wave speed v = f λ"
+  },
+  {
+   "code": "3.1.5",
+   "section": "3.1",
+   "level": "core",
+   "text": "Know that for a transverse wave, vibration is at right angles to propagation, e.g. electromagnetic radiation, water waves and seismic S-waves"
+  },
+  {
+   "code": "3.1.6",
+   "section": "3.1",
+   "level": "core",
+   "text": "Know that for a longitudinal wave, vibration is parallel to propagation, and that sound waves and seismic P-waves can be modelled as longitudinal"
+  },
+  {
+   "code": "3.1.7",
+   "section": "3.1",
+   "level": "core",
+   "text": "Describe how waves can undergo: (a) reflection at a plane surface (b) refraction due to a change of speed (c) diffraction through a narrow gap"
+  },
+  {
+   "code": "3.1.8",
+   "section": "3.1",
+   "level": "core",
+   "text": "Describe the use of a ripple tank to show reflection, refraction from speed/depth change, and diffraction due to a gap or edge"
+  },
+  {
+   "code": "3.1.9",
+   "section": "3.1",
+   "level": "supplement",
+   "text": "Describe how wavelength and gap size affects diffraction through a gap"
+  },
+  {
+   "code": "3.1.10",
+   "section": "3.1",
+   "level": "supplement",
+   "text": "Describe how wavelength affects diffraction at an edge"
+  },
+  {
+   "code": "3.2.1.1",
+   "section": "3.2",
+   "level": "core",
+   "text": "Define and use the terms normal, angle of incidence and angle of reflection"
+  },
+  {
+   "code": "3.2.1.2",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe the formation of an optical image by a plane mirror, and give its characteristics, i.e. same size, same distance from mirror, virtual"
+  },
+  {
+   "code": "3.2.1.3",
+   "section": "3.2",
+   "level": "core",
+   "text": "State that for reflection, the angle of incidence is equal to the angle of reflection; recall and use this relationship"
+  },
+  {
+   "code": "3.2.1.4",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Use simple constructions, measurements and calculations for reflection by plane mirrors"
+  },
+  {
+   "code": "3.2.2.1",
+   "section": "3.2",
+   "level": "core",
+   "text": "Define and use the terms normal, angle of incidence and angle of refraction"
+  },
+  {
+   "code": "3.2.2.2",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe an experiment to show refraction of light by transparent blocks of different shapes"
+  },
+  {
+   "code": "3.2.2.3",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe the passage of light through a transparent material (limited to the boundaries between two media only)"
+  },
+  {
+   "code": "3.2.2.4",
+   "section": "3.2",
+   "level": "core",
+   "text": "State the meaning of critical angle"
+  },
+  {
+   "code": "3.2.2.5",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe internal reflection and total internal reflection using both experimental and everyday examples"
+  },
+  {
+   "code": "3.2.2.6",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Define refractive index, n, as the ratio of the speeds of a wave in two different regions"
+  },
+  {
+   "code": "3.2.2.7",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Recall and use the equation n = sin i / sin r"
+  },
+  {
+   "code": "3.2.2.8",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Recall and use the equation n = 1 / sin c"
+  },
+  {
+   "code": "3.2.2.9",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Describe the use of optical fibres, particularly in telecommunications"
+  },
+  {
+   "code": "3.2.3.1",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe the action of thin converging and thin diverging lenses on a parallel beam of light"
+  },
+  {
+   "code": "3.2.3.2",
+   "section": "3.2",
+   "level": "core",
+   "text": "Define and use the terms focal length, principal axis and principal focus (focal point)"
+  },
+  {
+   "code": "3.2.3.3",
+   "section": "3.2",
+   "level": "core",
+   "text": "Draw and use ray diagrams for the formation of a real image by a converging lens"
+  },
+  {
+   "code": "3.2.3.4",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe the characteristics of an image using the terms enlarged/same size/diminished, upright/inverted and real/virtual"
+  },
+  {
+   "code": "3.2.3.5",
+   "section": "3.2",
+   "level": "core",
+   "text": "Know that a virtual image is formed when diverging rays are extrapolated backwards and does not form a visible projection on a screen"
+  },
+  {
+   "code": "3.2.3.6",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Draw and use ray diagrams for the formation of a virtual image by a converging lens"
+  },
+  {
+   "code": "3.2.3.7",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Describe the use of a single lens as a magnifying glass"
+  },
+  {
+   "code": "3.2.3.8",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Describe the use of converging and diverging lenses to correct long-sightedness and short-sightedness"
+  },
+  {
+   "code": "3.2.4.1",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe the dispersion of light as illustrated by the refraction of white light by a glass prism"
+  },
+  {
+   "code": "3.2.4.2",
+   "section": "3.2",
+   "level": "core",
+   "text": "Know the traditional seven colours of the visible spectrum in order of frequency and in order of wavelength"
+  },
+  {
+   "code": "3.2.4.3",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Recall that visible light of a single frequency is described as monochromatic"
+  },
+  {
+   "code": "3.3.1",
+   "section": "3.3",
+   "level": "core",
+   "text": "Know the main regions of the electromagnetic spectrum in order of frequency and in order of wavelength"
+  },
+  {
+   "code": "3.3.2",
+   "section": "3.3",
+   "level": "core",
+   "text": "Know that all electromagnetic waves travel at the same high speed in a vacuum"
+  },
+  {
+   "code": "3.3.3",
+   "section": "3.3",
+   "level": "core",
+   "text": "Describe typical uses of regions of the electromagnetic spectrum: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays"
+  },
+  {
+   "code": "3.3.4",
+   "section": "3.3",
+   "level": "core",
+   "text": "Describe harmful effects on people of excessive exposure to electromagnetic radiation: microwaves, infrared, ultraviolet, and X-rays and gamma rays"
+  },
+  {
+   "code": "3.3.5",
+   "section": "3.3",
+   "level": "core",
+   "text": "Know that communication with artificial satellites is mainly by microwaves, using low orbit satellites or geostationary satellites"
+  },
+  {
+   "code": "3.3.6",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "Know that the speed of electromagnetic waves in a vacuum is 3.0 × 10^8 m/s and is approximately the same in air"
+  },
+  {
+   "code": "3.3.7",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "Know that many communication systems rely on electromagnetic radiation: mobile phones, wireless internet, Bluetooth, and optical fibres"
+  },
+  {
+   "code": "3.3.8",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "Know the difference between a digital and analogue signal"
+  },
+  {
+   "code": "3.3.9",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "Know that a sound can be transmitted as a digital or analogue signal"
+  },
+  {
+   "code": "3.3.10",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "Explain the benefits of digital signaling including increased rate of data transmission and increased range due to accurate signal regeneration"
+  },
+  {
+   "code": "3.4.1",
+   "section": "3.4",
+   "level": "core",
+   "text": "Describe the production of sound by vibrating sources"
+  },
+  {
+   "code": "3.4.2",
+   "section": "3.4",
+   "level": "core",
+   "text": "Describe the longitudinal nature of sound waves"
+  },
+  {
+   "code": "3.4.3",
+   "section": "3.4",
+   "level": "core",
+   "text": "State the approximate range of frequencies audible to humans as 20 Hz to 20 000 Hz"
+  },
+  {
+   "code": "3.4.4",
+   "section": "3.4",
+   "level": "core",
+   "text": "Know that a medium is needed to transmit sound waves"
+  },
+  {
+   "code": "3.4.5",
+   "section": "3.4",
+   "level": "core",
+   "text": "Know that the speed of sound in air is approximately 330–350 m/s"
+  },
+  {
+   "code": "3.4.6",
+   "section": "3.4",
+   "level": "core",
+   "text": "Describe a method involving a measurement of distance and time for determining the speed of sound in air"
+  },
+  {
+   "code": "3.4.7",
+   "section": "3.4",
+   "level": "core",
+   "text": "Describe how changes in amplitude and frequency affect the loudness and pitch of sound waves"
+  },
+  {
+   "code": "3.4.8",
+   "section": "3.4",
+   "level": "core",
+   "text": "Describe an echo as the reflection of sound waves"
+  },
+  {
+   "code": "3.4.9",
+   "section": "3.4",
+   "level": "core",
+   "text": "Define ultrasound as sound with a frequency higher than 20 kHz"
+  },
+  {
+   "code": "3.4.10",
+   "section": "3.4",
+   "level": "supplement",
+   "text": "Describe compression and rarefaction"
+  },
+  {
+   "code": "3.4.11",
+   "section": "3.4",
+   "level": "supplement",
+   "text": "Know that, in general, sound travels faster in solids than in liquids and faster in liquids than in gases"
+  },
+  {
+   "code": "3.4.12",
+   "section": "3.4",
+   "level": "supplement",
+   "text": "Describe uses of ultrasound in non-destructive testing, medical scanning of soft tissue and sonar including depth/distance calculations"
+  },
+  {
+   "code": "4.1.1",
+   "section": "4.1",
+   "level": "core",
+   "text": "Describe the forces between magnetic poles and between magnets and magnetic materials, including north and south poles, attraction and repulsion, magnetised and unmagnetised"
+  },
+  {
+   "code": "4.1.2",
+   "section": "4.1",
+   "level": "core",
+   "text": "Describe induced magnetism"
+  },
+  {
+   "code": "4.1.3",
+   "section": "4.1",
+   "level": "core",
+   "text": "State the differences between the properties of temporary magnets (made of soft iron) and the properties of permanent magnets (made of steel)"
+  },
+  {
+   "code": "4.1.4",
+   "section": "4.1",
+   "level": "core",
+   "text": "State the difference between magnetic and non-magnetic materials"
+  },
+  {
+   "code": "4.1.5",
+   "section": "4.1",
+   "level": "core",
+   "text": "Describe a magnetic field as a region in which a magnetic pole experiences a force"
+  },
+  {
+   "code": "4.1.6",
+   "section": "4.1",
+   "level": "core",
+   "text": "Draw the pattern and direction of magnetic field lines around a bar magnet"
+  },
+  {
+   "code": "4.1.7",
+   "section": "4.1",
+   "level": "core",
+   "text": "State that the direction of a magnetic field at a point is the direction of the force on the N pole of a magnet at that point"
+  },
+  {
+   "code": "4.1.8",
+   "section": "4.1",
+   "level": "core",
+   "text": "Describe the plotting of magnetic field lines with a compass or iron filings and the use of a compass to determine the magnetic field direction"
+  },
+  {
+   "code": "4.1.9",
+   "section": "4.1",
+   "level": "core",
+   "text": "Describe the uses of permanent magnets and electromagnets"
+  },
+  {
+   "code": "4.1.10",
+   "section": "4.1",
+   "level": "supplement",
+   "text": "Explain that magnetic forces are due to interactions between magnetic fields"
+  },
+  {
+   "code": "4.1.11",
+   "section": "4.1",
+   "level": "supplement",
+   "text": "Know that the relative strength of a magnetic field is represented by the spacing of the magnetic field lines"
+  },
+  {
+   "code": "4.2.1.1",
+   "section": "4.2",
+   "level": "core",
+   "text": "State that there are positive and negative charges"
+  },
+  {
+   "code": "4.2.1.2",
+   "section": "4.2",
+   "level": "core",
+   "text": "State that positive charges repel other positive charges, negative charges repel other negative charges, but positive charges attract negative charges"
+  },
+  {
+   "code": "4.2.1.3",
+   "section": "4.2",
+   "level": "core",
+   "text": "Describe simple experiments to show the production of electrostatic charges by friction and to show the detection of electrostatic charges"
+  },
+  {
+   "code": "4.2.1.4",
+   "section": "4.2",
+   "level": "core",
+   "text": "Explain that charging of solids by friction involves only a transfer of negative charge (electrons)"
+  },
+  {
+   "code": "4.2.1.5",
+   "section": "4.2",
+   "level": "core",
+   "text": "Describe an experiment to distinguish between electrical conductors and insulators"
+  },
+  {
+   "code": "4.2.1.6",
+   "section": "4.2",
+   "level": "core",
+   "text": "Recall and use a simple electron model to explain the difference between electrical conductors and insulators and give typical examples"
+  },
+  {
+   "code": "4.2.1.7",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "State that charge is measured in coulombs"
+  },
+  {
+   "code": "4.2.1.8",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Describe an electric field as a region in which an electric charge experiences a force"
+  },
+  {
+   "code": "4.2.1.9",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "State that the direction of an electric field at a point is the direction of the force on a positive charge at that point"
+  },
+  {
+   "code": "4.2.1.10",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Describe simple electric field patterns, including the direction of the field around a point charge, charged conducting sphere, and between parallel conducting plates"
+  },
+  {
+   "code": "4.2.2.1",
+   "section": "4.2",
+   "level": "core",
+   "text": "Know that electric current is related to the flow of charge"
+  },
+  {
+   "code": "4.2.2.2",
+   "section": "4.2",
+   "level": "core",
+   "text": "Describe the use of ammeters (analogue and digital) with different ranges"
+  },
+  {
+   "code": "4.2.2.3",
+   "section": "4.2",
+   "level": "core",
+   "text": "Describe electrical conduction in metals in terms of the movement of free electrons"
+  },
+  {
+   "code": "4.2.2.4",
+   "section": "4.2",
+   "level": "core",
+   "text": "Know the difference between direct current (d.c.) and alternating current (a.c.)"
+  },
+  {
+   "code": "4.2.2.5",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Define electric current as the charge passing a point per unit time; recall and use the equation I = Q / t"
+  },
+  {
+   "code": "4.2.2.6",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "State that conventional current is from positive to negative and that the flow of free electrons is from negative to positive"
+  },
+  {
+   "code": "4.2.3.1",
+   "section": "4.2",
+   "level": "core",
+   "text": "Define electromotive force (e.m.f.) as the electrical work done by a source in moving a unit charge around a complete circuit"
+  },
+  {
+   "code": "4.2.3.2",
+   "section": "4.2",
+   "level": "core",
+   "text": "Know that e.m.f. is measured in volts (V)"
+  },
+  {
+   "code": "4.2.3.3",
+   "section": "4.2",
+   "level": "core",
+   "text": "Define potential difference (p.d.) as the work done by a unit charge passing through a component"
+  },
+  {
+   "code": "4.2.3.4",
+   "section": "4.2",
+   "level": "core",
+   "text": "Know that the p.d. between two points is measured in volts (V)"
+  },
+  {
+   "code": "4.2.3.5",
+   "section": "4.2",
+   "level": "core",
+   "text": "Describe the use of voltmeters (analogue and digital) with different ranges"
+  },
+  {
+   "code": "4.2.3.6",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Recall and use the equation for e.m.f. E = W / Q"
+  },
+  {
+   "code": "4.2.3.7",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Recall and use the equation for p.d. V = W / Q"
+  },
+  {
+   "code": "4.2.4.1",
+   "section": "4.2",
+   "level": "core",
+   "text": "Recall and use the equation for resistance R = V / I"
+  },
+  {
+   "code": "4.2.4.2",
+   "section": "4.2",
+   "level": "core",
+   "text": "Describe an experiment to determine resistance using a voltmeter and an ammeter and do the appropriate calculations"
+  },
+  {
+   "code": "4.2.4.3",
+   "section": "4.2",
+   "level": "core",
+   "text": "State, qualitatively, the relationship of the resistance of a metallic wire to its length and to its cross-sectional area"
+  },
+  {
+   "code": "4.2.4.4",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Sketch and explain the current–voltage graphs for a resistor of constant resistance, a filament lamp and a diode"
+  },
+  {
+   "code": "4.2.4.5",
+   "section": "4.2",
+   "level": "supplement",
+   "text": "Recall and use the following relationship for a metallic electrical conductor: resistance is directly proportional to length and inversely proportional to cross-sectional area"
+  },
+  {
+   "code": "4.2.5.1",
+   "section": "4.2",
+   "level": "core",
+   "text": "Understand that electric circuits transfer energy from a source of electrical energy to circuit components and then into the surroundings"
+  },
+  {
+   "code": "4.2.5.2",
+   "section": "4.2",
+   "level": "core",
+   "text": "Recall and use the equation for electrical power P = IV"
+  },
+  {
+   "code": "4.2.5.3",
+   "section": "4.2",
+   "level": "core",
+   "text": "Recall and use the equation for electrical energy E = IVt"
+  },
+  {
+   "code": "4.2.5.4",
+   "section": "4.2",
+   "level": "core",
+   "text": "Define the kilowatt-hour (kWh) and calculate the cost of using electrical appliances where the energy unit is the kWh"
+  },
+  {
+   "code": "4.3.1.1",
+   "section": "4.3",
+   "level": "core",
+   "text": "Draw and interpret circuit diagrams containing common components, and know how these components behave in the circuit"
+  },
+  {
+   "code": "4.3.1.2",
+   "section": "4.3",
+   "level": "supplement",
+   "text": "Draw and interpret circuit diagrams containing diodes and light-emitting diodes (LEDs), and know how these components behave in the circuit"
+  },
+  {
+   "code": "4.3.2.1",
+   "section": "4.3",
+   "level": "core",
+   "text": "Know that the current at every point in a series circuit is the same"
+  },
+  {
+   "code": "4.3.2.2",
+   "section": "4.3",
+   "level": "core",
+   "text": "Know how to construct and use series and parallel circuits"
+  },
+  {
+   "code": "4.3.2.3",
+   "section": "4.3",
+   "level": "core",
+   "text": "Calculate the combined e.m.f. of several sources in series"
+  },
+  {
+   "code": "4.3.2.4",
+   "section": "4.3",
+   "level": "core",
+   "text": "Calculate the combined resistance of two or more resistors in series"
+  },
+  {
+   "code": "4.3.2.5",
+   "section": "4.3",
+   "level": "core",
+   "text": "State that, for a parallel circuit, the current from the source is larger than the current in each branch"
+  },
+  {
+   "code": "4.3.2.6",
+   "section": "4.3",
+   "level": "core",
+   "text": "State that the combined resistance of two resistors in parallel is less than that of either resistor by itself"
+  },
+  {
+   "code": "4.3.2.7",
+   "section": "4.3",
+   "level": "core",
+   "text": "State the advantages of connecting lamps in parallel in a lighting circuit"
+  },
+  {
+   "code": "4.3.2.8",
+   "section": "4.3",
+   "level": "supplement",
+   "text": "Recall and use in calculations junction current laws, total series p.d., and p.d. across parallel branches"
+  },
+  {
+   "code": "4.3.2.9",
+   "section": "4.3",
+   "level": "supplement",
+   "text": "Explain that the sum of the currents into a junction is the same as the sum of the currents out of the junction"
+  },
+  {
+   "code": "4.3.2.10",
+   "section": "4.3",
+   "level": "supplement",
+   "text": "Calculate the combined resistance of two resistors in parallel"
+  },
+  {
+   "code": "4.3.3.1",
+   "section": "4.3",
+   "level": "core",
+   "text": "Know that the p.d. across an electrical conductor increases as its resistance increases for a constant current"
+  },
+  {
+   "code": "4.3.3.2",
+   "section": "4.3",
+   "level": "supplement",
+   "text": "Describe the action of a variable potential divider"
+  },
+  {
+   "code": "4.3.3.3",
+   "section": "4.3",
+   "level": "supplement",
+   "text": "Recall and use the equation for two resistors used as a potential divider R1 / R2 = V1 / V2"
+  },
+  {
+   "code": "4.4.1",
+   "section": "4.4",
+   "level": "core",
+   "text": "State the hazards of damaged insulation, overheating cables, damp conditions, and excess current from overloading of sockets when using a mains supply"
+  },
+  {
+   "code": "4.4.2",
+   "section": "4.4",
+   "level": "core",
+   "text": "Know mains circuits have live, neutral and earth wires and explain why a switch must be connected to the live wire to switch off safely"
+  },
+  {
+   "code": "4.4.3",
+   "section": "4.4",
+   "level": "core",
+   "text": "Explain the use and operation of trip switches and fuses and choose appropriate fuse ratings and trip switch settings"
+  },
+  {
+   "code": "4.4.4",
+   "section": "4.4",
+   "level": "core",
+   "text": "Explain why the outer casing of an electrical appliance must be either non-conducting (double-insulated) or earthed"
+  },
+  {
+   "code": "4.4.5",
+   "section": "4.4",
+   "level": "core",
+   "text": "State that a fuse without an earth wire protects the circuit and the cabling for a double-insulated appliance"
+  },
+  {
+   "code": "4.5.1.1",
+   "section": "4.5",
+   "level": "core",
+   "text": "Know that a conductor moving across a magnetic field or a changing magnetic field linking with a conductor can induce an e.m.f. in the conductor"
+  },
+  {
+   "code": "4.5.1.2",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe an experiment to demonstrate electromagnetic induction"
+  },
+  {
+   "code": "4.5.1.3",
+   "section": "4.5",
+   "level": "core",
+   "text": "State the factors affecting the magnitude of an induced e.m.f."
+  },
+  {
+   "code": "4.5.1.4",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Know that the direction of an induced e.m.f. opposes the change causing it"
+  },
+  {
+   "code": "4.5.1.5",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "State and use the relative directions of force, field and induced current"
+  },
+  {
+   "code": "4.5.2.1",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Describe a simple form of a.c. generator (rotating coil or rotating magnet) and the use of slip rings and brushes where needed"
+  },
+  {
+   "code": "4.5.2.2",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Sketch and interpret graphs of e.m.f. against time for simple a.c. generators and relate coil position to peaks, troughs and zeros"
+  },
+  {
+   "code": "4.5.3.1",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe the pattern and direction of the magnetic field due to currents in straight wires and in solenoids"
+  },
+  {
+   "code": "4.5.3.2",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe an experiment to identify the pattern of the magnetic field (including direction) due to currents in straight wires and in solenoids"
+  },
+  {
+   "code": "4.5.3.3",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe how the magnetic effect of a current is used in relays and loudspeakers and give examples of their application"
+  },
+  {
+   "code": "4.5.3.4",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "State the qualitative variation of the strength of the magnetic field around straight wires and solenoids"
+  },
+  {
+   "code": "4.5.3.5",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Describe the effect on the magnetic field around straight wires and solenoids of changing the magnitude and direction of the current"
+  },
+  {
+   "code": "4.5.4.1",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe an experiment to show that a force acts on a current-carrying conductor in a magnetic field, including reversing current or field"
+  },
+  {
+   "code": "4.5.4.2",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Recall and use the relative directions of force, magnetic field and current"
+  },
+  {
+   "code": "4.5.4.3",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Determine the direction of the force on beams of charged particles in a magnetic field"
+  },
+  {
+   "code": "4.5.5.1",
+   "section": "4.5",
+   "level": "core",
+   "text": "Know that a current-carrying coil in a magnetic field may experience a turning effect increased by increasing turns, current, or field strength"
+  },
+  {
+   "code": "4.5.5.2",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Describe the operation of an electric motor, including the action of a split-ring commutator and brushes"
+  },
+  {
+   "code": "4.5.6.1",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe the construction of a simple transformer with a soft iron core, as used for voltage transformations"
+  },
+  {
+   "code": "4.5.6.2",
+   "section": "4.5",
+   "level": "core",
+   "text": "Use the terms primary, secondary, step-up and step-down"
+  },
+  {
+   "code": "4.5.6.3",
+   "section": "4.5",
+   "level": "core",
+   "text": "Recall and use the equation Vp / Vs = Np / Ns where p and s refer to primary and secondary"
+  },
+  {
+   "code": "4.5.6.4",
+   "section": "4.5",
+   "level": "core",
+   "text": "Describe the use of transformers in high-voltage transmission of electricity"
+  },
+  {
+   "code": "4.5.6.5",
+   "section": "4.5",
+   "level": "core",
+   "text": "State the advantages of high-voltage transmission"
+  },
+  {
+   "code": "4.5.6.6",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Explain the principle of operation of a simple iron-cored transformer"
+  },
+  {
+   "code": "4.5.6.7",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Recall and use the equation for 100% efficiency in a transformer IpVp = IsVs where p and s refer to primary and secondary"
+  },
+  {
+   "code": "4.5.6.8",
+   "section": "4.5",
+   "level": "supplement",
+   "text": "Recall and use the equation P = I^2 R to explain why power losses in cables are smaller when the voltage is greater"
+  },
+  {
+   "code": "5.1.1.1",
+   "section": "5.1",
+   "level": "core",
+   "text": "Describe the structure of an atom in terms of a positively charged nucleus and negatively charged electrons in orbit around the nucleus"
+  },
+  {
+   "code": "5.1.1.2",
+   "section": "5.1",
+   "level": "core",
+   "text": "Know how atoms may form positive ions by losing electrons or form negative ions by gaining electrons"
+  },
+  {
+   "code": "5.1.1.3",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Describe how the scattering of alpha particles by thin metal supports the nuclear model of the atom by providing evidence for the nucleus"
+  },
+  {
+   "code": "5.1.2.1",
+   "section": "5.1",
+   "level": "core",
+   "text": "Describe the composition of the nucleus in terms of protons and neutrons"
+  },
+  {
+   "code": "5.1.2.2",
+   "section": "5.1",
+   "level": "core",
+   "text": "State the relative charges of protons, neutrons and electrons as +1, 0 and –1 respectively"
+  },
+  {
+   "code": "5.1.2.3",
+   "section": "5.1",
+   "level": "core",
+   "text": "Define proton number Z and nucleon number A and be able to calculate the number of neutrons in a nucleus"
+  },
+  {
+   "code": "5.1.2.4",
+   "section": "5.1",
+   "level": "core",
+   "text": "Use the nuclide notation A Z X"
+  },
+  {
+   "code": "5.1.2.5",
+   "section": "5.1",
+   "level": "core",
+   "text": "Explain what is meant by an isotope and state that an element may have more than one isotope"
+  },
+  {
+   "code": "5.1.2.6",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Describe the processes of nuclear fission and nuclear fusion as the splitting or joining of nuclei, including nuclide equations and qualitative energy changes"
+  },
+  {
+   "code": "5.1.2.7",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Know the relationship between the proton number and the relative charge on a nucleus"
+  },
+  {
+   "code": "5.1.2.8",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Know the relationship between the nucleon number and the relative mass of a nucleus"
+  },
+  {
+   "code": "5.2.1.1",
+   "section": "5.2",
+   "level": "core",
+   "text": "Know what is meant by background radiation"
+  },
+  {
+   "code": "5.2.1.2",
+   "section": "5.2",
+   "level": "core",
+   "text": "Know the sources that make a significant contribution to background radiation including radon gas, rocks and buildings, food and drink, and cosmic rays"
+  },
+  {
+   "code": "5.2.1.3",
+   "section": "5.2",
+   "level": "core",
+   "text": "Know that ionising nuclear radiation can be measured using a detector connected to a counter"
+  },
+  {
+   "code": "5.2.1.4",
+   "section": "5.2",
+   "level": "core",
+   "text": "Use count rate measured in counts/s or counts/minute"
+  },
+  {
+   "code": "5.2.1.5",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Use measurements of background radiation to determine a corrected count rate"
+  },
+  {
+   "code": "5.2.2.1",
+   "section": "5.2",
+   "level": "core",
+   "text": "Describe the emission of radiation from a nucleus as spontaneous and random in direction"
+  },
+  {
+   "code": "5.2.2.2",
+   "section": "5.2",
+   "level": "core",
+   "text": "Identify alpha, beta and gamma emissions from the nucleus by recalling their nature, relative ionising effects and relative penetrating abilities"
+  },
+  {
+   "code": "5.2.2.3",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Describe the deflection of α-particles, β-particles and γ-radiation in electric fields and magnetic fields"
+  },
+  {
+   "code": "5.2.2.4",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Explain their relative ionising effects with reference to kinetic energy and electric charge"
+  },
+  {
+   "code": "5.2.3.1",
+   "section": "5.2",
+   "level": "core",
+   "text": "Know that radioactive decay is a spontaneous, random change in an unstable nucleus resulting in emission of α-particles, β-particles and/or γ-radiation"
+  },
+  {
+   "code": "5.2.3.2",
+   "section": "5.2",
+   "level": "core",
+   "text": "State that during α-decay or β-decay, the nucleus changes to that of a different element"
+  },
+  {
+   "code": "5.2.3.3",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Know that isotopes of an element may be radioactive due to an excess of neutrons in the nucleus and/or the nucleus being too heavy"
+  },
+  {
+   "code": "5.2.3.4",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Describe the effect of α-decay, β-decay and γ-emissions on the nucleus, including stability and changes during β-emission (neutron → proton + electron)"
+  },
+  {
+   "code": "5.2.3.5",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Use decay equations, using nuclide notation, to show the emission of α-particles, β-particles and γ-radiation"
+  },
+  {
+   "code": "5.2.4.1",
+   "section": "5.2",
+   "level": "core",
+   "text": "Define half-life as time taken for half the nuclei of an isotope to decay; recall and use this definition in simple calculations"
+  },
+  {
+   "code": "5.2.4.2",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Calculate half-life from data or decay curves from which background radiation has not been subtracted"
+  },
+  {
+   "code": "5.2.4.3",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Explain how the type of radiation emitted and half-life determine which isotope is used for various practical applications"
+  },
+  {
+   "code": "5.2.5.1",
+   "section": "5.2",
+   "level": "core",
+   "text": "State the effects of ionising nuclear radiations on living things, including cell death, mutations and cancer"
+  },
+  {
+   "code": "5.2.5.2",
+   "section": "5.2",
+   "level": "core",
+   "text": "Describe how radioactive materials are moved, used and stored in a safe way"
+  },
+  {
+   "code": "5.2.5.3",
+   "section": "5.2",
+   "level": "supplement",
+   "text": "Explain safety precautions for ionising radiation in terms of reducing exposure time, increasing distance, and using shielding to absorb radiation"
+  },
+  {
+   "code": "6.1.1.1",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know that Earth rotates on its tilted axis once in approximately 24 hours, explaining the apparent daily motion of the Sun and day-night cycle"
+  },
+  {
+   "code": "6.1.1.2",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know that the Earth orbits the Sun once in approximately 365 days and use this to explain the periodic nature of the seasons"
+  },
+  {
+   "code": "6.1.1.3",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know that it takes approximately one month for the Moon to orbit the Earth and use this to explain the periodic nature of the Moon's phases"
+  },
+  {
+   "code": "6.1.1.4",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "Define average orbital speed from the equation v = 2πr / T where r is average orbit radius and T is orbital period; recall and use it"
+  },
+  {
+   "code": "6.1.2.1",
+   "section": "6.1",
+   "level": "core",
+   "text": "Describe the Solar System as containing the Sun, eight planets, minor planets including dwarf planets and asteroids, moons, and smaller bodies such as comets"
+  },
+  {
+   "code": "6.1.2.2",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know four inner planets are rocky and small, four outer are gaseous and large, and explain this difference referring to an accretion model"
+  },
+  {
+   "code": "6.1.2.3",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know gravitational field strength at a planet's surface depends on planet mass, and around a planet decreases as distance from the planet increases"
+  },
+  {
+   "code": "6.1.2.4",
+   "section": "6.1",
+   "level": "core",
+   "text": "Calculate the time it takes light to travel a significant distance such as between objects in the Solar System"
+  },
+  {
+   "code": "6.1.2.5",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know that the Sun contains most of the mass of the Solar System and this explains why the planets orbit the Sun"
+  },
+  {
+   "code": "6.1.2.6",
+   "section": "6.1",
+   "level": "core",
+   "text": "Know that the force that keeps an object in orbit around the Sun is the gravitational attraction of the Sun"
+  },
+  {
+   "code": "6.1.2.7",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "Know that planets, minor planets and comets have elliptical orbits, and recall that the Sun is not at the centre of the elliptical orbit"
+  },
+  {
+   "code": "6.1.2.8",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "Analyse and interpret planetary data about orbital distance, orbital duration, density, surface temperature and uniform gravitational field strength at the planet’s surface"
+  },
+  {
+   "code": "6.1.2.9",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "Know that the strength of the Sun’s gravitational field decreases and orbital speeds of planets decrease as distance from the Sun increases"
+  },
+  {
+   "code": "6.1.2.10",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "Know that an object in an elliptical orbit travels faster when closer to the Sun and explain this using the conservation of energy"
+  },
+  {
+   "code": "6.2.1.1",
+   "section": "6.2",
+   "level": "core",
+   "text": "Know that the Sun is a medium-sized star of hydrogen and helium, radiating most energy in infrared, visible and ultraviolet regions"
+  },
+  {
+   "code": "6.2.1.2",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that stars are powered by nuclear reactions releasing energy, and in stable stars nuclear reactions involve fusion of hydrogen into helium"
+  },
+  {
+   "code": "6.2.2.1",
+   "section": "6.2",
+   "level": "core",
+   "text": "State that galaxies contain billions of stars, the Sun is in the Milky Way, other stars are much further, and distances are measured in light-years"
+  },
+  {
+   "code": "6.2.2.2",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that one light-year is equal to 9.5 × 10^15 m"
+  },
+  {
+   "code": "6.2.2.3",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Describe the life cycle of a star: interstellar cloud, protostar, stable star, red giant or red supergiant, planetary nebula or supernova, neutron star/black hole"
+  },
+  {
+   "code": "6.2.3.1",
+   "section": "6.2",
+   "level": "core",
+   "text": "Know that the Milky Way is one of many billions of galaxies in the Universe, with diameter approximately 100 000 light-years"
+  },
+  {
+   "code": "6.2.3.2",
+   "section": "6.2",
+   "level": "core",
+   "text": "Describe redshift as an increase in the observed wavelength of electromagnetic radiation emitted from receding stars and galaxies"
+  },
+  {
+   "code": "6.2.3.3",
+   "section": "6.2",
+   "level": "core",
+   "text": "Know that the light emitted from distant galaxies appears redshifted in comparison with light emitted on the Earth"
+  },
+  {
+   "code": "6.2.3.4",
+   "section": "6.2",
+   "level": "core",
+   "text": "Know that redshift in the light from distant galaxies is evidence that the Universe is expanding and supports the Big Bang Theory"
+  },
+  {
+   "code": "6.2.3.5",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that microwave radiation of specific frequency is observed at all points in space, known as cosmic microwave background radiation (CMBR)"
+  },
+  {
+   "code": "6.2.3.6",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Explain that CMBR was produced shortly after Universe formation and expanded into the microwave region as the Universe expanded"
+  },
+  {
+   "code": "6.2.3.7",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that the speed v at which a galaxy moves away from Earth can be found from the wavelength change due to redshift"
+  },
+  {
+   "code": "6.2.3.8",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that the distance of a far galaxy d can be determined using the brightness of a supernova in that galaxy"
+  },
+  {
+   "code": "6.2.3.9",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Define Hubble constant H0 as ratio of galaxy recession speed to its distance from Earth; recall and use H0 = v / d"
+  },
+  {
+   "code": "6.2.3.10",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that the current estimate for H0 is 2.2 × 10^–18 per second"
+  },
+  {
+   "code": "6.2.3.11",
+   "section": "6.2",
+   "level": "supplement",
+   "text": "Know that d / v = 1 / H0 estimates the age of the Universe and supports matter originating at a single point"
+  }
+ ],
+ "chapters_done": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "generated": "2026-10-15T09:36:03+00:00"
+}

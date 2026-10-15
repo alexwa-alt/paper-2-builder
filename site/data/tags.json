@@ -1,0 +1,429 @@
+{
+ "q1": {
+  "status": "done",
+  "subpoints": [
+   "1.1.5",
+   "1.1.6",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "conceptual",
+  "difficulty": 1,
+  "text": "Which list contains two scalar quantities and two vector quantities?\nA distance, speed, time, velocity\nB force, velocity, distance, mass\nC mass, energy, temperature, momentum\nD weight, acceleration, momentum, speed",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q2": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "graph_or_diagram",
+  "difficulty": 2,
+  "text": "Which vector diagram correctly shows the force Z as the resultant of forces X and Y?\n[Four right-angled vector diagrams:\nA: side X pointing up, bottom side Y pointing right, hypotenuse Z pointing up-left;\nB: side X pointing up, bottom side Y pointing right, hypotenuse Z pointing down-right;\nC: side X pointing up, top side Y pointing right, hypotenuse Z pointing down-left;\nD: side X pointing up, top side Y pointing right, hypotenuse Z pointing up-right from the base of X to the end of Y]",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q3": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "Forces of 3 N and 4 N act at right angles, as shown.\n[Diagram of a rectangle OXYZ with a right angle at vertex O. A vertical arrow representing 3 N points from O to X. A horizontal arrow representing 4 N points from O to Z. Dashed lines complete the rectangle OXYZ with diagonals XZ and OY.]\nWhat is the resultant force?\nA 1 N along XZ\nB 5 N along XZ\nC 5 N along OY\nD 7 N along OY",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q4": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "A student investigates a pendulum.\nHe measures the time for the pendulum to complete 20 oscillations.\nHe repeats the experiment three more times.\nThe readings are shown.\n[Table:\nexperiment | time for 20 oscillations / s\n1 | 17.6\n2 | 19.8\n3 | 17.6\n4 | 18.6]\nWhat is the average period of the pendulum?\nA 0.88 s\nB 0.92 s\nC 17.6 s\nD 18.4 s",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q5": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.3.2"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.8",
+  "type": "conceptual",
+  "difficulty": 1,
+  "text": "An object is at rest on a horizontal surface.\nWhich equation is used to calculate the pressure that the object exerts?\nA (mass of the object) / (area of contact)\nB (weight of the object) / (area of contact)\nC mass of the object × area of contact\nD weight of the object × area of contact",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q6": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which measuring devices are most suitable for determining the length of a swimming pool and the thickness of aluminium foil?\n[Table with columns: length of a swimming pool, thickness of aluminium foil]\nA ruler | measuring cylinder\nB tape measure | micrometer screw gauge\nC tape measure | ruler\nD ruler | micrometer screw gauge",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q7": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Very small values of which quantity are measured using a micrometer screw gauge?\nA time\nB pressure\nC moment\nD distance",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q8": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "What is a micrometer screw gauge used to measure?\nA very small currents\nB very small distances\nC very small forces\nD very small pressures",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:36:41+00:00"
+ },
+ "q9": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which measuring instrument is used to measure the diameter of a thin metal wire?\n\nA 30 cm rule\nB measuring tape\nC metre rule\nD micrometre screw gauge",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q10": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which measuring devices are most suitable to determine the volume of about 200 ml of liquid and the diameter of a thin wire?\n\n[Table with columns: 'volume of about 200 ml of liquid', 'diameter of a thin wire']\nA measuring cylinder | micrometer screw gauge\nB measuring cylinder | ruler\nC ruler | measuring cylinder\nD ruler | micrometer screw gauge",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q11": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "A wire is approximately 48 cm long and has an approximate diameter of 0.3 mm.\n\nWhich measuring instruments can be used to obtain more precise values of the dimensions of the wire?\n\n[Table with columns: 'length of the wire', 'diameter of the wire']\nA 30 cm ruler | micrometer\nB half-metre rule | 30 cm rule\nC half-metre rule | micrometer\nD micrometer | half-metre rule",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q12": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "A student has a measuring cylinder containing water and also has a balance.\n\nWhich of these could she use to find the volume of a small metal sphere?\n\nShe has no other apparatus.\n\nA either the measuring cylinder containing water or the balance\nB the measuring cylinder containing water only\nC the balance only\nD neither the measuring cylinder nor the balance",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q13": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "The diagram shows a stone of irregular shape.\n\n[Drawing of an irregularly shaped stone]\n\nWhich property of the stone can be found by lowering it into a measuring cylinder half-filled with water?\n\nA length\nB mass\nC volume\nD weight",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q14": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.3",
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which piece of apparatus is the most suitable for measuring the mass of a pencil sharpener?\n\nA digital balance\nB measuring cylinder\nC newton meter\nD ruler",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q15": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "graph_or_diagram",
+  "difficulty": 2,
+  "text": "The diagram shows a plastic rod alongside a ruler.\n\n[Diagram showing a plastic rod alongside a ruler marked at 0 cm, 10, and 20, with 3 intermediate division marks between 0 and 10 (each division = 2.5 cm). The rod extends from the 2.5 cm mark to 9.5 cm.]\n\nWhat is the length of the rod?\n\nA 2.5 cm\nB 3.5 cm\nC 7.0 cm\nD 9.0 cm",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q16": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which instrument is most suitable for measuring the thickness of a single sheet of paper?\n\nA 15 cm rule\nB balance\nC metre rule\nD micrometer screw gauge",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:44:24+00:00"
+ },
+ "q17": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "A student is taking some measurements.\n\nWhich measurement is taken directly using a micrometer screw gauge?\n\nA  0.52 g / mm^2\nB  0.52 g / mm^3\nC  0.52 mm\nD  0.52 mm^2",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q18": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "For which purpose is a micrometer screw gauge suitable?\n\nA  measuring the current in a coil that is known to be about 3 × 10^−6 A\nB  measuring the diameter of a ball bearing that is known to be about 3 × 10^−3 m\nC  measuring the mass of a grain of sand that is known to be about 3 × 10^−3 g\nD  measuring the moment used to turn a screw that is known to be about 3 × 10^−6 N m",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q19": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "The diagram shows a rectangular metal sheet close to two rulers.\n\n[Diagram showing a rectangular metal sheet positioned next to a vertical ruler and a horizontal ruler. The vertical ruler shows the sheet spanning from 5 cm to 25 cm. The horizontal ruler shows the sheet spanning from 10 cm to 45 cm.]\n\nWhat is the area of the metal sheet?\n\nA  700 cm^2\nB  875 cm^2\nC  900 cm^2\nD  1125 cm^2",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q20": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "A pendulum makes 50 complete swings in 2 min 40 s.\n\nWhat is the time period for 1 complete swing?\n\nA  1.6 s\nB  3.2 s\nC  4.8 s\nD  6.4 s",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q21": {
+  "status": "done",
+  "subpoints": [
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "Five athletes P, Q, R, S and T compete in a race. The table shows the finishing times for the athletes.\n\nathlete: P | finishing time / s: 22.50\nathlete: Q | finishing time / s: 24.40\nathlete: R | finishing time / s: 25.20\nathlete: S | finishing time / s: 26.50\nathlete: T | finishing time / s: 23.20\n\nWhich statement is correct?\n\nA  Athlete P won the race and was 0.70 s ahead of the athlete in second place.\nB  Athlete P won the race and was 1.90 s ahead of the athlete in second place.\nC  Athlete S won the race and was 1.30 s ahead of the athlete in second place.\nD  Athlete S won the race and was 2.10 s ahead of the athlete in second place.",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q22": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "Diagram 1 shows a solid, rectangular-sided block.\n\n[diagram 1: 3D sketch of a block showing top, front, and side faces]\n\nDiagram 2 shows the same block from the front and from the side.\n\n[diagram 2: Front face aligned with a vertical metre rule showing height from 1 cm to 5 cm, and aligned with a horizontal metre rule showing length from 4 cm to 11 cm. Side face aligned with the horizontal metre rule showing width from 15 cm to 21 cm.]\n\nMetre rules have been shown close to the edges of the block.\n\nWhat is the volume of the block?\n\nA  120 cm^3\nB  168 cm^3\nC  264 cm^3\nD  1155 cm^3",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q23": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "For which one of the following measurements would a micrometer screw gauge be most suitable?\n\nA  length of this page\nB  length of a pencil\nC  diameter of a wire\nD  diameter of an atom",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q24": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "The diagram shows a measuring device.\n\n[Diagram showing a micrometer screw gauge.]\n\nFor which measurement is this device suitable?\n\nA  diameter of a cylinder of aluminium of about 20 cm\nB  distance between two molecules of zinc\nC  length of a rod of iron of about 1 m\nD  thickness of a sheet of copper of about 1.5 mm",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:45:42+00:00"
+ },
+ "q25": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "A micrometer screw gauge reads 0.02 mm when the jaws are fully closed. It reads 0.56 mm when measuring the diameter of a metal wire.\n\nWhat is the diameter of the wire?\n\nA 0.36 mm\nB 0.54 mm\nC 0.56 mm\nD 0.58 mm",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q26": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which row shows the best choice of measuring instruments to obtain accurate values for the distances shown?\n\n[Table]\ndiameter of wire | height of bench | length of laboratory\nA measuring tape | measuring tape | micrometer screw gauge\nB metre rule | micrometer screw gauge | measuring tape\nC micrometer screw gauge | measuring tape | metre rule\nD micrometer screw gauge | metre rule | measuring tape",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q27": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which quantity can be measured directly using a micrometer screw gauge?\n\nA the area of a sheet of paper\nB the mass of a sheet of paper\nC the thickness of a sheet of paper\nD the volume of a sheet of paper",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q28": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "A student measures the diameter of a pencil.\n\nWhich measuring instrument will give the most precise reading?\n\nA a measuring tape\nB a metre rule\nC a micrometer screw gauge\nD a ruler",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q29": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "A student measures the dimensions of a cylindrical glass beaker.\n\nFor which measurement should she use a micrometer screw gauge?\n\nA circumference of the beaker\nB diameter of the beaker\nC height of the beaker\nD thickness of the glass wall of the beaker",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q30": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which is the best apparatus to use to measure the thickness of a coin?\n\nA balance\nB ruler with a millimetre scale\nC micrometer screw gauge\nD pressure gauge",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q31": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "Which instrument is used to measure accurately the diameter of a thin metal wire?\n\nA 30 cm ruler\nB measuring tape\nC metre rule\nD micrometer screw gauge",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ },
+ "q32": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "A length of cotton is measured between two points on a ruler.\n\n[Diagram showing a piece of cotton placed against a ruler with markings from 0 cm to 16 cm. One arrow points to the start of the cotton at 2.4 cm, and another arrow points to the end of the cotton at 15.6 cm.]\n\nWhen the length of cotton is wound closely around a pen, it goes round six times.\n\n[Diagram showing six turns of cotton wrapped around a pen.]\n\nWhat is the distance once round the pen?\n\nA 2.2 cm\nB 2.6 cm\nC 13.2 cm\nD 15.6 cm",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-15T09:46:46+00:00"
+ }
+}
