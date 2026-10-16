@@ -1203,5 +1203,343 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q92": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four objects are moving along a straight line.\n\nThe distance of an object from a fixed point on the line is plotted against time for each object.\n\nWhich object is decelerating?\n\nA [distance from fixed point against time graph showing a straight line with a constant positive gradient passing through the origin]\nB [distance from fixed point against time graph showing a curve starting at the origin with an increasing gradient]\nC [distance from fixed point against time graph showing a curve starting at the origin with a decreasing gradient]\nD [distance from fixed point against time graph showing a straight line with a constant negative gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q93": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A brass ball and a feather are released at the same time.\n\nOn Earth, the ball reaches the ground first.\n\nOn the Moon, they reach the ground at the same time.\n\nWhat is the explanation for this?\n\nA Both weigh the same on the Moon.\nB Both weigh less on the Moon.\nC There is a greater air resistance on the Moon.\nD There is no air resistance on the Moon.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q94": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A light object is dropped from rest. It falls a large distance vertically through air.\n\nHow can the motion of the object be described?\n\nA constant acceleration\nB increasing acceleration\nC decreasing acceleration and then moving at terminal velocity\nD increasing acceleration and then moving at terminal velocity",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q95": {
+  "status": "done",
+  "subpoints": [
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car travels at an average speed of 60 km/h for 15 minutes.\n\nHow far does the car travel in 15 minutes?\n\nA 4.0 km\nB 15 km\nC 240 km\nD 900 km",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q96": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the speed of a car varies during part of a journey.\n\n[A speed-time graph. From time = 0 to 6.0 s, the speed is constant at 10.0 m/s. From time = 6.0 s to 10.0 s, the speed increases linearly from 10.0 m/s to 15.0 m/s.]\n\nWhat is the acceleration of the car between 6.0 s and 10.0 s?\n\nA 0.50 m/s^2\nB 0.80 m/s^2\nC 1.25 m/s^2\nD 1.50 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q97": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The graph shows how the speed of an object varies with time.\n\nAt which labelled time is the object decelerating?\n\n[A speed-time graph. The line rises linearly through point A, curves to a plateau with point B on the curve, stays flat at maximum speed at point C, and then slopes downwards through point D.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q98": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A parachutist is falling through the air at terminal velocity.\n\nWhich statement about the parachutist is correct?\n\nA Every force acting on the parachutist is equal to zero and his acceleration is equal to zero.\nB Every force acting on the parachutist is equal to zero and his velocity is equal to zero.\nC The resultant force acting on the parachutist is equal to zero and his acceleration is equal to zero.\nD The resultant force acting on the parachutist is equal to zero and his velocity is equal to zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q99": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The curved line on the graph shows the motion of a car.\n\n[A speed-time graph shows a curve of increasing gradient passing through (4.0 s, 9.0 m/s). A dashed tangent line is drawn at t = 4.0 s, forming a gradient triangle between (2.0 s, 3.0 m/s) and (5.0 s, 12.0 m/s).]\n\nWhat is the acceleration of the car at the time of 4.0 s?\n\nA 0.33 m/s^2\nB 0.44 m/s^2\nC 2.3 m/s^2\nD 3.0 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:34:53+00:00"
+ },
+ "q100": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.8",
+   "1.5.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a bird in flight. The bird is flying in a horizontal direction to the right.\n\nIn which direction does air resistance act on the bird?\n\n[Diagram shows a bird flying horizontally to the right with four directional arrows labelled: A pointing upwards, B pointing to the right, C pointing downwards, D pointing to the left.]\n\nA A\nB B\nC C\nD D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q101": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "When does an object falling vertically through the air reach terminal velocity?\n\nA when the acceleration of the object becomes negative\nB when the acceleration of the object is equal to g\nC when the air resistance equals the weight of the object\nD when the air resistance is greater than the weight of the object",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q102": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4",
+   "1.2.5",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car is moving along a straight, level road, with a constant acceleration.\n\nWhich graph shows the motion of the car?\n\nA [Graph of distance against time showing a horizontal line above zero]\nB [Graph of distance against time showing a straight line through the origin with positive gradient]\nC [Graph of speed against time showing a horizontal line above zero]\nD [Graph of speed against time showing a straight line through the origin with positive gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q103": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4",
+   "1.3.5",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Diagram 1 shows a beam balance. A beaker with a wire loop balances the standard masses.\n\nThe beaker is then removed and hung from a spring. The spring extends by 5.0 cm, as in diagram 2.\n\n[Diagram 1 shows a balanced beam balance with standard masses in the left pan and a beaker with wire loop attached in the right pan. Diagram 2 shows the same beaker hanging from a vertical spring, extending it by 5.0 cm.]\n\nThe experiment is repeated with the same apparatus on the Moon, where the acceleration of free fall is less than on Earth.\n\nWhich statement describes what happens on the Moon?\n\nA The beam balance is balanced and the spring extends by 5.0 cm.\nB The beam balance is balanced and the spring extends by less than 5.0 cm.\nC The right-hand balance pan is higher and the spring extends by 5.0 cm.\nD The right-hand balance pan is higher and the spring extends by less than 5.0 cm.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q105": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball is dropped in an evacuated tube. A series of photographs is taken at equal time intervals from the time of release. Another ball of the same size but twice the mass is also dropped in the same evacuated tube and photographed.\n\nWhich diagram shows the motion of the heavier ball?\n\n[Diagram shows vertical positions of 'first ball' at equal time intervals with increasing downward spacing between images. Options A, B, C, D show four different spacing patterns for 'heavier ball (mass ×2)', where B shows identical positions and spacing to the first ball.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q106": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A sprinter runs a 100 m race in a straight line. The table shows how his speed changes with time for the first 5.0 s of the race.\n\n| speed / (m/s) | 0 | 1.7 | 4.1 | 5.7 | 6.5 | 6.8 |\n| time / s | 0 | 1.0 | 2.0 | 3.0 | 4.0 | 5.0 |\n\nWhat is the average acceleration of the sprinter between time 2.0 s and time 3.0 s?\n\nA 1.6 m/s^2\nB 1.9 m/s^2\nC 4.1 m/s^2\nD 5.7 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q107": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.4",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A small, light ball is dropped from the top of a tall building.\n\nWhich graph shows how the speed of the ball changes with time?\n\nA [Graph of speed against time: straight line with positive gradient from origin]\nB [Graph of speed against time: steep straight increase then shallow linear decrease]\nC [Graph of speed against time: curve starting at origin with decreasing gradient, levelling off to a constant value]\nD [Graph of speed against time: curve starting above zero with decreasing gradient, levelling off to a constant non-zero value]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q108": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3",
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A runner runs 300 m at an average speed of 3.0 m/s. She then runs another 300 m at an average speed of 6.0 m/s.\n\nWhat is her average speed for the total distance of 600 m?\n\nA 2.0 m/s\nB 4.0 m/s\nC 4.5 m/s\nD 8.0 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:35:56+00:00"
+ },
+ "q109": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.10",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed-time graph shows the motion of a car.\n\nAt which time is its acceleration greatest?\n\n[A speed-time graph showing a curve starting at 0, curving upwards with increasing gradient to point B where it is steepest, then the gradient decreases through point C and flattens out towards point D.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q110": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An athlete runs at a speed of 8 m/s for 10 s, and then at a speed of 6 m/s for 12 s.\n\nWhich calculation gives the average speed of the athlete in m/s?\n\nA (8 + 6) / 2\nB ((8 × 10) + (6 × 12)) / 22\nC ((8 ÷ 10) + (6 ÷ 12)) / 22\nD ((10 ÷ 8) + (12 ÷ 6)) / 22",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q111": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.4",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object falls in a gravitational field with air resistance.\n\nWhich distance-time graph shows this motion?\n\n[Four graphs of distance fallen against time:\nA: A curve starting at 0 with increasing gradient that transitions into a straight line with a constant positive gradient.\nB: A curve starting at 0 with a steep gradient that decreases and transitions into a straight line with a smaller positive gradient.\nC: A curve with decreasing gradient that becomes completely horizontal.\nD: A straight line through the origin with a constant positive gradient.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q112": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3",
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy runs 400 m at an average speed of 4.0 m/s.\n\nHe runs the first 200 m in 40 s.\n\nHow long does he take to run the second 200 m?\n\nA 60 s\nB 66.7 s\nC 80 s\nD 140 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q113": {
+  "status": "done",
+  "subpoints": [
+   "1.2.8",
+   "1.2.13",
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four balls with different masses are dropped from the heights shown.\n\n[Ball P: 4.0 kg, height 1.0 m\nBall Q: 3.0 kg, height 2.0 m\nBall R: 2.0 kg, height 3.0 m\nBall S: 1.0 kg, height 4.0 m]\n\nAir resistance may be ignored.\n\nWhich statement about the balls is correct?\n\nA Ball P has the greatest acceleration.\nB Balls Q and R take the same time to fall to the ground.\nC The acceleration of ball R is half the acceleration of ball P.\nD Ball S has the greatest average speed.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q114": {
+  "status": "done",
+  "subpoints": [
+   "1.2.10",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is travelling in a straight line. The diagram is the speed-time graph for the object.\n\nAt which labelled point is the object accelerating at a changing rate?\n\n[A speed-time graph showing: from 0, a straight-line section sloping up containing point A; a horizontal section; a curved section curving upwards with increasing gradient containing point B; a horizontal section containing point C; a steep straight-line section sloping down containing point D to zero speed.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q115": {
+  "status": "done",
+  "subpoints": [
+   "1.2.8",
+   "1.2.13"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "On Earth, a ball is dropped and falls 2.0 m in a vacuum.\n\nThe acceleration of the ball at 1.0 m is 10 m/s^2.\n\n[Diagram showing a vertical scale from 0 m to 2.0 m, with a ball falling downwards past 0.5 m, 1.0 m, 1.5 m, and 2.0 m]\n\nWhat is the acceleration of the ball at 0.5 m?\n\nA 5.0 m/s^2\nB 10 m/s^2\nC 15 m/s^2\nD 20 m/s^2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
+ },
+ "q116": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.5",
+   "1.2.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A skydiver reaches terminal velocity. Then he opens his parachute.\n\nWhat happens to the skydiver as the parachute opens?\n\nA There is a decrease in weight.\nB There is acceleration upwards.\nC There is an increase in speed.\nD There is movement upwards.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T12:36:36+00:00"
  }
 }
