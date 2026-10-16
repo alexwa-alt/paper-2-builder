@@ -647,5 +647,561 @@
   "text": "The graph represents the motion of a car.\n\n[Speed–time graph showing a straight line passing through (0, 0) up to (5 s, 10 m/s).]\n\nHow far has the car moved between 0 and 5 s?\n\nA 2 m\nB 10 m\nC 25 m\nD 50 m",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q50": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed–time graph shows the motion of an object.\n\n[Graph of speed in m/s against time in s. Speed increases from 0 to 5 m/s between 0 and 5 s, remains constant at 5 m/s from 5 s to 15 s, then decreases to 0 at 25 s.]\n\nHow far does the object travel at constant speed?\n\nA 25 m\nB 50 m\nC 75 m\nD 125 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q51": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement about a falling object accelerating close to the Earth's surface is correct?\n\nA The weight of the object is increasing and the force of air resistance on the object is decreasing.\nB The weight of the object and the force of air resistance on the object are of equal magnitude, but act in opposite directions.\nC The weight of the object is constant, but the force of air resistance on the object is increasing.\nD The weight of the object is less than the force of air resistance.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q52": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aircraft is moving at 60 m/s in a northerly direction when a cross-wind from the east starts to blow. The speed of the wind is 13 m/s.\n\nWhat is the magnitude of the aircraft's velocity when the wind is blowing?\n\nA 47 m/s\nB 59 m/s\nC 61 m/s\nD 73 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q53": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two rectangular blocks consist of different materials.\n\nFour different methods are suggested to compare the two masses.\n\n1 Compare the accelerations with which they fall freely.\n2 Compare the values of their lengths × breadths × heights.\n3 Hang each in turn from the same spring. Compare the extensions.\n4 Place one in the right-hand pan of a beam balance and the other in the left-hand pan.\n\nWhich methods give a comparison of the two masses?\n\nA 1, 2 and 3\nB 1 and 2 only\nC 3 and 4 only\nD 4 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q54": {
+  "status": "done",
+  "subpoints": [
+   "1.2.8",
+   "1.2.13"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A tennis ball falls from the upstairs window of a house.\n\n[Diagram showing a house with a ball falling vertically downwards from an upper-floor window past a ground-floor window]\n\nWhat can be said about the acceleration of the ball if air resistance is ignored?\n\nA It depends on the density of the ball.\nB It depends on the mass of the ball.\nC It increases as the ball falls.\nD It stays the same as the ball falls.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q55": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car joins a road at a speed of 14 m/s and accelerates at 4.0 m/s^2 for 5.0 seconds.\n\nWhat is the final speed of the car?\n\nA 18 m/s\nB 20 m/s\nC 32 m/s\nD 34 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q56": {
+  "status": "done",
+  "subpoints": [
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A man stands next to a railway track.\n\n[Diagram of a train with four carriages travelling on a track towards a man standing beside it]\n\nA train travelling at 40 m/s takes 2.0 s to pass the man.\n\nWhat is the length of the train?\n\nA 20 m\nB 38 m\nC 40 m\nD 80 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q57": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A speed–time graph is used to describe the motion of an object.\n\nWhich quantities are calculated from the gradient of the graph and from the area under the graph?\n\n| | gradient of the graph | area under the graph |\n|---|---|---|\n| A | acceleration | distance travelled |\n| B | acceleration | total journey time |\n| C | distance travelled | acceleration |\n| D | total journey time | distance travelled |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:20:34+00:00"
+ },
+ "q58": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.5",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "On the Moon, all objects fall with the same acceleration.\n\nWhich statement explains this?\n\nA On the Moon, all objects have the same weight.\nB The Moon has a smaller gravitational field strength than the Earth.\nC The weight of an object is directly proportional to its mass.\nD The weight of an object is inversely proportional to its mass.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q59": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is equal to acceleration?\n\nA area under a distance–time graph\nB area under a speed–time graph\nC gradient of a distance–time graph\nD gradient of a speed–time graph",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q61": {
+  "status": "done",
+  "subpoints": [
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A man stands next to a railway track.\n\n[Diagram showing a 4-carriage train travelling along a railway track towards a man standing beside the track]\n\nA train travelling at 40 m/s takes 2.0 s to pass the man.\n\nWhat is the length of the train?\n\nA 20 m\nB 38 m\nC 40 m\nD 80 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00",
+  "repeat_of": "q56"
+ },
+ "q62": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A skydiver jumps from an aeroplane and falls towards the Earth.\n\nWhich statement is correct when the skydiver has reached terminal velocity?\n\nA The skydiver's speed is decreasing.\nB The skydiver's speed is increasing.\nC The skydiver is moving with constant speed.\nD The skydiver's speed is zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q64": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car starts from rest.\n\nThe table shows the readings from its speedometer every 10 s.\n\n[Table of time / s vs speed / (m/s):\n(0, 0), (10, 4), (20, 8), (30, 12), (40, 12), (50, 12), (60, 12)]\n\nWhich row describes the car's motion in the first 30 seconds and in the last 30 seconds?\n\nA motion during first 30 s: non-zero acceleration | motion during last 30 s: at rest\nB motion during first 30 s: zero acceleration | motion during last 30 s: constant speed\nC motion during first 30 s: zero acceleration | motion during last 30 s: at rest\nD motion during first 30 s: non-zero acceleration | motion during last 30 s: constant speed",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q65": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show speed–time graphs for four different bodies moving for 6.0 s.\n\nWhich body travelled the least distance?\n\n[Four speed/ (m/s) against time/s graphs from t = 0 to 6.0 s:\nA: straight line decreasing from (0, 8.0) to (6.0, 0)\nB: straight line decreasing from (0, 8.0) to (4.0, 0), then increasing to (6.0, 4.0)\nC: horizontal line at speed = 8.0 m/s from 0 to 6.0 s\nD: horizontal line at 8.0 m/s from 0 to 4.0 s, then horizontal line at 4.0 m/s from 4.0 to 6.0 s]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q66": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The velocity–time graph for a car is shown.\n\n[Graph of velocity / (m/s) against time / s showing motion in three stages: straight line from (0, 0) to (10, 10), horizontal line from (10, 10) to (25, 10), and straight line from (25, 10) to (35, 20)]\n\nWhat is the distance travelled by the car in 35 s?\n\nA 250 m\nB 350 m\nC 450 m\nD 700 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q67": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball hits a bat with a velocity of 30 m/s, and leaves the bat travelling with a velocity of 20 m/s in the opposite direction. The ball is in contact with the bat for 0.10 s.\n\nWhat is the magnitude of the acceleration of the ball whilst it is in contact with the bat?\n\nA 1.0 m/s^2\nB 5.0 m/s^2\nC 100 m/s^2\nD 500 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:26:20+00:00"
+ },
+ "q68": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3",
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A train begins a journey from a station and travels 60 km in a time of 20 minutes.\n\nWhat is the average speed of the train?\n\nA 3.0 m/s\nB 5.0 m/s\nC 50 m/s\nD 60 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q69": {
+  "status": "done",
+  "subpoints": [
+   "1.1.5",
+   "1.1.6",
+   "1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row describes speed and velocity?\n\n| | speed | velocity |\n|---|---|---|\n| A | scalar | scalar |\n| B | scalar | vector |\n| C | vector | scalar |\n| D | vector | vector |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q70": {
+  "status": "done",
+  "subpoints": [
+   "1.2.8",
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four balls with different masses are dropped from the heights shown.\n\nAir resistance may be ignored.\n\nWhich ball has the smallest average speed?\n\n[Diagram showing four balls above the ground:\nA: mass 4.0 kg, height 1.0 m\nB: mass 3.0 kg, height 2.0 m\nC: mass 2.0 kg, height 3.0 m\nD: mass 1.0 kg, height 4.0 m]\n\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q71": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.10",
+   "1.2.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A ball is thrown vertically upwards through the air. Air resistance acts on the ball.\n\nWhich graph shows how its speed varies with time?\n\n[Four speed-time graphs, each showing speed decreasing to 0 and then increasing again:\nA: straight line decreasing to 0, then straight line increasing with constant gradient\nB: curve with decreasing gradient to 0, then curve with decreasing gradient from 0\nC: curve with decreasing gradient to 0, then curve with increasing gradient from 0\nD: curve with decreasing gradient to 0, then curve with decreasing gradient from 0, approaching a plateau]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q72": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cyclist rides 300 m up a slope in 50 s.\n\nShe then rides down the slope in 25 s.\n\nWhat is her average speed for the whole journey?\n\nA 4.0 m/s\nB 8.0 m/s\nC 9.0 m/s\nD 16 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q73": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.4",
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show distance–time graphs for four objects.\n\nWhich graph represents an object moving with an increasing speed?\n\n[Four distance–time graphs:\nA: horizontal line\nB: straight line with positive gradient through the origin\nC: curve through the origin with decreasing gradient\nD: curve through the origin with increasing gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q74": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.6",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which graph represents an object that is moving at constant speed?\n\n[Four distance–time graphs, all starting at a non-zero distance:\nA: horizontal line\nB: curve with increasing positive gradient\nC: curve with increasing magnitude of negative gradient\nD: straight line with constant negative gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q75": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.4",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the speed of a car varies with time at the start of a journey.\n\n[Speed-time graph showing a straight line from (0 s, 0 m/s) to (4 s, 6 m/s)]\n\nWhich distance–time graph represents the motion of the car over the same time period?\n\n[Four distance–time graphs over the time interval 0 to 4 s:\nA: curve from (0 s, 0 m) to (4 s, 12 m) with increasing gradient\nB: curve from (0 s, 0 m) to (4 s, 12 m) with decreasing gradient\nC: curve from (0 s, 0 m) to (4 s, 6 m) with increasing gradient\nD: curve from (0 s, 0 m) to (4 s, 6 m) with decreasing gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:27:07+00:00"
+ },
+ "q76": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball falls from rest through the air towards the ground. The diagram shows two forces acting on the ball.\n\n[Diagram showing a ball with an upward arrow labelled 'air resistance' and a downward arrow labelled 'gravitational force']\n\nAs the ball falls, the air resistance increases.\n\nWhich statement is correct?\n\nA The acceleration of the ball decreases.\nB The acceleration of the ball increases.\nC The speed of the ball decreases.\nD The gravitational force on the ball decreases.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q77": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A compressed spring projects a ball horizontally in a vacuum chamber.\n\nOn the Earth, the ball reaches the chamber floor 4.0 m in front of the spring.\n\nAn identical experiment is done on the Moon. The gravitational field strength is lower on the Moon than on the Earth.\n\nThe experimental results on the Moon are compared with those on the Earth.\n\nWhich statement is correct?\n\nA The horizontal speed is greater on the Moon and the ball hits the floor 4.0 m in front of the spring.\nB The horizontal speed is greater on the Moon and the ball hits the floor more than 4.0 m in front of the spring.\nC The horizontal speed is the same on the Moon and the ball hits the floor 4.0 m in front of the spring.\nD The horizontal speed is the same on the Moon and the ball hits the floor more than 4.0 m in front of the spring.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q78": {
+  "status": "done",
+  "subpoints": [
+   "1.2.10",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the motion of a ball rolling down a slope.\n\nThe diagram shows the speed v of the ball at different times t.\n\n[Diagram showing a ball at four positions rolling down a slope: t = 0 s, v = 0 cm/s; t = 0.2 s, v = 2.8 cm/s; t = 0.4 s, v = 5.1 cm/s; t = 0.6 s, v = 7.0 cm/s]\n\nWhich statement describes the motion of the ball?\n\nA The acceleration is not constant.\nB The acceleration is negative.\nC The speed is decreasing.\nD The velocity is constant.",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q79": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about acceleration is correct?\n\nA It is related to the changing speed of an object.\nB It is the distance an object travels in one second.\nC It is the force acting on an object divided by the distance it travels in one second.\nD It is the force acting on an object when it is near to the Earth.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q80": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement correctly describes the effects of placing a heavy load in a car?\n\nA It is easier to accelerate the car and easier to bring the car to rest.\nB It is easier to accelerate the car but more difficult to bring the car to rest.\nC It is more difficult to accelerate the car and more difficult to bring the car to rest.\nD It is more difficult to accelerate the car but easier to bring the car to rest.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q81": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed–time graph represents a journey.\n\n[A speed–time graph showing speed against time, with section X showing acceleration to a peak, and section Y showing deceleration. Area below section X is clearly greater than area below section Y.]\n\nHow does the graph show that the distance travelled in section X of the journey is greater than the distance travelled in section Y?\n\nA The area below section X of the graph is greater than the area below section Y.\nB The gradient of section X of the graph is greater than the gradient of section Y.\nC The speed at the end of section X of the journey is greater than the speed at the end of section Y.\nD The time for section X of the journey is greater than the time for section Y.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q82": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car is travelling at a velocity of 2.0 m / s. It accelerates at a constant 0.20 m / s^2 for 2.5 minutes.\n\nWhat is the final velocity of the car?\n\nA 2.5 m / s\nB 5.2 m / s\nC 30 m / s\nD 32 m / s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q83": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The graph shows how the speed of an object varies with time.\n\n[A speed–time graph: at time P the graph is horizontal at a non-zero speed; it then slopes down to zero, stays at zero, then slopes steeply upward passing time Q, before levelling off horizontally.]\n\nWhich row describes the motion of the object at times P and Q?\n\nA at rest | accelerating\nB at rest | decelerating\nC moving with constant speed | accelerating\nD moving with constant speed | decelerating",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:07+00:00"
+ },
+ "q84": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A concrete block falls vertically from an aeroplane.\n\nThe concrete block falls into the sea and sinks.\n\nWhich graph shows the vertical motion of the concrete block?\n[Four speed–time graphs labelled A, B, C, D. All start at (0, 0). In A, speed increases with an increasing gradient, then drops to zero and rises to a constant value. In B, speed increases with an increasing gradient, then rapidly decreases to a lower non-zero constant value. In C, speed increases with a decreasing gradient, then rapidly decreases to a lower non-zero constant value. In D, speed increases with a decreasing gradient, then drops to zero and rises to a constant value.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q85": {
+  "status": "done",
+  "subpoints": [
+   "1.2.2",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Object P moves at a constant speed of 5 m/s repeatedly backwards and forwards in a straight line.\n\nObject Q moves at a constant speed of 5 m/s vertically downwards.\n\nObject R moves at a constant speed of 5 m/s in a circle.\n\nWhich objects are moving with uniform velocity?\nA P only\nB Q only\nC R only\nD Q and R",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q86": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a velocity–time graph for an object which is accelerating.\n[Velocity–time graph with velocity on the y-axis ranging from 0 to 120 m/s and time on the x-axis from 0 to 40 s. A straight line starts at (0, 20) and ends at (40, 120).]\nWhat is the acceleration of the object?\nA 0.40 m/s^2\nB 2.5 m/s^2\nC 3.0 m/s^2\nD 100 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q87": {
+  "status": "done",
+  "subpoints": [
+   "1.2.12",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is moving with uniform deceleration.\n\nWhich statement describes its motion?\nA Its rate of change of speed is decreasing.\nB Its speed is constant.\nC Its speed is decreasing.\nD Its speed is increasing.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q88": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The graph shows how the speed of a car varies during part of its journey.\n[Speed–time graph showing speed in m/s from 0 to 20 against time in s from 0 to 12. From 0 s to 6 s, speed is horizontal at 10 m/s. From 6 s to 10 s, speed increases linearly from 10 m/s to 15 m/s.]\nWhat is the value of the car’s acceleration between 6 s and 10 s?\nA 0.50 m/s^2\nB 0.80 m/s^2\nC 1.25 m/s^2\nD 1.50 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q89": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The gravitational field strength on the Moon is less than on the Earth.\n\nWhich of these is different when done on the Moon compared with when done on the Earth?\nA the gravitational potential energy gained by a stone lifted through the same vertical height\nB the kinetic energy gained by a ball when hit with the same force for the same period of time\nC the momentum gained by a bullet when fired from the same gun\nD the work done in accelerating a stone from rest to the same speed",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q90": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The velocity of an object increases from 30 m/s to 50 m/s in 5.0 seconds.\n\nWhat is the average acceleration of the object?\nA 0.10 m/s^2\nB 0.25 m/s^2\nC 4.0 m/s^2\nD 10 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
+ },
+ "q91": {
+  "status": "done",
+  "subpoints": [
+   "1.2.1",
+   "1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A heavy metal ball falls vertically downwards through air past four equally spaced levels J, K, L and M.\n[Diagram showing a metal ball falling vertically past four equally spaced horizontal dashed lines labelled level J, level K, level L, level M.]\nThe times taken to fall from one level to the next are measured.\nWhere is the speed of the ball greatest and which time is shortest?\nA speed is greatest between J and K ; time is shortest between J and K\nB speed is greatest between J and K ; time is shortest between L and M\nC speed is greatest between L and M ; time is shortest between J and K\nD speed is greatest between L and M ; time is shortest between L and M",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T07:33:54+00:00"
  }
 }
