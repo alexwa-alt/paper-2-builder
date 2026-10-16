@@ -100,12 +100,14 @@ def text_layer_lines(page, tol=3.0):
     for line in lines:
         line["words"].sort(key=lambda w: w[0])
         line["text"] = norm(" ".join(w[4] for w in line["words"]))
+        line["x0"] = line["words"][0][0]
+        line["x1"] = max(w[2] for w in line["words"])
     return lines
 
 
 def is_glyph(rect):
-    """A tiny picture of a single character, as used for headings in some PDFs."""
-    return rect.height < 14 and rect.width < 25
+    """A small picture of a single character, as used for headings in some PDFs."""
+    return rect.height < 30 and rect.width < 30
 
 
 def ocr_lines(page):
@@ -126,7 +128,42 @@ def ocr_lines(page):
                               colorspace=pymupdf.csGRAY, alpha=False)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
         text = pytesseract.image_to_string(img, config="--psm 7").strip()
-        out.append({"y0": g.y0, "y1": g.y1, "text": text})
+        out.append({"y0": g.y0, "y1": g.y1, "x0": g.x0, "x1": g.x1, "text": text})
+    return out
+
+
+def page_lines(page, bank):
+    """Use the page's real text if it has any; otherwise read glyph pictures."""
+    lines = text_layer_lines(page)
+    if not lines and bank.get("ocr"):
+        lines = ocr_lines(page)
+    return lines
+
+
+def is_rule(rect):
+    """A long thin horizontal line, such as the separator after a question."""
+    return rect.height < 2.5 and rect.width > 250
+
+
+def content_boxes(page, bank, hz, skip):
+    """Everything drawn in the body of the page (text, drawings, pictures),
+    minus headers, the publisher's logo and watermark, and the reference and
+    heading lines themselves. Works whether the content is images or text."""
+    logo_line = bank.get("footer_logo_pt")
+    out = []
+    for kind, bbox in page.get_bboxlog():
+        if kind.startswith("clip") or kind == "ignore-text":
+            continue
+        rect = pymupdf.Rect(bbox) & page.rect
+        if rect.is_empty or rect.y1 <= hz or rect.x1 < 35 or rect.x0 > 560:
+            continue
+        if "image" in kind and is_glyph(rect):
+            continue
+        if logo_line and rect.y0 >= logo_line and rect.width < 200 and rect.height > 20:
+            continue
+        if any(rect.intersects(r) for r in skip):
+            continue
+        out.append(rect)
     return out
 
 
@@ -160,7 +197,7 @@ def trim_white(img, pad=8, threshold=200):
     return img.crop((left, top, right, bottom))
 
 
-def render_question(doc, segments, dpi):
+def render_question(doc, segments, dpi, margin=-1.5):
     """Render each page's part of a question, then stack the parts vertically."""
     by_page = {}
     for pno, rect in segments:
@@ -172,7 +209,7 @@ def render_question(doc, segments, dpi):
     for pno in sorted(by_page):
         # Shrink the clip slightly so the ruled separator lines that touch the
         # image edges are not rendered into the question.
-        clip = by_page[pno] + (1.5, 1.5, -1.5, -1.5)
+        clip = (by_page[pno] + (-margin, -margin, margin, margin)) & doc[pno].rect
         pix = doc[pno].get_pixmap(dpi=dpi, clip=clip,
                                   colorspace=pymupdf.csGRAY, alpha=False)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
@@ -273,7 +310,7 @@ def find_duplicate_groups(records, cfg):
 
 
 # ---------------------------------------------------------------- main pass
-def scan_pdf(doc, cfg, bank, review):
+def scan_pdf(doc, cfg, bank, review, stats):
     """Walk the PDF once, collecting question records, mark-scheme records and
     answer-key rows, in the order they appear."""
     hz = cfg["header_zone_pt"]
@@ -284,11 +321,17 @@ def scan_pdf(doc, cfg, bank, review):
 
     for pno in range(len(doc)):
         page = doc[pno]
-        lines = ocr_lines(page) if bank.get("ocr") else text_layer_lines(page)
+        lines = page_lines(page, bank)
+        stats["pages"] += 1
+        stats["text_lines"] += sum(1 for l in lines if l["y1"] > hz)
+        if len(stats["sample"]) < 12:
+            stats["sample"].extend(f'p{pno + 1}: {l["text"][:70]!r}' for l in lines[:4])
         printed = None
-        items, page_answers = [], []
+        items, page_answers, skip = [], [], []
         for line in lines:
             text = line["text"]
+            if line.get("x1", 100) < 35 or line.get("x0", 100) > 560:
+                continue   # the sideways watermark in the margin
             if line["y1"] <= hz:
                 if printed is None:
                     printed = printed_page_number(text)
@@ -297,18 +340,27 @@ def scan_pdf(doc, cfg, bank, review):
                 for m in ANSWER_RE.finditer(text):
                     page_answers.append({"sn": int(m[1]), "paper": m[2],
                                          "q": int(m[3]), "answer": m[4]})
+            line_rect = pymupdf.Rect(line.get("x0", 0), line["y0"], line.get("x1", 600), line["y1"])
             ref = parse_ref(text)
             if ref:
                 items.append(("ref", line["y0"], ref))
+                skip.append(line_rect)
                 continue
             sn = parse_not_applicable(text)
             if sn is not None:
                 items.append(("na", line["y0"], sn))
+                skip.append(line_rect)
                 continue
             m = SECTION_RE.match(text)
             if m and f"{m[1]}.{m[2]}" in known_sections:
                 items.append(("section", line["y0"], f"{m[1]}.{m[2]}"))
-            elif "0625" in text.replace(" ", ""):
+                skip.append(line_rect)
+            elif (line["y1"] - line["y0"] > 14 and not in_answers
+                  and line.get("x1", 600) - line.get("x0", 0) > 3 * (line["y1"] - line["y0"])):
+                # large type (chapter titles etc.) ends the previous question
+                items.append(("heading", line["y0"], None))
+                skip.append(line_rect)
+            elif "0625" in text.replace(" ", "") and (bank.get("ocr") or len(text) < 40):
                 review["unreadable_reference_lines"].append(f"PDF page {pno + 1}: {text!r}")
 
         if len(page_answers) >= 3:
@@ -317,13 +369,18 @@ def scan_pdf(doc, cfg, bank, review):
         if in_answers and bank["kind"] == "mcq":
             continue
 
-        for rect in content_rects(page, bank, hz):
+        rects = (content_rects(page, bank, hz) if bank["kind"] == "mcq"
+                 else content_boxes(page, bank, hz, skip))
+        for rect in rects:
             items.append(("image", rect.y0, rect))
 
         items.sort(key=lambda t: (t[1], t[0] == "image"))
         for kind, _, val in items:
-            if kind == "section" and not in_answers:
+            if kind == "heading":
+                current = None
+            elif kind == "section" and not in_answers:
                 current_section = val
+                current = None
             elif kind == "na":
                 not_applicable.add(val)
                 current = None
@@ -352,15 +409,25 @@ def scan_pdf(doc, cfg, bank, review):
 
 def render_pages(doc, segments, dpi, prefix, stem, folder):
     """Paper 6: one image per page a question (or mark scheme) occupies."""
-    by_page = {}
+    by_page, rules = {}, {}
     for pno, rect in segments:
-        if pno in by_page:
+        if is_rule(rect):
+            rules.setdefault(pno, []).append(rect)
+        elif pno in by_page:
             by_page[pno] |= rect
         else:
             by_page[pno] = pymupdf.Rect(rect)
+    for pno, rs in rules.items():   # keep table borders, drop trailing separators
+        if pno in by_page:
+            u = by_page[pno]
+            for r in rs:
+                if u.y0 - 1 <= r.y0 and r.y1 <= u.y1 + 1:
+                    by_page[pno] |= r
     out = []
     for k, pno in enumerate(sorted(by_page), 1):
-        img = render_question(doc, [(pno, by_page[pno])], dpi)
+        # Paper 6 separators are already left out, so add a little margin
+        # instead of trimming, to keep table borders at the edges.
+        img = render_question(doc, [(pno, by_page[pno])], dpi, margin=2)
         name = f"{stem}{k}.png"
         img.save(folder / name, optimize=True)
         out.append({"image": f"{prefix}/{name}",
@@ -514,12 +581,23 @@ def main():
     print(f"Bank {args.bank} ({bank['label']}): opening {pdf_path}")
     doc = pymupdf.open(pdf_path)
     review = defaultdict(list)
+    stats = {"pages": 0, "text_lines": 0, "sample": []}
 
-    raw, schemes, answers, not_applicable = scan_pdf(doc, cfg, bank, review)
+    raw, schemes, answers, not_applicable = scan_pdf(doc, cfg, bank, review, stats)
     print(f"Found {len(raw)} questions, {len(schemes)} mark schemes, "
           f"{len(answers)} answer-key rows")
     if not raw:
-        sys.exit("No questions found - check the PDF path and bank.")
+        print("\nNo questions found. What the script could read:")
+        print(f"  pages scanned: {stats['pages']}, text lines read: {stats['text_lines']}")
+        for k, v in review.items():
+            print(f"  {k.replace('_', ' ')}: {len(v)}, e.g. {v[:3]}")
+        print("  first lines seen:")
+        for line in stats["sample"][:12]:
+            print(f"    {line}")
+        page = doc[min(10, len(doc) - 1)]
+        print(f"  page {page.number + 1}: {len(page.get_text())} text characters, "
+              f"{len(page.get_image_info())} images")
+        sys.exit("Please copy this log into the chat so the extractor can be adjusted.")
 
     paths["images"].mkdir(parents=True, exist_ok=True)
     for old in paths["images"].glob("*.png"):
