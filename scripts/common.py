@@ -8,21 +8,28 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-DATA = SITE / "data"
-IMAGES = SITE / "images"
+SYLLABUS_FILE = SITE / "data" / "syllabus.json"
 
-QUESTIONS_FILE = DATA / "questions.json"
-TAGS_FILE = DATA / "tags.json"
-SYLLABUS_FILE = DATA / "syllabus.json"
-REVIEW_FILE = DATA / "review.json"
-
-PAPER_RE = re.compile(r"0625_([msw])(\d{2})_qp_(\d{2})")
-SESSIONS = {"m": "Feb/Mar", "s": "May/Jun", "w": "Oct/Nov"}
+PAPER_RE = re.compile(r"0625_([a-z])(\d{2})_qp_(\d{2})")
 
 
 def load_config():
     with open(ROOT / "config.yaml", encoding="utf-8") as f:
         return yaml.safe_load(f)
+
+
+def bank_paths(cfg, bank):
+    """Where a bank's data and images live (all inside site/)."""
+    b = cfg["banks"][bank]
+    data = SITE / b["data_dir"]
+    return {
+        "data": data,
+        "images": SITE / b["image_dir"],
+        "image_prefix": b["image_dir"].strip("/"),
+        "questions": data / "questions.json",
+        "tags": data / "tags.json",
+        "review": data / "review.json",
+    }
 
 
 def load_json(path, default=None):
@@ -49,17 +56,17 @@ def save_json(path, obj, compact=False):
 def norm(text):
     """Normalise extracted text: rejoin paper codes split around underscores."""
     text = re.sub(r"\s*_\s*", "_", text)
-    text = re.sub(r"_([msw])\s+(\d{2})_", r"_\1\2_", text)
+    text = re.sub(r"_([a-z])\s+(\d{2})_", r"_\1\2_", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
 def parse_paper(code):
-    """'0625_s20_qp_23' -> session, year, component, Core/Extended."""
+    """'0625_s20_qp_23' -> session, year, component, tier."""
     m = PAPER_RE.fullmatch(code)
     if not m:
         return None
     session, yy, comp = m.groups()
-    level = {"1": "core", "2": "extended"}.get(comp[0], "other")
+    level = {"1": "core", "2": "extended"}.get(comp[0], "both")
     return {
         "paper": code,
         "session": session,
@@ -69,10 +76,11 @@ def parse_paper(code):
     }
 
 
-def section_ranges(cfg):
-    """Sections from the contents page with their printed page ranges."""
-    secs = cfg["sections"]
-    last = cfg["pdf"]["answers_start_page"] - 1
+def section_ranges(bank_cfg):
+    """Sections from a bank's contents page with their printed page ranges.
+    Sections with no questions (same start page as the next) get an empty range."""
+    secs = bank_cfg["sections"]
+    last = bank_cfg["answers_start_page"] - 1
     out = []
     for i, s in enumerate(secs):
         end = secs[i + 1]["start_page"] - 1 if i + 1 < len(secs) else last

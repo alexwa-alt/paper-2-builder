@@ -1,20 +1,28 @@
-"""Stage 1: split the question bank PDF into individual questions.
+"""Stage 1: split a question bank PDF into individual questions.
 
 No AI involved. For every question this script:
   * finds its reference line, e.g. "22. 0625_s20_qp_23 Q: 1"
   * renders the question image(s) that follow it
   * works out its chapter and section from the page headings
-  * joins its answer from the answer-key table at the back
-  * merges visually identical duplicates (keeping every reference)
+  * joins its answer (Paper 2) or mark scheme (Paper 6) from the back
+  * Paper 2 only: merges visually identical duplicates
 
-Outputs (all inside site/ so the website can use them directly):
-  site/images/<sn>.png      one image per unique question
-  site/data/questions.json  the question list
-  site/data/review.json     anything that looked wrong and is worth a glance
+Two kinds of bank are supported (see config.yaml):
+  mcq         Paper 2 - one image per question, answers in a table of letters
+  structured  Paper 6 - questions span pages, mark schemes are images
+
+Some PDFs have a real text layer; others draw every heading and reference as
+little pictures of letters. For those (ocr: true) the reference lines are
+read with Tesseract OCR.
+
+Outputs (inside site/ so the website can use them directly):
+  <image_dir>/...               question images
+  <data_dir>/questions.json     the question list
+  <data_dir>/review.json        anything that looked wrong and is worth a glance
 
 Usage:
-  python scripts/extract.py                      # uses config.yaml paths
-  python scripts/extract.py --pdf sample.pdf     # try it on a few pages first
+  python scripts/extract.py --bank p2
+  python scripts/extract.py --bank p6 --pdf sample.pdf    # try a few pages first
 """
 import argparse
 import datetime as dt
@@ -26,17 +34,57 @@ import numpy as np
 import pymupdf
 from PIL import Image
 
-from common import (IMAGES, QUESTIONS_FILE, REVIEW_FILE, ROOT, load_config,
-                    norm, parse_paper, save_json, section_ranges)
+from common import (ROOT, bank_paths, load_config, norm, parse_paper,
+                    save_json, section_ranges)
 
-ANCHOR_RE = re.compile(r"^(\d+)\.\s*(0625_[msw]\d{2}_qp_\d{2})\s*Q\s*:\s*(\d+)\b")
 SECTION_RE = re.compile(r"^([1-9])\.(\d{1,2})\s+([A-Za-z].*)$")
-ANSWER_RE = re.compile(r"(\d+)\s+(0625_[msw]\d{2}_qp_\d{2})\s+(\d+)\s+([ABCD])\b")
+ANSWER_RE = re.compile(r"(\d+)\s+(0625_[a-z]\d{2}_qp_\d{2})\s+(\d+)\s+([ABCD])\b")
+
+# Reference lines, tolerant of OCR slips (l for 1, O for 0, missing underscores).
+D = r"[0-9lIi|oO]"
+REF_RE = re.compile(
+    rf"^({D}{{1,4}})[.,:;]?({D}{{4}})_*([a-zA-Z])({D}{{2,3}})_*([a-zA-Z0-9]{{2}})_*({D}{{2,3}})"
+    rf"[Qq][:;.,]?({D}{{1,2}})")
+NOT_APPLICABLE_RE = re.compile(rf"^({D}{{1,4}})[.,:;]?Not(?:applicable)?", re.I)
+DIGIT_FIX = str.maketrans({"l": "1", "I": "1", "i": "1", "|": "1", "o": "0", "O": "0"})
 
 
-# ---------------------------------------------------------------- text layer
-def page_lines(page, tol=3.0):
-    """Group words into visual lines (works across side-by-side tables too)."""
+def digits(s):
+    return s.translate(DIGIT_FIX)
+
+
+def parse_ref(text):
+    """'22. 0625_s20_qp_23 Q: 1' -> {sn, paper, q, kind}; kind is qp or ms."""
+    s = text.replace(" ", "").replace("\u2014", "_").replace("-", "_")
+    m = REF_RE.match(s)
+    if not m:
+        return None
+    sn, prefix, session, yy, kind, comp, q = m.groups()
+    sn, prefix, yy, comp, q = map(digits, (sn, prefix, yy, comp, q))
+    yy, comp = yy[-2:], comp[-2:]   # OCR sometimes doubles a character ("sl17")
+    if prefix != "0625" or not (sn + yy + comp + q).isdigit():
+        return None
+    kind = "ms" if kind.lower().startswith("m") else "qp"
+    return {"sn": int(sn), "paper": f"0625_{session.lower()}{yy}_qp_{comp}",
+            "q": int(q), "kind": kind}
+
+
+def parse_not_applicable(text):
+    m = NOT_APPLICABLE_RE.match(text.replace(" ", ""))
+    if m and digits(m[1]).isdigit():
+        return int(digits(m[1]))
+    return None
+
+
+def printed_page_number(header_text):
+    t = header_text.strip()
+    m = re.search(r"(?:^|\s)(\d+)$", t) or re.match(r"^(\d+)\s", t)
+    return int(m[1]) if m else None
+
+
+# ---------------------------------------------------------------- text lines
+def text_layer_lines(page, tol=3.0):
+    """Lines from a real text layer (works across side-by-side tables too)."""
     words = page.get_text("words")
     words.sort(key=lambda w: ((w[1] + w[3]) / 2, w[0]))
     lines = []
@@ -53,6 +101,49 @@ def page_lines(page, tol=3.0):
         line["words"].sort(key=lambda w: w[0])
         line["text"] = norm(" ".join(w[4] for w in line["words"]))
     return lines
+
+
+def is_glyph(rect):
+    """A tiny picture of a single character, as used for headings in some PDFs."""
+    return rect.height < 14 and rect.width < 25
+
+
+def ocr_lines(page):
+    """Read lines drawn as pictures of letters, using Tesseract."""
+    import pytesseract
+    glyphs = [r for r in (pymupdf.Rect(i["bbox"]) for i in page.get_image_info())
+              if is_glyph(r) and 35 < r.x0 < 560]   # skip the sideways watermark
+    glyphs.sort(key=lambda r: r.y0)
+    groups = []
+    for r in glyphs:
+        if groups and r.y0 <= groups[-1].y1 + 2:
+            groups[-1] |= r
+        else:
+            groups.append(pymupdf.Rect(r))
+    out = []
+    for g in groups:
+        pix = page.get_pixmap(dpi=300, clip=g + (-3, -3, 3, 3),
+                              colorspace=pymupdf.csGRAY, alpha=False)
+        img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
+        text = pytesseract.image_to_string(img, config="--psm 7").strip()
+        out.append({"y0": g.y0, "y1": g.y1, "text": text})
+    return out
+
+
+def content_rects(page, bank, hz):
+    """The question (or mark scheme) pictures on a page."""
+    out = []
+    logo_line = bank.get("footer_logo_pt")
+    for info in page.get_image_info():
+        rect = pymupdf.Rect(info["bbox"]) & page.rect
+        if rect.is_empty or rect.y1 <= hz or is_glyph(rect):
+            continue
+        if rect.width < 20 or rect.height < 5:
+            continue
+        if logo_line and rect.y0 >= logo_line and rect.width < 200:
+            continue
+        out.append(rect)
+    return out
 
 
 # ---------------------------------------------------------------- images
@@ -182,98 +273,119 @@ def find_duplicate_groups(records, cfg):
 
 
 # ---------------------------------------------------------------- main pass
-def scan_pdf(doc, cfg, review):
-    hz = cfg["pdf"]["header_zone_pt"]
-    known_sections = {s["code"] for s in cfg["sections"]}
-    questions, answers = [], []
+def scan_pdf(doc, cfg, bank, review):
+    """Walk the PDF once, collecting question records, mark-scheme records and
+    answer-key rows, in the order they appear."""
+    hz = cfg["header_zone_pt"]
+    known_sections = {s["code"] for s in bank["sections"]}
+    questions, schemes, answers = [], [], []
+    not_applicable = set()
     current, current_section, in_answers = None, None, False
 
     for pno in range(len(doc)):
         page = doc[pno]
+        lines = ocr_lines(page) if bank.get("ocr") else text_layer_lines(page)
         printed = None
-        items = []
-        page_answers = []
-        for line in page_lines(page):
+        items, page_answers = [], []
+        for line in lines:
+            text = line["text"]
             if line["y1"] <= hz:
                 if printed is None:
-                    nums = [w[4] for w in line["words"] if w[4].isdigit()]
-                    if nums:
-                        printed = int(nums[0])
+                    printed = printed_page_number(text)
                 continue
-            for m in ANSWER_RE.finditer(line["text"]):
-                page_answers.append({"sn": int(m[1]), "paper": m[2],
-                                     "q": int(m[3]), "answer": m[4]})
-            m = ANCHOR_RE.match(line["text"])
-            if m:
-                items.append(("anchor", line["y0"], m))
+            if bank["kind"] == "mcq":
+                for m in ANSWER_RE.finditer(text):
+                    page_answers.append({"sn": int(m[1]), "paper": m[2],
+                                         "q": int(m[3]), "answer": m[4]})
+            ref = parse_ref(text)
+            if ref:
+                items.append(("ref", line["y0"], ref))
                 continue
-            m = SECTION_RE.match(line["text"])
+            sn = parse_not_applicable(text)
+            if sn is not None:
+                items.append(("na", line["y0"], sn))
+                continue
+            m = SECTION_RE.match(text)
             if m and f"{m[1]}.{m[2]}" in known_sections:
                 items.append(("section", line["y0"], f"{m[1]}.{m[2]}"))
+            elif "0625" in text.replace(" ", ""):
+                review["unreadable_reference_lines"].append(f"PDF page {pno + 1}: {text!r}")
 
         if len(page_answers) >= 3:
-            in_answers = True
-            current = None
+            in_answers, current = True, None
         answers.extend(page_answers)
-        if in_answers:
+        if in_answers and bank["kind"] == "mcq":
             continue
 
-        for info in page.get_image_info(xrefs=True):
-            rect = pymupdf.Rect(info["bbox"]) & page.rect
-            if rect.is_empty or rect.width < 20 or rect.height < 5 or rect.y1 <= hz:
-                continue
+        for rect in content_rects(page, bank, hz):
             items.append(("image", rect.y0, rect))
 
         items.sort(key=lambda t: (t[1], t[0] == "image"))
         for kind, _, val in items:
-            if kind == "section":
+            if kind == "section" and not in_answers:
                 current_section = val
-            elif kind == "anchor":
-                current = {"sn": int(val[1]), "paper": val[2], "q": int(val[3]),
-                           "segments": [], "section": current_section,
-                           "printed_page": printed, "pdf_page": pno + 1}
-                questions.append(current)
+            elif kind == "na":
+                not_applicable.add(val)
+                current = None
+            elif kind == "ref":
+                rec = {"sn": val["sn"], "paper": val["paper"], "q": val["q"],
+                       "segments": [], "section": current_section,
+                       "printed_page": printed, "pdf_page": pno + 1}
+                if val["kind"] == "ms":
+                    in_answers = True
+                    schemes.append(rec)
+                elif in_answers:
+                    review["question_reference_inside_answers"].append(
+                        f'PDF page {pno + 1}: {val["paper"]} Q{val["q"]}')
+                    rec = None
+                else:
+                    questions.append(rec)
+                current = rec
             elif current is None:
                 review["images_without_a_question"].append(pno + 1)
             else:
                 current["segments"].append((pno, val))
-    return questions, answers
+        if (pno + 1) % 50 == 0:
+            print(f"  scanned {pno + 1}/{len(doc)} pages")
+    return questions, schemes, answers, not_applicable
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__,
-                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--pdf", help="override the PDF path in config.yaml")
-    args = ap.parse_args()
+def render_pages(doc, segments, dpi, prefix, stem, folder):
+    """Paper 6: one image per page a question (or mark scheme) occupies."""
+    by_page = {}
+    for pno, rect in segments:
+        if pno in by_page:
+            by_page[pno] |= rect
+        else:
+            by_page[pno] = pymupdf.Rect(rect)
+    out = []
+    for k, pno in enumerate(sorted(by_page), 1):
+        img = render_question(doc, [(pno, by_page[pno])], dpi)
+        name = f"{stem}{k}.png"
+        img.save(folder / name, optimize=True)
+        out.append({"image": f"{prefix}/{name}",
+                    "w_mm": round(img.width / dpi * 25.4, 1),
+                    "h_mm": round(img.height / dpi * 25.4, 1)})
+    return out
 
-    cfg = load_config()
-    pdf_path = args.pdf or (ROOT / cfg["pdf"]["question_bank"])
-    print(f"Opening {pdf_path}")
-    doc = pymupdf.open(pdf_path)
-    review = defaultdict(list)
 
-    raw, answers = scan_pdf(doc, cfg, review)
-    print(f"Found {len(raw)} question references and {len(answers)} answer-key rows")
-    if not raw:
-        sys.exit("No questions found - check the PDF path.")
+def assign_section(q, ranges, review, ref):
+    expected = [s["code"] for s in ranges
+                if q["printed_page"] is not None and s["start"] <= q["printed_page"] <= s["end"]]
+    section = q["section"] or (expected[0] if expected else None)
+    if section is None:
+        review["no_section"].append(ref)
+    elif expected and section not in expected:
+        review["section_disagrees_with_contents_page"].append(
+            f"{ref}: heading says {section}, contents page says {'/'.join(expected)}")
+    return section
 
-    # ---- answers
+
+def build_mcq(doc, cfg, bank, paths, raw, answers, review):
     by_sn = {a["sn"]: a for a in answers}
     by_ref = {(a["paper"], a["q"]): a for a in answers}
-
-    # ---- sections
-    ranges = section_ranges(cfg)
-
-    def toc_sections(page):
-        if page is None:
-            return []
-        return [s["code"] for s in ranges if s["start"] <= page <= s["end"]]
-
-    # ---- render
-    IMAGES.mkdir(parents=True, exist_ok=True)
-    for old in IMAGES.glob("*.png"):
-        old.unlink()
-    dpi = cfg["pdf"]["render_dpi"]
+    ranges = section_ranges(bank)
+    dpi = cfg["render_dpi"]
     records = []
     for i, q in enumerate(raw, 1):
         ref = f'{q["sn"]}. {q["paper"]} Q{q["q"]}'
@@ -282,14 +394,7 @@ def main():
             continue
         if len(q["segments"]) > 1:
             review["joined_from_several_images"].append(ref)
-
-        expected = toc_sections(q["printed_page"])
-        section = q["section"] or (expected[0] if expected else None)
-        if section is None:
-            review["no_section"].append(ref)
-        elif expected and section not in expected:
-            review["section_disagrees_with_contents_page"].append(
-                f"{ref}: heading says {section}, contents page says {'/'.join(expected)}")
+        section = assign_section(q, ranges, review, ref)
 
         ans = by_sn.get(q["sn"])
         if ans and (ans["paper"], ans["q"]) != (q["paper"], q["q"]):
@@ -301,7 +406,7 @@ def main():
             review["missing_answer"].append(ref)
 
         img = render_question(doc, q["segments"], dpi)
-        path = IMAGES / f'{q["sn"]}.png'
+        path = paths["images"] / f'{q["sn"]}.png'
         img.save(path, optimize=True)
         meta = parse_paper(q["paper"])
         records.append({
@@ -313,7 +418,6 @@ def main():
         if i % 100 == 0:
             print(f"  rendered {i}/{len(raw)}")
 
-    # ---- duplicates
     groups = find_duplicate_groups(records, cfg)
     questions = []
     for g in sorted(groups, key=lambda g: records[g[0]]["sn"]):
@@ -333,7 +437,7 @@ def main():
         section = keep["section"]
         questions.append({
             "id": f'q{keep["sn"]}',
-            "image": f'images/{keep["sn"]}.png',
+            "image": f'{paths["image_prefix"]}/{keep["sn"]}.png',
             "w_mm": round(w / dpi * 25.4, 1),
             "h_mm": round(h / dpi * 25.4, 1),
             "chapter": int(section.split(".")[0]) if section else None,
@@ -342,24 +446,110 @@ def main():
             "answer": sorted(answers_seen)[0] if len(answers_seen) == 1 else None,
             "refs": sorted(refs, key=lambda r: (-r["year"], r["paper"], r["q"])),
         })
+    return questions, len(records) - len(questions)
 
-    merged = len(records) - len(questions)
-    save_json(QUESTIONS_FILE, {
+
+def build_structured(doc, cfg, bank, paths, raw, schemes, not_applicable, review):
+    ranges = section_ranges(bank)
+    dpi = cfg["render_dpi"]
+    prefix, folder = paths["image_prefix"], paths["images"]
+    ms_by_sn = {m["sn"]: m for m in schemes}
+    ms_by_ref = {(m["paper"], m["q"]): m for m in schemes}
+    questions = []
+    for i, q in enumerate(raw, 1):
+        ref = f'{q["sn"]}. {q["paper"]} Q{q["q"]}'
+        if not q["segments"]:
+            review["no_image_found"].append(ref)
+            continue
+        section = assign_section(q, ranges, review, ref)
+        meta = parse_paper(q["paper"])
+        if meta is None:
+            review["unrecognised_paper_code"].append(ref)
+            continue
+
+        ms = ms_by_sn.get(q["sn"])
+        if ms and (ms["paper"], ms["q"]) != (q["paper"], q["q"]):
+            review["mark_scheme_number_mismatch"].append(
+                f'{ref}: mark scheme {ms["sn"]} is for {ms["paper"]} Q{ms["q"]}')
+            ms = None
+        ms = ms or ms_by_ref.get((q["paper"], q["q"]))
+        if ms and ms["segments"]:
+            ms_pages, status = render_pages(doc, ms["segments"], dpi, prefix,
+                                            f'{q["sn"]}_ms', folder), "ok"
+        elif q["sn"] in not_applicable:
+            ms_pages, status = [], "not_applicable"
+        else:
+            ms_pages, status = [], "missing"
+            review["missing_mark_scheme"].append(ref)
+
+        questions.append({
+            "id": f'p6-{q["sn"]}',
+            "pages": render_pages(doc, q["segments"], dpi, prefix, f'{q["sn"]}_', folder),
+            "ms": ms_pages,
+            "ms_status": status,
+            "chapter": int(section.split(".")[0]) if section else None,
+            "section": section,
+            "levels": [],
+            "answer": None,
+            "refs": [{"sn": q["sn"], "q": q["q"], **meta}],
+        })
+        if i % 25 == 0:
+            print(f"  rendered {i}/{len(raw)}")
+    return questions, 0
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--bank", default="p2", help="which bank in config.yaml (p2, p6)")
+    ap.add_argument("--pdf", help="override the PDF path in config.yaml")
+    args = ap.parse_args()
+
+    cfg = load_config()
+    if args.bank not in cfg["banks"]:
+        sys.exit(f"Unknown bank {args.bank!r}. Choose from: {', '.join(cfg['banks'])}")
+    bank = cfg["banks"][args.bank]
+    paths = bank_paths(cfg, args.bank)
+    pdf_path = args.pdf or (ROOT / bank["pdf"])
+    print(f"Bank {args.bank} ({bank['label']}): opening {pdf_path}")
+    doc = pymupdf.open(pdf_path)
+    review = defaultdict(list)
+
+    raw, schemes, answers, not_applicable = scan_pdf(doc, cfg, bank, review)
+    print(f"Found {len(raw)} questions, {len(schemes)} mark schemes, "
+          f"{len(answers)} answer-key rows")
+    if not raw:
+        sys.exit("No questions found - check the PDF path and bank.")
+
+    paths["images"].mkdir(parents=True, exist_ok=True)
+    for old in paths["images"].glob("*.png"):
+        old.unlink()
+
+    if bank["kind"] == "mcq":
+        questions, merged = build_mcq(doc, cfg, bank, paths, raw, answers, review)
+    else:
+        questions, merged = build_structured(doc, cfg, bank, paths, raw, schemes,
+                                             not_applicable, review)
+
+    ranges = section_ranges(bank)
+    save_json(paths["questions"], {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "chapters": cfg["chapters"],
+        "bank": args.bank, "label": bank["label"], "kind": bank["kind"],
+        "chapters": bank["chapters"],
         "sections": [{"code": s["code"], "title": s["title"], "chapter": s["chapter"]}
                      for s in ranges],
         "questions": questions,
     }, compact=True)
 
     summary = {k: len(v) for k, v in review.items()}
-    save_json(REVIEW_FILE, {"summary": summary, "duplicates_merged": merged,
-                            **{k: v for k, v in review.items()}})
+    save_json(paths["review"], {"summary": summary, "duplicates_merged": merged,
+                                **{k: v for k, v in review.items()}})
 
-    print(f"\nSaved {len(questions)} unique questions ({merged} duplicates merged).")
+    print(f"\nSaved {len(questions)} questions"
+          + (f" ({merged} duplicates merged)." if merged else "."))
     for k, n in summary.items():
         print(f"  check: {k.replace('_', ' ')}: {n}")
-    print(f"Details in {REVIEW_FILE.relative_to(ROOT)}")
+    print(f"Details in {paths['review'].relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
