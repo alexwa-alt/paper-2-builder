@@ -1655,5 +1655,227 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-16T21:23:08+00:00"
+ },
+ "q125": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object in a space probe above the Earth weighs 3.5 N. The gravitational field strength at the height of the space probe is 7.0 N/kg.\n\nThe gravitational field strength on the Earth's surface is 9.8 N/kg.\n\nWhat are the mass and the weight of the object on the Earth's surface?\n\n[Table with columns: mass / kg, weight / N]\nA 0.50 | 3.5\nB 0.50 | 4.9\nC 2.0 | 3.5\nD 2.0 | 20",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q126": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The gravitational field strength is 8.8 N/kg on Venus and 3.8 N/kg on Mars.\n\nAn object has a weight of 42 N on Venus.\n\nWhat are the mass and the weight of the object on Mars?\n\n[Table with columns: mass / kg, weight / N]\nA 4.8 | 18\nB 4.8 | 42\nC 11 | 42\nD 11 | 97",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q127": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A measuring cylinder contains 30 cm^3 of a liquid.\n\n[Diagram showing a measuring cylinder on a balance, with the liquid level at 30 cm^3]\n\nSome more of the liquid is added until the liquid level reaches the 50 cm^3 mark.\n\nThe reading on the balance increases by 30 g.\n\nWhat is the density of the liquid?\n\nA 0.60 g/cm^3\nB 0.67 g/cm^3\nC 1.5 g/cm^3\nD 1.7 g/cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q128": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which property of an object is a consequence of the effect of a gravitational field acting on it?\n\nA density\nB mass\nC volume\nD weight",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q129": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement describes the relationship between mass and weight?\n\nA Mass is the effect of a gravitational field on a weight.\nB Mass is the effect of a magnetic field on a weight.\nC Weight is the effect of a gravitational field on a mass.\nD Weight is the effect of a magnetic field on a mass.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q130": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which property of a body results from the effect of a gravitational field on its mass?\n\nA the ability of the body to resist a change in motion\nB the density of the body\nC the volume of the body\nD the weight of the body",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q131": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement about mass is correct?\n\nA A mass of 10 kg weighs 1 N near the Earth's surface.\nB Mass is a gravitational force.\nC Mass increases when the gravitational field strength increases.\nD The greater the mass of a body, the more it resists a change in its motion.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q132": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object of mass 2.0 kg is taken from the Earth, where the gravitational field strength is 10 N/kg, to the Moon, where the gravitational field strength is 1.6 N/kg.\n\nWhich row is correct?\n\n[Table with columns: weight on the Earth / N, weight on the Moon / N]\nA 0.20 | 0.80\nB 0.20 | 3.2\nC 20 | 0.80\nD 20 | 3.2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:44:44+00:00"
+ },
+ "q133": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the best description of the meaning of the 'mass' of an object?\n\nA the space occupied by the object\nB the force that gravity exerts on the object\nC the resistance of the object to changes in motion\nD the closeness of packing of the molecules in the object",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q134": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is on the surface of the Earth.\n\nWhich statement describes the weight of the object?\n\nA the quantity of material that the object contains\nB the quantity of space that the object takes up\nC the gravitational force acting on the object\nD the object's resistance to a change in its motion",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q135": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object has a weight of 6.4 N on the Earth where the gravitational field strength is 10 N / kg.\n\nWhich row states the mass and the weight of the object on the Moon where the gravitational field strength is 1.6 N / kg?\n\n[Table:\nRow | mass / kg | weight on the Moon / N\nA | 0.64 | 1.0\nB | 0.64 | 6.4\nC | 4.0 | 1.0\nD | 4.0 | 6.4]",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q136": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In which situation does object X have a greater mass than object Y?\n\nA Object X is in a larger gravitational field than object Y and both have the same weight.\nB Object X shows a greater resistance to change in motion than object Y and both experience the same resultant force.\nC Object X has a lower density than object Y and both occupy the same volume.\nD Object X moves at a greater speed than object Y and both possess the same kinetic energy.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q137": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about mass and weight is correct?\n\nA Mass is a property that causes change in motion.\nB Mass is caused by a gravitational field acting on a weight.\nC Weight is a property that resists change in motion.\nD Weight is caused by a gravitational field acting on a mass.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q138": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Diagram 1 shows a piece of flexible material that contains many pockets of air. Diagram 2 shows the same piece of flexible material after it has been compressed so that its volume decreases.\n\n[Diagram 1 (before compression) shows an irregular porous object. Diagram 2 (after compression) shows the smaller compressed object with arrows pointing inwards towards it.]\n\nWhat happens to the mass and to the weight of the flexible material when it is compressed?\n\n[Table:\nRow | mass | weight\nA | increases | increases\nB | increases | no change\nC | no change | increases\nD | no change | no change]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q139": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.5",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The graph shows how the strength of the Earth's gravitational field varies as the distance from the Earth's surface increases.\n\n[Graph of strength of the Earth's gravitational field on the vertical axis against distance from the surface of the Earth on the horizontal axis, showing a curve decreasing towards zero.]\n\nWhich row describes the effect that this has on the mass and on the weight of an object as it moves further away from the Earth's surface?\n\n[Table:\nRow | mass of object | weight of object\nA | decreases | decreases\nB | decreases | unchanged\nC | unchanged | decreases\nD | unchanged | unchanged]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q140": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A mass of 6.0 kg rests on the surface of a planet.\n\nOn this planet, g = 20 N / kg.\n\nWhat is the weight of the object?\n\nA 0.30 N\nB 0.60 N\nC 60 N\nD 120 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T23:50:31+00:00"
  }
 }
