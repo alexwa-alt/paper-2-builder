@@ -2,15 +2,11 @@
 # 0625 Question Bank - configuration
 # ---------------------------------------------------------------
 
-pdf:
-  question_bank: input/question_bank.pdf   # the 682-page compilation
-  syllabus: input/syllabus.pdf             # Cambridge 0625 syllabus 2023-2025
-  header_zone_pt: 55        # running headers sit above this line (points from top)
-  render_dpi: 200           # resolution of extracted question images
-  answers_start_page: 665   # printed page number where the answer key begins
+render_dpi: 200            # resolution of extracted question images
+header_zone_pt: 55         # running headers sit above this line (points from top)
 
-dedupe:
-  hash_distance: 10         # how similar two thumbnails must be to be compared in detail
+dedupe:                    # Paper 2 only
+  hash_distance: 10
   # "Visually identical" = at most this many differing ink pixels in total,
   # and no more than max_diff_per_patch in any character-sized patch.
   # Kept strict on purpose: copies that were re-scanned slightly differently
@@ -21,42 +17,99 @@ dedupe:
 gemini:
   # Check https://ai.google.dev/gemini-api/docs/models for current free-tier models.
   model: gemini-3.8-flash
-  questions_per_request: 8
   max_requests_per_run: 10  # the Action runs hourly; it stops early if the quota runs out
   seconds_between_requests: 15
   max_attempts: 3           # give up on a question after this many failed tagging attempts
 
-chapters:
-  - {num: 1, title: "Motion, forces and energy"}
-  - {num: 2, title: "Thermal physics"}
-  - {num: 3, title: "Waves"}
-  - {num: 4, title: "Electricity and magnetism"}
-  - {num: 5, title: "Nuclear physics"}
-  - {num: 6, title: "Space physics"}
+# The current syllabus that learning-objective tags refer to (2023-2025).
+syllabus:
+  pdf: input/syllabus.pdf
+  chapters: &syllabus_chapters
+    - {num: 1, title: "Motion, forces and energy"}
+    - {num: 2, title: "Thermal physics"}
+    - {num: 3, title: "Waves"}
+    - {num: 4, title: "Electricity and magnetism"}
+    - {num: 5, title: "Nuclear physics"}
+    - {num: 6, title: "Space physics"}
+  sections: &syllabus_sections
+    - {code: "1.1", title: "Physical quantities and measurement techniques", start_page: 7}
+    - {code: "1.2", title: "Motion", start_page: 23}
+    - {code: "1.3", title: "Mass and weight", start_page: 59}
+    - {code: "1.4", title: "Density", start_page: 75}
+    - {code: "1.5", title: "Forces", start_page: 90}
+    - {code: "1.6", title: "Momentum", start_page: 142}
+    - {code: "1.7", title: "Energy, work and power", start_page: 156}
+    - {code: "1.8", title: "Pressure", start_page: 198}
+    - {code: "2.1", title: "Kinetic particle model of matter", start_page: 223}
+    - {code: "2.2", title: "Thermal properties and temperature", start_page: 242}
+    - {code: "2.3", title: "Transfer of thermal energy", start_page: 281}
+    - {code: "3.1", title: "General properties of waves", start_page: 307}
+    - {code: "3.2", title: "Light", start_page: 332}
+    - {code: "3.3", title: "Electromagnetic spectrum", start_page: 382}
+    - {code: "3.4", title: "Sound", start_page: 392}
+    - {code: "4.1", title: "Simple phenomena of magnetism", start_page: 409}
+    - {code: "4.2", title: "Electrical quantities", start_page: 435}
+    - {code: "4.3", title: "Electric circuits", start_page: 475}
+    - {code: "4.4", title: "Electrical safety", start_page: 529}
+    - {code: "4.5", title: "Electromagnetic effects", start_page: 536}
+    - {code: "5.1", title: "The nuclear model of the atom", start_page: 595}
+    - {code: "5.2", title: "Radioactivity", start_page: 608}
+    - {code: "6.1", title: "Earth and the Solar System", start_page: 659}
+    - {code: "6.2", title: "Stars and the Universe", start_page: 661}
 
-# From the question bank's contents page (printed page numbers).
-sections:
-  - {code: "1.1", title: "Physical quantities and measurement techniques", start_page: 7}
-  - {code: "1.2", title: "Motion", start_page: 23}
-  - {code: "1.3", title: "Mass and weight", start_page: 59}
-  - {code: "1.4", title: "Density", start_page: 75}
-  - {code: "1.5", title: "Forces", start_page: 90}
-  - {code: "1.6", title: "Momentum", start_page: 142}
-  - {code: "1.7", title: "Energy, work and power", start_page: 156}
-  - {code: "1.8", title: "Pressure", start_page: 198}
-  - {code: "2.1", title: "Kinetic particle model of matter", start_page: 223}
-  - {code: "2.2", title: "Thermal properties and temperature", start_page: 242}
-  - {code: "2.3", title: "Transfer of thermal energy", start_page: 281}
-  - {code: "3.1", title: "General properties of waves", start_page: 307}
-  - {code: "3.2", title: "Light", start_page: 332}
-  - {code: "3.3", title: "Electromagnetic spectrum", start_page: 382}
-  - {code: "3.4", title: "Sound", start_page: 392}
-  - {code: "4.1", title: "Simple phenomena of magnetism", start_page: 409}
-  - {code: "4.2", title: "Electrical quantities", start_page: 435}
-  - {code: "4.3", title: "Electric circuits", start_page: 475}
-  - {code: "4.4", title: "Electrical safety", start_page: 529}
-  - {code: "4.5", title: "Electromagnetic effects", start_page: 536}
-  - {code: "5.1", title: "The nuclear model of the atom", start_page: 595}
-  - {code: "5.2", title: "Radioactivity", start_page: 608}
-  - {code: "6.1", title: "Earth and the Solar System", start_page: 659}
-  - {code: "6.2", title: "Stars and the Universe", start_page: 661}
+# One entry per question bank PDF.
+banks:
+  p2:
+    label: "Paper 2: Multiple choice"
+    kind: mcq
+    pdf: input/question_bank.pdf
+    data_dir: data            # inside site/
+    image_dir: images         # inside site/
+    ocr: false                # this PDF has a real text layer
+    questions_per_request: 8
+    answers_start_page: 665
+    # Page numbers are this bank's contents page; the sections match the syllabus.
+    chapters: *syllabus_chapters
+    sections: *syllabus_sections
+
+  p6:
+    label: "Paper 6: Alternative to practical"
+    kind: structured
+    pdf: input/p6_question_bank.pdf
+    data_dir: data/p6
+    image_dir: images/p6
+    ocr: true                 # headings and references are images of text, read with OCR
+    footer_logo_pt: 700       # ignore the publisher's logo below this line
+    questions_per_request: 2
+    answers_start_page: 693
+    # From the Paper 6 bank's contents page (older syllabus headings).
+    chapters:
+      - {num: 1, title: "General physics"}
+      - {num: 2, title: "Thermal physics"}
+      - {num: 3, title: "Properties of waves, including light and sound"}
+      - {num: 4, title: "Electricity and magnetism"}
+      - {num: 5, title: "Atomic physics"}
+    sections:
+      - {code: "1.1", title: "Length and time", start_page: 4}
+      - {code: "1.2", title: "Motion", start_page: 56}
+      - {code: "1.3", title: "Mass and weight", start_page: 64}
+      - {code: "1.4", title: "Density", start_page: 65}
+      - {code: "1.5", title: "Forces", start_page: 90}
+      - {code: "1.6", title: "Momentum", start_page: 216}
+      - {code: "1.7", title: "Energy, work and power", start_page: 217}
+      - {code: "1.8", title: "Pressure", start_page: 234}
+      - {code: "2.1", title: "Simple kinetic molecular model of matter", start_page: 242}
+      - {code: "2.2", title: "Thermal properties and temperature", start_page: 243}
+      - {code: "2.3", title: "Thermal processes", start_page: 253}
+      - {code: "3.1", title: "General wave properties", start_page: 394}
+      - {code: "3.2", title: "Light", start_page: 394}
+      - {code: "3.3", title: "Electromagnetic spectrum", start_page: 529}
+      - {code: "3.4", title: "Sound", start_page: 529}
+      - {code: "4.1", title: "Simple phenomena of magnetism", start_page: 532}
+      - {code: "4.2", title: "Electrical quantities", start_page: 534}
+      - {code: "4.3", title: "Electric circuits", start_page: 625}
+      - {code: "4.4", title: "Digital electronics", start_page: 689}
+      - {code: "4.5", title: "Dangers of electricity", start_page: 689}
+      - {code: "4.6", title: "Electromagnetic effects", start_page: 689}
+      - {code: "5.1", title: "The nuclear atom", start_page: 691}
+      - {code: "5.2", title: "Radioactivity", start_page: 691}
