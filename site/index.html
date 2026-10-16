@@ -17,6 +17,7 @@
     <h1>0625 Physics question bank</h1>
     <p id="progress" class="muted"></p>
   </div>
+  <nav class="banks" id="banks" aria-label="Question bank"></nav>
   <button class="paper-toggle only-narrow" id="open-paper" aria-controls="paper" aria-expanded="false">
     Your paper <span class="count" id="paper-count-top">0</span>
   </button>
@@ -44,7 +45,7 @@
       <select id="f-subpoint"><option value="">Any</option></select>
     </label>
 
-    <fieldset>
+    <fieldset id="f-levels-wrap">
       <legend>Tier</legend>
       <div class="chips" id="f-levels"></div>
     </fieldset>
@@ -60,7 +61,7 @@
     </fieldset>
 
     <fieldset>
-      <legend>Question type</legend>
+      <legend id="f-types-legend">Question type</legend>
       <div class="chips" id="f-types"></div>
     </fieldset>
 
@@ -80,7 +81,7 @@
     <div class="toolbar">
       <p id="result-count" class="result-count"></p>
       <div class="toolbar-actions">
-        <label class="check"><input type="checkbox" id="show-answers"> Show answers</label>
+        <label class="check"><input type="checkbox" id="show-answers"> <span id="show-answers-label">Show answers</span></label>
         <select id="sort" aria-label="Sort order">
           <option value="book">Book order</option>
           <option value="new">Newest first</option>
@@ -114,7 +115,7 @@
         <span>Time allowed (minutes)</span>
         <input type="number" id="p-time" min="1" max="300" placeholder="auto">
       </label>
-      <label class="check"><input type="checkbox" id="p-key" checked> Answer key on the last page</label>
+      <label class="check"><input type="checkbox" id="p-key" checked> <span id="p-key-label">Answer key on the last page</span></label>
       <label class="check"><input type="checkbox" id="p-refs"> Print past-paper references</label>
     </fieldset>
     <p id="p-summary" class="muted small"></p>

@@ -32,7 +32,8 @@
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html, body { margin: 0; height: 100%; }
+html, body { margin: 0; }
+body { min-height: 100vh; }
 body {
   background: var(--bg);
   color: var(--ink);
@@ -89,6 +90,12 @@ body::before {
   border-radius: 1em; background: var(--marker); color: var(--marker-ink);
   font-weight: 700; text-align: center; font-size: .85em;
 }
+
+/* ---------- bank switch */
+.banks { display: flex; gap: .25rem; background: var(--bg); padding: .2rem; border-radius: calc(var(--radius) + 2px); }
+.banks button { border: 0; background: transparent; padding: .35rem .75rem; font-size: .92rem; }
+.banks button[aria-pressed="true"] { background: var(--panel); font-weight: 700; box-shadow: 0 0 0 1px var(--rule); }
+.banks:empty { display: none; }
 
 /* ---------- layout */
 .layout {
@@ -193,6 +200,17 @@ legend { font-weight: 700; padding: 0; margin-bottom: .4rem; }
 .answer { font-weight: 700; }
 .answer b { background: var(--marker); color: var(--marker-ink); padding: 0 .35rem; border-radius: .2rem; }
 .add-btn { min-width: 9.5rem; }
+.slip-body img + img { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed var(--rule); box-sizing: content-box; }
+.slip-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
+.ms {
+  border-top: 1px solid var(--rule);
+  background: var(--paper);
+  padding: 1rem 1.25rem;
+}
+.ms h3 { margin: 0 0 .6rem; font-size: .95rem; color: #18253a; }
+.ms img { display: block; width: 100%; height: auto; max-width: calc(var(--w) * var(--mm)); }
+.ms img + img { margin-top: .75rem; }
+.ms .muted { color: #5a6577; }
 .slip.in-paper .add-btn { background: var(--marker); color: var(--marker-ink); border-color: var(--marker); font-weight: 700; }
 
 /* ---------- paper */
@@ -225,6 +243,10 @@ legend { font-weight: 700; padding: 0; margin-bottom: .4rem; }
   .paper .only-narrow, .topbar .paper-toggle { display: inline-block; }
 }
 @media (max-width: 820px) {
+  .only-wide { display: none; }
+  .topbar { flex-wrap: wrap; }
+  .banks { order: 3; width: 100%; }
+  .banks button { flex: 1; }
   .layout { grid-template-columns: minmax(0, 1fr); padding: .75rem; }
   .filters {
     position: fixed; z-index: 30; top: 0; left: 0; bottom: 0;
