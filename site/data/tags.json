@@ -536,5 +536,116 @@
   "text": "A student investigates the rate of flow of oil through a funnel.\n\nThe diagrams show the experiment and the volume of oil in the measuring cylinder at the start of the experiment, and one minute later.\n\n[Diagram showing oil flowing from a funnel into a measuring cylinder. A magnified view shows the initial measurement at 24 cm^3 and the level after 1.0 minute at 72 cm^3.]\n\nWhat is the rate of flow of oil through the funnel during the one minute?\n\nA 0.73 cm^3/s\nB 0.80 cm^3/s\nC 44 cm^3/s\nD 48 cm^3/s",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-15T13:34:56+00:00"
+ },
+ "q42": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "practical",
+  "difficulty": 1,
+  "text": "A measuring cylinder contains some water. A small metal block is slowly lowered into the water and is then removed.\n\nFinally a piece of plastic is attached to the metal block and the block is again slowly lowered into the water.\n\nThe diagrams show the measuring cylinder at each stage of this process.\n\n[Diagram 1 shows water in a measuring cylinder with volume at 60 cm^3. Diagram 2 shows the measuring cylinder with the metal block submerged, water level at 70 cm^3. Diagram 3 shows the cylinder with both the metal block and attached plastic submerged, water level at 80 cm^3.]\n\nWhat is the volume of the piece of plastic?\n\nA 10 cm^3\nB 25 cm^3\nC 70 cm^3\nD 80 cm^3",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q43": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "graph_or_diagram",
+  "difficulty": 1,
+  "text": "The diagram shows the speed–time graph for a car.\n\n[Speed–time graph showing a straight line sloping up from the origin through point X, which then levels off into a horizontal line containing point Y.]\n\nWhich row describes the motion of the car at point X and at point Y?\n\nA point X: at rest; point Y: moving with constant speed\nB point X: moving with constant speed; point Y: at rest\nC point X: moving with changing speed; point Y: at rest\nD point X: moving with changing speed; point Y: moving with constant speed",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q44": {
+  "status": "done",
+  "subpoints": [
+   "1.2.10",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "conceptual",
+  "difficulty": 2,
+  "text": "Four objects are moving in a straight line.\n\nThe table shows the distances moved by each object in each second of its motion.\n\nWhich object is moving with constant non-zero acceleration?\n\nA distance moved in 1st second: 5 m; 2nd second: 5 m; 3rd second: 5 m; 4th second: 5 m\nB distance moved in 1st second: 5 m; 2nd second: 6 m; 3rd second: 7 m; 4th second: 8 m\nC distance moved in 1st second: 5 m; 2nd second: 7 m; 3rd second: 10 m; 4th second: 14 m\nD distance moved in 1st second: 5 m; 2nd second: 8 m; 3rd second: 14 m; 4th second: 26 m",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q45": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.8",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "The drag force on a car increases with speed. At 20 m/s, the total drag force is 400 N. The mass of the car is 1200 kg and the driving force is constant at 700 N.\n\nWhich statement about the acceleration of the car at 20 m/s is correct?\n\nA The acceleration is 0.25 m/s^2 but will decrease as time passes.\nB The acceleration is 0.25 m/s^2 but will increase as time passes.\nC The acceleration is 0.58 m/s^2 but will decrease as time passes.\nD The acceleration is 0.58 m/s^2 but will increase as time passes.",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q46": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "conceptual",
+  "difficulty": 1,
+  "text": "An object falls towards the surface of the Earth.\n\nThe object is falling at its terminal velocity.\n\nWhich statement is correct?\n\nA There is air resistance and the acceleration of the object is negative.\nB There is air resistance and the acceleration of the object is zero.\nC There is no air resistance and the acceleration of the object is negative.\nD There is no air resistance and the acceleration of the object is zero.",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q47": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "The graph represents the motion of a vehicle.\n\n[Speed–time graph with a straight line starting at (0, 0) and reaching 20 m/s at time 400 s.]\n\nWhat is the distance travelled by the vehicle in 400 s?\n\nA 20 m\nB 400 m\nC 4000 m\nD 8000 m",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q48": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "conceptual",
+  "difficulty": 2,
+  "text": "A light ball is held at rest at the top of a tall cliff. It is released and falls through the air, eventually reaching its terminal velocity.\n\nWhich row describes the behaviour of the ball as it descends?\n\nA initial acceleration: 0; final acceleration: 0\nB initial acceleration: 0; final acceleration: g\nC initial acceleration: g; final acceleration: 0\nD initial acceleration: g; final acceleration: g",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
+ },
+ "q49": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "type": "calculation",
+  "difficulty": 2,
+  "text": "The graph represents the motion of a car.\n\n[Speed–time graph showing a straight line passing through (0, 0) up to (5 s, 10 m/s).]\n\nHow far has the car moved between 0 and 5 s?\n\nA 2 m\nB 10 m\nC 25 m\nD 50 m",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-16T01:31:00+00:00"
  }
 }
