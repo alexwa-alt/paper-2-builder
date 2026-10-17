@@ -3201,5 +3201,561 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q240": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring, which obeys Hooke’s law, has an unstretched length of 10 cm.\n\nA load of 20 N is suspended from the spring.\n\nThe new length of the spring is 36 cm.\n\nWhat is the spring constant k of the spring?\n\nA 0.56 N / cm\nB 0.77 N / cm\nC 1.3 N / cm\nD 1.8 N / cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q241": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car travels along a horizontal road at constant speed. Three horizontal forces act on the car. The diagram shows two of these forces.\n\n[Diagram showing a car travelling to the right with \"direction of motion forwards\". Two horizontal forces act on it: \"air resistance 300 N\" directed backwards (left) and \"force from engine 1500 N\" directed forwards (right).]\n\nWhat is the size and the direction of the third horizontal force acting on the car?\n\nA 1200 N backwards\nB 1200 N forwards\nC 1800 N backwards\nD 1800 N forwards",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q242": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car is driven round a bend in the road at a constant speed.\n\n[Diagram from above showing a car moving forward along a road curving to the left, with an arrow indicating the \"direction of the motion of the car\".]\n\nWhat is the direction of the resultant force on the car when it is going round the bend?\n\nA parallel to the motion and in the same direction as the motion\nB parallel to the motion and in the opposite direction to the motion\nC perpendicular to the motion and towards the inside of the bend\nD perpendicular to the motion and towards the outside of the bend",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q243": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "An athlete with mass 70 kg trains by performing press-ups with a load on his back. The diagram shows the perpendicular distances involved.\n\nThe centre of mass of the athlete is C_M and the centre of mass of the load he is carrying is C_L.\n\n[Diagram showing an athlete in a press-up position with pivot at the feet. Dashed vertical lines show horizontal distances: 0.9 m from the feet to C_M, 0.3 m from C_M to C_L, and 0.1 m from C_L to the hands.]\n\nThe mass of the load is 6.0 kg.\n\nWhat is the upward force exerted by his two arms?\n\nA 54 N\nB 76 N\nC 540 N\nD 760 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q244": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a wooden beam PQ, of negligible weight, which is attached to a wall by a hinge at P and kept in a horizontal position by a vertical rope attached at Q.\n\nThe beam is 3.0 m in length.\n\nA man of weight 800 N walks along the beam from P to Q.\n\n[Diagram showing a wall on the left with a hinge at P supporting a 3.0 m beam PQ horizontally. A vertical rope supports the beam at end Q. A man is walking along the beam from P towards Q.]\n\nWhat is the distance of the man from P when the tension in the rope at Q becomes equal to 500 N?\n\nA 0.53 m\nB 1.1 m\nC 1.9 m\nD 2.5 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q245": {
+  "status": "done",
+  "subpoints": [
+   "1.1.6",
+   "1.1.5",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is a vector?\n\nA acceleration\nB distance\nC speed\nD mass",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q246": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A satellite orbits the Earth at constant speed in a circular orbit.\n\nWhich statement is correct?\n\nA The resultant force on the satellite is zero.\nB The resultant force on the satellite is towards the Earth.\nC The resultant force on the satellite is away from the Earth.\nD The resultant force on the satellite is in the direction of motion.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q247": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two forces P and Q act on an object.\n\nWhich diagram shows the resultant of these two forces?\n\n[Four vector diagrams labelled A, B, C, D:\nA shows forces P and Q forming two sides of a triangle with resultant pointing upwards-left.\nB shows forces P and Q forming two sides of a triangle with resultant pointing downwards-right.\nC shows forces P and Q originating from the same point, with the resultant along the diagonal pointing away from the origin.\nD shows forces P and Q originating from the same point, with the resultant along the diagonal pointing towards the origin.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:49:16+00:00"
+ },
+ "q248": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.5",
+   "1.5.1.4",
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which moving object has a resultant force acting on it?\n\nA a diver rising vertically through water at constant speed\nB an aircraft circling an airport at constant speed\nC a parachutist descending vertically at terminal velocity\nD a train going up a straight slope at constant speed",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q249": {
+  "status": "done",
+  "subpoints": [
+   "1.1.5",
+   "1.1.6",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is not a vector?\n\nA acceleration\nB temperature\nC velocity\nD weight",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q250": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A uniform plank rests on a pivot at its centre.\n\nTwo children P and Q sit on the plank in the positions shown.\n\n[Diagram showing a balanced plank on a central pivot with child P sitting 1.2 m to the left of the pivot and child Q sitting 1.5 m to the right of the pivot.]\n\nThe mass of child P is 25 kg.\n\nThe plank is balanced.\n\nWhat is the mass of child Q?\n\nA 20 kg\nB 25 kg\nC 31 kg\nD 45 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q251": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows three forces acting on an object.\n\n[Diagram of a rectangular object with three forces: 6 N directed upwards, 1 N directed to the left, and 9 N directed to the right.]\n\nWhat is the value of the resultant force acting on the object?\n\nA 2 N\nB 10 N\nC 14 N\nD 16 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q252": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a beam lying on the ground. End Q is lifted from the ground by the force F.\n\nEnd P of the beam remains on the ground.\n\n[Diagram showing a horizontal beam of length 3.0 m with end P pivoting on the ground. Centre of mass G is 1.0 m from end P. An upward force F acts at end Q, 3.0 m from end P.]\n\nThe length of the beam is 3.0 m and its weight is 600 N.\n\nThe centre of mass of the beam at G is 1.0 m from end P.\n\nWhat is the size of the force F when it just raises end Q from the ground?\n\nA 200 N\nB 300 N\nC 400 N\nD 600 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q253": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a stand. The stand holds a heavy mass above the bench.\n\n[Diagram of a stand resting on a bench with a base and vertical rod, holding a heavy mass clamped high above the bench.]\n\nWhich two changes would definitely make the stand more stable?\n\nA Lower the mass and make the base narrower.\nB Lower the mass and make the base wider.\nC Raise the mass and make the base narrower.\nD Raise the mass and make the base wider.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q254": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.5",
+   "1.5.1.3",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a car moving along a road.\n\nThe force due to the engine is 1500 N and the total drag force is 200 N.\n\n[Diagram showing a car on a road with an engine force of 1500 N pointing forward to the right and a drag force of 200 N pointing backward to the left.]\n\nWhat is the motion of the car?\n\nA constant speed\nB decreasing speed\nC increasing speed\nD reversing",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q255": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a trolley used to transport a load of 400 N.\n\nA force F vertically downwards is needed to balance the trolley as shown.\n\nThe centre of mass of the trolley is vertically above the pivot.\n\n[Diagram of an inclined trolley pivoted at its wheel. A downward force F is applied at the handle at a horizontal distance of 40 cm and vertical distance of 90 cm from the pivot. A load of 400 N acts downwards at a horizontal distance of 15 cm and vertical distance of 30 cm from the pivot.]\n\nWhat is the value of F?\n\nA 133 N\nB 150 N\nC 300 N\nD 400 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:08+00:00"
+ },
+ "q256": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The extension/load graph for a spring is shown. The unstretched length of the spring is 15.0 cm.\n\n[Graph of extension/cm against load/N showing a straight line passing through (0, 0) and (5, 2.0).]\n\nWhen an object of unknown weight is suspended on the spring, the length of the spring is 16.4 cm.\n\nWhat is the weight of the object?\n\nA 0.55 N\nB 0.67 N\nC 3.5 N\nD 4.1 N",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q257": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box of mass 2.0 kg is pulled across the floor by a force of 6.0 N.\n\nThe frictional force acting on the box is 1.0 N.\n\nWhat is the acceleration of the box?\n\nA 0.40 m/s^2\nB 2.5 m/s^2\nC 3.0 m/s^2\nD 3.5 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q258": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.5",
+   "1.5.1.12",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which moving body has a resultant force acting on it?\n\nA a diver rising vertically through water at constant speed\nB an aircraft circling an airport at constant speed\nC a train going up a straight incline at constant speed\nD a parachutist descending vertically at terminal velocity",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q259": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student wishes to determine the spring constant of a spring where it obeys Hooke's law.\n\nDifferent loads are hung from the spring and its length is measured for each different load.\n\nThe table shows the results of the experiment.\n\n[Table:\nweight of load / N: 0 | 2.0 | 4.0 | 5.0\nlength of spring / cm: 12 | 20 | 28 | 38]\n\nWhat is the value of the spring constant of the spring?\n\nA 0.13 N/cm\nB 0.14 N/cm\nC 0.19 N/cm\nD 0.25 N/cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q260": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A mass of 20 kg is held stationary by a rope passing over a frictionless pulley.\n\n[Diagram shows a 20 kg mass suspended vertically by a rope with tension T directed upwards, passing over a pulley and held by the other end of the rope at an angle.]\n\nWhat is the tension T in the rope?\n\nA 10 kg\nB 20 kg\nC 100 N\nD 200 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q261": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boat starts moving across a river at velocity v perpendicular to the river bank.\n\nThe boat encounters a current along the river of velocity u, as shown.\n\n[Diagram shows a river with vector v pointing straight down across the river, and vector u pointing to the right along the river.]\n\nWhich vector diagram shows the resultant velocity r of the boat?\n\nA [Right triangle with base u pointing right, right side v pointing down, hypotenuse r pointing up and right]\nB [Right triangle with base u pointing right, right side v pointing down, hypotenuse r pointing down and left]\nC [Right triangle with top side u pointing right, right side v pointing down, hypotenuse r pointing down and right]\nD [Right triangle with top side u pointing right, right side v pointing down, hypotenuse r pointing up and left]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q262": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment is done to determine the spring constant for a spring.\n\nDifferent loads are hung from the spring and its length is measured for each different load.\n\nThe graph shows how its length varies with load.\n\n[Graph of weight of load / N against length of spring / cm. The line starts at (4, 0) and ends at (20, 4.0).]\n\nWhat is the value of the spring constant?\n\nA 0.20 N/cm\nB 0.25 N/cm\nC 4.0 N/cm\nD 5.0 N/cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q263": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam is pivoted at its centre of mass.\n\nIt is acted upon by two forces, 10 N and 5.0 N, as shown.\n\n[Diagram shows a horizontal beam on a pivot. A 10 N force acts upwards to the left of the pivot. A 5.0 N force acts upwards at the right end of the beam. The distance between the 10 N force and the right end is 25 cm. The distance between the pivot and the right end is 15 cm.]\n\nWhat is the resultant moment about the pivot?\n\nA 25 N cm anticlockwise\nB 25 N cm clockwise\nC 175 N cm anticlockwise\nD 175 N cm clockwise",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:50:49+00:00"
+ },
+ "q264": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which object is in equilibrium?\n\n[Four diagrams showing rectangular objects with forces acting on them:\nA: A force of 2 N acting to the right on the left side, and a force of 2 N acting upwards on the bottom.\nB: A downward force of 2 N on the top-left, and an upward force of 2 N on the bottom-right.\nC: A force of 2 N acting to the right on the left side, and an opposing force of 2 N acting to the left along the same line of action on the right side.\nD: A downward force of 2 N on the top-right, and a force of 2 N acting to the left on the bottom-right.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q265": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An experiment is carried out to determine the spring constant for a spring that obeys Hooke's law.\n\nA load is hung from the spring and the extension of the spring is measured.\n\nWhich calculation is used to calculate the spring constant?\n\nA extension / mass of the load\nB extension / weight of the load\nC mass of the load / extension\nD weight of the load / extension",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q266": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.5.1.8",
+   "1.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car is driven from rest on a long straight road. The car engine exerts a constant driving force.\n\nThe diagram shows the horizontal forces acting on the car. The resistive forces are proportional to the speed of the car.\n\n[Diagram showing a car with a forward arrow labelled 'driving force (from engine)' and a backward arrow labelled 'resistive forces'.]\n\nWhy does the car eventually reach a maximum speed?\n\nA The resistive forces decrease to make the acceleration of the car negative.\nB The resistive forces decrease to make the acceleration of the car zero.\nC The resistive forces increase to make the acceleration of the car negative.\nD The resistive forces increase to make the acceleration of the car zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q267": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam of weight 6.0 N is suspended from two strings P and Q.\n\nString P is 30 cm from the left-hand end of the beam, as shown. String Q is not shown.\n\n[Diagram showing a horizontal beam. String P exerts an upward tension of 2.0 N at a distance of 30 cm from the left-hand end. The weight of the beam of 6.0 N acts vertically downwards at a distance of 20 cm from the left-hand end.]\n\nThe tension in string P is 2.0 N.\n\nWhat is the tension in string Q and where is it attached so that the beam is in equilibrium?\n\nA 4.0 N at 10.0 cm from the left-hand end\nB 4.0 N at 15.0 cm from the left-hand end\nC 6.0 N at 10.0 cm from the left-hand end\nD 8.0 N at 7.5 cm from the left-hand end",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q268": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car is travelling around a circular track at a constant speed, as shown.\n\nIn which direction is the resultant force on the car?\n\n[Diagram showing a car moving clockwise on a circular track. Arrow A points tangentially in the direction of motion, B points towards the centre of the circle, C points tangentially backwards, and D points directly outwards away from the centre.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q269": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two forces P and Q act on a metre rule as shown. The metre rule is pivoted at one end. The rule starts to rotate in a clockwise direction.\n\n[Diagram showing a metre rule pivoted at its left-hand end. A downward force P acts at a distance a from the pivot. An upward force Q acts at a distance b further along the rule from force P, i.e., at a distance (a + b) from the pivot.]\n\nWhich statement is correct?\n\nA P equals Q\nB P is less than Q\nC (P × a) is equal to (Q × b)\nD (P × a) is greater than (Q × (a + b))",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q270": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement gives a complete description of any object that is in equilibrium?\n\nA There are no forces acting.\nB There is no resultant force.\nC There is no resultant force and no resultant turning effect.\nD There is no resultant turning effect.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q271": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A hook is used to lift a metal plate, as shown.\n\n[Diagram showing a horizontal metal plate pivoted at its left-hand end. Its weight W acts downwards at a distance of 50 cm from the pivot. A hook pulls upwards with a force of 100 N at a distance of 40 cm to the right of the weight's line of action (90 cm from the pivot).]\n\nAn upward force of 100 N is needed to lift the metal plate about the pivot, as shown.\n\nWhat is the weight W of the metal plate?\n\nA 80 N\nB 100 N\nC 180 N\nD 225 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:51:31+00:00"
+ },
+ "q272": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the unit of the moment of a force?\n\nA N\nB N/kg\nC N/m\nD Nm",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q273": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ship travels due North through still water at a speed of 20 m/s.\n\nIt enters a channel where there is a current in the water from West to East. The speed of the current is 20 m/s.\n\nWhich diagram shows the resultant velocity v of the ship?\n\n[Four vector diagrams A, B, C and D showing a 20 m/s vector North and a 20 m/s vector East, alongside a compass rose showing N, S, E, W]\nA [A right triangle with 20 m/s North and 20 m/s East; hypotenuse has an arrow pointing South-East labelled v]\nB [A right triangle with 20 m/s North and 20 m/s East; hypotenuse has an arrow pointing North-West labelled v]\nC [A dashed rectangle with 20 m/s North and 20 m/s East; diagonal arrow points North-East labelled v]\nD [A dashed rectangle with 20 m/s North and 20 m/s East; diagonal arrow points South-West labelled v]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q274": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box of mass 2.0 kg is pulled across a horizontal floor by a force of 6.0 N.\n\nThe frictional force acting on the box is 1.0 N.\n\nWhat is the acceleration of the box?\n\nA 0.40 m/s^2\nB 2.5 m/s^2\nC 3.0 m/s^2\nD 3.5 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q275": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a uniform metre rule. The rule is pivoted at its mid-point. A downward force of 4.0 N acts on the rule at the 5 cm mark. The rule is held by a string at the 30 cm mark. The rule is in equilibrium.\n\n[Diagram showing a metre rule with markings at 0 cm, 5 cm, 30 cm, 50 cm, and 100 cm. A pivot is positioned at the 50 cm mark. A downward arrow representing a 4.0 N force is at the 5 cm mark. A vertical string supports the rule at the 30 cm mark.]\n\nWhat is the upward force that the string exerts on the rule?\n\nA 0.67 N\nB 4.0 N\nC 6.0 N\nD 9.0 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q276": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ship sails due North at a speed of 20 m/s. A current in the water begins to move from East to West. The speed of this current is 20 m/s.\n\nWhat is the magnitude of the resultant velocity of the ship?\n\nA 0 m/s\nB 20 m/s\nC 28 m/s\nD 40 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q277": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A stone of mass 0.12 kg is fired from a catapult. The velocity of the stone changes from 0 to 5.0 m/s in 0.60 s.\n\nWhat is the average resultant force acting on the stone while it is being fired?\n\nA 1.0 N\nB 2.5 N\nC 3.6 N\nD 8.3 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q278": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.3.1",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A uniform rod XY of weight 2.0 N has a length of 80 cm.\n\nThe rod is suspended by a thread 20 cm from end X. A weight of 5.0 N is suspended from end X.\n\n[Diagram showing a uniform rod XY of total length 80 cm. A supporting thread is attached 20 cm from end X. A downward force of 5.0 N acts at end X.]\n\nA student hangs a 6.0 N weight on the rod so that it is in equilibrium.\n\nWhat is the distance of the 6.0 N weight from end X?\n\nA 6 cm\nB 10 cm\nC 26 cm\nD 30 cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q279": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.3",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A wooden plank rests in equilibrium on two rocks on opposite sides of a narrow stream.\n\nThree forces P, Q and R act on the plank.\n\n[Diagram showing a wooden plank supported by two rocks. Upward force P acts at the left rock, upward force R acts at the right rock, and downward force Q acts near the centre of the plank.]\n\nHow are the sizes of the forces related?\n\nA P + Q = R\nB P + R = Q\nC P = Q = R\nD P = Q + R",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T13:57:21+00:00"
  }
 }
