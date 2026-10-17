@@ -3757,5 +3757,230 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-17T13:57:21+00:00"
+ },
+ "q280": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A balloon and a mass are attached to a rod that is pivoted at P. [A horizontal rod with markings at 45, 40, 35, 30, 25, 20, 15, 10, 5 cm, pivoted at P at the right end. A balloon is attached at the 30 cm mark applying an upward force. A mass is attached at the 20 cm mark hanging downwards.]\n\nThe balloon is filled with helium, a gas less dense than air, so that it applies an upward force on the rod.\n\nThe rod is horizontal and stationary.\n\nWhich action causes the rod to rotate clockwise?\n\nA Move both the balloon and mass 10 cm to the left.\nB Move both the balloon and mass 10 cm to the right.\nC Move both the balloon and mass to the 25 cm mark.\nD Move the balloon to the 20 cm mark and the mass to the 30 cm mark.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q281": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car is moving in a straight line on a level road. Its engine provides a forward force on the car. A second force of equal size acts on the car due to resistive forces.\n\nWhich statement describes what happens?\n\nA The car changes direction.\nB The car moves at a constant speed.\nC The car slows down.\nD The car speeds up.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q282": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object decelerates from 25.0 m/s to 5.0 m/s in a time of 4.0 s.\n\nIt has a mass of 50 kg.\n\nWhat is the resultant force on the object?\n\nA 0.63 N\nB 10 N\nC 250 N\nD 4000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q283": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam is pivoted at one end, as shown. [A beam is pivoted at its left end. A downward arrow representing a weight of 6.0 N acts at point X, 40 cm from the pivot.]\n\nThe beam weighs 6.0 N and its weight acts at a point X, 40 cm from the pivot.\n\nA force of 4.0 N is applied to the beam causing it to balance horizontally.\n\nIn which direction and where is the 4.0 N force applied?\n\nA downwards at 20 cm to the left of X\nB downwards at 20 cm to the right of X\nC upwards at 20 cm to the left of X\nD upwards at 20 cm to the right of X",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q284": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A spacecraft is travelling in space with no resultant force and no resultant moment acting on it.\n\nWhich statement about the spacecraft is correct?\n\nA Its direction is changing.\nB It is in equilibrium.\nC Its speed is decreasing.\nD Its speed is increasing.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q285": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.10",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A load is hung from a steel wire. The load is increased.\n\nThe length of the wire increases until the limit of proportionality is reached.\n\nThe load is now increased slightly.\n\nWhat happens?\n\nA The extension of the wire increases and the wire no longer obeys Hooke’s law.\nB The extension of the wire decreases and the wire no longer obeys Hooke’s law.\nC The extension of the wire increases and it obeys Hooke’s law.\nD The extension of the wire decreases and it obeys Hooke’s law.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q286": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.2",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a uniform metre rule pivoted at the 30 cm mark. [A metre rule is pivoted at the 30 cm mark. A weight of 6.0 N is suspended at 0 cm and a weight of 2.0 N is suspended at 70 cm.]\n\nThe rule balances when a weight of 6.0 N is hanging from the zero mark and a weight of 2.0 N is hanging from the 70 cm mark.\n\nWhat is the weight of the rule?\n\nA 2.0 N\nB 5.0 N\nC 6.0 N\nD 13.0 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q287": {
+  "status": "done",
+  "subpoints": [
+   "1.1.6",
+   "1.1.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An astronaut orbits the Earth in a space station.\n\nWhich is a vector quantity?\n\nA the mass of the astronaut\nB the speed of the satellite\nC the temperature inside the satellite\nD the weight of the astronaut",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:20:08+00:00"
+ },
+ "q288": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A resultant force of 4.0 N acts on an object of mass 0.50 kg for 3.0 seconds.\n\nWhat is the change in velocity caused by this force?\n\nA 4.0 m/s\nB 6.0 m/s\nC 12 m/s\nD 24 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q289": {
+  "status": "done",
+  "subpoints": [
+   "1.1.6",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantities are both vectors?\n\nA acceleration and force\nB acceleration and pressure\nC density and force\nD density and pressure",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q290": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the length of a spring changes when the stretching force is increased.\n\n[Graph of length of spring / cm against force / N. The line starts at (0, 5) and passes linearly through (2, 11), (4, 17), and (5, 20), before curving upwards to (5.5, 25).]\n\nIn the Hooke’s law region, what is the spring constant for this spring?\n\nA 0.20 N/cm\nB 0.22 N/cm\nC 0.28 N/cm\nD 0.33 N/cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q291": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Point X is the centre of mass of a lamina in the shape of a triangle with sides of equal length. The top of the triangle is cut off along the dotted line shown.\n\n[Diagram showing an equilateral triangle with point X marked as its centre of mass. A horizontal dotted line is drawn across the upper section of the triangle.]\n\nWhat happens to the centre of mass, X?\n\nA moves towards the bottom of the page\nB moves to the left\nC moves to the right\nD moves towards the top of the page",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q292": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object accelerates from 10 m/s to 30 m/s in 4.0 seconds.\n\nThe accelerating force is 150 N.\n\nWhat is the mass of the object?\n\nA 0.033 kg\nB 5.0 kg\nC 7.5 kg\nD 30 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q293": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a uniform bar of length 120 cm and weight W. The bar is pivoted at a point 40 cm from the left end of the bar.\n\nA load of W/2 is suspended from the right-hand end of the bar.\n\nA downward force F is applied to the left-hand end of the bar to keep it in equilibrium.\n\n[Diagram showing a horizontal uniform bar with positions marked at 0, 40 cm, 60 cm, and 120 cm. A downward force F acts at 0. The pivot is located at 40 cm. The bar's weight W acts downwards at the centre, 60 cm. A load of weight W/2 is attached at 120 cm.]\n\nWhat is the magnitude of force F?\n\nA W/2\nB W\nC 3W/2\nD 2W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q294": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.8",
+   "1.5.1.5",
+   "1.2.13"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A skydiver jumps from a stationary helicopter and reaches a steady vertical speed. She then opens her parachute.\n\nWhich statement about the falling skydiver is correct?\n\nA As her parachute opens, her acceleration is upwards.\nB As she falls at a steady speed with her parachute open, her weight is zero.\nC When she accelerates, the resultant force on her is zero.\nD When she falls at a steady speed, air resistance is zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q295": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12",
+   "1.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car moves in a circular path as it turns a corner on a horizontal road.\n\nThe car moves at constant speed.\n\n[Diagram showing a car turning left along a dashed circular path, with an arrow indicating the direction of travel.]\n\nWhich description of the forces acting on the car is correct?\n\nA All the forces are balanced as the car is moving at constant speed.\nB The forces are unbalanced and the resultant force acts away from the centre of the circle.\nC The forces are unbalanced and the resultant force acts towards the centre of the circle.\nD The forces are unbalanced and the resultant force is in the direction of travel of the car.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T17:22:23+00:00"
  }
 }
