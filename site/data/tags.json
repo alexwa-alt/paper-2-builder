@@ -3982,5 +3982,336 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-17T17:22:23+00:00"
+ },
+ "q296": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A boat is travelling at a steady speed in a straight line across the surface of a lake.\n\nWhich statement about the boat is correct?\n\nA The resultant force on the boat is in the direction of motion.\nB The resultant force on the boat is in the opposite direction to its motion.\nC The resultant force on the boat is vertically downwards.\nD The resultant force on the boat is zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q297": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.3",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of weight 1.2 N drops through the air at terminal velocity.\n\nA sudden gust of wind exerts a horizontal force of 0.5 N on the ball from the left.\n\nWhich diagram shows the resultant force on the ball while the wind is blowing?\n\n[Four diagrams showing forces on the ball:\nA: Downward weight 1.2 N and horizontal force 0.5 N to the right, with a diagonal resultant force pointing downwards and to the right.\nB: Downward weight 1.2 N, horizontal force 0.5 N to the right, with a resultant force pointing upwards and to the right.\nC: Upward drag 1.2 N, downward weight 1.2 N, and horizontal force 0.5 N to the right, showing the resultant force is 0.5 N to the right.\nD: Upward force 1.2 N and horizontal force 0.5 N to the right, with a diagonal resultant force pointing upwards and to the right.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q298": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a uniform bridge, 4.0 m long and weighing 10 000 N.\n\nThe bridge is pivoted at one end. A force at the other end gradually increases until the bridge begins to lift.\n\n[Diagram shows a bridge of total length 4.0 m pivoted at the left end. An upward 'lifting force' is applied at the right end.]\n\nWhat is the lifting force as the bridge starts to move upwards?\n\nA 2500 N\nB 5000 N\nC 10 000 N\nD 20 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q299": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In which pair are both quantities measured in newtons?\n\nA force and pressure\nB force and weight\nC mass and pressure\nD mass and weight",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q300": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring which obeys Hooke's Law has an unstretched length of 10 cm.\n\nA load of 20 N is hung from the spring.\n\nThe new length of the spring is 36 cm.\n\nWhat is the spring constant k of the spring?\n\nA 0.56 N / cm\nB 0.77 N / cm\nC 1.3 N / cm\nD 1.8 N / cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q301": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.5",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car travels forwards along a straight horizontal road. Only the horizontal forces acting on it are shown.\n\n[Diagram shows a car facing left. An arrow pointing left indicates 'driving force'. A longer arrow pointing right indicates 'air resistance and friction'.]\n\nThe length of each arrow represents the size of each force.\n\nHow do these forces affect the motion of the car?\n\nA The car moves at constant speed.\nB The car moves backwards.\nC The car slows down.\nD The car's forward speed increases.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q302": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a wooden beam of weight 20 N. The centre of mass of the beam is labelled M.\n\nThere is a pivot at one end of the beam. The beam is kept horizontal by an upward force, F.\n\n[Diagram shows a beam supported by a pivot at its left end. The centre of mass M is 1.2 m from the pivot with a downward force of 20 N. An upward force F is applied at a distance of 2.0 m from the pivot.]\n\nWhat is the magnitude of F?\n\nA 12 N\nB 20 N\nC 30 N\nD 33 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q303": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an object being acted upon by two forces.\n\n[Diagram shows a rectangular block with a horizontal force of 6.0 N acting towards the right and a horizontal force of 3.0 N acting towards the left.]\n\nWhat is the size of the resultant force on the object?\n\nA 2.0 N\nB 3.0 N\nC 9.0 N\nD 18 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:33:31+00:00"
+ },
+ "q304": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a man holding a sack and barrow stationary. He applies a vertical force to the handle.\n\nThe centre of mass and the weight of the sack and barrow are shown. The wheel acts as a pivot.\n\n[Diagram shows a man lifting a wheelbarrow. The wheel acts as a pivot on the ground. The centre of mass of the sack and barrow has a downward arrow labelled 'weight of sack and barrow 200 N', which is 15 cm horizontally from the pivot. The upward vertical force exerted by the man at the handle is 45 cm horizontally from the weight's line of action (60 cm from the pivot). A distance of 20 cm is marked along the frame to the centre of mass, and 80 cm is the vertical height from the ground to the handle.]\n\nWhat is the magnitude of the vertical force exerted by the man?\nA 38 N\nB 50 N\nC 67 N\nD 200 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q305": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the only two forces F_1 and F_2 acting on an object. The magnitude of each force is represented by the length of each arrow.\n\n[Diagram shows an object with force F_2 acting vertically downwards and force F_1 directed upwards and to the right. The angle between F_1 and F_2 is 110°.]\n\nThe resultant force acting on the object is R.\n\nWhich vector diagram shows how forces F_1 and F_2 add to produce R?\nA [Vector triangle: F_2 downwards, F_1 pointing up and right from the start of F_2 with angle 110° between them, R pointing upwards from tip of F_2 to tip of F_1]\nB [Vector triangle: F_2 downwards, F_1 pointing up and right from the tip of F_2 with angle 70° between them, R pointing horizontally left to the start of F_2]\nC [Vector triangle: F_2 downwards, F_1 pointing up and right from the start of F_2 with angle 110° between them, R pointing downwards from tip of F_1 to tip of F_2]\nD [Vector triangle: F_2 downwards, F_1 pointing up and right from the tip of F_2 with angle 70° between them, R pointing horizontally right from the start of F_2 to the tip of F_1]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q306": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A spring is stretched by hanging a piece of metal from it.\n\n[Diagram shows a vertical spring suspended from a support with a metal block hanging from its bottom end.]\n\nWhich name is given to the force that stretches the spring?\nA friction\nB mass\nC pressure\nD weight",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q307": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which object has the greatest weight?\nA an object of mass 10 kg in a 15 N/kg gravitational field\nB an object of mass 15 kg in a 13 N/kg gravitational field\nC an object of mass 20 kg in a 9.0 N/kg gravitational field\nD an object of mass 50 kg in a 3.0 N/kg gravitational field",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q308": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A uniform beam XY is 100 cm long and weighs 4.0 N.\n\n[Diagram shows a horizontal beam XY. End X is on the left and end Y is on the right. A load of 8.0 N hangs 10 cm from end X. The centre of the beam is marked at 50 cm from end X. A pivot supports the beam at 60 cm from end X. A downward force F acts on the beam at 80 cm from end X.]\n\nThe beam rests on a pivot 60 cm from end X.\n\nA load of 8.0 N hangs from the beam 10 cm from end X.\n\nThe beam is kept balanced by a force F acting on the beam 80 cm from end X.\n\nWhat is the magnitude of force F?\nA 8.0 N\nB 18 N\nC 22 N\nD 44 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q309": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show four table lamps resting on a table. The position of the centre of mass of each lamp is labelled X.\n\nWhich lamp is the most stable?\n\n[Diagram shows four table lamps:\nA has a narrow flat base and centre of mass X high on the stem.\nB has a wide flared base and centre of mass X low near the base.\nC has a wide flat base and centre of mass X high on the stem.\nD has a narrow flared base and centre of mass X low near the base.]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q310": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an incomplete scale drawing to find the resultant of two 10 N forces acting at a point in the directions shown.\n\n[Diagram shows a grid with two vectors originating from the same point: a horizontal vector to the right of magnitude 10 N (length 8 units), and a vector of magnitude 10 N directed diagonally downwards and to the right. Dashed lines complete a parallelogram to find the resultant.]\n\nWhat is the magnitude of the resultant force?\nA 7.5 N\nB 8.6 N\nC 18 N\nD 20 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q312": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is pivoted at point P. A student ties a length of string to a peg on the object. He pulls the string with a force F.\n\n[Diagram shows an irregularly shaped object pivoted at point P. A string attached to a peg on the object is pulled upwards and to the right with force F. Four distances from P are indicated: q is the horizontal distance from P to the line through the peg; r is the straight-line distance from P to the peg; s is the perpendicular distance from P to the line of action of the string; t is the straight-line distance from P to a point further along the string.]\n\nWhat is the moment of the force F about the point P?\nA F × q\nB F × r\nC F × s\nD F × t",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:36:16+00:00"
+ },
+ "q313": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Each diagram shows a metal plate with four parallel forces acting on it. These are the only forces acting on the plates.\n\nIn which diagram is the plate in equilibrium?\n\nA [Diagram of a square plate with forces: 1.0 N to the right and 2.0 N to the left acting on the upper section; 2.0 N to the right and 1.0 N to the left acting on the lower section]\nB [Diagram of a square plate with forces: 2.0 N to the right and 1.0 N to the left acting on the upper section; 1.0 N to the right and 2.0 N to the left acting on the lower section]\nC [Diagram of a square plate with forces: 1.0 N to the right and 1.0 N to the left acting on the upper section; 2.0 N to the right and 2.0 N to the left acting on the lower section]\nD [Diagram of a square plate with forces: 2.0 N to the right and 1.0 N to the left acting on the upper section; 2.0 N to the right and 2.0 N to the left acting on the lower section]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q314": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.5.1.11",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the vertical forces acting on a ball as it falls vertically through the air. The ball does not reach terminal velocity.\n\n[Diagram showing a ball with an upward arrow labelled 'air resistance' and a longer downward arrow labelled 'weight']\n\nWhich row describes what happens to the resultant force on the ball and what happens to the acceleration of the ball as it falls through the air?\n\n        resultant force | acceleration\nA | decreases | decreases\nB | decreases | increases\nC | increases | decreases\nD | increases | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q315": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A pair of cutters is used to cut a rope.\n\n[Diagram showing a pair of cutters with two blades and two handles pivoted together. Labelled points on the blade: P is near the tip, Q is near the pivot. Labelled points on the handle: R is near the pivot, S is at the far end of the handle.]\n\nWhere should the rope be positioned and at which labelled points should the hands be positioned to produce the greatest cutting force?\n\n    rope positioned | hands positioned\nA | P | R\nB | P | S\nC | Q | R\nD | Q | S",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q316": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The lamp in the diagram is not very stable and falls over easily.\n\n[Diagram showing a table lamp with a wide shade at the top, a tall vertical stem, and a small narrow base at the bottom.]\n\nWhich row shows changes that would definitely make the lamp more stable?\n\n    base | centre of gravity\nA | narrower | higher\nB | narrower | lower\nC | wider | higher\nD | wider | lower",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q317": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object has a mass of 60 kg.\n\nIt decelerates from 50 m/s to 20 m/s when a resultant force of 300 N acts on it.\n\nFor how long does the force act?\n\nA 0.071 s\nB 0.17 s\nC 6.0 s\nD 14 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q318": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The momentum of a body is changed by a force acting on it for a period of time.\n\nWhich action increases the change in momentum?\n\nA doubling the force and halving the time\nB doubling the force for the same time\nC halving both the force and the time\nD halving the force and doubling the time",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q319": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of mass 0.25 kg hits a wall at a speed of 16 m/s. It then rebounds back along its original path at a speed of 12 m/s.\n\nWhat is the impulse experienced by the ball during its impact with the wall?\n\nA 1.0 N s\nB 3.0 N s\nC 4.0 N s\nD 7.0 N s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q320": {
+  "status": "done",
+  "subpoints": [
+   "1.1.6",
+   "1.1.5",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which physical quantity is a vector?\n\nA mass\nB density\nC temperature\nD velocity",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T19:38:50+00:00"
  }
 }
