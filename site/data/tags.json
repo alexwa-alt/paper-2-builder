@@ -2098,5 +2098,1108 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q157": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement about the mass of an object is correct?\n\nA It is equal to the density divided by the volume.\nB It is equal to weight multiplied by the gravitational field strength.\nC It is the effect of a gravitational field on the object.\nD It is the property that resists a change in velocity.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q158": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A person steps onto a bathroom scales.\n\nThe bathroom scales records both mass and weight.\n\nWhich row shows the readings on the scales?\n\n| | mass | weight |\n|---|---|---|\n| A | 60 N | 600 kg |\n| B | 60 kg | 600 N |\n| C | 600 kg | 60 N |\n| D | 600 N | 60 kg |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q159": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object has a weight of 7600 N in a gravitational field of strength 100 N/kg.\n\nWhat is the mass of the object?\n\nA 76 kg\nB 760 N\nC 7600 g\nD 76 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q160": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.4",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A helium balloon is tied to a top-pan balance. A metal block of mass 100 g is placed on the balance. The reading on the balance is 91 g.\n\n[Diagram showing a top-pan balance reading 91 g, with a metal block on the pan and a helium balloon tied to the pan by a string pulling upwards]\n\nWhich statement can be deduced from this experiment?\n\nA The balloon exerts a downward force of 0.09 N on the top-pan balance.\nB The helium has a mass of -9 g.\nC The helium has a mass of +9 g.\nD The resultant downward force on the top-pan balance is 0.91 N.",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q161": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the masses and weights of objects on the Earth is correct?\n\nA A balance can only be used to compare weights, not masses.\nB Heavy objects always have more mass than light ones.\nC Large objects always have more mass than small ones.\nD Mass is a force but weight is not.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q162": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object in a space probe above the Earth weighs 3.5 N. The gravitational field strength at the height of the space probe is 7.0 N/kg.\n\nThe gravitational field strength on the Earth’s surface is 10 N/kg.\n\nWhat are the mass and the weight of the object on the Earth’s surface?\n\n| | mass / kg | weight / N |\n|---|---|---|\n| A | 0.50 | 3.5 |\n| B | 0.50 | 5.0 |\n| C | 2.0 | 3.5 |\n| D | 2.0 | 20 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q163": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A piece of steel is taken from the Earth to the Moon for an experiment. The gravitational field strength on the Moon is smaller than on the Earth.\n\nWhich statement about the piece of steel is correct?\n\nA It has less mass on the Moon than on the Earth.\nB It has more mass on the Moon than on the Earth.\nC It weighs less on the Moon than on the Earth.\nD It weighs more on the Moon than on the Earth.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q164": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.1.5",
+   "1.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A body of mass m has a weight W in a location where the gravitational field strength is g.\n\nWhich statement about these quantities is correct?\n\nA m and W are both forces.\nB m and W are both vector quantities.\nC m and W are related by the equation W / m = g.\nD m and W have the same unit.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:00+00:00"
+ },
+ "q166": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A shopkeeper pours rice into a dish that hangs from a spring balance. He records the reading.\n\n[Diagram showing a spring balance supporting a hanging dish containing rice. The dial of the spring balance reads approximately 2.2 units.]\n\nA customer buys some pasta. The shopkeeper notices that the reading on the spring balance, with just pasta in the dish, is the same as it was with just rice in the dish.\n\nWhich quantity must be the same for the rice and for the pasta?\n\nA density\nB temperature\nC volume\nD weight",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q167": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student determines the density of an irregularly shaped stone. The stone is slowly lowered into a measuring cylinder partly filled with water.\n\n[Diagram showing a measuring cylinder partly filled with water and a stone submerged at the bottom, suspended by a string.]\n\nWhich other apparatus does the student need to calculate the density of the irregularly shaped stone?\n\nA a balance\nB a thermometer\nC a metre rule\nD a stop-watch",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q168": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which two quantities must be known to determine the density of a material?\n\nA mass and area\nB mass and volume\nC weight and area\nD weight and volume",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q169": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student carries out an experiment to find the density of a rock.\n\n[Diagram showing two balances. On the left balance, a measuring cylinder containing liquid reads 200 g. On the right balance, the measuring cylinder with liquid and a submerged rock reads 264 g.]\n\nWhich two measurements does the student need to make to determine the density of the rock?\n\n| | measurement 1 | measurement 2 |\n|---|---|---|\n| A | increase in mass | increase in volume of liquid |\n| B | final mass | increase in depth of liquid |\n| C | increase in mass | increase in depth of liquid |\n| D | final mass | increase in volume of liquid |",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q171": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the dimensions of a solid rectangular block of metal of mass m.\n\n[Diagram of a rectangular block with length p, width q, and height r.]\n\nWhich expression is used to calculate the density of the metal?\n\nA m / (p × q)\nB m / (p × q × r)\nC m × p × q\nD m × p × q × r",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q172": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows four pieces of laboratory apparatus.\n\n[Diagram showing a digital balance reading 0.0g, a measuring cylinder, a ruler, and a stop-watch reading 00:00.]\n\nWhich pieces of apparatus are used to find the density of a liquid?\n\nA balance and stop-watch\nB balance and measuring cylinder\nC measuring cylinder and ruler\nD stop-watch and ruler",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q173": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A small bottle has a mass of 20 g when empty. The volume of the bottle is 10 cm^3.\n\nWhen full of liquid, the total mass is 150 g.\n\nWhat is the density of the liquid?\n\nA 0.50 g/cm^3\nB 2.0 g/cm^3\nC 13 g/cm^3\nD 15 g/cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q174": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The mass of an empty flask is 34 g.\n\nThe volume of liquid added to the flask is 20 cm^3.\n\nThe total mass of the flask and the liquid is 50 g.\n\nWhat is the density of the liquid?\n\nA 0.80 g/cm^3\nB 1.25 g/cm^3\nC 2.50 g/cm^3\nD 4.20 g/cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:31:37+00:00"
+ },
+ "q175": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A measuring cylinder contains 40 cm^3 of water.\n\nA stone of mass 94 g is lowered into the water so that it is fully submerged as shown.\n\n[Diagram showing a measuring cylinder with an initial water volume of 40 cm^3. With the stone submerged, a magnified view shows the bottom of the curved meniscus at 76 cm^3.]\n\nWhat is the density of the stone?\n\nA 1.1 g/cm^3\nB 1.2 g/cm^3\nC 2.1 g/cm^3\nD 2.6 g/cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q176": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The tank shown has the dimensions 5.0 m × 4.0 m × 4.0 m.\n\nIt is completely filled with water of density 1000 kg / m^3.\n\n[Diagram of a cuboidal tank with height 5.0 m, width 4.0 m, and length 4.0 m]\n\nWhat is the mass of water in the tank?\n\nA 12.5 kg\nB 62.5 kg\nC 16 000 kg\nD 80 000 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q177": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which substance in the table has the lowest density?\n\n| | substance | mass / g | volume / cm^3 |\n|---|---|---|---|\n| A | nylon | 1.2 | 1.0 |\n| B | cotton | 1.5 | 1.0 |\n| C | olive oil | 1.8 | 2.0 |\n| D | water | 2.0 | 2.0 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q178": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A measuring cylinder contains 40 cm^3 of water.\n\nA solid metal ball is dropped into the water and the water level rises to 56 cm^3.\n\nThe mass of the ball is 80 g.\n\nWhat is the density of the metal from which the ball is made?\n\nA 0.20 g / cm^3\nB 1.4 g / cm^3\nC 2.0 g / cm^3\nD 5.0 g / cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q179": {
+  "status": "done",
+  "subpoints": [
+   "1.4.3",
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The mass of a measuring cylinder is 190 g.\n\n400 cm^3 of liquid is put into the measuring cylinder.\n\nThe total mass of the measuring cylinder and the liquid is 560 g.\n\nFour solid objects are lowered in turn into the liquid. The densities of the objects are shown.\n\n1  0.40 g / cm^3\n2  0.90 g / cm^3\n3  1.2 g / cm^3\n4  2.7 g / cm^3\n\nWhich objects will float in the liquid?\n\nA 1 only\nB 1 and 2 only\nC 1, 2 and 3\nD 3 and 4 only",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q180": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Water has a density of 1000 kg / m^3.\n\nA rectangular swimming pool has an average depth of 1.6 m.\n\nThe length of the pool is 25 m.\n\nThe width of the pool is 10 m.\n\nWhat is the mass of the water in the swimming pool?\n\nA 2.5 kg\nB 400 kg\nC 400 000 kg\nD 800 000 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q181": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A rectangular gymnasium is 50 m long, 25 m wide and 8.0 m high.\n\nThe density of air is 1.2 kg / m^3.\n\nWhat is the best estimate of the mass of air in the gymnasium?\n\nA 0.00012 kg\nB 100 kg\nC 8300 kg\nD 12 000 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q182": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal ball is attached to a cork and is lowered into a measuring cylinder, pulling the cork into the water, as shown.\n\n[Diagram showing three stages:\n1. Ball and cork above the water: water level = 48 cm^3.\n2. Ball fully submerged but cork above the water: water level = 56 cm^3.\n3. Both ball and cork fully submerged: water level = 80 cm^3.]\n\nThe mass of the cork is 4.8 g.\n\nWhat is the density of the cork?\n\nA 0.15 g / cm^3\nB 0.20 g / cm^3\nC 0.60 g / cm^3\nD 5.0 g / cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:11+00:00"
+ },
+ "q183": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A rectangular metal block is 20 cm long.\n\nThe cross-sectional area of the block is 25 cm^2.\n\nThe mass of the block is 4000 g.\n\nWhat is the density of the metal?\n\nA 0.13 g / cm^3\nB 0.32 g / cm^3\nC 8.0 g / cm^3\nD 2000 g / cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q184": {
+  "status": "done",
+  "subpoints": [
+   "1.4.3",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A square wooden raft floats on a lake. The density of the water in the lake is 1000 kg / m^3.\n\nThe sides of the raft are 2.0 m long and the thickness of the raft is 0.20 m.\n\nThe mass of the raft is 700 kg.\n\nHow many barrels, each of mass 100 kg, could be placed on the raft before its surface sinks to the surface of the water?\n\nA 1\nB 7\nC 8\nD 15",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q185": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A solid ball has a volume of 4.0 cm^3. The density of the ball is 1.6 g / cm^3.\n\nWhat is the mass of the ball?\n\nA 0.4 g\nB 2.5 g\nC 4.0 g\nD 6.4 g",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q186": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show four solid blocks with their dimensions and masses.\n\nWhich block has the greatest density?\n\nA [cylinder with cross-sectional area = 10 cm^2, height = 2.0 cm, mass = 14 g]\nB [cylinder with cross-sectional area = 20 cm^2, height = 2.0 cm, mass = 48 g]\nC [cuboid with cross-sectional area = 10 cm^2, height = 2.0 cm, mass = 54 g]\nD [cuboid with cross-sectional area = 20 cm^2, height = 2.0 cm, mass = 68 g]",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q187": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal has a density of 8.0 g / cm^3. A solid cube of mass 1.0 kg is made from this metal.\n\nHow long is each side of the cube?\n\nA 0.50 cm\nB 2.0 cm\nC 5.0 cm\nD 42 cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q188": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "X, Y and Z are three regularly shaped solid objects.\n\nTheir dimensions and masses are shown in the diagrams.\n\n[Object X on an electronic balance reading 200 g, dimensions: 10 cm × 5 cm × 2 cm]\n[Object Y on an electronic balance reading 200 g, dimensions: 6 cm × 4 cm × 3 cm]\n[Object Z on an electronic balance reading 50 g, dimensions: 25 cm × 1 cm × 1 cm]\n\nWhich objects have the same density?\n\nA X, Y and Z\nB X and Y only\nC X and Z only\nD Y and Z only",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q189": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The density of air is 1.2 kg / m^3.\n\nA room has dimensions 5.0 m × 4.0 m × 3.0 m.\n\nWhat is the mass of the air in the room?\n\nA 0.02 kg\nB 0.10 kg\nC 50 kg\nD 72 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q190": {
+  "status": "done",
+  "subpoints": [
+   "1.4.3",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The table gives the mass and the volume of three objects P, Q and R.\n\nobject | mass / g | volume / cm^3\nP | 23 | 36\nQ | 170 | 720\nR | 240 | 340\n\nWhich objects can float in a liquid of density 0.85 g / cm^3?\n\nA P and Q only\nB P and R only\nC Q and R only\nD P, Q and R",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:32:57+00:00"
+ },
+ "q191": {
+  "status": "done",
+  "subpoints": [
+   "1.4.3",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four hollow glass spheres P, Q, R and S each have a mass of 72 g.\n\nTheir volumes are given in the table.\n\n[Table:\n| | volume / cm^3 |\n|---|---|\n| P | 55 |\n| Q | 65 |\n| R | 75 |\n| S | 85 |]\n\nWhich spheres sink in a liquid of density 0.9 g / cm^3?\n\nA P, Q and R\nB Q, R and S\nC R and S only\nD S only",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q192": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A force acting on a moving ball causes its motion to change. This force stays constant.\n\nWhat makes the force produce a greater change in the motion of the ball?\n\nA decreasing the total mass of the ball\nB increasing the temperature of the ball\nC using a ball with a hollow centre but the same mass\nD using a different material for the ball so that it has a lower density but the same mass",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q193": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A liquid has a volume of 0.040 m^3 and a mass of 30 000 g.\n\nWhat is the density of the liquid?\n\nA 0.075 kg / m^3\nB 7.5 kg / m^3\nC 750 kg / m^3\nD 7500 kg / m^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q194": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows four blocks of different metals. Each block has a mass of 12 g.\n\nWhich metal has the largest density?\n\n[Diagram showing four rectangular blocks:\nA: dimensions 2 cm × 1 cm × 1 cm\nB: dimensions 2 cm × 2 cm × 1 cm\nC: dimensions 3 cm × 1 cm × 1 cm\nD: dimensions 3 cm × 2 cm × 1 cm]\n\nA A\nB B\nC C\nD D",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q195": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student carries out experiments to find the mass and the volume of four samples of rock.\n\nThe graph shows the results.\n\n[Graph of mass / g against volume / cm^3 with points plotted:\nsample P at (50, 200)\nsample Q at (100, 200)\nsample R at (50, 100)\nsample S at (100, 100)]\n\nWhich pair are samples of the same type of rock?\n\nA P and Q\nB P and S\nC R and Q\nD Q and S",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q196": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A measuring cylinder containing only water is placed on an electronic balance. A small, irregularly shaped stone is now completely immersed in the water.\n\nThe diagrams show the equipment before and after the stone is immersed.\n\n[Diagram showing:\nBefore the stone is immersed: measuring cylinder reading 40 cm^3, balance reading 105.0 g\nAfter the stone is immersed: measuring cylinder reading 65 cm^3, balance reading 217.5 g]\n\nWhat is the density of the material of the stone?\n\nA 1.7 g / cm^3\nB 3.3 g / cm^3\nC 4.5 g / cm^3\nD 8.7 g / cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q197": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The masses of a measuring cylinder before and after pouring some liquid into it are shown in the diagram.\n\n[Diagram showing:\nEmpty measuring cylinder: mass = 80 g\nMeasuring cylinder with liquid: liquid level at 140 cm^3, mass = 180 g]\n\nWhat is the density of the liquid?\n\nA 100 / 120 g / cm^3\nB 100 / 140 g / cm^3\nC 180 / 120 g / cm^3\nD 180 / 140 g / cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q198": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A steel ball bearing has a mass of 24 g and a density of 8.0 g / cm^3. It is lowered into a measuring cylinder containing 12 cm^3 of water.\n\nWhat is the new water level in the cylinder?\n\nA 3.0 cm^3\nB 4.0 cm^3\nC 15 cm^3\nD 16 cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:33:37+00:00"
+ },
+ "q199": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.5.1.7",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is rising vertically at constant speed through water. There are three vertical forces acting on it: the weight W, the drag force D, and the upward force U.\n\nWhich diagram shows the magnitude and direction of the vertical forces acting on the object?\n\nA [Diagram showing forces: U = 2.0 N pointing up, an unlabelled 1.0 N pointing up, W = 3.0 N pointing down]\nB [Diagram showing forces: U = 3.0 N pointing up, D = 2.0 N pointing up, W = 1.0 N pointing down]\nC [Diagram showing forces: U = 2.0 N pointing up, D = 1.0 N pointing down, W = 3.0 N pointing down]\nD [Diagram showing forces: U = 3.0 N pointing up, D = 1.0 N pointing down, W = 2.0 N pointing down]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q200": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Two boys of equal weight sit on one side of a see-saw, as shown. Their father, of weight 1000 N, sits on the other side. The see-saw is balanced and is being used so that it moves up and down.\n\n[Diagram of a see-saw with a father sitting on the left side and two boys sitting on the right side]\n\nDuring one part of the cycle, the father descends through a distance of 40 cm. At the same time, the boy nearest the pivot rises through 20 cm, while the other boy rises through 80 cm.\n\nWhat is the weight of each boy?\n\nA 200 N\nB 400 N\nC 600 N\nD 800 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q201": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student measures the length of a spring. She then attaches different weights to the spring. She measures the length of the spring for each weight.\n\nThe table shows her results.\n\nweight / N | length / mm\n0 | 520\n1.0 | 524\n2.0 | 528\n3.0 | 533\n4.0 | 537\n5.0 | 540\n\nWhat is the extension of the spring with a weight of 3.0 N attached to it?\n\nA 4 mm\nB 5 mm\nC 12 mm\nD 13 mm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q202": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A train is travelling horizontally in a straight line. A book is on a table in the train.\n\nThe diagram shows all the forces acting on the book.\n\n[Diagram showing a book on a table. Vertical forces are contact force acting upwards and weight of book acting downwards. A horizontal frictional force acts to the right.]\n\nHow is the train moving?\n\nA accelerating to the left of the diagram\nB accelerating to the right of the diagram\nC moving at uniform speed to the left of the diagram\nD moving at uniform speed to the right of the diagram",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q203": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.4",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show four beams, each of negligible weight and freely pivoted.\n\nWhich beam is not in equilibrium?\n\nA [Beam with pivot: 3.0 N acting downwards at 2.0 m to the left of the pivot; 6.0 N acting downwards at 1.0 m to the right of the pivot]\nB [Beam with pivot: 6.0 N acting downwards at 2.0 m to the left of the pivot; 6.0 N acting downwards at 2.0 m to the right of the pivot]\nC [Beam with pivot: 3.0 N acting downwards at 1.0 m to the left of the pivot; 3.0 N acting downwards at 2.0 m to the right of the pivot]\nD [Beam with pivot: 4.0 N acting downwards at 2.0 m to the left of the pivot; 4.0 N acting downwards at 1.0 m to the right and 2.0 N acting downwards at 2.0 m to the right of the pivot]",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q204": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object of mass 1.2 kg is moving with a velocity of 2.0 m/s when it is acted on by a force of 4.0 N. The velocity of the object increases to 5.0 m/s in the same direction.\n\nFor which period of time does the force act on the object?\n\nA 0.90 s\nB 1.1 s\nC 1.5 s\nD 3.6 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q205": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.5.1.5",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A truck is towing a car along a straight horizontal road at a constant speed.\n\n[Diagram showing a car connected by a rope to a truck travelling towards the right]\n\nThe rope breaks.\n\nWhich row gives the direction of the initial acceleration of the truck after the rope breaks and the reason for the acceleration?\n\nA direction: left | reason: the driving force is greater than the resistive forces on the truck\nB direction: left | reason: the driving force is smaller than the resistive forces on the truck\nC direction: right | reason: the driving force is greater than the resistive forces on the truck\nD direction: right | reason: the driving force is smaller than the resistive forces on the truck",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q206": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A uniform beam is pivoted at the centre and two identical masses, X and Y, are placed so that the beam balances.\n\nA smaller mass is then added at the position shown.\n\n[Diagram showing a uniform beam balanced on a central pivot with identical masses X on the left and Y on the right at equal distances from the pivot. A smaller mass is added to the left of the pivot, between X and the pivot.]\n\nHow can the masses be positioned so the beam balances again?\n\nA Move X away from the pivot.\nB Move X towards the pivot.\nC Move Y towards the pivot.\nD Move the small mass away from the pivot.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:36:26+00:00"
+ },
+ "q207": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A resultant force of 2.0 N acts on an object of mass 3.0 kg for 6.0 s.\n\nWhat is the change in velocity of the object?\n\nA  0.25 m/s\nB  1.0 m/s\nC  4.0 m/s\nD  36 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q208": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.4",
+   "1.5.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A cyclist is travelling in a straight line along a horizontal road at a constant speed.\n\nA constant driving force F acts on the cyclist in the forward direction shown.\n\n[Diagram of a cyclist riding forward with an arrow labeled F pointing horizontally forward]\n\nWhich statement about the magnitude of the frictional forces acting on the cyclist is correct?\n\nA  The magnitude is equal to F.\nB  The magnitude is smaller than F, but greater than zero.\nC  The magnitude is greater than F.\nD  The magnitude is zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q209": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring has an unstretched length of 3.0 cm. When a force of 60 N is applied to the spring, its length increases to 5.0 cm. The limit of proportionality is not exceeded.\n\nWhat is the spring constant of the spring?\n\nA  7.5 N/cm\nB  12 N/cm\nC  20 N/cm\nD  30 N/cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q210": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The diagram shows the minimum force F_1 acting vertically on a lever required to lift a heavy log of weight W.\n\n[Diagram showing a lever resting on a pivot between a log of weight W at the left and a downward vertical force F_1 applied at the right end]\n\nThe log needs to be lifted by a smaller force than F_1. The diagrams show the changes tried. Each diagram has only one change from the original diagram. In each case, F_2 is the minimum force required to lift the log.\n\nP: [Diagram showing increasing the length of the lever to the right of the pivot, with vertical downward force F_2 at the end]\nQ: [Diagram showing applying the force F_2 perpendicular to the lever at the end]\nR: [Diagram showing increasing the distance from the log to the pivot, with vertical downward force F_2 at the end]\n\nIn which situations will F_2 be smaller than F_1?\n\nA  P, Q and R\nB  P and Q only\nC  P only\nD  Q and R only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q211": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car has a mass of 1500 kg. A constant resultant force acts on the car and the car accelerates from 15 m/s to 20 m/s in 4.0 seconds.\n\nWhat is the magnitude of the resultant force acting on the car?\n\nA  300 N\nB  1200 N\nC  1900 N\nD  7500 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q212": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.10",
+   "1.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal wire is loaded up to the limit of proportionality.\n\nWhich statement is correct?\n\nA  Hooke's law is not obeyed when the load is increased from zero to this point.\nB  When the load is increased beyond the limit of proportionality, the diameter of the wire will increase.\nC  When the load is removed, the wire returns to its original length.\nD  Up to the limit of proportionality, there is no change in the shape of the wire.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q213": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a uniform metre rule, MN, pivoted at its midpoint P.\n\n[Diagram showing a metre rule MN pivoted at midpoint P, with weight W_1 hung on the left and weight W_2 hung on the right]\n\nTwo weights, W_1 and W_2, are hung either side of the pivot.\n\nThe rule remains balanced.\n\nWhich row is correct?\n\n| | direction of resultant moment about point M | direction of resultant force on the rule |\n|---|---|---|\n| A | clockwise | downwards |\n| B | clockwise | zero |\n| C | zero | downwards |\n| D | zero | zero |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q214": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object on the end of a string moves in a clockwise circular path at constant speed. The diagram shows the object as viewed from above.\n\nWhat is the direction of the resultant force on the object when it is in the position shown?\n\n[Diagram of an object attached to a string in a circular path moving clockwise, with four arrows originating from the object: A pointing toward the center along the string, B pointing horizontally to the left, C pointing tangentially in the direction of motion, and D pointing radially outward away from the center]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:37:35+00:00"
+ },
+ "q215": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam is pivoted at one end, as shown.\n\n[Diagram shows a horizontal beam with a pivot at its left end. A vertical downward arrow labelled 6.0 N acts at point X, 40 cm to the right of the pivot.]\n\nThe beam weighs 6.0 N and its weight acts at a point X 40 cm from the pivot.\n\nA force of 4.0 N is applied to the beam causing it to balance horizontally.\n\nIn which direction and where is the 4.0 N force applied?\n\nA vertically downwards at 20 cm to the left of X\nB vertically downwards at 20 cm to the right of X\nC vertically upwards at 20 cm to the left of X\nD vertically upwards at 20 cm to the right of X",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q216": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "On the diagram shown, what is the magnitude of the resultant force of the two vectors?\n\n[Diagram shows a square grid with a scale indicating the side of one grid square equals 2.0 N. From a common origin, a vector of 3 squares (6.0 N) points vertically upwards, and a vector of 4 squares (8.0 N) points horizontally to the right.]\n\nA 2.0 N\nB 7.0 N\nC 10 N\nD 14 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q217": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object moves at constant speed around a circular path.\n\nWhich statement is correct?\n\nA A resultant force acts on the object outwards from the centre of the circle.\nB A resultant force acts on the object in the direction it is travelling.\nC A resultant force acts on the object towards the centre of the circle.\nD There is no resultant force acting on the object because it is moving at constant speed.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q219": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows two forces acting at right angles to each other.\n\n[Diagram shows a square grid with a scale where one grid unit equals 1.0 N. From a common point, a force arrow of 3 units (3.0 N) points vertically upwards and a force arrow of 4 units (4.0 N) points horizontally to the right.]\n\nWhat is the resultant of the two forces?\n\nA 1.0 N\nB 5.0 N\nC 7.0 N\nD 12.0 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q220": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box of mass 4.0 kg is pulled along a horizontal floor in a straight line by a constant force F.\n\nThe constant frictional force acting on the box is 2.0 N.\n\nThe speed of the box increases from 0.50 m/s to 2.5 m/s in 2.0 s.\n\nWhat is the value of F?\n\nA 2.0 N\nB 4.0 N\nC 6.0 N\nD 7.0 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q221": {
+  "status": "done",
+  "subpoints": [
+   "1.1.4",
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two vectors, WX and WZ, are as shown.\n\n[Diagram shows two vector arrows WX and WZ originating from vertex W. Dashed lines complete the parallelogram WXYZ, including dashed lines XY, ZY, and the dashed diagonal WY with an arrow pointing towards Y.]\n\nWhat is the resultant of the vectors?\n\nA WY\nB XY\nC XZ\nD ZY",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q222": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which equation for impulse is correct?\n\nA impulse = Ft\nB impulse = F / t\nC impulse = (mv - mu)t\nD impulse = (mv - mu) / t",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q223": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wheelbarrow has a weight W of 140 N.\n\n[Diagram shows a wheelbarrow pivoted at the axle of its front wheel. Weight W acts downwards at a position between the wheel and the handle. A vertical upward force F is applied at the handles. The horizontal distance from the line of action of W to the handles is 0.8 m, and the total horizontal distance from the wheel pivot to the handles is 1.4 m.]\n\nWhich vertical force F is needed to support the wheelbarrow in the position shown?\n\nA 60 N\nB 80 N\nC 140 N\nD 245 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:38:38+00:00"
+ },
+ "q224": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A car is travelling around a circular track at a constant speed, as shown.\n\n[Diagram shows a circular track viewed from above. A car is at the top of the track moving in a clockwise direction. Four arrows are shown from the car: A points tangentially forwards, B points towards the centre of the track, C points tangentially backwards, and D points outwards away from the centre.]\n\nIn which direction is the resultant force on the car?\n\nA A\nB B\nC C\nD D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q225": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a metre rule MN on two supports, P and Q.\nTwo loads are placed on the rule, as shown.\n\n[Diagram shows a horizontal metre rule with ends labelled M and N resting on two triangular supports P and Q. Two rectangular loads rest on top of the rule: one between P and Q, and one to the right of Q.]\n\nThe rule rests steadily on the supports.\nWhich row is correct?\n\nA total moment about M: is clockwise | total moment about N: is anticlockwise\nB total moment about M: is clockwise | total moment about N: is zero\nC total moment about M: is zero | total moment about N: is clockwise\nD total moment about M: is zero | total moment about N: is zero",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q226": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an object moving at a constant speed in a circular path in the direction shown.\nA force acts on the object to keep it in the circular path.\n\n[Diagram shows an object moving clockwise around a circular path. The object is currently at the left-most position. Four arrows originate from the object: A points vertically upwards, B points horizontally to the left, C points vertically downwards, and D points horizontally to the right towards the centre.]\n\nIn which labelled direction does this force act, when the object is in the position shown?\n\nA A\nB B\nC C\nD D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q227": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal rod of length 80 cm is pivoted at point O. Its centre of mass is at its mid-point. Four pulley wheels are indicated by the letter P.\n\n[Diagram shows a horizontal metal rod of length 80 cm pivoted at its left end O. A vertical cord is attached to the rod at 20 cm from O, passes over two pulleys P, and supports a mass of 0.10 kg. A second vertical cord is attached to the rod at 20 cm from its right end, passes over two pulleys P, and supports a mass of 0.10 kg.]\n\nThe rod is in equilibrium, as shown.\nWhat is the weight of the rod?\n\nA 0.20 N\nB 1.0 N\nC 2.0 N\nD 4.0 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q228": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object of mass 0.80 kg is moving in a straight line at a velocity of 2.0 m/s. A force is exerted on the object, in the direction of motion, for a period of 1.0 minute and the velocity of the object increases to 6.0 m/s.\n\nWhat force is exerted on the object?\n\nA 0.053 N\nB 0.080 N\nC 3.2 N\nD 4.8 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q229": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object moves at constant speed in the circular path shown.\n\n[Diagram shows an object at point P on the right side of a circular path moving in a clockwise direction. Three arrows originate from P: X points horizontally to the right (outwards), Y points vertically downwards (tangent to the circle), and Z points horizontally to the left (towards the centre).]\n\nWhich statement about the acceleration of the object when it is at point P is correct?\n\nA The acceleration is in the direction of arrow X.\nB The acceleration is in the direction of arrow Y.\nC The acceleration is in the direction of arrow Z.\nD The object is not accelerating.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q230": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is pivoted at point P. A student ties a length of string to a peg on the object. He pulls the string with a force F.\n\n[Diagram shows an irregularly shaped object pivoted at P. A peg on the object has a string attached, pulled with force F. Four distances from P are indicated: q is a horizontal distance, r is the direct distance from P to the peg, s is the perpendicular distance from P to the line of action of force F, and t is the distance from P to the end of the string.]\n\nWhat is the moment of the force F about the point P?\n\nA F × q\nB F × r\nC F × s\nD F × t",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q231": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The extension–load graph for a spring is shown. The unstretched length of the spring is 17.0 cm.\n\n[Graph of extension / cm on the y-axis (from 0 to 3.5) against load / N on the x-axis (from 0 to 4.5). The line is straight and passes through the origin (0, 0) and through the point (3.0, 2.2).]\n\nWhen an object is suspended from the spring, the length of the spring is 19.2 cm.\n\nWhat is the weight of the object?\n\nA 1.4 N\nB 1.6 N\nC 2.6 N\nD 3.0 N",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:44:30+00:00"
+ },
+ "q232": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.3",
+   "1.5.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cart has a mass of 10 kg. A boy pushes on the cart horizontally with a force of 50 N. The cart accelerates at 0.50 m/s^2.\n\nWhat is the frictional force acting on the cart?\n\nA 5.0 N\nB 20 N\nC 30 N\nD 45 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q233": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A satellite orbits the Earth in an anticlockwise direction at constant speed, as shown.\n\n[Diagram shows a satellite orbiting the Earth in a circular anticlockwise path. At the position shown on the right side of the orbit, four arrows originate from the satellite: A pointing upwards tangent to the circle, B pointing horizontally to the right away from Earth, C pointing downwards tangent to the circle, and D pointing horizontally to the left towards Earth.]\n\nWhen the satellite is in the position shown, in which direction does the resultant force act upon it?\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q234": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car of mass 1200 kg is travelling along a horizontal road.\n\n[Diagram shows a car moving to the right. The driving force is 4000 N to the right, and the total frictional force is 1000 N to the left.]\n\nWhat is the acceleration of the car?\n\nA 0.83 m/s^2\nB 1.2 m/s^2\nC 2.5 m/s^2\nD 3.3 m/s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q235": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A 20 m long, uniform bridge of weight 100 kN is supported at each end by pillars, as shown.\n\n[Diagram shows a 20 m bridge supported at each end by pillars that exert upward forces T_1 at the left end and T_2 at the right end. A downward arrow of 100 kN is at the centre of the bridge, and a van of weight 24 kN is on the bridge, 5 m from the left-hand pillar.]\n\nThe pillars exert forces T_1 and T_2 on the ends of the bridge.\n\nWhat are the values of T_1 and T_2 when a van of weight 24 kN is on the bridge, 5 m from the left-hand pillar?\n\nA T_1 = 56 kN, T_2 = 68 kN\nB T_1 = 62 kN, T_2 = 62 kN\nC T_1 = 68 kN, T_2 = 56 kN\nD T_1 = 74 kN, T_2 = 50 kN",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q236": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring, which obeys Hooke’s law, has an unstretched length of 10 cm.\n\nA load of 20 N is suspended from the spring.\n\nThe new length of the spring is 36 cm.\n\nWhat is the spring constant k of the spring?\n\nA 0.56 N/cm\nB 0.77 N/cm\nC 1.3 N/cm\nD 1.8 N/cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q237": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Three simple machines are shown.\n\n1 moving soil with a wheelbarrow\n2 cutting string with scissors\n3 screwing a screw with a screwdriver\n\n[Three drawings are shown: 1 shows a worker lifting and pushing a wheelbarrow, 2 shows a hand using scissors to cut string, 3 shows a hand using a screwdriver to insert a screw into a block.]\n\nWhich machines are an application of the moment of a force?\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q238": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring, which obeys Hooke’s law, has an unstretched length of 10 cm.\n\nA load of 20 N is suspended from the spring.\n\nThe new length of the spring is 36 cm.\n\nWhat is the spring constant k of the spring?\n\nA 0.56 N/cm\nB 0.77 N/cm\nC 1.3 N/cm\nD 1.8 N/cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
+ },
+ "q239": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.5",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The diagram shows a uniform bar resting on two supports, P and Q.\n\n[Diagram shows a bar with markings from 0 cm to 100 cm. Support P is located at 10 cm, support Q is located at 60 cm, and the centre of the bar is at 50 cm.]\n\nThe weight of the bar is 4.0 N.\n\nWhat is the force exerted on the bar by support P?\n\nA 0.80 N\nB 2.0 N\nC 3.2 N\nD 4.0 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T09:45:17+00:00"
  }
 }
