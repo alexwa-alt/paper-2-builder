@@ -4313,5 +4313,776 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-17T19:38:50+00:00"
+ },
+ "q321": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4",
+   "1.6.2",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Three situations are listed.\n\n1  An object has a resultant force acting on it.\n2  A moving object experiences an impulse.\n3  An object is decelerating.\n\nIn which situations is the momentum of the object changing?\n\nA 1 and 2 only\nB 1 and 3 only\nC 2 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q322": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows part of a hose used by a firefighter.\n\n[Diagram shows a hose tapering into a nozzle. Water moves right-to-left, entering at 1 m/s and exiting the nozzle at 6 m/s.]\n\n15 kg of water flows through the hose each second.\n\nWhich force is applied to the hose by the water?\n\nA 15 N\nB 75 N\nC 90 N\nD 105 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q323": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A trolley of mass 4.0 kg travelling with a velocity of 4.0 m/s collides with a trolley of mass 2.0 kg travelling with a velocity of 2.0 m/s in the same direction. After the collision, the velocity of the 4.0 kg trolley is reduced to 3.0 m/s.\n\n[Diagram shows before collision: 4.0 kg trolley moving right at 4.0 m/s, 2.0 kg trolley moving right at 2.0 m/s. After collision: 4.0 kg trolley moving right at 3.0 m/s, 2.0 kg trolley moving right at velocity v.]\n\nWhat is the velocity v of the 2.0 kg trolley after the collision?\n\nA 0.25 m/s\nB 4.0 m/s\nC 5.0 m/s\nD 16 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q324": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A force F acts on a body of mass m for a time t. During this time, the velocity of the body increases from u to v.\n\nWhich equation relates F, m, t, u and v?\n\nA Fm = t(v - u)\nB Fm = t(v + u)\nC Ft = m(v - u)\nD Ft = m(v + u)",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q325": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.1.4",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A gas molecule strikes the wall of a container. The molecule rebounds with the same speed.\n\n[Diagram shows a gas molecule moving horizontally to the right towards a wall before hitting it, and moving horizontally to the left away from the wall after hitting it.]\n\nWhat happens to the kinetic energy and what happens to the momentum of the molecule?\n\n| kinetic energy | momentum |\nA | changes | changes |\nB | changes | stays the same |\nC | stays the same | changes |\nD | stays the same | stays the same |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q326": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball has a mass of 2.0 kg. The ball approaches a wall at a speed of 3.0 m/s and rebounds at a speed of 1.0 m/s.\n\n[Diagram shows a ball moving left towards a wall at 3.0 m/s and then moving right away from the wall at 1.0 m/s.]\n\nWhat is the impulse on the wall?\n\nA 4.0 N\nB 4.0 N s\nC 8.0 N\nD 8.0 N s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q327": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A tennis ball has a mass of 57 g.\n\nA tennis player hits the tennis ball with a tennis racket. The tennis ball has a velocity of 25 m/s when it hits the racket.\n\nThe velocity of the tennis ball when it leaves the player's racket is 15 m/s in the opposite direction from its approaching direction.\n\nThe average force exerted by the tennis racket on the ball is 35 N.\n\nFor how long is the tennis ball in contact with the tennis racket?\n\nA 0.015 s\nB 0.016 s\nC 0.065 s\nD 0.65 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q328": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Object X moves to the right along a frictionless surface towards a stationary object Y, as shown.\n\n[Diagram shows object X moving to the right towards a stationary object Y on a horizontal surface.]\n\nThey make a noise as they collide and then both objects move to the right.\n\nWhich equation is correct?\n\nA change in momentum of X = change in momentum of Y\nB impulse of force acting on X = impulse of force acting on Y\nC kinetic energy of X before collision = (kinetic energy of X + kinetic energy of Y) after collision\nD momentum of X before collision = (momentum of X + momentum of Y) after collision",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:27:32+00:00"
+ },
+ "q329": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the relationship between the impulse acting on an object and the change in momentum of the object?\n\nA impulse = change in momentum\nB impulse = change in momentum × time\nC impulse = change in momentum / time\nD impulse = change in momentum / mass",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q330": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rocket is launched upwards from the surface of the Moon.\n\nHot gases are ejected downwards over a very short period of time.\n\nWhich statement is not correct?\n\nA The rocket experiences a downward force.\nB The rocket experiences an upward force.\nC The total momentum of the hot gases is equal to the momentum of the rocket.\nD The total momentum of the hot gases and rocket when the hot gases have been ejected is zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q331": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cricket ball has a mass of 0.16 kg. The ball travels at 30 m / s. The ball is hit by a bat with a force of 10 800 N. After being hit, the ball moves off at 30 m / s in the opposite direction.\n\n[Diagram showing a ball moving to the right towards a cricket bat at 30 m/s, and rebounding to the left at 30 m/s]\n\nFor how long was the ball in contact with the bat?\n\nA 0.0004 s\nB 0.00089 s\nC 0.0044 s\nD 0.015 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q332": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An air pistol fires a pellet forwards.\n\nWhat is the motion of the air pistol?\n\nA The air pistol moves backwards with speed greater than the pellet.\nB The air pistol moves backwards with speed less than the pellet.\nC The air pistol moves forward with speed greater than the pellet.\nD The air pistol moves forward with speed less than the pellet.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q333": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object of mass 1.2 kg is moving with a velocity of 2.0 m / s when it is acted on by a force of 4.0 N. The velocity of the object increases to 5.0 m / s.\n\nFor what period of time does the force act on the object?\n\nA 0.90 s\nB 1.1 s\nC 1.5 s\nD 3.6 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q334": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is moving at +3.0 m / s.\n\nA force acts on the object.\n\nAfter a time, the object is moving at -4.0 m / s.\n\nThe mass of the object is 5.0 kg.\n\nWhat is the change in momentum of the body?\n\nA -35 kg m / s\nB -5.0 kg m / s\nC +5.0 kg m / s\nD +35 kg m / s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q335": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball falls vertically to the floor and rebounds vertically upwards.\n\nJust before it hits the floor, its speed is 4.0 m / s.\n\nAs it rebounds, its speed is 3.0 m / s.\n\nThe mass of the ball is 0.50 kg.\n\nWhat is the change in momentum of the ball?\n\nA 0.50 kg m / s downwards\nB 0.50 kg m / s upwards\nC 3.5 kg m / s downwards\nD 3.5 kg m / s upwards",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q336": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object with a mass of 0.20 kg moves at 0.20 m / s, as shown.\n\n[Diagram showing a 0.20 kg block moving to the right at 0.20 m/s]\n\nWhich other object has a momentum that is identical to the momentum of this object?\n\nA [0.20 kg block moving upwards at 0.20 m/s]\nB [0.40 kg block moving downwards at 0.10 m/s]\nC [0.40 kg block moving to the right at 0.10 m/s]\nD [0.20 kg block moving to the left at 0.20 m/s]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:28:49+00:00"
+ },
+ "q337": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A footballer kicks a stationary football.\n\nHis foot is in contact with the ball for 0.050 s.\n\nThe mass of the ball is 0.40 kg.\n\nThe speed of projection of the ball is 25 m / s.\n\nWhat is the average force exerted on the ball by his foot?\n\nA 0.32 N\nB 0.50 N\nC 200 N\nD 1300 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q338": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of mass m falls vertically and hits a hard surface.\n\nIts speed on hitting the surface is v_1.\n\nIt rebounds vertically upwards with speed v_2.\n\nWhat is the change in momentum of the ball?\n\nA mv_1\nB mv_2\nC m(v_1 + v_2)\nD m(v_2 - v_1)",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q339": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A constant force acts on a body causing the momentum of the body to increase.\n\nWhich expression relates the force to the momentum and the time taken?\n\nA force = change in momentum / time taken\nB force = momentum / time taken\nC force = change in momentum × time taken\nD force = momentum × time taken",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q340": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of mass 0.50 kg falls and hits the floor at 10 m / s.\n\nIt rebounds at speed 8.0 m / s, as shown.\n\n[Diagram showing a ball falling downwards at 10 m/s before collision, and rebounding upwards at 8 m/s after collision]\n\nThe collision between the ball and the floor lasts for 0.50 s.\n\nWhat is the average force acting on the ball during the collision?\n\nA 2.0 N upwards\nB 2.0 N downwards\nC 18 N upwards\nD 18 N downwards",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q341": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object of mass 4.0 kg is moving with a velocity of 3.0 m / s in a straight line.\n\nWhat is the momentum of the object?\n\nA 0.75 kg m / s\nB 1.3 kg m / s\nC 12 kg m / s\nD 24 kg m / s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q342": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "How is momentum p calculated in terms of the mass m of a body and its velocity v, and what type of quantity is p?\n\n[Table with columns: equation, type of quantity]\nA p = m × v | scalar\nB p = m × v | vector\nC p = m / v | scalar\nD p = m / v | vector",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q343": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two objects X and Y move directly towards each other. The objects have the same mass.\n\nObject X has a velocity of 5.0 m / s to the right. Object Y has a velocity of 3.0 m / s to the left.\n\n[Diagram showing object X moving right at 5.0 m/s and object Y moving left at 3.0 m/s]\n\nObject X and object Y collide and stick together.\n\nWhat is their velocity after colliding?\n\nA 1.0 m / s to the left\nB 1.0 m / s to the right\nC 4.0 m / s to the left\nD 4.0 m / s to the right",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q344": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball is at rest on the ground. A boy kicks the ball. The boy's boot is in contact with the ball for 0.040 s.\n\nThe average force on the ball is 200 N. The ball leaves the boy's boot with a speed of 20 m / s.\n\nWhich row gives the impulse of the boot on the ball and the average acceleration of the ball?\n\n[Table with columns: impulse on ball / N s, average acceleration of ball / m/s^2]\nA 8 | 0.8\nB 8 | 500\nC 5000 | 0.8\nD 5000 | 500",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:22+00:00"
+ },
+ "q345": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object P of mass 80 g collides with another object Q of mass 40 g.\n\nAfter the collision, P and Q stick together and then travel on together.\n\nBefore the collision, P is travelling at a speed of 6.0 m/s and Q is at rest.\n\nWhat is the speed of P and Q after the collision?\n\nA 2.0 m/s\nB 3.0 m/s\nC 4.0 m/s\nD 6.0 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q346": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The momentum of a body is changed by a force acting on it for a period of time.\n\nWhich action increases the change in momentum?\n\nA doubling the force and halving the time\nB doubling the force for the same time\nC halving both the force and time\nD halving the force and doubling the time",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q347": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of mass 0.16 kg is moving forwards at a speed of 0.50 m/s. A second ball of mass 0.10 kg is stationary. The first ball strikes the second ball. The second ball moves forwards at a speed of 0.50 m/s.\n\nWhat is the speed of the first ball after the collision?\n\nA 0.0 m/s\nB 0.19 m/s\nC 0.31 m/s\nD 0.50 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q348": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which expression gives the momentum of an object?\n\nA mass × acceleration\nB mass × gravitational field strength\nC mass × velocity\nD 1/2 × mass × (velocity)^2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q349": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car of mass 1000 kg travelling at 8.0 m/s collides with a lorry of mass 3000 kg that is travelling at 2.0 m/s in the same direction. After colliding, the two vehicles stick together.\n\nWhat is their speed after the collision?\n\nA 2.0 m/s\nB 2.5 m/s\nC 3.5 m/s\nD 5.0 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q350": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A visitor to a fairground throws a soft object of mass 0.12 kg at a coconut of mass 0.48 kg. The soft object stops moving when it hits the coconut. In order to dislodge the coconut, it must be made to move at 0.10 m/s.\n\nWhat is the minimum speed with which the visitor should throw the soft object in order to dislodge the coconut?\n\nA 0.20 m/s\nB 0.40 m/s\nC 2.0 m/s\nD 4.0 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q351": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A moving ball with a momentum of 25 kg m/s collides head-on with a wall.\n\n[Diagram showing a ball moving to the right towards a wall.]\n\nIt rebounds from the wall with the same speed but in the opposite direction. The time of collision is 50 ms.\n\nWhat is the average force exerted on the wall by the ball during the collision?\n\nA 0.50 N\nB 1.00 N\nC 500 N\nD 1000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q352": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object of mass 3.0 kg, travelling at a speed of 6.0 m/s, collides with an object of mass 2.0 kg, travelling in the opposite direction at a speed of 2.0 m/s.\n\n[Diagram showing a 3.0 kg object moving to the right at 6.0 m/s and a 2.0 kg object moving to the left at 2.0 m/s.]\n\nThe objects stick together during the collision.\n\nWhat is the speed and direction of the combined mass after the collision?\n\nA 4.4 m/s to the left\nB 4.4 m/s to the right\nC 2.8 m/s to the left\nD 2.8 m/s to the right",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:29:58+00:00"
+ },
+ "q353": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electron is moving at a speed of 5 × 10^6 m/s.\nA neutron is moving at a speed of 5 × 10^4 m/s.\n\nThe mass of the electron is m.\nThe mass of the neutron is 2000m.\n\nWhich row is correct?\n\n| | greater momentum | greater kinetic energy |\n|---|---|---|\n| A | electron | electron |\n| B | electron | neutron |\n| C | neutron | electron |\n| D | neutron | neutron |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q354": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A moving body undergoes a change of momentum.\n\nWhat is a unit for change of momentum?\n\nA N m\nB N / m\nC N s\nD N / s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q355": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bullet of mass 0.10 kg travels horizontally at a speed of 600 m/s. It strikes a stationary wooden block of mass 1.90 kg resting on a frictionless, horizontal surface.\n\nThe bullet stays in the block.\n\nWhat is the speed of the bullet and the block immediately after the impact?\n\nA 30 m/s\nB 32 m/s\nC 60 m/s\nD 134 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q356": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of mass 2.0 kg is travelling at a speed of 12 m/s. It moves towards an object of mass 3.0 kg which is at rest.\n\n[Diagram showing a 2.0 kg ball moving to the right at 12 m/s towards a 3.0 kg square object at rest]\n\nThe ball hits the object and sticks to it.\n\nWhich row gives the total momentum, and the speed of both objects immediately after the collision?\n\n| | total momentum / kg m/s | speed / m/s |\n|---|---|---|\n| A | 0 | 4.8 |\n| B | 0 | 8.0 |\n| C | 24 | 4.8 |\n| D | 24 | 8.0 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q357": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A tennis ball of mass 0.060 kg travels horizontally at a speed of 25 m/s. The ball hits a tennis racket and rebounds horizontally at a speed of 40 m/s.\n\n[Diagram: before hitting racket, ball moving right at 25 m/s towards racket; after hitting racket, ball moving left at 40 m/s away from racket]\n\nThe ball is in contact with the racket for 50 ms.\n\nWhat force does the racket exert on the ball?\n\nA 0.018 N\nB 0.078 N\nC 18 N\nD 78 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q358": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball has a mass of 0.30 kg. It moves horizontally with a speed of 3.0 m/s in the direction shown.\n\nThe ball hits a wall.\n\n[Diagram: before hitting the wall, ball moving right towards wall at 3.0 m/s; after hitting the wall, ball moving left away from wall at 2.0 m/s]\n\nThe ball rebounds from the wall with a horizontal speed of 2.0 m/s.\n\nWhat is the change in momentum of the ball?\n\nA 0.30 kg m/s\nB 1.0 kg m/s\nC 1.5 kg m/s\nD 5.0 kg m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q359": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The equation used to find the change in gravitational potential energy of an object can be written as\n\nΔE_p = Y × Z × Δh\n\nwhere ΔE_p is the change in gravitational energy and Δh is the change in height.\n\nWhich row gives the quantities Y and Z?\n\n| | Y | Z |\n|---|---|---|\n| A | mass | gravitational field strength |\n| B | gravitational field strength | density |\n| C | density | speed |\n| D | speed | mass |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q360": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A machine has a power input of 200 W and a useful output energy of 1 kJ in 6 minutes.\n\nWhat is the efficiency of the machine?\n\nA 0.014%\nB 0.83%\nC 1.4%\nD 83%",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:32:39+00:00"
+ },
+ "q361": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the unit of power?\n\nA joule\nB newton\nC volt\nD watt",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q362": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row about the change of energy in the energy store must be correct?\n\n| | process | energy store | change of energy in store |\n|---|---|---|---|\n| A | water pumped up to a high-altitude dam | gravitational potential energy of water | increases |\n| B | water pumped up to a high-altitude dam | kinetic energy of water | decreases |\n| C | air passes through a wind turbine | gravitational potential energy of air | increases |\n| D | air passes through a wind turbine | kinetic energy of air | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q363": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A woman of mass 50 kg has 81 J of kinetic energy.\n\nWhat is her speed?\n\nA 1.3 m/s\nB 1.6 m/s\nC 1.8 m/s\nD 3.2 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q364": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A child runs up a set of stairs four times. The time taken for each run is recorded.\n\nWhich time is measured when the child's useful power is greatest?\n\nA 10 s\nB 20 s\nC 30 s\nD 40 s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q365": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A dam holds water in a reservoir. The height of the water in the reservoir is 15 m.\n\n[Diagram showing a reservoir with a water depth of 15 m behind a dam]\n\nThe density of water is 1000 kg/m^3.\n\nWhat is the pressure due to the water at the bottom of the dam?\n\nA 6.8 Pa\nB 1500 Pa\nC 15 000 Pa\nD 150 000 Pa",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q366": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the energy stores for a mobile (cell) phone and how the energy is transferred between stores.\n\n[Diagram showing: chemical energy -> [?] -> internal energy (transferred by heating) and kinetic energy (transferred by sound)]\n\nWhat describes how the chemical energy is transferred?\n\nA electrical work done\nB mechanical work done\nC electromagnetic waves\nD sound waves",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q367": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wind turbine is 30% efficient and has an output of 2.5 MW of electrical power.\n\nWhat is the power input to the turbine?\n\nA 0.75 MW\nB 8.3 MW\nC 75 MW\nD 83 MW",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q368": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which two physical quantities must be used to calculate the power developed by a student running up a flight of steps?\n\nA force exerted and the vertical height of the steps only\nB force exerted and the time taken only\nC work done and the vertical height of the steps only\nD work done and the time taken only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:35:41+00:00"
+ },
+ "q369": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.1",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A bicycle braking system transfers energy from a kinetic energy store to an internal energy store.\n\nA motor converts energy from a chemical energy store (battery) to a kinetic energy store.\n\nWhat enables these energy transfers?\n\n[Table with columns: 'braking system', 'motor']\nA electrical work | mechanical work\nB electrical work | electrical work\nC mechanical work | mechanical work\nD mechanical work | electrical work",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q370": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Research is being carried out to produce electrical energy from the fusion of hydrogen nuclei.\n\nWhich row shows two of the problems in designing a fusion reactor?\n\n[Table with columns: 'temperature needed', 'why obtaining a high density of hydrogen nuclei is difficult']\nA very low | the nuclei are negatively charged and repel each other\nB very low | the nuclei are positively charged and repel each other\nC very high | the nuclei are negatively charged and repel each other\nD very high | the nuclei are positively charged and repel each other",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q371": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The engine of a motor vehicle develops a large power.\n\nWhich statement is correct?\nA The driving force acting on the vehicle must be large.\nB The engine must have a very large volume.\nC The engine must transfer large amounts of energy each second.\nD The vehicle must be very fast.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q372": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A resultant force of 500 N acts for 10 s on a car of mass 1000 kg. This causes the velocity of the car to double.\n\nWhat is the final velocity of the car?\nA 5 m/s\nB 10 m/s\nC 20 m/s\nD 50 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q373": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A child pushes a toy car along a horizontal surface and then releases it.\n\nAs the car slows down, what is the main energy transfer?\nA from chemical to thermal\nB from chemical to kinetic\nC from kinetic to gravitational (potential)\nD from kinetic to thermal",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q374": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "At time = 0, a cannonball is stationary inside a cannon. The cannonball is then fired from the cannon.\n\nAt time = t, the cannonball moves forwards and the cannon moves backwards.\n\nWhat happens to the total kinetic energy and the total momentum of the cannon and the cannonball between time = 0 and time = t?\n\n[Table with columns: 'total kinetic energy of cannon and cannonball', 'total momentum of cannon and cannonball']\nA changes | changes\nB changes | remains the same\nC remains the same | changes\nD remains the same | remains the same",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q376": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A mass hangs vertically from a spring.\n\nThe mass is raised to a point P and is then released.\n\nThe mass oscillates repeatedly between point P and a lower point Q.\n\nWhich energies alternately increase and decrease throughout the oscillations?\nA gravitational potential energy, kinetic energy and elastic energy\nB gravitational potential energy and kinetic energy only\nC gravitational potential energy, kinetic energy and internal energy\nD internal energy and elastic energy",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q377": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car has 620 kJ of kinetic energy. The car brakes and stops in a distance of 91 m.\n\nWhat is the average braking force acting on the car?\nA 0.15 N\nB 6.8 N\nC 6800 N\nD 56 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T22:37:24+00:00"
  }
 }
