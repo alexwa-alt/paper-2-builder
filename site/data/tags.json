@@ -1877,5 +1877,226 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-16T23:50:31+00:00"
+ },
+ "q141": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.2",
+   "1.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A space probe is taken from the Earth to Mars.\n\nThe force of gravity on the surface of Mars is less than the force of gravity on the surface of the Earth.\n\nHow do the weight and the mass of a space probe on the surface of Mars compare to their values when the probe is on the surface of the Earth?\n\nA weight on Mars: decreased, mass on Mars: decreased\nB weight on Mars: decreased, mass on Mars: unchanged\nC weight on Mars: unchanged, mass on Mars: decreased\nD weight on Mars: unchanged, mass on Mars: unchanged",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q142": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row gives the correct weight for the mass shown?\n\nThe value of g is 10 N / kg.\n\nA mass / kg: 2, weight / N: 20\nB mass / kg: 10, weight / N: 1\nC mass / kg: 10, weight / N: 10\nD mass / kg: 20, weight / N: 2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q143": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is weight an example of?\n\nA acceleration\nB force\nC mass\nD pressure",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q144": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sphere P, made of steel, has a weight of 10 N on Earth.\n\nAnother sphere Q, also made of steel, has a weight of 10 N on Mars.\n\nThe gravitational field strength on Earth is greater than the gravitational field strength on Mars.\n\nWhich statement is correct?\n\nA The mass of sphere P is the same as the mass of sphere Q.\nB The mass of sphere P is less than the mass of sphere Q.\nC On Mars, the weight of sphere P is more than 10 N.\nD On Earth, the weight of sphere Q is less than 10 N.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q145": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the mass of an object is correct?\n\nA It changes when the object is lifted further from the ground.\nB It is the gravitational force on the object.\nC It is zero if the object is in orbit around the Earth.\nD It resists any change in motion of the object.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q146": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.5.1.11",
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object of mass 1.0 kg is at rest on Earth. An identical object is at rest on a planet with a gravitational field strength of twice that on Earth.\n\nWhich row correctly compares the object on the planet to the object on Earth?\n\nA its weight: double, its acceleration when the same horizontal force is applied: equal to that on Earth\nB its weight: double, its acceleration when the same horizontal force is applied: half that on Earth\nC its weight: half, its acceleration when the same horizontal force is applied: equal to that on Earth\nD its weight: half, its acceleration when the same horizontal force is applied: half that on Earth",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q147": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The mass of a full bottle of cooking oil is 1.30 kg.\n\nWhen exactly half of the oil has been used, the mass of the bottle plus the remaining oil is 0.90 kg.\n\n[Two balances: one with a full bottle reading 1.30 kg, and one with a half-full bottle reading 0.90 kg]\n\nWhat is the mass of the empty bottle?\n\nA 0.40 kg\nB 0.50 kg\nC 0.65 kg\nD 0.80 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q148": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A body is moved from place X to place Y where the gravitational field strength is different.\n\nWhat happens to its mass and to its weight due to the move?\n\nA mass: changes, weight: changes\nB mass: changes, weight: stays the same\nC mass: stays the same, weight: changes\nD mass: stays the same, weight: stays the same",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:41:20+00:00"
+ },
+ "q149": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four students make statements about the mass of an object.\n\nWhich statement is correct?\n\nA The mass of an object depends on the gravitational field which acts on the object.\nB The mass of an object divided by its weight is equal to the acceleration with which it falls freely.\nC The mass of an object increases when the temperature of the object increases.\nD The mass of an object resists change in motion of the object.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q150": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "On Earth, a spring stretches by 5.0 cm when a mass of 3.0 kg is suspended from one end.\n\nThe gravitational field strength on the Moon is 1/6 of that on Earth.\n\nWhich mass, on the Moon, would stretch the spring by the same extension?\n\nA 0.50 kg\nB 3.0 kg\nC 5.0 kg\nD 18 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q151": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is a force due to a gravitational field?\n\nA density\nB mass\nC weight\nD volume",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q152": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A box is placed on the ground. An upward force of 15 N is needed to lift the box at constant speed.\n\nWhich row correctly describes the box?\n\n[Table with columns: 'mass of the box', 'weight of the box']\nA 1.5 kg | 15 N\nB 15 N | 1.5 kg\nC 15 N | 150 kg\nD 150 kg | 15 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q153": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which equation shows the relationship between the weight W and the mass m of an object?\n\nA W = m / g\nB W = mg\nC W = m + g\nD W = g / m",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q154": {
+  "status": "done",
+  "subpoints": [
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The gravitational field strength on the Moon is 1.6 N/kg.\n\nAn astronaut has a mass of 75 kg.\n\nWhat is the weight of the astronaut on the Moon?\n\nA 47 N\nB 75 N\nC 120 N\nD 750 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q155": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object always has mass but does not always have weight.\n\nWhat must be present and acting on the mass for it to have weight?\n\nA a gravitational field\nB a set of scales\nC displaced water\nD friction due to air resistance",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
+ },
+ "q156": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the mass and the weight of an object is correct?\n\nA They are both affected by changes in the acceleration of free fall.\nB They are both forces.\nC They have different units.\nD Weight is calculated by dividing mass by the acceleration of free fall.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-17T04:44:00+00:00"
  }
 }
