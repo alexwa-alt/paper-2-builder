@@ -5418,5 +5418,1098 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q403": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A motor of power P exerts a force F on an object. The object moves a distance d during the time t that the force acts.\n\nWhich equation is used to calculate the time t?\n\nA t = F / (Pd)\nB t = Fd / P\nC t = Pd / F\nD t = P / (Fd)",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q404": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2",
+   "1.7.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A scientist uses an electric motor to lift a load through a vertical distance of 2.0 m.\n\nHe then increases the input power to the motor and repeats the experiment. The efficiency of the motor does not change.\n\nWhich row correctly describes the effect that this has on the useful work done lifting the load and the time taken to lift it?\n\n| | work done | time taken |\n|---|---|---|\n| A | decreases | decreases |\n| B | stays the same | decreases |\n| C | decreases | stays the same |\n| D | stays the same | stays the same |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q405": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box of mass m slides down a slope of length l against a frictional force F. It descends a vertical height d.\n\n[Diagram showing a box of mass m on an inclined plane of length l and vertical height d with a stop at the bottom. The box moves down the slope and friction F acts up the slope.]\n\nAs the box slides down the slope, it loses gravitational potential energy and it does work against the friction.\n\nWhich row gives the loss in gravitational potential energy and the work done against friction?\n\n| | loss in gravitational potential energy | work done against friction |\n|---|---|---|\n| A | mgd | Fl |\n| B | mgd | Fd |\n| C | mgl | Fl |\n| D | mgl | Fd |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q406": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.1.5",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rope, connected to a pulley system and motor, is used to lift different objects through different distances. The time taken to lift each object is the same. The diagrams are not to scale.\n\nWhich motor requires the greatest power?\n\n[Diagrams of four motor and pulley systems lifting an object to a platform:\nA: 10 kg lifted 2 m\nB: 5 kg lifted 3 m\nC: 10 kg lifted 1 m\nD: 2 kg lifted 3 m]",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q407": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which energy resource has the Sun as its only source of energy?\n\nA geothermal\nB nuclear\nC oil\nD tidal",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q408": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A man, attached to an elastic cord, jumps from a platform. He falls 60 m before starting to rise. The length of the unextended cord is 30 m.\n\nThe diagrams show four successive stages in his fall.\n\nIn which position is elastic (strain) energy and kinetic energy present?\n\n[Diagram showing four stages: A standing on the platform; B falling at 30 m; C falling at 45 m; D at the lowest point at 60 m]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q409": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row describes an advantage and a disadvantage of wind turbines?\n\n| | advantage | disadvantage |\n|---|---|---|\n| A | no fuel needed | harmful gases released |\n| B | variable supply | fuel needed |\n| C | no harmful gases released | variable supply |\n| D | constant supply | noisy |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q410": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric motor provides 900 J of useful output energy. The efficiency of the motor is 60%.\n\nHow much electrical energy is supplied to the motor?\n\nA 15 J\nB 540 J\nC 1500 J\nD 5400 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:24:05+00:00"
+ },
+ "q411": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A crane takes 2.0 minutes to lift a 500 kg load to the top of a building that is 12 m high.\n\nWhat is the useful power developed against gravity by the crane?\n\nA 21 W\nB 50 W\nC 500 W\nD 30 000 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q412": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows part of a rollercoaster ride with the car at different positions.\n\nThe car runs freely down from position X to position Y and up the hill on the other side.\n\n[Diagram showing a rollercoaster track with a car at the crest of a hill labelled X, rolling down to the lowest point of a dip labelled Y, and rising up the subsequent hill]\n\nWhat happens to the kinetic energy and to the gravitational potential energy of the car as it moves from position X to position Y?\n\nkinetic energy | gravitational potential energy\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q413": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which energy resource does not have the Sun as the original source?\n\nA coal\nB geothermal\nC hydroelectric\nD wind",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q414": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which energy resource is not renewable?\n\nA geothermal\nB nuclear fission\nC solar\nD wind",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q415": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car of mass 500 kg is moving at 10 m / s. The engine does work on the car and the speed increases to 16 m / s.\n\nHow much work is done by the engine to increase the speed of the car?\n\nA 3000 J\nB 9000 J\nC 39 000 J\nD 78 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q416": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A mass bounces up and down on a steel spring. The diagram shows the mass and the spring at different points during the motion.\n\n[Diagram showing four stages of a mass hanging from a vertical spring: highest point (least stretched), mass moving down, lowest point (most stretched), and mass moving up]\n\nAt which point does the mass have the least gravitational potential energy and at which point is the most elastic energy stored in the spring?\n\nleast amount of gravitational potential energy | most elastic energy stored in spring\nA mass moving down | mass moving up\nB mass moving down | lowest point\nC lowest point | mass moving up\nD lowest point | lowest point",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q417": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.4",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A stone is dropped from rest at a height of 2.0 m above the surface of a planet.\n\nThe planet has no atmosphere.\n\nThe speed of the stone just before reaching the surface of the planet is 3.8 m / s.\n\nWhat is the acceleration of free fall on the planet?\n\nA zero\nB 1.9 m / s^2\nC 3.6 m / s^2\nD 7.2 m / s^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q418": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An electric motor uses 1000 J of electrical energy. It provides 450 J of useful output energy.\n\nWhat is the efficiency of the motor?\n\nA 4.5%\nB 5.5%\nC 45%\nD 55%",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:25:26+00:00"
+ },
+ "q419": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "To calculate the power produced by a force, the size of the force must be known.\n\nWhat else needs to be known to calculate the power?\n\n[Table with columns: 'the distance that the force moves the object', 'the time for which the force acts on the object']\nA the distance that the force moves the object: ✓, the time for which the force acts on the object: ✓\nB the distance that the force moves the object: ✓, the time for which the force acts on the object: ✗\nC the distance that the force moves the object: ✗, the time for which the force acts on the object: ✓\nD the distance that the force moves the object: ✗, the time for which the force acts on the object: ✗",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q420": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A woman of mass 50 kg has 81 J of kinetic energy.\n\nWhat is her speed?\n\nA 1.3 m/s\nB 1.6 m/s\nC 1.8 m/s\nD 3.2 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q421": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the source of the Sun's energy?\n\nA chemical reactions in the Sun's core\nB γ-emissions in the Sun's core\nC nuclear fission in the Sun's core\nD nuclear fusion in the Sun's core",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q422": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object of mass 4.5 kg is travelling at 7.0 m/s.\n\nHow much kinetic energy does the object have?\n\nA 16 J\nB 32 J\nC 110 J\nD 220 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q423": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A number of ways in which we use energy are listed.\n\nIn which is the ultimate source of energy not the Sun?\n\nA Energy is provided by a horse to pull a cart.\nB Energy is provided by hydroelectric generators to heat a house.\nC Energy is provided by a nuclear power station.\nD Energy is provided by a windmill to pump water to a fountain.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q424": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car of mass 1500 kg has a speed of 20 m/s. It accelerates until its speed is 25 m/s.\n\nWhat is the increase in the kinetic energy of the car?\n\nA 19 kJ\nB 38 kJ\nC 170 kJ\nD 340 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q425": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which source of energy uses the production of steam to generate electrical energy?\n\nA hydroelectric\nB nuclear\nC tides\nD waves",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q426": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car, travelling on a straight horizontal road, has 1.6 MJ of kinetic energy. It accelerates for 20 s until it has 2.5 MJ of kinetic energy.\n\nWhat is the average power output used to increase the kinetic energy of the car?\n\nA 45 W\nB 205 W\nC 45 kW\nD 205 kW",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:26:50+00:00"
+ },
+ "q427": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object falls from the top of a building that is 25 m high. Air resistance is negligible.\n\nWhat is the speed of the object when it hits the ground?\n\nA 10 m/s\nB 22 m/s\nC 25 m/s\nD 625 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q428": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A machine is very efficient.\n\nWhat does this mean?\n\nA It produces a large amount of power.\nB It uses very little energy.\nC It wastes very little energy.\nD It works very quickly.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q429": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A crane takes 2.0 minutes to lift a load to the top of a building. The change in gravitational potential energy of the load is 360 kJ.\n\nWhat is the useful power output of the crane?\n\nA 3.0 kW\nB 180 kW\nC 720 kW\nD 43 200 kW",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q431": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A force F acts on a body and the body moves a distance d in the direction of the force.\n\nWhich expression for the work done W is correct?\n\nA W = Fd\nB W = Fd^2\nC W = 1/2 Fd\nD W = 1/2 Fd^2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q432": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy produces an average power output of 60 W as he rides his bicycle for 2.0 minutes.\n\nHow much useful energy does he expend?\n\nA 0.50 J\nB 30 J\nC 120 J\nD 7200 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q433": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is in free fall. The change in gravitational potential energy of the body depends upon its mass m, the change in height Δh and the gravitational field strength g.\n\nWhat is the correct expression for the change in gravitational potential energy?\n\nA gmΔh\nB gm / Δh\nC gΔh / m\nD mΔh / g",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q435": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box is pulled along a floor by a force of 3.0 N.\n\nThe friction acting on the box is 1.0 N, as shown.\n\n[Diagram: A rectangular box on a horizontal floor. A horizontal arrow pointing left is labelled 1.0 N and a horizontal arrow pointing right is labelled 3.0 N.]\n\nHow much kinetic energy does the box gain in moving 2.0 m?\n\nA 2.0 J\nB 4.0 J\nC 6.0 J\nD 8.0 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q437": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A man carries 20 tiles from the ground to the roof of a house. Each tile has a mass of 1.2 kg. The roof of the house is 15 m above the ground.\n\nHow much work does the man do against gravity on the tiles in carrying them to the roof?\n\nA 36 J\nB 180 J\nC 360 J\nD 3600 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:27:23+00:00"
+ },
+ "q438": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car is moving along a straight horizontal road. The car has 1.6 MJ of kinetic energy. The car accelerates for 20 s until the kinetic energy of the car increases to 2.5 MJ.\n\nWhat is the minimum average power developed by the car engine for this acceleration?\n\nA 45 W\nB 205 W\nC 45 kW\nD 205 kW",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q440": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box of mass 8.0 kg is lifted from the ground and placed on a shelf. The box gains 100 J of potential energy.\n\nThe box falls off the shelf. Air resistance can be ignored.\n\nAt what speed does the box hit the ground?\n\nA 3.5 m/s\nB 5.0 m/s\nC 25 m/s\nD 28 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q442": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A toy train P of mass 0.50 kg is travelling along a straight track with a velocity of 3.0 m/s. It collides with a stationary train Q of mass 1.0 kg. The two trains then stick together.\n\nWhat is the velocity of the combined trains?\n\nA 1.0 m/s in the same direction as P was travelling originally\nB 1.0 m/s in the reverse direction to that in which P was travelling originally\nC 1.5 m/s in the same direction as P was travelling originally\nD 1.5 m/s in the reverse direction to that in which P was travelling originally",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q444": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A force of 25 N acts on an object. The work done by the force is 400 J.\n\nHow far does the object move in the direction of the force?\n\nA 6.3 cm\nB 16 cm\nC 16 m\nD 10 km",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q446": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A ball is at rest at the top of a hill. It rolls down the hill. At the bottom of the hill the ball hits a wall and stops.\n\nWhich energy changes occur?\n\nA gravitational potential energy → internal energy → kinetic energy\nB gravitational potential energy → kinetic energy → internal energy\nC kinetic energy → gravitational potential energy → internal energy\nD kinetic energy → internal energy → gravitational potential energy",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q447": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student cycles along a level road at a speed of 5.0 m/s.\n\nThe total mass of the student and bicycle is 120 kg.\n\nThe student applies the brakes and stops. The braking distance is 10 m.\n\nWhat is the average braking force?\n\nA 150 N\nB 300 N\nC 15 000 N\nD 30 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q448": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "As energy is transferred into different forms, it eventually becomes dissipated.\n\nWhat does this mean?\n\nA All the energy disappears.\nB The energy finally changes into every possible form of energy.\nC The energy spreads out among the objects and their surroundings.\nD The total amount of energy becomes less.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q449": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of mass 1.2 kg is dropped from a height of 30 m. As it falls, 25% of its initial gravitational potential energy is transferred to thermal energy.\n\nWhat is the kinetic energy of the ball just before it hits the ground?\n\nA 27 J\nB 90 J\nC 270 J\nD 360 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:28:01+00:00"
+ },
+ "q450": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A girl hangs by her hands from a bar in the gymnasium. She pulls herself up until her chin is level with the bar.\n\nThe mass of the girl is 48 kg.\n\nShe pulls herself up through a distance of 0.25 m.\n\nShe does this in 2.0 s.\n\nWhat is the useful power she uses to pull herself up?\n\nA 6.0 W\nB 24 W\nC 60 W\nD 240 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q451": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the main process by which energy is released in the Sun?\n\nA α-decay\nB β-decay\nC nuclear fission\nD nuclear fusion",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q452": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The work done W by a force is related to the magnitude F of the force and the distance d moved in the direction of the force.\n\nWhich equation for W is correct?\n\nA W = d ÷ F\nB W = d + F\nC W = F ÷ d\nD W = F × d",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q453": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A crane on a construction site lifts concrete beams.\n\nThe useful work done by the crane is 4000 kJ in a time of 160 s.\n\nWhat is the useful output power of the crane?\n\nA 0.04 kW\nB 25 W\nC 25 kW\nD 640 kW",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q454": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aircraft with a mass of 300 000 kg is flying at an altitude of 2000 m with a speed of 100 m/s.\n\nWhat is the kinetic energy of the aircraft?\n\nA 1.5 × 10^4 kJ\nB 1.5 × 10^6 kJ\nC 3.0 × 10^6 kJ\nD 6.0 × 10^6 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q455": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which method of drying clothes has the least impact on the environment?\n\nA Evaporate the water in them in an electrically heated tumble dryer.\nB Hang them on a washing line in direct sunlight.\nC Remove the water from them in an electric spin dryer.\nD Suspend them close to a coal fire.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q456": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.1.5",
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The vertical displacement of a mass of 0.20 kg changes with time. The graph shows how this displacement changes.\n\n[Graph of displacement / cm against time / s showing a periodic triangular wave oscillating between -2.5 cm and +2.5 cm with linear increases and decreases; upward motion from -2.5 cm to +2.5 cm takes 0.25 s]\n\nAt which rate does it gain gravitational potential energy as it moves upwards?\n\nA 0.025 W\nB 0.050 W\nC 0.20 W\nD 0.40 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q457": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which device is designed to convert chemical energy into kinetic energy?\n\nA an a.c. generator\nB a battery-powered torch\nC a car engine\nD a wind-up mechanical clock",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:29:28+00:00"
+ },
+ "q458": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5",
+   "1.7.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object, initially at rest, is dropped from a height of 12.0 m. The change in gravitational potential energy when it falls to the ground is 565 J.\n\nThe frictional forces are negligible.\n\nWhat is its speed when it hits the ground?\n\nA 4.71 m/s\nB 15.5 m/s\nC 47.1 m/s\nD 240 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q459": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A man climbs a ladder.\n\nWhich two quantities can be used to calculate the useful power of the man?\n\nA the weight of the man and the time taken only\nB the weight of the man and the vertical distance moved only\nC the work done by the man and the time taken only\nD the work done by the man and the vertical distance moved only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q461": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5",
+   "1.7.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a pendulum.\n\n[Diagram showing a pendulum bob at position P, swinging through the lowest point Q up to position R. The vertical height difference between P and Q is labelled 10 cm.]\n\nThe pendulum swings from P to Q to R and back to P.\n\nP is 10 cm higher than Q.\n\nAt which speed does the pendulum bob pass through Q?\n\nA 0.44 m/s\nB 1.0 m/s\nC 1.4 m/s\nD 2.0 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q462": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.4",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A crane on a building site lifts bricks of total mass 200 kg, initially at rest on the ground, with uniform acceleration.\n\nWhen the bricks are 5.0 m from the ground, they have a speed of 5.0 m/s.\n\nHow much work is done during this process?\n\nA 2.5 kJ\nB 10.0 kJ\nC 12.5 kJ\nD 35 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q464": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A barrel of mass 40 kg is raised to a height of 1.5 m by rolling it up a ramp. The length of the ramp is 8.0 m. The force F applied to the barrel acts parallel to the ramp. The frictional force is negligible.\n\n[Diagram showing a barrel of mass 40 kg on a ramp of length 8.0 m and vertical height 1.5 m, with a force F directed up along the ramp.]\n\nWhich row is correct?\n\n| | gain in gravitational potential energy / J | force F / N |\n|---|---|---|\n| A | 60 | 7.5 |\n| B | 60 | 40 |\n| C | 600 | 75 |\n| D | 600 | 400 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q465": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the main process by which energy is produced in the Sun?\n\nA combustion\nB nuclear fission\nC nuclear fusion\nD radioactive decay",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q466": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A man can either take an escalator or a lift to travel up between two floors in a hotel.\n\n[Diagram illustrating an escalator on the left and a lift on the right, both carrying a man between the same two floors.]\n\nThe escalator takes 20 seconds to carry the man between the two floors. The useful work done against gravity is W. The useful power developed is P.\n\nThe lift takes 30 seconds to carry the same man between the same two floors.\n\nHow much useful work against gravity is done by the lift, and how much useful power is developed by the lift?\n\n| | useful work done against gravity by lift | useful power developed by lift |\n|---|---|---|\n| A | more than W | less than P |\n| B | more than W | P |\n| C | W | less than P |\n| D | W | P |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q467": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 40 W lamp wastes 34 J of energy every second by heating its surroundings.\n\nWhat is the efficiency of the lamp?\n\nA 0.15%\nB 15%\nC 18%\nD 85%",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:30:48+00:00"
+ },
+ "q468": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A box of mass m slides down a slope of length l and vertical height d against a frictional force F.\n[A diagram shows a box of mass m on an inclined plane with slope length l and vertical height d. The box slides down the slope against a frictional force F directed up the slope.]\nAs the box slides down the slope, it loses gravitational potential energy and it does work against the friction.\nWhich row gives the loss in gravitational potential energy and the work done against friction?\n\nA loss in gravitational potential energy: mgd | work done against friction: Fl\nB loss in gravitational potential energy: mgd | work done against friction: Fd\nC loss in gravitational potential energy: mgl | work done against friction: Fl\nD loss in gravitational potential energy: mgl | work done against friction: Fd",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q469": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram represents the energy transfers for a device.\n[A Sankey diagram shows input energy splitting into useful output energy directed to the right, and wasted output energy directed downwards.]\nThe device is 50% efficient.\nWhich equation is correct?\nA input energy = useful output energy ÷ 2\nB useful output energy = wasted output energy ÷ 2\nC wasted output energy = useful output energy\nD wasted output energy = useful output energy ÷ 2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q470": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student carries out some simple exercises.\nIn which exercise is the most work done?\n[Four options are illustrated:\nA: lifting a 1 kg mass vertically through 1 m\nB: pushing a 1 kg mass through 1 m against a frictional force of 4 N\nC: lifting a 2 kg mass vertically through 2 m\nD: pulling a 2 kg mass through 2 m against a frictional force of 2 N]",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q471": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object falls from a height of 5.0 m.\nAir resistance can be ignored.\nAs it hits the ground the object has 750 J of kinetic energy.\nWhat is its mass?\nA 15 kg\nB 50 kg\nC 75 kg\nD 150 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q472": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric generator produces an electromotive force (e.m.f.) of 200 V and produces a current of 3.0 A in a circuit. The generator is driven by an engine with a power of 2.4 kW.\nWhat is the efficiency of the generator?\nA 2.8%\nB 25%\nC 28%\nD 36%",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q473": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show athletes training by stretching springs.\nEach spring has the same stiffness.\nWhich athlete does the most work?\n[Four diagrams show athletes stretching springs:\nA: one spring stretched by 0.60 m\nB: one spring stretched by 0.80 m\nC: two springs stretched by 0.60 m\nD: two springs stretched by 0.80 m]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q474": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show four bodies moving in the directions shown. The only forces acting on the bodies are shown in each diagram.\nWhich body gains the most kinetic energy when moving a distance of 1.0 m?\n[Four options:\nA: a body moving upwards with an upward force of 20 N and a downward force of 10 N\nB: a body moving downwards with a downward force of 10 N\nC: a body moving to the right with a leftward force of 10 N and a rightward force of 25 N\nD: a body moving to the left with a leftward force of 30 N and a rightward force of 30 N]",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q475": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A steel ball is fired vertically upwards with a velocity v. The ball reaches a height h.\nThe same ball is now fired vertically upwards from the same position with a velocity 2v.\nAir resistance can be ignored.\nWhat is the new height reached by the ball?\nA h\nB 2h\nC 4h\nD 8h",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:34:41+00:00"
+ },
+ "q476": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A solar panel is used to recharge a battery. The solar panel produces 0.80 W of electrical power. The panel is 20% efficient.\n\n[Diagram showing sunlight striking a solar panel which supplies power to a battery labeled 'power to battery 0.80 W']\n\nWhat is the power input of the sunlight onto the solar panel?\n\nA 0.16 W\nB 4.0 W\nC 8.0 W\nD 16 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q477": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show four different athletes training by doing pull-ups.\n\nWhich athlete does the most work?\n\nA weight of athlete = 700 N, distance lifted = 0.50 m\nB weight of athlete = 700 N, distance lifted = 0.55 m\nC weight of athlete = 800 N, distance lifted = 0.50 m\nD weight of athlete = 800 N, distance lifted = 0.55 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q478": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.3",
+   "1.7.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the path of a stone that is thrown from X and reaches its maximum height at Y.\n\n[Diagram showing the parabolic path of a stone from point X up to maximum height Y, then continuing downwards]\n\nThe stone gains 10 J of gravitational potential energy as it moves from X to Y.\n\nThe stone has 2.0 J of kinetic energy at Y.\n\nAir resistance can be ignored.\n\nHow much kinetic energy did the stone have immediately after it was thrown at X?\n\nA 2.0 J\nB 8.0 J\nC 10 J\nD 12 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q479": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A motor is used to lift a load of 40 N.\n\n[Diagram showing a motor lifting a load of 40 N through a vertical height labeled 'load lifted through 0.50 m']\n\nThe power of the motor is 40 W and the system is 20% efficient.\n\nHow long does it take the motor to lift the load through 0.50 m?\n\nA 0.50 s\nB 2.5 s\nC 5.0 s\nD 25 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q480": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student runs up a flight of stairs.\n\n[Diagram showing a student running up stairs, with the sloping 'length' and vertical 'height' indicated]\n\nWhich information is not needed to calculate the rate at which the student is doing work against gravity?\n\nA the height of the flight of stairs\nB the length of the flight of stairs\nC the time taken to run up the stairs\nD the weight of the student",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q481": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object has a mass of 500 kg.\n\nIt moves with a speed of 30 m/s.\n\nWhat is its kinetic energy?\n\nA 7.5 kJ\nB 15 kJ\nC 225 kJ\nD 450 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q482": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Different processes have different efficiencies.\n\nWhich row shows the most efficient process?\n\n| | energy input / J | useful energy output / J |\n|---|---|---|\n| A | 10 | 3 |\n| B | 40 | 10 |\n| C | 100 | 25 |\n| D | 2000 | 250 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q483": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5",
+   "1.7.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car, starting from rest at position X, accelerates up a hill. The car reaches a speed of 10 m/s at position Y.\n\nThe kinetic energy of the car at position Y is equal to its gain in gravitational potential energy from X to Y.\n\n[Diagram showing a car starting at X and moving up a hill to position Y, with the vertical difference marked as 'gain in height of car']\n\nTake the gravitational field strength g to be 10 N/kg.\n\nWhat is the gain in height of the car between X and Y?\n\nA 0.50 m\nB 5.0 m\nC 10 m\nD 50 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:35:23+00:00"
+ },
+ "q484": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 150 W filament lamp has an efficiency of 10%. A 40 W compact fluorescent lamp (CFL) has an efficiency of 30%.\n\nEach lamp is switched on for the same amount of time.\n\nWhich lamp produces more light and which lamp converts more energy into other forms of energy?\n\n| | produces more light | converts more energy into other forms |\n|---|---|---|\n| A | CFL lamp | CFL lamp |\n| B | CFL lamp | filament lamp |\n| C | filament lamp | CFL lamp |\n| D | filament lamp | filament lamp |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q485": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.8.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a rectangular block of weight 16 N. It is resting on a flat surface.\n\n[Diagram of a rectangular block standing on its end with dimensions: width 4.0 cm, length 5.0 cm, height 9.0 cm]\n\nWhat is the pressure at the base of the block due to its weight?\n\nA 0.089 N / cm^2\nB 0.36 N / cm^2\nC 0.80 N / cm^2\nD 320 N / cm^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q486": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.8.4",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An oil tank has a base of area 2.5 m^2 and is filled with oil to a depth of 1.2 m.\n\nThe density of the oil is 800 kg / m^3.\n\nWhat is the force exerted on the base of the tank due to the oil?\n\nA 940 N\nB 2400 N\nC 9400 N\nD 24 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q487": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q488": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The density of sea water is 1030 kg / m^3.\n\nThe gravitational field strength on the Earth is 9.8 N / kg.\n\nAtmospheric pressure is 101 000 Pa.\n\nAt which depth in sea water is the total pressure due to the atmosphere and the water equal to 513 000 Pa?\n\nA 40.8 m\nB 50.8 m\nC 400 m\nD 498 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q489": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the pressure due to a liquid varies with the depth beneath the liquid surface.\n\nThe gravitational field strength g is 9.8 N / kg.\n\n[Graph of pressure due to the liquid / Pa on the y-axis (from 0 to 8000) against depth beneath the liquid surface / m on the x-axis (from 0.00 to 0.80). The straight line passes through (0, 0) and (0.50, 4000).]\n\nWhat is the density of the liquid?\n\nA 200 kg / m^3\nB 820 kg / m^3\nC 2000 kg / m^3\nD 8200 kg / m^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q490": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.1.5",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In a small hydroelectric power scheme, 800 kg of water drops through a vertical height of 2.2 m every second. The electrical output is 10.6 kW.\n\nWhat is the efficiency of the scheme?\n\nA 0.60%\nB 17%\nC 60%\nD 75%",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q491": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a deep reservoir formed by a dam.\n\n[Diagram showing a cross-section of a reservoir held back by a dam. A point labelled X is located in the water near the bottom of the dam wall.]\n\nOn what does the pressure at X depend?\n\nA the depth of the water at X\nB the length of the reservoir\nC the surface area of the water\nD the thickness of the dam wall",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T11:36:24+00:00"
  }
 }
