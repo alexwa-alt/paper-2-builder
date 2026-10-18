@@ -7769,5 +7769,329 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-18T18:45:11+00:00"
+ },
+ "q589": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Brownian motion is observed when using a microscope to look at smoke particles in air.\n\nWhat causes the smoke particles to move at random?\n\nA Smoke particles are hit by air molecules.\nB Smoke particles are moved by convection currents in the air.\nC Smoke particles have different weights and fall at different speeds.\nD Smoke particles hit the walls of the container.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q591": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.4",
+   "2.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A pollen grain in a beaker of still water is viewed through a microscope.\n\nWhich diagram shows the most likely movement of the pollen grain?\n\n[Four circular microscope fields of view showing paths of a particle: A shows random erratic zigzag motion; B shows right-angled stepped motion; C shows a smooth vertical sine-wave motion; D shows an inward spiral path.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q592": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an air-filled rubber toy. A child sits on the toy and its volume decreases.\n\nThe temperature of the air in the toy does not change.\n\n[Diagram showing the rubber toy before and after a child sits on it, compressing it to a smaller volume]\n\nHow does the air pressure in the toy change and why?\n\n        pressure | reason\nA decreases | air molecules move more slowly\nB decreases | air molecules strike the rubber less frequently\nC increases | air molecules move more quickly\nD increases | air molecules strike the rubber more frequently",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q593": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Why does a balloon filled with hot air rise?\n\nA Cold air is less dense than hot air.\nB Cold air is more dense than hot air.\nC Heat rises.\nD The density of the balloon is greater than the density of the surrounding gas.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q594": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "[Question stem is missing from the image]\n\nA The mass of the liquid increases, making the liquid less dense.\nB The mass of the liquid increases, making the liquid more dense.\nC The volume of the liquid increases, making the liquid less dense.\nD The volume of the liquid increases, making the liquid more dense.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q595": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.5",
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statements about evaporation of water are correct?\n\n1 Evaporation causes the remaining liquid to cool.\n2 During evaporation, the more energetic particles escape from the surface of the liquid.\n3 Evaporation only happens at 100 °C.\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q596": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four students are asked to state and explain the relative magnitudes of the thermal expansion of solids and gases.\n\nWhich student is correct?\n\nA Gases expand more than solids because the molecules in a gas are in random motion.\nB Gases expand more than solids because the attractive forces between molecules are much weaker in gases.\nC Solids expand more than gases because the molecules are closer together in solids.\nD Solids expand more than gases because the molecules in a solid are in a regular pattern.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q597": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.3",
+   "2.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the particles of a substance after condensation is correct?\n\nA They are close to each other and slide over each other.\nB They are close to each other and vibrate about fixed points.\nC They are far apart from each other and vibrate about fixed points.\nD They are far apart from each other and move freely within the container.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:36:59+00:00"
+ },
+ "q598": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two otherwise identical cars, one black and one white, are at the same initial temperature. The cars are left in bright sunshine and their temperatures increase. During the night, their temperatures decrease.\n\nWhich car shows the greater rate of temperature increase and which car shows the greater rate of temperature decrease?\n\nA: greater rate of temperature increase = black, greater rate of temperature decrease = black\nB: greater rate of temperature increase = black, greater rate of temperature decrease = white\nC: greater rate of temperature increase = white, greater rate of temperature decrease = black\nD: greater rate of temperature increase = white, greater rate of temperature decrease = white",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q599": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Smoke particles, illuminated by a bright lamp, are seen through a microscope. They move about randomly.\n\nWhat causes this motion?\n\nA attraction between the smoke particles and the molecules of the air\nB collisions between the smoke particles and the molecules of the air\nC evaporation of the faster-moving smoke particles\nD warming of the smoke particles by the lamp",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q600": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Ether is a liquid that evaporates easily at room temperature.\n\nThe rate at which ether evaporates can be increased by bubbling air through it.\n\nThe diagram shows this process.\n\n[A test tube containing ether with a delivery tube bubbling air into the bottom of the ether, and another tube allowing air to leave]\n\nStudents give three suggestions why the rate of evaporation increases when air is bubbled through.\n\nStudent 1 suggests that the temperature of the ether is decreased.\nStudent 2 suggests that the surface area of the ether is increased.\nStudent 3 suggests that evaporated molecules are removed at a greater rate.\n\nWhich students are correct?\n\nA 1 and 2\nB 1 and 3\nC 2 and 3\nD 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q601": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Some ice is slowly heated and its temperature is measured. A graph is plotted of temperature against time.\n\n[A graph of temperature/°C against time showing the temperature rising from -10 °C to 0 °C, remaining constant at 0 °C along a horizontal section X, and then rising linearly towards 100 °C]\n\nWhich row describes what happens to the thermal energy and to the temperature in section X?\n\nA: thermal energy = gained by ice, temperature of ice = rises\nB: thermal energy = gained by ice, temperature of ice = stays the same\nC: thermal energy = not gained by ice, temperature of ice = rises\nD: thermal energy = not gained by ice, temperature of ice = stays the same",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q602": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.4",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the apparatus needed for an experiment to determine the specific heat capacity of the material from which an object is made.\n\n[Apparatus diagram showing an electrical circuit containing a power supply, ammeter, voltmeter, and a heater inserted into a solid object. A thermometer is also placed in the object. The object rests on a digital balance, and a stop-clock is shown next to it.]\n\nWhich piece of apparatus could be omitted if the purpose of the experiment is to determine the thermal capacity of the object?\n\nA ammeter\nB balance\nC stop-clock\nD thermometer",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q603": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two open containers are filled with water at room temperature. The containers have different shapes.\n\n[Diagram showing container 1 as a wide, shallow dish and container 2 as a tall, narrow cylinder]\n\nFrom which container does the water evaporate at the greater rate and how can the rate of evaporation be increased?\n\nA: container with the greater rate of evaporation = 1, how the rate of evaporation can be increased = decrease the water temperature\nB: container with the greater rate of evaporation = 1, how the rate of evaporation can be increased = increase the water temperature\nC: container with the greater rate of evaporation = 2, how the rate of evaporation can be increased = decrease the water temperature\nD: container with the greater rate of evaporation = 2, how the rate of evaporation can be increased = increase the water temperature",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q604": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a liquid-in-glass thermometer.\n\n[A liquid-in-glass thermometer with markings from -10 °C to 110 °C]\n\nA student wishes to check the marking of the upper fixed point on this thermometer.\n\nWhat should she do?\n\nA Put the bulb in a beaker of boiling sea water.\nB Put the bulb in a beaker of boiling pure water.\nC Put the bulb in a beaker of ice and salt.\nD Put the bulb in a beaker of pure melting ice.",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q605": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Water in a beaker gains thermal energy at a rate of 3000 W. The water is at its boiling point.\n\nThe specific latent heat of vaporisation of water is 2260 J / g.\n\nHow long does it take for 250 g of the water to vaporise?\n\nA 12 s\nB 188 s\nC 332 s\nD 750 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:38:16+00:00"
+ },
+ "q606": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.8",
+   "2.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Small pollen particles are suspended in water.\n\nWhen viewed with a microscope, the pollen particles can be seen to be moving about irregularly.\n\nWhat causes this movement?\n\nA The pollen particles are being bombarded by the heavier particles of the water.\nB The pollen particles are being bombarded by the lighter particles of the water.\nC The temperature of the water is higher than that of the pollen particles.\nD The temperature of the water is lower than that of the pollen particles.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q607": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row correctly describes boiling and evaporation of water?\n\n| | boiling | evaporation |\n|---|---|---|\n| A | bubbles seen | occurs at surface only |\n| B | bubbles seen | occurs throughout the water |\n| C | no bubbles | occurs at surface only |\n| D | no bubbles | occurs throughout the water |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q608": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a liquid-in-glass thermometer.\n\n[Diagram showing a liquid-in-glass thermometer with labels pointing to the 'bulb' and 'capillary tube'.]\n\nWhich change increases the sensitivity of the thermometer?\n\nA a narrower capillary tube\nB a wider capillary tube\nC thicker glass around the bulb\nD thinner glass around the bulb",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q609": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a liquid-in-glass thermometer with a uniform capillary tube.\n\n[Diagram of a liquid-in-glass thermometer, marked NOT TO SCALE. A distance of 8 mm is shown from the shoulder of the bulb to the 0 °C mark. A distance of 64 mm is shown from the 0 °C mark to the liquid meniscus in the capillary tube. A distance of 88 mm is shown from the shoulder of the bulb to the 100 °C mark.]\n\nWhich temperature is indicated by the thermometer?\n\nA 73 °C\nB 80 °C\nC 82 °C\nD 90 °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q610": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which change in the design of a liquid-in-glass thermometer makes it more sensitive?\n\nA a larger liquid reservoir\nB a longer tube\nC a smaller liquid reservoir\nD a wider tube",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q611": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A scientist is determining the specific latent heat of vaporisation of a liquid.\n\nHe puts the liquid in a vacuum flask and heats it with a 100 W heater. The mass of liquid in the vacuum flask when it starts to boil is 300 g. He continues to heat the liquid for a further 12 minutes after which the mass of the remaining liquid is 100 g.\n\nWhat is the specific latent heat of vaporisation of the liquid?\n\n(Assume that all the thermal energy from the heater is used to vaporise the liquid.)\n\nA 6000 J / kg\nB 240 000 J / kg\nC 360 000 J / g\nD 360 000 J / kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q613": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An ice cube of mass 12 g at 0 °C absorbs thermal energy from the surroundings at a rate of 3 J / s.\nThe specific latent heat of fusion of ice is 330 J / g.\n\nHow long will it take for the ice cube to melt?\n\nA 82.5 s\nB 1320 s\nC 3960 s\nD 11 880 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q614": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the internal energy of 1.0 kg of a metal changes with temperature.\n\n[Graph of internal energy / kJ on the y-axis against temperature / °C on the x-axis. The y-axis goes from 795 to 835 kJ. The x-axis goes from 0 to 100 °C. A straight line starts at (0, 800) and ends at (100, 830).]\n\nWhat is the increase in the internal energy of a block of the same metal of mass 0.25 kg when its temperature rises from 40 °C to 50 °C?\n\nA 30 J\nB 300 J\nC 750 J\nD 1200 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T21:39:24+00:00"
  }
 }
