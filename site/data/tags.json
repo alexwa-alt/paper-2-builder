@@ -6450,10 +6450,17 @@
   "updated": "2026-10-18T11:36:24+00:00"
  },
  "q487": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "missing or invalid tags in response",
-  "updated": "2026-10-18T11:36:24+00:00"
+  "status": "done",
+  "subpoints": [
+   "1.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student uses a microscope to observe pollen moving on the surface of water.\n\nWhich statement describes the reason for this movement?\n\nA Water molecules are moved by microscopic pollen particles.\nB Water molecules are moved by pollen molecules.\nC Microscopic pollen particles are moved by water molecules.\nD Pollen molecules are moved by water molecules.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
  },
  "q488": {
   "status": "done",
@@ -6511,5 +6518,1039 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-18T11:36:24+00:00"
+ },
+ "q492": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A manometer containing water is used to measure the pressure of a gas supply, as shown.\n\n[Diagram showing a U-tube manometer containing water. The left arm is open to the atmosphere with a water level at a height of 40 cm above the surface. The right arm is connected to a gas supply with a water level at a height of 10 cm above the surface.]\n\nThe density of water is 1000 kg/m^3.\n\nWhat is the pressure of the gas supply?\n\nA 300 Pa above atmospheric pressure\nB 400 Pa above atmospheric pressure\nC 3000 Pa above atmospheric pressure\nD 4000 Pa above atmospheric pressure",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q493": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a tank containing sea water.\n\n[Diagram showing a tank filled with sea water to a depth of 8.0 m. A point P inside the water is located 60 cm above the bottom of the tank. Diagram marked NOT TO SCALE.]\n\nThe density of the sea water is 1020 kg/m^3.\n\nWhat is the pressure at point P relative to atmospheric pressure?\n\nA 7400 Pa above atmospheric pressure\nB 7500 Pa above atmospheric pressure\nC 75 000 Pa above atmospheric pressure\nD 82 000 Pa above atmospheric pressure",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q494": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The pressure of a fixed mass of gas in a cylinder is measured. The volume of the gas in the cylinder is slowly decreased. The temperature of the gas does not change.\n\nWhich graph shows how the pressure of the gas changes during this process?\n\n[Four graphs of pressure on the y-axis against time on the x-axis:\nA shows a horizontal line at a non-zero pressure.\nB shows a straight line increasing from the origin (0,0).\nC shows a straight line increasing from a non-zero positive y-intercept.\nD shows a straight line decreasing from a non-zero positive y-intercept.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q495": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A measuring cylinder of cross-sectional area 4.0 cm^2 contains 224 cm^3 of liquid.\n\nThe pressure of the liquid at the base of the measuring cylinder due to the liquid is 8800 Pa.\n\nWhat is the density of the liquid?\n\nA 224 kg/m^3\nB 385 kg/m^3\nC 1600 kg/m^3\nD 2200 kg/m^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q496": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a manometer connected to a gas supply.\n\n[Diagram showing a U-tube manometer with a vertical millimeter scale. The left arm is connected to a gas supply, with mercury level at 100 mm. The right arm is open to the air, with mercury level at 300 mm.]\n\nWhat is the pressure of the gas supply?\n\nA 100 mm Hg above atmospheric pressure\nB 100 mm Hg below atmospheric pressure\nC 200 mm Hg above atmospheric pressure\nD 200 mm Hg below atmospheric pressure",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q497": {
+  "status": "done",
+  "subpoints": [
+   "1.8.2",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a box of dimensions 6.0 cm × 8.0 cm × 4.0 cm.\n\n[Diagram of a cuboid resting on a surface. Top face is labelled X with dimensions 6.0 cm by 8.0 cm. Front face is labelled Y with dimensions 6.0 cm by 4.0 cm. Side face is labelled Z with dimensions 8.0 cm by 4.0 cm.]\n\nThe box rests on a flat horizontal surface.\n\nOn which face must the box rest in order to exert the least pressure?\n\nA face X\nB face Y\nC face Z\nD The pressure is the same for all the faces.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q498": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A book has a mass of 400 g.\n\nThe surface of the book in contact with a table has dimensions 0.10 m × 0.20 m.\n\nThe gravitational field strength g is 10 N/kg.\n\nWhat is the pressure exerted on the table due to the book?\n\nA 0.08 N/m^2\nB 8.0 N/m^2\nC 20 N/m^2\nD 200 N/m^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T15:59:41+00:00"
+ },
+ "q499": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a mercury barometer.\n\nAt which point is the pressure greater than atmospheric pressure?\n\n[A diagram of a mercury barometer with point A in the vacuum above the mercury column, point B inside the column above the level of the reservoir, point C inside the tube at the level of the mercury in the reservoir, and point D at the bottom of the reservoir below the mercury surface.]\n\nA A\nB B\nC C\nD D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q501": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A horizontal metal plate of area 0.50 m^2 lies at the bottom of a lake at a depth of 40 m.\n\nThe density of water is 1000 kg/m^3 and the gravitational field strength g is 10 N/kg.\n\nWhat is the downward force acting on the plate due to the water?\n\nA 20 kN\nB 80 kN\nC 200 kN\nD 800 kN",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q503": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a tank full of water.\n\n[Diagram showing a cuboidal tank of water of height h]\n\nThe mass of water in the tank is m.\n\nThe density of the water is ρ.\n\nThe height of water in the tank is h.\n\nWhich equation gives the pressure p due to the water at the bottom of the tank?\n\nA p = hρg\nB p = mgh\nC p = mρg\nD p = mρh",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q504": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four containers are filled to the top with the same liquid. The base of each container is circular.\n\nWhich container has the greatest pressure exerted by the liquid at its base?\n\n[Diagram showing four containers: A is a tall narrow cylinder, B is a rounded bowl, C is a conical flask shape, and D is a wide shallow dish. Container A has the greatest vertical height.]\n\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q505": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which equation can be used to calculate the pressure at a depth h beneath the surface of a liquid?\n\nA p = h / (ρg)\nB p = hρ / g\nC p = hρg\nD p = 1 / (hρg)",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q506": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows three glass containers.\n\nAll three contain water filled to the same vertical height h.\n\n[Diagram of three containers P, Q, and R. P is cylindrical; Q is narrower at the top; R is slanted and supported by a wooden block. All three are filled to vertical height h. Base area of P equals base area of R; base area of Q is larger.]\n\nThe base area of P is equal to the base area of R.\n\nThe base area of Q is larger than the other two.\n\nStudents are asked to compare the water pressure at the bottom of each container.\n\nStudent 1 says that the pressure at base R is more than the pressure at base P.\nStudent 2 says that the pressure at base Q is less than the pressure at base P.\nStudent 3 says that the pressures at all three bases are the same.\n\nWhich students are correct?\n\nA none are correct\nB 1 only\nC 2 only\nD 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q507": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A skier is standing still on a flat area of snow.\n\n[Diagram of a skier on skis]\n\nThe weight of the skier is 550 N. The total area of his skis in contact with the ground is 0.015 m^2.\n\nWhat is the pressure exerted on the ground by the skier?\n\nA 0.83 N/m^2\nB 8.3 N/m^2\nC 3700 N/m^2\nD 37 000 N/m^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q508": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4",
+   "1.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A tall cylinder is partly filled with two liquids which do not mix. The two liquids have different densities. A student measures the pressure due to the liquids at different depths.\n\n[Diagram showing a cylinder with position P at the top liquid surface and position Q at the bottom of the cylinder, containing a less dense liquid on top and a denser liquid at the bottom.]\n\nWhich graph shows how the liquid pressure varies between positions P and Q?\n\n[Four graphs of pressure against depth from P to Q: A shows a steep gradient then a shallower gradient; B shows a shallow gradient then a steeper gradient; C shows a constant single gradient; D shows a horizontal line.]\n\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:20+00:00"
+ },
+ "q509": {
+  "status": "done",
+  "subpoints": [
+   "1.8.2",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a solid block resting on a bench. The dimensions of the block are shown.\n\n[Diagram showing a rectangular block with height 80 cm, top face Q with dimensions 20 cm by 40 cm, front face P with dimensions 40 cm by 80 cm, and side face R with dimensions 20 cm by 80 cm resting on a bench]\n\nOn which labelled surface should the block rest to produce the smallest pressure on the bench?\n\nA P\nB Q\nC R\nD P, Q and R produce the same pressure",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q510": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The pressure due to the liquid on an object immersed in that liquid is 4500 Pa.\n\nThe density of the liquid is 900 kg / m^3.\n\nWhat is the depth of the object below the surface of the liquid?\n\nA 0.5 cm\nB 2.0 cm\nC 50 cm\nD 200 cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q511": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is 60 cm below the surface of a liquid. The pressure due to the liquid at this depth is 9000 Pa.\n\nWhat is the density of the liquid?\n\nA 15 kg / m^3\nB 540 kg / m^3\nC 1500 kg / m^3\nD 54 000 kg / m^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q512": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The velocity v of an object increases as it falls towards the ground.\n\nWhich quantity is directly proportional to v^2?\n\nA the speed of the object\nB the gravitational potential energy of the object\nC the kinetic energy of the object\nD the momentum of the object",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q513": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A pipe full of water connects a water supply on a hill to a tap lower down the hill.\n\nThe length of the pipe is 500 m. The height of the supply above the tap is 100 m.\n\nThe density of the water is 1000 kg / m^3. The effect of atmospheric pressure is negligible.\n\nWhat is the water pressure at the tap?\n\nA 100 000 Pa\nB 500 000 Pa\nC 1 000 000 Pa\nD 5 000 000 Pa",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q514": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A barometer reads 780 mm Hg. Mercury has a density of 1.36 × 10^4 kg / m^3.\n\nWhat is the pressure of the atmosphere in N / m^2?\n\nA 1.1 × 10^4 N / m^2\nB 1.1 × 10^5 N / m^2\nC 1.1 × 10^7 N / m^2\nD 1.1 × 10^8 N / m^2",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q515": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a mercury barometer.\n\n[Diagram showing a mercury barometer with four vertical height measurements labelled:\nA: depth of mercury in the dish\nB: height from the bottom of the dish to the mercury meniscus inside the tube\nC: height from the mercury surface in the dish to the mercury meniscus inside the tube\nD: height from the mercury surface in the dish to the top of the tube]\n\nWhich height is used as a measurement of atmospheric pressure?",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q516": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A research submarine is at a depth of 10 000 m below the surface of the sea.\n\nThe average density of the water above the submarine is 1030 kg / m^3.\n\nThe atmospheric pressure at the surface of the sea is 103 000 Pa.\n\nHow many times greater is the pressure due to the sea water than the atmospheric pressure?\n\nA 10\nB 100\nC 1000\nD 100 000",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:00:59+00:00"
+ },
+ "q517": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student calculates the pressure due to the liquid at point X.\n\n[Diagram showing a beaker containing liquid, with a point X marked in the liquid near the bottom]\n\nThe student takes four measurements.\n\n1 density of the liquid\n2 temperature of the liquid\n3 depth of point X below the surface of the liquid\n4 surface area of the liquid\n\nWhich measurements must the student use in her pressure calculation?\n\nA 3 and 4\nB 1 and 3\nC 1 and 2\nD 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q518": {
+  "status": "done",
+  "subpoints": [
+   "1.8.2",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows an athlete exerting least pressure on the ground?\n\n[Four diagrams showing an athlete in different positions: A on hands and knees, B lying flat on their back, C standing on one leg, D standing on both feet]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q519": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a U-tube manometer containing three liquids: mercury, liquid X and liquid Y. Neither liquid X or liquid Y mixes with mercury.\n\n[Diagram showing a U-tube manometer. The mercury levels in both arms are at the same height. Liquid X fills the left arm to a higher level, while liquid Y fills the right arm to a lower level.]\n\nWhich row compares the pressure exerted by liquid X and by liquid Y on the mercury, and the density of liquid X and the density of liquid Y?\n\nA pressure of X is greater than Y | density of X is greater than Y\nB pressure of Y is greater than X | density of Y is greater than X\nC pressure of X and of Y is the same | density of X is greater than Y\nD pressure of X and of Y is the same | density of Y is greater than X",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q520": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a stone suspended on a string under the surface of a liquid. The stone experiences a pressure caused by the liquid.\n\n[Diagram showing a stone suspended by a string beneath the surface of liquid in a beaker]\n\nWhat would increase the pressure on the stone?\n\nA decreasing the surface area of the stone\nB increasing the mass of the stone\nC lowering the stone deeper into the liquid\nD using a liquid with a lower density",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q522": {
+  "status": "done",
+  "subpoints": [
+   "1.8.2",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A drawing pin (thumb tack) has a sharp point at one end and a flat surface at the other end.\n\n[Diagram showing a drawing pin with labels 'sharp point' and 'flat surface']\n\nThe pin is pushed into a wooden board.\n\nHow do the pressure and the force at the sharp point compare with the pressure and the force on the flat surface?\n\nA force at the sharp point: greater than on the flat surface | pressure at the sharp point: greater than on the flat surface\nB force at the sharp point: greater than on the flat surface | pressure at the sharp point: less than on the flat surface\nC force at the sharp point: the same as on the flat surface | pressure at the sharp point: greater than on the flat surface\nD force at the sharp point: the same as on the flat surface | pressure at the sharp point: less than on the flat surface",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q523": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is 20 cm below the surface of a liquid. The density of the liquid is 1200 kg / m^3.\n\nWhat is the pressure on the object due to the liquid?\n\nA 600 Pa\nB 2400 Pa\nC 60 000 Pa\nD 240 000 Pa",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q524": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The density of mercury is 13 600 kg / m^3.\n\nWhat is the pressure at the bottom of a column of mercury that has a height of 75.0 cm?\n\nA 1.02 × 10^4 Pa\nB 1.02 × 10^5 Pa\nC 1.02 × 10^6 Pa\nD 1.02 × 10^7 Pa",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q525": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A water manometer is connected to a gas supply.\n\n[Diagram of a U-tube water manometer. The left arm is connected to a gas supply at point P. The right arm is open to the air at point Q. The water level at P is lower than at Q.]\n\nThere is a gas leak and the pressure of the gas supply falls.\n\nWhat happens to the water level at P and what happens to the water level at Q?\n\nA water level at P: falls | water level at Q: falls\nB water level at P: falls | water level at Q: rises\nC water level at P: rises | water level at Q: falls\nD water level at P: rises | water level at Q: rises",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:01:35+00:00"
+ },
+ "q526": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A submarine is 20 m below the surface of the sea. The pressure due to the water at this depth is P.\n\nOn another day, the submarine is 26 m below the surface of fresh water.\n\nThe density of sea water is 1.3 times the density of fresh water.\n\nWhat is the pressure due to the fresh water at a depth of 26 m?\n\nA P / 1.3\nB P\nC 1.3 P\nD 1.7 P",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q527": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four identical beakers are filled with equal volumes of liquids P or Q, as shown. Liquid P is more dense than liquid Q.\n\nAt which point is the pressure the least?\n\n[Four identical beakers containing equal depths of liquid. The first two contain liquid P, with point A near the bottom and point B near the surface. The next two contain liquid Q, with point C near the bottom and point D near the surface.]\n\nA point A\nB point B\nC point C\nD point D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q528": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An oil tank has a base of area 2.5 m^2 and is filled with oil to a depth of 1.2 m.\n\nThe density of the oil is 800 kg / m^3.\n\nWhat is the force exerted on the base of the tank due to the oil?\n\nA 960 N\nB 2400 N\nC 9600 N\nD 24 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q529": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A submarine is in water of density 1.0 × 10^3 kg / m^3. The submarine changes its depth. This causes the pressure on it to change by 0.10 MPa.\n\nWhat is the change in depth of the submarine?\n\nA 0.10 m\nB 10 m\nC 100 m\nD 1000 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q531": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A simple barometer includes a column of mercury.\n\nWhich property of this column of mercury is used to give a measurement of atmospheric pressure?\n\nA its cross-sectional area\nB its height\nC its temperature\nD its thermal capacity",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q533": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A manometer is used to measure the pressure of a gas supply.\n\n[Diagram showing a U-tube manometer containing liquid. One side is open to the atmosphere and the other is connected to a gas supply. The liquid level in the open tube is higher than that in the connected tube by a height difference h.]\n\nWhich change gives a greater value of height h?\n\nA using a less dense liquid\nB using a more dense liquid\nC using a narrower tube\nD using a wider tube",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q534": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A washbasin has an exit pipe covered with a plug of area 12 cm^2. A chain is attached to the centre of the plug to assist in pulling the plug away from the exit hole. The washbasin contains water to a depth of 0.080 m.\n\nThe density of the water is 1000 kg / m^3.\n\n[Diagram showing a washbasin filled with water, a plug at the bottom with an attached chain.]\n\nWhat is the force acting on the plug due to the water?\n\nA 0.96 N\nB 800 N\nC 9600 N\nD 80 000 N",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q535": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A column of liquid has height h, mass m and density ρ. The gravitational field strength is g.\n\nWhich expression gives the pressure due to the column of liquid?\n\nA hρ\nB mρ\nC mgh\nD ρgh",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:13+00:00"
+ },
+ "q536": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show two mercury barometers. The right-hand diagram shows a tube of larger diameter. There is a vacuum above the mercury in both tubes.\n\n[Diagram shows two mercury barometers with mercury troughs and inverted glass tubes. The right-hand tube has a wider diameter than the left-hand tube. Four positions are marked on the right-hand tube: A is near the top above the level of the left-hand tube; B is at the same horizontal level as the mercury in the left tube; C is below B; D is at the surface of the mercury in the trough.]\n\nWhich labelled position on the right-hand tube shows the mercury level in the right-hand tube?\n\nA A\nB B\nC C\nD D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:46+00:00"
+ },
+ "q537": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four different liquids are poured into four containers.\n\nThe diagrams show the depth and the density of liquid in each container.\n\nIn which container is the pressure on its base the greatest?\n\nA liquid depth = 10 cm, liquid density = 3.1 g/cm^3\nB liquid depth = 20 cm, liquid density = 1.2 g/cm^3\nC liquid depth = 30 cm, liquid density = 1.3 g/cm^3\nD liquid depth = 40 cm, liquid density = 0.8 g/cm^3",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:46+00:00"
+ },
+ "q538": {
+  "status": "done",
+  "subpoints": [
+   "1.8.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a simple mercury barometer.\n\n[Diagram showing a mercury barometer with a vertical metre rule alongside. The mercury level in the open reservoir is at the 12 cm mark on the rule. The top of the mercury column inside the evacuated tube is at the 86 cm mark on the rule.]\n\nWhich length is used to find the value of atmospheric pressure?\n\nA 12 cm\nB 74 cm\nC 86 cm\nD 100 cm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:46+00:00"
+ },
+ "q539": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a glass flask, sealed with a small volume of mercury in a glass tube. When the flask is gently warmed the mercury rises up the tube.\n\n[Diagram showing a glass flask containing a small amount of water at the bottom and air above it. A vertical glass tube passes through a stopper in the neck of the flask, containing a small pellet of mercury.]\n\nWhat is the main cause of the movement of the mercury?\n\nA expansion of air in the flask\nB expansion of the glass flask\nC expansion of the glass tube\nD expansion of the mercury",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:02:46+00:00"
+ },
+ "q540": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sample of gas is trapped in a rigid container. As the temperature of the gas is increased, the pressure increases.\n\nWhich statement is not correct?\n\nA The gas molecules have greater kinetic energy.\nB The gas molecules hit the walls of the container harder.\nC The gas molecules hit the walls of the container more frequently.\nD The gas molecules move further apart.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q541": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four students describe the phrase ‘absolute zero’ during a lesson on the particle model.\n\nWhich student is correct?\n\nA This is the lowest possible temperature.\nB Particles in a solid start vibrating.\nC Particles do not have any weight.\nD Particles have the least gravitational potential energy.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q542": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the lowest possible temperature (absolute zero) and what happens to the energy of particles at this temperature?\n\n[Table with columns: 'lowest possible temperature / °C', 'particle energy']\nA -273 | particles have least kinetic energy\nB -273 | particles have zero gravitational potential energy\nC 0 | particles have least kinetic energy\nD 0 | particles have zero gravitational potential energy",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q543": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement describes thermal conduction in a metal by electrons?\n\nA Atoms and electrons move freely throughout the metal.\nB Atoms and electrons vibrate about their fixed positions only.\nC Electrons move freely throughout the metal.\nD Electrons remain attached to atoms.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q544": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.2",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sealed rigid container has a fixed volume. The container is filled with air.\n\nThe container is placed in a freezer cabinet and the temperature of the air in the container decreases.\n\nWhich row correctly describes what happens to the air in the container?\n\n[Table with columns: 'average distance between air particles', 'average speed of air particles']\nA decreases | increases\nB decreases | decreases\nC no change | increases\nD no change | decreases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q545": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The conditions of a sample of gas change in two stages.\n\nstage 1: increase of temperature at constant volume\nstage 2: increase of volume with no further change of temperature\n\nWhich row about the pressure after each stage is correct?\n\n[Table with columns: 'stage 1 pressure compared to original pressure', 'stage 2 pressure compared to pressure after stage 1']\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q546": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows gas particles hitting the wall of a container. The system is at room temperature.\n\n[A box contains small circles representing gas particles with arrows pointing in various random directions.]\n\nWhy do the gas particles exert a pressure on the wall?\n\nA When the particles hit the wall, their momentum changes, which causes a force.\nB When the particles hit the wall, their average kinetic energy increases.\nC The particles expand when they hit the wall.\nD The particles collide with each other.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q547": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A gas in a container is cooled but the volume of the gas does not change.\n\nWhich row describes the changes in the pressure of the gas and the kinetic energy of the gas particles?\n\n[Table with columns: 'pressure of gas', 'kinetic energy of gas particles']\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:03:29+00:00"
+ },
+ "q548": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.2",
+   "2.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A fixed mass of gas is trapped in a container. The temperature of the gas is increased but the volume of the gas is kept constant.\n\n[Diagram showing a rectangular box labeled 'fixed mass of gas']\n\nHow does this change affect the average kinetic energy of the molecules and the pressure on the walls of the container?\n\nA increases | increases\nB stays the same | increases\nC increases | decreases\nD decreases | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q549": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Wet clothes are hanging outside to dry.\n\nWhat are the best conditions for the clothes to dry most quickly?\n\nA wind speed: high | temperature: high\nB wind speed: high | temperature: low\nC wind speed: low | temperature: high\nD wind speed: low | temperature: low",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q551": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.8",
+   "2.2.3.5",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about evaporation is correct?\n\nA A body in contact with an evaporating liquid loses thermal energy.\nB A decrease in the surface area of an evaporating liquid increases the rate of evaporation.\nC A wind over a liquid decreases the rate of evaporation.\nD It is necessary to provide an external source of thermal energy to a liquid for it to evaporate.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q552": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Air in a sealed syringe is slowly compressed by moving the piston. The temperature of the air stays the same.\n\n[Diagram of air inside a sealed syringe being compressed as the piston moves to the left]\n\nWhich statement about the air is correct?\n\nA The pressure of the air decreases because its molecules now travel more slowly.\nB The pressure of the air decreases because the area of the syringe walls is now smaller.\nC The pressure of the air increases because its molecules now hit the syringe walls more frequently.\nD The pressure of the air increases because its molecules now travel more quickly.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q553": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.8",
+   "2.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In an experiment, smoke particles are suspended in air and viewed through a microscope.\n\nThe smoke particles move about with short random movements.\n\nWhich of the following statements is correct?\n\nA Air particles have large masses compared to smoke particles and they move in one direction only.\nB Air particles have large masses compared to smoke particles and they move in random directions.\nC Air particles move at high speeds compared to smoke particles and they move in one direction only.\nD Air particles move at high speeds compared to smoke particles and they move in random directions.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q554": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.6",
+   "2.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The table gives information about molecules.\n\nWhich row describes a gas?\n\nA force between molecules: strong | distance between molecules: close together\nB force between molecules: strong | distance between molecules: far apart\nC force between molecules: negligible | distance between molecules: far apart\nD force between molecules: negligible | distance between molecules: close together",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q555": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8",
+   "2.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Very small pollen grains are suspended in water. A bright light shines from the side.\n\nWhen looked at through a microscope, small specks of light are seen to be moving in a random, jerky manner.\n\n[Diagram showing a microscope pointing down into a beaker containing pollen grains in water, illuminated from the side by bright light]\n\nWhat are the moving specks of light?\n\nA pollen grains being hit by other pollen grains\nB pollen grains being hit by water molecules\nC water molecules being hit by other water molecules\nD water molecules being hit by pollen grains",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q556": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row describes the forces between the molecules and the motion of the molecules in a gas?\n\nA forces between molecules: strong | motion of molecules: move freely\nB forces between molecules: strong | motion of molecules: vibrate only\nC forces between molecules: weak | motion of molecules: move freely\nD forces between molecules: weak | motion of molecules: vibrate only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:04:13+00:00"
+ },
+ "q557": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.5",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A liquid at room temperature is put on a metal surface which is also at room temperature.\n\nA student blows gently across the liquid and its temperature decreases.\n\nWhat causes the liquid to become cooler?\n\nA Bubbles of water vapour form in the liquid and go into the air.\nB The moving air reduces the kinetic energy of all the particles in the liquid.\nC Thermal energy flows from the liquid into the metal.\nD The more energetic particles in the liquid escape into the air.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q558": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A liquid is evaporating. The liquid is not boiling.\n\nWhich statement about the liquid is correct at an instant in time?\n\nA Any molecule can escape, and from any part of the liquid.\nB Any molecule can escape, but only from the liquid's surface.\nC Only molecules with enough energy can escape, and only from the liquid's surface.\nD Only molecules with enough energy can escape, but from any part of the liquid.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q559": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.2",
+   "2.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A gas is contained in a sealed container in a laboratory. The temperature of the gas increases.\n\nWhat happens to the average speed and what happens to the total kinetic energy of the gas molecules?\n\n| | average speed | total kinetic energy |\n|---|---|---|\n| A | does not change | does not change |\n| B | does not change | increases |\n| C | increases | does not change |\n| D | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q560": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The same mass of a gas is trapped in four identical cylinders by a piston that can move.\n\nThe diagrams show the samples of gas in different conditions of volume and temperature.\n\n[Diagram shows four identical cylinders labeled 1, 2, 3, 4:\n1: piston near top (large volume), 20 °C\n2: piston near middle (small volume), 40 °C\n3: piston near top (large volume), 40 °C\n4: piston near middle (small volume), 50 °C]\n\nWhich list gives the pressure of the gas in order from lowest to highest?\n\nA 1 → 2 → 3 → 4\nB 1 → 3 → 2 → 4\nC 4 → 2 → 3 → 1\nD 4 → 3 → 2 → 1",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q561": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A solid and a gas are each given the same increase in temperature. The gas is kept at a constant pressure.\n\nWhich row is correct?\n\n| | the one which expands most | the reason |\n|---|---|---|\n| A | the gas | molecules in the gas each expand more than the solid molecules |\n| B | the gas | the molecules in the solid are held strongly together |\n| C | the solid | molecules in the solid each expand more than the gas molecules |\n| D | the solid | all the molecules in the gas are separate from one another |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q562": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "When pollen grains in water are viewed through a microscope, they are seen to be in continuous, rapid random motion.\n\nWhat causes a pollen grain to move in this way?\n\nA convection currents in the water\nB bombardment by a single molecule of water\nC uneven bombardment on different sides by water molecules\nD collision with another pollen grain due to their kinetic energies",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q563": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.2",
+   "2.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A gas is heated in a sealed container.\n\nThe volume of the container does not change.\n\nWhat happens to the molecules of the gas?\n\nA The average distance between molecules increases.\nB The average kinetic energy of the molecules increases.\nC The mass of each molecule increases.\nD The volume of each molecule increases.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q564": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row describes the forces between the molecules and the motion of the molecules in a solid?\n\n| | forces between molecules | motion of molecules |\n|---|---|---|\n| A | strong | move freely |\n| B | strong | vibrate only |\n| C | weak | move freely |\n| D | weak | vibrate only |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:05:46+00:00"
+ },
+ "q565": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Wet clothes are hanging outside to dry.\n\nWhich condition decreases the rate of evaporation of the water from the clothes?\n\nA folded clothes\nB higher temperature\nC wetter clothes\nD windy day",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q566": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "When a molecule rebounds from a wall, a force is exerted on the wall.\n\nWhat causes this force?\n\nA the kinetic energy gained by the molecule\nB the kinetic energy lost by the molecule\nC the change of momentum of the molecule\nD the change of speed of the molecule",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q567": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The relationship between pressure p and volume V of a gas is given as pV = constant.\n\nUnder which conditions for the mass of a gas and for its temperature does the equation hold?\n\n[Table with columns: mass, temperature]\nA changing | changing\nB changing | constant\nC constant | changing\nD constant | constant",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q568": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "When a bridge is built, a gap is left between each concrete slab.\n\nWhy are these gaps left?\n\nA Concrete expands on warm days.\nB Concrete contracts on warm days.\nC The gaps expand on warm days.\nD The gaps contract on cold days.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q569": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.8",
+   "2.2.3.5",
+   "2.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student splashes water on to her face. Here are three statements about the effects.\n\nP The water uses energy to evaporate.\nQ The water gains energy from the student.\nR The face of the student cools.\n\nWhich statements are correct?\n\nA P and Q only\nB P and R only\nC Q and R only\nD P, Q and R",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q570": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Gas molecules exert a pressure when they collide with the walls of a container.\n\nWhich statement is correct?\n\nA They experience a change in force which exerts a pressure equal to momentum × area on the walls.\nB They experience a change in force which exerts a pressure equal to momentum / area on the walls.\nC They experience a change in momentum which exerts a pressure equal to force × area on the walls.\nD They experience a change in momentum which exerts a pressure equal to force / area on the walls.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q571": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.8",
+   "2.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A stationary smoke particle is hit by a fast-moving nitrogen molecule.\n\nWhich row describes the motion of the smoke particle and of the nitrogen molecule after the collision?\n\n[Table with columns: smoke particle, nitrogen molecule]\nA moves | rebounds\nB moves | stops\nC remains stationary | rebounds\nD remains stationary | stops",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
+ },
+ "q572": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.1.1",
+   "2.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "At room temperature, iron is difficult to compress.\n\nAt the same temperature, oxygen is much easier to compress.\n\nWhich comparison of the structures of iron and oxygen explains this?\n\nA The iron particles are closer together.\nB The iron particles have a greater mass.\nC The iron particles can be magnetised.\nD The iron particles have less average kinetic energy.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T16:06:47+00:00"
  }
 }
