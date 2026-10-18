@@ -5084,5 +5084,339 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-17T22:37:24+00:00"
+ },
+ "q378": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A tennis ball is dropped from position 1. It falls vertically onto a hard surface at position 2.\n\n[Diagram showing a tennis ball labelled 'position 1' high above a horizontal line representing a hard surface, and the ball hitting the surface at 'position 2']\n\nWhich energy changes have taken place between position 1 and position 2?\n\nA gravitational potential → kinetic → chemical\nB gravitational potential → kinetic → elastic (strain)\nC kinetic → gravitational potential → chemical\nD kinetic → gravitational potential → elastic (strain)",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q379": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy holds onto a bar and pulls himself up until his chin is level with the bar.\n\nHe raises himself through 40 cm in 0.5 s.\n\nThe weight of the boy is 500 N.\n\nWhat is the average power he produces as he raises himself?\n\nA 40 W\nB 400 W\nC 4000 W\nD 40 000 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q380": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In which form is energy stored by stretching a spring?\n\nA chemical energy\nB elastic potential energy\nC gravitational potential energy\nD thermal energy",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q381": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.3",
+   "1.7.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car moves along a horizontal road. Its initial kinetic energy is 280 kJ. A constant resistive force of 200 N acts on the car. No other horizontal forces act on the car.\n\nWhat is the kinetic energy of the car after it has travelled a distance of 300 m?\n\nA 60 kJ\nB 80 kJ\nC 220 kJ\nD 340 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q382": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.1",
+   "1.5.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Brakes are used to slow down a moving car.\n\nInto which form of energy is most of the kinetic energy converted as the car slows down?\n\nA chemical\nB elastic\nC thermal\nD sound",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q383": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.2.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object has kinetic energy of 200 J.\n\nA constant resultant force of 190 N is applied in the direction of its motion through a distance of 10 m.\n\nWhat is the final kinetic energy of the object?\n\nA 390 J\nB 1700 J\nC 2000 J\nD 2100 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q384": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The statements describe what happens when the power of a machine is increased.\n\n1 The work done in a given time decreases.\n2 The work done in a given time increases.\n3 The time taken to do a given quantity of work decreases.\n4 The time taken to do a given quantity of work increases.\n\nWhich statements are correct?\n\nA 1 and 3\nB 1 and 4\nC 2 and 3\nD 2 and 4",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q385": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.3",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object falls towards the Earth's surface.\n\nWhat happens to the gravitational potential energy and to the kinetic energy of the object?\n\n| | gravitational potential energy | kinetic energy |\n|---|---|---|\n| A | decreases | decreases |\n| B | decreases | increases |\n| C | increases | decreases |\n| D | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:12:58+00:00"
+ },
+ "q386": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy takes 0.60 s to lift a book of mass 0.60 kg from the top of a desk and place it on a shelf. The top of the desk is 0.80 m above the floor, and the shelf is 1.7 m above the floor. The gravitational field strength is 10 N/kg.\n\n[Diagram showing the floor, the top of the desk at 0.8 m above the floor, and a shelf at 1.7 m above the floor.]\n\nWhich power does the boy develop?\n\nA 0.9 W\nB 1.7 W\nC 9.0 W\nD 17 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q387": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A mass is lifted from rest on the ground to Y. There is no air resistance.\n\n[Diagram showing a mass on the ground and an arrow indicating movement diagonally upwards to position Y.]\n\nP is the increase in gravitational energy of the mass.\nQ is the kinetic energy of the mass at Y.\n\nWhich expression is equal to the mechanical work done on the mass?\n\nA P + Q\nB P - Q\nC Q - P\nD P × Q",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q389": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A skier is pulled up a short straight slope at constant speed by a rope.\n\n[Diagram of a skier on a straight slope holding a pulling rope.]\n\nThe tension in the rope is 100 N and there is a combined frictional and air resistance force of 20 N acting on the skier.\n\nThe slope is 10 m long and the skier rises 1.5 m vertically.\n\nHow much work is done by the rope pulling the skier up the slope?\n\nA 120 J\nB 150 J\nC 1000 J\nD 1200 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q390": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In some situations, a force does work.\n\nWhich set of conditions increases the quantity of work done by the force?\n\n| | magnitude of force | distance moved by the force |\n|---|---|---|\n| A | decreases | decreases |\n| B | decreases | stays the same |\n| C | increases | increases |\n| D | stays the same | decreases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q391": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A horizontal force pulls a box along a horizontal surface.\n\nThe box gains 30 J of kinetic energy and 10 J of thermal energy is produced by the friction between the box and the surface.\n\nHow much work is done by the force?\n\nA 10 J\nB 20 J\nC 30 J\nD 40 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q392": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A crane is used to lift loads vertically.\n\nThe output power of the crane to lift a car is P.\n\nThe crane then lifts a lorry, which has 3.0 times the weight of the car, through 0.25 of the distance in 0.50 of the time.\n\nWhat is the output power of the crane now?\n\nA 3P / 8\nB 3P / 2\nC 8P / 3\nD 6P",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q393": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which situation involves no work being done and no energy being transferred?\n\nA a car skidding to a stop on a road\nB a crane lifting a load\nC a heavy load hanging from a strong bar\nD a student dragging a big box over a rough floor",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q394": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student suggests that there are several ways of transferring energy to a small, stationary block of iron on a smooth table. He makes the following suggestions.\n\n1 Heat it.\n2 Shine light on it.\n3 Pass a current through it.\n\nWhich suggestions are correct?\n\nA 1 and 2 only\nB 1 and 3 only\nC 2 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:14:58+00:00"
+ },
+ "q395": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An engine produces 240 kJ of energy in 2.0 minutes.\n\nWhat is the power output of the engine?\n\nA 2.0 kW\nB 120 kW\nC 480 kW\nD 28 800 kW",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q396": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2",
+   "1.7.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "This question is about four methods used to produce electrical energy.\n\nWhich method has a correct description?\n\n[Table with columns: method, energy source is renewable, emits carbon dioxide]\nA a hydroelectric power station | yes | no\nB a coal-fired power station | no | no\nC a wind turbine | no | yes\nD a nuclear power station | yes | yes",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q397": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A stone is released from rest from a high building on Earth. Air resistance is negligible.\n\nWhat is its velocity when it has fallen 5 m?\n\nA 7.1 m/s\nB 10 m/s\nC 50 m/s\nD 100 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q398": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The power input to an electric motor is 400 W. The efficiency of the motor is 85%.\n\nHow much power is wasted?\n\nA 60 W\nB 85 W\nC 340 W\nD 470 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q399": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.1",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A stream flows out of a lake and down the side of a hill.\n\nWhat best describes the change in energy stores?\n\nA kinetic energy → chemical energy + internal energy\nB gravitational potential energy → kinetic energy + internal energy\nC gravitational potential energy + kinetic energy → internal energy\nD kinetic energy → internal energy + gravitational potential energy",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q400": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The energy input to a device is E.\n\nThe amount of energy wasted by the device is W.\n\nWhich expression gives the efficiency of the device?\n\nA (W - E) / W × 100%\nB W / E × 100%\nC (E - W) / E × 100%\nD (E - W) / W × 100%",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q401": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A builder lifts 30 bricks from the ground onto a platform 2.0 m high.\n\nEach brick has a mass of 4.0 kg.\n\nWhat is the work done against gravity by the builder in lifting the bricks onto the platform?\n\nA 80 J\nB 120 J\nC 240 J\nD 2400 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
+ },
+ "q402": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Electrical energy may be obtained from nuclear fission.\n\nIn which order is the energy transferred in this process?\n\nA nuclear fuel → generator → reactor and boiler → turbines\nB nuclear fuel → generator → turbines → reactor and boiler\nC nuclear fuel → reactor and boiler → generator → turbines\nD nuclear fuel → reactor and boiler → turbines → generator",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-18T01:16:47+00:00"
  }
 }
