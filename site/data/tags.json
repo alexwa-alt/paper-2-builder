@@ -8093,5 +8093,115 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-18T21:39:24+00:00"
+ },
+ "q615": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A piece of melting ice at 0 °C and a beaker of boiling water are both in a laboratory. The laboratory is at 20 °C.\n\n[Diagram showing a piece of melting ice on a bench, and a beaker of boiling water heated by a Bunsen burner on a tripod]\n\nWhat is happening to the temperature of the melting ice and what is happening to the temperature of the boiling water?\n\n| | temperature of melting ice | temperature of boiling water |\n|---|---|---|\n| A | constant | constant |\n| B | constant | increasing |\n| C | increasing | constant |\n| D | increasing | increasing |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q616": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why are small gaps left between the metal rails of a railway track?\n\nA to allow for expansion of the rails on a hot day\nB to allow for contraction of the rails on a hot day\nC to allow for expansion of the rails on a cold day\nD to allow for contraction of the rails on a cold day",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q617": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A block of metal absorbs 2000 J of thermal energy.\n\nThe temperature of the block rises from 10 °C to 20 °C.\n\nThe mass of the block is 2.0 kg.\n\nWhat is the specific heat capacity of the metal?\n\nA 50 J / (kg °C)\nB 100 J / (kg °C)\nC 200 J / (kg °C)\nD 400 J / (kg °C)",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q618": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.3.4",
+   "2.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about boiling and evaporation is correct?\n\nA Boiling requires a supply of thermal energy but evaporation does not.\nB Evaporation takes place at the surface of a liquid but boiling takes place throughout the liquid.\nC When water boils in a kettle, its temperature decreases.\nD When water evaporates, its temperature increases.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q619": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A hole is drilled in a metal plate.\n\nWhat happens to the length of the plate and to the diameter of the hole when the plate is cooled?\n\n| | length of plate | diameter of hole |\n|---|---|---|\n| A | decreases | decreases |\n| B | decreases | increases |\n| C | increases | decreases |\n| D | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q620": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement describes a sensitive liquid-in-glass thermometer?\n\nA a thermometer which can be used to measure very high and very low values of temperature\nB a thermometer which gives the same increase in length of the liquid column for each degree of temperature rise\nC a thermometer which is accurate because it has been calibrated\nD a thermometer which gives a large increase in the length of the liquid column for each degree of temperature rise",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q621": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A block of aluminium of mass 2.0 kg has an initial temperature of 20 °C. It absorbs 7300 J of thermal energy.\n\nThe specific heat capacity of aluminium is 913 J / (kg °C).\n\nWhat is the final temperature of the aluminium block?\n\nA 4.0 °C\nB 8.0 °C\nC 24 °C\nD 28 °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q622": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1",
+   "2.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The liquid level in a thermometer rises when the thermometer is placed in hot water.\n\nWhat causes this?\n\nA The liquid contracts.\nB The liquid evaporates.\nC The liquid expands.\nD The liquid freezes.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T00:17:10+00:00"
  }
 }
