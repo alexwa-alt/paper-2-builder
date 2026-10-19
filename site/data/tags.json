@@ -9609,5 +9609,369 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q742": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why does a metal rod conduct thermal energy much better than a similar-sized plastic rod?\n\nA The molecules in the plastic are much closer together than the atoms in the metal.\nB The molecules in the plastic are much larger than the atoms in the metal.\nC The molecules in the plastic are much more tightly held together than the atoms in the metal.\nD The molecular structure in the plastic contains no free electrons, but the metal has free electrons.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q744": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "One end of a rod of copper is placed in hot water. Thermal energy travels along the rod to make the other end warmer.\n\nWhat is the behaviour of the copper at an atomic level that accounts for most of the transfer of thermal energy from one end to the other?\n\nA Atoms at the hot end gain kinetic energy and move towards the other end.\nB Atoms at the hot end expand, colliding with other atoms and transferring energy.\nC Free electrons at the hot end gain energy and move towards the other end, colliding with atoms along the rod.\nD Free electrons at the hot end gain energy from the hot water and move directly to the other end.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q745": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A surface is made so that it is a good source of infrared radiation.\n\nWhich surface is not suitable?\n\nA a surface that is painted matt black\nB a surface that is painted white\nC a surface that is heated to a high temperature\nD a surface that has a large surface area",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q746": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In a cold country, a bicycle has been left outside all night. The cyclist finds the plastic hand grips feel less cold to the touch than the steel handlebars.\n\nWhich row correctly describes the temperature and the property of the two materials?\n\n| | the temperature of the two materials | the property of the two materials |\n|---|---|---|\n| A | the temperature of the steel is much lower than that of the plastic | the plastic is a better thermal conductor than the steel |\n| B | the temperature of the steel is much lower than that of the plastic | the steel is a better thermal conductor than the plastic |\n| C | the steel and the plastic are both at the same temperature | the plastic is a better thermal conductor than the steel |\n| D | the steel and the plastic are both at the same temperature | the steel is a better thermal conductor than the plastic |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q747": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a tent made from a new material.\n\n[Diagram showing a camping tent with an arrow pointing to the outer fabric labelled 'new material']\n\nWhat type of material should the tent be made of to reflect the radiant energy from the Sun?\n\n| | material texture | material surface colour |\n|---|---|---|\n| A | dull | black |\n| B | dull | white |\n| C | shiny | black |\n| D | shiny | white |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q748": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.3",
+   "2.3.2.2",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A sealed metal box contains a fixed mass of air. The sides of the box are insulated.\n\n[Diagram of a cross-section of a box showing air inside, metal box top and bottom, and insulation on the left and right sides]\n\nA scientist investigates the thermal conductivity of air. She measures how quickly thermal energy passes between the top and bottom of the box.\n\nWhich row gives the correct procedure and conclusion?\n\n| | procedure | conclusion |\n|---|---|---|\n| A | heat bottom surface | air is a good thermal conductor |\n| B | heat bottom surface | air is a poor thermal conductor |\n| C | heat top surface | air is a good thermal conductor |\n| D | heat top surface | air is a poor thermal conductor |",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q749": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.3",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A teacher demonstrates an experiment to a class. A boiling tube is filled with water and some ice cubes are trapped at the bottom of the tube. The teacher then heats the boiling tube in the position shown until the water at the top boils.\n\n[Diagram showing an angled test tube filled with water, ice trapped at the bottom by a metal mesh, and heat applied near the top surface of the water]\n\nThe ice does not melt.\n\nWhat does this demonstrate?\n\nA Water is a good conductor of thermal energy.\nB Water is a good convector of thermal energy.\nC Water is a poor conductor of thermal energy.\nD Water is a poor convector of thermal energy.",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q750": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal cup has a plastic lining. The cup is filled with hot water and held by a hand.\n\nWhich statement about the transfer of thermal energy from the water to the hand is correct?\n\nA In the plastic, no energy is transferred directly between adjacent molecules.\nB In the plastic, fast moving molecules interact with free electrons, making the electrons move very quickly.\nC In the metal, energy is transferred only by electrons.\nD In the metal, energy is transferred by electrons and by vibrations of the lattice.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:30:15+00:00"
+ },
+ "q751": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "On a cold day, a metal front-door knob X and a similar plastic knob Y are at the same temperature.\n\nWhy does X feel cooler to the touch than Y?\n\nA X convects thermal energy better than Y.\nB X is a better thermal conductor than Y.\nC X is a better insulator than Y.\nD X is a better radiator of thermal energy than Y.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q752": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four thermometers, with their bulbs painted different colours, are placed at equal distances from a radiant heater.\n\nWhich thermometer shows the slowest temperature rise when the heater is first switched on?\n\nA matt black\nB matt white\nC shiny black\nD shiny white",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q753": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "On a cold day, a shiny metal rod feels colder to the touch than a black plastic rod.\n\nWhich statement explains this observation?\n\nA The metal rod is a better absorber of infra-red radiation than the plastic rod.\nB The metal rod is a better thermal conductor than the plastic rod.\nC The metal rod is a worse absorber of infra-red radiation than the plastic rod.\nD The metal rod is a worse thermal conductor than the plastic rod.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q755": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2",
+   "2.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement about convection is not correct?\n\nA It enables water in a pan on a cooker to get evenly heated.\nB It happens in liquids and gases.\nC It means that heat rises.\nD It occurs because the density of a fluid decreases when it is heated.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q756": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A lamp has a metal filament that glows when heated by an electric current.\n\nThe middle of the filament is at a very high temperature. The ends of the filament, which are connected to the base of the lamp, are cooler.\n\nWhich statement is correct?\n\nA Some thermal energy is conducted to the base of the lamp.\nB The filament radiates energy equally at all points along its length.\nC The lamp transfers all of the electrical energy it receives into light energy.\nD When the voltage across the filament is halved, the power output is halved.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q757": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q758": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four different surfaces are at the same high temperature.\n\nWhich surface will emit thermal radiation at the slowest rate?\n\n[Table with columns: colour of surface, texture of surface, surface area / cm^2\nA: black, dull, 10\nB: black, dull, 100\nC: white, shiny, 10\nD: white, shiny, 100]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q759": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four objects, made of the same material and having the same mass, are at the same temperature. The objects have different surfaces and different surface areas.\n\nWhich object emits infra-red radiation at the greatest rate?\n\n[Table with columns: surface, surface area\nA: dull, large\nB: dull, small\nC: shiny, large\nD: shiny, small]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:31:16+00:00"
+ },
+ "q760": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A copper bar and a wooden bar are joined. A piece of paper is wrapped tightly around the join.\n\nThe bar is heated strongly at the centre for a short time, and the paper goes brown on one side only.\n\n[Diagram showing a cylindrical bar composed of a wooden half and a copper half joined end-to-end, with a piece of paper wrapped tightly around the junction. Heat is applied at the underside directly at the junction.]\n\nWhich side goes brown, and what does this show about wood and copper?\n\nA. brown side: copper | wood: conductor | copper: insulator\nB. brown side: copper | wood: insulator | copper: conductor\nC. brown side: wood | wood: conductor | copper: insulator\nD. brown side: wood | wood: insulator | copper: conductor",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:32:06+00:00"
+ },
+ "q761": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2",
+   "2.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about convection currents is correct?\n\nA Convection currents occur because, when cooled, liquids contract and become more dense.\nB Convection currents occur because, when warmed, liquids expand and become more dense.\nC Convection currents only occur in liquids.\nD Convection currents only occur in solids and liquids.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:32:06+00:00"
+ },
+ "q762": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why is the heating coil of a domestic immersion heater placed at the bottom of the tank?\n\nA Cold water is less dense than hot water and therefore sinks.\nB Cold water is more dense than hot water and therefore rises.\nC Hot water is less dense than cold water and therefore rises.\nD Hot water is more dense than cold water and therefore sinks.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:32:06+00:00"
+ },
+ "q763": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3",
+   "3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A transverse wave moves along a rope.\n\nThe diagram shows the position of the rope at one particular time.\n\n[Diagram showing a transverse wave on a rope with four labeled points along the dashed equilibrium line: W (under the first crest), X (downward-sloping zero crossing), Y (upward-sloping zero crossing), and Z (downward-sloping zero crossing)]\n\nWhich two labelled points are one wavelength apart?\n\nA  W and X\nB  W and Z\nC  X and Z\nD  Y and Z",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q764": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show graphs of displacement against time for four waves. All the graphs are drawn to the same scale.\n\nWhich wave has the largest amplitude and the highest frequency?\n\n[Four displacement-time graphs A, B, C, D: A has amplitude 2 units and high frequency; B has amplitude 2 units and low frequency; C has amplitude 1 unit and high frequency; D has amplitude 1 unit and intermediate frequency]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q765": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a wave.\n\n[Diagram of a wave with vertical height between crest and trough labeled 6 cm, height from center line to crest labeled 3 cm, horizontal distance between two consecutive crests labeled 8 cm, and horizontal distance across one trough labeled 4 cm]\n\nWhat are the amplitude and the wavelength of this wave?\n\n| | amplitude / cm | wavelength / cm |\n|---|---|---|\n| A | 3 | 4 |\n| B | 3 | 8 |\n| C | 6 | 4 |\n| D | 6 | 8 |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q766": {
+  "status": "done",
+  "subpoints": [
+   "3.1.5",
+   "3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A drop of water from a tap falls onto the surface of some water of constant depth.\n\n[Diagram showing circular concentric ripples viewed from above spreading out uniformly]\n\nWater waves spread out on the surface of the water.\n\nWhich statement is correct?\n\nA  The waves are longitudinal and travel at the same speed in all directions.\nB  The waves are longitudinal and travel more quickly in one direction than in others.\nC  The waves are transverse and travel at the same speed in all directions.\nD  The waves are transverse and travel more quickly in one direction than in others.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q767": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A tank contains water. Ripples are produced on the surface of the water. Refraction is observed.\n\nWhat causes the ripples to refract?\n\nA  The cold water in the tank is replaced by warm water.\nB  The ripples change speed as they move from deep to shallow water.\nC  The ripples hit the wall of the tank.\nD  The ripples pass through a narrow gap.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q768": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows wavefronts of a water wave passing through a gap in a barrier.\n\n[Diagram showing plane wavefronts moving from left to right through a gap in a barrier and curving into circular wavefronts after the gap]\n\nWhich change will increase the diffraction of the wave as it passes through the gap?\n\nA  Increase the amplitude of the wave.\nB  Increase the width of the gap.\nC  Reduce the depth of water.\nD  Reduce the frequency of the wave.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q769": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a wave.\n\n[Graph of displacement/cm against distance/cm. The wave starts at (0, 0), reaches a maximum of 1.0 cm at 2.0 cm, crosses zero at 4.0 cm, reaches a minimum of -1.0 cm at 6.0 cm, and completes one full cycle at 8.0 cm, continuing up to 28.0 cm]\n\nWhich row is correct?\n\n| | amplitude of the wave / cm | wavelength of the wave / cm |\n|---|---|---|\n| A | 1.0 | 4.0 |\n| B | 1.0 | 8.0 |\n| C | 2.0 | 4.0 |\n| D | 2.0 | 8.0 |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q770": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sound wave is created by a loudspeaker that vibrates backwards and forwards 96 000 times per minute.\n\nThe speed of sound is 320 m/s.\n\nWhat is the wavelength of the sound wave?\n\nA  0.20 m\nB  5.0 m\nC  300 m\nD  18 000 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T22:33:03+00:00"
  }
 }
