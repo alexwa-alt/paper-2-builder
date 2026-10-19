@@ -8524,5 +8524,1090 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q650": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A thermometer has graduations which start at −10 °C and end at 110 °C.\n\n[Diagram of a liquid-in-glass thermometer with graduations marked at −10, 0, 100, and 110 °C]\n\nWhat is the lower fixed point and what is the upper fixed point of the Celsius scale?\n\nA lower fixed point / °C: −10, upper fixed point / °C: 100\nB lower fixed point / °C: −10, upper fixed point / °C: 110\nC lower fixed point / °C: 0, upper fixed point / °C: 100\nD lower fixed point / °C: 0, upper fixed point / °C: 110",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q651": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A 1 kg block of aluminium requires more thermal energy to raise its temperature by 1 °C than a 1 kg block of copper requires.\n\nWhy is this?\n\nA Aluminium is a better conductor of thermal energy than copper.\nB Aluminium is a poorer conductor of thermal energy than copper.\nC Aluminium has a higher specific heat capacity than copper.\nD Aluminium has a lower specific heat capacity than copper.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q652": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A night storage heater contains a large block of material that is heated electrically during the night. During the day the block cools down, releasing thermal energy into the room.\n\n[Diagram of a night storage heater]\n\nWhich thermal capacity and which night-time temperature increase will cause the most energy to be stored by the block?\n\nA thermal capacity of block: large, night-time temperature increase: large\nB thermal capacity of block: large, night-time temperature increase: small\nC thermal capacity of block: small, night-time temperature increase: large\nD thermal capacity of block: small, night-time temperature increase: small",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q653": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "100 g of water at 25 °C is poured into an insulating cup. 50 g of ice at 0 °C is added to the water. The water is stirred until the temperature of the water has fallen to 0 °C.\n\n18 g of ice remains unmelted.\n\nThe specific heat capacity of water is 4.2 J / g °C.\n\nWhich value does this experiment give for the specific latent heat of fusion of ice?\n\nA 210 J / g\nB 330 J / g\nC 580 J / g\nD 770 J / g",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q654": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "100 g of water at 25 °C is poured into an insulated cup. 50 g of ice at 0 °C is added to the water. The water is stirred until the temperature of the water has fallen to 0 °C.\n\n18 g of ice remains unmelted.\n\nThe specific heat capacity of water is 4.2 J / g °C.\n\nWhich value does this experiment give for the specific latent heat of fusion of ice?\n\nA 210 J / g\nB 330 J / g\nC 580 J / g\nD 770 J / g",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q657": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.3.1",
+   "2.1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A liquid turns into a gas. This occurs only at one particular temperature, and the change happens throughout the liquid.\n\nWhat is this process called?\n\nA boiling\nB condensation\nC evaporation\nD fusion",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q658": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The same quantity of thermal energy is supplied to each of four blocks. Each block is made from a different material.\n\nWhich block has the greatest thermal capacity?\n\n[Diagram showing four blocks of different sizes and resulting temperature increases]\nA temperature increase is 1 °C\nB temperature increase is 4 °C\nC temperature increase is 2 °C\nD temperature increase is 3 °C",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q661": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1",
+   "2.2.1.2",
+   "2.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a liquid-in-glass thermometer.\n\n[Diagram of a liquid-in-glass thermometer showing liquid bulb, liquid thread, and scale from −10 °C to 110 °C]\n\nWhen the temperature of the thermometer rises, the changes produced cause the liquid thread to move to the right.\n\nWhy does this happen when the temperature of the thermometer rises?\n\nA Gases contract and liquids expand.\nB Gases contract and solids expand.\nC Liquids expand more than gases.\nD Liquids expand more than solids.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:56:41+00:00"
+ },
+ "q662": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.5",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Liquid evaporates from a beaker.\n\nWhat happens to the temperature of the remaining liquid and how does this temperature change affect the rate of evaporation?\n\n[Table with columns: temperature, rate of evaporation\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q663": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity does not change when there is an increase in temperature?\n\nA the density of a steel block\nB the diameter of the hole in a metal nut\nC the length of an iron rod\nD the mass of a metal coin",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q664": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A thermocouple is used to measure temperature.\n\nWhich is an advantage of using a thermocouple instead of a liquid-in-glass thermometer?\n\nA It can measure temperature in the range -10 °C to 110 °C.\nB It can measure temperature that changes rapidly.\nC It has a linear scale.\nD It is more sensitive.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q665": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A block of copper has a mass of 2.0 kg.\n\nThe block of copper absorbs 12 000 J thermal energy.\n\nThe specific heat capacity of copper is 385 J / (kg °C).\n\nWhat is the temperature rise of the copper?\n\nA 15.6 °C\nB 31.2 °C\nC 46.8 °C\nD 62.4 °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q666": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student wishes to calibrate a mercury-in-glass thermometer with a °C scale.\n\nWhich values should she use for the lower fixed point and for the upper fixed point?\n\n[Table with columns: lower fixed point, upper fixed point\nA melting point of ice | boiling point of mercury\nB melting point of ice | boiling point of water\nC melting point of mercury | boiling point of mercury\nD melting point of mercury | boiling point of water]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q667": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statements about boiling and about evaporation are both correct?\n\n[Table with columns: boiling, evaporation\nA takes place only at the surface | takes place only at the surface\nB takes place only at the surface | takes place throughout the liquid\nC takes place throughout the liquid | takes place only at the surface\nD takes place throughout the liquid | takes place throughout the liquid]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q669": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In an experiment, an object is heated.\n\nThe data from the experiment is shown.\n\n• The energy transferred to the object is 3.0 kJ.\n• The mass of the object is 2.0 kg.\n• The rise in temperature of the object is 10 °C.\n• The specific heat capacity of the object is 150 J / (kg °C).\n\nWhat is the thermal capacity of the object?\n\nA 30 J / °C\nB 300 J / °C\nC 3000 J / °C\nD 9000 J / °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q670": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two liquid-in-glass thermometers P and Q contain the same volume of mercury and have capillary tubes of the same length.\n\nThermometer P has a capillary tube with a smaller diameter than thermometer Q.\n\nWhich thermometer has the greater range and which has the greater sensitivity?\n\n[Table with columns: greater range, greater sensitivity\nA P | P\nB P | Q\nC Q | P\nD Q | Q]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:19+00:00"
+ },
+ "q672": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The distance between two electricity pylons is 60 m. An engineer fits a cable of length 62 m between the pylons.\n\nWhy does the engineer choose a cable that is longer than the distance between the two pylons?\n\nA to allow for contraction of the cable in cold weather\nB to create a slope in the cable for electrons to flow down\nC to keep the current low and the voltage high\nD to reduce magnetic fields around the cable",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q674": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object of mass 800 g and specific heat capacity 250 J / (kg °C) is heated. It absorbs 5300 J of energy.\n\nWhat is the increase in temperature of the object?\n\nA 0.027 °C\nB 17 °C\nC 27 °C\nD 17 000 °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q675": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The metal lid on a glass jar is difficult to unscrew.\n\nThe jar is placed in a warm oven until the jar and the lid reach the same temperature. The lid is now easily unscrewed.\n\nWhich property accounts for this?\n\nA thermal capacity of the jar\nB thermal capacity of the lid\nC thermal conduction\nD thermal expansion",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q676": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A block of iron of mass M is heated and gains 10 kJ of internal energy. The temperature of the block rises by θ °C.\n\nA second block of iron of mass 2M is heated and gains 5.0 kJ of internal energy.\n\nWhat is the temperature rise of the second block in °C?\n\nA θ / 4\nB θ / 2\nC 2θ\nD 4θ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q677": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which factors affect the sensitivity of a thermometer?\n\n1 the diameter of the bore of the tube\n2 the length of the capillary tube\n3 the thickness of the bulb wall\n\nA 1 only\nB 1 and 2 only\nC 1 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q678": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row shows the relative order of thermal expansion of solids, liquids and gases?\n\n[Table showing columns 'most expansion ———> least expansion']\nA solids | liquids | gases\nB solids | gases | liquids\nC gases | solids | liquids\nD gases | liquids | solids",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q679": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A block of ice is at a temperature of −100 °C. Energy is supplied at a constant rate. The graph shows how its temperature changes.\n\n[Graph of temperature / °C against time. Temperature rises from −100 °C to 0 °C at point 1, remains constant at 0 °C until point 2, rises to 100 °C at point 3, remains constant at 100 °C until point 4, then rises above 100 °C.]\n\nAt which points has the ice completely changed state to water and all the water completely changed state to steam?\n\nA completely changed to water: 1 | completely changed to steam: 3\nB completely changed to water: 1 | completely changed to steam: 4\nC completely changed to water: 2 | completely changed to steam: 3\nD completely changed to water: 2 | completely changed to steam: 4",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q680": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The temperature of the water at the bottom of a waterfall is greater than the temperature of the water at the top.\n\nThe gravitational potential energy of the water at the top is transferred to thermal energy at the bottom.\n\nThe specific heat capacity of water is 4200 J / (kg °C).\n\nWhat is the temperature difference for a waterfall of height 21 m?\n\nA 0.005 °C\nB 0.05 °C\nC 20 °C\nD 200 °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:57:55+00:00"
+ },
+ "q681": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A model thermometer consists of a flask of coloured water and a stopper with a glass tube passing through it, as shown.\n\n[Diagram showing a spherical flask filled with coloured water, closed with a stopper, through which a glass tube with a temperature scale extends upwards.]\n\nThe model thermometer can be changed in one of two ways.\n• The flask can be replaced with a larger one full of coloured water.\n• The glass tube can be replaced with one with a larger internal diameter.\n\nWhich statement is correct?\nA Only using a larger flask increases the sensitivity.\nB Only using a wider tube increases the sensitivity.\nC Using a larger flask increases the sensitivity and using a wider tube increases the sensitivity.\nD Neither using a larger flask nor using a wider tube increases the sensitivity.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q682": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A metal has a specific heat capacity of 360 J / (kg °C). An object made of this metal has a mass of 2.0 kg.\n\nWhat is the thermal capacity (heat capacity) of the object?\nA 180 J / °C\nB 180 J / kg\nC 720 J / °C\nD 720 J / kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q683": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Equal masses of two different liquids are put into identical beakers.\nLiquid 1 is heated for 100 s and liquid 2 is heated for 200 s by heaters of the same power.\nEach liquid has the same rise in temperature.\n\n[Diagram showing two identical beakers, each containing a thermometer and an electric immersion heater at the bottom. Liquid 1 is heated for 100 s; Liquid 2 is heated for 200 s.]\n\nWhich statement is correct?\nA Each beaker of liquid has the same thermal capacity.\nB Each beaker of liquid receives the same energy.\nC Liquid 1 receives more energy than liquid 2.\nD The thermal capacity of liquid 1 is less than the thermal capacity of liquid 2.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q684": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Water of mass 100 g at a temperature of 100 °C is converted into steam at 100 °C. The specific latent heat of vaporisation of water is 2300 J / g.\n\nHow much thermal energy is absorbed by the water?\nA 23 J\nB 230 J\nC 230 000 J\nD 23 000 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q685": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student blows air through a liquid using a straw. This causes the liquid to evaporate quickly and therefore to cool.\n\nWhich statement explains why the remaining liquid cools?\nA Slower-moving molecules are carried away by the air bubbles.\nB The air molecules conduct heat from the liquid.\nC The air sets up convection currents in the liquid.\nD The molecules with most energy leave the liquid.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q686": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is meant by the specific latent heat of fusion of ice?\nA the energy needed to change unit mass of ice into water at constant temperature\nB the energy needed to change unit volume of ice into water at constant temperature\nC the energy needed to produce unit temperature increase of unit mass of ice\nD the energy needed to produce unit temperature increase of unit volume of ice",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q687": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7",
+   "2.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show four open dishes. Each dish contains water at the same temperature.\nThe dishes are different shapes and a draught blows over two of them.\nFrom which container does the water evaporate at the greatest rate?\n[A: a shallow, wide dish with an arrow indicating a draught blowing over it]\n[B: a tall, narrow container with an arrow indicating a draught blowing over it]\n[C: a shallow, wide dish labeled 'no draught']\n[D: a tall, narrow container labeled 'no draught']",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q689": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A block of ice at −20 °C is heated until it turns to steam. The graph of temperature against thermal energy absorbed is shown.\n\nThe latent heat of fusion of ice is 340 kJ / kg.\n\n[Graph of temperature in °C versus thermal energy absorbed in kJ. The graph starts at −20 °C at 0 kJ, rises to 0 °C at 126 kJ, remains horizontal at 0 °C until 1146 kJ, rises linearly to 100 °C at 2406 kJ, and then becomes horizontal at 100 °C.]\n\nWhat is the mass of the ice?\nA 1.0 kg\nB 2.0 kg\nC 3.0 kg\nD 4.0 kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:58:41+00:00"
+ },
+ "q690": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A strip of iron and a strip of brass are firmly attached to each other along their entire length. This combination is a bimetallic strip.\n\n[Diagram showing a straight horizontal bimetallic strip with the iron strip on top and the brass strip on the bottom.]\n\nThis bimetallic strip is heated and it bends as shown.\n\n[Diagram showing the bimetallic strip clamped at the left in a fixed support, bending upwards so that the brass strip is on the outside of the curve and iron is on the inside.]\n\nThe bimetallic strip is now cooled and becomes straight again.\n\nWhat causes the bimetallic strip to become straight again?\n\nA The brass contracts more than the iron.\nB The brass expands more than the iron.\nC The iron contracts more than the brass.\nD The iron expands more than the brass.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q691": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aluminium block has a mass of 200 g.\n\nThe specific heat capacity of aluminium is 900 J / (kg °C).\n\nHow much energy is needed to raise the temperature of the block from 20 °C to 110 °C?\n\nA 2.0 J\nB 200 J\nC 16 200 J\nD 16 200 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q693": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row identifies the fixed points on the Celsius scale?\n\n| | lower fixed point | upper fixed point |\n|---|---|---|\n| A | boiling point of mercury | melting point of pure ice |\n| B | boiling point of pure water | melting point of pure ice |\n| C | melting point of mercury | boiling point of pure water |\n| D | melting point of pure ice | boiling point of pure water |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q694": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Aluminium has a specific heat capacity of 900 J / (kg °C).\n\nThe internal energy of a 2.0 kg block of aluminium increases by 13 500 J.\n\nBy how much does the temperature of the block increase?\n\nA 0.067 °C\nB 0.13 °C\nC 7.5 °C\nD 15 °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q695": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which property cannot be used for the measurement of temperature?\n\nA half-life of a radioactive isotope\nB length of a solid metal bar\nC pressure of a gas\nD volume of a liquid",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q696": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student uses an immersion heater to heat some water in a beaker.\n\nThe water is heated from 20 °C to 80 °C.\n\nThe energy supplied to the water is 60.0 kJ.\n\nWhat is the thermal capacity of the water? (Ignore any heat loss.)\n\nA 667 J / °C\nB 750 J / °C\nC 1000 J / °C\nD 3000 J / °C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q697": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A bar of metal, which is a good thermal conductor, is heated at one end.\n\nWhat is the main method of transfer of thermal energy along the bar?\n\nA lattice vibration\nB movement of atoms of the metal along the bar\nC transfer by electrons\nD vibration of atoms of the metal bar",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q698": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.2",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Some hot water is sealed inside a metal can. The can is in a vacuum in outer space. The hot water slowly cools down.\n\nHow does the thermal energy escape into space?\n\nA by conduction then convection\nB by conduction then radiation\nC by evaporation then convection\nD by evaporation then radiation",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:13+00:00"
+ },
+ "q699": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four cups A, B, C and D contain hot coffee.\n\nWhich cup keeps the coffee warm the longest?\n\n[Table]\nthe outside surface of the cup | the top of the cup\nA: black | covered with a lid\nB: black | no lid\nC: white | covered with a lid\nD: white | no lid",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q700": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Both boiling and evaporation involve a change of state from liquid to gas.\n\nWhich row gives the correct difference between boiling and evaporation?\n\n[Table]\nboiling | evaporation\nA: no bubbles are formed | bubbles are formed\nB: occurs at all temperatures | occurs at a definite temperature\nC: occurs throughout the liquid | occurs at the surface only\nD: the temperature falls | the temperature remains constant",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q701": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1.2",
+   "2.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A glass contains an iced drink on a warm and humid day. Water starts to form on the outside of the glass.\n\n[Diagram of a plastic cup containing an iced drink with water droplets forming on the outside surface]\n\nWhat is the name of the effect by which the water forms?\n\nA condensation\nB conduction\nC convection\nD evaporation",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q702": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "One end of a copper bar is heated to a high temperature.\n\nWhich mechanism is responsible for the transfer of thermal energy to the other end of the copper bar?\n\nA the lattice vibrations of copper ions only\nB the lattice vibrations of copper ions and the movement of high energy electrons along the bar\nC the movement of high energy copper ions along the bar\nD the movement of high energy electrons along the bar only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q703": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a convection current caused by a piece of ice placed in a beaker of water at room temperature.\n\n[Diagram showing a piece of ice floating on the left side of a water-filled beaker, with a convection current arrow moving downwards past point P at the bottom, then across and upwards to point Q on the right]\n\nWhich row correctly compares the temperatures and densities at water points P and Q?\n\n[Table]\ntemperature at P | density at P\nA: higher than at Q | higher than at Q\nB: higher than at Q | lower than at Q\nC: lower than at Q | higher than at Q\nD: lower than at Q | lower than at Q",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q704": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A block of lead of mass 500 g is at its melting point.\n\nThe specific latent heat of fusion of lead = 23 kJ / kg.\n\nHow much energy is required to completely melt the block?\n\nA 46 J\nB 12 000 J\nC 46 000 J\nD 12 000 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q705": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "One end of a copper bar is heated to a high temperature.\n\nWhich mechanism is responsible for the transfer of thermal energy to the other end of the copper bar?\n\nA the lattice vibrations of copper ions only\nB the lattice vibrations of copper ions and the movement of high energy electrons along the bar\nC the movement of high energy copper ions along the bar\nD the movement of high energy electrons along the bar only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q706": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The iron cylinder of an engine is to be fitted into a piece of aluminium.\n\nThe outside diameter M of the iron cylinder is slightly larger than the diameter N of the hole in the aluminium.\n\n[Diagram showing an iron cylinder with outer diameter M and a block of aluminium with a hole of diameter N]\n\nWhat is the best action to fit the cylinder into the aluminium?\n\nA Cool the aluminium and cool the iron.\nB Cool the aluminium and heat the iron.\nC Heat the aluminium and cool the iron.\nD Heat the aluminium and heat the iron.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T10:59:52+00:00"
+ },
+ "q707": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four metal blocks at a temperature of 200 °C are left to cool down to the same temperature.\n\nThe table gives the mass of each block and the energy it transfers to the surroundings as it cools.\n\n[Table:\nblock | mass / g | energy transferred / J\n1 | 100 | 16 200\n2 | 150 | 16 200\n3 | 200 | 32 400\n4 | 200 | 8 100]\n\nWhich two blocks are made of the same metal?\n\nA 1 and 2\nB 1 and 3\nC 1 and 4\nD 3 and 4",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q709": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object emits infrared radiation.\n\nWhich two properties of the object determine the rate of radiation of thermal energy from the object?\n\nA the density and the surface area of the object\nB the density and the surface temperature of the object\nC the mass and the surface area of the object\nD the surface area and the surface temperature of the object",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q710": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four thermometers, with their bulbs painted different colours, are placed at equal distances from a radiant heater.\n\nWhich thermometer shows the slowest temperature rise when the heater is first switched on?\n\nA dull black\nB dull white\nC shiny black\nD shiny white",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q711": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "One end of a copper rod is heated.\n\nWhat is one method by which thermal energy is transferred in the copper rod?\n\nA Free electrons transfer energy from the cooler end to the hotter end.\nB Free electrons transfer energy from the hotter end to the cooler end.\nC Molecules of copper move from the cooler end to the hotter end.\nD Molecules of copper move from the hotter end to the cooler end.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q712": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which change will cause a decrease in the rate of radiation emitted by an object?\n\nA changing the surface colour from white to black\nB changing the surface texture from dull to shiny\nC increasing the surface temperature\nD increasing the surface area",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q713": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A metal rod is heated at end X.\n\n[Diagram showing a horizontal metal rod with ends labelled X and Y. An arrow labelled 'heat' points upwards to end X.]\n\nWhy does end Y of the metal rod become hot?\n\nA Energy is transferred from end X of the rod to end Y by vibration of positive ions and by movement of electrons.\nB Energy is transferred from end X of the rod to end Y by movement of positive ions only.\nC Energy is transferred from end X of the rod to end Y by vibration of positive ions only.\nD Energy is transferred from end X of the rod to end Y by movement of electrons only.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q714": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two square sheets of metal, P and Q, are heated to the same temperature. The metal sheets are shown.\n\n[Diagram showing two square sheets of metal: sheet P is black with side length 20 cm; sheet Q is white with side length 40 cm.]\n\nSheet Q is emitting more radiation than sheet P.\n\nWhich statement explains this?\n\nA Dull black surfaces are better conductors of radiation.\nB Dull black surfaces are better emitters of radiation.\nC The surface area of Q is larger than that of P.\nD White surfaces are better absorbers of radiation.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q715": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student sets up four cans. Each can contains the same mass of water at 90 °C.\n\nThe cans are identical except for the outside surfaces.\n\nWhich can will cool down the fastest?\n\nA dull, black surface\nB dull, white surface\nC shiny, black surface\nD shiny, white surface",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:25+00:00"
+ },
+ "q716": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Thermal energy is transferred by conduction in a metal bar.\n\nWhich statement is not correct?\n\nA Fast vibrating ions leave the surface.\nB Free moving electrons carry thermal energy through the bar.\nC Ions vibrate and strike neighbouring ions to make them vibrate.\nD Ions vibrate but do not change position.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q717": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Three students are planning an experiment to test thermal conduction in different materials.\n\nThe students each propose a hypothesis.\n\n1 I think the copper rod will be a good thermal conductor because it is a metal.\n2 I think the glass rod will be a good thermal conductor because it has free electrons which vibrate and transfer energy quickly.\n3 I think the wooden rod will be a poor thermal conductor because it can only transfer energy along the rod by vibrating the lattice particles.\n\nWhich of their hypotheses are correct?\n\nA 1 and 2 only\nB 1 and 3 only\nC 2 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q718": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A copper plate is shiny on one side and is painted dull black on the other side. The plate is heated to a high temperature. A person places his hands at equal distances from either side of the plate, close to the plate, but not touching it.\n\n[Diagram shows a vertically oriented 'very hot copper plate' labeled 'shiny' on the left side and 'dull black' on the right side, with a person's hand placed near each side at equal distances.]\n\nWhy does the hand near the dull black surface of the plate feel much hotter than the hand near the shiny surface?\n\nA The dull black surface is a better emitter of radiation than the shiny surface.\nB The dull black surface is a better conductor of radiation than the shiny surface.\nC The dull black surface is a better reflector of radiation than the shiny surface.\nD The dull black surface is at a higher temperature than the shiny surface.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q719": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a pan used for cooking food.\n\n[Diagram of a cooking pan with a lid, showing labels pointing to the 'handle of pan' and the 'base of pan'.]\n\nWhich row is correct for the materials used to make the base and the handle of the pan?\n\n| | base of pan | handle of pan |\n|---|---|---|\n| A | good thermal conductor | good thermal conductor |\n| B | good thermal conductor | poor thermal conductor |\n| C | poor thermal conductor | good thermal conductor |\n| D | poor thermal conductor | poor thermal conductor |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q720": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Metals are good thermal conductors.\n\nInsulators are poor thermal conductors.\n\nWhich description of the mechanism of thermal conductivity is correct?\n\nA In insulators, conduction takes place by electron transfer and molecular vibrations.\nB In insulators, conduction takes place by electron transfer only.\nC In metals, conduction takes place by electron transfer and molecular vibrations.\nD In metals, conduction takes place by electron transfer only.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q721": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1",
+   "2.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A teacher shows his class a polystyrene cup. The cup is made from thick plastic with lots of tiny air bubbles in it.\n\nHe asks the class why the cup is so good at keeping a hot drink warm. Three suggestions are made.\n\n1 It contains air which is a poor thermal conductor.\n2 The air is trapped in tiny bubbles so very little convection is possible.\n3 The plastic is a poor thermal conductor.\n\nWhich suggestions are correct?\n\nA 1 and 2 only\nB 1 and 3 only\nC 2 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q722": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A boy jumps into an indoor swimming pool. He notices that the water appears to get colder as he goes deeper underwater. This is due to convection.\n\nWhich statement is correct?\n\nA Cold water is more dense than warm water so it sinks to the bottom of the pool.\nB Warm water is more dense than cold water so it rises to the surface of the pool.\nC The molecules in cold water have more kinetic energy than the molecules in warm water so they move to the bottom of the pool faster.\nD The molecules in warm water are closer together than the molecules in cold water so they rise to the surface of the pool.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q723": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why are metals better thermal conductors than other solids?\n\nA Metals contain free electrons which help transfer the energy.\nB Molecules in metals are in fixed positions.\nC Molecules in metals can move freely.\nD Molecules in metals vibrate faster than those in other solids.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:00:59+00:00"
+ },
+ "q724": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two freezers X and Y are identical except that one has a door opening at the front and the other has a door opening at the top.\n\n[Diagram showing freezer X with a front-opening door and freezer Y with a top-opening door.]\n\nBoth doors are the same size and are opened for the same amount of time.\n\nWhich freezer gains the least amount of thermal energy in this time and why?\n\nA freezer gaining the least thermal energy: X | reason: cold air falls\nB freezer gaining the least thermal energy: X | reason: warm air falls\nC freezer gaining the least thermal energy: Y | reason: cold air falls\nD freezer gaining the least thermal energy: Y | reason: warm air falls",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q725": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A room is heated by a radiator. The diagrams X and Y show two possible circulations of hot air, which heat the room.\n\n[Diagram X shows clockwise air circulation: rising above the radiator on the left, moving along the ceiling to the right, falling at the right wall, and moving along the floor back to the radiator. Diagram Y shows counter-clockwise air circulation: falling along the radiator, moving right along the floor, rising at the right wall, and moving left along the ceiling.]\n\nWhich diagram and reason explain the heating of the room by convection?\n\nA diagram: X | reason: air density decreases when air is heated\nB diagram: X | reason: air density increases when air is heated\nC diagram: Y | reason: air density decreases when air is heated\nD diagram: Y | reason: air density increases when air is heated",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q726": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two copper containers P and Q are filled with hot water.\n\nThe diagrams are both drawn to the same scale.\n\n[Diagram showing a smaller container P and a larger container Q.]\n\nContainer P emits more infrared radiation from its surfaces than container Q.\n\nWhat is a possible reason for this?\n\nA The surfaces of P are painted white and the surfaces of Q are painted black.\nB The surfaces of P are shiny and the surfaces of Q are dull.\nC The surfaces of P have a smaller area than the surfaces of Q.\nD The water in P is hotter than the water in Q.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q727": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why are metals better conductors of thermal energy than non-metals?\n\nA They contain free electrons.\nB Their molecules are further apart.\nC Their molecules vibrate at a higher frequency.\nD They have smoother surfaces.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q728": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.3",
+   "2.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a vacuum flask used to keep a liquid warm.\n\n[Diagram of a vacuum flask showing an airtight lid, outer cover, vacuum, and silvered walls.]\n\nWhich methods of heat loss are reduced by the vacuum between the silvered walls?\n\nA conduction only\nB conduction and convection only\nC convection and radiation only\nD conduction, convection and radiation",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q729": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four cups A, B, C and D contain hot coffee.\n\nWhich cup keeps the coffee warm the longest?\n\nA the outside surface of the cup: black | the top of the cup: covered with a lid\nB the outside surface of the cup: black | the top of the cup: no lid\nC the outside surface of the cup: white | the top of the cup: covered with a lid\nD the outside surface of the cup: white | the top of the cup: no lid",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q730": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A scientist measures the air temperature at different heights from the floor in a cave. The results are recorded in the table.\n\nheight / m | temperature / °C\n0 | 10\n10 | 11\n20 | 13\n30 | 14\n40 | 16\n\nWhy does altering the height affect the temperature of the air?\n\nA The molecules in warm air have less energy than the molecules in cool air.\nB The molecules in cool air are further apart than the molecules in warm air.\nC Warm air is less dense than cool air.\nD Cool air rises above warm air.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q731": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four solid spheres made of the same metal are heated to the same temperature.\n\nWhich sphere initially loses thermal energy by radiation at the greatest rate?\n\nA diameter of 10 cm with a dull surface\nB diameter of 10 cm with a shiny surface\nC diameter of 5 cm with a dull surface\nD diameter of 5 cm with a shiny surface",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:01:35+00:00"
+ },
+ "q732": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the view of a room heated by a radiator. The arrowed line from X to Y is the path of the convection current in the air.\n\n[Diagram showing a room with a radiator on the bottom left wall. Air rises from X just above the radiator, flows along the ceiling to the right wall, and descends at Y towards the floor.]\n\nWhich row about the air temperature and the air density at X and at Y is correct?\n\nA air temperature: higher at X; air density: higher at X\nB air temperature: higher at X; air density: higher at Y\nC air temperature: higher at Y; air density: higher at Y\nD air temperature: higher at Y; air density: higher at X",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q733": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A warm dark-coloured surface emits radiation. It is decided to increase the amount of radiation produced.\n\nThree suggestions are made.\n\n1 Make the surface hotter.\n2 Colour the surface white.\n3 Increase the area of the surface.\n\nWhich suggestions are correct?\n\nA 1 only\nB 1 and 2 only\nC 1 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q734": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four campers are warming their food on a fire.\n\nThey use different rods, each of the same dimensions, to hold their food near the fire.\n\n[Diagram shows food on a rod held by a hand over a fire]\n\nWhich material is the best choice to prevent their hands from getting too hot?\n\nA aluminium\nB copper\nC steel\nD wood",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q735": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two metal cans are identical, except that one has a shiny silver outer surface and the other has a dull black outer surface. They each have 300 g of water at 80 °C sealed inside them. They are both in a vacuum, in the darkness of outer space.\n\nHow does the temperature of the water in each one change?\n\nA Neither one will cool down.\nB The water in the black can cools more slowly than that in the shiny can.\nC The water in the shiny can cools more slowly than that in the black can.\nD They both cool down at the same rate.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q736": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.3",
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In which does thermal conduction not occur?\n\nA a gas\nB a liquid\nC a solid\nD a vacuum",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q737": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The metal surface of a kettle is hot.\n\nWhat happens to the cool air outside the kettle when it comes into contact with the hot kettle?\n\nA The density of the air decreases and the air falls.\nB The density of the air decreases and the air rises.\nC The density of the air increases and the air falls.\nD The density of the air increases and the air rises.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q739": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The handle of a metal saucepan is made of plastic. As the saucepan heats up, the handle gets warmer.\n\nWhich statement explains this?\n\nA Molecules of the plastic radiate their energy to other molecules.\nB Molecules of the plastic vibrate more and pass on their energy to nearby molecules.\nC The free electrons in the plastic transfer the thermal energy along the handle.\nD The heated molecules very slowly move along the plastic handle.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
+ },
+ "q741": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Vacuum flasks usually have silvered walls that help to keep the contents of the flask hot.\n\nWhy are the walls silvered?\n\nA to absorb thermal energy from the air around the flask\nB to increase the rate of convection inside the flask\nC to reduce energy loss to the surroundings by conduction\nD to reflect thermal radiation back into the flask",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T11:02:17+00:00"
  }
 }
