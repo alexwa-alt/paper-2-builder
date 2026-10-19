@@ -8203,5 +8203,326 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-19T00:17:10+00:00"
+ },
+ "q623": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.4",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student calculates the energy needed to raise the temperature of an aluminium block from 50 °C to 60 °C.\n\nHe then does an experiment to measure the energy used to do this.\n\nWhich statement about the measured energy is correct?\n\nA The measured energy will be greater than the calculated energy because some energy is transferred to the surroundings.\nB The measured energy will be greater than the calculated energy because the block absorbs energy from the surroundings.\nC The measured energy will be less than the calculated energy because the mass of the block decreases as it gets warmer.\nD The measured energy will be less than the calculated energy because the thermal capacity of the block is low.",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q624": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row correctly describes a liquid that is boiling?\n\n[Table with columns: 'bubbles seen', 'where it takes place in the liquid']\nA no | surface only\nB no | throughout liquid\nC yes | surface only\nD yes | throughout liquid",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q625": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows two cylinders connected by a narrow tube fitted with a tap.\n\n[Diagram showing a cylinder of 80 cm^3 connected via a tap to a cylinder of 20 cm^3]\n\nOne cylinder contains 80 cm^3 of gas at a pressure of 2.0 × 10^5 Pa. The other cylinder contains a vacuum.\n\nThe volume of the evacuated cylinder is 20 cm^3. The tap is opened so that the gas can flow to fill both cylinders.\n\nThe temperature of the gas remains constant.\n\nWhat is the new pressure of the gas?\n\nA 0.50 × 10^5 Pa\nB 1.6 × 10^5 Pa\nC 2.5 × 10^5 Pa\nD 8.0 × 10^5 Pa",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q626": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aluminium block has a mass of 200 g.\n\nThe specific heat capacity of aluminium is 900 J / (kg °C).\n\nHow much energy is needed to increase the temperature of the block from 20 °C to 110 °C?\n\nA 2.0 J\nB 2000 J\nC 16 200 J\nD 16 200 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q627": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a liquid-in-glass thermometer.\n\n[Diagram of a liquid-in-glass thermometer showing bulb, liquid, scale, and capillary tube]\n\nWhich change to the design would result in a more sensitive thermometer?\n\nA Increase the density of the liquid.\nB Increase the diameter of the capillary tube.\nC Increase the number of scale markings.\nD Increase the volume of the bulb.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q628": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aluminium block has a mass of 200 g.\n\nThe specific heat capacity of aluminium is 900 J / (kg °C).\n\nHow much energy is needed to increase the temperature of the block from 20 °C to 110 °C?\n\nA 2.0 J\nB 2000 J\nC 16 200 J\nD 16 200 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q629": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the apparatus used to measure the specific latent heat of vaporisation of water.\n\n[Diagram showing a beaker of water with a 2 kW electric immersion heater inside]\n\nAfter the water begins to boil, 110 g of water is converted to steam in 120 s.\n\nUsing these results, what is the value of the specific latent heat of vaporisation of water?\n\nA 1.8 J / kg\nB 1800 J / kg\nC 2200 J / kg\nD 2 200 000 J / kg",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q631": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student measures the mass of warm water in an open container over two minutes. The container is kept at a constant temperature. The results are in the table.\n\ntime / minutes | mass / g\n0.0 | 33.9\n0.5 | 30.6\n1.0 | 27.6\n1.5 | 24.9\n2.0 | 22.5\n\nWhy does the mass of the water change?\n\nA The water evaporates.\nB The water freezes.\nC The water condenses.\nD The water boils.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:54:51+00:00"
+ },
+ "q632": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which points are the fixed points of the liquid-in-glass thermometer shown?\n\n[Diagram of a liquid-in-glass thermometer with scale marked from -10 °C to 110 °C, showing a liquid column up to 40 °C]\n\nA the beginning and end points of the column of liquid\nB the points marked -10 °C and 110 °C\nC the points marked 0 °C and 100 °C\nD the top and bottom points of the thermometer bulb",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q633": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The specific heat capacities of aluminium, iron, ethanol and water are given.\n\nsubstance | specific heat capacity J / kg °C\naluminium | 900\niron | 450\nethanol | 2400\nwater | 4200\n\n1 kg of each metal is put into 5 kg of each liquid.\n\nThe starting temperature of each metal is 60 °C. The starting temperature of each liquid is 10 °C.\n\nWhich example has the highest final temperature?\n\nmetal | liquid\nA aluminium | ethanol\nB iron | ethanol\nC aluminium | water\nD iron | water",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q634": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Water in a beaker evaporates when left on a bench for a period of time.\n\nWhich three factors all affect the rate of evaporation of the water?\n\nA wind speed, surface area, temperature\nB wind speed, temperature, volume\nC wind speed, surface area, volume\nD surface area, temperature, volume",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q635": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A solid is heated causing it to expand.\n\nWhat effect does this have on its mass and on its density?\n\nmass | density\nA decreases | decreases\nB decreases | stays constant\nC stays constant | decreases\nD stays constant | stays constant",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q636": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show four blocks of steel. The blocks are all drawn to the same scale.\n\nThe same quantity of thermal energy is given to each block.\n\nWhich block shows the greatest rise in temperature?\n\n[Diagrams of four steel blocks A, B, C, and D of different volumes, with A having the smallest volume]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q637": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a liquid-in-glass thermometer.\n\n[Diagram showing a liquid-in-glass thermometer with labels pointing to the 'glass bulb' containing 'liquid', the 'stem', and the 'capillary tube']\n\nThe design of this thermometer includes the following features.\n\n1 a liquid which expands linearly when it is heated\n2 a glass bulb which has a thick glass wall\n3 a capillary tube with a very small diameter\n\nWhich features increase the sensitivity of the thermometer?\n\nA 1 only\nB 1 and 2\nC 2 and 3\nD 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q638": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a liquid-in-glass thermometer.\n\n[Diagram of a thermometer with label X pointing to the bulb and label Y pointing to the bore inside the stem]\n\nWhich row gives the correct labels for the thermometer?\n\nX | Y\nA water | narrow tube of uniform diameter\nB alcohol | narrow tube of uniform diameter\nC water | this end immersed in substance to be measured\nD alcohol | this end immersed in substance to be measured",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q640": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The specific heat capacity of solid P is greater than that of solid Q.\n\nWhat does this statement mean?\n\nA Less energy is needed to raise the temperature by 1 °C of unit mass of solid P than unit mass of solid Q.\nB Less energy is needed to melt unit mass of solid P than unit mass of solid Q.\nC More energy is needed to raise the temperature by 1 °C of unit mass of solid P than unit mass of solid Q.\nD More energy is needed to melt unit mass of solid P than unit mass of solid Q.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:55:35+00:00"
+ },
+ "q641": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student placed a number of ice cubes in a container with a hole in the base. He left them to melt so that the water dripped into a beaker placed on a balance. The student recorded the initial mass of the beaker and the final mass of the beaker and water after five minutes.\n\n[Diagram showing ice cubes in a container with a hole above a beaker on a balance showing 0.05 kg before, and less ice above a beaker with water on a balance showing 0.16 kg after.]\n\nThe specific latent heat of fusion for water is 334 J / g.\n\nHow much energy was absorbed from the surroundings in order to melt the ice?\n\nA 37 J\nB 54 J\nC 37 000 J\nD 54 000 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q642": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows four rods. Each rod is made of a different metal.\n\n[Diagram showing four metal rods arranged in an X-shape meeting at a central point X: rod P is brass, rod Q is copper, rod R is iron, rod S is silver.]\n\nWax is used to attach small metal balls at the rod ends P, Q, R and S.\n\nEach rod is the same size. They are heated uniformly by a Bunsen burner at point X.\n\nAs the rods warm up, the wax melts and the balls fall off.\n\nWhy does the ball on the silver rod fall first?\n\nA Silver is the best conductor of heat.\nB Silver is the worst conductor of heat.\nC Silver is the best radiator of heat.\nD Silver is the worst radiator of heat.",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q643": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bimetallic strip is used to control the temperature of electrical appliances. It is made of two different metals fixed together.\n\nThe diagram shows the shape of the bimetallic strip before and after heating.\n\n[Diagram showing a straight horizontal bimetallic strip before heating with metal P on top and metal Q on the bottom. After heating, the strip curves downwards, with metal P on the outer (longer) side of the curve.]\n\nWhich statement is correct?\n\nA Metal P contracts more than metal Q on heating.\nB Metal Q contracts more than metal P on heating.\nC Metal P expands more than metal Q on heating.\nD Metal Q expands more than metal P on heating.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q644": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student writes three statements about thermocouples.\n\n1 They have a small thermal capacity.\n2 They respond very slowly to temperature changes.\n3 They can measure temperatures above 500 °C.\n\nWhich statements are correct?\n\nA 1 only\nB 2 only\nC 1 and 3\nD 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q645": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four blocks are made from different metals. Each block is heated for five minutes with an identical heater.\n\nAssume there is no energy loss from the blocks.\n\nThe table gives the masses of the blocks and the temperature rises.\n\nWhich metal has the highest specific heat capacity?\n\n| | mass of block / kg | temperature rise / °C |\n|---|---|---|\n| A | 2.0 | 5.0 |\n| B | 2.0 | 9.0 |\n| C | 4.0 | 5.0 |\n| D | 4.0 | 9.0 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q647": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Equal volumes of solids and liquids experience different changes of volume when they are heated through the same temperature range.\n\nWhat is the reason for this?\n\nA The average increase in separation of the particles in a liquid is greater than the average increase in separation of those in a solid.\nB The average increase in separation of the particles in a liquid is less than the average increase in separation of those in a solid.\nC The particles in liquids expand by less than those in solids.\nD The particles in liquids expand by more than those in solids.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q648": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1",
+   "2.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which physical property changes when temperature is measured with a liquid-in-glass thermometer?\n\nA electromotive force\nB pressure\nC resistance\nD volume",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
+ },
+ "q649": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The diagram shows steam being passed into water to raise the temperature of the water.\n\n[Diagram showing a tube introducing steam from a steam generator into a beaker of water]\n\nThe specific latent heat of steam is 2200 J / g.\nThe specific heat capacity of water is 4.2 J / (g °C).\nThe mass of water being heated is 490 g.\n\nWhich mass of steam must be passed into the water to raise the water temperature from 19 °C to 100 °C?\n\nA 19 g\nB 76 g\nC 80 g\nD 95 g",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-19T04:56:18+00:00"
  }
 }
