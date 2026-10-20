@@ -10941,16 +10941,16 @@
   "updated": "2026-10-20T07:54:48+00:00"
  },
  "q845": {
-  "status": "retry",
-  "attempts": 2,
+  "status": "failed",
+  "attempts": 3,
   "error": "missing or invalid tags in response",
-  "updated": "2026-10-20T13:41:38+00:00"
+  "updated": "2026-10-20T18:33:08+00:00"
  },
  "q846": {
-  "status": "retry",
-  "attempts": 2,
+  "status": "failed",
+  "attempts": 3,
   "error": "missing or invalid tags in response",
-  "updated": "2026-10-20T13:41:38+00:00"
+  "updated": "2026-10-20T18:33:08+00:00"
  },
  "q847": {
   "status": "done",
@@ -12270,5 +12270,199 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q958": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The Sun emits infra-red radiation and light.\n\nLight from the Sun reaches the Earth in 8 minutes.\n\nWhich row gives correct information about the infra-red radiation?\n\n[Table with columns: 'wavelength of infra-red radiation', 'time taken for infra-red radiation to reach Earth']\nA longer than wavelength of light | 8 minutes\nB longer than wavelength of light | much less than 8 minutes\nC shorter than wavelength of light | 8 minutes\nD shorter than wavelength of light | much more than 8 minutes",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:33:08+00:00"
+ },
+ "q959": {
+  "status": "done",
+  "subpoints": [
+   "3.3.2",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement is not correct?\n\nA The speed of long-wavelength infra-red radiation in a vacuum is greater than that of short-wavelength ultraviolet light.\nB The speed of microwaves in air is approximately 3.0 × 10^8 m/s.\nC The speed of γ-rays emitted from a sample of cobalt-60 is 3.0 × 10^5 km/s.\nD The X-rays emitted in a supernova explosion reach the Earth at the same time as the visible light emitted.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:33:08+00:00"
+ },
+ "q960": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of light is incident on a glass-air surface. The diagrams show the ray of light at different angles of incidence in the glass.\n\n[Three diagrams showing light travelling from glass to air: 1. Angle of incidence 40°, ray refracts into air. 2. Angle of incidence 44°, ray travels along the glass-air boundary at 90°. 3. Angle of incidence 48°, ray undergoes total internal reflection.]\n\nWhat is the refractive index of the glass?\n\nA 1.35\nB 1.44\nC 1.50\nD 1.55",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:33:08+00:00"
+ },
+ "q961": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3",
+   "3.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Different parts of the electromagnetic spectrum are used for different purposes. Below are four statements about parts of the spectrum.\n\nstatement 1: Infra-red waves are used in television remote controllers.\nstatement 2: Radio waves are used to transmit television pictures from satellites to Earth.\nstatement 3: Ultraviolet waves are used for intruder alarms.\nstatement 4: X-rays are used for security checks.\n\nWhich statements are correct?\n\nA 1 and 2\nB 1 and 4\nC 2 and 3\nD 3 and 4",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:33:08+00:00"
+ },
+ "q962": {
+  "status": "done",
+  "subpoints": [
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A fire alarm is not loud enough and the pitch is too low. An engineer adjusts the alarm so that it produces a louder note of a higher pitch.\n\nWhat effect does this have on the amplitude and on the frequency of the sound?\n\n[Table with columns: 'amplitude', 'frequency']\nA larger | greater\nB larger | smaller\nC smaller | greater\nD smaller | smaller",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:33:08+00:00"
+ },
+ "q963": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Visible light, X-rays and microwaves are all components of the electromagnetic spectrum.\n\nWhich statement about the waves is correct?\n\nA In a vacuum, microwaves travel faster than visible light and have a shorter wavelength.\nB In a vacuum, microwaves travel at the same speed as visible light and have a shorter wavelength.\nC In a vacuum, X-rays travel faster than visible light and have a shorter wavelength.\nD In a vacuum, X-rays travel at the same speed as visible light and have a shorter wavelength.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:33:08+00:00"
+ },
+ "q964": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The Moon is 380 000 km from the Earth. A laser light beam is directed from the Earth to the Moon. The beam is reflected back to the Earth.\n\nHow long does it take for the light to travel to the Moon and back to the Earth?\n\nA 1.27 ms\nB 2.53 ms\nC 1.27 s\nD 2.53 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q965": {
+  "status": "done",
+  "subpoints": [
+   "3.3.2",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Different waves travel through air.\n\nWhich waves have the greatest difference in speed?\n\nA ultrasound waves and sound waves\nB ultrasound waves and ultraviolet waves\nC ultraviolet waves and light waves\nD ultraviolet waves and radio waves",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q967": {
+  "status": "done",
+  "subpoints": [
+   "3.3.2",
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about radio waves is correct?\n\nA They are used in television remote controllers.\nB They can be detected by the human eye.\nC They travel as longitudinal waves.\nD They have the same speed in a vacuum as ultraviolet waves.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q968": {
+  "status": "done",
+  "subpoints": [
+   "3.4.6",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Student X fires a starting pistol which produces smoke and sound. Student Y is standing 100 m away and sees the smoke the instant it is produced. The speed of sound in air is 340 m/s.\n\nWhat is the time delay between student Y seeing the smoke and hearing the sound?\n\nA 0.29 s\nB 0.59 s\nC 1.7 s\nD 3.4 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q969": {
+  "status": "done",
+  "subpoints": [
+   "3.4.8",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy shouts and hears the echo from a tall building 2.2 s later.\n\nThe speed of sound in air is 330 m/s.\n\nHow far away from the boy is the building?\n\nA 150 m\nB 300 m\nC 360 m\nD 730 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q970": {
+  "status": "done",
+  "subpoints": [
+   "3.4.8",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ship sounds its horn when it is 790 m from a cliff. A passenger on the ship hears the echo 4.8 s later.\n\nWhat is the speed of the sound?\n\nA 165 m/s\nB 330 m/s\nC 340 m/s\nD 1896 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q971": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows air particles in a sound wave.\n\n[Diagram showing a horizontal row of dots representing air particles: clustered closely together at regions V, X, and Z; spaced far apart at regions W and Y]\n\nWhich row correctly identifies the position of a compression and position of a rarefaction?\n\n| | compression | rarefaction |\n|---|---|---|\n| A | X | Y |\n| B | Y | X |\n| C | V | Z |\n| D | Z | V |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q972": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed of sound in air is 330 m/s.\n\nHow do the speeds of sound in concrete and water compare with this speed?\n\n| | speed in concrete | speed in water |\n|---|---|---|\n| A | greater | greater |\n| B | greater | less |\n| C | less | greater |\n| D | less | less |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T18:34:20+00:00"
  }
 }
