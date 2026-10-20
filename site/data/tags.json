@@ -9791,10 +9791,17 @@
   "updated": "2026-10-19T22:31:16+00:00"
  },
  "q757": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "missing or invalid tags in response",
-  "updated": "2026-10-19T22:31:16+00:00"
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "One end of a shiny metal rod is heated and the other end quickly gets hot.\n\nWhich statement describes why the other end quickly gets hot?\n\nA Metals are good thermal conductors.\nB Metals are poor thermal conductors.\nC Shiny surfaces are good emitters of infra-red radiation.\nD Shiny surfaces are poor emitters of infra-red radiation.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:56:14+00:00"
  },
  "q758": {
   "status": "done",
@@ -9973,5 +9980,558 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-19T22:33:03+00:00"
+ },
+ "q771": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four cubic copper containers are filled with water. The surfaces of all the containers are painted black.\n\nTwo of the containers have sides of length 20 cm and the other two containers have sides of length 40 cm.\n\nTwo of the containers contain water at 80 °C and the other two contain water at 30 °C.\n\nWhich container radiates energy at the lowest rate?\n\nA [small container, 30 °C]\nB [small container, 80 °C]\nC [large container, 30 °C]\nD [large container, 80 °C]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q772": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.1.4",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The wavelength of a beam of X-rays, travelling through air, is 5.4 × 10^-10 m.\n\nWhat is its frequency?\n\nA 5.6 × 10^-17 Hz\nB 5.6 × 10^11 Hz\nC 5.6 × 10^17 Hz\nD 5.6 × 10^18 Hz",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q773": {
+  "status": "done",
+  "subpoints": [
+   "3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student attempts to make a permanent magnet by hammering metal bars of the same size in the same magnetic field.\n\nIn which case is the strongest permanent magnet produced?\n\nA [vertical iron bar parallel to magnetic field lines]\nB [horizontal iron bar perpendicular to magnetic field lines]\nC [vertical steel bar parallel to magnetic field lines]\nD [horizontal steel bar perpendicular to magnetic field lines]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q774": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wave source produces 3000 crests every minute. The wave has a speed of 300 m/s.\n\nWhat is the wavelength of the wave?\n\nA 0.10 m\nB 0.17 m\nC 6.0 m\nD 10.0 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q775": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show two sets of wavefronts in a ripple tank.\n\n[Left diagram: wave direction to the right, plane wavefronts striking a slanted barrier]\n[Right diagram: wave direction to the right, plane wavefronts approaching a slanted region of shallow water]\n\nA student makes two statements about the waves.\n\n1 When the waves reflect from the barrier the direction changes but the wavelength remains the same.\n2 When the waves refract as they enter the shallow water the direction remains the same, but the wavelength changes.\n\nWhich statements are correct?\n\nA statement 1 and statement 2\nB statement 1 only\nC statement 2 only\nD neither statement 1 nor statement 2",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q776": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3",
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which piece of equipment is designed to produce a type of electromagnetic wave?\n\nA electric fire\nB electric generator\nC electric motor\nD electromagnet",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q777": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows plane water waves in a ripple tank passing through a gap between two barriers and spreading out.\n\n[Diagram showing plane wavefronts passing through a narrow gap between two barriers and becoming semicircular wavefronts spreading out]\n\nWhich name is given to this effect?\n\nA diffraction\nB reflection\nC refraction\nD total internal reflection",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q779": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A passing boat causes a floating object on a lake to bob up and down 18 times in 12 s. The wavelength of the wave created by the boat is 48 cm.\n\nWhat is the velocity of these water waves?\n\nA 32 cm/s\nB 72 cm/s\nC 576 cm/s\nD 864 cm/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:57:06+00:00"
+ },
+ "q780": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Wavefronts are incident on a boundary.\n\nWhat is needed for the wave to refract at the boundary?\n\nA a shiny surface at the boundary\nB a small gap in the boundary\nC different mediums either side of the boundary in which the frequency of the wave is different\nD different mediums either side of the boundary in which the speed of the wave is different",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q781": {
+  "status": "done",
+  "subpoints": [
+   "3.4.3",
+   "3.1.4",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "What is the approximate wavelength in air of the highest frequency sound that can be heard by a normal healthy person?\n\nA 0.02 m\nB 60 m\nC 20 000 m\nD 7 000 000 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q782": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A water wave passes into a region where the wave travels more slowly.\n\nAs it passes into the slow region, what happens to the frequency and what happens to the wavelength of the wave?\n\n[Table with columns: frequency, wavelength]\nA decreases | remains the same\nB increases | remains the same\nC remains the same | decreases\nD remains the same | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q783": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows waves in a ripple tank containing water.\n\n[Diagram showing parallel straight wavefronts incident on a barrier with a gap of roughly the same width as the wavelength, emerging as circular wavefronts on the right.]\n\nThe waves approach a barrier and pass through the gap in the barrier.\n\nThe size of the gap is about the same size as the wavelength of the ripples.\n\nThe gap size is increased.\n\nWhat happens to the ripple pattern to the right of the barrier?\n\nA The ripples are closer together.\nB The ripples are further apart.\nC The ripples are more curved.\nD The ripples are less curved.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q784": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a wave.\n\n[A displacement-distance graph of a transverse sinusoidal wave. Point 1 is at a crest, point 2 is on the distance axis directly below point 1, point 3 is at the level of the troughs directly below point 2. Point 0 is at the origin, point 4 is at the first downward-sloping zero crossing, point 5 is at the second upward-sloping zero crossing, and point 6 is at the second downward-sloping zero crossing.]\n\nWhich row correctly indicates the amplitude and the wavelength of the wave?\n\n[Table with columns: amplitude, wavelength]\nA the distance between 1 and 2 | the distance between 4 and 5\nB the distance between 1 and 2 | the distance between 4 and 6\nC the distance between 1 and 3 | the distance between 4 and 5\nD the distance between 1 and 3 | the distance between 4 and 6",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q785": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the pattern of water waves as they pass through a narrow gap.\n\n[Diagram showing plane wavefronts passing through a narrow gap between two barriers and spreading out into circular wavefronts.]\n\nWhich row names the process shown and describes the effect of using a wider gap?\n\n[Table with columns: name of process, wider gap]\nA refraction | waves spread out less\nB refraction | waves spread out more\nC diffraction | waves spread out less\nD diffraction | waves spread out more",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q786": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row is not correct for a wave on the surface of water?\n\n[Table with columns: quantity, usual unit]\nA amplitude | m\nB frequency | Hz\nC wavelength | λ\nD speed | m/s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q787": {
+  "status": "done",
+  "subpoints": [
+   "3.1.10",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In the diagram, the mountaineer can hear the stream although he cannot see it. When he is closer to the gully, he can both hear and see the stream. When he is further from the gully, he can neither hear nor see the stream.\n\n[Diagram showing a stream at the bottom of a deep gully. A straight line of sight extends from the stream past the edge of the gully, passing above a mountaineer standing further away on the hill.]\n\nWhich statement is not correct?\n\nA As he approaches the gully edge, he hears first the short wavelength, higher frequencies and then the long wavelength, lower frequencies.\nB As he approaches the gully edge, the sound becomes louder.\nC He hears the stream because some of the sound is diffracted.\nD He hears the stream because some of the sound is reflected from the opposite wall of the gully.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T01:58:35+00:00"
+ },
+ "q788": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row correctly defines the frequency and the speed of a wave?\n\nA [frequency] number of waves, [speed] distance travelled per unit time\nB [frequency] number of waves, [speed] time taken for one complete wave to pass a point\nC [frequency] number of waves passing per unit time, [speed] distance travelled per unit time\nD [frequency] number of waves passing per unit time, [speed] time taken for one complete wave to pass a point",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q789": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four students A, B, C and D, investigate the diffraction of water waves through a gap.\n\n[Diagram showing plane waves incident on a barrier with a gap, passing through and spreading out as curved wavefronts]\n\nEach student uses a different gap size and a different wavelength for the water waves.\n\nWhich student produces the waves which have the most diffraction?\n\nA gap size / cm: 2.0, wavelength / cm: 1.8\nB gap size / cm: 3.0, wavelength / cm: 2.1\nC gap size / cm: 4.0, wavelength / cm: 2.0\nD gap size / cm: 5.0, wavelength / cm: 0.9",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q790": {
+  "status": "done",
+  "subpoints": [
+   "3.1.6",
+   "3.1.5",
+   "3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show examples of wave motion.\n\n1 ripple tank: waves on water [circular ripples spreading outwards]\n2 drum: waves in air [sound waves travelling away from vibrating drum skin]\n3 waves on a rope [hand moving up and down to produce transverse wave]\n4 waves in a spring [hand moving back and forth horizontally to produce compressions and rarefactions]\n\nWhich waves are longitudinal?\n\nA 1 only\nB 2 and 3 only\nC 2, 3 and 4\nD 2 and 4 only",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q791": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wave of frequency 6600 Hz travels 1320 m in 4.0 s.\n\nWhat is the wavelength?\n\nA 0.050 m\nB 0.80 m\nC 1.3 m\nD 20 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q793": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The frequency of the microwaves used in a microwave oven is 2400 MHz.\n\nWhat is the wavelength of these microwaves?\n\nA 0.125 m\nB 8.00 m\nC 125 m\nD 7200 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q794": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An earthquake-monitoring station records the arrival of 16 complete waves of an earthquake wave in 20 s.\n\nThe speed of the earthquake wave is 6.0 km / s.\n\nWhat is the wavelength of the earthquake wave?\n\nA 1.3 × 10^-4 m\nB 2.1 × 10^-4 m\nC 4.8 × 10^3 m\nD 7.5 × 10^3 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q795": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows part of a diffracted wave pattern.\n\n[Diagram showing plane waves travelling towards a barrier with a gap, passing through and spreading out with slightly curved wavefronts]\n\nChanges are made to the wavelength and to the gap size to produce a semicircular diffracted wave pattern.\n\nWhich row produces the required semicircular diffracted wave pattern?\n\nA [gap in barrier] larger, [wavelength] same\nB [gap in barrier] larger, [wavelength] smaller\nC [gap in barrier] same, [wavelength] larger\nD [gap in barrier] same, [wavelength] smaller",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q796": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about a thin converging lens is correct?\n\nA All rays of light refracted by the lens pass through the principal focus.\nB All rays initially parallel to the principal axis of the lens are refracted through the principal focus.\nC The focal length of the lens is the distance between the image and the principal focus.\nD The focal length of the lens is the distance between the object and the image.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:00:07+00:00"
+ },
+ "q797": {
+  "status": "done",
+  "subpoints": [
+   "3.1.5",
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row correctly describes light waves?\n\n| | wave type | direction of vibrations |\n|---|---|---|\n| A | longitudinal | parallel to direction of wave travel |\n| B | longitudinal | perpendicular to direction of wave travel |\n| C | transverse | parallel to direction of wave travel |\n| D | transverse | perpendicular to direction of wave travel |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q798": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radio transmitter broadcasts at a frequency of 200 kHz.\n\nWhat is the wavelength of these radio waves?\n\nA 6.7 × 10^-4 m\nB 1.5 m\nC 1.5 × 10^3 m\nD 1.5 × 10^6 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q799": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An optical lever is a very sensitive device for detecting small rotations. A lamp sends a narrow beam of light on to a small plane mirror attached to a shaft whose rotation is to be measured. The operation of the device is shown in plan view.\n\n[Diagram showing a lamp with a scale just above it facing a small plane mirror on a shaft. In the left diagram, light reflects directly back. In the right diagram, the shaft and mirror rotate by 1°, and the reflected beam reflects at an angle θ back towards the scale.]\n\nThe beam from the lamp reflects from the mirror to give a small spot of light on a scale placed just above the lamp. The shaft and mirror rotate through 1°. The spot of light moves along the scale.\n\nThe table shows the angle θ through which the reflected beam rotates and the conditions required for high sensitivity.\n\nWhich row is correct?\n\n| | angle θ | to achieve high sensitivity |\n|---|---|---|\n| A | 1° | the lamp and scale need to be as close to the mirror as possible |\n| B | 1° | the lamp and scale need to be as far from the mirror as possible |\n| C | 2° | the lamp and scale need to be as close to the mirror as possible |\n| D | 2° | the lamp and scale need to be as far from the mirror as possible |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q800": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student draws a diagram to illustrate the different sections of a longitudinal wave.\n\nWhich labelled section is a rarefaction?\n\n[Diagram showing vertical lines representing compressions and rarefactions of a longitudinal wave: A points to a region where lines are close together; B points to a region where lines are far apart; C spans the distance from one compression to the next; D points to a single line.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q801": {
+  "status": "done",
+  "subpoints": [
+   "3.1.5",
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row correctly describes light waves?\n\n| | wave type | direction of vibrations |\n|---|---|---|\n| A | longitudinal | parallel to direction of wave travel |\n| B | longitudinal | perpendicular to direction of wave travel |\n| C | transverse | parallel to direction of wave travel |\n| D | transverse | perpendicular to direction of wave travel |\n\nA water wave has a speed of 2.0 m/s.\n\n4.0 complete waves pass a point every 10 seconds.\n\nWhat is the wavelength of the wave?\n\nA 0.50 m\nB 0.80 m\nC 5.0 m\nD 8.0 m",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q802": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A water wave has a speed of 2.0 m/s.\n\n4.0 complete waves pass a point every 10 seconds.\n\nWhat is the wavelength of the wave?\n\nA 0.50 m\nB 0.80 m\nC 5.0 m\nD 8.0 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q803": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a wave before it reflects from a barrier.\n\nWhich labelled section of the diagram represents a wavefront?\n\n[Diagram showing straight wave crests incident on a tilted planar barrier: A indicates the ray/direction of propagation arrow; B indicates the distance between two wavefronts; C indicates one of the straight lines representing a wave crest; D indicates the barrier.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q804": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A vibrating object produces ripples on the surface of a liquid. The object completes 20 vibrations every second. The spacing of the ripples, from one crest to the next, is 3.0 cm.\n\nWhat is the speed of the ripples?\n\nA 0.15 cm/s\nB 6.7 cm/s\nC 60 cm/s\nD 120 cm/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:03:21+00:00"
+ },
+ "q805": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "When water waves pass through a gap they diffract.\n\nThe diagrams show wavefronts approaching a narrow gap.\n\nIn which diagram will the diffraction be least?\n\n[Four diagrams showing plane wavefronts moving from left to right towards a barrier with a gap:\nA shows small wavelength (narrowly spaced wavefronts) approaching a narrow gap.\nB shows large wavelength (widely spaced wavefronts) approaching a narrow gap.\nC shows small wavelength approaching a wide gap.\nD shows large wavelength approaching a wide gap.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q806": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Sound travels through air at a speed of 340 m/s. A source generates sound waves at a frequency of 1.2 kHz.\n\nWhat is the wavelength of the sound waves?\n\nA 0.28 m\nB 3.5 m\nC 280 m\nD 410 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q807": {
+  "status": "done",
+  "subpoints": [
+   "3.1.10",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A large hill blocks the direct path between a transmitter of radio waves and a receiver, as shown.\n\n[Diagram shows a transmitter tower on the left of a large hill and a receiver on the right side of the hill.]\n\nThe receiver picks up the signal from the transmitter even though the radio waves do not travel through the hill.\n\nWhich row is correct?\n\nA possible way for this to happen is | A stronger signal is received using\nA diffraction round the hill. | longer wavelengths.\nB diffraction round the hill. | shorter wavelengths.\nC refraction round the hill. | longer wavelengths.\nD refraction round the hill. | shorter wavelengths.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q808": {
+  "status": "done",
+  "subpoints": [
+   "3.1.5",
+   "3.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row shows an example of a transverse wave and an example of a longitudinal wave?\n\ntransverse | longitudinal\nA light | radio\nB radio | sound\nC sound | water\nD water | light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q809": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wave passes through a gap and diffraction causes the wave to spread out.\n\nWhich wave spreads out the most?\n\nA large wavelength through a gap slightly larger than the wavelength\nB large wavelength through a gap much smaller than the wavelength\nC small wavelength through a gap much larger than the wavelength\nD small wavelength through a gap much smaller than the wavelength",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q810": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Light travels at a speed of 2.0 × 10^8 m/s in a glass block.\n\nIn the glass, the wavelength of the light is 4.0 × 10^-7 m.\n\nWhat is the frequency of the light?\n\nA 2.0 × 10^-15 Hz\nB 1.3 × 10^-2 Hz\nC 80 Hz\nD 5.0 × 10^14 Hz",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q811": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which arrow on the graph shows the amplitude of the wave?\n\n[Graph of displacement against distance showing a transverse wave with labeled arrows:\nA: vertical double-headed arrow from peak to trough\nB: vertical double-headed arrow from centre line (zero displacement) to peak\nC: horizontal double-headed arrow representing half a wavelength\nD: horizontal double-headed arrow from trough to adjacent trough]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q812": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A tank contains water. Ripples are produced on the surface of the water.\n\nWhat causes the ripples to refract?\n\nA The cold water in the tank is replaced by warm water.\nB The ripples change speed as they move from deep to shallow water.\nC The ripples hit the wall of the tank.\nD The ripples pass through a narrow gap.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T02:06:08+00:00"
  }
 }
