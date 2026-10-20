@@ -10942,15 +10942,15 @@
  },
  "q845": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "missing or invalid tags in response",
-  "updated": "2026-10-20T07:54:48+00:00"
+  "updated": "2026-10-20T13:41:38+00:00"
  },
  "q846": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "missing or invalid tags in response",
-  "updated": "2026-10-20T07:54:48+00:00"
+  "updated": "2026-10-20T13:41:38+00:00"
  },
  "q847": {
   "status": "done",
@@ -11629,5 +11629,646 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q907": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement describes monochromatic light?\n\nA light that does not diffract\nB light that has a single frequency\nC light that spreads out when shone through a glass prism\nD light that travels at the same speed in all materials",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:41:38+00:00"
+ },
+ "q908": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Scout P signals to scout Q on the other side of a valley by using a mirror to reflect the Sun's light.\n\n[Diagram shows scout P standing on a cliff on the left, holding a mirror. Sun's light travels downward and to the left towards scout P. Scout Q is on the opposite side of the valley to the right, lower down than scout P.]\n\nWhich mirror position allows the Sun's light to be reflected to scout Q?\n\nA [mirror vertical, reflecting surface facing right]\nB [mirror tilted backward, reflecting surface facing upwards and to the right]\nC [mirror horizontal, reflecting surface facing upwards]\nD [mirror tilted forward, reflecting surface facing downwards and to the right]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:41:38+00:00"
+ },
+ "q909": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.6",
+   "3.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A prism is made from transparent plastic. In this plastic, light travels at 0.80 c, where c is its speed in air. Light enters one face of the prism at right-angles as shown.\n\n[Diagram showing a right-angled prism. A ray of light enters normally through the vertical face without deviation and strikes the hypotenuse face. At the hypotenuse face, a dashed normal line is drawn, making an angle θ with the incident ray inside the plastic. The refracted light ray travels along the hypotenuse surface.]\n\nNOT TO SCALE\n\nThe light just escapes from the sloping face of the prism.\n\nWhat is angle θ?\n\nA 37°\nB 39°\nC 51°\nD 53°",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:41:38+00:00"
+ },
+ "q910": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A scientist describes light as being monochromatic.\n\nWhat does this tell you about the light?\n\nA It has a single frequency.\nB It has more than one wavelength.\nC It travels at a single speed in a single direction.\nD It travels at different speeds in different directions.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:41:38+00:00"
+ },
+ "q911": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.5",
+   "3.2.1.2",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Images formed by lenses and mirrors can either be described as real or as virtual.\n\nWhich row describes real and virtual images of a point object?\n\nA real images: formed where light rays meet | virtual images: an image in a plane mirror is an example of a virtual image\nB real images: formed where light rays meet | virtual images: can be projected onto a screen\nC real images: formed from where light rays appear to diverge | virtual images: an image in a plane mirror is an example of a virtual image\nD real images: formed from where light rays appear to diverge | virtual images: can be projected onto a screen",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:41:38+00:00"
+ },
+ "q912": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the image formed by a plane mirror is correct?\n\nA The image is larger than the object.\nB The image is smaller than the object.\nC The image is twice as far from the mirror as the object.\nD The image is virtual.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:41:38+00:00"
+ },
+ "q913": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.7",
+   "3.2.3.4",
+   "3.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A thin converging lens has a focal length of 6.0 cm. An observer looks through the lens at an object which is placed 4.0 cm from the lens.\n\n[Diagram showing an eye looking through a converging lens at an object placed 4.0 cm to the right of the lens.]\n\nWhich description of the image that is observed is correct?\n\nA diminished and inverted\nB diminished and virtual\nC enlarged and inverted\nD enlarged and virtual",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q914": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A transmitter produces radio waves of wavelength 1500 m. It takes the waves 0.025 s to travel from the transmitter to a radio receiver.\n\nWhat is the distance between the radio transmitter and the receiver?\n\nA 5.0 × 10^3 m\nB 2.0 × 10^5 m\nC 7.5 × 10^6 m\nD 1.1 × 10^10 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q915": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is placed 8.0 cm from a thin converging lens of focal length 5.0 cm.\n\n[Diagram showing a converging lens, principal axis, principal focus F at 5.0 cm, and an upright object at 8.0 cm.]\n\nWhich statement about the image formed by the lens is correct?\n\nA The image is real and inverted.\nB The image is real and upright.\nC The image is virtual and inverted.\nD The image is virtual and upright.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q916": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.3",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Light travels through air and then enters and travels through a parallel-sided glass block.\n\nWhich statement is correct?\n\nA The angle of incidence is greater than the angle of refraction as the light leaves the block.\nB The light emerging from the block is parallel to the light entering the block.\nC The speed of the light decreases as it leaves the block.\nD The wavelength of the light does not change as it enters the block.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q917": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.9",
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Light passes along an optical fibre.\n\nWhat happens to the light within the fibre?\n\nA diffraction\nB dispersion\nC refraction\nD total internal reflection",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q918": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.1",
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The points labelled F are the principal foci of a lens. A beam of parallel light is incident on the lens.\n\nWhich diagram shows the path of the light after it passes through the lens?\n\n[Four diagrams A, B, C, and D showing parallel incident rays passing through a converging lens. In A, rays converge before F. In B, rays converge at F. In C, rays converge beyond F. In D, rays diverge from F before entering the lens.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q919": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.7",
+   "3.2.3.4",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A converging lens is used as a magnifying glass to view an object.\n\nWhich statement is correct?\n\nA The image is inverted.\nB The image is nearer the lens than the object.\nC The image is the same size.\nD The image is virtual.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q920": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows what happens when a ray of white light passes through a prism?\n\n[Four diagrams A, B, C, and D showing a ray of white light entering a triangular glass prism. In A, the ray does not disperse at the first face. In B, the dispersed rays bend upwards upon exit. In C, the dispersed rays bend sharply upwards upon exit. In D, the ray disperses inside the prism, bending towards the base, and refracts further towards the base on emerging to form a spectrum.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:44:20+00:00"
+ },
+ "q921": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Light travels in a vacuum and then enters a glass block. The speed of the light in the glass block is 2.0 × 10^8 m/s.\n\nWhich statement about the speed of light is correct?\n\nA The speed in a vacuum is 1.5 times the speed in the glass.\nB The speed in the glass is the same as the speed in a vacuum.\nC The speed in the glass is 1.5 times the speed in a vacuum.\nD The speed in the glass is 1.0 × 10^8 times the speed in a vacuum.",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q922": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.4",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The incomplete ray diagram shows two rays of light that have passed from one point on an object through a thin converging lens.\n\n[An object is shown to the left of a thin converging lens on a principal axis. A ray parallel to the axis refracts through the lens and crosses the axis to the right. A second ray through the center of the lens continues straight downwards to the right, diverging from the first ray.]\n\nWhich type of image is formed, and on which side of the lens is it formed?\n\nA real, on the left\nB real, on the right\nC virtual, on the left\nD virtual, on the right",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q924": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A converging lens is used to make an image on a screen.\n\n[Diagram shows a candle on the left, a converging lens in the middle, and a screen on the right labelled 'image formed here'.]\n\nWhat type of image is formed on the screen?\n\nA real and inverted\nB real and upright\nC virtual and inverted\nD virtual and upright",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q926": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an object in front of a plane mirror. A ray of light from the object is incident on the mirror.\n\n[The diagram shows a vertical plane mirror. In front of it (to the left) is an 'object' and two points Q (below object) and P (further below). Behind the mirror (to the right) are points R (at the same height as the object) and S (lower down). A ray from the object travels towards the mirror.]\n\nThrough which point does the reflected ray pass, and at which point is the image of the object formed?\n\nA P, R\nB P, S\nC Q, R\nD Q, S",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q927": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A laser is a source of light with a single frequency.\n\nWhich description of this type of light is correct?\n\nA dispersed\nB focused\nC monochromatic\nD refracted",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q928": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an object O in front of a thin converging lens of focal length f.\n\n[The principal axis is shown horizontally. The converging lens has focal points at distance f on either side. Object O is located above the axis, beyond the focal point to the left. Points B and C are at distance f to the right (B on axis, C below). Point D is further to the right, below the axis. Point A is to the left of O, above the axis.]\n\nAt which point will the lens form a sharp image of the object?\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q929": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.3",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a ray of light incident on the surface of a rectangular glass block at 90° to the surface.\n\n[A ray of light is shown travelling downwards, hitting the top surface of a rectangular glass block at a right angle.]\n\nWhich quantities remain unchanged as the light enters the glass block?\n\nA direction and frequency\nB direction and speed\nC frequency and speed\nD speed and wavelength",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q930": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.5",
+   "3.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a ray of light in glass. The ray reaches a boundary with air.\n\nOne weak ray of light is missing from the diagram.\n\n[A ray of light travels through glass to the horizontal boundary with air. The refracted ray travels along the boundary into air/along the surface. The angle between the boundary and the incident ray inside the glass is marked as 50°. The normal is shown as a dashed vertical line.]\n\nWhich statement is correct?\n\nA At the boundary, the speed of the light will become less.\nB The critical angle for light at this boundary is 50°.\nC The diagram shows an example of diffraction of light.\nD The missing ray is a weak reflected ray.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:48:09+00:00"
+ },
+ "q931": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Light travelling in air enters a plastic block at an angle of incidence of 62°.\n\nThe plastic has a refractive index of 1.48.\n\n[Diagram shows a ray of light in air incident on the vertical left side of a rectangular plastic block. The angle between the normal (dashed horizontal line) and the incident ray is marked as 62°.]\n\nWhat is the angle of refraction?\n\nA 18°\nB 28°\nC 37°\nD 42°",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q932": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.3",
+   "3.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A television (TV) station transmits a signal to a television receiving dish.\n\nThe television has an on / off indicator light.\n\nThe television is switched on by a remote control which changes the indicator light from red to green.\n\nWhich electromagnetic wave used in these actions has the longest wavelength?\n\n[Diagram showing: TV station transmitting wave A to a satellite, which transmits to a receiving dish on a TV; remote control sending wave B to the TV; indicator light sending red light C to an eye and green light D to an eye.]\n\nA A\nB B\nC C\nD D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q933": {
+  "status": "done",
+  "subpoints": [
+   "3.4.12",
+   "3.4.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student makes a list of some applications of waves.\n\n1 medical scanning of soft tissue\n2 sterilising water\n3 using sonar to calculate ocean depths\n\nWhich applications use ultrasound waves?\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q934": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radio station broadcasts a signal with a frequency of 89 MHz.\n\nWhat is the wavelength of this signal?\n\nA 3.7 μm\nB 3.4 m\nC 3.7 km\nD 3.4 Mm",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q935": {
+  "status": "done",
+  "subpoints": [
+   "3.3.7",
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student writes four statements matching a communication system to the region of the electromagnetic spectrum that it uses to transmit signals.\n\nWhich statement is correct?\n\nA Wireless internet uses visible wavelengths.\nB Mobile phones use X-rays.\nC Cable television uses infrared wavelengths.\nD Bluetooth uses ultraviolet wavelengths.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q936": {
+  "status": "done",
+  "subpoints": [
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An eclipse of the Sun happens when the Moon comes between the Earth and the Sun.\n\nWhich statement is correct?\n\nA Infrared radiation from the Sun disappears before visible light and ultraviolet radiation.\nB Ultraviolet radiation from the Sun disappears before visible light and infrared radiation.\nC Visible light from the Sun disappears before ultraviolet radiation and infrared radiation.\nD Infrared radiation, ultraviolet radiation and visible light from the Sun all disappear at the same moment.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q937": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which part of the electromagnetic spectrum is used by a remote controller for a television?\n\nA infrared waves\nB microwaves\nC radio waves\nD visible light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q938": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement correctly compares radio waves and X-rays?\n\nA Radio waves have a longer wavelength and a greater speed in a vacuum.\nB Radio waves have a longer wavelength and the same speed in a vacuum.\nC Radio waves have a shorter wavelength and a greater speed in a vacuum.\nD Radio waves have a shorter wavelength and the same speed in a vacuum.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:50:42+00:00"
+ },
+ "q939": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which type of waves are produced by a television remote controller?\n\nA infrared waves\nB radio waves\nC ultraviolet waves\nD visible light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q942": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the speed of microwaves in air?\n\nA 3 × 10^8 μm/s\nB 3 × 10^8 cm/s\nC 3 × 10^8 m/s\nD 3 × 10^8 km/s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q943": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row gives the approximate speeds at which ultraviolet waves travel in air and in a vacuum?\n\n[Table with columns: 'speed in air / (m/s)', 'speed in a vacuum / (m/s)']\nA 340 | 3.0 × 10^8\nB 340 | 340\nC 3.0 × 10^8 | 340\nD 3.0 × 10^8 | 3.0 × 10^8",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q944": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A remote-controlled vehicle is travelling on the surface of a planet. The vehicle senses an obstacle ahead. It sends a radio message to the control room from where it is being controlled. The control room is 2.4 × 10^6 km away from the vehicle. The control room sends a message back to the vehicle telling it to stop.\n\nWhat is the minimum time that elapses between the vehicle sensing the obstacle and receiving the message back from the control room?\n\nA 8.0 ms\nB 16 ms\nC 8.0 s\nD 16 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q945": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Here are three statements about the speed of electromagnetic waves.\n\n1 The speed of an electromagnetic wave in a vacuum is 340 m/s.\n2 The speed of an electromagnetic wave in a vacuum is 3.0 × 10^8 m/s.\n3 The speed of an electromagnetic wave in a vacuum is approximately the same as in air.\n\nWhich statements are correct?\n\nA 1 and 3\nB 1 only\nC 2 and 3\nD 2 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q946": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row correctly describes what happens to the frequency and to the speed of electromagnetic waves as we move through the spectrum from γ-rays to radio waves?\n\n[Table with columns: 'frequency', 'speed in a vacuum']\nA decreases | increases\nB decreases | remains the same\nC increases | decreases\nD increases | remains the same",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q947": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The Sun emits infrared radiation and light.\n\nLight from the Sun reaches the Earth in 8 minutes.\n\nWhich row gives correct information about the infrared radiation?\n\n[Table with columns: 'wavelength of infrared radiation', 'time taken for infrared radiation to reach the Earth']\nA longer than wavelength of light | 8 minutes\nB longer than wavelength of light | much less than 8 minutes\nC shorter than wavelength of light | 8 minutes\nD shorter than wavelength of light | much more than 8 minutes",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q948": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which list shows regions of the electromagnetic spectrum in order of increasing frequency?\n\nA X-ray → ultraviolet → visible light → infrared\nB X-ray → infrared → visible light → ultraviolet\nC infrared → visible light → ultraviolet → X-ray\nD ultraviolet → visible light → infrared → X-ray",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:53:27+00:00"
+ },
+ "q949": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.1.5",
+   "3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about electromagnetic waves is not correct?\n\nA They travel at 3 × 10^8 m / s in a vacuum.\nB They transfer energy.\nC They travel at 340 m / s in air.\nD They are transverse waves.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q950": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.3.6",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The wavelength of blue light changes from 4.7 × 10^-7 m to 3.5 × 10^-7 m as it passes from air to water.\n\nWhat is the speed of this light in water?\n\nA 7.4 × 10^7 m / s\nB 1.3 × 10^8 m / s\nC 2.2 × 10^8 m / s\nD 3.0 × 10^8 m / s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q951": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An intruder alarm sensor detects that a person is warmer than his surroundings.\n\nWhich type of electromagnetic wave does the sensor detect?\n\nA infrared\nB radio\nC ultraviolet\nD visible light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q953": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows three types of electromagnetic radiation listed in a particular order. The electromagnetic radiation is travelling in a vacuum.\n\n[An arrow pointing from left to right with the sequence: microwaves, infrared, X-rays]\n\nWhich quantities increase in magnitude going from left to right across the list?\n\nA frequency only\nB neither speed nor frequency\nC speed and frequency\nD speed only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q954": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the speed of X-rays in a vacuum and in air?\n\n| | in a vacuum | in air |\n|---|---|---|\n| A | 3.0 × 10^6 m / s | 2.0 × 10^6 m / s |\n| B | 3.0 × 10^6 m / s | 3.0 × 10^6 m / s |\n| C | 3.0 × 10^8 m / s | 2.0 × 10^8 m / s |\n| D | 3.0 × 10^8 m / s | 3.0 × 10^8 m / s |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q955": {
+  "status": "done",
+  "subpoints": [
+   "3.3.2",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An eclipse of the Sun happens when the Moon comes between the Earth and the Sun.\n\nWhich statement is correct?\n\nA Infra-red radiation from the Sun disappears before visible light and ultra-violet radiation.\nB Ultra-violet radiation from the Sun disappears before visible light and infra-red radiation.\nC Visible light from the Sun disappears before ultra-violet radiation and infra-red radiation.\nD Infra-red radiation, ultra-violet radiation and visible light from the Sun all disappear at the same moment.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q956": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the electromagnetic spectrum.\n\n[Table showing sections of the electromagnetic spectrum from left to right: γ-rays, X-rays, ultraviolet, visible light, infrared, microwaves, radio waves. Below, an arrow points to the right labelled 'increasing .................']\n\nA word is missing from the label below the spectrum.\n\nWhich word is missing?\n\nA amplitude\nB frequency\nC speed\nD wavelength",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
+ },
+ "q957": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In a cold country, the ground is covered in snow. There is a pile of black sand outdoors and its temperature is the same as that of the snow. A man sprinkles a thin layer of this sand over the snow.\n\nWhy does the black sand help to melt the snow during the day?\n\nA Any thermal energy still left in the sand will melt the snow.\nB The black sand is a good absorber of the infrared radiation from the Sun.\nC The black sand is a good conductor of thermal energy.\nD The black sand lowers the melting point of the snow.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T13:55:48+00:00"
  }
 }
