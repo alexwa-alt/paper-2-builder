@@ -10533,5 +10533,1101 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-20T02:06:08+00:00"
+ },
+ "q815": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Plane water waves travel from a shallow region into a deeper region. They travel more quickly in the deeper water.\n\n[Diagram shows vertical wavefronts moving to the right in shallow water towards a diagonal boundary that slopes up and to the right, beyond which is deep water.]\n\nWhich diagram shows the wave pattern in the deeper water?\nA [Wavefronts bend to tilt top-forward, wavelength longer]\nB [Wavefronts bend to tilt top-forward, wavelength shorter]\nC [Wavefronts bend to tilt bottom-forward, wavelength longer]\nD [Wavefronts bend to tilt bottom-forward, wavelength shorter]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q816": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A person uses a surfboard to ride every 30th wave crest towards the beach. The wave crest travels at a speed of 1.6 m/s and the distance between each wave crest is 24 m.\n\nHow many wave crests does the person surf in one hour?\n\nA 1\nB 2\nC 8\nD 450",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q817": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In a shallow tank, a water wave moves towards a barrier with a narrow gap.\n\n[Diagram shows straight wavefronts approaching a barrier with a narrow gap.]\n\nWhich diagram shows the wave beyond the barrier?\n\nA [Straight, narrow wavefronts with no spreading]\nB [Straight wavefronts of original width with no curvature]\nC [Slightly curved wavefronts spreading a small amount]\nD [Semi-circular circular wavefronts spreading widely]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q818": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Different waves hit barriers with different sized gaps.\n\nThe waves will diffract.\n\nIn which diagram does the greatest spreading occur?\n\nA wavelength 1.0 cm, gap 2.0 cm\nB wavelength 2.0 cm, gap 2.0 cm\nC wavelength 1.0 cm, gap 3.0 cm\nD wavelength 2.0 cm, gap 3.0 cm",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q819": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram represents plane wavefronts of a water wave about to strike a solid barrier.\n\n[Diagram shows vertical wavefronts moving horizontally to the right towards a flat barrier inclined at 45°.]\n\nWhich diagram shows the position of the wavefronts after reflection at the barrier?\n\nA [Wavefronts remain vertical and move left]\nB [Wavefronts are parallel to barrier and move up-right]\nC [Wavefronts are horizontal and move upwards]\nD [Wavefronts are parallel to barrier and move down-left]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q820": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Light in transparent plastic meets a boundary with air. Light is transmitted into the air only if the angle marked θ in the diagram is greater than 36°.\n\n[Diagram shows a ray of light in plastic meeting a horizontal plastic-air boundary, with θ indicated as the angle between the ray and the boundary surface.]\n\nWhat is the refractive index of the plastic?\n\nA 0.59\nB 0.81\nC 1.2\nD 1.7",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q821": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.4",
+   "3.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A thin converging lens has a focal length f. An object O is placed to the left of the lens, as shown.\n\n[Diagram shows a converging lens with focal length f marked on both sides. An upright arrow object O is placed between the focal point and the lens.]\n\nWhere is the image formed and how does its size compare to the object?\n\nA image position: on the opposite side of the lens to the object; image size: larger than the object\nB image position: on the opposite side of the lens to the object; image size: smaller than the object\nC image position: on the same side of the lens as the object; image size: larger than the object\nD image position: on the same side of the lens as the object; image size: smaller than the object",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q822": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows what happens when a ray of white light passes through a prism?\n\nA [Ray does not disperse at first surface, refracts and disperses downwards at second surface]\nB [Ray disperses at first surface bending upwards, then disperses upwards at second surface]\nC [Ray disperses downwards at first surface, then bends upwards at second surface]\nD [Ray disperses downwards at first surface, and bends further downwards with greater dispersion at second surface]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:46:19+00:00"
+ },
+ "q823": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a ray of light entering a glass block.\n\n[A ray of light traveling in air strikes the vertical face of a glass block. A horizontal dashed line represents the normal. The angle between the incident ray and the vertical surface of the glass block is 50°. Inside the glass, the refracted ray makes an angle of 25° with the normal.]\n\nWhich calculation gives the refractive index of the glass?\n\nA  sin 40° / sin 25°\nB  sin 40° / sin 65°\nC  sin 50° / sin 25°\nD  sin 50° / sin 65°",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q824": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object O is placed at point P near to a thin converging lens. The diagram shows three rays from the top of O passing through the lens. Each point F is one focal length from the centre of the lens. Each point 2F is two focal lengths from the centre of the lens.\n\n[A ray diagram shows a thin converging lens with focal points F and 2F marked on both sides of the principal axis. An upright object O is located at point P beyond 2F on the left. Three rays from the top of O pass through the lens to form an inverted, diminished real image between F and 2F on the right. Point Q is located on the principal axis between 2F and F on the left.]\n\nThe object O is moved to point Q on the diagram.\n\nWhich type of image is produced when the object O is at point Q?\n\nA  inverted and the same size as the object\nB  inverted and enlarged\nC  upright and the same size as the object\nD  upright and enlarged",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q825": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows the dispersion of white light by a glass prism?\n\n[Four diagrams A, B, C, and D showing a triangular prism with white light incident on the left face:\nA shows a single refracted ray inside the prism which then splits at the second face into red and violet.\nB shows white light dispersing at the first face into red (top) and violet (bottom), both refracting downwards at the second face with red above violet.\nC shows dispersion inside the prism, but exiting rays refract such that they emerge nearly horizontally.\nD shows white light splitting at the first face, but with different deviation angles.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q826": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Visible light has wavelengths in the range 4.0 × 10^-7 m to 7.0 × 10^-7 m.\n\nWhat is the range of the frequencies of visible light?\n\nA  0.12 Hz to 0.21 Hz\nB  120 Hz to 210 Hz\nC  4.3 × 10^11 Hz to 7.5 × 10^11 Hz\nD  4.3 × 10^14 Hz to 7.5 × 10^14 Hz",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q827": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.3.8",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Optical fibres are used to transmit digital signals using infrared radiation.\n\nThe average refractive index of the fibres is 1.50.\n\nWhich row describes a digital signal and gives the speed of infrared radiation in the fibres?\n\n| | digital signal | speed of infrared radiation in the fibres / (m/s) |\n|---|---|---|\n| A | a signal that consists of only two values | 2.0 × 10^8 |\n| B | a signal that consists of only two values | 4.5 × 10^8 |\n| C | a signal that consists of a continuous range of values | 2.0 × 10^8 |\n| D | a signal that consists of a continuous range of values | 4.5 × 10^8 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q828": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement describes monochromatic light?\n\nA  light of a single frequency\nB  light transmitted by a transparent prism\nC  visible light\nD  white light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q829": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam of light consists of yellow and blue light.\n\nThe beam of light is incident on a glass prism.\n\nWhich diagram is correct?\n\n[Four diagrams A, B, C, and D showing a triangular glass prism with an incident ray of yellow and blue light:\nA shows both rays refracted upwards towards the apex, with yellow above blue.\nB shows both rays refracted upwards towards the apex, with blue above yellow.\nC shows both rays refracted downwards towards the base, with blue above yellow.\nD shows both rays refracted downwards towards the base, with yellow above blue.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q830": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.7",
+   "3.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Each point F is one focal length from the centre of the lens. Each point 2F is two focal lengths from the centre of the lens.\n\nWhich diagram shows a converging lens being used as a magnifying glass?\n\n[Four ray diagrams A, B, C, and D for a converging lens:\nA shows an object beyond 2F forming a real, diminished, inverted image between F and 2F.\nB shows an object between F and 2F forming a real, enlarged, inverted image beyond 2F.\nC shows an object at 2F with rays forming an image at infinity.\nD shows an object positioned between F and the lens, with diverging rays extrapolated backwards to form an upright, enlarged, virtual image behind the object.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:49:40+00:00"
+ },
+ "q831": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A monochromatic ray of green light in air enters a block of glass.\n\nWhich property of the ray of light always remains the same as it moves from air to glass?\n\nA wavelength\nB speed\nC frequency\nD direction",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q832": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A narrow beam of white light passes through a prism and is dispersed into a spectrum.\n\n[Diagram showing a beam of white light entering a triangular glass prism and dispersing into three rays emerging from the other side, labelled 1 (refracted least), 2 (refracted intermediate), and 3 (refracted most).]\n\nWhich row is correct?\n\n| | colour 1 | colour 2 | colour 3 |\n|---|---|---|---|\n| A | blue | yellow | red |\n| B | red | blue | yellow |\n| C | red | yellow | blue |\n| D | yellow | blue | red |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q833": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.1",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams each show a ray of light from an object O passing through a thin converging lens.\n\nThe principal focuses in each diagram are labelled F.\n\n[Three ray diagrams:\nDiagram 1: A ray from the top of object O passes through the optical centre of the lens without deviation.\nDiagram 2: A ray from the top of object O travels parallel to the principal axis to the lens, then refracts through the principal axis before reaching F.\nDiagram 3: A ray from the top of object O passes through F on the near side to the lens, and emerges parallel to the principal axis.]\n\nWhich diagrams are correct?\n\nA 1 and 2\nB 2 only\nC 1 and 3\nD 3 only",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q834": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.5",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a ray of light inside an optical fibre approaching point X.\n\n[Diagram showing an optical fibre with a ray inside incident at point X on the inner surface. A dashed line normal to the surface at X and a dashed line tangent to the surface at X are shown. The angle between the ray and the tangent is labelled P, and the angle between the ray and the normal is labelled Q.]\n\nThe light is totally reflected within the fibre.\n\nThe refractive index of the material of the optical fibre is 1.39.\n\nWhich condition ensures that total internal reflection occurs?\n\nA Q < 45°\nB Q > 47°\nC P > 47°\nD P = Q",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q835": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A card is placed in front of a plane mirror so that its label is facing the mirror, as shown.\n\n[Diagram showing a plane mirror with a card placed horizontally below it with its label facing the mirror. An observer is positioned below and to the left looking towards the mirror.]\n\nThe label is shown.\n\n[A box displaying the letters 'Ci'.]\n\nHow does the image of the label formed by the mirror appear to the observer?\n\nA [The letter 'C' reversed followed by an upside-down 'i']\nB [An upside-down 'i' followed by a reversed 'C']\nC [An upright 'i' followed by a reversed 'C']\nD [A reversed 'C' followed by an upright 'i']",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q836": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A thin converging lens can produce both real and virtual images.\n\nWhich row describes a real and a virtual image?\n\n| | real image | virtual image |\n|---|---|---|\n| A | rays converge to form the image | image can be projected onto a screen |\n| B | rays converge to form the image | image cannot be projected onto a screen |\n| C | rays diverge to form the image | image can be projected onto a screen |\n| D | rays diverge to form the image | image cannot be projected onto a screen |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q837": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The speed of light in air is 3.0 × 10^8 m/s.\n\nThe critical angle for light in a transparent plastic material placed in air is 37°.\n\nWhat is the speed of light in the plastic material?\n\nA 1.8 × 10^8 m/s\nB 2.4 × 10^8 m/s\nC 3.8 × 10^8 m/s\nD 5.0 × 10^8 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q838": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The water wave shown has a frequency of 4.0 Hz.\n\n[Diagram showing a transverse water wave. A vertical arrow from the level of a trough to the level of a crest is labelled 3.0 cm. A horizontal double-headed arrow spanning three complete wavelengths between four crests is labelled 36 cm.]\n\nWhat is the speed of the wave?\n\nA 3.0 cm/s\nB 12 cm/s\nC 48 cm/s\nD 72 cm/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:52:38+00:00"
+ },
+ "q839": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.4",
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student uses one eye to look at images in a plane mirror.\n\n[A horizontal plane mirror is shown. Below it is a parallel line XY with points P, Q, R, E, S, T, U spaced along it. An eye is looking towards the mirror from point E.]\n\nObjects are placed on the line XY.\n\nWhich objects give rise to images that can be seen by the eye at E?\n\nA  P, Q, R, S, T and U\nB  Q, R, S and T only\nC  P and U only\nD  R and S only",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q840": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is placed in front of a converging lens of focal length 15 cm.\n\nWhich row describes the image of the object?\n\n[Table with columns: 'distance of object from lens / cm', 'nature of the image']\nA  40 | real, upright, diminished\nB  30 | virtual, inverted, enlarged\nC  20 | real, inverted, diminished\nD  10 | virtual, upright, enlarged",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q841": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The speed of light in air is 3.0 × 10^8 m / s.\n\nThe critical angle for light in a transparent plastic material placed in air is 37°.\n\nWhat is the speed of light in the plastic material?\n\nA  1.8 × 10^8 m / s\nB  2.4 × 10^8 m / s\nC  3.8 × 10^8 m / s\nD  5.0 × 10^8 m / s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:54:48+00:00",
+  "repeat_of": "q837"
+ },
+ "q842": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.3",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of light passes from air through a sheet of glass and out the other side, as shown.\n\n[Diagram showing a sheet of glass with parallel boundaries labeled boundary 1 and boundary 2. A ray of light in air strikes boundary 1 obliquely, refracts into the glass towards the normal, strikes boundary 2, and refracts back into air away from the normal.]\n\nWhich two angles are equal to each other?\n\nA  angle of incidence at boundary 1 and angle of incidence at boundary 2\nB  angle of incidence at boundary 1 and angle of refraction at boundary 1\nC  angle of incidence at boundary 1 and angle of refraction at boundary 2\nD  angle of refraction at boundary 1 and angle of refraction at boundary 2",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q843": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A plane mirror is fixed to a vertical wall.\n\nA boy looks at the image of himself in the mirror.\n\nWhich statement describes the image formed?\n\nA  real and upright\nB  real and upside down\nC  virtual and upright\nD  virtual and upside down",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q845": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q846": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q847": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A composite block is made by joining together three transparent materials.\n\nThe diagram shows a ray of light passing through the composite block.\n\n[Diagram showing three horizontal layers: material 1 on top, material 2 in the middle, and material 3 on the bottom. A ray of light in material 1 refracts towards the normal upon entering material 2, and then refracts away from the normal to a larger angle to the normal upon entering material 3.]\n\nWhich list gives the three materials in order of the speeds of light in the materials, from slowest to fastest?\n\nA  1 → 2 → 3\nB  1 → 3 → 2\nC  2 → 1 → 3\nD  2 → 3 → 1",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:54:48+00:00"
+ },
+ "q848": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is placed 30 cm in front of a plane mirror.\n\nWhich statement describes the image of the object?\n\nA The image is the same size and 30 cm from the object.\nB The image is the same size and 60 cm from the object.\nC The image is smaller and 30 cm from the object.\nD The image is smaller and 60 cm from the object.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q849": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A ray of light is shone onto the surface of a mirror.\n\n[Diagram showing a light ray incident on a plane mirror and reflecting off it, with a normal line. Angle 1 is between the incident ray and the mirror surface, angle 2 is between the incident ray and the normal, angle 3 is between the normal and the reflected ray, and angle 4 is between the reflected ray and the mirror surface.]\n\nWhich two angles represent the angle of incidence and the angle of reflection?\n\nA 1 and 2\nB 1 and 4\nC 2 and 3\nD 3 and 4",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q850": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of light travels from air into a material, as shown.\n\n[Diagram showing a light ray travelling from air into a material across a horizontal boundary with a vertical normal. In air, the angle between the incident ray and the boundary surface is 40°. In the material, the angle between the refracted ray and the normal is 27°.]\n\nWhat is the refractive index of the material?\n\nA 1.4\nB 1.5\nC 1.7\nD 1.9",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q851": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an object in front of a plane mirror.\n\nAt which labelled position is the image of the object formed?\n\n[Diagram showing a horizontal plane mirror. Below the mirror, an object is on the left and an eye is on the right. Points A and D are on the mirror surface. Points B and C are behind the mirror, with B directly opposite the object at an equal distance.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q852": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.1",
+   "3.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The angle between an incident ray and the surface of a plane mirror reflecting the ray is 70°.\n\nWhat is the angle of incidence?\n\nA 20°\nB 40°\nC 70°\nD 140°",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q853": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object is reflected in a plane mirror.\n\nWhich description of the image is correct?\n\nA diminished and real\nB enlarged and virtual\nC same size and real\nD same size and virtual",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q854": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A person uses a magnifying glass to look at a stamp.\n\nWhich ray diagram shows a thin converging lens being used to do this?\n\n[Four ray diagrams labelled A, B, C, D each showing an object (stamp) to the left of a thin converging lens:\n- Diagram A: A ray parallel to the principal axis refracts through the focal point; a ray through the optical centre continues undeviated. The two rays diverge after passing through the lens.\n- Diagram B: A ray parallel to the axis and a ray through the centre both bend so that the rays converge after the lens.\n- Diagram C: The refracted rays emerge parallel to each other.\n- Diagram D: The ray parallel to the axis bends upwards away from the axis, acting as a diverging lens.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q855": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an object in front of a plane mirror.\n\nAt which labelled position is the image of the object formed?\n\n[Diagram showing a horizontal plane mirror with an object and an eye positioned in front of it. Position A is on the mirror surface directly opposite the object; position D is on the mirror surface to the right. Position B is behind the mirror, perpendicular to the mirror surface and at the same distance as the object; position C is behind the mirror above the eye.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:55:46+00:00"
+ },
+ "q856": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the action of a thin converging lens on two rays of light. The rays are from the top of an object O. An inverted image I is formed.\n\n[Diagram showing an object O on the principal axis of a converging lens with center R. One ray travels parallel to the principal axis, refracts through the lens, and passes through point S on the principal axis. Another ray passes straight through the optical center R. Both rays intersect to form an inverted image I.]\n\nWhich name is given to the distance RS?\n\nA principal axis\nB principal focus\nC focal length\nD real length",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q857": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed of light in a vacuum is 3.0 × 10^8 m/s.\n\nWhich value is closest to the speed of light in air?\n\nA 3.0 × 10^2 m/s\nB 3.0 × 10^4 m/s\nC 3.0 × 10^6 m/s\nD 3.0 × 10^8 m/s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q858": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What causes the change in direction when light travels from air into glass?\n\nA The amplitude of the light changes.\nB The colour of the light changes.\nC The frequency of the light changes.\nD The speed of the light changes.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q859": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Light from a torch is incident on a plane mirror. The angle of incidence is 38°.\n\nWhat is the angle of reflection?\n\nA 38°\nB 52°\nC 76°\nD 142°",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q860": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two rays with an angle of incidence of 60° pass into dilute and concentrated sugar-water solutions. The refractions are shown.\n\n[Diagram: In dilute sugar solution, a ray incident at 60° to the normal refracts at an angle of 40° to the normal. In concentrated sugar solution, a ray incident at 60° to the normal refracts at an angle of 35° to the normal.]\n\nWhich row is correct?\n\n| | refractive index as concentration increases | speed through solution as concentration increases |\n|---|---|---|\n| A | decreases | decreases |\n| B | decreases | increases |\n| C | increases | decreases |\n| D | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q861": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.3",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A thin converging lens is used to produce a sharp image of a candle.\n\n[Diagram showing a lighted candle (object), a converging lens, and an upright screen showing an inverted image of the candle.]\n\nVarious sharp images are produced on the screen by moving the lens and the screen backwards and forwards.\n\nWhich statement is always correct?\n\nA The image is at the principal focus (focal point) of the lens.\nB The image is bigger than the object.\nC The image is closer to the lens than the object.\nD The image is inverted.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q862": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Light travelling at a speed of 3.0 × 10^8 m/s strikes the surface of a glass block and undergoes refraction as it enters the block.\n\nThe diagram shows a ray of this light before and after it enters the block.\n\n[Diagram showing a ray incident on a glass block at an angle of incidence of 55° to the normal, refracting into the glass at an angle of refraction of 33° to the normal.]\n\nWhat is the speed of light in the glass?\n\nA 1.8 × 10^8 m/s\nB 2.0 × 10^8 m/s\nC 4.5 × 10^8 m/s\nD 5.0 × 10^8 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q863": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.4",
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a narrow beam of light incident on a glass-air boundary. Some of the light emerges along the surface of the glass and some is reflected back into the glass.\n\n[Diagram showing a light ray inside glass incident on the boundary with air at an angle θ to the normal. A refracted ray travels along the glass-air boundary, and a reflected ray is reflected back into the glass.]\n\nWhich row is correct?\n\n| | this is an example of total internal reflection | angle θ is the critical angle |\n|---|---|---|\n| A | no | yes |\n| B | no | no |\n| C | yes | no |\n| D | yes | yes |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T07:57:46+00:00"
+ },
+ "q864": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is placed in front of a thin converging lens.\n\nThe diagram shows the paths of two rays from the top of the object.\n\n[Diagram shows a vertical object arrow on the principal axis to the left of a converging lens. A ray parallel to the principal axis refracts through the principal focus on the right. A second ray passes straight through the optical center of the lens.]\n\nAn image of the object is formed on a screen to the right of the lens.\n\nHow does this image compare with the object?\n\nA It is larger and inverted.\nB It is larger and the same way up.\nC It is smaller and inverted.\nD It is smaller and the same way up.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q866": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the image of an object formed in a plane mirror is correct?\n\nA It is smaller than the object.\nB It is the same size as the object.\nC It is larger than the object.\nD It is inverted.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q869": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A beam of light is monochromatic.\n\nWhat does monochromatic mean?\n\nA All the waves in the beam must have the same frequency only.\nB All the waves in the beam must have the same amplitude only.\nC All the waves in the beam must have the same speed only.\nD All the waves in the beam must have the same amplitude, frequency and speed.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q871": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two beams of light are both the same colour of red. One beam is travelling through air. The other beam is travelling through water. Each beam has a different brightness.\n\nWhich quantity is the same for both sets of waves?\n\nA amplitude\nB frequency\nC speed\nD wavelength",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q872": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a ray of light in air incident on a glass block. Some of the light is refracted and some of the light is reflected. Two angles, p and q, are marked on the diagram.\n\n[Diagram shows a boundary between air and glass, with a normal line. An incident ray in air approaches the boundary. Angle p is between the incident ray and the glass surface. Angle q is between the incident ray and the normal. There is a reflected ray in air and a refracted ray in glass.]\n\nWhich row gives the angle of incidence and states whether total internal reflection occurs?\n\n| | angle of incidence | total internal reflection |\n|---|---|---|\n| A | p | no |\n| B | p | yes |\n| C | q | no |\n| D | q | yes |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q873": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.4",
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a ray of light in glass incident on the surface between the glass and air.\n\n[Diagram shows a ray of light travelling through glass towards the flat interface with air above it.]\n\nWhat happens if the angle of incidence is made larger than the critical angle for the glass?\n\nA The angle of refraction becomes equal to 90°.\nB There is a refracted ray and a ray reflected inside the glass.\nC There is a refracted ray only.\nD There is only a ray reflected inside the glass.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q874": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows how a ray of light refracts when going from air to Perspex.\n\n[Diagram shows an incident ray in air and a refracted ray in Perspex. The normal is vertical. Angle x is between the incident ray and the normal. Angle w is between the incident ray and the interface. Angle z is between the refracted ray and the normal. Angle y is between the refracted ray and the interface.]\n\nThe critical angle of Perspex is c.\n\nWhich expression is correct?\n\nA (sin x) / (sin z) = sin c\nB (sin z) / (sin x) = sin c\nC (sin w) / (sin y) = sin c\nD (sin y) / (sin w) = sin c",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q876": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The letter F is reflected in a mirror.\n\n[Diagram shows a letter 'F' facing a vertical mirror placed to its right.]\n\nWhat does the optical image look like?\n\nA [Letter F upright, facing right]\nB [Letter F laterally inverted, vertical back on the right, arms pointing left]\nC [Letter F rotated 90 degrees counterclockwise]\nD [Letter F inverted vertically, arms pointing right]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:01:11+00:00"
+ },
+ "q877": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of light travels from air into a glass block.\n\n[Table showing:\nProperty | in air | in glass\nspeed of ray | v_a | v_g\nwavelength of ray | λ_a | λ_g\nfrequency of ray | f_a | f_g]\n\nThree suggestions as to how the refractive index of glass n may be calculated are listed.\n\n1  n = v_a / v_g\n2  n = λ_a / λ_g\n3  n = f_a / f_g\n\nWhich suggestions are correct?\nA  1, 2 and 3\nB  1 and 2 only\nC  1 and 3 only\nD  2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q879": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A photographer sees his image as shown.\n\n[Diagram showing a photographer standing on the left facing an unknown object X in the center, and an upright, laterally inverted image of the photographer of the same size on the right]\n\nWhat could X be?\nA  mirror\nB  translucent glass block\nC  transparent glass prism\nD  transparent semicircular glass block",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q880": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows how the light from a candle is reflected by a mirror, and shows the position of the image formed?\n\n[Four diagrams showing a candle in front of a plane mirror, a ray reflected to an eye, and the position of the image behind the mirror:\nA shows the image directly opposite the candle at the same perpendicular distance, with angle of incidence equal to angle of reflection.\nB shows the image opposite the candle, but the reflected ray travels horizontally to the eye.\nC shows the image behind the mirror at the eye's height, with correct angles of reflection.\nD shows the image behind the mirror at the eye's height, with a horizontal reflected ray.]\nA  Diagram A\nB  Diagram B\nC  Diagram C\nD  Diagram D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q881": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.7",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A converging lens can be used as a magnifying glass.\n\nWhat will be the nature of the image?\nA  real, inverted, diminished\nB  real, upright, enlarged\nC  virtual, inverted, enlarged\nD  virtual, upright, enlarged",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q882": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.1",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement is correct?\nA  The speed of light in glass is equal to the speed of light in a vacuum multiplied by the refractive index of glass.\nB  The incident angle of a light ray at an air-glass surface is the angle between the ray and the glass surface.\nC  The sine of the critical angle at an air-glass surface is equal to 1 / (refractive index of glass).\nD  The angle of refraction for light passing through an air-glass surface is proportional to the angle of incidence at that surface.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q884": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An object O is placed in front of a plane mirror as shown.\n\n[Diagram showing a horizontal plane mirror. Object O is above the mirror. Point 1 is behind the mirror directly perpendicular to O at the same distance. Point 2 is behind the mirror, displaced to the right.]\n\nWhich row is correct?\n\nposition of the image | nature of the image\nA  1 | real\nB  1 | virtual\nC  2 | real\nD  2 | virtual",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q887": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.1",
+   "3.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement about converging lenses is correct?\nA  A real image of an object projected onto a screen by a converging lens is always inverted.\nB  The image formed by a converging lens is always upright.\nC  The image formed by a converging lens when used as a magnifying glass is a real image.\nD  Parallel rays entering a converging lens are focused at a distance greater than the focal length from the lens.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q888": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows white light passing through a prism.\n\n[Diagram showing a beam of white light entering a triangular prism and dispersing into a spectrum with red light refracted least and violet light refracted most.]\n\nWhich description of what happens as the light passes into the prism is correct?\nA  The speed of the red light is less than the speed of the violet light and the red light is least refracted.\nB  The speed of the red light is greater than the speed of the violet light and the red light is least refracted.\nC  The speed of the violet light is less than the speed of the red light and the violet light is least refracted.\nD  The speed of the violet light is greater than the speed of the red light and the violet light is least refracted.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:03:13+00:00"
+ },
+ "q889": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": false,
+  "suggested_section": "3.4",
+  "difficulty": 1,
+  "text": "Which row gives possible values for the speed of sound?\n\nspeed in gas (m/s) | speed in liquid (m/s) | speed in solid (m/s)\nA 972 | 1450 | 3560\nB 972 | 3560 | 1450\nC 1450 | 3560 | 972\nD 3560 | 972 | 1450",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q890": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A driver sits in a car. She has a rear-view plane mirror 0.5 m in front of her. A bus is 7.5 m behind the driver.\n\n[Diagram showing a car with a driver and a rear-view mirror 0.5 m ahead of the driver, and a bus 7.5 m behind the driver]\n\nThe driver looks at the image of the bus in her mirror.\n\nHow far is the image away from her?\n\nA 1.0 m\nB 7.5 m\nC 8.0 m\nD 8.5 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q891": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A narrow beam of light is travelling through a transparent liquid. It meets the surface as shown, at an angle of incidence of 40°. The refractive index of the liquid is 1.5.\n\n[Diagram showing a beam of light travelling upwards through a liquid towards the air surface at an angle of incidence of 40° to the normal]\n\nWhat is the angle of refraction as the light enters the air?\n\nA 25°\nB 27°\nC 60°\nD 75°",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q892": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram correctly represents rays of light passing through a converging lens in a camera?\n\n[Four diagrams showing an object, a converging lens in a camera, and the resulting image on the film/sensor:\nA: rays from the top and bottom of the object pass through the lens and form an inverted, diminished image.\nB: parallel rays from the top and bottom of the object pass through the lens and form an upright image.\nC: rays cross before reaching the lens and form an inverted, enlarged image.\nD: rays from the top and bottom of the object pass through the lens and form an upright, diminished image.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q894": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.5",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A small object O is placed near a converging lens, as shown. The lens forms an image I.\n\n[Ray diagram showing object O on the principal axis close to a converging lens. Two rays from O diverge after passing through the lens, with their backward extrapolations meeting at point I behind O on the same side of the lens.]\n\nWhich statement is correct?\n\nA The image I is diminished.\nB The image I is inverted.\nC The image I is real.\nD The object O is closer to the lens than its principal focus.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q895": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which conditions are necessary for light to be totally internally reflected?\n\nthe incident light is in | angle of incidence\nA the less dense medium | less than the critical angle\nB the less dense medium | greater than the critical angle\nC the more dense medium | less than the critical angle\nD the more dense medium | greater than the critical angle",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q896": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Light is travelling through air. The light strikes a glass block at an angle of incidence of 45°. The glass has a refractive index of 1.4.\n\nWhat is the angle of refraction of the light as it enters the glass?\n\nA 29°\nB 30°\nC 32°\nD 82°",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q898": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam of light passes through a vacuum and then enters a liquid. The diagram shows the path it takes.\n\n[Diagram showing a ray of light travelling through a vacuum at an angle of incidence of 40° to the normal, refracting into a liquid at an angle of refraction of 25° to the normal]\n\nThe light travels through the vacuum at a speed of 3.0 × 10^8 m/s.\n\nWhat is the speed of light in the liquid?\n\nA 1.9 × 10^8 m/s\nB 2.0 × 10^8 m/s\nC 4.6 × 10^8 m/s\nD 4.8 × 10^8 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:04:40+00:00"
+ },
+ "q899": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the image of a clock in a plane mirror. [Diagram showing a clock face with hands indicating approximately 04:45 in the mirror image]\n\nWhich is the actual time?\nA 04:15\nB 04:45\nC 07:15\nD 07:45",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q900": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.5",
+   "3.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A converging lens produces an image of an object O. The focal length of the lens is f.\n\nWhich position of the object produces a virtual image?\n[Four diagrams A, B, C, D showing a converging lens with focal length f and 2f marked, with an object arrow O placed at different distances from the lens: A shows object between lens and f; B shows object between f and 2f; C shows object at 2f; D shows object beyond 2f]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q901": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A ray of light is incident on a plane mirror. A student measures the angle of incidence i and the angle of reflection r.\n[Diagram showing a ray incident on a plane mirror and reflecting off it, with angle of incidence i and angle of reflection r measured from the normal]\n\nThe student varies the angle of incidence and then plots a graph of r against i.\n\nWhat does the graph look like?\n[Four graphs of r against i: A curves upwards to a plateau; B is a straight line with negative gradient; C is a straight line through the origin with gradient 1; D curves downwards to the i-axis]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q902": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is monochromatic light?\nA light of a single amplitude\nB light of a single frequency\nC light of more than one colour\nD light which travels with constant velocity",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q903": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A person stands 1.0 m in front of a plane mirror. The mirror is moved away from the person at a speed of 1.0 m/s.\n\nWhich statement is correct?\nA The image moves away from the person at a speed of 1.0 m/s.\nB The image moves away from the person at a speed of 2.0 m/s.\nC The image moves towards the person at a speed of 1.0 m/s.\nD The image moves towards the person at a speed of 2.0 m/s.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q904": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.2.6",
+   "3.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "White light is refracted and dispersed when it enters a glass prism from air.\n\nWhich colour has the lowest speed as it moves through the glass prism?\nA blue light\nB orange light\nC red light\nD violet light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q905": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An object is placed before a plane mirror as shown.\n\nA student views the image of the object in the mirror from point P.\n\nWhere does she see the image?\n[Diagram showing a vertical plane mirror, an object point to the left of the mirror, an observer at point P below the object, and four points: B on the mirror surface; C behind the mirror along the normal from the object; D further behind the mirror at the same distance as the object; A above C]\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
+ },
+ "q906": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Light has a speed of 1.24 × 10^8 m/s in diamond.\n\nWhat is the refractive index of diamond?\nA 0.41\nB 1.54\nC 2.42\nD 3.72",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T08:05:36+00:00"
  }
 }
