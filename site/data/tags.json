@@ -12464,5 +12464,513 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-20T18:34:20+00:00"
+ },
+ "q973": {
+  "status": "done",
+  "subpoints": [
+   "3.4.5",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An observer stands at the finish line of a 100 m race. He wants to time the winner’s run. He starts his stop-watch as soon as he sees the smoke from the starting gun instead of when he hears the bang.\n\nWhat is the reason for doing this?\n\nA Light travels much faster than sound.\nB There is a risk he might respond to an echo from a wall.\nC Humans react slower to sound than to light.\nD Humans react more quickly to sound than to light.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q974": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sound wave travels from air into water.\n\nWhich row describes what happens to the frequency and the wavelength of the wave?\n\n| | frequency | wavelength |\n|---|---|---|\n| A | decreases | increases |\n| B | decreases | stays the same |\n| C | stays the same | decreases |\n| D | stays the same | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q975": {
+  "status": "done",
+  "subpoints": [
+   "3.4.2",
+   "3.4.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the air molecules in part of a sound wave at a particular moment in time.\n\n[A diagram showing vertical bands of dots representing air molecules in a sound wave, with alternating regions of high density (compressions) and low density (rarefactions). Point X is marked in a rarefaction region.]\n\nWhich statement is not correct?\n\nA Earlier, there was compression at X.\nB Later, there will be a rarefaction at X.\nC This part of the wave is travelling horizontally across the page.\nD This part of the wave is travelling towards the top of the page.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q976": {
+  "status": "done",
+  "subpoints": [
+   "3.4.5",
+   "3.4.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 100 m race is started by firing a gun. The gun makes a bang and a puff of smoke at the same time.\n\n[Diagram showing runners at the starting line with a starter firing a gun, and a finishing judge standing at the finish line 100 m away.]\n\nWhen does the finishing judge see the smoke and when does he hear the bang?\n\n| | sees the smoke | hears the bang |\n|---|---|---|\n| A | almost immediately | almost immediately |\n| B | almost immediately | after about 0.3 s |\n| C | after about 0.3 s | almost immediately |\n| D | after about 0.3 s | after about 0.3 s |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q977": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram represents a sound wave.\n\n[Diagram showing a series of vertical lines representing a sound wave. At region X, the lines are closely spaced together. At region Y, the lines are spaced widely apart.]\n\nWhat are the names of the parts of the sound wave labelled X and Y?\n\n| | X | Y |\n|---|---|---|\n| A | amplitude | wavelength |\n| B | compression | rarefaction |\n| C | rarefaction | amplitude |\n| D | wavelength | compression |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q978": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed of sound is different in different states of matter.\n\nThe speed of sound in liquid water is 1500 m/s.\n\nWhich row correctly compares the speed of sound in ice and the speed of sound in water vapour with the speed of sound in water?\n\n| | speed of sound in ice / (m/s) | speed of sound in steam / (m/s) |\n|---|---|---|\n| A | less than 1500 | less than 1500 |\n| B | less than 1500 | more than 1500 |\n| C | more than 1500 | less than 1500 |\n| D | more than 1500 | more than 1500 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q979": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sound wave is travelling outwards from a loudspeaker into the surrounding air.\n\nHere are three statements.\n\n1 The air pressure is lower at a rarefaction compared with undisturbed air.\n2 The density of the air is less at a compression compared with undisturbed air.\n3 The distance from a compression to a rarefaction equals half a wavelength.\n\nWhich statements about the sound wave are correct?\n\nA 1 and 2 only\nB 1 and 3 only\nC 2 and 3 only\nD 1, 2 and 3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q980": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The sound from a loudspeaker must pass through two materials to reach a microphone.\n\n[Diagram showing a loudspeaker on the left, transmitting sound through a block labelled 'material 1' and an adjacent block labelled 'material 2' to a microphone on the right.]\n\nWhich combination of materials gives the shortest time for the sound to reach the microphone?\n\n| | material 1 | material 2 |\n|---|---|---|\n| A | air | hydrogen |\n| B | air | water |\n| C | copper | aluminium |\n| D | water | oil |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:25:36+00:00"
+ },
+ "q981": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a model of a sound wave passing through air in an open tube.\n[A diagram of a tube containing dots representing air particles, with alternating bunched (high density) and spaced out (low density) regions. Region Q points to a spaced-out region.]\n\nWhat is the region Q?\n\nA a compression which is a region of high pressure\nB a compression which is a region of low pressure\nC a rarefaction which is a region of high pressure\nD a rarefaction which is a region of low pressure",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q982": {
+  "status": "done",
+  "subpoints": [
+   "3.4.9",
+   "3.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is ultrasound?\n\nA sound waves that are so loud that they damage human hearing\nB sound waves that are too high-pitched for humans to hear\nC sound waves that are too low-pitched for humans to hear\nD sound waves that are too quiet for humans to hear",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q983": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row gives the typical values of the speed of sound at room temperature in the materials stated?\n\n[Table of speed of sound / (m/s) in air, water, iron:\nA: air 340, water 1500, iron 5100\nB: air 340, water 5100, iron 1500\nC: air 5100, water 1500, iron 340\nD: air 3.0 × 10^8, water 3.0 × 10^8, iron 3.0 × 10^8]\n\nA air: 340 m/s, water: 1500 m/s, iron: 5100 m/s\nB air: 340 m/s, water: 5100 m/s, iron: 1500 m/s\nC air: 5100 m/s, water: 1500 m/s, iron: 340 m/s\nD air: 3.0 × 10^8 m/s, water: 3.0 × 10^8 m/s, iron: 3.0 × 10^8 m/s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q984": {
+  "status": "done",
+  "subpoints": [
+   "3.4.9",
+   "3.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is ultrasound?\n\nA sound waves that are so loud that they damage human hearing\nB sound waves that are too high-pitched for humans to hear\nC sound waves that are too low-pitched for humans to hear\nD sound waves that are too quiet for humans to hear",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00",
+  "repeat_of": "q982"
+ },
+ "q985": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows compressions and rarefactions in air as a sound wave moves from left to right.\n[A diagram showing air particles forming regions of high density labeled 'compression' and low density labeled 'rarefaction'.]\n\nA quieter sound of the same frequency is made.\n\nWhat will happen to the number of particles in a region of rarefaction and in a region of compression?\n\n[Table with columns: number of particles in region of rarefaction, number of particles in region of compression]\nA decrease, decrease\nB decrease, increase\nC increase, decrease\nD increase, increase",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q986": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Sound travels through air as a series of compressions and rarefactions.\n\nWhich statement correctly compares a compression with a rarefaction?\n\nA In a compression the wavelength is longer than in a rarefaction.\nB In a compression the wavelength is shorter than in a rarefaction.\nC In a compression the density of the air is greater than in a rarefaction.\nD In a compression the density of the air is lower than in a rarefaction.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q987": {
+  "status": "done",
+  "subpoints": [
+   "3.4.8",
+   "3.4.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A dolphin sends out a sound wave. An echo returns 0.010 s later from a fish which is 7.5 m from the dolphin.\n\nWhat is the speed of the sound wave in water?\n\nA 0.075 m/s\nB 0.15 m/s\nC 750 m/s\nD 1500 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q988": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.10",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two people are standing outdoors on either side of a high wall.\n[A diagram shows person 1 on the left and person 2 on the right, separated by a high wall.]\n\nPerson 1 can hear person 2 talking although he cannot see her.\n\nWhich statement explains this?\n\nA The sound waves have diffracted around the wall.\nB The sound waves have passed unaffected through the wall.\nC The sound waves have reflected around the wall.\nD The sound waves have refracted around the wall.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:26:28+00:00"
+ },
+ "q989": {
+  "status": "done",
+  "subpoints": [
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A police car with its siren sounding is stationary in heavy traffic. A pedestrian notices that, although the loudness of the sound produced does not change, the pitch varies.\n\nWhich row describes the amplitude and the frequency of the sound?\n\n| | amplitude | frequency |\n|---|---|---|\n| A | constant | constant |\n| B | constant | varying |\n| C | varying | constant |\n| D | varying | varying |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q990": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A sound wave travels through air.\n\nWhat name is given to a region in which the air molecules are further apart than normal?\n\nA compression\nB contraction\nC rarefaction\nD vacuum",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q991": {
+  "status": "done",
+  "subpoints": [
+   "3.4.3",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A sound wave passes a point. The air pressure at that point increases and then decreases 300 times every second.\n\nWhich descriptions apply to this sound wave?\n\n| | the type of wave motion | the frequency of the sound |\n|---|---|---|\n| A | longitudinal | outside human hearing range |\n| B | longitudinal | within human hearing range |\n| C | transverse | outside human hearing range |\n| D | transverse | within human hearing range |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q992": {
+  "status": "done",
+  "subpoints": [
+   "3.4.6",
+   "3.4.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy stands 150 m from a wall. He claps and when he hears the echo, he immediately claps again. He continues this for some time.\n\nAnother student has a stop-watch. She starts the watch on the first clap and stops it on the eleventh clap. The watch reads 10.0 s.\n\nWhich value do her measurements give for the speed of sound in air?\n\nA 150 m/s\nB 170 m/s\nC 300 m/s\nD 330 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q993": {
+  "status": "done",
+  "subpoints": [
+   "3.4.12",
+   "3.4.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A pulse of sound is produced at the bottom of a boat. The sound travels through the water and is reflected from a shoal of fish. The sound reaches the boat again after 1.2 s. The speed of sound in the water is 1500 m/s.\n\n[Diagram showing a boat on the water surface sending sound waves downward towards a shoal of fish below.]\n\nHow far below the bottom of the boat is the shoal of fish?\n\nA 450 m\nB 900 m\nC 1800 m\nD 3600 m",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q996": {
+  "status": "done",
+  "subpoints": [
+   "3.4.9",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about ultrasound is correct?\n\nA It has a higher frequency than audible sound, and it is a longitudinal wave.\nB It has a higher frequency than audible sound, and it is a transverse wave.\nC It has a lower frequency than audible sound, and it is a longitudinal wave.\nD It has a lower frequency than audible sound, and it is a transverse wave.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q997": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row gives a possible set of values for the speed of sound in ice, in water and in steam?\n\n| | speed of sound in ice / (m/s) | speed of sound in water / (m/s) | speed of sound in steam / (m/s) |\n|---|---|---|---|\n| A | 500 | 1500 | 4000 |\n| B | 1500 | 4000 | 500 |\n| C | 4000 | 500 | 1500 |\n| D | 4000 | 1500 | 500 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q998": {
+  "status": "done",
+  "subpoints": [
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Both the amplitude and the frequency of a sound wave decrease.\n\nWhat happens to the sound heard?\n\nA The sound is louder and has a higher pitch.\nB The sound is louder and has a lower pitch.\nC The sound is quieter and has a higher pitch.\nD The sound is quieter and has a lower pitch.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:02+00:00"
+ },
+ "q999": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A sound wave is travelling through water.\n\nWhat is a possible speed for the wave?\n\nA 150 m/s\nB 300 m/s\nC 1500 m/s\nD 5000 m/s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1000": {
+  "status": "done",
+  "subpoints": [
+   "3.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A dolphin has a range of audible frequencies of 150 Hz–150 kHz.\n\nWhich range of frequencies can be heard both by humans with good hearing and by dolphins?\n\nA 20 Hz–150 Hz\nB 20 Hz–150 kHz\nC 20 kHz–150 kHz\nD 150 Hz–20 kHz",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1001": {
+  "status": "done",
+  "subpoints": [
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A siren is emitting a sound. As time passes, the sound becomes louder and higher pitched.\n\nWhat is happening to the amplitude and to the frequency of the emitted sound wave?\n\n        amplitude | frequency\nA decreasing | decreasing\nB decreasing | increasing\nC increasing | decreasing\nD increasing | increasing",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1002": {
+  "status": "done",
+  "subpoints": [
+   "3.4.3",
+   "3.4.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the ranges of human hearing and of ultrasound waves.\n\n[A logarithmic scale showing 0, 10^1, 10^2, 10^3, 10^4, 10^5, 10^6. The range from 2 × 10^1 to 2 × 10^4 is marked as 'range of human hearing', and the region above 2 × 10^4 is marked as 'ultrasound'.]\n\nTo which characteristic of sound waves do the numbers on the diagram refer?\n\nA amplitude in cm\nB frequency in Hz\nC speed in metres / second\nD wavelength in metres",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1003": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sheet of ice floats on water. A source of sound S is positioned at the edge of the ice sheet.\n\nFour microphones are placed equal distances from S.\n\nWhich microphone detects the sound from S first?\n\n[Diagram showing a source of sound S at the edge of an ice sheet floating on water. Microphone A is in air directly above S. Microphone B is at the far edge of the ice sheet. Microphone C is in the water directly below S. Microphone D is to the left on the water surface.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1004": {
+  "status": "done",
+  "subpoints": [
+   "3.4.4",
+   "3.4.2",
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about sound waves is correct?\n\nA They are able to travel through a vacuum.\nB They are able to travel through solids.\nC They are transverse waves.\nD They travel at the same speed in all substances.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1005": {
+  "status": "done",
+  "subpoints": [
+   "3.4.1",
+   "3.4.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about ultrasound is correct?\n\nA It is produced by a rapidly vibrating source.\nB It is uncomfortable to human ears.\nC Its frequency must be greater than 300 kHz.\nD It travels the fastest in a vacuum.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1007": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which wavefront is travelling at a speed closest to that of a sound wave through a solid?\n\nA one that moves 10 m in 0.01 s\nB one that moves 50 m in 0.5 s\nC one that moves 1000 m in 100 s\nD one that moves 2000 m in 2000 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:27:42+00:00"
+ },
+ "q1008": {
+  "status": "done",
+  "subpoints": [
+   "3.4.6",
+   "3.4.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student stands 180 m in front of a vertical, flat cliff and bangs together two pieces of wood to make a short, loud sound.\n\nA timer records the echo of the sound 1.5 seconds after the pieces of wood are banged together.\n\nBased on this result, what is the speed of sound?\n\nA 120 m/s\nB 240 m/s\nC 270 m/s\nD 540 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:28:41+00:00"
+ },
+ "q1009": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The speed of sound is different in different states of matter.\n\nThe speed of sound in water is 1500 m/s.\n\nWhich row correctly compares the speed of sound in ice and the speed of sound in steam with the speed of sound in water?\n\n| | speed of sound in ice / m/s | speed of sound in steam / m/s |\n|---|---|---|\n| A | less than 1500 | less than 1500 |\n| B | less than 1500 | more than 1500 |\n| C | more than 1500 | less than 1500 |\n| D | more than 1500 | more than 1500 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:28:41+00:00"
+ },
+ "q1010": {
+  "status": "done",
+  "subpoints": [
+   "3.4.6",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student finds that it takes sound 0.33 seconds to travel 100 metres.\n\nFrom this information, what is the speed of sound?\n\nA 30 m/s\nB 60 m/s\nC 300 m/s\nD 600 m/s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:28:41+00:00"
+ },
+ "q1011": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A sound wave travels from a medium in one state into the same medium but in another state. This causes the speed of the wave to change from approximately 300 m/s to approximately 3000 m/s.\n\nBetween which two states is the sound wave travelling?\n\nA gas to solid\nB liquid to gas\nC liquid to solid\nD solid to liquid",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:28:41+00:00"
+ },
+ "q1012": {
+  "status": "done",
+  "subpoints": [
+   "3.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the Earth and its surroundings.\n\n[Diagram showing the Earth surrounded by an atmosphere indicated with a dashed circle. Region A points to sea (water), B to land (rock), C to atmosphere (air), and D to outer space (vacuum).]\n\nThrough which labelled region can sound not be transmitted?\n\nA sea (water)\nB land (rock)\nC atmosphere (air)\nD outer space (vacuum)",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-20T22:28:41+00:00"
  }
 }
