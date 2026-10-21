@@ -13195,5 +13195,452 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1029": {
+  "status": "done",
+  "subpoints": [
+   "4.1.2",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A bar magnet picks up two steel bolts.\n\nWhich diagram shows the magnetic poles induced in the bolts?\n\n[Four diagrams A, B, C and D showing a bar magnet with N and S poles. Two steel bolts hang in line beneath the S pole.]\nA [top bolt: S at top, N at bottom; bottom bolt: N at top, S at bottom]\nB [top bolt: S at top, N at bottom; bottom bolt: S at top, N at bottom]\nC [top bolt: N at top, S at bottom; bottom bolt: S at top, N at bottom]\nD [top bolt: N at top, S at bottom; bottom bolt: N at top, S at bottom]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1030": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams show three different metal rods P, Q and R, inside coils of wire.\n\nSmall iron nails are placed on a wooden bench under the rods.\n\nDiagram 1 shows the situation when there are electric currents in the wires.\n\nDiagram 2 shows the situation when the currents are switched off.\n\n[Diagram 1: Current in coils. Rod P attracts no nails; rod Q attracts nails; rod R attracts nails.]\n[Diagram 2: No current in coils. Rod P attracts no nails; rod Q drops all nails onto bench; rod R still holds the nails.]\n\nWhich row correctly identifies the metal rods?\n\nA P: copper, Q: soft iron, R: steel\nB P: soft iron, Q: copper, R: steel\nC P: steel, Q: soft iron, R: copper\nD P: copper, Q: steel, R: soft iron",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1031": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Four nails A, B, C and D are tested to find which makes the strongest permanent magnet.\n\nOne of the nails is placed against a bar magnet and the number of paper clips which the nail can support is recorded.\n\n[Diagram showing a nail touching the N pole of a bar magnet, supporting a chain of paper clips]\n\nThe bar magnet is then removed and the number of paper clips remaining attached to the nail is recorded. Each nail is tested individually.\n\nWhich nail becomes the strongest permanent magnet?\n\nnumber of paper clips attached to the nail:\nbar magnet present | bar magnet removed\nA 2 | 0\nB 2 | 1\nC 4 | 3\nD 5 | 2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1032": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student wants to demagnetise a steel bar. He uses the apparatus shown. He switches on the circuit for a few seconds and then switches off. He finds that the steel bar is still magnetised.\n\n[Diagram showing a steel bar inside a coil connected in series with a switch and an a.c. supply]\n\nWhat should he do to improve his method?\n\nA change the supply from an alternating to a direct voltage\nB use a lower alternating voltage\nC remove the steel bar from the coil whilst the circuit is switched on\nD use a coil that has fewer turns on it",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1033": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show a magnetised steel rod inside a solenoid connected to a potentiometer.\n\nIn diagram 1, the potentiometer is connected to a d.c. power supply.\n\nIn diagram 2, the potentiometer is connected to an a.c. power supply.\n\n[Diagram 1 shows a magnetised steel rod inside a solenoid connected across the left end P and the slider of a potentiometer powered by a d.c. source.]\n[Diagram 2 shows a magnetised steel rod inside a solenoid connected across the left end R and the slider of a potentiometer powered by an a.c. source.]\n\nWhich action would demagnetise the piece of steel?\n\nA In diagram 1, move the potentiometer slide from P to Q.\nB In diagram 1, move the potentiometer slide from Q to P.\nC In diagram 2, move the potentiometer slide from R to S.\nD In diagram 2, move the potentiometer slide from S to R.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1034": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A piece of steel is slightly magnetised. It is hit several times with a hammer.\n\nWhat effect will this have on the steel?\n\nthe steel is parallel to a strong magnetic field | the steel is at right-angles to a weak magnetic field\nA it becomes magnetised more strongly | it becomes magnetised more strongly\nB it becomes magnetised more strongly | it loses its magnetism\nC it loses its magnetism | it becomes magnetised more strongly\nD it loses its magnetism | it loses its magnetism",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1035": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two soft-iron pins are suspended from the S pole of a bar magnet.\n\nWhich diagram shows how the pins are deflected?\n\n[Diagrams A, B, C, and D show two pins suspended vertically side by side from the bottom S pole of a bar magnet.]\nA [the pins converge towards each other at the bottom]\nB [the pins hang straight down parallel to each other]\nC [the pins repel and diverge away from each other at the bottom]\nD [one pin hangs straight down and the other is deflected to the side]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00"
+ },
+ "q1036": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A piece of steel is slightly magnetised. It is hit several times with a hammer.\n\nWhat effect will this have on the steel?\n\nthe steel is parallel to a strong magnetic field | the steel is at right-angles to a weak magnetic field\nA it becomes magnetised more strongly | it becomes magnetised more strongly\nB it becomes magnetised more strongly | it loses its magnetism\nC it loses its magnetism | it becomes magnetised more strongly\nD it loses its magnetism | it loses its magnetism",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:52:19+00:00",
+  "repeat_of": "q1034"
+ },
+ "q1037": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student sets up four experiments using bar magnets and other metal objects. The N and S poles of the bar magnets are labelled N and S.\n\n1: [a bar magnet with S on left, N on right placed next to another bar magnet with S on left, N on right]\n2: [a bar magnet with S on left, N on right placed next to an iron bar]\n3: [a bar magnet with S on left, N on right placed next to a copper bar]\n4: [a bar magnet with S on left, N on right placed next to another bar magnet with N on left, S on right]\n\nWhich pairs attract each other?\n\nA 1 and 2\nB 1 and 3\nC 2 and 4\nD 3 and 4",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1038": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.11",
+   "4.5.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram represents the strength and direction of the magnetic field around a current-carrying conductor? (The direction of the current is into the page.)\n\n[Four diagrams, A to D, each showing a wire with current into the page (indicated by a cross) surrounded by three concentric circular magnetic field lines with arrows:\nA: clockwise arrows, equally spaced circles\nB: anticlockwise arrows, equally spaced circles\nC: clockwise arrows, spacing between circles increases with distance\nD: anticlockwise arrows, spacing between circles increases with distance]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1040": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The ends of three metal rods are tested by holding end Q of rod 1 close to the others in turn.\n\n[Diagram showing rod 1 with end Q, rod 2 with ends R and S, and rod 3 with ends T and U]\n\nThe results are as follows.\nEnd Q attracts end R.\nEnd Q attracts end S.\nEnd Q attracts end T.\nEnd Q repels end U.\n\nWhich of the metal rods is a magnet?\n\nA rod 1 only\nB rod 1 and rod 2\nC rod 1 and rod 3\nD rod 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1041": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why is soft iron used for the core of an electromagnet?\n\nA Soft iron easily becomes a permanent magnet.\nB Soft iron is a good electrical conductor.\nC Soft iron is a poor thermal conductor.\nD Soft iron loses its magnetism when the current in the coil is switched off.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1042": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A soft iron bar is a long way from any magnetic field.\n\nHow can the material of the bar be described?\n\nA It is magnetic and strongly magnetised.\nB It is magnetic and unmagnetised.\nC It is non-magnetic and strongly magnetised.\nD It is non-magnetic and unmagnetised.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1043": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.5.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal bar is placed inside a current-carrying coil, as shown in diagram 1.\nThere is a small current in the coil. The bar holds a few nails, as shown in diagram 2.\n\n[diagram 1: a metal bar inside a solenoid carrying current]\n[diagram 2: the same setup with iron nails attracted to the right end of the bar]\n\nWhen there is no current in the coil, the nails drop off.\n\nWhich row is correct?\n\nmetal from which the bar is made | effect of a larger current in the coil\nA soft iron | it makes no difference\nB soft iron | the bar holds more nails\nC steel | it makes no difference\nD steel | the bar holds more nails",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1044": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A steel bar is placed in an East-West direction for it to be demagnetised. No other magnet is nearby.\n\nWhich method is not suitable?\n\nA Hammering the bar.\nB Heating the bar to a very high temperature.\nC Slowly taking the bar out of a coil that carries an alternating current.\nD Slowly taking the bar out of a coil that carries a direct current.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1045": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "There are two inputs and one output for the combination of logic gates shown.\n\n[Diagram showing input 1 connected directly to one input of an AND gate, and input 2 connected via a NOT gate to the second input of the AND gate. The output of the AND gate is labelled 'output'.]\n\nWhich truth table represents the operation of this combination of logic gates?\n\nA\ninput 1 | input 2 | output\n0 | 0 | 0\n0 | 1 | 0\n1 | 0 | 1\n1 | 1 | 1\n\nB\ninput 1 | input 2 | output\n0 | 0 | 0\n0 | 1 | 0\n1 | 0 | 1\n1 | 1 | 0\n\nC\ninput 1 | input 2 | output\n0 | 0 | 1\n0 | 1 | 1\n1 | 0 | 0\n1 | 1 | 0\n\nD\ninput 1 | input 2 | output\n0 | 0 | 1\n0 | 1 | 0\n1 | 0 | 1\n1 | 1 | 1",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:56:53+00:00"
+ },
+ "q1048": {
+  "status": "done",
+  "subpoints": [
+   "4.1.4",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An electromagnet is used to remove a splinter from an eye.\n\nWhat material is the splinter made from?\n\nA aluminium\nB glass\nC iron\nD wood",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1049": {
+  "status": "done",
+  "subpoints": [
+   "4.1.2",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A permanent magnet is placed close to a bar of soft iron.\n\n[Diagram shows a permanent magnet with poles S on the left and N on the right, placed near a soft iron bar with ends labelled P on the left and Q on the right.]\n\nWhat are the polarities of end P and of end Q?\n\nA end P: N, end Q: N\nB end P: N, end Q: S\nC end P: S, end Q: N\nD end P: S, end Q: S",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1050": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which method is used to demagnetise a bar magnet?\n\nA lower it into water\nB heat it with a Bunsen burner\nC place it in a metal box\nD suspend it in a sling",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1051": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which method is used to demagnetise a magnet?\n\nA cool it in a freezer\nB drop it into a beaker of water\nC place it inside a coil carrying a direct current\nD strike it with a hammer",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1052": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.5.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Iron is used for the core of a transformer and steel is used to make a bar magnet.\n\nWhich statement explains these uses of iron and of steel?\n\nA Iron is a magnetic material and steel is a non-magnetic material.\nB Iron is a permanent magnetic material and steel is a temporary magnetic material.\nC Iron is a temporary magnetic material and steel is a permanent magnetic material.\nD Iron is a non-magnetic material and steel is a magnetic material.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1053": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bar magnet is placed inside a current-carrying coil. The diagram shows four different experiments.\n\n1 [A bar magnet inside a coil connected to an a.c. supply, with the magnet slowly removed]\n2 [A bar magnet inside a coil connected to a d.c. supply, with the magnet slowly removed]\n3 [A bar magnet inside a coil connected to an a.c. supply with a potential divider, with the current in the coil slowly reduced]\n4 [A bar magnet inside a coil connected to a d.c. supply with a potential divider, with the current in the coil slowly reduced]\n\nIn which experiments is the magnet demagnetised?\n\nA 1 and 2\nB 1 and 3\nC 2 and 4\nD 3 and 4",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1055": {
+  "status": "done",
+  "subpoints": [
+   "4.1.6",
+   "4.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows the pattern and the direction of the magnetic field lines around a bar magnet?\n\n[Four diagrams A, B, C and D showing magnetic field lines around a bar magnet with north pole N on the left and south pole S on the right.]\n\nA [Field lines curve from N to S, pointing outwards from the N pole and inwards to the S pole]\nB [Field lines curve from S to N, pointing inwards to the N pole and outwards from the S pole]\nC [Field lines curve outwards from N and inwards to S, but with a pinched pattern]\nD [Field lines curve inwards to N and outwards from S, but with a pinched pattern]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1056": {
+  "status": "done",
+  "subpoints": [
+   "4.1.8",
+   "4.1.7",
+   "4.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A small compass is placed close to a strong bar magnet, the same distance from each end.\n\nWhich diagram shows the direction in which the compass needle points?\n\n[Four diagrams A, B, C, D each showing a vertical bar magnet with N at the top and S at the bottom, and a small compass placed to the right of the middle of the magnet.]\n\nA compass needle points vertically upwards\nB compass needle points upwards and to the left\nC compass needle points vertically downwards\nD compass needle points downwards and to the left",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T07:59:48+00:00"
+ },
+ "q1057": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.1",
+   "4.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In a child’s toy, metal fish are lifted out of a toy pond using a metal rod. The fish are magnetically attracted to the end of the rod. There is no magnetic force between the fish themselves.\n\n[Diagram showing a hand holding a metal rod attracting a metal fish from a toy pond containing several metal fish]\n\nWhat are possible materials from which the fish and the rod are made?\n\nA fish: aluminium, rod: soft iron\nB fish: aluminium, rod: steel\nC fish: soft iron, rod: soft iron\nD fish: soft iron, rod: steel",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1058": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the most effective method of demagnetising a bar magnet?\n\nA placing the magnet in a solenoid carrying a large alternating current and gradually decreasing the current\nB placing the magnet in a solenoid carrying a large direct current and gradually decreasing the current\nC placing the magnet in a solenoid that produces a magnetic field in the opposite direction to the magnet\nD placing the magnet next to an identical bar magnet with its poles in the opposite direction",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1059": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A magnet near a coil of wire is attracted to the coil only when there is a current in the coil.\n\nWhich statement explains this force of attraction?\n\nA The coil of wire has its own gravitational field.\nB The coil of wire is made from soft iron.\nC The current in the coil of wire creates a magnetic field.\nD The current in the coil of wire induces a charge on the magnet.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1060": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.3",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student demagnetises a magnetised steel bar.\n\nHe places the bar in a solenoid connected to a power supply. He then removes the bar from the solenoid.\n\nWhich row indicates the most effective way of demagnetising the bar?\n\nA type of power supply: a.c., speed to remove bar: fast\nB type of power supply: a.c., speed to remove bar: slow\nC type of power supply: d.c., speed to remove bar: fast\nD type of power supply: d.c., speed to remove bar: slow",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1062": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is wrong with this labelled diagram of a permanent magnet?\n\n[Diagram showing a cylindrical disc labelled 'iron disc' with 'N' on one face and 'S' on the other face]\n\nA The cross-section should be rectangular.\nB The length should be greater than the diameter.\nC The magnet should be made of steel.\nD The N-pole and the S-pole should be reversed.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1063": {
+  "status": "done",
+  "subpoints": [
+   "4.1.9",
+   "4.1.4",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In which way are a bar magnet and an electromagnet similar?\n\nA A bar magnet and an electromagnet are always magnetised when stored.\nB A bar magnet and an electromagnet can both be used to separate magnetic and non-magnetic materials.\nC A bar magnet can be made of steel and an electromagnet uses a steel core.\nD The magnetic field strength of a bar magnet and of an electromagnet can both be varied.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1064": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A train of steel nails and a train of iron nails hang from a strong magnet.\n\n[Diagram showing a bar magnet with a vertical train of steel nails hanging from one end and a vertical train of iron nails hanging from the other end]\n\nThe trains are then carefully removed from the magnet.\n\nWhat happens to the trains?\n\nA Both trains fall apart.\nB Both trains stay together.\nC Only the train of iron nails falls apart.\nD Only the train of steel nails falls apart.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1065": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.2",
+   "4.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A positively-charged rod is held near to, but not touching, an uncharged metal sphere.\n\nThe sphere is briefly now connected to earth.\n\nThe rod is removed.\n\nWhich statement about the charge on the sphere is correct?\n\nA It is charged negatively because negative charges have moved from earth to the sphere.\nB It is charged negatively because positive charges have moved from the sphere to earth.\nC It is charged positively because negative charges have moved from the sphere to earth.\nD It is charged positively because positive charges have moved to earth from the sphere.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T08:01:59+00:00"
  }
 }
