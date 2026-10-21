@@ -12972,5 +12972,228 @@
   "type": "graph_or_diagram",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-20T22:28:41+00:00"
+ },
+ "q1013": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a bar magnet at rest on a smooth horizontal surface. A length of soft-iron wire is held parallel to the magnet.\n\n[Diagram showing a vertical bar magnet labeled 'magnet' with 'N' at the top and 'S' at the bottom, and a parallel 'soft-iron wire' placed to its right.]\n\nThe wire is released.\n\nWhat happens?\n\nA The wire moves away from the magnet.\nB The wire moves towards the magnet.\nC The wire's centre stays in its present position and the wire rotates through 90° in a clockwise direction.\nD The wire's centre stays in its present position and the wire rotates through 90° in an anticlockwise direction.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1014": {
+  "status": "done",
+  "subpoints": [
+   "4.1.2",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An unmagnetised piece of soft iron is placed close to a strong permanent magnet, as shown.\n\n[Diagram showing a permanent magnet with poles S on the left and N on the right, next to a piece of soft iron with the left end labeled X.]\n\nWhat is the induced polarity of end X of the soft iron and in which direction does the magnetic force act on the soft iron?\n\nA polarity of end X: N; direction of force on the soft iron: to the left\nB polarity of end X: N; direction of force on the soft iron: to the right\nC polarity of end X: S; direction of force on the soft iron: to the left\nD polarity of end X: S; direction of force on the soft iron: to the right",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1015": {
+  "status": "done",
+  "subpoints": [
+   "4.1.6",
+   "4.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The magnetic field of a bar magnet can be represented by magnetic field lines.\n\nWhich diagram shows two magnetic field lines correctly?\n\nA [← [N  S] ←]\nB [→ [N  S] ←]\nC [→ [N  S] →]\nD [← [N  S] →]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1016": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row gives the metal used to make the core of an electromagnet and one property of the electromagnet?\n\nA metal: iron; property: permanent magnet\nB metal: iron; property: temporary magnet\nC metal: steel; property: permanent magnet\nD metal: steel; property: temporary magnet",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1017": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student counts how many iron pins an electromagnet picks up when its power supply is switched on. Then, she counts how many pins are picked up when the power supply is switched off.\n\n[Diagram showing a solenoid with a core picking up iron pins when d.c. power supply is on, and picking up fewer/no pins when d.c. power supply is off.]\n\nShe repeats the experiment using cores made of different materials. The results are shown.\n\nWhich core is made out of soft iron?\n\nA pins picked up with the power supply on: 0; pins picked up with the power supply off: 0\nB pins picked up with the power supply on: 2; pins picked up with the power supply off: 7\nC pins picked up with the power supply on: 8; pins picked up with the power supply off: 5\nD pins picked up with the power supply on: 12; pins picked up with the power supply off: 0",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1018": {
+  "status": "done",
+  "subpoints": [
+   "4.1.4",
+   "4.1.6",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the magnetic fields around three objects, P, Q and R, placed close to each other.\n\n[Diagram showing three horizontal objects: P on the left with magnetic field lines directed clockwise (pointing right at top, left at bottom), an unaffected object Q in the middle, and R on the right with magnetic field lines directed anticlockwise (pointing left at top, right at bottom).]\n\nWhich row shows the nature of each of the objects?\n\nA P: permanent magnet [N S]; Q: copper rod; R: permanent magnet [N S]\nB P: permanent magnet [N S]; Q: copper rod; R: permanent magnet [S N]\nC P: permanent magnet [N S]; Q: iron rod; R: permanent magnet [N S]\nD P: permanent magnet [N S]; Q: iron rod; R: permanent magnet [S N]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1019": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which statement is not a method for magnetising an iron bar?\n\nA Place the bar next to a magnet and hammer the bar.\nB Place the bar inside a solenoid. Switch on an alternating current (a.c.) in the coil and gradually reduce the current.\nC Place the bar inside a solenoid. Switch on a direct current (d.c.) in the coil and gradually reduce the current.\nD Stroke the bar repeatedly with a magnet.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1020": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.7",
+   "4.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two magnets X and Y are placed end to end on a bench. The diagram shows the magnetic field pattern between the poles of the magnets.\n\n[Diagram showing two horizontal magnets X and Y with magnetic field lines between them directed from X to Y.]\n\nWhich row shows the direction of the forces exerted on X and Y by the magnetic field?\n\nA force on X: →; force on Y: →\nB force on X: →; force on Y: ←\nC force on X: ←; force on Y: →\nD force on X: ←; force on Y: ←",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:43:29+00:00"
+ },
+ "q1021": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student is to demagnetise a bar magnet. She tries four different ways.\n\n1 hammering the magnet\n2 heating the magnet\n3 passing direct current through the magnet\n4 placing the magnet in water\n\nWhich methods will demagnetise the magnet?\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 4\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1022": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.3",
+   "4.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A resistor is connected to a cell so that there is a current from the positive terminal of the cell to the negative terminal.\n\nWhat causes the current in the resistor?\n\nA electrons moving from the negative terminal of the cell to the positive terminal\nB electrons moving from the positive terminal of the cell to the negative terminal\nC protons moving from the negative terminal of the cell to the positive terminal\nD protons moving from the positive terminal of the cell to the negative terminal",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1023": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Three methods to demagnetise a magnet are suggested. The magnet is in an east-west direction.\n\n1 hitting the magnet repeatedly with a hammer\n2 heating the magnet until red hot\n3 withdrawing the magnet from a coil which has a direct current (d.c.) in it\n\nWhich methods demagnetise the magnet?\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1024": {
+  "status": "done",
+  "subpoints": [
+   "4.1.4",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Three cores of different metals P, Q and R are placed inside identical coils of wire.\n\nAt least one of the metals is non-magnetic.\n\nThe cores are held above some iron nails.\n\nThe three diagrams show what happens when there is a current in the coils.\n\n[Diagram showing coil with core P attracting no nails; coil with core Q attracting nails; coil with core R attracting nails]\n\nThe three diagrams below show what happens when the current is then switched off.\n\n[Diagram showing switch opened: core P has no nails; core Q has dropped all nails; core R continues to hold nails]\n\nWhich core metals are magnetic?\n\nA P only\nB R only\nC P and Q\nD Q and R",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1025": {
+  "status": "done",
+  "subpoints": [
+   "4.1.7",
+   "4.1.6",
+   "4.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Diagram 1 shows a small compass needle with its poles marked. It is not near any magnetic materials.\n\nDiagram 2 shows a bar magnet with its poles marked. The compass needle is placed at point P.\n\n[Diagram 1 shows a compass pointing vertically with N pointing up and S pointing down.\nDiagram 2 shows a horizontal bar magnet with N on the left and S on the right. Point P is located below the S pole.]\n\nIn which direction will the N pole of the compass needle point?\n\nA to the left\nB to the right\nC down the page\nD up the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1026": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which method does not demagnetise a bar magnet?\n\nA Heat the bar magnet and place it in the east-west direction to cool.\nB Place the bar magnet in the east-west direction and hammer it.\nC Place the bar magnet in a coil connected to an a.c. supply and slowly withdraw it.\nD Place the bar magnet in a coil connected to a d.c. supply and slowly withdraw it.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1027": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Three piles of small nails, P, Q and R, are placed on a bench below three electromagnets.\n\nOne set of nails is made of copper, one of soft iron and one of steel.\n\nDiagram 1 shows the situation when the electromagnets are switched on.\n[P: nails remain on the bench. Q: nails are attracted to the electromagnet. R: nails are attracted to the electromagnet.]\n\nDiagram 2 shows the situation when the electromagnets are then switched off.\n[P: nails remain on the bench. Q: nails fall back down to the bench. R: nails remain attached to the electromagnet.]\n\nWhich row correctly identifies the materials from which the nails are made?\n\n| | copper | soft iron | steel |\n|---|---|---|---|\n| A | P | Q | R |\n| B | P | R | Q |\n| C | Q | P | R |\n| D | Q | R | P |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
+ },
+ "q1028": {
+  "status": "done",
+  "subpoints": [
+   "4.1.10",
+   "4.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A magnet is suspended by a cotton thread.\n\nThe magnet is displaced then allowed to swing freely until it comes to rest.\n\nWhy does the magnet always come to rest pointing in the same direction?\n\nA because of the interaction between the electric field of the magnet and the electric field of the Earth\nB because of the interaction between the electric field of the magnet and the magnetic field of the Earth\nC because of the interaction between the magnetic field of the magnet and the gravitational field of the Earth\nD because of the interaction between the magnetic field of the magnet and the magnetic field of the Earth",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-21T01:44:15+00:00"
  }
 }
