@@ -14018,9 +14018,9 @@
  },
  "q1095": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "missing or invalid tags in response",
-  "updated": "2026-10-22T07:48:02+00:00"
+  "updated": "2026-10-22T13:55:51+00:00"
  },
  "q1096": {
   "status": "done",
@@ -14183,5 +14183,328 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1109": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student rubs a plastic rod with a cloth.\n\nThe rod becomes positively charged.\n\nWhat has happened to the rod?\n\nA It has gained electrons.\nB It has gained protons.\nC It has lost electrons.\nD It has lost protons.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1110": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.3",
+   "4.2.1.2",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An isolated metal sphere is positively charged.\n\nIt is then brought near to another isolated metal sphere that is neutral.\n\n[Diagram shows a positively charged metal sphere on the left being brought near a neutral metal sphere on the right, with labels 'left' and 'right' indicating sides of the neutral sphere.]\n\nWhat happens to the charges on the neutral sphere as the positively charged sphere is brought close to it?\n\nA Some positive charges move to the left and some negative charges move to the right.\nB Some positive charges move to the right and some negative charges move to the left.\nC Some positive charges move to the right, but the negative charges do not move.\nD The positive charges do not move, but some negative charges move to the left.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1111": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the resistance of a metal wire is correct?\n\nA The resistance is directly proportional to its length and directly proportional to its cross-sectional area.\nB The resistance is directly proportional to its length and inversely proportional to its cross-sectional area.\nC The resistance is inversely proportional to its length and directly proportional to its cross-sectional area.\nD The resistance is inversely proportional to its length and inversely proportional to its cross-sectional area.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1114": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.3",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An uncharged, metal sphere is placed on an insulating support. A positively charged rod is brought close to the sphere, but does not touch it.\n\n[Diagram shows an uncharged metal sphere on an insulating stand with a vertically held positively charged rod brought close to its right side.]\n\nHow do the charges in the sphere move and what is now the charge on the sphere?\n\nA movement of charges: negative charges move to the right of the sphere | charge on sphere: positive\nB movement of charges: negative charges move to the right of the sphere | charge on sphere: neutral\nC movement of charges: positive charges move to the left of the sphere | charge on sphere: positive\nD movement of charges: positive charges move to the left of the sphere | charge on sphere: neutral",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1115": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows the current–voltage relationship for a circuit component X.\n\n[Graph of current versus voltage starting from (0,0) and curving upwards with an increasing gradient as voltage increases.]\n\nWhat happens to the resistance of X and what happens to the temperature of X as the voltage increases?\n\nA resistance of X: decreases | temperature of X: decreases\nB resistance of X: decreases | temperature of X: increases\nC resistance of X: increases | temperature of X: decreases\nD resistance of X: increases | temperature of X: increases",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1116": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows the electric field pattern between two oppositely charged parallel metal plates?\n\n[Four diagrams showing parallel vertical plates labelled '+' on the left and '–' on the right:\nA horizontal parallel field lines directed from '+' to '–'\nB horizontal parallel field lines directed from '–' to '+'\nC looped field lines circulating around each plate\nD looped field lines circulating around each plate in the opposite direction]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1117": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which circuit symbol represents a component used to measure electric current?\n\nA [Circle containing the letter A]\nB [Rectangle with three vertical internal divider lines]\nC [Square containing the letter G]\nD [Circle containing the letter V]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:55:51+00:00"
+ },
+ "q1118": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The graph shows the current–voltage characteristic for a conductor.\n\n[A graph of current on the y-axis against voltage on the x-axis. From the origin (0, 0), labelled P, to point Q, the line is straight. From point Q to point R, the line curves with a decreasing gradient.]\n\nWhere on the graph can Ohm’s law be applied to the conductor?\n\nA at Q only\nB between P and Q\nC between P and R\nD between Q and R",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1119": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3",
+   "4.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current I in a resistor. The potential difference (p.d.) across the resistor is V.\n\nWhich other physical quantity is needed to be able to determine the energy transferred W by the resistor?\n\nA the electromotive force (e.m.f.) E of the source\nB the power P dissipated\nC the resistance R of the resistor\nD the time t for which there is a current in the resistor",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1120": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.8",
+   "4.5.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A stationary, charged particle is in a field.\n\nWhich fields can cause there to be a force on this particle due to its charge?\n\n1 gravitational field\n2 magnetic field\n3 electric field\n\nA 1 and 2\nB 1 only\nC 2 and 3\nD 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1121": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.3",
+   "4.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An electric current in a copper wire is due to the flow of charge.\n\nWhich particles are moving along the wire?\n\nA α-particles\nB copper nuclei\nC electrons\nD protons",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1122": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row is correct?\n\n| | definition of current I | direction of conventional current |\n|---|---|---|\n| A | I = Q / t | from positive terminal to negative terminal |\n| B | I = Q / t | from negative terminal to positive terminal |\n| C | I = Q × t | from positive terminal to negative terminal |\n| D | I = Q × t | from negative terminal to positive terminal |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1123": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which graph shows the current–voltage characteristic for a filament lamp?\n\n[Four graphs of current I against voltage V are shown:\nA shows a straight line through the origin.\nB shows a straight line that turns into a horizontal line.\nC shows a curve starting at the origin whose gradient increases with V.\nD shows a curve starting at the origin whose gradient decreases with V.]\n\nA graph A\nB graph B\nC graph C\nD graph D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1124": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row describes conventional current and electron flow in a circuit containing a cell?\n\n| | conventional current | electron flow |\n|---|---|---|\n| A | from the negative terminal of the cell to the positive terminal of the cell | from the negative terminal of the cell to the positive terminal of the cell |\n| B | from the negative terminal of the cell to the positive terminal of the cell | from the positive terminal of the cell to the negative terminal of the cell |\n| C | from the positive terminal of the cell to the negative terminal of the cell | from the negative terminal of the cell to the positive terminal of the cell |\n| D | from the positive terminal of the cell to the negative terminal of the cell | from the positive terminal of the cell to the negative terminal of the cell |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00"
+ },
+ "q1125": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student makes four resistors using different pieces of wire. The wires have different diameters and lengths. All the pieces of wire are made of the same material.\n\nWhich piece of wire will make the resistor with the largest resistance?\n\n| | diameter / mm | length / cm |\n|---|---|---|\n| A | 0.8 | 10 |\n| B | 0.8 | 17 |\n| C | 2.0 | 10 |\n| D | 2.0 | 17 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T13:57:04+00:00",
+  "repeat_of": "q1099"
+ },
+ "q1126": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.2.2.4"
+  ],
+  "section_ok": false,
+  "suggested_section": "4.1",
+  "difficulty": 2,
+  "text": "The circuit shows one method of magnetising a steel bar.\n\n[A circuit diagram showing a d.c. power supply with '+' and '–' terminals connected across a solenoid containing a steel bar.]\n\nHow can the circuit be altered so that it can be used to demagnetise the magnetised steel bar?\n\nA remove the steel bar from the coil whilst the current is switched on\nB replace the d.c. supply with an a.c. supply and gradually reduce the supply voltage to zero\nC reverse the polarity of the d.c. supply\nD reverse the polarity of the d.c. supply and gradually reduce the supply voltage to zero",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1127": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student uses the circuit shown to determine the resistance of two identical resistors.\n\n[A circuit diagram showing a battery connected in series with an ammeter and two identical resistors in series. A voltmeter is connected in parallel across both resistors.]\n\nThe voltmeter reading is 2.2 V and the ammeter reading is 0.25 A.\n\nWhat is the resistance of each resistor?\n\nA 0.275 Ω\nB 0.55 Ω\nC 4.4 Ω\nD 8.8 Ω",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1129": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A cloth is used to rub an uncharged plastic rod.\n\nBoth the rod and the cloth become charged.\n\nWhy does the plastic rod become negatively charged and the cloth become positively charged?\n\nA The rod gains electrons and the cloth gains positive charges.\nB The rod gains electrons and the cloth loses electrons.\nC The rod loses electrons and the cloth gains electrons.\nD The rod loses electrons and the cloth loses positive charges.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1130": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.6",
+   "4.2.2.5",
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cell passes a current of 2.0 A in a circuit for 30 s. In this time the cell transfers 120 J of energy.\n\nWhat is the electromotive force (e.m.f.) of the cell?\n\nA 0.50 V\nB 1.5 V\nC 2.0 V\nD 8.0 V",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1131": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a positively charged conducting sphere and a wire connected to earth.\n\n[A positively charged sphere mounted on an insulating support, with an earth wire placed near it.]\n\nWhat happens when the wire is touched onto the sphere?\n\nA Electrons flow from earth to the sphere.\nB Electrons flow from the sphere to earth.\nC Positive charges flow from earth to the sphere.\nD Positive charges flow from the sphere to earth.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1132": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current of 2.0 A in a resistor of resistance 8.0 Ω.\n\nHow much power is dissipated in the resistor?\n\nA 0.25 W\nB 4.0 W\nC 16 W\nD 32 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1133": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A negatively charged plastic rod is brought near to an uncharged metal sphere and held there.\n\nWhat happens when the metal sphere is earthed?\n\nA Electrons flow from the metal sphere to earth.\nB Electrons flow from earth to the metal sphere.\nC Positive charge flows from the metal sphere to earth.\nD Positive charge flows from earth to the metal sphere.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
+ },
+ "q1134": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement defines the electromotive force (e.m.f.) of a cell?\n\nA the current in the cell when 1.0 C of charge flows in 1.0 s\nB the current supplied by the cell to drive 1.0 C of charge around a complete circuit\nC the energy supplied by the cell to drive 1.0 C of charge around a complete circuit\nD the energy supplied by the cell to drive 1.0 A of current around a complete circuit",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T14:00:06+00:00"
  }
 }
