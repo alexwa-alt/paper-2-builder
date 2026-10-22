@@ -13865,5 +13865,323 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1084": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two isolated metal spheres are both negatively charged. The spheres are brought close together but do not touch.\n\nWhich diagram shows the charge distribution on the spheres?\n\nA [Negative charges on inner sides facing each other]\nB [Negative charges on the right side of each sphere]\nC [Negative charges on the left side of each sphere]\nD [Negative charges on outer sides facing away from each other]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1085": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.6",
+   "4.2.5.2",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two separate circuits have different power supplies. Both power supplies provide the same magnitude current.\n\nPower supply P has an electromotive force (e.m.f.) of 1.5 V and power supply Q has an e.m.f. of 3.0 V.\n\nWhich statements about Q are correct when compared with P?\n\n1 Q supplies twice the charge per unit time.\n2 Q supplies twice the energy per unit charge.\n3 Q supplies twice the energy per unit time.\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1086": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a piece of metal resistance wire.\n\n[Diagram of a cylindrical wire]\n\nWhich wire, made of the same metal, has a smaller resistance?\n\nA a wire of the same length with a larger diameter\nB a wire of the same length with a smaller diameter\nC a wire of greater length with the same diameter\nD a wire of greater length with a smaller diameter",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1087": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A plastic rod is brought near to a small plastic sphere suspended from a stand. The sphere is repelled by the rod.\n\nWhy is this?\n\nA The rod and the sphere have like charges.\nB The rod and the sphere have unlike charges.\nC The rod is charged and the sphere is uncharged.\nD The rod is uncharged and the sphere is charged.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1088": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.7",
+   "4.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which unit is equivalent to a volt (V)?\n\nA A / Ω\nB J / C\nC J / s\nD W / C",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1089": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A resistor converts 360 J of energy when there is a current of 3.0 A in it. The potential difference across the resistor is 6.0 V.\n\nFor how long is there this current in the resistor?\n\nA 0.05 s\nB 20 s\nC 180 s\nD 720 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1090": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A negatively charged rod is brought near to an uncharged metal sphere that is placed on an insulating stand.\n\n[Diagram showing a negatively charged vertical rod placed to the right of an uncharged metal sphere on an insulating stand]\n\nWhich diagram shows the distribution of charges on the sphere?\n\nA [Positive charges on the left, negative charges on the right]\nB [Negative charges on the left, positive charges on the right]\nC [Only positive charges on the right]\nD [Only negative charges on the left]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1091": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A resistor has a potential difference (p.d.) of 12 V across it and a current of 0.60 A in it.\n\nWhat is the resistance of the resistor?\n\nA 0.050 Ω\nB 2.0 Ω\nC 7.2 Ω\nD 20 Ω",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:45:23+00:00"
+ },
+ "q1092": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current I in a resistor of resistance R for a time t. The potential difference (p.d.) across the resistor is V.\n\nWhich equation gives the power P dissipated in the resistor?\n\nA  P = IR\nB  P = It\nC  P = IV\nD  P = IV / t",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1093": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal sphere R is suspended on an insulating thread.\n\n[Diagram showing metal sphere R hanging vertically from an insulating thread attached to a support.]\n\nAnother sphere S is brought close to sphere R. Sphere S has a negative charge and is attached to a plastic stand. The diagram shows the spheres when they are close to each other.\n\n[Diagram showing sphere R deflected towards the negatively charged sphere S.]\n\nWhich charged state of R accounts for the behaviour in the diagram?\n\nA  negative only\nB  positive only\nC  negative or uncharged\nD  positive or uncharged",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1094": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.3.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about identical lamps in a parallel circuit is not correct?\n\nA  If one lamp blows, the others remain switched on.\nB  The current in each lamp is different.\nC  The lamps can be switched on and off separately.\nD  The lamps have the same voltage across each of them.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1095": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1096": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows the electric field pattern around a positive charge?\n\nA  [Radial field lines pointing outwards away from the positive charge]\nB  [Radial field lines pointing inwards towards the positive charge]\nC  [Concentric circular field lines in an anticlockwise direction around the positive charge]\nD  [Concentric circular field lines in a clockwise direction around the positive charge]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1097": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A negatively charged plastic rod P is placed above a positively charged plastic rod Q.\n\n[Diagram showing negatively charged rod P positioned horizontally directly above positively charged rod Q.]\n\nWhat are the directions of the electrostatic forces on rod P and on rod Q?\n\n| | electrostatic force on rod P | electrostatic force on rod Q |\n|---|---|---|\n| A | downwards | downwards |\n| B | downwards | upwards |\n| C | upwards | downwards |\n| D | upwards | upwards |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1098": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A lamp rated 12 V, 2.0 A is switched on for one minute.\n\nHow much energy is transferred by the lamp?\n\nA  6.0 J\nB  24 J\nC  360 J\nD  1440 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1099": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student makes four resistors using different pieces of wire. The wires have different diameters and lengths. All the pieces of wire are made of the same material.\n\nWhich piece of wire will make the resistor with the largest resistance?\n\n| | diameter / mm | length / cm |\n|---|---|---|\n| A | 0.8 | 10 |\n| B | 0.8 | 17 |\n| C | 2.0 | 10 |\n| D | 2.0 | 17 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:02+00:00"
+ },
+ "q1100": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A charge Q flows for time t through a resistor of resistance R.\n\nWhich equation gives the current I in the resistor?\n\nA  I = Qt\nB  I = Rt\nC  I = Q / t\nD  I = R / t",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1101": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A plastic rod is rubbed with a dry woollen cloth. The rod becomes positively charged.\n\nWhich statement is correct?\n\nA  Electrons move from the cloth to the rod.\nB  Electrons move from the rod to the cloth.\nC  Protons move from the cloth to the rod.\nD  Protons move from the rod to the cloth.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1102": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows a graph of current against voltage for a filament lamp?\n\n[Four graphs of current against voltage are shown:\nA shows a constant horizontal current line.\nB shows a straight line with a constant positive gradient passing through the origin.\nC shows a line passing through the origin with increasing gradient curving upwards.\nD shows a line passing through the origin with decreasing gradient curving towards the voltage axis.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1104": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which combination of the current in a resistor and the time for which it is present results in a charge of 240 C passing through the resistor?\n\nA  a current of 2.0 A for 120 s\nB  a current of 4.0 A for 960 s\nC  a current of 6.0 A for 40 minutes\nD  a current of 8.0 A for 30 minutes",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1105": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Each potential divider is placed in a circuit with a power supply.\n\nWhich potential divider makes the potential difference (p.d.) across component Y increase when the light intensity increases?\n\n[Four potential divider circuits labeled A, B, C, D are shown, each consisting of two components X and Y connected in series:\nA: component X is a light-dependent resistor (LDR) and component Y is a fixed resistor.\nB: component X is a fixed resistor and component Y is a light-dependent resistor (LDR).\nC: component X is a fixed resistor and component Y is a thermistor.\nD: component X is a thermistor and component Y is a fixed resistor.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1106": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2",
+   "4.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two uncharged metal spheres X and Y rest on insulating stands and touch each other. A negatively charged plastic rod is brought near to sphere X.\n\n[Diagram shows a negatively charged rod held close to sphere X, which is touching sphere Y. Both spheres are mounted on insulating stands.]\n\nUsing the insulating stand, sphere Y is moved away from sphere X.\n\nWhat are the signs and the relative magnitudes of the charges induced on X and Y?\n\n        charge on X | charge on Y | relative magnitudes of charges\nA      negative    | negative    | equal\nB      negative    | positive    | different\nC      positive    | negative    | equal\nD      positive    | positive    | different",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1107": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which two changes to a metal wire both decrease its resistance?\n\n        length of wire | cross-sectional area of wire\nA      decrease       | decrease\nB      decrease       | increase\nC      increase       | decrease\nD      increase       | increase",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
+ },
+ "q1108": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current I in a resistor of resistance R for a time t. The potential difference across the resistor is V.\n\nWhich equation gives the energy E transferred by the resistor?\n\nA  E = IR\nB  E = IV\nC  E = IRt\nD  E = IVt",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T07:48:38+00:00"
  }
 }
