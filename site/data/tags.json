@@ -13642,5 +13642,228 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-21T08:01:59+00:00"
+ },
+ "q1067": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram represents the electric field due to a negatively-charged conducting sphere?\n[Four diagrams showing field lines around a sphere with a '-' sign inside: A shows radial lines with arrows pointing inwards towards the sphere; B shows radial lines with arrows pointing outwards away from the sphere; C shows concentric circular lines with arrows pointing counter-clockwise; D shows concentric circular lines with arrows pointing clockwise.]\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1069": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the best method to demagnetise a steel rod?\nA Pass the rod through a coil connected to an a.c. supply.\nB Pass the rod through a coil connected to a d.c. supply.\nC Place the rod next to another magnet.\nD Stroke the rod with another magnet.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1070": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows the electric field pattern and direction around a positive point charge?\n[Four diagrams showing field lines around a small circle with a '+' sign inside: A shows radial lines with arrows pointing outwards; B shows radial lines with arrows pointing inwards; C shows concentric circular lines with arrows pointing counter-clockwise; D shows concentric circular lines with arrows pointing clockwise.]\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1071": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A laboratory has a standard wire of known resistance. It also has other wires, made from the same material as the standard wire, but of different lengths and diameters.\n\nWhich wire would definitely have a resistance of less than the standard wire?\n\n| | wire length | wire diameter |\n|---|---|---|\n| A | longer | larger |\n| B | longer | smaller |\n| C | shorter | larger |\n| D | shorter | smaller |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1072": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows the relationship between the current in a circuit component and the potential difference (p.d.) across it. The graph has a straight section and a curved section.\n[Graph showing current on the y-axis against p.d. on the x-axis. The curve starts at the origin as a straight line, then bends downwards as p.d. increases.]\n\nWhat happens to the resistance of the component in these two sections as the current increases?\n\n| | straight section | curved section |\n|---|---|---|\n| A | resistance increases | resistance decreases |\n| B | resistance increases | resistance increases |\n| C | no change in resistance | resistance decreases |\n| D | no change in resistance | resistance increases |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1073": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A plastic rod is rubbed with a cloth.\n[Diagram shows a plastic rod and a cloth.]\nThe rod and the cloth both become charged as electrons move between them.\nThe rod becomes negatively charged.\nWhich diagram shows how the rod becomes negatively charged and shows the final charge on the cloth?\n[Four diagrams showing a negatively charged rod with '-' signs: A shows arrow pointing from rod to cloth labelled 'electron movement', cloth has '+' signs; B shows arrow pointing from cloth to rod labelled 'electron movement', cloth has '+' signs; C shows arrow pointing from rod to cloth labelled 'electron movement', cloth has '-' signs; D shows arrow pointing from cloth to rod labelled 'electron movement', cloth has '-' signs.]\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1074": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A wire has a uniform circular cross-sectional area.\n\nWhich statement is correct?\nA The resistance of the wire is directly proportional to its cross-sectional area and inversely proportional to its diameter.\nB The resistance of the wire is directly proportional to its cross-sectional area and inversely proportional to its length.\nC The resistance of the wire is directly proportional to its length and inversely proportional to its cross-sectional area.\nD The resistance of the wire is directly proportional to its length and inversely proportional to its diameter.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1075": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the current–voltage graph for a metal wire.\n[Graph showing current on the y-axis against voltage on the x-axis, with a straight line passing through the origin (0, 0).]\n\nWhat can be deduced from the graph?\nA As voltage increases, the temperature of the wire increases.\nB As voltage increases, the temperature of the wire decreases.\nC As voltage increases, the resistance of the wire increases.\nD As voltage increases, the resistance of the wire remains constant.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:43:45+00:00"
+ },
+ "q1076": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A plastic rod is rubbed with a dry cloth. The rod becomes positively charged.\n\nWhy has the rod become positively charged?\n\nA It has gained electrons.\nB It has gained neutrons.\nC It has lost electrons.\nD It has lost neutrons.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1077": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.4",
+   "4.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about electric current in a conductor is correct?\n\nA In a d.c. circuit, the electric current gradually decreases along the conductor.\nB In a d.c. circuit, the free electrons flow back and forth.\nC In an a.c. circuit, the electric current remains exactly the same all the time.\nD In an a.c. circuit, the flow of charge changes direction continually.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1078": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A piece of metal wire X with a uniform diameter has resistance R.\n\n[Diagram showing a long, thin cylinder labelled X]\n\nA second piece of wire Y is made of the same metal and has a uniform diameter.\n\nY has double the cross-sectional area of X and half the length of X.\n\n[Diagram showing a shorter, thicker cylinder labelled Y]\n\nWhat is the resistance of Y?\n\nA R / 4\nB R / 2\nC R\nD 4R",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1079": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric fire is connected to a 240 V supply and transfers energy at a rate of 1.0 kW.\n\nHow much charge passes through the fire in 1.0 h?\n\nA 42 C\nB 250 C\nC 1.5 × 10^4 C\nD 2.4 × 10^5 C",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1080": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A plastic rod and a dry cloth are uncharged.\n\nThe rod is now rubbed with the cloth and they both become charged. The rod becomes negatively charged because some charged particles move from the cloth to the rod.\n\nWhat is the charge on the cloth and which particles moved in the charging process?\n\n| | charge on cloth | particles that moved |\n|---|---|---|\n| A | negative | electrons |\n| B | negative | neutrons |\n| C | positive | electrons |\n| D | positive | neutrons |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1081": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student does an experiment to investigate the resistance of a metal wire.\n\nThe graph shows the results from the experiment.\n\n[Graph of resistance on the vertical axis against x on the horizontal axis, showing a curve decreasing towards the horizontal axis as x increases]\n\nWhat is plotted on the x-axis?\n\nA diameter of the wire\nB length of the wire\nC temperature of the wire\nD current in the wire",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1082": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The cost of electrical energy is $0.25 for each unit of 1 kW h. A 2200 W heater is switched on for 48 minutes.\n\nWhat is the cost of this use?\n\nA $0.44\nB $0.55\nC $26\nD $440",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
+ },
+ "q1083": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The table describes four different resistance wires. They are all made from the same metal.\n\nWhich wire has the smallest resistance?\n\n| | length of wire / m | diameter of wire / mm |\n|---|---|---|\n| A | 2.0 | 1.0 |\n| B | 2.0 | 1.5 |\n| C | 3.0 | 1.0 |\n| D | 3.0 | 1.5 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-22T01:44:40+00:00"
  }
 }
