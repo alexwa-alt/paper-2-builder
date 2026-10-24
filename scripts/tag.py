@@ -1,8 +1,9 @@
 """Stage 2: enrich questions with Gemini, a few at a time.
 
 Designed to run on a schedule (see .github/workflows/tag.yml). Each run:
-  1. builds site/data/syllabus.json from the syllabus PDF if it doesn't exist yet
-  2. tags untagged questions bank by bank (Paper 2 first, then Paper 6)
+  1. reads each subject's syllabus PDF into a list of learning objectives,
+     once (saved as syllabus.json in the subject's data folder)
+  2. tags untagged questions bank by bank, in config order
   3. saves results after every batch
   4. stops early (without failing) when Gemini is busy or the free quota runs out
   5. Paper 2 only: marks re-scanned copies of the same question as repeats
@@ -13,7 +14,7 @@ bad response is simply retried on a later run.
 Usage:
   GEMINI_API_KEY=... python scripts/tag.py
   python scripts/tag.py --max-requests 2      # a quick test
-  python scripts/tag.py --bank p6             # only one bank
+  python scripts/tag.py --bank biology-p6     # only one bank
   python scripts/tag.py --repeats-only        # just redo the repeat detection
 """
 import argparse
@@ -26,12 +27,21 @@ import time
 import numpy as np
 from PIL import Image
 
-from common import (ROOT, SITE, SYLLABUS_FILE, bank_paths, load_config,
-                    load_json, parse_json_text, save_json)
+from common import (ROOT, SITE, bank_paths, get_bank, iter_banks, load_config,
+                    load_json, parse_json_text, save_json, write_manifest)
 
 MCQ_TYPES = ["calculation", "graph_or_diagram", "conceptual", "practical"]
-SKILLS = ["readings", "tables", "graphs", "calculations", "conclusions",
-          "planning", "precautions"]
+SKILL_HINTS = {
+    "readings": "taking readings from instruments or diagrams",
+    "tables": "recording results in tables",
+    "graphs": "plotting, drawing or interpreting graphs",
+    "calculations": "processing data",
+    "conclusions": "drawing and justifying conclusions from results",
+    "planning": "planning an investigation",
+    "precautions": "precautions, accuracy, sources of error and improvements",
+    "drawings": "making or labelling scientific drawings, such as of specimens",
+    "tests": "chemical or food tests, identifying substances from observations",
+}
 
 
 class QuotaExhausted(Exception):
@@ -89,7 +99,13 @@ def image_part(path):
 
 
 # ---------------------------------------------------------------- syllabus
-SYLLABUS_PROMPT = """The attached PDF is the Cambridge IGCSE Physics (0625) syllabus for 2023, 2024 and 2025.
+OUTLINE_PROMPT = """The attached PDF is the Cambridge IGCSE {subject} ({code}) syllabus.
+
+List the numbered topics and subtopics of its subject content (not the practical or assessment sections).
+Return JSON exactly in this form:
+{{"topics": [{{"num": 1, "title": "...", "subtopics": [{{"code": "1.1", "title": "..."}}]}}]}}"""
+
+SYLLABUS_PROMPT = """The attached PDF is the Cambridge IGCSE {subject} ({code}) syllabus.
 
 List every numbered learning objective in the subject content for topic {num} "{title}".
 Its subtopics are:
@@ -107,25 +123,50 @@ Rules:
 - Include every point in this topic and nothing from other topics. Do not invent points."""
 
 
-def build_syllabus(client, cfg):
-    """Turn the syllabus PDF into a fixed list of learning objectives (once)."""
+def syllabus_outline(client, cfg, subject, pdf_part, data):
+    """Topics and subtopics: from config.yaml if written there, else read from the PDF."""
+    syl = subject["syllabus"]
+    if syl.get("chapters") and syl.get("sections"):
+        return syl["chapters"], syl["sections"]
+    if not data.get("outline"):
+        print(f'Reading the {subject["subject_name"]} syllabus outline')
+        result = ask(client, cfg["gemini"]["model"], [pdf_part, OUTLINE_PROMPT.format(
+            subject=subject["subject_name"], code=subject["code"])])
+        topics = [t for t in result.get("topics", []) if isinstance(t, dict) and t.get("subtopics")]
+        if not topics:
+            raise ValueError("the syllabus outline came back empty")
+        data["outline"] = {
+            "chapters": [{"num": int(t["num"]), "title": str(t["title"])} for t in topics],
+            "sections": [{"code": str(st["code"]), "title": str(st["title"])}
+                         for t in topics for st in t["subtopics"] if isinstance(st, dict)],
+        }
+        time.sleep(cfg["gemini"]["seconds_between_requests"])
+    return data["outline"]["chapters"], data["outline"]["sections"]
+
+
+def build_syllabus(client, cfg, subject, path):
+    """Turn a subject's syllabus PDF into a fixed list of learning objectives
+    (once; progress is saved after every topic). Returns None if the PDF is missing."""
     from google.genai import types
-    syl = cfg["syllabus"]
-    pdf = ROOT / syl["pdf"]
+    pdf = ROOT / subject["syllabus"]["pdf"]
     if not pdf.exists():
-        sys.exit(f"Syllabus PDF not found at {syl['pdf']}. "
-                 "Download the 0625 syllabus for 2023-2025 from Cambridge and add it there.")
-    data = load_json(SYLLABUS_FILE, {"objectives": [], "chapters_done": []})
+        print(f'{subject["subject_name"]}: no syllabus PDF at {subject["syllabus"]["pdf"]} '
+              "- skipping its questions until it is added.")
+        return None
+    data = load_json(path, {"objectives": [], "chapters_done": []})
     pdf_part = types.Part.from_bytes(data=pdf.read_bytes(), mime_type="application/pdf")
+    chapters, sections = syllabus_outline(client, cfg, subject, pdf_part, data)
+    save_json(path, data)
     model = cfg["gemini"]["model"]
-    for ch in syl["chapters"]:
+    for ch in chapters:
         if ch["num"] in data["chapters_done"]:
             continue
-        secs = [s for s in syl["sections"] if s["code"].startswith(f'{ch["num"]}.')]
+        secs = [s for s in sections if s["code"].split(".")[0] == str(ch["num"])]
         prompt = SYLLABUS_PROMPT.format(
+            subject=subject["subject_name"], code=subject["code"],
             num=ch["num"], title=ch["title"],
             sections="\n".join(f'{s["code"]} {s["title"]}' for s in secs))
-        print(f'Reading syllabus topic {ch["num"]} {ch["title"]}')
+        print(f'Reading {subject["subject_name"]} syllabus topic {ch["num"]} {ch["title"]}')
         result = ask(client, model, [pdf_part, prompt])
         seen = {o["code"] for o in data["objectives"]}
         valid_sections = {s["code"] for s in secs}
@@ -149,9 +190,11 @@ def build_syllabus(client, cfg):
             continue
         data["chapters_done"].append(ch["num"])
         data["generated"] = now()
-        save_json(SYLLABUS_FILE, data)
+        save_json(path, data)
         print(f"  {added} objectives")
         time.sleep(cfg["gemini"]["seconds_between_requests"])
+    data["complete"] = all(ch["num"] in data["chapters_done"] for ch in chapters)
+    save_json(path, data)
     return data
 
 
@@ -161,7 +204,7 @@ COMMON_FIELDS = """- "id": the id given.
 - "section_ok": true if the question belongs in the section it is filed under, otherwise false.
 - "suggested_section": if section_ok is false, the section code it belongs in (from the section list); otherwise null."""
 
-MCQ_PROMPT = """You are tagging Cambridge IGCSE Physics (0625) multiple-choice questions.
+MCQ_PROMPT = """You are tagging Cambridge IGCSE {subject} ({code}) multiple-choice questions.
 Each question below is an image, preceded by its id, the section it is filed under, and its correct answer.
 
 Sections it can be filed under:
@@ -179,10 +222,10 @@ For every question return:
 Return JSON exactly in this form:
 {{"results": [{{"id": "q1", "subpoints": ["1.2.3"], "section_ok": true, "suggested_section": null, "type": "calculation", "difficulty": 2, "text": "..."}}]}}"""
 
-STRUCTURED_PROMPT = """You are tagging Cambridge IGCSE Physics (0625) Paper 6 (Alternative to Practical) questions.
+STRUCTURED_PROMPT = """You are tagging Cambridge IGCSE {subject} ({code}) Paper 6 (Alternative to Practical) questions.
 Each question below is one or more page images, preceded by its id and the section it is filed under. The pages of one question follow each other.
 
-Sections it can be filed under (an older syllabus layout):
+Sections it can be filed under (possibly an older syllabus layout):
 {sections}
 
 Learning objectives from the current syllabus for topic {chapter} ({C} = Core, {S} = Supplement):
@@ -190,7 +233,7 @@ Learning objectives from the current syllabus for topic {chapter} ({C} = Core, {
 
 For every question return:
 """ + COMMON_FIELDS + """
-- "skills": every practical skill the question assesses, from: "readings" (taking readings from instruments or diagrams), "tables" (recording results in tables), "graphs" (plotting, drawing or interpreting graphs), "calculations" (processing data), "conclusions" (drawing and justifying conclusions from results), "planning" (planning an investigation), "precautions" (precautions, accuracy, sources of error and improvements).
+- "skills": every practical skill the question assesses, from: {skills}.
 - "difficulty": 1 (mostly routine readings and recall), 2 (standard), 3 (demanding analysis, planning or evaluation).
 - "marks": the question's total mark, from "[Total: ...]" on its last page, as a number; null if you cannot see it.
 - "text": a plain-text summary of 60 to 120 words: the experiment, the apparatus, and what each part asks. Write superscripts as ^.
@@ -199,7 +242,7 @@ Return JSON exactly in this form:
 {{"results": [{{"id": "p6-1", "subpoints": ["1.2.3"], "section_ok": true, "suggested_section": null, "skills": ["readings", "graphs"], "difficulty": 2, "marks": 11, "text": "..."}}]}}"""
 
 
-def validate(item, kind, valid_codes, valid_sections):
+def validate(item, kind, valid_codes, valid_sections, skills_allowed):
     """Return a clean tag record, or None if the answer is unusable."""
     subpoints = [str(c).strip() for c in item.get("subpoints") or []]
     subpoints = [c for c in subpoints if c in valid_codes][:3]
@@ -227,7 +270,7 @@ def validate(item, kind, valid_codes, valid_sections):
             return None
         out["type"] = item["type"]
     else:
-        skills = [s for s in item.get("skills") or [] if s in SKILLS]
+        skills = [s for s in item.get("skills") or [] if s in skills_allowed]
         if not skills:
             return None
         out["skills"] = list(dict.fromkeys(skills))
@@ -251,14 +294,20 @@ def question_images(q):
     return [SITE / p["image"] for p in pages]
 
 
-def tag_batch(client, cfg, kind, batch, chapter, syllabus, sections, tags):
+def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags):
     gcfg = cfg["gemini"]
-    objectives = [o for o in syllabus["objectives"] if o["code"].startswith(f"{chapter}.")]
+    kind = bank["kind"]
+    skills_allowed = list(cfg.get("skills", {}))
+    objectives = [o for o in syllabus["objectives"] if o["code"].split(".")[0] == str(chapter)]
+    if len(objectives) < 3:   # the bank's topic numbers don't line up with the syllabus
+        objectives = syllabus["objectives"]
     valid_codes = {o["code"] for o in syllabus["objectives"]}
     valid_sections = {s["code"] for s in sections}
     titles = {s["code"]: s["title"] for s in sections}
     template = MCQ_PROMPT if kind == "mcq" else STRUCTURED_PROMPT
     prompt = template.format(
+        subject=bank["subject_name"], code=bank["code"],
+        skills=", ".join(f'"{k}" ({SKILL_HINTS.get(k, cfg["skills"][k])})' for k in skills_allowed),
         sections="\n".join(f'{s["code"]} {s["title"]}' for s in sections),
         chapter=chapter, C="C", S="S",
         objectives="\n".join(f'{o["code"]} [{"C" if o["level"] == "core" else "S"}] {o["text"]}'
@@ -283,7 +332,8 @@ def tag_batch(client, cfg, kind, batch, chapter, syllabus, sections, tags):
     returned = {str(r.get("id")): r for r in result.get("results", []) if isinstance(r, dict)}
     ok = 0
     for q in batch:
-        clean = validate(returned.get(q["id"], {}), kind, valid_codes, valid_sections)
+        clean = validate(returned.get(q["id"], {}), kind, valid_codes, valid_sections,
+                         skills_allowed)
         if clean is None:
             record_failure(tags, q["id"], "missing or invalid tags in response",
                            gcfg["max_attempts"])
@@ -337,12 +387,12 @@ def mark_repeats(questions, tags):
 
 
 # ---------------------------------------------------------------- main
-def load_bank(cfg, name):
-    paths = bank_paths(cfg, name)
+def load_bank(cfg, bank_id):
+    paths = bank_paths(cfg, bank_id)
     qdata = load_json(paths["questions"])
     if not qdata:
         return None
-    return {"name": name, "cfg": cfg["banks"][name], "paths": paths,
+    return {"id": bank_id, "cfg": get_bank(cfg, bank_id), "paths": paths,
             "questions": qdata["questions"], "sections": qdata["sections"],
             "tags": load_json(paths["tags"], {})}
 
@@ -356,14 +406,15 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--max-requests", type=int, help="override max_requests_per_run")
-    ap.add_argument("--bank", help="only tag this bank (p2, p6)")
+    ap.add_argument("--bank", help="only tag this bank, e.g. biology-p6")
     ap.add_argument("--repeats-only", action="store_true")
     args = ap.parse_args()
 
     cfg = load_config()
     gcfg = cfg["gemini"]
-    names = [args.bank] if args.bank else list(cfg["banks"])
-    banks = [b for b in (load_bank(cfg, n) for n in names) if b]
+    ids = [get_bank(cfg, args.bank)["id"]] if args.bank else [i for i, _ in iter_banks(cfg)]
+    banks = [b for b in (load_bank(cfg, i) for i in ids) if b]
+    write_manifest(cfg)
     if not banks:
         print("No questions yet - run the extraction first (scripts/extract.py).")
         return
@@ -373,7 +424,7 @@ def main():
             if b["cfg"]["kind"] == "mcq":
                 n = mark_repeats(b["questions"], b["tags"])
                 save_json(b["paths"]["tags"], b["tags"])
-                print(f"{b['name']}: marked {n} repeats.")
+                print(f"{b['id']}: marked {n} repeats.")
         return
 
     if not any(pending_in(b) for b in banks):
@@ -383,18 +434,26 @@ def main():
     client = make_client()
     max_requests = args.max_requests or gcfg["max_requests_per_run"]
     requests = 0
+    syllabi = {}
     try:
-        syllabus = load_json(SYLLABUS_FILE)
-        chapters = cfg["syllabus"]["chapters"]
-        if not syllabus or len(syllabus.get("chapters_done", [])) < len(chapters):
-            syllabus = build_syllabus(client, cfg)
-            requests += len(chapters)
-            if len(syllabus.get("chapters_done", [])) < len(chapters):
-                print("Syllabus not complete yet; tagging will start once it is.")
-                return
-
         for b in banks:
-            kind = b["cfg"]["kind"]
+            if not pending_in(b):
+                continue
+            subject = b["cfg"]["subject"]
+            if subject not in syllabi:
+                path = b["paths"]["syllabus"]
+                data = load_json(path)
+                if not data or not (data.get("complete") or _physics_done(cfg, b["cfg"], data)):
+                    data = build_syllabus(client, cfg, b["cfg"], path)
+                    requests += 3
+                    if data and not data.get("complete"):
+                        print(f"{b['cfg']['subject_name']} syllabus not complete yet; "
+                              "tagging will start once it is.")
+                        data = None
+                syllabi[subject] = data
+            syllabus = syllabi[subject]
+            if not syllabus:
+                continue
             size = b["cfg"]["questions_per_request"]
             by_chapter = {}
             for q in pending_in(b):
@@ -404,8 +463,8 @@ def main():
             for chapter, batch in batches:
                 if requests >= max_requests:
                     break
-                print(f"[{b['name']}] tagging {', '.join(q['id'] for q in batch)}")
-                tag_batch(client, cfg, kind, batch, chapter, syllabus, b["sections"], b["tags"])
+                print(f"[{b['id']}] tagging {', '.join(q['id'] for q in batch)}")
+                tag_batch(client, cfg, b["cfg"], batch, chapter, syllabus, b["sections"], b["tags"])
                 requests += 1
                 save_json(b["paths"]["tags"], b["tags"])
                 time.sleep(gcfg["seconds_between_requests"])
@@ -424,8 +483,14 @@ def main():
         tagged = sum(1 for t in tags.values() if t.get("status") == "done")
         failed = sum(1 for t in tags.values() if t.get("status") == "failed")
         extra = f", {b['repeats']} marked as repeats" if "repeats" in b else ""
-        print(f"{b['name']}: tagged {tagged}/{len(b['questions'])} questions "
+        print(f"{b['id']}: tagged {tagged}/{len(b['questions'])} questions "
               f"({failed} gave up after {gcfg['max_attempts']} attempts{extra}).")
+
+
+def _physics_done(cfg, bank, data):
+    """Syllabus files written before 'complete' existed: done if every topic is in."""
+    chapters = bank["syllabus"].get("chapters") or (data.get("outline") or {}).get("chapters") or []
+    return bool(chapters) and all(c["num"] in data.get("chapters_done", []) for c in chapters)
 
 
 if __name__ == "__main__":

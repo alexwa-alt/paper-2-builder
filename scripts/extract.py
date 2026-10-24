@@ -1,5 +1,8 @@
 """Stage 1: split a question bank PDF into individual questions.
 
+Works for any subject and bank in config.yaml (Physics, Biology, Chemistry;
+Paper 2 multiple choice and Paper 6 alternative to practical).
+
 No AI involved. For every question this script:
   * finds its reference line, e.g. "22. 0625_s20_qp_23 Q: 1"
   * renders the question image(s) that follow it
@@ -21,8 +24,8 @@ Outputs (inside site/ so the website can use them directly):
   <data_dir>/review.json        anything that looked wrong and is worth a glance
 
 Usage:
-  python scripts/extract.py --bank p2
-  python scripts/extract.py --bank p6 --pdf sample.pdf    # try a few pages first
+  python scripts/extract.py --bank physics-p2
+  python scripts/extract.py --bank biology-p6 --pdf sample.pdf    # try a few pages first
 """
 import argparse
 import datetime as dt
@@ -34,11 +37,14 @@ import numpy as np
 import pymupdf
 from PIL import Image
 
-from common import (ROOT, bank_paths, load_config, norm, parse_paper,
-                    save_json, section_ranges)
+from common import (ROOT, bank_paths, get_bank, load_config, norm, parse_paper,
+                    save_json, section_ranges, write_manifest)
 
-SECTION_RE = re.compile(r"^([1-9])\.(\d{1,2})\s+([A-Za-z].*)$")
-ANSWER_RE = re.compile(r"(\d+)\s+(0625_[a-z]\d{2}_qp_\d{2})\s+(\d+)\s+([ABCD])\b")
+SECTION_RE = re.compile(r"^(\d{1,2})\.(\d{1,2})\s+([A-Za-z].*)$")
+ANSWER_RE = re.compile(r"(\d+)\s+(\d{4}_[a-z]\d{2}_qp_\d{2})\s+(\d+)\s+([ABCD])\b")
+# Running headers, e.g. "1.1. LENGTH AND TIME 7" and "6 CHAPTER 1. GENERAL PHYSICS"
+HEADER_SECTION_RE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.?\s+([A-Za-z][^0-9]*?)\s*\d*$")
+HEADER_CHAPTER_RE = re.compile(r"CHAPTER\s+(\d{1,2})\.?\s+([A-Za-z][^0-9]*?)\s*\d*$", re.I)
 
 # Reference lines, tolerant of OCR slips (l for 1, O for 0, missing underscores).
 D = r"[0-9lIi|oO]"
@@ -53,7 +59,12 @@ def digits(s):
     return s.translate(DIGIT_FIX)
 
 
-def parse_ref(text):
+def sentence_case(title):
+    t = re.sub(r"\s+", " ", title).strip(" .,")
+    return t[:1].upper() + t[1:].lower() if t.isupper() else t
+
+
+def parse_ref(text, code):
     """'22. 0625_s20_qp_23 Q: 1' -> {sn, paper, q, kind}; kind is qp or ms."""
     s = text.replace(" ", "").replace("\u2014", "_").replace("-", "_")
     m = REF_RE.match(s)
@@ -62,10 +73,10 @@ def parse_ref(text):
     sn, prefix, session, yy, kind, comp, q = m.groups()
     sn, prefix, yy, comp, q = map(digits, (sn, prefix, yy, comp, q))
     yy, comp = yy[-2:], comp[-2:]   # OCR sometimes doubles a character ("sl17")
-    if prefix != "0625" or not (sn + yy + comp + q).isdigit():
+    if prefix != code or not (sn + yy + comp + q).isdigit():
         return None
     kind = "ms" if kind.lower().startswith("m") else "qp"
-    return {"sn": int(sn), "paper": f"0625_{session.lower()}{yy}_qp_{comp}",
+    return {"sn": int(sn), "paper": f"{code}_{session.lower()}{yy}_qp_{comp}",
             "q": int(q), "kind": kind}
 
 
@@ -112,7 +123,13 @@ def is_glyph(rect):
 
 def ocr_lines(page):
     """Read lines drawn as pictures of letters, using Tesseract."""
-    import pytesseract
+    try:
+        import pytesseract
+        pytesseract.get_tesseract_version()
+    except Exception:
+        sys.exit("This PDF needs OCR but Tesseract isn't installed. "
+                 "On GitHub the extraction workflow installs it; on your own "
+                 "computer see https://github.com/tesseract-ocr/tesseract.")
     glyphs = [r for r in (pymupdf.Rect(i["bbox"]) for i in page.get_image_info())
               if is_glyph(r) and 35 < r.x0 < 560]   # skip the sideways watermark
     glyphs.sort(key=lambda r: r.y0)
@@ -128,14 +145,14 @@ def ocr_lines(page):
                               colorspace=pymupdf.csGRAY, alpha=False)
         img = Image.frombytes("L", (pix.width, pix.height), pix.samples)
         text = pytesseract.image_to_string(img, config="--psm 7").strip()
-        out.append({"y0": g.y0, "y1": g.y1, "x0": g.x0, "x1": g.x1, "text": text})
+        out.append({"y0": g.y0, "y1": g.y1, "x0": g.x0, "x1": g.x1, "text": text, "ocr": True})
     return out
 
 
 def page_lines(page, bank):
     """Use the page's real text if it has any; otherwise read glyph pictures."""
     lines = text_layer_lines(page)
-    if not lines and bank.get("ocr"):
+    if not lines and any(is_glyph(pymupdf.Rect(i["bbox"])) for i in page.get_image_info()):
         lines = ocr_lines(page)
     return lines
 
@@ -314,7 +331,11 @@ def scan_pdf(doc, cfg, bank, review, stats):
     """Walk the PDF once, collecting question records, mark-scheme records and
     answer-key rows, in the order they appear."""
     hz = cfg["header_zone_pt"]
-    known_sections = {s["code"] for s in bank["sections"]}
+    code = bank["code"]
+    # With a contents page in the config only its sections are accepted;
+    # without one, sections and chapters are discovered from the headings.
+    known_sections = {s["code"] for s in bank["sections"]} if bank.get("sections") else None
+    found_sections, found_chapters = stats["sections"], stats["chapters"]
     questions, schemes, answers = [], [], []
     not_applicable = set()
     current, current_section, in_answers = None, None, False
@@ -335,13 +356,22 @@ def scan_pdf(doc, cfg, bank, review, stats):
             if line["y1"] <= hz:
                 if printed is None:
                     printed = printed_page_number(text)
+                if known_sections is None and not in_answers:
+                    m = HEADER_SECTION_RE.match(text.strip())
+                    if m:
+                        sec = f"{int(m[1])}.{int(m[2])}"
+                        found_sections.setdefault(sec, sentence_case(m[3]))
+                        items.append(("header_section", -1, sec))
+                    m = HEADER_CHAPTER_RE.search(text)
+                    if m:
+                        found_chapters.setdefault(int(m[1]), sentence_case(m[2]))
                 continue
             if bank["kind"] == "mcq":
                 for m in ANSWER_RE.finditer(text):
                     page_answers.append({"sn": int(m[1]), "paper": m[2],
                                          "q": int(m[3]), "answer": m[4]})
             line_rect = pymupdf.Rect(line.get("x0", 0), line["y0"], line.get("x1", 600), line["y1"])
-            ref = parse_ref(text)
+            ref = parse_ref(text, code)
             if ref:
                 items.append(("ref", line["y0"], ref))
                 skip.append(line_rect)
@@ -352,15 +382,19 @@ def scan_pdf(doc, cfg, bank, review, stats):
                 skip.append(line_rect)
                 continue
             m = SECTION_RE.match(text)
-            if m and f"{m[1]}.{m[2]}" in known_sections:
-                items.append(("section", line["y0"], f"{m[1]}.{m[2]}"))
+            sec = f"{int(m[1])}.{int(m[2])}" if m else None
+            heading_like = line.get("ocr") or line["y1"] - line["y0"] >= 12
+            if sec and (sec in known_sections if known_sections is not None else heading_like):
+                if known_sections is None:
+                    found_sections.setdefault(sec, sentence_case(m[3]))
+                items.append(("section", line["y0"], sec))
                 skip.append(line_rect)
             elif (line["y1"] - line["y0"] > 14 and not in_answers
                   and line.get("x1", 600) - line.get("x0", 0) > 3 * (line["y1"] - line["y0"])):
                 # large type (chapter titles etc.) ends the previous question
                 items.append(("heading", line["y0"], None))
                 skip.append(line_rect)
-            elif "0625" in text.replace(" ", "") and (bank.get("ocr") or len(text) < 40):
+            elif code in text.replace(" ", "") and (line.get("ocr") or len(text) < 40):
                 review["unreadable_reference_lines"].append(f"PDF page {pno + 1}: {text!r}")
 
         if len(page_answers) >= 3:
@@ -376,7 +410,9 @@ def scan_pdf(doc, cfg, bank, review, stats):
 
         items.sort(key=lambda t: (t[1], t[0] == "image"))
         for kind, _, val in items:
-            if kind == "heading":
+            if kind == "header_section":
+                current_section = val   # applies to questions starting on this page
+            elif kind == "heading":
                 current = None
             elif kind == "section" and not in_answers:
                 current_section = val
@@ -503,7 +539,7 @@ def build_mcq(doc, cfg, bank, paths, raw, answers, review):
         w, h = keep["_px"]
         section = keep["section"]
         questions.append({
-            "id": f'q{keep["sn"]}',
+            "id": f'{bank.get("id_prefix", "q")}{keep["sn"]}',
             "image": f'{paths["image_prefix"]}/{keep["sn"]}.png',
             "w_mm": round(w / dpi * 25.4, 1),
             "h_mm": round(h / dpi * 25.4, 1),
@@ -550,7 +586,7 @@ def build_structured(doc, cfg, bank, paths, raw, schemes, not_applicable, review
             review["missing_mark_scheme"].append(ref)
 
         questions.append({
-            "id": f'p6-{q["sn"]}',
+            "id": f'{bank.get("id_prefix", "p6-")}{q["sn"]}',
             "pages": render_pages(doc, q["segments"], dpi, prefix, f'{q["sn"]}_', folder),
             "ms": ms_pages,
             "ms_status": status,
@@ -568,24 +604,32 @@ def build_structured(doc, cfg, bank, paths, raw, schemes, not_applicable, review
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--bank", default="p2", help="which bank in config.yaml (p2, p6)")
+    ap.add_argument("--bank", required=True,
+                    help="which bank, e.g. physics-p2, biology-p6 (see config.yaml)")
     ap.add_argument("--pdf", help="override the PDF path in config.yaml")
     args = ap.parse_args()
 
     cfg = load_config()
-    if args.bank not in cfg["banks"]:
-        sys.exit(f"Unknown bank {args.bank!r}. Choose from: {', '.join(cfg['banks'])}")
-    bank = cfg["banks"][args.bank]
-    paths = bank_paths(cfg, args.bank)
-    pdf_path = args.pdf or (ROOT / bank["pdf"])
-    print(f"Bank {args.bank} ({bank['label']}): opening {pdf_path}")
+    bank = get_bank(cfg, args.bank)
+    paths = bank_paths(cfg, bank["id"])
+    pdf_path = args.pdf or (ROOT / "input" / bank["release_asset"])
+    print(f"{bank['subject_name']} {bank['label']} ({bank['long']}): opening {pdf_path}")
     doc = pymupdf.open(pdf_path)
     review = defaultdict(list)
-    stats = {"pages": 0, "text_lines": 0, "sample": []}
+    stats = {"pages": 0, "text_lines": 0, "sample": [], "sections": {}, "chapters": {}}
 
     raw, schemes, answers, not_applicable = scan_pdf(doc, cfg, bank, review, stats)
     print(f"Found {len(raw)} questions, {len(schemes)} mark schemes, "
           f"{len(answers)} answer-key rows")
+    if raw and not bank.get("sections"):
+        # No contents page: questions before the first heading on a page
+        # inherit the section of the question before them (or after, at the start).
+        last = None
+        for q in raw:
+            last = q["section"] = q["section"] or last
+        first = next((q["section"] for q in raw if q["section"]), None)
+        for q in raw:
+            q["section"] = q["section"] or first
     if not raw:
         print("\nNo questions found. What the script could read:")
         print(f"  pages scanned: {stats['pages']}, text lines read: {stats['text_lines']}")
@@ -610,14 +654,26 @@ def main():
                                              not_applicable, review)
 
     ranges = section_ranges(bank)
+    if ranges:
+        sections = [{"code": s["code"], "title": s["title"], "chapter": s["chapter"]} for s in ranges]
+        chapters = bank["chapters"]
+    else:   # discovered from the headings
+        key = lambda c: tuple(int(x) for x in c.split("."))
+        used = {q["section"] for q in questions if q["section"]}
+        codes = sorted(set(stats["sections"]) | used, key=key)
+        sections = [{"code": c, "title": stats["sections"].get(c, f"Section {c}"),
+                     "chapter": int(c.split(".")[0])} for c in codes]
+        nums = sorted({s["chapter"] for s in sections} | set(stats["chapters"]))
+        chapters = [{"num": n, "title": stats["chapters"].get(n, f"Topic {n}")} for n in nums]
+        if codes:
+            print(f"Sections read from the page headings: {', '.join(codes)}")
     save_json(paths["questions"], {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "bank": args.bank, "label": bank["label"], "kind": bank["kind"],
-        "chapters": bank["chapters"],
-        "sections": [{"code": s["code"], "title": s["title"], "chapter": s["chapter"]}
-                     for s in ranges],
+        "bank": bank["id"], "subject": bank["subject"], "label": bank["label"],
+        "kind": bank["kind"], "chapters": chapters, "sections": sections,
         "questions": questions,
     }, compact=True)
+    write_manifest(cfg)
 
     summary = {k: len(v) for k, v in review.items()}
     save_json(paths["review"], {"summary": summary, "duplicates_merged": merged,
