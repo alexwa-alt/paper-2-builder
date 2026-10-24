@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IGCSE question bank</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧲</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="ghost only-narrow" id="open-filters" aria-controls="filters" aria-expanded="false">Filters</button>
+  <div class="brand">
+    <h1><button class="subject-switch" id="change-subject" title="Change subject">Choose a subject</button> question bank</h1>
+    <p id="progress" class="muted"></p>
+  </div>
+  <nav class="banks" id="banks" aria-label="Question bank"></nav>
+  <button class="paper-toggle only-narrow" id="open-paper" aria-controls="paper" aria-expanded="false">
+    Your paper <span class="count" id="paper-count-top">0</span>
+  </button>
+</header>
+
+<div class="layout">
+  <aside id="filters" class="panel filters" aria-label="Filters">
+    <div class="panel-head only-narrow">
+      <h2>Filters</h2>
+      <button class="ghost" data-close="filters">Done</button>
+    </div>
+
+    <label class="field">
+      <span>Search question text</span>
+      <input type="search" id="f-text" placeholder="e.g. terminal velocity" autocomplete="off">
+    </label>
+
+    <fieldset>
+      <legend>Topic</legend>
+      <div id="f-sections" class="tree"></div>
+    </fieldset>
+
+    <label class="field" id="f-subpoint-wrap">
+      <span>Learning objective</span>
+      <select id="f-subpoint"><option value="">Any</option></select>
+    </label>
+
+    <fieldset id="f-levels-wrap">
+      <legend>Tier</legend>
+      <div class="chips" id="f-levels"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Exam year</legend>
+      <div class="row">
+        <select id="f-year-from" aria-label="From year"></select>
+        <span class="muted">to</span>
+        <select id="f-year-to" aria-label="To year"></select>
+      </div>
+      <div class="chips" id="f-sessions"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend id="f-types-legend">Question type</legend>
+      <div class="chips" id="f-types"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Difficulty</legend>
+      <div class="chips" id="f-diffs"></div>
+    </fieldset>
+
+    <label class="check">
+      <input type="checkbox" id="f-hide-paper"> Hide questions already in my paper
+    </label>
+
+    <button class="ghost wide" id="reset-filters">Clear all filters</button>
+  </aside>
+
+  <main class="results" aria-live="polite">
+    <div class="toolbar">
+      <p id="result-count" class="result-count"></p>
+      <div class="toolbar-actions">
+        <label class="check"><input type="checkbox" id="show-answers"> <span id="show-answers-label">Show answers</span></label>
+        <select id="sort" aria-label="Sort order">
+          <option value="book">Book order</option>
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+        </select>
+        <span class="random">
+          <input type="number" id="random-n" value="10" min="1" max="100" aria-label="How many random questions">
+          <button id="add-random">Add random</button>
+        </span>
+      </div>
+    </div>
+    <p id="tag-note" class="note" hidden></p>
+    <div id="list"></div>
+    <button id="more" class="ghost wide" hidden>Show more</button>
+  </main>
+
+  <aside id="paper" class="panel paper" aria-label="Your paper">
+    <div class="panel-head">
+      <h2>Your paper <span class="count" id="paper-count">0</span></h2>
+      <button class="ghost only-narrow" data-close="paper">Done</button>
+    </div>
+    <label class="field">
+      <span>Title</span>
+      <input type="text" id="p-title" value="Physics practice paper">
+    </label>
+    <ol id="paper-list" class="paper-list"></ol>
+    <p id="paper-empty" class="muted">Add questions from the list to build a paper.</p>
+    <fieldset class="options">
+      <label class="check"><input type="checkbox" id="p-cover"> Cover page</label>
+      <label class="field inline" id="p-time-wrap">
+        <span>Time allowed (minutes)</span>
+        <input type="number" id="p-time" min="1" max="300" placeholder="auto">
+      </label>
+      <label class="check"><input type="checkbox" id="p-key" checked> <span id="p-key-label">Answer key on the last page</span></label>
+      <label class="check"><input type="checkbox" id="p-refs"> Print past-paper references</label>
+    </fieldset>
+    <p id="p-summary" class="muted small"></p>
+    <button id="download" class="primary wide" disabled>Download PDF</button>
+    <button id="clear-paper" class="ghost wide" disabled>Clear paper</button>
+  </aside>
+</div>
+<div class="scrim" id="scrim" hidden></div>
+
+<div class="splash" id="splash" role="dialog" aria-modal="true" aria-labelledby="splash-title" hidden>
+  <div class="splash-inner">
+    <p class="splash-kicker">Cambridge IGCSE past papers</p>
+    <h2 id="splash-title">Which subject?</h2>
+    <p class="muted">Browse past-paper questions by topic and build practice papers.</p>
+    <div class="subject-cards" id="subject-cards"></div>
+    <button class="ghost" id="close-splash" hidden>Back to questions</button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="paper.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
