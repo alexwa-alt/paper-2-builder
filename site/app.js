@@ -190,6 +190,7 @@
     state.sections.forEach((s) => (state.sectionTitle[s.code] = s.title));
     state.expanded.clear();
     state.msOpen.clear();
+    closePreview();
     state.f = emptyFilters();
     $("#f-text").value = "";
     $("#f-hide-paper").checked = false;
@@ -511,11 +512,13 @@
     $("#paper-count-top").textContent = ids.length;
     $("#paper-empty").hidden = ids.length > 0;
     $("#download").disabled = ids.length === 0;
+    $("#preview-paper").disabled = ids.length === 0;
     $("#clear-paper").disabled = ids.length === 0;
     $("#paper-list").innerHTML = ids.map((id, i) => {
       const q = state.byId.get(id);
+      const sec = `${q.effSection} ${state.sectionTitle[q.effSection] || ""}`;
       return `<li>
-        <span class="ref" title="${esc(q.effSection + " " + (state.sectionTitle[q.effSection] || ""))}">${esc(refText(q.refs[0]))}</span>
+        <span class="ref" title="${esc(sec)}">${esc(refText(q.refs[0]))}<small>${esc(sec)}</small></span>
         <button data-move="-1" data-i="${i}" aria-label="Move up" ${i === 0 ? "disabled" : ""}>↑</button>
         <button data-move="1" data-i="${i}" aria-label="Move down" ${i === ids.length - 1 ? "disabled" : ""}>↓</button>
         <button data-remove="${i}" aria-label="Remove">✕</button>
@@ -535,6 +538,72 @@
       if ($("#p-cover").checked) parts.push(`${mins} minutes`);
     }
     $("#p-summary").textContent = parts.length ? parts.join(", ") + "." : "";
+    if (!$("#preview").hidden) renderPreview();
+  }
+
+  // ------------------------------------------------------------ preview
+  function renderPreview() {
+    const qs = paperQuestions();
+    $("#preview-title").textContent = $("#p-title").value.trim() || "Your paper";
+    $("#preview-summary").textContent = $("#p-summary").textContent;
+    $("#preview-download").disabled = qs.length === 0;
+    if (!qs.length) {
+      $("#preview-list").innerHTML = `<div class="empty"><p>Your paper is empty.</p><p>Close this preview and add some questions.</p></div>`;
+      return;
+    }
+    $("#preview-list").innerHTML = qs.map((q, i) => {
+      const meta = [
+        `${q.effSection} ${state.sectionTitle[q.effSection] || ""}`,
+        refText(q.refs[0]),
+        ...(q.tag?.marks ? [`${q.tag.marks} marks`] : []),
+        ...(isMCQ() ? [`Answer ${q.answer || "?"}`] : []),
+      ];
+      return `<section class="preview-q" data-id="${q.id}">
+        <div class="preview-q-head">
+          <span class="preview-num">${i + 1}</span>
+          <span class="preview-meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</span>
+          <span class="preview-q-actions">
+            <button data-pmove="-1" data-i="${i}" aria-label="Move question ${i + 1} up" ${i === 0 ? "disabled" : ""}>↑</button>
+            <button data-pmove="1" data-i="${i}" aria-label="Move question ${i + 1} down" ${i === qs.length - 1 ? "disabled" : ""}>↓</button>
+            <button data-premove="${i}">Remove</button>
+          </span>
+        </div>
+        <div class="preview-pages">${q.pages.map((p, k) => imgTag(p, `Question ${i + 1}, page ${k + 1}`)).join("")}</div>
+      </section>`;
+    }).join("");
+  }
+
+  function openPreview() {
+    document.querySelectorAll(".panel.open").forEach((p) => p.classList.remove("open"));
+    $("#scrim").hidden = true;
+    $("#preview").hidden = false;
+    document.body.classList.add("preview-open");
+    renderPreview();
+    $("#preview-close").focus();
+  }
+
+  function closePreview() {
+    $("#preview").hidden = true;
+    document.body.classList.remove("preview-open");
+  }
+
+  function wirePreview() {
+    $("#preview-paper").addEventListener("click", openPreview);
+    $("#preview-close").addEventListener("click", closePreview);
+    $("#preview-download").addEventListener("click", (e) => downloadPaper(e.currentTarget));
+    $("#preview-list").addEventListener("click", (e) => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      if (b.dataset.premove !== undefined) state.paper.splice(+b.dataset.premove, 1);
+      if (b.dataset.pmove) {
+        const i = +b.dataset.i, j = i + +b.dataset.pmove;
+        [state.paper[i], state.paper[j]] = [state.paper[j], state.paper[i]];
+      }
+      paperChanged();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !$("#preview").hidden) closePreview();
+    });
   }
 
   function wirePaper() {
@@ -553,30 +622,31 @@
     $("#clear-paper").addEventListener("click", () => {
       if (confirm("Remove all questions from your paper?")) { state.paper = []; paperChanged(); }
     });
-    $("#download").addEventListener("click", async () => {
-      const btn = $("#download");
-      btn.disabled = true;
-      btn.textContent = "Building PDF…";
-      try {
-        const qs = paperQuestions();
-        await PaperPDF.build(qs, {
-          kind: state.bank.kind, paperName: state.bank.long,
-          subject: state.subject.key, subjectName: state.subject.name, code: state.subject.code,
-          title: $("#p-title").value.trim() || "Physics practice paper",
-          cover: $("#p-cover").checked,
-          key: $("#p-key").checked,
-          refs: $("#p-refs").checked,
-          minutes: +$("#p-time").value ||
-            PaperPDF.suggestMinutes(qs, state.bank.kind, state.bank.minutes_per_mark),
-        });
-      } catch (err) {
-        console.error(err);
-        alert("The PDF couldn't be built: " + err.message);
-      } finally {
-        btn.disabled = false;
-        btn.textContent = "Download PDF";
-      }
-    });
+    $("#download").addEventListener("click", (e) => downloadPaper(e.currentTarget));
+  }
+
+  async function downloadPaper(btn) {
+    btn.disabled = true;
+    btn.textContent = "Building PDF…";
+    try {
+      const qs = paperQuestions();
+      await PaperPDF.build(qs, {
+        kind: state.bank.kind, paperName: state.bank.long,
+        subject: state.subject.key, subjectName: state.subject.name, code: state.subject.code,
+        title: $("#p-title").value.trim() || "Physics practice paper",
+        cover: $("#p-cover").checked,
+        key: $("#p-key").checked,
+        refs: $("#p-refs").checked,
+        minutes: +$("#p-time").value ||
+          PaperPDF.suggestMinutes(qs, state.bank.kind, state.bank.minutes_per_mark),
+      });
+    } catch (err) {
+      console.error(err);
+      alert("The PDF couldn't be built: " + err.message);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Download PDF";
+    }
   }
 
   // ------------------------------------------------------------ drawers
@@ -617,6 +687,7 @@
     wireFilters();
     wireResults();
     wirePaper();
+    wirePreview();
     $("#subject-cards").addEventListener("click", (e) => {
       const card = e.target.closest("[data-subject]");
       if (card && !card.disabled) chooseSubject(card.dataset.subject);

@@ -119,11 +119,26 @@
       <label class="check"><input type="checkbox" id="p-refs"> Print past-paper references</label>
     </fieldset>
     <p id="p-summary" class="muted small"></p>
+    <button id="preview-paper" class="wide" disabled>Preview paper</button>
     <button id="download" class="primary wide" disabled>Download PDF</button>
     <button id="clear-paper" class="ghost wide" disabled>Clear paper</button>
   </aside>
 </div>
 <div class="scrim" id="scrim" hidden></div>
+
+<div class="preview" id="preview" role="dialog" aria-modal="true" aria-labelledby="preview-title" hidden>
+  <div class="preview-bar">
+    <div class="preview-heading">
+      <h2 id="preview-title">Your paper</h2>
+      <p id="preview-summary" class="muted small"></p>
+    </div>
+    <div class="preview-actions">
+      <button id="preview-download" class="primary">Download PDF</button>
+      <button id="preview-close">Close</button>
+    </div>
+  </div>
+  <div class="preview-body" id="preview-list"></div>
+</div>
 
 <div class="splash" id="splash" role="dialog" aria-modal="true" aria-labelledby="splash-title" hidden>
   <div class="splash-inner">
