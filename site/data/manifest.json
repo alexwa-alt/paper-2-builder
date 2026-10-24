@@ -1,0 +1,87 @@
+{
+ "subjects": [
+  {
+   "key": "physics",
+   "name": "Physics",
+   "code": "0625",
+   "syllabus": "data/syllabus.json",
+   "banks": [
+    {
+     "key": "physics-p2",
+     "label": "Paper 2",
+     "long": "Multiple choice",
+     "kind": "mcq",
+     "data": "data",
+     "available": true
+    },
+    {
+     "key": "physics-p6",
+     "label": "Paper 6",
+     "long": "Alternative to practical",
+     "kind": "structured",
+     "data": "data/p6",
+     "available": true
+    }
+   ]
+  },
+  {
+   "key": "biology",
+   "name": "Biology",
+   "code": "0610",
+   "syllabus": "data/biology/syllabus.json",
+   "banks": [
+    {
+     "key": "biology-p2",
+     "label": "Paper 2",
+     "long": "Multiple choice",
+     "kind": "mcq",
+     "data": "data/biology/p2",
+     "available": true
+    },
+    {
+     "key": "biology-p6",
+     "label": "Paper 6",
+     "long": "Alternative to practical",
+     "kind": "structured",
+     "data": "data/biology/p6",
+     "available": false
+    }
+   ]
+  },
+  {
+   "key": "chemistry",
+   "name": "Chemistry",
+   "code": "0620",
+   "syllabus": "data/chemistry/syllabus.json",
+   "banks": [
+    {
+     "key": "chemistry-p2",
+     "label": "Paper 2",
+     "long": "Multiple choice",
+     "kind": "mcq",
+     "data": "data/chemistry/p2",
+     "available": false
+    },
+    {
+     "key": "chemistry-p6",
+     "label": "Paper 6",
+     "long": "Alternative to practical",
+     "kind": "structured",
+     "data": "data/chemistry/p6",
+     "available": false
+    }
+   ]
+  }
+ ],
+ "skills": {
+  "readings": "Readings",
+  "tables": "Tables",
+  "graphs": "Graphs",
+  "calculations": "Calculations",
+  "conclusions": "Conclusions",
+  "planning": "Planning",
+  "precautions": "Precautions and accuracy",
+  "drawings": "Drawings",
+  "tests": "Tests and identification"
+ }
+}

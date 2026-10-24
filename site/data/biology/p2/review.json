@@ -1,0 +1,44 @@
+{
+ "summary": {
+  "images_without_a_question": 1,
+  "unreadable_reference_lines": 13,
+  "duplicates_in_different_sections": 11,
+  "duplicates_with_different_answers": 2
+ },
+ "duplicates_merged": 20,
+ "images_without_a_question": [
+  1
+ ],
+ "unreadable_reference_lines": [
+  "PDF page 3: '\\x88 Subject code: 0610'",
+  "PDF page 591: '1471 0610_s19_qp_22 38 D'",
+  "PDF page 591: '1472 0610_s19_qp_23 39 C'",
+  "PDF page 591: '1473 0610_w19_qp_23 37 C'",
+  "PDF page 591: '1474 0610_m18_qp_22 37 C'",
+  "PDF page 591: '1475 0610_s18_qp_23 38 B'",
+  "PDF page 591: '1476 0610_w18_qp_21 38 C'",
+  "PDF page 591: '1477 0610_w18_qp_22 34 D'",
+  "PDF page 591: '1478 0610_w18_qp_22 38 D'",
+  "PDF page 591: '1479 0610_w18_qp_23 38 C'",
+  "PDF page 591: '1480 0610_m17_qp_22 38 D'",
+  "PDF page 591: '1481 0610_s17_qp_23 38 A'",
+  "PDF page 591: '1482 0610_w17_qp_21 38 D'"
+ ],
+ "duplicates_in_different_sections": [
+  "49: 1.2, 1.3",
+  "53: 1.2, 4.1",
+  "121: 2.1, 6.2",
+  "164: 3.1, 3.2",
+  "331: 6.1, 6.2",
+  "335: 6.1, 6.2",
+  "336: 6.1, 6.2",
+  "337: 6.1, 6.2",
+  "338: 6.1, 6.2",
+  "352: 6.1, 7.2",
+  "1340: 19.4, 20.4, 21.2"
+ ],
+ "duplicates_with_different_answers": [
+  "0610_m17_qp_22 Q10=B, 0610_m17_qp_22 Q11=D",
+  "0610_s17_qp_22 Q37=B, 0610_s17_qp_21 Q37=B, 0610_s17_qp_21 Q38=C"
+ ]
+}
