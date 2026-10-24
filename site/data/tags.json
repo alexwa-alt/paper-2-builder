@@ -14719,52 +14719,110 @@
   "updated": "2026-10-23T13:41:56+00:00"
  },
  "q1154": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current of 2.0 A in a resistor for 30 s. The potential difference (p.d.) across the resistor is 12 V.\n\nHow much energy is transferred in the resistor?\n\nA 1.25 J\nB 5.0 J\nC 180 J\nD 720 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1156": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current of 3.0 A in a resistor for time t. During time t, a charge of 120 C flows through the resistor.\n\nWhat is time t?\n\nA 0.025 minutes\nB 0.025 s\nC 40 minutes\nD 40 s",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1157": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.2.6",
+   "4.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A metal conductor is connected to a battery.\n\nWhich statement describes the current in the metal conductor?\n\nA It is a flow of electrons from the negative to the positive terminal.\nB It is a flow of electrons from the positive to the negative terminal.\nC It is a flow of protons from the negative to the positive terminal.\nD It is a flow of protons from the positive to the negative terminal.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1158": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In an electric circuit, 40 C of electric charge pass a point in 5.0 s.\n\nWhat is the current in the circuit?\n\nA 0.13 A\nB 8.0 A\nC 45 A\nD 200 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1159": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "There is a current of 5.0 A in a resistor.\n\nThe potential difference (p.d.) across the resistor is 24 V.\n\nHow much energy is transferred in the resistor in 1.0 minute?\n\nA 5.0 J\nB 120 J\nC 290 J\nD 7200 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1160": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A steel magnet is placed inside a coil of wire.\n\nWhich method is used to demagnetise the magnet?\n\nA connect the coil to an a.c. power supply\nB connect the coil to an a.c. power supply and slowly remove the magnet from the coil\nC connect the coil to a d.c. power supply\nD connect the coil to a d.c. power supply and slowly remove the magnet from the coil",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1161": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The electromotive force (e.m.f.) of a rechargeable battery is 6.0 V.\n\nWhat does this mean?\n\nA 6.0 J is the maximum energy the battery can provide in 1.0 s.\nB 6.0 J is the total energy the battery can provide before it has to be recharged.\nC 6.0 J of energy is provided by the battery to drive a charge of 1.0 C around a complete circuit.\nD 6.0 J of energy is provided by the battery to drive a current of 1.0 A around a complete circuit.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1162": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:38:05+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student measures the potential difference across a device and the current in the device.\n\nWhich calculation gives the resistance of the device?\n\nA current + potential difference\nB current ÷ potential difference\nC potential difference ÷ current\nD potential difference × current",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1163": {
   "status": "retry",
