@@ -3,9 +3,9 @@ name: 1. Extract questions
 # Run this by hand (Actions tab > "1. Extract questions" > Run workflow) and
 # choose which question bank to extract. Each bank's PDF is attached to the
 # GitHub release under the file name set by release_asset in config.yaml:
-#   physics-p2   question_bank.pdf       physics-p6   p6_question_bank.pdf
-#   biology-p2   biology_p2.pdf          biology-p6   biology_p6.pdf
-#   chemistry-p2 chemistry_p2.pdf        chemistry-p6 chemistry_p6.pdf
+#   physics-p2   question_bank.pdf   physics-p4   physics_p4.pdf     physics-p6   p6_question_bank.pdf
+#   biology-p2   biology_p2.pdf      biology-p4   biology_p4.pdf     biology-p6   biology_p6.pdf
+#   chemistry-p2 chemistry_p2.pdf    chemistry-p4 chemistry_p4.pdf   chemistry-p6 chemistry_p6.pdf
 # Re-running it rebuilds that bank's images and question list; tags are kept.
 on:
   workflow_dispatch:
@@ -13,7 +13,8 @@ on:
       bank:
         description: "Question bank to extract"
         type: choice
-        options: [physics-p2, physics-p6, biology-p2, biology-p6, chemistry-p2, chemistry-p6]
+        options: [biology-p2, biology-p4, biology-p6, chemistry-p2, chemistry-p4, chemistry-p6,
+                  physics-p2, physics-p4, physics-p6]
         default: biology-p2
 
 permissions:
