@@ -23,11 +23,12 @@ window.PaperPDF = (() => {
     return questions.reduce((a, q) => a + q.tag.marks, 0);
   }
 
-  function suggestMinutes(questions, kind) {
+  function suggestMinutes(questions, kind, minutesPerMark) {
     const round5 = (m) => Math.max(5, Math.ceil(m / 5) * 5);
     if (kind === "mcq") return round5((questions.length * 45) / 40);   // 40 questions in 45 min
+    const perMark = minutesPerMark || 1.5;                              // Paper 6: 40 marks in 60 min
     const marks = totalMarks(questions, kind);
-    return marks ? round5(marks * 1.5) : round5(questions.length * 15); // 40 marks in 60 min
+    return marks ? round5(marks * perMark) : round5(questions.length * 10 * perMark);
   }
 
   function fit(p, maxW = MAX_W, maxH = PH - MT - MB) {
@@ -144,7 +145,7 @@ window.PaperPDF = (() => {
     doc.setFont("helvetica", "normal");
     doc.setFontSize(11);
     doc.text(`Cambridge IGCSE ${opts.subjectName || "Physics"} ${opts.code || "0625"}`, ML, y);
-    doc.text(mcq ? "Multiple choice" : "Alternative to practical", PW - MR, y, { align: "right" });
+    doc.text(opts.paperName || (mcq ? "Multiple choice" : "Alternative to practical"), PW - MR, y, { align: "right" });
     y += 4;
     doc.setLineWidth(0.6);
     doc.line(ML, y, PW - MR, y);

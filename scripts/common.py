@@ -73,12 +73,15 @@ def write_manifest(cfg):
             bid = f"{skey}-{bkey}"
             banks.append({
                 "key": bid, "label": b["label"], "long": b["long"], "kind": b["kind"],
+                "focus": b.get("focus", "practical" if b["kind"] == "structured" else None),
+                "minutes_per_mark": b.get("minutes_per_mark"),
                 "data": b["data_dir"],
                 "available": (SITE / b["data_dir"] / "questions.json").exists(),
             })
         subjects.append({"key": skey, "name": s["name"], "code": s["code"],
                          "syllabus": f'{s["data_root"]}/syllabus.json', "banks": banks})
-    save_json(MANIFEST_FILE, {"subjects": subjects, "skills": cfg.get("skills", {})})
+    save_json(MANIFEST_FILE, {"subjects": subjects, "skills": cfg.get("skills", {}),
+                              "theory_types": cfg.get("theory_types", {})})
 
 
 # ---------------------------------------------------------------- files

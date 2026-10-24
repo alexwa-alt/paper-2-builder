@@ -36,6 +36,14 @@ skills:
   drawings: "Drawings"
   tests: "Tests and identification"
 
+# Question types Gemini can tag Paper 4 (theory) questions with, and their labels.
+theory_types:
+  recall: "Knowledge and recall"
+  explanation: "Describe and explain"
+  calculation: "Calculations"
+  data: "Data, graphs and diagrams"
+  application: "Unfamiliar contexts"
+
 subjects:
   physics:
     name: Physics
@@ -120,10 +128,23 @@ subjects:
           - {code: "5.2", title: "Radioactivity", start_page: 608}
           - {code: "6.1", title: "Earth and the Solar System", start_page: 659}
           - {code: "6.2", title: "Stars and the Universe", start_page: 661}
+      p4:
+        label: "Paper 4"
+        long: "Theory (Extended)"
+        kind: structured
+        focus: theory          # tagged with theory_types rather than skills
+        id_prefix: "p4-"
+        minutes_per_mark: 1.0  # for the suggested time on the cover page
+        release_asset: physics_p4.pdf
+        data_dir: data/physics/p4
+        image_dir: images/physics/p4
+        footer_logo_pt: 700
+        questions_per_request: 2
       p6:
         label: "Paper 6"
         long: "Alternative to practical"
         kind: structured
+        minutes_per_mark: 1.5
         release_asset: p6_question_bank.pdf
         data_dir: data/p6
         image_dir: images/p6
@@ -177,10 +198,23 @@ subjects:
         image_dir: images/biology/p2
         footer_logo_pt: 700
         questions_per_request: 8
+      p4:
+        label: "Paper 4"
+        long: "Theory (Extended)"
+        kind: structured
+        focus: theory          # tagged with theory_types rather than skills
+        id_prefix: "p4-"
+        minutes_per_mark: 1.0  # for the suggested time on the cover page
+        release_asset: biology_p4.pdf
+        data_dir: data/biology/p4
+        image_dir: images/biology/p4
+        footer_logo_pt: 700
+        questions_per_request: 2
       p6:
         label: "Paper 6"
         long: "Alternative to practical"
         kind: structured
+        minutes_per_mark: 1.5
         release_asset: biology_p6.pdf
         data_dir: data/biology/p6
         image_dir: images/biology/p6
@@ -203,10 +237,23 @@ subjects:
         image_dir: images/chemistry/p2
         footer_logo_pt: 700
         questions_per_request: 8
+      p4:
+        label: "Paper 4"
+        long: "Theory (Extended)"
+        kind: structured
+        focus: theory          # tagged with theory_types rather than skills
+        id_prefix: "p4-"
+        minutes_per_mark: 1.0  # for the suggested time on the cover page
+        release_asset: chemistry_p4.pdf
+        data_dir: data/chemistry/p4
+        image_dir: images/chemistry/p4
+        footer_logo_pt: 700
+        questions_per_request: 2
       p6:
         label: "Paper 6"
         long: "Alternative to practical"
         kind: structured
+        minutes_per_mark: 1.5
         release_asset: chemistry_p6.pdf
         data_dir: data/chemistry/p6
         image_dir: images/chemistry/p6

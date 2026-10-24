@@ -14,7 +14,7 @@ bad response is simply retried on a later run.
 Usage:
   GEMINI_API_KEY=... python scripts/tag.py
   python scripts/tag.py --max-requests 2      # a quick test
-  python scripts/tag.py --bank biology-p6     # only one bank
+  python scripts/tag.py --bank biology-p4     # only one bank
   python scripts/tag.py --repeats-only        # just redo the repeat detection
 """
 import argparse
@@ -41,6 +41,13 @@ SKILL_HINTS = {
     "precautions": "precautions, accuracy, sources of error and improvements",
     "drawings": "making or labelling scientific drawings, such as of specimens",
     "tests": "chemical or food tests, identifying substances from observations",
+}
+THEORY_HINTS = {
+    "recall": "stating facts, definitions or names",
+    "explanation": "describing or explaining processes and observations",
+    "calculation": "numerical working",
+    "data": "reading, plotting or interpreting graphs, tables or diagrams",
+    "application": "applying knowledge to an unfamiliar situation",
 }
 
 
@@ -242,7 +249,27 @@ Return JSON exactly in this form:
 {{"results": [{{"id": "p6-1", "subpoints": ["1.2.3"], "section_ok": true, "suggested_section": null, "skills": ["readings", "graphs"], "difficulty": 2, "marks": 11, "text": "..."}}]}}"""
 
 
-def validate(item, kind, valid_codes, valid_sections, skills_allowed):
+THEORY_PROMPT = """You are tagging Cambridge IGCSE {subject} ({code}) Paper 4 (Theory, Extended) questions.
+Each question below is one or more page images, preceded by its id and the section it is filed under. The pages of one question follow each other.
+
+Sections it can be filed under (possibly an older syllabus layout):
+{sections}
+
+Learning objectives from the current syllabus for topic {chapter} ({C} = Core, {S} = Supplement):
+{objectives}
+
+For every question return:
+""" + COMMON_FIELDS + """
+- "types": every kind of demand the question makes, from: {types}.
+- "difficulty": 1 (mostly recall), 2 (standard), 3 (demanding: multi-step reasoning, extended explanation or unfamiliar contexts).
+- "marks": the question's total mark, from "[Total: ...]" on its last page, as a number; null if you cannot see it.
+- "text": a plain-text summary of 60 to 120 words: the context and what each part asks. Write superscripts as ^.
+
+Return JSON exactly in this form:
+{{"results": [{{"id": "p4-1", "subpoints": ["1.2.3"], "section_ok": true, "suggested_section": null, "types": ["recall", "explanation"], "difficulty": 2, "marks": 12, "text": "..."}}]}}"""
+
+
+def validate(item, kind, valid_codes, valid_sections, skills_allowed, focus="practical"):
     """Return a clean tag record, or None if the answer is unusable."""
     subpoints = [str(c).strip() for c in item.get("subpoints") or []]
     subpoints = [c for c in subpoints if c in valid_codes][:3]
@@ -270,10 +297,11 @@ def validate(item, kind, valid_codes, valid_sections, skills_allowed):
             return None
         out["type"] = item["type"]
     else:
-        skills = [s for s in item.get("skills") or [] if s in skills_allowed]
-        if not skills:
+        field = "types" if focus == "theory" else "skills"
+        values = [s for s in item.get(field) or [] if s in skills_allowed]
+        if not values:
             return None
-        out["skills"] = list(dict.fromkeys(skills))
+        out[field] = list(dict.fromkeys(values))
         try:
             marks = int(item.get("marks"))
             out["marks"] = marks if 1 <= marks <= 60 else None
@@ -297,17 +325,24 @@ def question_images(q):
 def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags):
     gcfg = cfg["gemini"]
     kind = bank["kind"]
-    skills_allowed = list(cfg.get("skills", {}))
+    focus = bank.get("focus", "practical")
+    if focus == "theory":
+        labels, hints = cfg.get("theory_types", {}), THEORY_HINTS
+    else:
+        labels, hints = cfg.get("skills", {}), SKILL_HINTS
+    skills_allowed = list(labels)
     objectives = [o for o in syllabus["objectives"] if o["code"].split(".")[0] == str(chapter)]
     if len(objectives) < 3:   # the bank's topic numbers don't line up with the syllabus
         objectives = syllabus["objectives"]
     valid_codes = {o["code"] for o in syllabus["objectives"]}
     valid_sections = {s["code"] for s in sections}
     titles = {s["code"]: s["title"] for s in sections}
-    template = MCQ_PROMPT if kind == "mcq" else STRUCTURED_PROMPT
+    template = (MCQ_PROMPT if kind == "mcq"
+                else THEORY_PROMPT if focus == "theory" else STRUCTURED_PROMPT)
     prompt = template.format(
         subject=bank["subject_name"], code=bank["code"],
-        skills=", ".join(f'"{k}" ({SKILL_HINTS.get(k, cfg["skills"][k])})' for k in skills_allowed),
+        skills=", ".join(f'"{k}" ({hints.get(k, labels[k])})' for k in skills_allowed),
+        types=", ".join(f'"{k}" ({hints.get(k, labels[k])})' for k in skills_allowed),
         sections="\n".join(f'{s["code"]} {s["title"]}' for s in sections),
         chapter=chapter, C="C", S="S",
         objectives="\n".join(f'{o["code"]} [{"C" if o["level"] == "core" else "S"}] {o["text"]}'
@@ -333,7 +368,7 @@ def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags):
     ok = 0
     for q in batch:
         clean = validate(returned.get(q["id"], {}), kind, valid_codes, valid_sections,
-                         skills_allowed)
+                         skills_allowed, focus)
         if clean is None:
             record_failure(tags, q["id"], "missing or invalid tags in response",
                            gcfg["max_attempts"])

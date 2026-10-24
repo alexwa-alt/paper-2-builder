@@ -11,18 +11,25 @@
     subjects: [
       { key: "biology", name: "Biology", code: "0610", syllabus: "data/biology/syllabus.json", banks: [
         { key: "biology-p2", label: "Paper 2", long: "Multiple choice", kind: "mcq", data: "data/biology/p2" },
+        { key: "biology-p4", label: "Paper 4", long: "Theory (Extended)", kind: "structured", focus: "theory", minutes_per_mark: 1, data: "data/biology/p4" },
         { key: "biology-p6", label: "Paper 6", long: "Alternative to practical", kind: "structured", data: "data/biology/p6" }] },
       { key: "chemistry", name: "Chemistry", code: "0620", syllabus: "data/chemistry/syllabus.json", banks: [
         { key: "chemistry-p2", label: "Paper 2", long: "Multiple choice", kind: "mcq", data: "data/chemistry/p2" },
+        { key: "chemistry-p4", label: "Paper 4", long: "Theory (Extended)", kind: "structured", focus: "theory", minutes_per_mark: 1, data: "data/chemistry/p4" },
         { key: "chemistry-p6", label: "Paper 6", long: "Alternative to practical", kind: "structured", data: "data/chemistry/p6" }] },
       { key: "physics", name: "Physics", code: "0625", syllabus: "data/syllabus.json", banks: [
         { key: "physics-p2", label: "Paper 2", long: "Multiple choice", kind: "mcq", data: "data" },
+        { key: "physics-p4", label: "Paper 4", long: "Theory (Extended)", kind: "structured", focus: "theory", minutes_per_mark: 1, data: "data/physics/p4" },
         { key: "physics-p6", label: "Paper 6", long: "Alternative to practical", kind: "structured", data: "data/p6" }] },
     ],
     skills: {
       readings: "Readings", tables: "Tables", graphs: "Graphs", calculations: "Calculations",
       conclusions: "Conclusions", planning: "Planning", precautions: "Precautions and accuracy",
       drawings: "Drawings", tests: "Tests and identification",
+    },
+    theory_types: {
+      recall: "Knowledge and recall", explanation: "Describe and explain", calculation: "Calculations",
+      data: "Data, graphs and diagrams", application: "Unfamiliar contexts",
     },
   };
   // Papers saved before subjects existed keep their storage keys.
@@ -36,6 +43,7 @@
     practical: "Practical", conceptual: "Conceptual",
   };
   let SKILL_LABEL = DEFAULT_MANIFEST.skills;
+  let THEORY_LABEL = DEFAULT_MANIFEST.theory_types;
   const DIFF_LABEL = { 1: "Easier", 2: "Standard", 3: "Harder" };
   const PAGE_SIZE = 40;
 
@@ -49,6 +57,8 @@
     f: {}, showAnswers: false, sort: "book",
   };
   const isMCQ = () => state.bank.kind === "mcq";
+  const isTheory = () => state.bank.focus === "theory";
+  const kindLabels = () => (isMCQ() ? TYPE_LABEL : isTheory() ? THEORY_LABEL : SKILL_LABEL);
 
   function emptyFilters() {
     return { text: "", sections: new Set(), levels: new Set(), sessions: new Set(),
@@ -103,7 +113,7 @@
       }
       q.effSection = q.tag && q.tag.section_ok === false && q.tag.suggested_section
         ? q.tag.suggested_section : q.section;
-      q.kinds = q.tag ? (q.tag.skills || [q.tag.type]) : [];
+      q.kinds = q.tag ? (q.tag.skills || q.tag.types || [q.tag.type]) : [];
     }
     for (const q of qdata.questions) {
       const reps = repeatsOf.get(q.id) || [];
@@ -187,14 +197,15 @@
     const saved = store.load();
     state.paper = (saved.ids || []).filter((id) => state.byId.has(id));
     const subj = state.subject.name;
-    $("#p-title").value = saved.title || (isMCQ() ? `${subj} practice paper` : `${subj} practical paper`);
+    $("#p-title").value = saved.title ||
+      (isMCQ() ? `${subj} practice paper` : isTheory() ? `${subj} theory paper` : `${subj} practical paper`);
     $("#p-cover").checked = !!saved.cover;
     $("#p-key").checked = saved.key !== undefined ? saved.key : true;
     $("#p-refs").checked = !!saved.refs;
     $("#p-time").value = saved.time || "";
 
     $("#f-levels-wrap").hidden = !isMCQ();
-    $("#f-types-legend").textContent = isMCQ() ? "Question type" : "Practical skills";
+    $("#f-types-legend").textContent = isMCQ() || isTheory() ? "Question type" : "Practical skills";
     $("#show-answers-label").textContent = isMCQ() ? "Show answers" : "Show mark schemes";
     $("#p-key-label").textContent = isMCQ() ? "Answer key on the last page" : "Mark schemes at the end";
     document.title = `${state.subject.name} ${bank.label} question bank`;
@@ -236,8 +247,7 @@
     $("#f-levels").innerHTML = chip("levels", "core", "Core") + chip("levels", "extended", "Extended");
     const sessions = [...new Set(state.questions.flatMap((q) => q.sessions))].sort();
     $("#f-sessions").innerHTML = sessions.map((k) => chip("sessions", k, SESSION_LABEL[k] || k.toUpperCase())).join("");
-    const kinds = isMCQ() ? TYPE_LABEL : SKILL_LABEL;
-    $("#f-types").innerHTML = Object.entries(kinds).map(([k, v]) => chip("types", k, v)).join("");
+    $("#f-types").innerHTML = Object.entries(kindLabels()).map(([k, v]) => chip("types", k, v)).join("");
     $("#f-diffs").innerHTML = Object.entries(DIFF_LABEL).map(([k, v]) => chip("diffs", k, v)).join("");
 
     const years = [...new Set(state.questions.flatMap((q) => q.years))].sort();
@@ -354,12 +364,12 @@
 
   function tagChips(q) {
     if (!q.tag) return "";
-    const kindLabels = isMCQ() ? TYPE_LABEL : SKILL_LABEL;
+    const labels = kindLabels();
     return q.tag.subpoints.map((c) => {
       const o = state.objectives.get(c);
       return `<span class="tag" title="${esc(o ? o.text : "")}">${esc(c)}</span>`;
     }).join("") +
-      q.kinds.map((k) => `<span class="tag">${esc(kindLabels[k] || k)}</span>`).join("") +
+      q.kinds.map((k) => `<span class="tag">${esc(labels[k] || k)}</span>`).join("") +
       `<span class="tag">${esc(DIFF_LABEL[q.tag.difficulty] || "")}</span>`;
   }
 
@@ -435,7 +445,7 @@
     const untagged = state.questions.length - state.questions.filter((q) => q.tag).length;
     const note = $("#tag-note");
     note.hidden = !(usesTags && untagged > 0);
-    note.textContent = `${isMCQ() ? "Type" : "Skill"}, difficulty and learning-objective filters only include tagged questions. ${untagged.toLocaleString()} are still waiting to be tagged.`;
+    note.textContent = `${isMCQ() || isTheory() ? "Type" : "Skill"}, difficulty and learning-objective filters only include tagged questions. ${untagged.toLocaleString()} are still waiting to be tagged.`;
   }
 
   function rerenderSlip(id) {
@@ -511,7 +521,7 @@
         <button data-remove="${i}" aria-label="Remove">✕</button>
       </li>`;
     }).join("");
-    const auto = PaperPDF.suggestMinutes(qs, state.bank.kind);
+    const auto = PaperPDF.suggestMinutes(qs, state.bank.kind, state.bank.minutes_per_mark);
     const mins = +$("#p-time").value || auto;
     $("#p-time").placeholder = `auto (${auto})`;
     $("#p-time-wrap").hidden = !$("#p-cover").checked;
@@ -550,13 +560,14 @@
       try {
         const qs = paperQuestions();
         await PaperPDF.build(qs, {
-          kind: state.bank.kind,
+          kind: state.bank.kind, paperName: state.bank.long,
           subject: state.subject.key, subjectName: state.subject.name, code: state.subject.code,
           title: $("#p-title").value.trim() || "Physics practice paper",
           cover: $("#p-cover").checked,
           key: $("#p-key").checked,
           refs: $("#p-refs").checked,
-          minutes: +$("#p-time").value || PaperPDF.suggestMinutes(qs, state.bank.kind),
+          minutes: +$("#p-time").value ||
+            PaperPDF.suggestMinutes(qs, state.bank.kind, state.bank.minutes_per_mark),
         });
       } catch (err) {
         console.error(err);
@@ -597,6 +608,7 @@
     wireDrawers();
     const manifest = (await fetchJSON("data/manifest.json", null)) || DEFAULT_MANIFEST;
     SKILL_LABEL = { ...DEFAULT_MANIFEST.skills, ...(manifest.skills || {}) };
+    THEORY_LABEL = { ...DEFAULT_MANIFEST.theory_types, ...(manifest.theory_types || {}) };
     state.subjects = [...manifest.subjects].sort((a, b) =>
       SUBJECT_ORDER.indexOf(a.key) - SUBJECT_ORDER.indexOf(b.key));
     for (const s of state.subjects) {

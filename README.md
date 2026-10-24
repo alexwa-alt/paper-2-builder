@@ -4,11 +4,11 @@ Turns compiled PDFs of Cambridge IGCSE past-paper questions into a searchable we
 
 | Subject | Code | Banks |
 |---|---|---|
-| Biology | 0610 | Paper 2 (multiple choice), Paper 6 (alternative to practical) |
-| Chemistry | 0620 | Paper 2, Paper 6 (set up; shown as "coming soon" until extracted) |
-| Physics | 0625 | Paper 2, Paper 6 |
+| Biology | 0610 | Paper 2 (multiple choice), Paper 4 (theory, Extended), Paper 6 (alternative to practical) |
+| Chemistry | 0620 | Paper 2, Paper 4, Paper 6 (set up; shown as "coming soon" until extracted) |
+| Physics | 0625 | Paper 2, Paper 4 (set up), Paper 6 |
 
-Each bank is one compiled PDF. Multiple-choice banks take their answers from the letter answer key at the back. Paper 6 banks take their mark schemes from the back.
+Each bank is one compiled PDF. A bank only appears on the site once it has been extracted. Multiple-choice banks take their answers from the letter answer key at the back. Paper 4 and Paper 6 banks take their mark schemes from the back.
 
 It works in three stages:
 
@@ -18,21 +18,19 @@ It works in three stages:
    - a difficulty rating;
    - a text transcription or summary for search;
    - a check that each question is filed in the right section;
-   - question type (Paper 2), or practical skills and total marks (Paper 6).
+   - question type (Paper 2 and Paper 4), or practical skills (Paper 6);
+   - total marks (Paper 4 and Paper 6).
 3. **Publish** (GitHub Pages). A static site for filtering questions and downloading a PDF practice paper with an optional cover page and answer key or mark schemes.
 
 ## Adding a subject's PDFs
 
 1. **Attach the PDFs to the release.** Go to **Releases**, click the pencil icon on your release, and attach each PDF under the name shown in this table. The names must match exactly. Then click **Update release**.
 
-   | Bank | Release file name |
-   |---|---|
-   | Physics Paper 2 | `question_bank.pdf` |
-   | Physics Paper 6 | `p6_question_bank.pdf` |
-   | Biology Paper 2 | `biology_p2.pdf` |
-   | Biology Paper 6 | `biology_p6.pdf` |
-   | Chemistry Paper 2 | `chemistry_p2.pdf` |
-   | Chemistry Paper 6 | `chemistry_p6.pdf` |
+   | Bank | Paper 2 | Paper 4 | Paper 6 |
+   |---|---|---|---|
+   | Biology | `biology_p2.pdf` | `biology_p4.pdf` | `biology_p6.pdf` |
+   | Chemistry | `chemistry_p2.pdf` | `chemistry_p4.pdf` | `chemistry_p6.pdf` |
+   | Physics | `question_bank.pdf` | `physics_p4.pdf` | `p6_question_bank.pdf` |
 
 2. **Add the subject's syllabus** to the `input` folder: `input/biology_syllabus.pdf` or `input/chemistry_syllabus.pdf`. Physics uses `input/syllabus.pdf`.
 3. **Run the extraction.** In the *Actions* tab, choose **1. Extract questions**, click **Run workflow**, pick the bank and run it. The site updates automatically when it finishes, and the subject appears on the start screen.
@@ -56,10 +54,15 @@ It works in three stages:
 ## Using the site
 
 - Choose a subject on the start screen. To switch later, click the subject's name at the top left. Within a subject, switch between Paper 2 and Paper 6 at the top right. Each bank has its own filters and its own paper.
-- Filter by topic and section, learning objective, exam year and session, difficulty, and either question type and tier (Paper 2) or practical skills (Paper 6). You can also search the question text.
+- Filter by topic and section, learning objective, exam year and session and difficulty. Each paper also has its own filter:
+  - Paper 2: question type and tier;
+  - Paper 4: question type (recall, describe and explain, calculations, data, unfamiliar contexts);
+  - Paper 6: practical skills.
+
+  You can also search the question text.
 - *Add random* adds that many random questions from the current results to your paper.
 - **Paper 2:** compiled papers flow the questions down the page, with an optional cover page (with an answer grid) and an answer key.
-- **Paper 6:** every question starts on a new page and keeps its original page breaks. Mark schemes can be added at the end.
+- **Paper 4 and Paper 6:** every question starts on a new page and keeps its original page breaks. Mark schemes can be added at the end. The suggested time on the cover page is 1 minute per mark for Paper 4 and 1.5 for Paper 6 (`minutes_per_mark` in `config.yaml`).
 - Papers are remembered in that browser until you clear them.
 - Links include the bank, e.g. `…/#biology-p6`, so you can bookmark one.
 
@@ -68,6 +71,7 @@ It works in three stages:
 - `gemini.model`: the Gemini model used. Free-tier models change; see the [Gemini models page](https://ai.google.dev/gemini-api/docs/models).
 - `gemini.max_requests_per_run` and `seconds_between_requests`: how much each hourly run tries to do. Runs stop cleanly if Gemini is busy or the quota runs out.
 - `skills`: the practical skills Paper 6 questions can be tagged with, and their labels on the site.
+- `theory_types`: the question types Paper 4 questions can be tagged with.
 - `subjects.<subject>.banks.<bank>`: each bank's release file name, folders, questions per Gemini request and, optionally, its contents page.
 
 ## Running on your own computer
@@ -98,8 +102,8 @@ scripts/common.py, extract.py, tag.py
 site/                           the website (published to GitHub Pages)
   data/manifest.json            which subjects and banks exist (generated)
   data/, images/                Physics Paper 2 (data/syllabus.json = Physics objectives)
-  data/p6/, images/p6/          Physics Paper 6
-  data/biology/...              Biology objectives, p2/ and p6/ (images/biology/...)
+  data/p6/, images/p6/          Physics Paper 6 (Physics Paper 4 goes in data/physics/p4/)
+  data/biology/...              Biology objectives, p2/, p4/ and p6/ (images/biology/...)
   data/chemistry/...            Chemistry, the same way
 .github/workflows/
   extract.yml                   1. Extract questions (run by hand, choose the bank)
