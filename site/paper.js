@@ -143,7 +143,7 @@ window.PaperPDF = (() => {
     doc.setTextColor(0);
     doc.setFont("helvetica", "normal");
     doc.setFontSize(11);
-    doc.text("Cambridge IGCSE Physics 0625", ML, y);
+    doc.text(`Cambridge IGCSE ${opts.subjectName || "Physics"} ${opts.code || "0625"}`, ML, y);
     doc.text(mcq ? "Multiple choice" : "Alternative to practical", PW - MR, y, { align: "right" });
     y += 4;
     doc.setLineWidth(0.6);
@@ -194,7 +194,8 @@ window.PaperPDF = (() => {
         count,
         "For each question there are four possible answers, A, B, C and D. Choose the one you consider correct and write its letter clearly next to the question number.",
         "Use a black or dark blue pen. You may use a calculator.",
-        "Take the weight of 1.0 kg to be 9.8 N (acceleration of free fall = 9.8 m/s²).",
+        ...((opts.subject || "physics") === "physics"
+          ? ["Take the weight of 1.0 kg to be 9.8 N (acceleration of free fall = 9.8 m/s²)."] : []),
       ]);
       block("Information", [
         `Each correct answer scores one mark. The total mark for this paper is ${n}.`,
@@ -355,7 +356,7 @@ window.PaperPDF = (() => {
     const images = new Map(list.map((u, i) => [u, data[i]]));
 
     const doc = new jsPDF({ unit: "mm", format: "a4", compress: true });
-    doc.setProperties({ title: opts.title, creator: "0625 question bank" });
+    doc.setProperties({ title: opts.title, creator: "IGCSE question bank" });
     let first = true;
     if (opts.cover) {
       drawCover(doc, opts, questions, total);

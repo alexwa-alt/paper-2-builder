@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>0625 Physics question bank</title>
+<title>IGCSE question bank</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧲</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 <header class="topbar">
   <button class="ghost only-narrow" id="open-filters" aria-controls="filters" aria-expanded="false">Filters</button>
   <div class="brand">
-    <h1>0625 Physics question bank</h1>
+    <h1><button class="subject-switch" id="change-subject" title="Change subject">Choose a subject</button> question bank</h1>
     <p id="progress" class="muted"></p>
   </div>
   <nav class="banks" id="banks" aria-label="Question bank"></nav>
@@ -124,6 +124,16 @@
   </aside>
 </div>
 <div class="scrim" id="scrim" hidden></div>
+
+<div class="splash" id="splash" role="dialog" aria-modal="true" aria-labelledby="splash-title" hidden>
+  <div class="splash-inner">
+    <p class="splash-kicker">Cambridge IGCSE past papers</p>
+    <h2 id="splash-title">Which subject?</h2>
+    <p class="muted">Browse past-paper questions by topic and build practice papers.</p>
+    <div class="subject-cards" id="subject-cards"></div>
+    <button class="ghost" id="close-splash" hidden>Back to questions</button>
+  </div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="paper.js"></script>

@@ -265,3 +265,41 @@ legend { font-weight: 700; padding: 0; margin-bottom: .4rem; }
 @media (prefers-reduced-motion: reduce) {
   .paper, .filters { transition: none; }
 }
+
+/* ---------- subject switch and splash */
+.subject-switch {
+  font: inherit; font-weight: 700; padding: .05rem .5rem; margin-left: -.5rem;
+  border: 1px solid transparent; background: transparent;
+}
+.subject-switch::after { content: " ▾"; font-size: .7em; color: var(--muted); }
+.subject-switch:hover { border-color: var(--rule); }
+.splash {
+  position: fixed; inset: 0; z-index: 40;
+  display: grid; place-items: center;
+  background: var(--bg);
+  padding: calc(env(safe-area-inset-top, 0px) + 1.5rem) 1.25rem calc(env(safe-area-inset-bottom, 0px) + 1.5rem);
+  overflow-y: auto;
+}
+body.splash-open { overflow: hidden; }
+.splash-inner { width: min(860px, 100%); text-align: center; }
+.splash-kicker { margin: 0 0 .4rem; font-weight: 700; color: var(--accent); letter-spacing: .02em; }
+.splash h2 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin-bottom: .5rem; }
+.subject-cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem; margin: 2rem 0 1.25rem; text-align: left;
+}
+.subject-card {
+  display: flex; flex-direction: column; gap: .3rem;
+  padding: 1.25rem 1.25rem 1.1rem; min-height: 9.5rem;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 10px;
+  border-top: 6px solid var(--accent);
+}
+.subject-card[data-subject="biology"] { border-top-color: #2f8f5b; }
+.subject-card[data-subject="chemistry"] { border-top-color: #c2551f; }
+.subject-card[data-subject="physics"] { border-top-color: #2547a6; }
+.subject-card:hover:not(:disabled) { border-color: var(--ink); transform: translateY(-2px); }
+.subject-card:disabled { opacity: .55; }
+.subject-name { font-size: 1.4rem; font-weight: 700; }
+.subject-code { color: var(--muted); font-weight: 700; }
+.subject-status { margin-top: auto; font-size: .9rem; color: var(--muted); line-height: 1.4; }
+@media (prefers-reduced-motion: reduce) { .subject-card:hover:not(:disabled) { transform: none; } }

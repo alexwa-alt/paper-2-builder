@@ -6,27 +6,41 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // The banks the site knows about. Data folders match config.yaml.
-  const BANKS = [
-    { key: "p2", label: "Paper 2", long: "Multiple choice", data: "data", kind: "mcq",
-      store: "qb0625.paper.v1" },
-    { key: "p6", label: "Paper 6", long: "Alternative to practical", data: "data/p6", kind: "structured",
-      store: "qb0625.paper.p6.v1" },
-  ];
+  // Used until the first extraction or tagging run writes data/manifest.json.
+  const DEFAULT_MANIFEST = {
+    subjects: [
+      { key: "biology", name: "Biology", code: "0610", syllabus: "data/biology/syllabus.json", banks: [
+        { key: "biology-p2", label: "Paper 2", long: "Multiple choice", kind: "mcq", data: "data/biology/p2" },
+        { key: "biology-p6", label: "Paper 6", long: "Alternative to practical", kind: "structured", data: "data/biology/p6" }] },
+      { key: "chemistry", name: "Chemistry", code: "0620", syllabus: "data/chemistry/syllabus.json", banks: [
+        { key: "chemistry-p2", label: "Paper 2", long: "Multiple choice", kind: "mcq", data: "data/chemistry/p2" },
+        { key: "chemistry-p6", label: "Paper 6", long: "Alternative to practical", kind: "structured", data: "data/chemistry/p6" }] },
+      { key: "physics", name: "Physics", code: "0625", syllabus: "data/syllabus.json", banks: [
+        { key: "physics-p2", label: "Paper 2", long: "Multiple choice", kind: "mcq", data: "data" },
+        { key: "physics-p6", label: "Paper 6", long: "Alternative to practical", kind: "structured", data: "data/p6" }] },
+    ],
+    skills: {
+      readings: "Readings", tables: "Tables", graphs: "Graphs", calculations: "Calculations",
+      conclusions: "Conclusions", planning: "Planning", precautions: "Precautions and accuracy",
+      drawings: "Drawings", tests: "Tests and identification",
+    },
+  };
+  // Papers saved before subjects existed keep their storage keys.
+  const LEGACY_STORE = { "physics-p2": "qb0625.paper.v1", "physics-p6": "qb0625.paper.p6.v1" };
+  const LEGACY_HASH = { p2: "physics-p2", p6: "physics-p6" };
+  const SUBJECT_ORDER = ["biology", "chemistry", "physics"];
 
   const SESSION_LABEL = { m: "Feb/Mar", s: "May/Jun", w: "Oct/Nov" };
   const TYPE_LABEL = {
     calculation: "Calculation", graph_or_diagram: "Graph or diagram",
     practical: "Practical", conceptual: "Conceptual",
   };
-  const SKILL_LABEL = {
-    readings: "Readings", tables: "Tables", graphs: "Graphs", calculations: "Calculations",
-    conclusions: "Conclusions", planning: "Planning", precautions: "Precautions and accuracy",
-  };
+  let SKILL_LABEL = DEFAULT_MANIFEST.skills;
   const DIFF_LABEL = { 1: "Easier", 2: "Standard", 3: "Harder" };
   const PAGE_SIZE = 40;
 
   const state = {
+    subjects: [], subject: null, syllabi: {},
     bank: null, available: [], cache: {},
     questions: [], byId: new Map(), sections: [], chapters: [],
     sectionTitle: {}, objectives: new Map(),
@@ -45,18 +59,20 @@
   // ------------------------------------------------------------ storage
   const store = {
     load() {
-      try { return JSON.parse(localStorage.getItem(state.bank.store)) || {}; } catch { return {}; }
+      try { return JSON.parse(localStorage.getItem(storeKey())) || {}; } catch { return {}; }
     },
     save() {
       try {
-        localStorage.setItem(state.bank.store, JSON.stringify({
+        localStorage.setItem(storeKey(), JSON.stringify({
           ids: state.paper, title: $("#p-title").value, cover: $("#p-cover").checked,
           key: $("#p-key").checked, refs: $("#p-refs").checked, time: $("#p-time").value,
         }));
-        localStorage.setItem("qb0625.bank", state.bank.key);
       } catch { /* storage unavailable: the paper just won't persist */ }
     },
   };
+  function storeKey() { return LEGACY_STORE[state.bank.key] || `qbank.paper.${state.bank.key}.v1`; }
+  function remember(key, value) { try { localStorage.setItem(key, value); } catch { /* ignore */ } }
+  function recall(key) { try { return localStorage.getItem(key); } catch { return null; } }
 
   async function fetchJSON(url, fallback) {
     try {
@@ -106,6 +122,45 @@
     return data;
   }
 
+  // ------------------------------------------------------------ subjects
+  async function loadSyllabus(subject) {
+    if (!(subject.key in state.syllabi)) {
+      const data = await fetchJSON(subject.syllabus, null);
+      state.syllabi[subject.key] = new Map((data?.objectives || []).map((o) => [o.code, o]));
+    }
+    return state.syllabi[subject.key];
+  }
+
+  function renderSplash() {
+    $("#subject-cards").innerHTML = state.subjects.map((s) => {
+      const banks = s.banks.filter((b) => b.ready);
+      const status = banks.length ? banks.map((b) => `${b.label}: ${b.long}`).join("<br>") : "Coming soon";
+      return `<button class="subject-card" data-subject="${s.key}" ${banks.length ? "" : "disabled"}>
+        <span class="subject-name">${esc(s.name)}</span>
+        <span class="subject-code">${esc(s.code)}</span>
+        <span class="subject-status">${status}</span>
+      </button>`;
+    }).join("");
+  }
+
+  function showSplash(show) {
+    $("#splash").hidden = !show;
+    document.body.classList.toggle("splash-open", show);
+    if (show) renderSplash();
+  }
+
+  async function chooseSubject(key, bankKey) {
+    const subject = state.subjects.find((s) => s.key === key && s.banks.some((b) => b.ready));
+    if (!subject) { showSplash(true); return; }
+    state.subject = subject;
+    state.objectives = await loadSyllabus(subject);
+    state.available = subject.banks.filter((b) => b.ready);
+    $("#change-subject").textContent = subject.name;
+    remember("qbank.subject", subject.key);
+    showSplash(false);
+    await switchBank(bankKey || recall(`qbank.bank.${subject.key}`) || state.available[0].key);
+  }
+
   // ------------------------------------------------------------ bank switching
   function renderBankTabs() {
     $("#banks").innerHTML = state.available.length < 2 ? "" : state.available.map((b) =>
@@ -114,6 +169,7 @@
 
   async function switchBank(key) {
     const bank = state.available.find((b) => b.key === key) || state.available[0];
+    $("#close-splash").hidden = false;
     const data = await loadBank(bank);
     state.bank = bank;
     state.questions = data.questions;
@@ -130,7 +186,8 @@
 
     const saved = store.load();
     state.paper = (saved.ids || []).filter((id) => state.byId.has(id));
-    $("#p-title").value = saved.title || (isMCQ() ? "Physics practice paper" : "Physics practical paper");
+    const subj = state.subject.name;
+    $("#p-title").value = saved.title || (isMCQ() ? `${subj} practice paper` : `${subj} practical paper`);
     $("#p-cover").checked = !!saved.cover;
     $("#p-key").checked = saved.key !== undefined ? saved.key : true;
     $("#p-refs").checked = !!saved.refs;
@@ -140,7 +197,7 @@
     $("#f-types-legend").textContent = isMCQ() ? "Question type" : "Practical skills";
     $("#show-answers-label").textContent = isMCQ() ? "Show answers" : "Show mark schemes";
     $("#p-key-label").textContent = isMCQ() ? "Answer key on the last page" : "Mark schemes at the end";
-    document.title = `0625 ${bank.label} question bank`;
+    document.title = `${state.subject.name} ${bank.label} question bank`;
 
     const total = state.questions.length;
     const tagged = state.questions.filter((q) => q.tag).length;
@@ -152,7 +209,7 @@
     buildFilters();
     renderPaper();
     update();
-    try { localStorage.setItem("qb0625.bank", bank.key); } catch { /* ignore */ }
+    remember(`qbank.bank.${state.subject.key}`, bank.key);
     if (location.hash !== `#${bank.key}`) history.replaceState(null, "", `#${bank.key}`);
   }
 
@@ -462,8 +519,9 @@
     const parts = [];
     if (ids.length) {
       parts.push(`${ids.length} question${ids.length === 1 ? "" : "s"}`);
-      if (marks) parts.push(`${marks} marks`);
-      parts.push(`about ${PaperPDF.estimatePages(qs, state.bank.kind)} pages of questions`);
+      const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+      if (marks) parts.push(plural(marks, "mark"));
+      parts.push(`about ${plural(PaperPDF.estimatePages(qs, state.bank.kind), "page")} of questions`);
       if ($("#p-cover").checked) parts.push(`${mins} minutes`);
     }
     $("#p-summary").textContent = parts.length ? parts.join(", ") + "." : "";
@@ -493,6 +551,7 @@
         const qs = paperQuestions();
         await PaperPDF.build(qs, {
           kind: state.bank.kind,
+          subject: state.subject.key, subjectName: state.subject.name, code: state.subject.code,
           title: $("#p-title").value.trim() || "Physics practice paper",
           cover: $("#p-cover").checked,
           key: $("#p-key").checked,
@@ -530,27 +589,42 @@
   }
 
   // ------------------------------------------------------------ start
+  function subjectOfBank(key) {
+    return state.subjects.find((s) => s.banks.some((b) => b.key === key));
+  }
+
   async function start() {
     wireDrawers();
-    const [syllabus] = await Promise.all([fetchJSON("data/syllabus.json", null)]);
-    (syllabus?.objectives || []).forEach((o) => state.objectives.set(o.code, o));
-
-    for (const b of BANKS) if (await loadBank(b)) state.available.push(b);
-    if (!state.available.length) {
-      $("#list").innerHTML = `<div class="empty"><p><strong>No questions yet.</strong></p>
-        <p>Run the “1. Extract questions” workflow in the repository's Actions tab, then reload this page.</p></div>`;
-      $("#result-count").textContent = "";
-      return;
+    const manifest = (await fetchJSON("data/manifest.json", null)) || DEFAULT_MANIFEST;
+    SKILL_LABEL = { ...DEFAULT_MANIFEST.skills, ...(manifest.skills || {}) };
+    state.subjects = [...manifest.subjects].sort((a, b) =>
+      SUBJECT_ORDER.indexOf(a.key) - SUBJECT_ORDER.indexOf(b.key));
+    for (const s of state.subjects) {
+      for (const b of s.banks) b.ready = !!(await loadBank(b));
     }
     wireFilters();
     wireResults();
     wirePaper();
-    let first = location.hash.slice(1);
-    try { first = first || localStorage.getItem("qb0625.bank"); } catch { /* ignore */ }
-    await switchBank(first);
+    $("#subject-cards").addEventListener("click", (e) => {
+      const card = e.target.closest("[data-subject]");
+      if (card && !card.disabled) chooseSubject(card.dataset.subject);
+    });
+    $("#change-subject").addEventListener("click", () => showSplash(true));
+    $("#close-splash").addEventListener("click", () => { if (state.subject) showSplash(false); });
+
+    const hash = LEGACY_HASH[location.hash.slice(1)] || location.hash.slice(1);
+    const fromHash = subjectOfBank(hash);
+    if (fromHash) await chooseSubject(fromHash.key, hash);
+    else if (recall("qbank.subject") || recall("qb0625.bank")) await chooseSubject(recall("qbank.subject") || "physics");
+    else showSplash(true);
+    $("#close-splash").hidden = !state.subject;
+
     window.addEventListener("hashchange", () => {
-      const key = location.hash.slice(1);
-      if (key && key !== state.bank.key) switchBank(key);
+      const key = LEGACY_HASH[location.hash.slice(1)] || location.hash.slice(1);
+      const subject = subjectOfBank(key);
+      if (!subject || key === state.bank?.key) return;
+      if (subject !== state.subject) chooseSubject(subject.key, key);
+      else switchBank(key);
     });
   }
 
