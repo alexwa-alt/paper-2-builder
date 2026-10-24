@@ -15044,5 +15044,226 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-24T06:09:29+00:00"
+ },
+ "q1180": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A cylinder of conducting putty has length l, diameter d and resistance R. The putty is now moulded into a cylinder of diameter 2d that has the same volume.\n\n[Diagram showing a cylinder of conducting putty with length l, diameter d, and resistance R]\n\nBy which factor does the resistance of the putty cylinder decrease?\n\nA 2\nB 4\nC 8\nD 16",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1181": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.6",
+   "4.2.2.5",
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The average current during a lightning strike between a cloud and the ground is 1.5 × 10^4 A.\n\nThe lightning releases 3.0 × 10^8 J of energy and lasts for 2.0 × 10^-4 s.\n\nWhat is the average electromotive force (e.m.f.) between the cloud and the ground?\n\nA 4.0 V\nB 100 V\nC 1.0 × 10^8 V\nD 9.0 × 10^8 V",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1182": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.5",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student tests the electrical conduction of four materials.\n\naluminium\niron\nplastic\nsilver\n\nWhich materials conduct electricity?\n\nA aluminium, iron and silver only\nB aluminium and silver only\nC iron, silver and plastic only\nD plastic only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1183": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the unit of charge?\n\nA ampere\nB coulomb\nC ohm\nD volt",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1184": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.2.3",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An isolated metal sphere is positively charged.\n\nIt is then brought near to another isolated metal sphere that is neutral.\n\n[Diagram showing a positively charged metal sphere on the left with an arrow pointing towards a neutral metal sphere on the right]\n\nWhat happens to the charges on the neutral sphere as the positively charged sphere is brought close to it?\n\nA Some positive charges move to the left and some negative charges move to the right.\nB Some positive charges move to the right and some negative charges move to the left.\nC Some positive charges move to the right, but the negative charges do not move.\nD The positive charges do not move, but some negative charges move to the left.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1185": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram is the current-voltage (I-V) characteristic graph for a metallic conductor at constant temperature?\n\n[Four graphs of I against V:\nA shows a curve with decreasing gradient\nB shows a curve with increasing gradient\nC shows a horizontal line at a constant value of I\nD shows a straight line passing through the origin with constant positive gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1186": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.6",
+   "4.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which material is a conductor of electricity?\n\nA brass\nB glass\nC plastic\nD wood",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1187": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams each show a positive point charge.\n\nWhich diagram represents the pattern and the direction of the electric field due to the charge?\n\n[Four diagrams showing a positive point charge (+):\nA shows radial field lines pointing outward\nB shows radial field lines pointing inward\nC shows concentric circular field lines directed clockwise\nD shows concentric circular field lines directed counterclockwise]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:25:05+00:00"
+ },
+ "q1188": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit contains a fixed resistor. The potential difference across the resistor is 24.0 V and the current in the resistor is 2.30 A.\n\nHow much energy is transferred in the resistor in a time of 17.0 minutes?\n\nA  938 J\nB  5630 J\nC  56.3 kJ\nD  9.38 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1189": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows the way in which one physical quantity y varies with another physical quantity x.\n\n[Graph of y against x showing a straight line passing through the origin (0, 0) with a positive constant gradient]\n\nWhich row gives suitable quantities for y and x?\n\nA  y: the number of atoms of a radioactive isotope present | x: the time taken\nB  y: the potential difference across a metallic conductor | x: the current in the metallic conductor\nC  y: the resistance of a length of wire | x: the diameter of the wire\nD  y: the volume of a 1.0 kg object | x: the density of the material from which the object is made",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1190": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The potential difference across a car headlamp is 12 V. The current in the lamp is 2.5 A.\n\nHow much energy is transferred by the lamp in 1.0 hour?\n\nA  1800 J\nB  1800 W\nC  108 000 J\nD  108 000 W",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1191": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current in a metal wire.\n\nWhich particles in the wire move to cause this current?\n\nA  α-particles\nB  electrons\nC  neutrons\nD  protons",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1192": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows part of a circuit.\n\n[Circuit diagram showing two parallel branches: the top branch contains a 2.0 Ω resistor in series with a 1.0 Ω resistor; the bottom branch contains a 4.0 Ω resistor]\n\nWhat is the combined resistance of the resistors?\n\nA  0.14 Ω\nB  0.57 Ω\nC  1.7 Ω\nD  7.0 Ω",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1193": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.3",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a circuit which includes two resistors and a battery.\n\n[Circuit diagram showing a battery connected in series with a 10 Ω resistor and a 30 Ω resistor. A voltmeter is connected in parallel across the 10 Ω resistor and reads 6.0 V.]\n\nThe voltmeter reads 6.0 V.\n\nWhat is the potential difference across the 30 Ω resistor?\n\nA  2.0 V\nB  6.0 V\nC  18 V\nD  24 V",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1194": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.2.3.6"
+  ],
+  "section_ok": false,
+  "suggested_section": "4.2",
+  "difficulty": 2,
+  "text": "A battery is connected to a circuit. It is switched on for 1.0 minute. During that time, there is a current of 0.40 A in the circuit and the battery supplies a total of 48 J of energy.\n\nWhich row gives the charge that passes and the electromotive force (e.m.f.) of the battery?\n\nA  charge that passes in 1.0 minute / C: 0.40 | e.m.f. of the battery / V: 2.0\nB  charge that passes in 1.0 minute / C: 0.40 | e.m.f. of the battery / V: 120\nC  charge that passes in 1.0 minute / C: 24 | e.m.f. of the battery / V: 2.0\nD  charge that passes in 1.0 minute / C: 24 | e.m.f. of the battery / V: 120",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
+ },
+ "q1195": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.9",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The circuit diagram shows two identical lamps connected in parallel to a cell. Three ammeters, X, Y and Z, are also connected in the circuit, as shown.\n\n[Circuit diagram showing a cell connected in series with ammeter X in the main branch. The circuit splits into two parallel branches: one branch contains ammeter Y and a lamp; the other branch contains ammeter Z and a lamp.]\n\nWhich statement about the current in X is correct?\n\nA  It is equal to the current in Y and to the current in Z.\nB  It is less than either the current in Y or the current in Z.\nC  It is equal to the sum of the current in Y and the current in Z.\nD  It is equal to the difference between the current in Y and the current in Z.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T23:28:16+00:00"
  }
 }
