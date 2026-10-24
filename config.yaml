@@ -210,6 +210,51 @@ subjects:
         image_dir: images/biology/p4
         footer_logo_pt: 700
         questions_per_request: 2
+        answers_start_page: 929
+        # This bank's contents page lists topics only (no subtopics), so each
+        # topic is entered as a single section whose code is the topic number.
+        chapters:
+          - {num: 1, title: "Characteristics and classification of living organisms"}
+          - {num: 2, title: "Organisation of the organism"}
+          - {num: 3, title: "Movement into and out of cells"}
+          - {num: 4, title: "Enzymes"}
+          - {num: 5, title: "Plant nutrition"}
+          - {num: 6, title: "Human nutrition"}
+          - {num: 7, title: "Transport in plants"}
+          - {num: 8, title: "Transport in animals"}
+          - {num: 9, title: "Diseases and immunity"}
+          - {num: 10, title: "Gas exchange in humans"}
+          - {num: 11, title: "Respiration"}
+          - {num: 12, title: "Excretion in humans"}
+          - {num: 13, title: "Coordination and response"}
+          - {num: 14, title: "Drugs"}
+          - {num: 15, title: "Reproduction"}
+          - {num: 16, title: "Inheritance"}
+          - {num: 17, title: "Variation and selection"}
+          - {num: 18, title: "Organisms and their environment"}
+          - {num: 19, title: "Human influences on ecosystems"}
+          - {num: 20, title: "Biotechnology and genetic modification"}
+        sections:
+          - {code: "1", title: "Characteristics and classification of living organisms", start_page: 7}
+          - {code: "2", title: "Organisation of the organism", start_page: 13}
+          - {code: "3", title: "Movement into and out of cells", start_page: 17}
+          - {code: "4", title: "Enzymes", start_page: 21}
+          - {code: "5", title: "Plant nutrition", start_page: 25}
+          - {code: "6", title: "Human nutrition", start_page: 43}
+          - {code: "7", title: "Transport in plants", start_page: 89}
+          - {code: "8", title: "Transport in animals", start_page: 139}
+          - {code: "9", title: "Diseases and immunity", start_page: 187}
+          - {code: "10", title: "Gas exchange in humans", start_page: 237}
+          - {code: "11", title: "Respiration", start_page: 263}
+          - {code: "12", title: "Excretion in humans", start_page: 295}
+          - {code: "13", title: "Coordination and response", start_page: 313}
+          - {code: "14", title: "Drugs", start_page: 397}
+          - {code: "15", title: "Reproduction", start_page: 417}
+          - {code: "16", title: "Inheritance", start_page: 473}
+          - {code: "17", title: "Variation and selection", start_page: 575}
+          - {code: "18", title: "Organisms and their environment", start_page: 617}
+          - {code: "19", title: "Human influences on ecosystems", start_page: 667}
+          - {code: "20", title: "Biotechnology and genetic modification", start_page: 837}
       p6:
         label: "Paper 6"
         long: "Alternative to practical"

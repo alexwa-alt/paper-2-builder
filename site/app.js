@@ -237,6 +237,11 @@
       const secs = state.sections.filter((s) => s.chapter === ch.num && counts[s.code]);
       if (!secs.length) return "";
       const n = secs.reduce((a, s) => a + (counts[s.code] || 0), 0);
+      if (secs.length === 1 && secs[0].code === String(ch.num)) {
+        // a topic with no subtopics: one checkbox, no fold-out
+        return `<label class="sec topic"><input type="checkbox" data-section="${secs[0].code}">
+          <span>${ch.num} ${esc(ch.title)}</span><span class="n">${n}</span></label>`;
+      }
       return `<details>
         <summary><input type="checkbox" data-chapter="${ch.num}" aria-label="All of ${esc(ch.title)}">
           <span>${ch.num} ${esc(ch.title)}</span><span class="n">${n}</span></summary>

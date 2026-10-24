@@ -40,7 +40,9 @@ It works in three stages:
    - sections that disagreed with the contents page.
 5. **Tagging picks the new bank up automatically** on its next hourly run.
 
-**Sections and contents pages.** For Physics, each bank's contents page is written into `config.yaml`, so the extractor can check every question's section against its page range. For the other subjects, sections and chapter names are read from the page headings. That works without any setup, but adding a bank's contents page to `config.yaml` gives a cross-check and exact section names. Copy the format of the Physics banks: a `chapters` list, and a `sections` list with `start_page`, plus `answers_start_page`.
+**Sections and contents pages.** For Physics, each bank's contents page is written into `config.yaml`, so the extractor can check every question's section against its page range. For the other subjects, sections and chapter names are read from the page headings. That works without any setup, but adding a bank's contents page to `config.yaml` gives a cross-check and exact section names. Copy the format of the Physics banks: a `chapters` list, and a `sections` list with `start_page`, plus `answers_start_page`. If a contents page lists topics only, with no subtopics (like Biology Paper 4), enter each topic as one section whose code is the topic number, as Biology Paper 4 does. The site then shows each topic as a single checkbox.
+
+**Topic numbering.** Older banks can number their topics differently from the current syllabus. For example, the Biology Paper 4 bank has no "Biological molecules" topic, so from Enzymes onwards its numbers are one behind. When tagging, each bank topic is matched to the syllabus topic with the same title, falling back to the topic number when no title matches.
 
 ## First-time setup
 

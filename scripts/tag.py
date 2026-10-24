@@ -322,7 +322,32 @@ def question_images(q):
     return [SITE / p["image"] for p in pages]
 
 
-def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags):
+STOPWORDS = {"and", "of", "the", "in", "into", "out", "on", "a", "an", "to", "their",
+             "including", "physics", "biology", "chemistry"}
+
+
+def title_words(title):
+    return {w for w in re.findall(r"[a-z]+", title.lower()) if w not in STOPWORDS}
+
+
+def syllabus_topic(bank_title, chapter, syllabus_chapters):
+    """Which syllabus topic a bank chapter corresponds to. Older banks number
+    their topics differently from the current syllabus (Biology added a topic,
+    for example), so match on the title first and fall back to the number."""
+    words = title_words(bank_title or "")
+    best, score = None, 0.0
+    for ch in syllabus_chapters:
+        other = title_words(ch["title"])
+        if words and other:
+            s = len(words & other) / min(len(words), len(other))
+            # on a tie, prefer the topic numbered closest to the bank's
+            if s > score or (s == score and best is not None
+                             and abs(ch["num"] - chapter) < abs(best - chapter)):
+                best, score = ch["num"], s
+    return best if score >= 0.5 else chapter
+
+
+def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags, chapter_title=""):
     gcfg = cfg["gemini"]
     kind = bank["kind"]
     focus = bank.get("focus", "practical")
@@ -331,7 +356,10 @@ def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags):
     else:
         labels, hints = cfg.get("skills", {}), SKILL_HINTS
     skills_allowed = list(labels)
-    objectives = [o for o in syllabus["objectives"] if o["code"].split(".")[0] == str(chapter)]
+    syllabus_chapters = (bank["syllabus"].get("chapters")
+                         or (syllabus.get("outline") or {}).get("chapters") or [])
+    topic = syllabus_topic(chapter_title, chapter, syllabus_chapters)
+    objectives = [o for o in syllabus["objectives"] if o["code"].split(".")[0] == str(topic)]
     if len(objectives) < 3:   # the bank's topic numbers don't line up with the syllabus
         objectives = syllabus["objectives"]
     valid_codes = {o["code"] for o in syllabus["objectives"]}
@@ -344,7 +372,7 @@ def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags):
         skills=", ".join(f'"{k}" ({hints.get(k, labels[k])})' for k in skills_allowed),
         types=", ".join(f'"{k}" ({hints.get(k, labels[k])})' for k in skills_allowed),
         sections="\n".join(f'{s["code"]} {s["title"]}' for s in sections),
-        chapter=chapter, C="C", S="S",
+        chapter=topic, C="C", S="S",
         objectives="\n".join(f'{o["code"]} [{"C" if o["level"] == "core" else "S"}] {o["text"]}'
                              for o in objectives))
     parts = [prompt]
@@ -429,6 +457,7 @@ def load_bank(cfg, bank_id):
         return None
     return {"id": bank_id, "cfg": get_bank(cfg, bank_id), "paths": paths,
             "questions": qdata["questions"], "sections": qdata["sections"],
+            "chapter_titles": {c["num"]: c["title"] for c in qdata.get("chapters", [])},
             "tags": load_json(paths["tags"], {})}
 
 
@@ -499,7 +528,8 @@ def main():
                 if requests >= max_requests:
                     break
                 print(f"[{b['id']}] tagging {', '.join(q['id'] for q in batch)}")
-                tag_batch(client, cfg, b["cfg"], batch, chapter, syllabus, b["sections"], b["tags"])
+                tag_batch(client, cfg, b["cfg"], batch, chapter, syllabus, b["sections"], b["tags"],
+                          b["chapter_titles"].get(chapter, ""))
                 requests += 1
                 save_json(b["paths"]["tags"], b["tags"])
                 time.sleep(gcfg["seconds_between_requests"])
