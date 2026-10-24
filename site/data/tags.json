@@ -14825,52 +14825,117 @@
   "updated": "2026-10-24T00:54:12+00:00"
  },
  "q1163": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A water heater is connected to a 230 V supply and there is a current of 26 A in the heater. It takes 20 minutes to heat the water to the required temperature.\n\nHow much energy is supplied by the heater?\n\nA 6.0 × 10^3 J\nB 1.0 × 10^4 J\nC 1.2 × 10^5 J\nD 7.2 × 10^6 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1164": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the electromotive force (e.m.f.) of a cell?\n\nA the amount of charge that passes through the cell per unit time\nB the energy gained per unit charge as charge passes through the cell\nC the total amount of charge flowing through the cell\nD the total energy stored in the cell",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1165": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A piece of wire is 40 cm long and has a diameter of 2.0 mm.\n\nIts resistance is 0.30 Ω.\n\nWhich wire of the same material has a resistance of 0.15 Ω?\n\n| | length / cm | diameter / mm |\n|---|---|---|\n| A | 20 | 1.0 |\n| B | 20 | 4.0 |\n| C | 80 | 1.0 |\n| D | 80 | 4.0 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1166": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.5.2",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two power supplies are connected in separate circuits. Both power supplies provide the same magnitude current.\n\nPower supply P has an electromotive force (e.m.f.) of 1.5 V and power supply Q has an e.m.f. of 3.0 V.\n\nWhich statements are correct?\n\n1 Source Q supplies twice the charge per unit time.\n2 Source Q supplies twice the energy per unit charge.\n3 Source Q supplies twice the energy per unit time.\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1167": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.3.7",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electricity meter records that 200 MJ of electrical energy are drawn from the 240 V mains supply in a 24 hour period.\n\nWhat is the average rate of electrical charge passing through the meter?\n\nA 9.6 C / h\nB 580 C / h\nC 35 kC / h\nD 0.83 MC / h",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1168": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.1.9",
+   "4.2.1.8",
+   "4.2.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams represent two different electric fields.\n\n[field 1: three vertical lines pointing upward, spaced closely together; field 2: three vertical lines pointing upward, spaced further apart]\n\nA single electron is located in each of the fields.\n\nWhich row gives the correct direction of the force on the electron and the field in which there is a larger force on it?\n\n| | direction of the force | larger force |\n|---|---|---|\n| A | ↓ | field 1 |\n| B | ↓ | field 2 |\n| C | ↑ | field 1 |\n| D | ↑ | field 2 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1169": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.2.2",
+   "4.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The resistance of a component in a circuit is found using an ammeter and a voltmeter.\n\nHow are the ammeter and the voltmeter connected?\n\nA the voltmeter and ammeter in parallel with the component\nB the voltmeter and ammeter in series with the component\nC the voltmeter in parallel with the component and the ammeter in series with the component\nD the voltmeter in series with the component and the ammeter in parallel with the component",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1170": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-24T06:06:45+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The table gives data for four different electrical devices.\n\nWhich device develops the greatest power?\n\n| | device | voltage | current |\n|---|---|---|---|\n| A | car headlight | 12 V | 3.0 A |\n| B | cooling fan | 110 V | 0.40 A |\n| C | electric spark generator | 400 kV | 0.10 mA |\n| D | mains lamp | 240 V | 0.20 A |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T20:59:54+00:00"
  },
  "q1171": {
   "status": "done",
