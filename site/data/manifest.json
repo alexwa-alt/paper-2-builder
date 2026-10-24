@@ -11,14 +11,28 @@
      "label": "Paper 2",
      "long": "Multiple choice",
      "kind": "mcq",
+     "focus": null,
+     "minutes_per_mark": null,
      "data": "data",
      "available": true
+    },
+    {
+     "key": "physics-p4",
+     "label": "Paper 4",
+     "long": "Theory (Extended)",
+     "kind": "structured",
+     "focus": "theory",
+     "minutes_per_mark": 1.0,
+     "data": "data/physics/p4",
+     "available": false
     },
     {
      "key": "physics-p6",
      "label": "Paper 6",
      "long": "Alternative to practical",
      "kind": "structured",
+     "focus": "practical",
+     "minutes_per_mark": 1.5,
      "data": "data/p6",
      "available": true
     }
@@ -35,7 +49,19 @@
      "label": "Paper 2",
      "long": "Multiple choice",
      "kind": "mcq",
+     "focus": null,
+     "minutes_per_mark": null,
      "data": "data/biology/p2",
+     "available": true
+    },
+    {
+     "key": "biology-p4",
+     "label": "Paper 4",
+     "long": "Theory (Extended)",
+     "kind": "structured",
+     "focus": "theory",
+     "minutes_per_mark": 1.0,
+     "data": "data/biology/p4",
      "available": true
     },
     {
@@ -43,6 +69,8 @@
      "label": "Paper 6",
      "long": "Alternative to practical",
      "kind": "structured",
+     "focus": "practical",
+     "minutes_per_mark": 1.5,
      "data": "data/biology/p6",
      "available": true
     }
@@ -59,7 +87,19 @@
      "label": "Paper 2",
      "long": "Multiple choice",
      "kind": "mcq",
+     "focus": null,
+     "minutes_per_mark": null,
      "data": "data/chemistry/p2",
+     "available": false
+    },
+    {
+     "key": "chemistry-p4",
+     "label": "Paper 4",
+     "long": "Theory (Extended)",
+     "kind": "structured",
+     "focus": "theory",
+     "minutes_per_mark": 1.0,
+     "data": "data/chemistry/p4",
      "available": false
     },
     {
@@ -67,6 +107,8 @@
      "label": "Paper 6",
      "long": "Alternative to practical",
      "kind": "structured",
+     "focus": "practical",
+     "minutes_per_mark": 1.5,
      "data": "data/chemistry/p6",
      "available": false
     }
@@ -83,5 +125,12 @@
   "precautions": "Precautions and accuracy",
   "drawings": "Drawings",
   "tests": "Tests and identification"
+ },
+ "theory_types": {
+  "recall": "Knowledge and recall",
+  "explanation": "Describe and explain",
+  "calculation": "Calculations",
+  "data": "Data, graphs and diagrams",
+  "application": "Unfamiliar contexts"
  }
 }
