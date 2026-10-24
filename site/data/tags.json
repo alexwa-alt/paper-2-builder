@@ -14826,98 +14826,158 @@
  },
  "q1163": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1164": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1165": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1166": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1167": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1168": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1169": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1170": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:43:24+00:00"
+  "updated": "2026-10-24T06:06:45+00:00"
  },
  "q1171": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows point X between two charged plates. [A positively charged vertical plate on the left and a negatively charged vertical plate on the right, with a point X located between them.]\n\nWhich diagram shows the electric field pattern near point X?\nA [four parallel horizontal lines pointing to the right]\nB [four parallel horizontal lines pointing to the left]\nC [four curved lines bulging outward and pointing to the left]\nD [four curved lines bulging outward and pointing to the right]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1172": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Copper wire is available in fixed lengths but in various diameters d. Each diameter has a different resistance R.\n\nWhich relationship between R and d is correct?\nA R is directly proportional to d.\nB R is directly proportional to d^2.\nC R is inversely proportional to d.\nD R is inversely proportional to d^2.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1173": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row shows the meaning of the quantity e.m.f. and the unit in which it is measured?\n\nmeaning | unit\nA electromagnetic force | N\nB electromagnetic force | V\nC electromotive force | N\nD electromotive force | V",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1174": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows the current-voltage (I - V) characteristic for a filament lamp?\nA [curve of I against V decreasing sharply from the vertical axis towards the horizontal axis]\nB [straight line of I against V passing through the origin]\nC [curve of I against V passing through the origin with decreasing gradient]\nD [curve of I against V passing through the origin with increasing gradient]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1175": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which particles move in a metal to cause an electric current?\nA electrons\nB neutrons\nC nucleons\nD protons",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1176": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagrams represent four copper wires.\n\nWhich wire has the greatest resistance?\nA [wire of length 10 mm and diameter 1 mm]\nB [wire of length 10 mm and diameter 2 mm]\nC [wire of length 20 mm and diameter 1 mm]\nD [wire of length 20 mm and diameter 2 mm]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1177": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An air-conditioning unit, a lamp and an electric fire all receive electrical energy from the mains supply.\n\nFrom which of these devices is all this energy eventually transferred to the surroundings?\n\nair-conditioning unit | lamp | electric fire\nA ✓ | ✓ | ✓\nB ✓ | ✗ | ✓\nC ✗ | ✓ | ✓\nD ✗ | ✗ | ✓\n\nkey\n✓ = all energy transferred to surroundings\n✗ = not all energy transferred to surroundings",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  },
  "q1179": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-23T18:49:21+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is measured in coulombs?\nA charge\nB current\nC electromotive force\nD power",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-24T06:09:29+00:00"
  }
 }
