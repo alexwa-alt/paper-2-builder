@@ -15706,5 +15706,340 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-25T05:10:44+00:00"
+ },
+ "q1230": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.3.2.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a circuit containing two resistors of resistance 1.0 Ω and 2.0 Ω.\n\nA voltmeter is connected across the 1.0 Ω resistor by connecting P to X.\n\nThe reading on the voltmeter is 6.0 V.\n\n[A circuit diagram shows a battery connected in series with a 1.0 Ω resistor and a 2.0 Ω resistor. A voltmeter has one lead connected to the wire before the 1.0 Ω resistor and a movable lead P. Point X is between the 1.0 Ω and 2.0 Ω resistors, and point Y is after the 2.0 Ω resistor.]\n\nP is moved to point Y in the circuit.\n\nWhat is the new reading on the voltmeter?\n\nA 3.0 V\nB 6.0 V\nC 12 V\nD 18 V",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1231": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two 3.0 Ω resistors and one 6.0 Ω resistor are connected in series with a cell.\n\nWhich statement is correct?\n\nA The current in the cell is equal to the current in the resistors.\nB The current in the cell is greater than the current in the resistors.\nC The potential difference (p.d.) across each resistor is equal to the p.d. across the cell.\nD The potential differences across each resistor are equal.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1232": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two resistors, with resistances R_1 and R_2, are connected in parallel.\n\nThe resistance R_1 is greater than the resistance R_2.\n\n[A diagram shows two resistors, labeled R_1 and R_2, connected in parallel with each other.]\n\nWhat is the resistance of the parallel combination?\n\nA less than either R_1 or R_2\nB equal to R_1\nC equal to R_2\nD the average of R_1 and R_2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00",
+  "repeat_of": "q1226"
+ },
+ "q1233": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student is to determine the resistance of resistor R. She uses a circuit including a voltmeter and an ammeter.\n\nWhich circuit should be used?\n\n[Four circuit diagrams labeled A, B, C, D are shown.\nA: A battery connected in series with a voltmeter, a resistor R, and an ammeter.\nB: A battery connected in parallel with a voltmeter, resistor R, and an ammeter all in parallel.\nC: A battery connected in series with a voltmeter and a parallel combination of resistor R and an ammeter.\nD: A battery connected in series with an ammeter and a resistor R, with a voltmeter connected in parallel across resistor R.]",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1234": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a battery connected to two resistors. Three ammeters M_1, M_2 and M_3 are connected in the circuit.\n\n[A series circuit diagram contains a battery, ammeter M_1, a resistor, ammeter M_2, another resistor, and ammeter M_3, all in a single loop.]\n\nAmmeter M_1 reads 1.0 A.\n\nWhat are the readings on M_2 and on M_3?\n\nA reading on M_2 / A: 0.0, reading on M_3 / A: 0.0\nB reading on M_2 / A: 0.5, reading on M_3 / A: 0.5\nC reading on M_2 / A: 0.5, reading on M_3 / A: 1.0\nD reading on M_2 / A: 1.0, reading on M_3 / A: 1.0",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1235": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.3.2.9",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cell is connected to a parallel combination of a 2.0 Ω resistor and a 4.0 Ω resistor. The current in the 4.0 Ω resistor is 1.0 A.\n\n[A circuit diagram shows a cell connected to two parallel branches: one branch has a 2.0 Ω resistor, and the other branch has a 4.0 Ω resistor with an arrow indicating a current of 1.0 A through it.]\n\nWhat is the current in the cell?\n\nA 1.0 A\nB 1.5 A\nC 2.0 A\nD 3.0 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1236": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an incomplete circuit. The temperature and light levels around the circuit remain unchanged.\n\n[A circuit diagram shows a cell, an ammeter, and two open terminals labeled P and Q.]\n\nFour electrical components are connected in turn across PQ. The cell is reversed and the four electrical components are connected again in turn across PQ.\n\nFor which component is there a significant change in the magnitude of the current?\n\nA diode\nB light-dependent resistor\nC resistor\nD thermistor",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1237": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.6",
+   "4.3.2.1",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In the circuit shown, A_1 and A_2 are ammeters.\n\n[A circuit diagram shows a cell connected in series with ammeter A_1, a parallel section, and ammeter A_2. The parallel section consists of two branches: one branch contains a resistor and an open switch S, and the other branch contains a resistor.]\n\nSwitch S is closed.\n\nWhich row is correct?\n\nA the resistance of the whole circuit: decreases | reading of A_1: stays the same | reading of A_2: increases\nB the resistance of the whole circuit: decreases | reading of A_1: increases | reading of A_2: increases\nC the resistance of the whole circuit: increases | reading of A_1: stays the same | reading of A_2: stays the same\nD the resistance of the whole circuit: increases | reading of A_1: decreases | reading of A_2: decreases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T09:58:31+00:00"
+ },
+ "q1238": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The circuit shown contains five lamps J, K, L, M and N. All the lamps are glowing.\n\n[Circuit diagram showing a power supply and lamp L in the main branch. In parallel with this main line is a network: one branch has lamp J connected in series to a parallel combination of lamp K and lamp N; another branch in parallel has lamp M.]\n\nOne lamp is removed and two other lamps go out.\n\nWhich lamp is removed?\n\nA lamp J\nB lamp K\nC lamp L\nD lamp M",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1239": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "What is the effective resistance of the following combination of resistors?\n\n[Circuit diagram showing a 4.0 Ω resistor connected in series with a parallel combination of a 6.0 Ω resistor and an 8.0 Ω resistor.]\n\nA 1.8 Ω\nB 7.4 Ω\nC 11 Ω\nD 18 Ω",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1240": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The lamps, the diodes and the batteries in the circuits are identical.\n\nIn which circuit does the ammeter give the greatest reading?\n\n[Four circuits A, B, C, D each containing a battery, an ammeter, diodes, and two lamps connected in parallel branches.]\n\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1241": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two resistors are connected in series with a power supply.\n\nWhich statement about the circuit is correct?\n\nA The current from the supply is greater than the current in each resistor.\nB The current from the supply is equal to the current in each resistor.\nC The current from the supply is less than the current in each resistor.\nD The current from the supply is the sum of the currents in each resistor.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1242": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In which circuit is there just a single lamp lit?\n\n[Four circuit diagrams A, B, C, D, each with a battery, two diodes in the outer branches, and a parallel section containing one branch with a diode and a lamp, and another branch with only a lamp.]\n\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1243": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.5",
+   "4.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student uses four ammeters P, Q, R and S to measure the current in different parts of the circuit shown.\n\n[Circuit diagram showing a battery with ammeters P and Q in series with it in the main circuit. The circuit splits into two parallel branches, one containing ammeter R and a resistor, and the other containing ammeter S and a resistor.]\n\nWhich two ammeters read the largest current?\n\nA P and Q\nB P and R\nC R and Q\nD R and S",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1244": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In which circuit does the lamp light?\n\n[Four circuit diagrams A, B, C, D, each showing a battery and a lamp connected to different arrangements of diodes.]\n\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1245": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.3.3",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Each potential divider is placed in a circuit with a power supply.\n\nWhich potential divider makes the potential difference across component Y increase when the light intensity increases?\n\n[Four diagrams A, B, C, D of potential dividers with two components X and Y in series: A has an LDR at X and a fixed resistor at Y; B has a fixed resistor at X and an LDR at Y; C has a fixed resistor at X and a thermistor at Y; D has a thermistor at X and a fixed resistor at Y.]\n\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:01:58+00:00"
+ },
+ "q1246": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "There are two inputs to the combination of logic gates shown, and one output.\n\n[Diagram showing a NAND gate with input 1 and input 2, connected to the input of a NOT gate, which leads to an output]\n\nWhich truth table represents the action of this combination of gates?\n\nA\ninput 1 | input 2 | output\n0 | 0 | 0\n0 | 1 | 0\n1 | 0 | 0\n1 | 1 | 1\n\nB\ninput 1 | input 2 | output\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 1\n\nC\ninput 1 | input 2 | output\n0 | 0 | 1\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0\n\nD\ninput 1 | input 2 | output\n0 | 0 | 1\n0 | 1 | 0\n1 | 0 | 0\n1 | 1 | 0",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1247": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.1",
+   "4.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a circuit containing a d.c. power supply, a motor and a variable resistor.\n\nThree ammeters X, Y and Z show the current in different parts of the circuit.\n\n[Diagram showing a single-loop series circuit containing a d.c. power supply, ammeter X, a variable resistor, ammeter Y, a motor M, and ammeter Z.]\n\nThe reading on X is 4.0 A.\n\nWhich statement is correct?\n\nA The readings on Y and Z are both less than 4.0 A.\nB The readings on Y and Z are both equal to 4.0 A.\nC The readings on Y and Z are both greater than 4.0 A.\nD The reading on Z is zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1248": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A lamp is to be connected in a circuit so that the potential difference (p.d.) across it can be varied from 0 to 6 V.\n\nWhich circuit would be most suitable?\n\n[Diagram showing four circuit designs:\nA: 6 V battery connected in a single loop with a variable resistor; a lamp is connected in parallel with the variable resistor.\nB: 6 V battery connected across the full resistance of a potentiometer (potential divider); a lamp is connected between the sliding contact and one end of the potentiometer.\nC: 6 V battery connected in a loop with a fuse; a lamp is connected in parallel with the fuse.\nD: 6 V battery connected in a loop with a fixed resistor; a lamp is connected in parallel with the fixed resistor.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1250": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a circuit.\n\n[Circuit diagram showing a power supply, a switch, and a lamp in series, which connect to two parallel blocks in series with each other. The first parallel block contains a variable resistor in parallel with an LDR. The second parallel block contains a thermistor in parallel with a heater.]\n\nWhat is connected in parallel with the thermistor?\n\nA heater\nB lamp\nC light-dependent resistor\nD variable resistor",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1252": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two NAND gates are joined together as shown.\n\n[Diagram showing a NAND gate with input 1 and input 2. Its output is connected to both inputs of a second NAND gate, which gives the output.]\n\nWhich single logic gate is equivalent to this combination?\n\nA AND\nB NAND\nC NOR\nD OR",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1253": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a circuit including a lamp, an electric bell and three switches S_1, S_2 and S_3.\n\nThe lamp and bell are not faulty.\n\n[Circuit diagram with a battery and switch S_1 in the main circuit. The circuit divides into two parallel branches: one branch contains a lamp in series with switch S_2, and the other branch contains an electric bell in series with switch S_3.]\n\nThe bell is ringing but the lamp is not lit.\n\nWhich switches are closed?\n\nA S_1 only\nB S_1 and S_2 only\nC S_1 and S_3 only\nD S_1, S_2 and S_3",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1255": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.3.2.4",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 12 V battery is connected to a combination of 2.0 Ω resistors as shown.\n\n[Circuit diagram showing a 12 V battery connected in series with a 2.0 Ω resistor, which is in series with a parallel pair of two 2.0 Ω resistors.]\n\nWhat is the current in the battery?\n\nA 1.5 A\nB 2.0 A\nC 4.0 A\nD 6.0 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1256": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.7",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student is designing a lighting circuit for a dolls' house. He sets up two different circuits.\n\nEach circuit contains a 12 V power supply and three identical lamps.\n\nEach lamp is designed to operate at normal brightness when connected individually to a 12 V supply.\n\n[Diagram showing circuit 1, where three lamps are connected in series to a 12 V power supply, and circuit 2, where three lamps are connected in parallel to a 12 V power supply.]\n\nWhich statement is correct?\n\nA In circuit 1, each of the lamps is at normal brightness.\nB In circuit 1, if one lamp fails, the other lamps remain lit.\nC In circuit 2, if one lamp fails, the other lamps remain lit.\nD In circuit 2, the current from the power supply is less than in circuit 1.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T10:04:55+00:00"
  }
 }
