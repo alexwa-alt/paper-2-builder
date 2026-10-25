@@ -16156,5 +16156,452 @@
   "type": "graph_or_diagram",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1265": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a circuit.\n\n[Circuit diagram with a cell, switch S, a diode pointing upwards in the main branch, and two parallel branches: top branch has a diode pointing right in series with lamp 1; bottom branch has a diode pointing left in series with lamp 2.]\n\nSwitch S is closed.\n\nWhich lamps light?\n\nA lamp 1 only\nB lamp 2 only\nC lamp 1 and lamp 2\nD neither lamp 1 nor lamp 2",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1266": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.5",
+   "4.3.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A circuit contains four ammeters and three resistors with different values.\n\nWhich ammeter shows the largest reading?\n\n[Circuit diagram showing a battery connected to three parallel branches containing a 10 Ω resistor, a 20 Ω resistor, and a 30 Ω resistor respectively. Ammeter A is in the 10 Ω branch. Ammeter B is in the line feeding both the 20 Ω and 30 Ω branches. Ammeter C is in the 30 Ω branch. Ammeter D is in the main circuit line returning to the battery.]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1267": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which electrical symbol represents a diode?\n\n[Four circuit symbols:\nA: a cell (two parallel lines, one long and thin, one short and thick)\nB: a diode (a triangle pointing to a vertical line)\nC: a lamp (a circle containing an 'X')\nD: a variable resistor (a rectangle with a diagonal arrow through it)]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1268": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student sets up this circuit.\n\n[Circuit diagram showing a battery connected in series with a thermistor and an electric bell.]\n\nWhat is the purpose of the circuit?\n\nA to allow a lamp to be made dimmer or brighter as required\nB to amplify the sound of a voice\nC to light a lamp in the dark\nD to sound a bell when the temperature rises",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1269": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows two voltmeters P and Q connected to a potential divider.\n\n[Circuit diagram showing a battery connected across a potential divider resistor. Voltmeter P is connected between the top end and the slider X. Voltmeter Q is connected between the slider X and the bottom end.]\n\nThe sliding connection at point X is moved towards the top of the diagram.\n\nWhat happens to the reading on P and to the reading on Q?\n\n        reading on P | reading on Q\nA       decreases    | decreases\nB       decreases    | increases\nC       increases    | decreases\nD       increases    | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1270": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A diode is used as a rectifier.\n\nWhat is the purpose of a rectifier?\n\nA to allow current to pass in either direction\nB to change alternating current into direct current\nC to switch off the circuit in case of a large current\nD to provide an efficient source of light",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1272": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 3.0 Ω resistor is connected in parallel with a 4.0 Ω resistor.\n\n[Diagram showing a 3.0 Ω resistor and a 4.0 Ω resistor connected in parallel.]\n\nWhat is the resistance of this combination?\n\nA 0.14 Ω\nB 0.58 Ω\nC 1.7 Ω\nD 7.0 Ω",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1274": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The circuit diagram shows a fixed resistor R and a thermistor T used in a potential divider circuit.\n\n[Circuit diagram with a cell connected across a series combination of a thermistor T and a fixed resistor R.]\n\nV_R and V_T are the potential differences across R and T respectively.\n\nWhat happens to V_R and to V_T as the temperature of the thermistor decreases?\n\n        V_R            | V_T\nA       decreases      | increases\nB       increases      | decreases\nC       stays the same | decreases\nD       stays the same | increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:57:53+00:00"
+ },
+ "q1275": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The circuit diagram shows a power supply connected to some circuit components.\n\nIn the diagram, P and Q are the terminals of the d.c. power supply.\n\n[Circuit diagram showing a d.c. power supply with terminals P and Q connected in parallel to two branches: one branch contains a diode pointing to the right, resistor R_1, and ammeter A in series; the other branch contains resistor R_2.]\n\nUnder which circumstances does the ammeter show a reading other than zero?\n\nA when P is positive or negative\nB the ammeter always shows a zero reading\nC only when P is negative\nD only when P is positive",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1276": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.2.2",
+   "4.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student investigates the resistance of a lamp.\n\nWhich row states how the meters must be connected?\n\n| | ammeter | voltmeter |\n|---|---|---|\n| A | in parallel with the lamp | in parallel with the lamp |\n| B | in parallel with the lamp | in series with the lamp |\n| C | in series with the lamp | in parallel with the lamp |\n| D | in series with the lamp | in series with the lamp |",
+  "type": "practical",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1277": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The circuit shown is used to change the voltage V_out as the temperature of device X changes.\n\n[Circuit diagram showing a potential divider connected to a power supply with +6.0 V and 0 V. The top component is a fixed resistor and the bottom component is device X, represented by the circuit symbol of a thermistor. V_out is measured across device X.]\n\nWhich row is correct?\n\n| | name of this type of circuit | name of device X |\n|---|---|---|\n| A | potential divider | fuse |\n| B | potential divider | thermistor |\n| C | variable resistor | fuse |\n| D | variable resistor | thermistor |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1278": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The circuit diagram shows a d.c. power supply connected to two resistors R_1 and R_2 and four diodes.\n\n[Circuit diagram showing a bridge arrangement of four diodes. The positive terminal connects to the bottom node of the diamond, which also connects by a vertical wire to the top node. The left and right nodes of the diamond connect respectively through resistors R_1 and R_2 to the negative terminal.]\n\nWhich statement is correct?\n\nA There is a current in R_1 and a current in R_2.\nB There is a current in R_1 but no current in R_2.\nC There is no current in R_1 but a current in R_2.\nD There is no current in R_1 and no current in R_2.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1279": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.1",
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a light-dependent resistor (LDR) connected in a potential divider circuit.\n\n[Circuit diagram showing a battery connected to a potential divider consisting of an LDR at the top and a fixed resistor at the bottom. A voltmeter is connected in parallel across the LDR.]\n\nThe brightness of the light falling on the LDR is increased.\n\nWhich row shows what happens to the resistance of the LDR, and what happens to the reading on the voltmeter?\n\n| | resistance of LDR | reading on voltmeter |\n|---|---|---|\n| A | decreases | decreases |\n| B | decreases | increases |\n| C | increases | decreases |\n| D | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1280": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.7",
+   "4.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows part of an electric circuit. The reading on the voltmeter is 16 V. The current in the resistor is 8.0 A.\n\n[Diagram showing a resistor with a voltmeter connected in parallel across terminals P and Q. A current of 8.0 A flows from left to right through the resistor.]\n\nOne coulomb of charge flows from P to Q through the resistor.\n\nHow much energy is transferred in the resistor?\n\nA 2.0 J\nB 8.0 J\nC 16 J\nD 128 J",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1281": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.2.10",
+   "4.3.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four circuits are set up.\n\nIn which circuit does the ammeter show the greatest reading?\n\n[Four circuit diagrams A, B, C, D each having a 12 V battery with positive terminal on the left and negative terminal on the right. In the main circuit, an ammeter is connected in series with a parallel combination of two branches:\n- Top branch: a diode in series with a 2.0 Ω resistor.\n- Bottom branch: a diode in series with a 3.0 Ω resistor.\nIn A: both diodes point to the right.\nIn B: top diode points to the left, bottom diode points to the right.\nIn C: both diodes point to the left.\nIn D: top diode points to the right, bottom diode points to the left.]\n\nA circuit A\nB circuit B\nC circuit C\nD circuit D",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1282": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.1",
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an electric circuit.\n\n[Circuit diagram showing a potential divider connected to a battery. The upper component is a light-dependent resistor (LDR) and the lower component is a fixed resistor. A voltmeter is connected across the fixed resistor.]\n\nThe light falling on the light-dependent resistor (LDR) increases in brightness.\n\nWhat happens to the resistance of the LDR, the current in the fixed resistor and the reading on the voltmeter?\n\n| | resistance of LDR | current in fixed resistor | reading on voltmeter |\n|---|---|---|---|\n| A | decreases | increases | decreases |\n| B | decreases | increases | increases |\n| C | increases | decreases | decreases |\n| D | increases | decreases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T21:59:40+00:00"
+ },
+ "q1283": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows two linked circuits to control when a bell is switched on.\n\n[Circuit diagram: The left circuit contains a battery, a light-dependent resistor (LDR), a thermistor, and the coil of a relay connected in series. The right circuit contains a battery, the normally-open contacts of the relay switch, and an electric bell connected in series.]\n\nThe conditions are altered and only one pair of conditions causes the bell to ring.\n\nWhich pair causes the bell to ring?\n\nA bright light and high temperature\nB bright light and low temperature\nC dim light and high temperature\nD dim light and low temperature",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1284": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student connects a variable potential divider (potentiometer) circuit.\n\n[Circuit diagram: A 12 V battery is connected across the two fixed ends R and S of a potential divider resistor. A sliding terminal T connects from the resistor to a voltmeter V, with the other terminal of the voltmeter connected to R.]\n\nWhat happens to the reading on the voltmeter as the sliding terminal T is moved from R to S?\n\nA It decreases from 12 V to 0 V.\nB It increases from 0 V to 12 V.\nC It remains at 0 V.\nD It remains at 12 V.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1285": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The circuit diagram shows a circuit with an a.c. supply, a diode and a resistor.\n\n[Circuit diagram: An a.c. power supply connected in series with a resistor and a diode.]\n\nWhich diagram shows how the current I in the resistor varies with time t?\n\nA [Graph of current I against time t showing a continuous sinusoidal alternating wave]\nB [Graph of current I against time t showing rectified positive half-cycles separated by intervals of zero current]\nC [Graph of current I against time t showing a constant current of zero]\nD [Graph of current I against time t showing full-wave rectified positive half-cycles with no zero intervals]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1286": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A light-dependent resistor (LDR) and a resistor R are connected in a series circuit. Light falls on the LDR.\n\n[Circuit diagram: A battery, an ammeter, a resistor R, and an LDR connected in a single series loop.]\n\nThe brightness of the light falling on the LDR decreases.\n\nWhat happens to the resistance of the LDR and what happens to the reading on the ammeter?\n\nA resistance of LDR: decreases; reading on ammeter: decreases\nB resistance of LDR: decreases; reading on ammeter: increases\nC resistance of LDR: increases; reading on ammeter: decreases\nD resistance of LDR: increases; reading on ammeter: increases",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1287": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four circuits each contain a 6 V battery, a diode, an ammeter and a lamp. None of the components is faulty.\n\nWhich circuit shows a possible ammeter reading?\n\nA [Circuit with battery whose positive terminal faces left towards a diode pointing left; ammeter reading = 1.0 A]\nB [Circuit with battery whose positive terminal faces left towards a diode pointing left; ammeter reading = 0 A]\nC [Circuit with battery whose positive terminal faces left towards a diode pointing right; ammeter reading = 1.0 A]\nD [Circuit with battery whose positive terminal faces left towards a diode pointing right; ammeter reading = -1.0 A]",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1289": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an electric circuit.\n\n[Circuit diagram: A battery, a 20 Ω LDR, and a 10 Ω resistor connected in series. An arrow indicates a current of 0.40 A flowing through the circuit.]\n\nWhat is the potential difference (p.d.) across the LDR?\n\nA 4.0 V\nB 8.0 V\nC 25 V\nD 50 V",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1290": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.7",
+   "4.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity is equivalent to 1.0 V?\n\nA 1.0 J / C\nB 1.0 kJ / C\nC 1.0 J / s\nD 1.0 kJ / s",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1291": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.9",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A battery, an ammeter, a switch, a lamp and a resistor are connected together in a circuit.\n\n[Circuit diagram: A battery is connected in series with an ammeter in the main branch. The circuit then splits into two parallel branches: one branch contains a lamp, and the other branch contains a switch in series with a resistor.]\n\nWith the switch open, the ammeter reads 2.4 A. When the switch is closed, this reading increases to 4.0 A.\n\nWhat is the current through the resistor with the switch closed?\n\nA 0 A\nB 1.6 A\nC 3.2 A\nD 6.4 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:04:27+00:00"
+ },
+ "q1293": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a circuit used to make a light detector.\n\n[Circuit diagram showing a single cell, an ammeter, and two open terminals X and Y connected in series]\n\nOne component is connected between X and Y.\n\nWhich component causes the ammeter reading to increase when the light gets brighter?\n\nA [Circuit symbol for an LDR]\nB [Circuit symbol for a fixed resistor]\nC [Circuit symbol for a fuse]\nD [Circuit symbol for a variable resistor]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1294": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a circuit with a gap between points P and Q.\n\nFour pieces of metal wire of the same material are connected, in turn, between points P and Q in the circuit.\n\n[Circuit diagram showing a cell, an ammeter, and two connection terminals P and Q]\n\nThe table gives the diameters and lengths of the wires.\n\nIn which wire is the current the largest?\n\n| | diameter / mm | length / m |\n|---|---|---|\n| A | 0.10 | 1.0 |\n| B | 0.10 | 2.0 |\n| C | 0.20 | 1.0 |\n| D | 0.20 | 2.0 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1295": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A torch has a simple circuit with a 3.0 V battery and a lamp. There is a 20 mA current in the lamp.\n\nHow much energy is transferred to the lamp in 5.0 minutes?\n\nA 0.30 J\nB 18 J\nC 60 J\nD 0.30 kJ",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1296": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student connects the circuit shown.\n\n[Circuit diagram showing an a.c. power supply connected in series with a diode and a resistor]\n\nWhich graph shows the variation with time of the current in the resistor?\n\nA [Graph showing full-wave rectified sinusoidal pulses]\nB [Graph showing half-wave rectified pulses with zero current in between]\nC [Graph showing alternating sinusoidal current oscillating symmetrically around 0]\nD [Graph showing sinusoidal variation entirely above the zero current line]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1297": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a circuit with a fixed resistor connected in series with a thermistor and an ammeter.\n\n[Circuit diagram showing a battery, an ammeter, a fixed resistor, and a thermistor in series]\n\nWhich row shows how temperature change affects the resistance of the thermistor and the current in the circuit?\n\n| | temperature | resistance of thermistor | current in circuit |\n|---|---|---|---|\n| A | decreases | decreases | increases |\n| B | decreases | increases | decreases |\n| C | increases | decreases | decreases |\n| D | increases | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1300": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.2.3.6",
+   "4.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A battery is connected to a circuit. It is switched on for 1.0 minute. During that time, there is a current of 0.40 A in the circuit and the battery supplies a total of 48 J of energy.\n\nWhich row gives the charge that passes and the electromotive force (e.m.f.) of the battery?\n\n| | charge that passes in 1.0 minute / C | e.m.f. of the battery / V |\n|---|---|---|\n| A | 0.40 | 2.0 |\n| B | 0.40 | 120 |\n| C | 24 | 2.0 |\n| D | 24 | 120 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1301": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.3",
+   "4.3.2.10",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Identical cells and identical resistors are used to make the circuits shown.\n\n[Diagram showing circuit 1 with one cell, an ammeter, and one resistor in series; circuit 2 with two cells in series connected to two resistors in parallel, with an ammeter measuring total circuit current]\n\nIn circuit 1, the ammeter reads 2.0 A.\n\nWhat is the ammeter reading in circuit 2?\n\nA 1.0 A\nB 2.0 A\nC 4.0 A\nD 8.0 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1302": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows a circuit containing a battery, a fuse and a buzzer?\n\nA [Circuit containing a battery, an LDR, and an electric bell]\nB [Circuit containing a battery, a fuse, and an electric bell]\nC [Circuit containing a battery, an LDR, and a buzzer]\nD [Circuit containing a battery, a fuse, and a buzzer]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T22:05:47+00:00"
  }
 }
