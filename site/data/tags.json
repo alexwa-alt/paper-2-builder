@@ -16041,5 +16041,120 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-25T10:04:55+00:00"
+ },
+ "q1257": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The circuit diagram shows a cell connected in series to a resistor and a component X.\n\n[A circuit diagram showing a single loop with a cell, a fixed resistor, and a component X represented by the circuit symbol of a diode.]\n\nWhat is component X?\n\nA bell\nB diode\nC heater\nD thermistor",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1258": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.4",
+   "4.3.2.6",
+   "4.3.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Identical resistors are connected together to form arrangements X, Y and Z.\n\n[Diagrams of resistor arrangements:\nX: two resistors connected in parallel\nY: two resistors connected in series\nZ: three resistors connected in series]\n\nWhat is the correct order of the resistances of the arrangements from the largest to the smallest?\n\nA X → Y → Z\nB Y → X → Z\nC Z → X → Y\nD Z → Y → X",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1259": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.3.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit contains a cell of electromotive force (e.m.f.) 2.0 V, three resistors, three ammeters and two voltmeters. One ammeter is labelled P and one voltmeter is labelled Q.\n\nThe readings on the other two ammeters and on the other voltmeter are shown.\n\n[A circuit diagram with a 2.0 V cell connected in series with an ammeter reading 2.0 A and a resistor with a voltmeter in parallel reading 0.50 V. This is followed in series by a parallel branch consisting of two identical resistors: the top branch has an ammeter reading 0.50 A, and the bottom branch has an ammeter P and a voltmeter Q connected across the bottom resistor.]\n\nWhat is the reading on ammeter P and what is the reading on voltmeter Q?\n\n| | reading on P / A | reading on Q / V |\n|---|---|---|\n| A | 1.5 | 1.5 |\n| B | 1.5 | 2.5 |\n| C | 2.5 | 1.5 |\n| D | 2.5 | 2.5 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1260": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.4",
+   "4.3.2.6",
+   "4.3.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Identical resistors are connected together to form arrangements X, Y and Z.\n\n[Diagrams of resistor arrangements:\nX: two resistors connected in parallel\nY: two resistors connected in series\nZ: three resistors connected in series]\n\nWhat is the correct order of the resistances of the arrangements from the largest to the smallest?\n\nA X → Y → Z\nB Y → X → Z\nC Z → X → Y\nD Z → Y → X",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00",
+  "repeat_of": "q1258"
+ },
+ "q1261": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.3.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Resistors of 1.0 Ω, 2.0 Ω and 3.0 Ω are connected in parallel with a cell.\n\nWhich statement is correct?\n\nA The current in each resistor is different but the potential difference (p.d.) across each resistor is the same.\nB The current in each resistor is the same but the potential difference across each resistor is different.\nC The potential difference across the 3.0 Ω is greater than the potential difference across the 1.0 Ω resistor.\nD The sum of the potential differences across each resistor is equal to the electromotive force (e.m.f.) of the cell.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1262": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a circuit component.\n\n[A circuit symbol showing a triangle pointing right towards a vertical line, representing a semiconductor diode.]\n\nWhat is it used for?\n\nA to allow current in one direction only\nB to change the direction of the current\nC to emit light when there is a current\nD to increase the size of the current",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1263": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.9",
+   "4.3.2.5",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Resistors of resistance 1.0 Ω, 2.0 Ω and 3.0 Ω are connected in parallel across the terminals of a cell.\n\nWhich statement is correct?\n\nA The currents in the resistors are equal.\nB The sum of the currents in the three resistors is equal to the current in the cell.\nC The sum of the potential differences (p.d.'s) across the resistors is equal to the electromotive force (e.m.f.) of the cell.\nD The potential difference across the 3.0 Ω resistor is greater than the potential difference across the other two resistors.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
+ },
+ "q1264": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Diagram 1 shows a circuit containing an a.c. power supply, an unknown component X and a fixed resistor.\n\nThe graph in diagram 2 shows how the potential difference (p.d.) across the resistor varies with time.\n\n[Diagram 1 shows a series loop containing an a.c. power source, a box labelled X, and a fixed resistor.\nDiagram 2 shows a graph of p.d. against time showing half-wave rectified output, with positive sinusoidal half-cycles and zero p.d. during the negative half-cycles.]\n\nWhat is component X?\n\nA thermistor\nB relay coil\nC diode\nD light-dependent resistor",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-25T18:31:21+00:00"
  }
 }
