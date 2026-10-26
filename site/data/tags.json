@@ -16603,5 +16603,444 @@
   "type": "graph_or_diagram",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-25T22:05:47+00:00"
+ },
+ "q1303": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which diagram shows the circuit symbol for a fuse?\n\nA [a plain rectangular box with connecting leads]\nB [a rectangular box with a diagonal arrow through it]\nC [a rectangular box divided into four segments]\nD [a rectangular box with a line passing straight through it]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1304": {
+  "status": "done",
+  "subpoints": [
+   "4.4.4",
+   "4.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The metal cases of electrical appliances are connected to an earth wire.\n\nWhich statement is not correct?\n\nA The live wire may become loose and touch the metal case.\nB If the metal case becomes live, the earth wire conducts current to the ground.\nC The earth wire needs to have a high resistance.\nD Earthing metal cases helps prevent a person from receiving an electric shock.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1305": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3",
+   "4.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a motor connected to an a.c. supply. The circuit is incomplete.\n\n[Diagram showing an a.c. power supply connected in series with a motor labelled M and a gap between points X and Y]\n\nWhich device needs to be connected between point X and point Y to prevent the wires from overheating if a fault in the motor causes the current to get too high?\n\nA an ammeter\nB a fuse\nC a transformer\nD a length of thick copper wire",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1306": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Circuit breakers and fuses are devices used to protect a circuit from overloading.\n\nWhich statement correctly describes the difference between a circuit breaker and a fuse?\n\nA Circuit breakers can be reset if they operate but fuses need to be replaced.\nB Circuit breakers need to be replaced if they operate but fuses can be reset.\nC Circuit breakers can be used in an a.c. circuit but fuses cannot.\nD Circuit breakers cannot be used in an a.c. circuit but fuses can.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1307": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.1.1",
+   "4.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a circuit used to switch on a heater when the temperature drops below a certain value.\n\n[Circuit diagram showing a d.c. supply connected across two components in series, X and Y, with a relay coil connected in parallel across component Y. The relay switch controls a separate circuit containing a heater]\n\nWhich row shows the components that should be connected at X and at Y?\n\n| | X | Y |\n|---|---|---|\n| A | [fixed resistor] | [LDR] |\n| B | [fixed resistor] | [thermistor] |\n| C | [thermistor] | [LDR] |\n| D | [thermistor] | [fixed resistor] |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1308": {
+  "status": "done",
+  "subpoints": [
+   "4.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the direction of a magnetic field at a point is correct?\n\nA It is the direction of the force on a north pole placed at that point.\nB It is the direction of the force on a south pole placed at that point.\nC It is the direction of the force on a positive charge placed at that point.\nD It is the direction of the force on a negative charge placed at that point.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1309": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An electric heater is plugged into the mains supply using a fused plug.\n\nThe current in the heater is 10 A.\n\nThe cable attached to the heater is rated at 15 A.\n\nThe fuses available are rated at 1 A, 3 A, 5 A and 13 A.\n\nWhich fuse should be used?\n\nA 1 A\nB 3 A\nC 5 A\nD 13 A",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1310": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3",
+   "4.4.4",
+   "4.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which components are designed to improve the safe working of a mains electrical supply?\n\n| | circuit breaker | earth wire | fuse |\n|---|---|---|---|\n| A | ✓ | ✓ | ✗ |\n| B | ✓ | ✗ | ✓ |\n| C | ✗ | ✓ | ✓ |\n| D | ✓ | ✓ | ✓ |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:30:58+00:00"
+ },
+ "q1311": {
+  "status": "done",
+  "subpoints": [
+   "4.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A simple wiring diagram for an electric cooker is shown.\n\n[Diagram shows an electric cooker with metal casing, connected to a cable with live, neutral, and earth wires. The earth wire is connected to the casing. A person is shown touching the metal casing.]\n\nWhy is there a wire connecting the metal case of the cooker to earth?\n\nA It improves the efficiency of the cooker.\nB It prevents the metal case from becoming too hot when the cooker is left on.\nC It reduces the risk of an electric shock if the live wire touches the metal case.\nD The electric cooker will not switch on without it.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1312": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3",
+   "4.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Where must a fuse be connected in a mains electric circuit?\n\nA the earth wire only\nB the live wire only\nC the neutral wire only\nD the live wire and the earth wire",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1315": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2"
+  ],
+  "section_ok": false,
+  "suggested_section": "4.5",
+  "difficulty": 2,
+  "text": "In an a.c. generator, a coil is rotated in a magnetic field and an electromotive force (e.m.f.) is induced in the coil.\n\nIn which position of the coil does the e.m.f. have the largest value?\n\n[Four diagrams showing a coil rotating between N and S magnetic poles:\nA: coil is horizontal (parallel to the field lines)\nB: coil is tilted at approximately 30° to the horizontal\nC: coil is vertical (perpendicular to the field lines)\nD: coil is tilted at approximately -30° to the horizontal]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1316": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Either a fuse or a circuit-breaker can be used to protect electrical cables from large currents that could cause overheating.\n\n[Diagram shows an electrical supply with live and neutral leads connected to an appliance via cables. Position X is in series along the live wire. Position Y is a dotted line connected in parallel across the live and neutral wires.]\n\nWhen a fuse is used, where should it be connected, and when a circuit-breaker is used, where should it be connected?\n\n        position of fuse | position of circuit-breaker\nA               X        |            X\nB               X        |            Y\nC               Y        |            X\nD               Y        |            Y",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1319": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In this circuit, a component at X automatically protects the wiring from overheating if there is a fault.\n\n[Circuit diagram showing an electrical supply connected in series with component X and a lamp.]\n\nWhich row indicates components that are suitable?\n(key: ✓ = suitable, ✗ = not suitable)\n\n    circuit breaker | fuse | switch\nA          ✓        |  ✓   |   ✓\nB          ✓        |  ✓   |   ✗\nC          ✓        |  ✗   |   ✓\nD          ✗        |  ✓   |   ✗",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1320": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A wire is moved down in a direction perpendicular to the magnetic field.\n\n[Diagram shows a wire moving downwards between the N and S poles of a magnet, connected in a closed loop to a sensitive meter.]\n\nThree changes are suggested.\n1 The speed of the movement of the wire is increased.\n2 The magnetic field strength is decreased.\n3 The direction of the magnetic field is reversed.\n\nWhich changes increase the electromotive force (e.m.f.) induced in the wire?\n\nA 1 and 3\nB 1 only\nC 2 and 3\nD 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1321": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wire is moved across a magnetic field. This causes an induced current in the wire.\n\nThe induced current interacts with the magnetic field to produce a force on the wire.\n\nIn which direction is this force?\n\nA in the direction of the current\nB in the direction of movement of the wire\nC in the opposite direction to the current\nD in the opposite direction to the movement of the wire",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1322": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.7",
+   "4.5.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A 100% efficient step-down transformer has primary voltage V_p and primary current I_p.\n\nWhich row compares the secondary voltage with V_p and the secondary current with I_p?\n\n        secondary voltage | secondary current\nA         greater than V_p|  greater than I_p\nB         greater than V_p|  less than I_p\nC         less than V_p   |  greater than I_p\nD         less than V_p   |  less than I_p",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:33:17+00:00"
+ },
+ "q1323": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The diagram shows an a.c. generator.\n\n[Diagram shows a rectangular coil rotating clockwise viewed from front, between N and S magnetic poles. The coil is connected via slip rings and brushes to a resistor with terminals labelled Y (top) and X (bottom) and a parallel voltmeter.]\n\nThe graph shows the potential difference (p.d.) between points X and Y plotted against time. A positive value of p.d. indicates that X is more positive than Y.\n\n[A sinusoidal wave of p.d. against time starting from 0, going positive to a peak, then negative to a trough labelled P.]\n\nWhich diagram shows the position of the coil at point P on the graph?\n\nA [Coil in horizontal position with one orientation]\nB [Coil in vertical position]\nC [Coil in horizontal position with inverted orientation compared to A]\nD [Coil in vertical position inverted compared to B]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1324": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.3",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electron moves into a uniform magnetic field.\n\nThe arrow shows the initial direction of motion of the electron.\n\nThe direction of the magnetic field is into the plane of the page.\n\n[Diagram shows an electron moving horizontally to the right into a region of uniform magnetic field represented by crosses into the page.]\n\nIn which direction does a force act on the electron when it enters the magnetic field?\n\nA into the page\nB out of the page\nC towards the bottom of the page\nD towards the top of the page",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1325": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.6",
+   "4.5.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about a transformer is correct?\n\nA There is an alternating current in the iron core from the primary coil to the secondary coil.\nB An alternating current in the iron core induces an alternating current in the secondary coil.\nC An alternating current in the primary coil induces a direct current in the secondary coil.\nD An alternating current in the primary coil induces an alternating voltage across the secondary coil.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1326": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A step-down transformer is 100% efficient. It has an input voltage of 240 V a.c. and an output voltage of 60 V a.c.\n\nThe current in the primary coil is 0.50 A.\n\nWhat is the current in the secondary coil?\n\nA 0.13 A\nB 0.50 A\nC 2.0 A\nD 8.0 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1327": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.5.3.4",
+   "4.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the pattern of the magnetic field due to the current I in a straight wire.\n\n[Diagram shows a straight vertical wire carrying downward current I, surrounded by concentric circular field lines. Arrow Y points clockwise at the rear, arrow X points counter-clockwise at the front. Point Q is close to the wire, point P is further from the wire.]\n\nWhich row is correct?\n\n| | direction of field | relative strength of field |\n|---|---|---|\n| A | X | greater at P than Q |\n| B | Y | greater at P than Q |\n| C | X | greater at Q than P |\n| D | Y | greater at Q than P |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1328": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.3",
+   "4.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In which device is the magnetic effect of a current not used?\n\nA electromagnet\nB loudspeaker\nC potential divider\nD relay",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1329": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.5",
+   "4.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the magnetic field around a solenoid carrying an electric current.\n\n[Diagram shows magnetic field lines around a solenoid, similar to the field of a bar magnet.]\n\nWhat happens to the strength of the magnetic field and the distance between the field lines when the current is increased?\n\n| | strength of magnetic field | distance between field lines |\n|---|---|---|\n| A | decreases | decreases |\n| B | decreases | increases |\n| C | increases | decreases |\n| D | increases | increases |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1330": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2",
+   "4.5.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a wire hanging freely between the poles of a magnet. There is a current in the wire in the direction shown.\n\n[Diagram shows a South pole on the left and a North pole on the right. A vertical wire hangs between them carrying downward current.]\n\nThe magnet and current cause a force to act on the wire.\n\nIn which direction does this force act?\n\nA into the page (away from you)\nB out of the page (toward you)\nC to the left\nD to the right",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:36:12+00:00"
+ },
+ "q1331": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2",
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which component forms part of a d.c. motor but not a simple moving coil a.c. generator?\n\nA the coil\nB the brushes\nC the magnet\nD the split-ring commutator",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1332": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.7",
+   "4.5.6.3",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A transformer has 5500 turns on the primary coil and 500 turns on the secondary coil.\n\nThe output of the secondary coil is 110 V a.c. and is connected to a heater. The transformer is 100% efficient.\n\nThe heater produces a power of 132 W.\n\nWhat is the current in the primary coil?\n\nA 0.11 A\nB 0.12 A\nC 11 A\nD 12 A",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1333": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two magnets are placed near a current-carrying coil.\n\nThe diagram shows this experimental arrangement and the current direction in the coil.\n\n[Diagram shows a solenoid between two bar magnets. Left magnet X has poles N on left, S on right. Right magnet Y has poles N on left, S on right. Current enters the coil from the left lead upwards and exits from the right lead downwards.]\n\nWhich statement is correct?\n\nA Both X and Y are attracted to the coil.\nB Both X and Y are repelled by the coil.\nC X is attracted to the coil and Y is repelled.\nD X is repelled by the coil and Y is attracted.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1334": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two circuits are set up as shown. The iron rods are placed close together and are able to move.\n\n[Diagram shows two identical coils wound around iron rods end-to-end separated by a gap X. The left circuit contains a cell and an open switch S. The right circuit contains a cell in a closed circuit. The cells are oriented in the same direction.]\n\nWhat happens to the size of the gap at X when switch S is closed?\n\nA It decreases.\nB It decreases then increases.\nC It increases.\nD It does not change.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1335": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "When a current-carrying conductor is placed in a magnetic field, it experiences a force.\n\nWhich statement about this force is correct?\n\nA It is parallel to both the magnetic field and the direction of the current.\nB It is parallel to the magnetic field and perpendicular to the direction of the current.\nC It is perpendicular to the magnetic field and parallel to the direction of the current.\nD It is perpendicular to both the magnetic field and the direction of the current.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1336": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A magnet is dropped vertically through a solenoid. This induces magnetic poles at both ends of the solenoid.\n\n[Diagram 1 shows a magnet falling S-pole first towards the top end X of a vertical solenoid. Diagram 2 shows the magnet inside the solenoid. Diagram 3 shows the magnet falling out from the bottom of the solenoid, with its N-pole nearer to the bottom of the solenoid and S-pole pointing downwards.]\n\nWhich magnetic poles are induced at position X in diagram 1 and diagram 3?\n\nA diagram 1: N pole; diagram 3: N pole\nB diagram 1: N pole; diagram 3: S pole\nC diagram 1: S pole; diagram 3: N pole\nD diagram 1: S pole; diagram 3: S pole",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1337": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which transformer can change a 240 V a.c. input into a 15 V a.c. output?\n\nA Primary: 800 turns, Secondary: 40 turns\nB Primary: 1000 turns, Secondary: 25 turns\nC Primary: 2400 turns, Secondary: 15 turns\nD Primary: 1200 turns, Secondary: 75 turns",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
+ },
+ "q1338": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the purpose of the split-ring commutator in an electric motor?\n\nA to ensure that the magnetic field in the motor changes direction every half rotation\nB to ensure that the magnetic field in the motor stays in the same direction at all times\nC to ensure that the turning effect on the motor changes direction every half rotation\nD to ensure that the turning effect on the motor stays in the same direction at all times",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-26T00:40:26+00:00"
  }
 }
