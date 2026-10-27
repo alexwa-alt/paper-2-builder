@@ -17092,52 +17092,114 @@
   "updated": "2026-10-27T13:29:55+00:00"
  },
  "q1347": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.6.4",
+   "4.5.6.2",
+   "4.5.6.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Transformers are used in the transmission of electrical power to houses.\n\nWhich type of transformer is used at the power station prior to connection to the power lines and which type is used prior to delivery to the houses?\n\n| | power station | before houses |\n|---|---|---|\n| A | step-down | step-down |\n| B | step-down | step-up |\n| C | step-up | step-down |\n| D | step-up | step-up |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1348": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an a.c. generator rotating in a clockwise direction.\n\n[Diagram shows a rectangular coil between N and S magnetic poles, rotating clockwise. The ends of the coil connect to two slip rings, labelled 2, which make contact with fixed carbon brushes, labelled 1, connected to a galvanometer.]\n\nWhat are the names of parts 1 and 2?\n\n| | 1 | 2 |\n|---|---|---|\n| A | brush | slip-ring |\n| B | brush | split-ring commutator |\n| C | slip-ring | brush |\n| D | slip-ring | split-ring commutator |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1349": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.6.1",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which metal is used for the core of a transformer?\n\nA aluminium\nB copper\nC soft iron\nD steel",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1350": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.1.5",
+   "4.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a conducting metal rod PQ in the magnetic field between the N pole and the S pole. The rod is connected to a resistor in a circuit.\n\nIn which direction should rod PQ be moved to induce the current I in the direction of the arrow in the circuit?\n\n[Diagram shows a conducting rod PQ between magnetic poles N and S, connected in a complete circuit with a resistor. Current I flows from P through the external circuit towards Q. Four arrows indicate possible directions of motion for rod PQ: A (vertically upwards), B (towards pole S), C (towards pole N), and D (along the length of the rod towards Q).]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1351": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an electromagnet near a coil of wire connected to a voltmeter. The reading on the voltmeter is zero.\n\n[Diagram shows two coils wound on separate soft iron cores facing each other. The left coil (electromagnet) is connected to a d.c. power supply via an open switch. The right coil is connected to a voltmeter.]\n\nThe switch is closed. The electromagnet magnetises quickly.\n\nWhat happens to the reading on the voltmeter?\n\nA It keeps increasing.\nB It quickly increases and stays at maximum.\nC It quickly increases and then decreases.\nD It stays on zero.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1352": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which graph shows the voltage output of an a.c. generator with the peaks and zeros correctly labelled?\n\n[Four graphs of voltage V against time t are shown:\nA: A waveform with only positive half-cycles separated by flat zero regions. The maxima are labelled 'peaks' and the flat regions are labelled 'zeros'.\nB: A full-wave rectified waveform. The maxima are labelled 'peaks' and the points touching the zero line are labelled 'zeros'.\nC: A sinusoidal alternating waveform. The positive maxima are labelled 'peaks' and the negative troughs are labelled 'zeros'.\nD: A sinusoidal alternating waveform. Both the positive crests and negative troughs are labelled 'peaks', and the points where voltage is zero are labelled 'zeros'.]\n\nA graph A\nB graph B\nC graph C\nD graph D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1353": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.2.1",
+   "4.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an electric generator with the coil in a vertical position.\n\n[Diagram shows a rectangular coil positioned vertically between N and S magnetic poles, with connections via slip rings and brushes to an oscilloscope.]\n\nWhich row describes the generator?\n\n| | the generator produces | the voltage output will be zero when |\n|---|---|---|\n| A | a.c. | the coil is horizontal |\n| B | a.c. | the coil is vertical |\n| C | d.c. | the coil is horizontal |\n| D | d.c. | the coil is vertical |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1354": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:36:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a transformer. There are 460 turns on the primary coil and 24 turns on the secondary coil. The primary voltage is 230 V.\n\n[Diagram shows a rectangular iron core with a primary coil on the left side and a secondary coil on the right side.]\n\nWhat is the secondary voltage?\n\nA 2.0 V\nB 12 V\nC 48 V\nD 4400 V",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1355": {
   "status": "retry",
