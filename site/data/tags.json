@@ -17202,51 +17202,111 @@
   "updated": "2026-10-27T18:50:16+00:00"
  },
  "q1355": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A solenoid is connected to a very sensitive ammeter. A rod is inserted into one end of the solenoid. The ammeter shows that there is a small electric current in the solenoid while the rod is moving.\n\n[Diagram showing a solenoid connected in a closed loop to an ammeter A. A rod is being pushed towards the left into the open end of the solenoid.]\n\nWhich rod is being inserted?\n\nA a heated copper rod\nB a magnetised steel rod\nC an uncharged nylon rod\nD a radioactive uranium rod",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1356": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3",
+   "4.5.6.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 12 V, 36 W lamp shines at normal brightness when connected to a mains transformer.\n\nAssume the transformer is 100% efficient.\n\n[Diagram of a transformer: 240 V a.c. mains connected across a primary coil of 1200 turns on an iron core; the secondary coil is connected across a 12 V, 36 W lamp.]\n\nWhich row shows the number of turns in the secondary coil and the current in the mains wires?\n\n| | number of turns in secondary coil | current in the mains wire / A |\n|---|---|---|\n| A | 60 | 0.15 |\n| B | 60 | 3.0 |\n| C | 180 | 0.15 |\n| D | 180 | 3.0 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1357": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Diagram 1 shows a wire carrying an electric current into the page.\n\nThe wire is between the poles of a magnet.\n\nA force is produced on the wire acting down towards the bottom of the page.\n\nDiagram 2 shows the situation after the current is reversed and the magnet is turned through 90°.\n\n[Diagram 1: N pole on the left, S pole on the right. Wire carrying current into the page (indicated by a circled cross) is between them, with an arrow pointing down labelled 'direction of force'.\nDiagram 2: S pole at the top, N pole at the bottom. Wire carrying current out of the page (indicated by a circled dot) is between them.]\n\nIn which direction does the force act after these changes?\n\nA towards the top of the page\nB towards the bottom of the page\nC towards the left-hand side of the page\nD towards the right-hand side of the page",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1358": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "What is the function of the split-ring commutator in an electric motor with a single rotating coil?\n\nA to enable the motor to function with an a.c. source\nB to reverse the current in the coil once every revolution\nC to reverse the current in the coil whenever its plane becomes perpendicular to the magnetic field\nD to reverse the current in the coil whenever its plane is parallel with the magnetic field",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1359": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which graph represents an alternating current (a.c.)?\n\n[Option A: Square wave oscillating between positive and negative current values about zero.\nOption B: Rectified sine wave entirely above the zero current line.\nOption C: Constant horizontal line above the zero current line.\nOption D: Sinusoidal wave oscillating entirely below or touching the zero current line.]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1360": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.4.1",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The diagrams show a horizontal wire in a magnetic field.\n\nThe horizontal wire is firmly held at each end (not shown) and cannot move.\n\nThe magnets and holder are on a balance.\n\nWhen there is no current in the wire, the reading on the balance is 0.35 g.\n\n[Diagram showing two views:\n'view from side': a U-shaped holder with N pole on the left and S pole on the right resting on a digital balance reading 0.35 g. Between the poles is a fixed horizontal wire with current coming out of the page (represented by a circled dot).\n'view from above': the N and S poles parallel to each other, with the fixed horizontal wire between them and an arrow pointing downwards indicating the current direction.]\n\nThere is a d.c. current in the wire, as shown.\n\nWhat happens to the reading on the balance?\n\nA smaller than 0.35 g\nB no change\nC changing from smaller to larger than 0.35 g repeatedly\nD larger than 0.35 g",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1361": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a wire between two magnets. An electromotive force (e.m.f.) is induced in the wire when it is moved up between the two magnets.\n\n[Diagram showing a loop of wire passing between an N pole and an S pole of two magnets, connected to a meter with an arrow pointing upwards.]\n\nFour tests are done.\n\n1 The direction of movement of the wire is reversed.\n2 The direction of the magnetic field is reversed.\n3 The wire is moved more quickly.\n4 The magnetic field strength is decreased.\n\nWhich tests will induce a smaller e.m.f. in the wire?\n\nA 1 and 2\nB 1 and 3\nC 3 and 4\nD 4 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  },
  "q1362": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:41:33+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.5.5.1",
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four positions of a current-carrying coil in a magnetic field, as in a d.c. motor, are shown.\nIn diagrams 2 and 4, the coil is at an angle of 45° to the field lines.\n\n[Diagrams 1, 2, 3, 4 showing a coil viewed along its axis of rotation between N and S magnetic poles with horizontal field lines from left to right:\n1: coil is horizontal (parallel to field lines)\n2: coil is tilted at 45°\n3: coil is vertical (perpendicular to field lines)\n4: coil is tilted at 45° in the opposite direction]\n\nWhich row is correct?\n\n| | turning effect of the forces in positions 1 and 3 | turning effect of the forces in positions 2 and 4 |\n|---|---|---|\n| A | different | different |\n| B | different | same |\n| C | same | different |\n| D | same | same |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-29T01:57:50+00:00"
  }
 }
