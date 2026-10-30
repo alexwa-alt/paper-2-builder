@@ -17308,5 +17308,443 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-29T01:57:50+00:00"
+ },
+ "q1363": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.5",
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the magnetic field due to a current in a solenoid.\n[Diagram showing a solenoid with magnetic field lines resembling a bar magnet, with the current direction indicated.]\nThe direction of the current is reversed.\nWhich row describes the effect that this has on the magnitude and on the direction of the magnetic field?\n\nA. magnitude of magnetic field: increases; direction of magnetic field: changes\nB. magnitude of magnetic field: increases; direction of magnetic field: unchanged\nC. magnitude of magnetic field: unchanged; direction of magnetic field: changes\nD. magnitude of magnetic field: unchanged; direction of magnetic field: unchanged",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1364": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.5",
+   "4.5.6.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Electrical energy is transferred by transmission lines at high voltage.\nWhich statement explains why a high voltage is used?\nA The voltage is alternating.\nB The transmission lines have a larger resistance.\nC The transmission lines carry greater power.\nD There is a smaller current in the transmission lines for the same power.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1365": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows the magnetic field around a straight, current-carrying wire?\n[Four diagrams showing a horizontal wire with current directed to the right, surrounded by circular field loops with different directions indicated by arrows.]\nA [Circular loops around the wire with clockwise field when viewed in the direction of the current]\nB [Circular loops around the wire with anticlockwise field when viewed in the direction of the current]\nC [Circular loops around the wire with reversed arrow orientations]\nD [A continuous helical line along the wire]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1366": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The coil in a d.c. motor is connected to a split-ring commutator.\nWhat is the purpose of the split-ring commutator?\nA to ensure that the coil continues to rotate in the same direction\nB to ensure that the size of the current in the coil remains constant\nC to ensure that the size of the turning effect on the coil remains constant\nD to ensure that the turning effect on the coil changes direction",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1367": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The two inputs of a NAND gate are joined together.\n[Diagram showing a single input branching to both inputs of a NAND gate to produce an output.]\nWhich truth table represents the action of this gate?\nA\ninput | output\n0 | 0\n1 | 0\n\nB\ninput | output\n0 | 1\n1 | 0\n\nC\ninput | output\n0 | 0\n1 | 1\n\nD\ninput | output\n0 | 1\n1 | 1",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1368": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a transformer that has an output voltage of 12 V.\n[Diagram of a step-down transformer: primary coil has 1000 turns with 240 V a.c. input; secondary coil produces 12 V a.c. output on a soft iron core.]\nHow many turns of wire are in the secondary coil?\nA 12\nB 20\nC 50\nD 20 000",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1369": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a wire between the poles of a magnet.\nThe wire is perpendicular to the page.\n[Diagram showing a North pole above and a South pole below a wire. The wire is indicated by a circle with a dot, representing current out of the page. 'LEFT' and 'RIGHT' are indicated.]\nThe wire is moved and a current is induced upwards, out of the paper.\nIn which direction is the wire moved?\nA left to right\nB right to left\nC up the page\nD down the page",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1370": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.7",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 100% efficient transformer converts a 240 V input voltage to a 12 V output voltage. The output power of the transformer can be a maximum of 20 W.\nThe output is connected to two 0.30 A bulbs in parallel. One of the bulbs fails.\nHow does the current in the primary coil change?\nA It decreases by 0.30 A.\nB It decreases by 0.015 A.\nC It increases by 0.15 A.\nD It remains unchanged.",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:25:09+00:00"
+ },
+ "q1371": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.8",
+   "4.5.6.5",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Cables transmit electrical power from the output of the transformer at a power station to the input of the transformer at a substation.\n\n[Diagram showing the output of a transformer at a power station connected by two cables to the input of a transformer at a substation]\n\nThe power at the output of the transformer at the power station is 400 MW.\n\nWhich situation delivers the most power to the input of the transformer at the substation?\n\nA potential difference at power station transformer output/kV: 200, diameter of cables: large\nB potential difference at power station transformer output/kV: 200, diameter of cables: small\nC potential difference at power station transformer output/kV: 400, diameter of cables: large\nD potential difference at power station transformer output/kV: 400, diameter of cables: small",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1372": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.4",
+   "4.1.11",
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows the magnetic field due to a current in a solenoid.\n\n[Diagram showing a solenoid carrying a current with magnetic field lines plotted around and through it. Point A is above the solenoid, point B is to the right of the solenoid along the axis, point C is inside the solenoid, and point D is to the left of the solenoid along the axis.]\n\nWhere is the magnetic field the strongest?\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1373": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.3",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A beam of electrons is passed through the magnetic field of a magnet.\n\nHow must the magnet be positioned to deflect the beam in the direction shown?\n\n[Four diagrams showing a horseshoe magnet in different orientations and an electron beam entering from the top-left and curving to exit horizontally to the right:\nA magnet upright with N pole on the left and S pole on the right\nB magnet on its side with S pole on top and N pole on the bottom\nC magnet upright with S pole on the left and N pole on the right\nD magnet on its side with N pole on top and S pole on the bottom]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1374": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graphs show how the currents in three circuits vary with time.\n\n[Three graphs of current/A against time:\nCircuit 1 shows a sinusoidal wave oscillating entirely above zero between 0.5 A and 1.5 A.\nCircuit 2 shows a sinusoidal wave oscillating symmetrically about zero between -1.0 A and 1.0 A.\nCircuit 3 shows a constant horizontal line at 1.0 A.]\n\nIn which circuits is there a direct current?\n\nA 1 and 2\nB 1 and 3\nC 2 only\nD 3 only",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1375": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The coil of a simple a.c. generator rotates steadily in a uniform magnetic field.\n\nThe diagram shows the position of the coil at time t = 0.\n\n[Diagram showing a coil oriented vertically between a North pole on the left and a South pole on the right, with arrows indicating clockwise rotation]\n\nWhich graph shows the output voltage for one revolution of the coil?\n\n[Four graphs of V against t:\nA sinusoidal wave starting at V = 0, going positive, then negative, then returning to 0\nB cosine wave starting at maximum positive V, going negative, then returning to maximum\nC rectified sinusoidal wave with two positive half-cycles\nD rectified sinusoidal wave with four positive half-cycles]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1376": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3",
+   "4.5.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A transformer is needed to convert a supply of 240 V a.c. into 4800 V a.c..\n\n[Circuit diagram of a transformer with primary coil N_P supplied with 240 V a.c. and secondary coil N_S delivering 4800 V a.c.]\n\nWhich pair of coils would be suitable for this transformer?\n\nA number of turns on primary coil N_P: 50, number of turns on secondary coil N_S: 1000\nB number of turns on primary coil N_P: 240, number of turns on secondary coil N_S: 48000\nC number of turns on primary coil N_P: 480, number of turns on secondary coil N_S: 24\nD number of turns on primary coil N_P: 2000, number of turns on secondary coil N_S: 100",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1377": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.4",
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows part of a long current-carrying conductor.\n\n[Diagram of a vertical wire with current directed upwards. Four points are shown: A is above and to the left of the wire, B is below and to the left, C is to the right at a short distance, and D is to the right at a greater distance]\n\nAt which point is the magnetic field strongest?\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1378": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.5",
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an a.c. generator used to power a lamp. The coil rotates in a clockwise direction.\n\n[Diagram showing an a.c. generator with magnetic poles X on the left and Y on the right. A rectangular coil rotates clockwise between the poles. An arrow labeled I indicates current flowing away from the slip rings in the left side of the coil, and towards the slip rings in the right side of the coil.]\n\nWhich magnetic poles are X and Y?\n\nA X: N pole, Y: N pole\nB X: N pole, Y: S pole\nC X: S pole, Y: N pole\nD X: S pole, Y: S pole",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:31:31+00:00"
+ },
+ "q1380": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.7",
+   "4.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a coil of wire wrapped around a soft-iron rod.\n\nThe wire is connected to a d.c. power supply as indicated.\n\nThe apparatus is in a region which is totally shielded from the Earth's magnetic field.\n\n[Diagram showing a coil wrapped around a soft-iron rod horizontally, connected to a d.c. power supply with '+' on the left and '−' on the right. A point P is located below the middle of the coil.]\n\nA small compass needle is placed at point P.\n\nIn which direction does the N pole of the compass needle point?\n\nA towards the bottom of the page\nB towards the left of the page\nC towards the right of the page\nD towards the top of the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1381": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.1.3",
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Graph X shows the output from an a.c. generator.\n\n[Graph of p.d. against time showing wave X with a lower amplitude and lower frequency, and wave Y with double the frequency and higher amplitude.]\n\nWhich changes can be made so that the generator produces graph Y?\n\nA Decrease the magnetic field strength and decrease the speed of rotation only.\nB Increase the magnetic field strength and decrease the number of coils only.\nC Increase the number of coils only.\nD Increase the speed of rotation only.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1382": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A transformer is needed to convert a supply of 240 V a.c. into 4800 V a.c..\n\n[Diagram of a transformer with primary coil turns N_P connected to 240 V a.c. and secondary coil turns N_S connected to 4800 V a.c.]\n\nWhich pair of coils would be suitable for this transformer?\n\n| | number of turns on primary coil N_P | number of turns on secondary coil N_S |\n|---|---|---|\n| A | 50 | 1000 |\n| B | 240 | 48 000 |\n| C | 480 | 24 |\n| D | 2000 | 100 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1383": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.1",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a wire carrying a current in the direction shown. There is a magnetic field acting from left to right. The wire experiences a force acting out of the page.\n\n[Diagram showing a vertical wire with current directed downwards passing through horizontal magnetic field lines directed to the right.]\n\nThe current is now reversed.\n\nIn which direction does the force on the wire now act?\n\nA into the page\nB out of the page\nC to the left\nD to the right",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1384": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A current-carrying coil is placed in a magnetic field.\n\n[Diagram showing a view from above of a rectangular coil placed in a horizontal magnetic field pointing to the right.]\n\nWhich effect does the coil experience?\n\nA a change in shape\nB a change in weight\nC a resultant force\nD a turning effect",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1385": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the purpose of the commutator in a d.c. electric motor?\n\nA to control the speed at which the motor rotates\nB to reverse the direction of the voltage across the power supply every half-turn\nC to reverse the direction of the current in the motor coil every half-turn\nD to reverse the direction of spin of the motor coil every half-turn",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1386": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a wire between two magnetic poles. The wire is connected in a circuit with an ammeter.\n\n[Diagram showing a horizontal wire positioned between an N pole on the left and an S pole on the right, connected to an ammeter.]\n\nThe wire is moved downwards, towards the bottom of the page. A current is induced in the wire.\n\nIn which direction is the force on the wire caused by this current?\n\nA towards the bottom of the page\nB towards the left of the page\nC towards the right of the page\nD towards the top of the page",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1387": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a current-carrying wire placed between two magnetic poles. The current is in the direction shown.\n\n[Diagram showing a wire passing between an S pole on the left and an N pole on the right. The current direction in the wire is indicated by an arrow pointing towards the viewer/downwards-left.]\n\nWhat is the direction of the force on the wire?\n\nA towards the bottom of the page\nB towards the top of the page\nC towards the left-hand side of the page\nD towards the right-hand side of the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:33:37+00:00"
+ },
+ "q1388": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Diagram 1 shows an a.c. generator. The coil is turning as shown.\n\n[diagram 1: an a.c. generator with a coil turning between N and S poles of a magnet, connected to slip rings and brushes. The coil is oriented vertically, perpendicular to the magnetic field.]\n\nDiagram 2 shows the output voltage produced by the generator as the coil turns.\n\nWhich point on diagram 2 shows the voltage induced when the coil is moving through the position shown in diagram 1?\n\n[diagram 2: a sinusoidal wave of output voltage against time, with points labeled: A at a positive crest, B at the subsequent zero crossing, C shortly after B, D at the trough.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1389": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2",
+   "4.5.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A conductor carrying a current is placed in a magnetic field.\n\nIn which direction does the force on the conductor act?\n\n[Diagram shows a straight conductor between the N pole on the left and S pole on the right. Current flows along the wire towards the foreground. Four arrows are shown at the center: A pointing vertically up, B pointing right, C pointing vertically down, D pointing left.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1390": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student investigates the output voltage induced across a coil of wire by a bar magnet.\n\nWhen will the induced voltage have the greatest value?\n\nA The student slowly moves the bar magnet into the coil of wire.\nB The student leaves the bar magnet stationary in the coil of wire.\nC The student quickly removes the bar magnet from the coil of wire.\nD The student places the bar magnet at rest outside the coil of wire.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1391": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current in a wire. The direction of the current is out of the page.\n\nWhich diagram shows the magnetic field pattern produced?\n\n[Diagram shows four patterns labeled A, B, C, D around a wire carrying a current out of the page (indicated by a dot inside a circle):\nA Concentric circles directed clockwise\nB Concentric circles directed anticlockwise\nC Inward radial lines\nD Outward radial lines]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1392": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2",
+   "4.5.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Diagram 1 shows a coil of wire P between the poles of a magnet. The ends of coil P are connected to a battery by slip rings.\n\nDiagram 2 shows a coil of wire Q between the poles of a different magnet. The ends of coil Q are connected to a battery by a split-ring commutator.\n\n[Diagram 1 shows coil P between N and S poles connected to a d.c. supply via two full slip rings.\nDiagram 2 shows coil Q between N and S poles connected to a d.c. supply via a split-ring commutator.]\n\nWhat happens to coils P and Q?\n\nA coil P: continuously turns anticlockwise; coil Q: makes one quarter turn anticlockwise then stops\nB coil P: continuously turns clockwise; coil Q: makes one quarter turn clockwise then stops\nC coil P: makes one quarter turn anticlockwise then stops; coil Q: continuously turns anticlockwise\nD coil P: makes one quarter turn clockwise then stops; coil Q: continuously turns clockwise",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1393": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The N-pole of a magnet is moved into a coil of wire connected to a galvanometer.\n\n[Diagram shows a bar magnet with its N-pole moving towards the right into a solenoid connected to a galvanometer.]\n\nThe needle of the galvanometer moves.\n\nWhich situation must give a smaller galvanometer reading?\n\nA Use a coil with fewer turns and a stronger magnet.\nB Use a coil with fewer turns and a weaker magnet.\nC Use a coil with more turns and a stronger magnet.\nD Use a coil with more turns and a weaker magnet.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1396": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A step-up transformer produces a 60 V a.c. output from a 12 V a.c. input.\n\nThere are 50 turns on the secondary coil.\n\nHow many turns are there on the primary coil?\n\nA 5\nB 10\nC 50\nD 250",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1397": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.1",
+   "4.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An a.c. generator contains a coil that rotates at a rate of 4500 revolutions per minute.\n\nWhat is the frequency of the alternating current?\n\nA 1.25 Hz\nB 75 Hz\nC 150 Hz\nD 4500 Hz",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T14:38:51+00:00"
  }
 }
