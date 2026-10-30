@@ -17746,5 +17746,116 @@
   "type": "calculation",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-30T14:38:51+00:00"
+ },
+ "q1398": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.5",
+   "4.1.11",
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The current in a coil produces a magnetic field around it, as shown.\n\n[Diagram showing a solenoid connected to a d.c. source marked '-' on the left and '+' on the right. Magnetic field lines emerge from the right end, loop outside towards the left, and enter the left end.]\n\nThe magnitude of the potential difference across the coil is increased and its direction is reversed.\n\nWhat happens to the magnetic field?\n\nA The lines become closer together and the right-hand end becomes a south pole.\nB The lines become closer together and the right-hand end remains a north pole.\nC The lines become further apart and the right-hand end becomes a south pole.\nD The lines become further apart and the right-hand end remains a north pole.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1399": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about electromagnetic induction is correct?\n\nA A strong magnet that is held stationary near a stationary conductor causes a greater effect than a weak magnet.\nB The effect occurs when a magnet and a conductor are both moved with the same speed and in the same direction.\nC The effect occurs when a magnet is moved away from a nearby conductor.\nD The effect only occurs when a magnet is moved towards a conductor.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1400": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a current-carrying conductor in a magnetic field.\n\nWhich arrow shows the direction of the force acting on the conductor?\n\n[Diagram showing a wire carrying current between a south magnetic pole (S) on the left and a north magnetic pole (N) on the right. The wire is connected to a battery at the bottom. Four arrows at the wire indicate possible directions: A (upwards), B (towards N), C (downwards), D (towards S).]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1401": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.8",
+   "4.5.6.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Power losses in transmission cables are reduced by increasing the transmission voltage.\n\nWhat is the explanation for this reduction?\n\nA The current decreases, reducing thermal energy losses.\nB The current increases, increasing the flow of charge.\nC The resistance of the cable increases, reducing the current.\nD The resistance of the cable decreases.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1402": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Wire P carries a current directed perpendicularly into the page. A compass is placed at point Q which is close to wire P.\n\nThe magnetic field at Q due to the current is very much larger than the magnetic field of the Earth.\n\nIn which direction does the North pole of the compass point?\n\n[Diagram showing wire P carrying current into the page (symbol ⊗). Point Q is located down and to the right of wire P. Four arrows originate from Q: B points towards P, D points directly away from P, A points down-left (perpendicular to PQ), and C points up-right (perpendicular to PQ).]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1403": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3",
+   "4.5.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A transformer has N_p turns in the primary coil and N_s turns in the secondary coil.\n\nWhich row gives the values of N_p and N_s for a transformer that steps up a voltage of 1200 V to 36 000 V?\n\nA N_p = 2000, N_s = 60 000\nB N_p = 2000, N_s = 600 000\nC N_p = 60 000, N_s = 2000\nD N_p = 600 000, N_s = 2000",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1404": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wire connected to a resistor is moved in a magnetic field. A current is induced in the direction shown.\n\nIn which direction is the wire moved?\n\n[Diagram showing a wire in a circuit with a resistor R placed between a north pole (N) on the left and a south pole (S) on the right. An induced current flows along the wire towards the viewer. Four directional arrows are shown for the motion of the wire: A (up), B (towards S), C (down), D (towards N).]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1405": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.1",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a transformer.\n\n[Diagram showing a simple transformer with a rectangular core, a primary coil wound on the left side, and a secondary coil wound on the right side.]\n\nWhich materials are the most suitable for the core and for the coils?\n\nA core material: copper; coil material: copper\nB core material: copper; coil material: iron\nC core material: iron; coil material: copper\nD core material: iron; coil material: iron",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T19:34:38+00:00"
  }
 }
