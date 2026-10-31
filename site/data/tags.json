@@ -17857,5 +17857,116 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-30T19:34:38+00:00"
+ },
+ "q1406": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A solenoid is connected to a battery.\n\n[Diagram shows a solenoid connected across a battery, with a dashed line along the axis labeled 'axis of solenoid']\n\nWhich statement about the magnetic field at the centre of the solenoid is correct?\n\nA The magnetic field along the axis is zero.\nB The direction of the magnetic field is at an angle of 45° to the axis.\nC The direction of the magnetic field is parallel to the axis.\nD The direction of the magnetic field is perpendicular to the axis.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1407": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.5",
+   "4.5.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is a current of 3.0 A in a conductor.\n\nThe current is changed to 6.0 A in the opposite direction.\n\nWhich effect does this have on the magnetic field around the conductor?\n\nA It decreases and it acts in the opposite direction.\nB It decreases and it acts in the same direction.\nC It increases and it acts in the opposite direction.\nD It increases and it acts in the same direction.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1408": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.1",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A wire is placed in a strong magnetic field. When a current is passed through the wire it moves upwards, as shown.\n\n[Diagram showing a wire passing between the N and S poles of a horseshoe magnet, connected to a battery, with an arrow indicating upward movement]\n\nThe current is reversed.\n\nIn which direction does the wire move?\n\nA downwards\nB towards the north pole\nC towards the south pole\nD upwards",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1409": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.5",
+   "4.5.6.8",
+   "4.5.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Electrical power is transmitted at 400 kV and transformed down to 240 V before being delivered to consumers.\n\nWhich statement is correct?\n\nA A 400 kV cable requires less insulation than a 240 V cable.\nB Birds are subject to a high-voltage shock when resting on a high-voltage cable.\nC The current in the transmission wires is equal to the current delivered to the consumers.\nD With a 400 kV transmission system, a smaller proportion of the energy is used to heat the atmosphere than with a 240 V system.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1410": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a coil of wire between the poles of a magnet.\n\n[Diagram showing a coil of 20 turns between the N and S poles of a magnet, connected in series with a variable resistor and a power supply]\n\nThe coil consists of 20 turns of insulated wire.\n\nThe coil is connected to a variable resistor and a power supply.\n\nHow can the turning effect on the coil be increased?\n\nA by moving the poles of the magnet closer to the coil\nB by reducing the number of turns on the coil while keeping the current constant\nC by increasing the resistance of the variable resistor\nD by reversing the terminals of the power supply",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1411": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The circuit diagram shows an a.c. power supply connected to two diodes and a resistor.\n\n[Circuit diagram showing an a.c. power supply connected in series with a parallel combination of two oppositely-directed diodes, X pointing left and Y pointing right, and a resistor in series]\n\nThe graph shows the current from the supply.\n\n[Graph of sinusoidal alternating current against time]\n\nWhich graph shows the current in diode X?\n\n[Four graphs A, B, C, D of current against time: A shows full alternating current; B shows full-wave rectification; C shows half-wave rectification with positive pulses; D shows alternating single pulses]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1413": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.1",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "There is an electric current in a wire. The wire is placed in a magnetic field. A force acts on the wire due to the current.\n\nWhich statement is correct?\n\nA The magnetic field must be produced by a permanent magnet and not by an electromagnet.\nB The wire must be made from a magnetic material.\nC When both the current and the magnetic field are reversed, the direction of the force is unchanged.\nD When the current is reversed, but not the magnetic field, there will be no force on the wire.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1414": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A bar magnet can be demagnetised by hammering it for a long time or by slowly removing it from a coil connected to a power supply.\n\nWhich row completes the descriptions of how these processes are carried out?\n\n| | hammering bar magnet for a long time with | slowly removing bar magnet from a coil connected to |\n|---|---|---|\n| A | magnet aligned E-W | a d.c. power supply |\n| B | magnet aligned E-W | an a.c. power supply |\n| C | magnet aligned N-S | a d.c. power supply |\n| D | magnet aligned N-S | an a.c. power supply |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-30T23:56:16+00:00"
  }
 }
