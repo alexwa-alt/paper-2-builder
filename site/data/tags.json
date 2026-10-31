@@ -17968,5 +17968,112 @@
   "type": "conceptual",
   "model": "gemini-3.8-flash",
   "updated": "2026-10-30T23:56:16+00:00"
+ },
+ "q1415": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3",
+   "4.5.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a simple transformer with an input of 240 V and an output of 40 V.\n\nThere are 600 turns on the primary coil.\n\n[Diagram showing a simple transformer with an iron core, primary coil on the left with input 240 V and '600 turns' written in the middle, and secondary coil on the right with 40 V output]\n\nHow many turns are there on the secondary coil?\nA 100\nB 320\nC 400\nD 3600",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1416": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a current-carrying wire. The wire is at 90° to a magnetic field. The direction of the magnetic field is into the page.\n\n[Diagram showing a horizontal wire carrying a current directed to the right, crossing a shaded region with crosses representing a magnetic field directed into the page]\n\nA force acts on the wire due to the current and the magnetic field.\n\nIn which direction does the force act?\nA into the page\nB out of the page\nC towards the bottom of the diagram\nD towards the top of the diagram",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1417": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A simple d.c. electric motor is fitted with a coil that rotates in a magnetic field. A commutator connects the power supply to the coil.\n\nWhat is the purpose of the commutator?\nA It converts a.c. into d.c. in the coil.\nB It prevents the current from becoming too great, because the coil has a low resistance.\nC It reverses the direction of the current in the coil after every 180° rotation of the coil.\nD It switches the current off momentarily after every 90° rotation of the coil.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1418": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the purpose of a relay?\nA to change a large voltage into a small voltage\nB to change a small voltage into a large voltage\nC to use a large current to switch on a small current\nD to use a small current to switch on a large current",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1419": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which device uses a split-ring commutator?\nA a d.c. motor\nB a relay\nC a transformer\nD an a.c. generator",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1420": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A steel magnet is placed in a coil and demagnetised.\n\nWhich type of current is established in the coil, and how is the current changed?\nA a direct current in the coil, then reduce the current quickly to zero\nB a direct current in the coil, then reduce the current slowly to zero\nC an alternating current in the coil, then reduce the current quickly to zero\nD an alternating current in the coil, then reduce the current slowly to zero",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1421": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In which device is a split-ring commutator used, and what is its purpose?\n\n[Table with columns 'device' and 'purpose']\nA device: a.c. generator; purpose: to change the direction of the current in the coil as it turns\nB device: a.c. generator; purpose: to change the output current from d.c. into a.c.\nC device: d.c. motor; purpose: to change the direction of the current in the coil as it turns\nD device: d.c. motor; purpose: to change the input current from a.c. into d.c.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
+ },
+ "q1422": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "How can a permanent magnet be demagnetised?\nA Cool the magnet for a long time.\nB Place it next to another magnet.\nC Slowly pull it out of a coil connected to an a.c. supply.\nD Slowly pull it out of a coil connected to a d.c. supply.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-10-31T06:05:43+00:00"
  }
 }
