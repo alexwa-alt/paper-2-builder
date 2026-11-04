@@ -18203,147 +18203,266 @@
   "updated": "2026-10-31T12:53:06+00:00"
  },
  "q1432": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The scattering of α-particles by a thin metal foil supports the nuclear model of an atom.\n\nWhy are α-particles used rather than neutrons?\n\nA because they always travel more slowly\nB because they are heavier\nC because they are larger in diameter\nD because they have a positive charge",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1433": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "An iron nuclide is represented by the symbol shown.\n\n^{56}_{26}Fe\n\nWhich statements about a nucleus of this iron nuclide are correct?\n\n1 The nucleus contains 56 neutrons.\n2 The nucleon number is 30.\n3 The proton number is 26.\n\nA 1 and 2\nB 1 and 3\nC 2 and 3\nD 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1434": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "How are positive and negative ions formed from atoms?\n\n| | positive ion | negative ion |\n|---|---|---|\n| A | add positive charge to the nucleus | add an electron to the atom |\n| B | add positive charge to the nucleus | remove positive charge from the nucleus |\n| C | remove an electron from the atom | add an electron to the atom |\n| D | remove an electron from the atom | remove positive charge from the nucleus |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1435": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.5",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A nucleus of element X is represented as ^{56}_{26}X.\n\nWhich is an isotope of element X?\n\nA ^{26}_{56}X\nB ^{54}_{26}X\nC ^{56}_{24}X\nD ^{54}_{28}X",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1436": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fission and fusion are two types of nuclear process.\n\nHow does the total mass of the nuclides produced compare with the total mass of the original nuclide or nuclides in these nuclear processes?\n\n| | total mass of fission products compared to original nuclide | total mass of fusion products compared to original nuclides |\n|---|---|---|\n| A | same | same |\n| B | more | less |\n| C | less | more |\n| D | less | less |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1437": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.5",
+   "5.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The table shows the composition of three different nuclei.\n\n| nucleus | number of protons | number of neutrons |\n|---|---|---|\n| X | 3 | 3 |\n| Y | 3 | 4 |\n| Z | 4 | 3 |\n\nWhich nuclei are isotopes of the same element?\n\nA X, Y and Z\nB X and Y only\nC X and Z only\nD Y and Z only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1438": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The scattering of alpha-particles from a thin gold foil produces the following observations.\n\n• Most of the alpha-particles pass through the foil.\n• Most of the alpha-particles are virtually undeflected.\n• A small fraction of the alpha-particles are deflected through large angles.\n• A very small fraction of the alpha-particles bounce back from the foil.\n\nWhich conclusion does not follow from these observations?\n\nA Most of the mass of the gold atom is in its nucleus.\nB Most of the atom is empty space.\nC The nucleus consists of protons and neutrons.\nD The nucleus must be charged.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1439": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:04:31+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A nuclide of chlorine has the symbol shown.\n\n^{35}_{17}Cl\n\nWhat is the nucleon number of this nuclide of chlorine?\n\nA 17\nB 18\nC 35\nD 52",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:33:25+00:00"
  },
  "q1440": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "When a beam of α-particles is incident on a thin metal foil, most of them follow a path represented by path X in the diagram. A small number of α-particles follow a path represented by path Y in the diagram.\n\n[Diagram showing a beam of α-particles incident on a foil: path X passes straight through, path Y is deflected backwards at a large angle]\n\nWhich row correctly describes a conclusion that can be drawn from each of these observations about the structure of the atom?\n\n| | most follow path X | some follow path Y |\n|---|---|---|\n| A | atom is mostly empty space | atom contains something that repels α-particles |\n| B | atom is mostly empty space | nucleus contains protons and neutrons |\n| C | atom is neutral | atom contains something that repels α-particles |\n| D | atom is neutral | nucleus contains protons and neutrons |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1441": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A scientist was asked to separate the following equations into two categories: nuclear fission and nuclear fusion.\n\n1  ^239_94Pu → ^112_46Pd + ^124_48Cd + 3 ^1_0n\n2  ^3_2He + ^3_2He → ^4_2He + ^1_1H + ^1_1H\n3  ^14_7N + ^1_1H → ^15_8O\n4  ^235_92U → ^90_36Kr + ^143_56Ba + 2 ^1_0n\n\nWhich equations show nuclear fission?\n\nA 1 and 2\nB 1 and 3\nC 1 and 4\nD 2 and 4",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1442": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A very important experiment increased scientists' understanding of the structure of matter.\n\nIn the experiment, particles scattered as they passed through a thin metal foil.\n\nWhich particles were used, and to which conclusion did the experiment lead?\n\n| | particles | conclusion |\n|---|---|---|\n| A | alpha-particles | matter is made up of atoms |\n| B | alpha-particles | atoms have a very small nucleus |\n| C | beta-particles | matter is made up of atoms |\n| D | beta-particles | atoms have a very small nucleus |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1443": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A thin metal foil is placed in a vacuum. α-particles are fired at the foil and most go straight through. A very small proportion of the α-particles are deflected through large angles.\n\nWhat does this provide evidence for?\n\nA α-particles are very small.\nB There are negative electrons in each atom.\nC There is a tiny nucleus in each atom.\nD There are neutrons in each atom.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1445": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1",
+   "5.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Three students are describing the structure of an atom.\n\nstudent 1: All the positively charged particles are in the nucleus.\nstudent 2: Positive electrons are in the nucleus.\nstudent 3: Negative electrons orbit around the nucleus.\n\nWhich students are making a correct statement?\n\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1446": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The charge on a proton is e.\n\nWhat is the charge on an electron and what is the charge on a neutron?\n\n| | electron | neutron |\n|---|---|---|\n| A | e | e |\n| B | e | 0 |\n| C | -e | -e |\n| D | -e | 0 |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1449": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show different particles moving through a magnetic field.\n\nWhich particle experiences a magnetic force acting up out of the plane of the paper?\n\n[Four diagrams showing a uniform magnetic field directed to the right:\nA: a proton moving to the left\nB: an electron moving to the left\nC: a proton moving downwards\nD: an electron moving downwards]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1450": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:09:07+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement is correct for the nucleus of any atom?\n\nA The nucleus contains electrons, neutrons and protons.\nB The nucleus contains the same number of protons as neutrons.\nC The nucleus has a total charge of zero.\nD The nucleus is very small compared with the size of the atom.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-04T01:34:01+00:00"
  },
  "q1451": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1452": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1453": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1454": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1455": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1456": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1457": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  },
  "q1458": {
   "status": "retry",
-  "attempts": 1,
+  "attempts": 2,
   "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-03T07:13:44+00:00"
+  "updated": "2026-11-04T01:39:32+00:00"
  }
 }
