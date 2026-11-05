@@ -19148,52 +19148,114 @@
   "updated": "2026-11-05T07:07:34+00:00"
  },
  "q1499": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The graph shows the activity of a radioactive source over a period of time.\n\n[A graph of activity / (counts/s) against time / minutes. The curve starts at 120 counts/s at 0 minutes, drops to 60 counts/s at 2.0 minutes, and reaches 30 counts/s at 4.0 minutes.]\n\nWhat is the half-life of the source?\n\nA 1.0 minute\nB 2.0 minutes\nC 2.5 minutes\nD 4.0 minutes",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1500": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Some radioactive nuclei decay to give new nuclei which are also radioactive. Part of a series of decays is shown.\n\n^{238}_{92}U → ^{234}_{90}Th → ^{234}_{91}Pa → ^{234}_{92}U → ^{230}_{90}Th → ^{226}_{88}Ra\n\nHow many decays involve the emission of a β-particle?\n\nA 1\nB 2\nC 3\nD 5",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1501": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows α-particles incident on a thin metal foil.\n\n[Diagram showing a beam of α-particles travelling horizontally towards a thin vertical metal foil. Most particles pass straight through with little to no deflection, while a few undergo large-angle deflection or backscattering.]\n\nHow does the motion of these particles give evidence for the nuclear atom?\n\nA Most particles passing through with minimal deflection shows that the atom is mostly empty space.\nB Most particles passing through with minimal deflection shows that the mass of the atom is uniformly distributed.\nC Large deflections of some particles shows that the atom is mostly empty space.\nD Large deflections of some particles shows that the charge in the atom is uniformly distributed.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1502": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.4.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Radium-226, ^{226}_{88}Ra, is an α-emitter.\n\nIt is implanted inside cancerous tumours.\n\nIt is safe to use as it kills the cancerous cells, but not the healthy ones surrounding the tumour.\n\nWhich properties of α-particles, compared to other emissions, enable this use of radium-226?\n\n| | ionising effect of α-particles | penetration of α-particles |\n|---|---|---|\n| A | high | high |\n| B | high | low |\n| C | low | high |\n| D | low | low |",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1503": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The nucleus of an americium atom contains 146 neutrons and 95 protons. It decays by emitting an α-particle.\n\nHow many neutrons and how many protons remain in the nucleus when this form of americium decays?\n\n| | number of neutrons remaining | number of protons remaining |\n|---|---|---|\n| A | 142 | 93 |\n| B | 142 | 95 |\n| C | 144 | 93 |\n| D | 144 | 95 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1504": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the count rate measured by a radioactivity detector placed near a radioactive sample changed with time.\n\n[A decay curve of count rate / (counts/min) against time / h on a grid. The curve starts at 530 counts/min at time = 0 and smoothly decreases.]\n\nGiven that the background count rate is 30 counts/min, what is the half-life of this sample?\n\nA 3.4 h\nB 3.6 h\nC 4.0 h\nD 5.5 h",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1505": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.1.5",
+   "5.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A teacher holds a radioactive source near a detector.\n\nThe reading on the detector is 320 counts/min.\n\nThe detector is switched on again after the source has been removed and it shows a reading of 20 counts/min.\n\nWhat is the counts/min solely due to the source and why is there a reading on the detector when there is no radioactive source present?\n\n| | counts/min due to the source | reason for reading with no source |\n|---|---|---|\n| A | 300 | zero error on detector |\n| B | 300 | background radiation |\n| C | 340 | zero error on detector |\n| D | 340 | background radiation |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1506": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
-  "updated": "2026-11-05T07:07:57+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.2.4.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement is not correct?\n\nA α-particles are used to detect cracks in metallic structures.\nB β-particles are used in the measurement of the thickness of paper.\nC γ-rays may be used to treat cancer patients.\nD Smoke alarms contain a weak source of α-particles.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:10:21+00:00"
  },
  "q1507": {
   "status": "done",
@@ -19410,5 +19472,961 @@
   "type": "calculation",
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1526": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What occurs during nuclear fusion?\n\nA Two light atomic nuclei join together and emit energy.\nB Two light atomic nuclei join together and absorb energy.\nC A heavy atomic nucleus splits and emits energy.\nD A heavy atomic nucleus splits and absorbs energy.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1530": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam of particles moves through a magnetic field.\n\nIn which situation do the particles experience a magnetic force?\n\nA a beam of α-particles moving parallel to the magnetic field lines\nB a beam of electrons moving parallel to the magnetic field lines\nC a beam of β-particles moving perpendicularly across the magnetic field lines\nD a beam of neutrons moving perpendicularly across the magnetic field lines",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1531": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two beams of radiation, P and Q, enter an electric field as shown.\n\n[Diagram shows two parallel horizontal plates: the top plate is positively charged (+), the bottom plate is negatively charged (-). Beam P enters horizontally and curves upwards towards the positive plate. Beam Q enters horizontally and curves downwards towards the negative plate.]\n\nWhich type of radiations are P and Q?\n\n| | P | Q |\n|---|---|---|\n| A | beta (β) | alpha (α) |\n| B | beta (β) | gamma (γ) |\n| C | gamma (γ) | alpha (α) |\n| D | gamma (γ) | gamma (γ) |",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1532": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which equation represents the β-decay of lead-209?\n\nA ^209_82 Pb + ^0_-1 e → ^209_83 Bi\nB ^209_82 Pb + ^0_-1 e → ^209_81 Tl\nC ^209_82 Pb → ^209_83 Bi + ^0_-1 e\nD ^209_82 Pb → ^209_81 Tl + ^0_-1 e",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1533": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a beam of β-particles passing through a strong electric field.\n\n[Diagram shows two horizontal parallel plates. The top plate is labelled '+' and the bottom plate is labelled '-'. A beam of β-particles travels horizontally from left to right into the space between the plates.]\n\nIn which direction will the β-particles be deflected?\n\nA upwards towards the top of the page\nB downwards towards the bottom of the page\nC into the plane of the page\nD out of the plane of the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1534": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about γ-rays is correct?\n\nA They are deflected by both electric and magnetic fields.\nB They are deflected by magnetic fields but not by electric fields.\nC They are deflected by electric fields but not by magnetic fields.\nD They are not deflected either by electric fields or by magnetic fields.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1535": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A radioactive isotope of carbon ^14 C decays by beta emission to give an isotope of nitrogen ^14 N and a beta particle. The equation for the reaction is shown.\n\n^14_X C → ^14_7 N + ^0_Y β\n\nWhat is the value of X and of Y?\n\n| | X | Y |\n|---|---|---|\n| A | 6 | -1 |\n| B | 6 | 1 |\n| C | 8 | -1 |\n| D | 8 | 1 |",
+  "type": "calculation",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1536": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A beta particle is a fast moving electron.\n\nWhich statement explains how beta particles are emitted from an atom?\n\nA An electron is emitted as a beta particle from an inner electron shell of the atom.\nB An electron is emitted as a beta particle from an outer electron shell of the atom.\nC A neutron changes into a proton and a beta particle is emitted from the nucleus.\nD A proton changes into a neutron and a beta particle is emitted from the nucleus.",
+  "type": "conceptual",
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-05T22:11:16+00:00"
+ },
+ "q1537": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The chemical symbol for sodium is Na. The equation represents the radioactive decay of sodium-24.\n\n^{24}_{11}Na -> ^{24}_{x}Mg + ^{y}_{-1}e\n\nWhat are the numbers x and y?\n\nA  x = 10, y = 0\nB  x = 10, y = 1\nC  x = 12, y = 0\nD  x = 12, y = 1",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1538": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive source emits α-particles, β-particles and γ-rays into a vacuum where there is a magnetic field.\n\nThe magnetic field acts perpendicularly into the plane of the paper.\n\nThe paths X, Y and Z of the three types of radiation through the magnetic field are shown.\n\n[Diagram showing a radioactive source emitting three paths X, Y, and Z into a magnetic field directed into the paper. Path X curves slightly to the left, path Y continues straight up, and path Z curves sharply to the right.]\n\nWhich radiation follows path X, path Y and path Z?\n\nA  X: α-particles, Y: β-particles, Z: γ-rays\nB  X: α-particles, Y: γ-rays, Z: β-particles\nC  X: β-particles, Y: α-particles, Z: γ-rays\nD  X: β-particles, Y: γ-rays, Z: α-particles",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1539": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2",
+   "5.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student measures the level of radiation emitted from a radioactive substance. He places a detector very close to the substance. He puts different absorbers between the radioactive substance and the detector.\n\n[Diagram showing a radioactive substance, an absorber slot, a detector, and a counter.]\n\nThe student's results are shown. These results are corrected for background radiation.\n\n| absorber | counter reading / counts per minute |\n| none | 95 |\n| thin paper | 52 |\n| few mm of aluminium | 52 |\n| several cm of lead | 12 |\n\nWhich types of radiation are being emitted by the substance?\n\nA  α-particles and β-particles only\nB  α-particles and γ-rays only\nC  β-particles and γ-rays only\nD  α-particles, β-particles and γ-rays",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1540": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.1",
+  "difficulty": 1,
+  "text": "Which observation provides evidence for the nuclear atom?\n\nA  attraction of opposite charges\nB  emission of γ-rays during the decay of a radioactive nuclide\nC  scattering of α-particles by thin metal foils\nD  scattering of γ-rays by a thin metal foil",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1541": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The chemical symbol for uranium is U. The equation represents the radioactive decay of uranium-235.\n\n^{235}_{92}U -> ^{x}_{y}Th + ^{4}_{2}He\n\nWhat are the numbers x and y?\n\nA  x = 231, y = 94\nB  x = 231, y = 90\nC  x = 239, y = 94\nD  x = 239, y = 90",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1542": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.4.1",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment is done to measure the radiation from a radioactive source that has a half-life of 10 minutes.\n\nThe source is placed close to a detector that is connected to a counter, as shown.\n\n[Diagram showing a counter connected to a detector positioned near a radioactive source.]\n\nThe average background count-rate is 20 counts / minute.\n\nAt the start of the experiment, the count-rate recorded by the counter is 1000 counts / minute.\n\nWhat is the count-rate 10 minutes later?\n\nA  490 counts / minute\nB  500 counts / minute\nC  510 counts / minute\nD  530 counts / minute",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1543": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.1",
+  "difficulty": 1,
+  "text": "What is nuclear fission?\n\nA  the merging of two nuclei to create a heavier nucleus\nB  the process by which electrons are removed from an atom\nC  the process by which stars generate energy\nD  the splitting of a nucleus to create two smaller nuclei",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1544": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about γ-radiation is correct?\n\nA  It consists of very small charged particles.\nB  It is a form of electromagnetic radiation.\nC  It is less penetrating than β-radiation.\nD  It is more highly ionising than α-radiation.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:18:27+00:00"
+ },
+ "q1545": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radium nucleus with nucleon number 226 decays by emitting an α-particle.\n\nThe proton number of radium is 88.\n\nWhat are the nucleon number and proton number for the nucleus produced by this decay?\n\n[Table]\nnucleon number | proton number\nA | 222 | 86\nB | 222 | 87\nC | 226 | 86\nD | 226 | 87",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1546": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows β-particles being directed between the poles of a magnet.\n\n[Diagram showing a beam of β-particles moving horizontally to the right between a North pole on top and a South pole below]\n\nIn which direction will the particles be deflected?\n\nA into the page\nB out of the page\nC towards the bottom of the page\nD towards the top of the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1548": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Plutonium-238 decays by the emission of an α-particle.\n\nWhich equation represents the decay of a plutonium-238 nucleus?\n\nA ^238_94 Pu -> ^238_95 U + ^0_-1 α\nB ^238_94 Pu -> ^234_92 U + ^4_2 α\nC ^238_94 Pu -> ^234_92 U + ^2_4 α\nD ^238_94 Pu -> ^242_96 U + ^4_2 α",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1549": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive isotope has a half-life of 8 days.\n\nA detector close to a sample of this isotope gives a count rate of 200 counts per minute. Without the source, the background count is 20 counts per minute.\n\nWhat is the count rate due to the source after 8 days?\n\nA 80 counts per minute\nB 90 counts per minute\nC 100 counts per minute\nD 110 counts per minute",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1552": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The background count rate measured by a radiation counter is 40 counts per minute.\n\nWith the counter close to a radioactive source, the counter reading is 960 counts per minute.\n\nThe half-life of the source is 20 minutes.\n\nWhat is the counter reading one hour later?\n\nA 115 counts per minute\nB 120 counts per minute\nC 155 counts per minute\nD 160 counts per minute",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1553": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The radioactive isotope of hydrogen undergoes beta decay to the isotope ^3_2 He.\n\nWhat is the nuclide notation for the hydrogen isotope?\n\nA ^1_1 H\nB ^2_1 H\nC ^3_1 H\nD ^4_2 H",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1554": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.1",
+   "5.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "When measuring the emissions from a radioactive rock brought into the laboratory, a teacher mentions that background radiation must be taken into account.\n\nWhat is this background radiation?\n\nA infra-red radiation from warm objects in the laboratory\nB infra-red radiation from the Sun\nC ionising radiation from the radioactive rock brought into the laboratory\nD ionising radiation in the laboratory when the radioactive rock is not present",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1555": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Solid caesium-137 decays by the emission of a β-particle to form solid barium-137, which emits a γ-ray.\n\nThe barium-137 undergoes no further decay. The half-life of caesium-137 is 33 years.\n\nA block of pure caesium-137 has a mass of 2.0 μg.\n\nThe diagram shows a radiation detector a distance of 5 cm from the block. The detector registers a count rate of 2000 counts / second.\n\n[Diagram showing a block of caesium-137 placed 5 cm from a radiation detector connected to a counter]\n\nWhich statement is not correct?\n\nA After 33 years, the mass of the block is 1.0 μg.\nB After 66 years, the sample contains 1.5 μg of barium.\nC With 5 cm of lead between the block and the detector, the count rate is just above background level.\nD With 2 mm of aluminium between the block and the detector, the count rate is reduced significantly.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:07+00:00"
+ },
+ "q1556": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.1",
+  "difficulty": 1,
+  "text": "Nuclear fusion is a reaction that takes place in stars.\n\nWhich row describes this reaction?\n\n[Table]\n- A: action of atomic nuclei: an atomic nucleus splits into two or more smaller nuclei | energy: absorbed\n- B: action of atomic nuclei: an atomic nucleus splits into two or more smaller nuclei | energy: released\n- C: action of atomic nuclei: atomic nuclei join together to form a larger nucleus | energy: absorbed\n- D: action of atomic nuclei: atomic nuclei join together to form a larger nucleus | energy: released",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1557": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows emissions from a source passing into the electric field between two charged plates.\n\n[Diagram showing a source emitting radiation between a top positively charged plate and a bottom negatively charged plate. One path goes straight without deflection, while another path deflects downwards towards the negative plate.]\n\nWhat is emitted by this source?\n\nA neutrons and γ-rays only\nB α-particles and β-particles only\nC α-particles and γ-rays only\nD β-particles and γ-rays only",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1558": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The graph shows how the count rate registered by a counter near to a sample of a radioactive isotope changes over a period of a few days. The background count rate is 5 counts per minute.\n\n[Graph of count rate / (counts / minute) against time / days starting at 45 at t=0, passing through 25 at t=2, 15 at t=4, 10 at t=6, and ~7.5 at t=8.]\n\nWhat is the half-life of the isotope?\n\nA 2.0 days\nB 2.5 days\nC 3.0 days\nD 4.0 days",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00",
+  "repeat_of": "q1476"
+ },
+ "q1559": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An isotope of polonium has the nuclide notation ^218_84 Po.\n\nA nucleus of this isotope decays by emitting an α-particle. A β-particle is then emitted to form nuclide X.\n\nWhat is the notation for nuclide X?\n\nA ^214_81 X\nB ^213_82 X\nC ^213_83 X\nD ^214_83 X",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1560": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The table compares the penetrating abilities and ionising effects of α-radiation and of γ-radiation.\n\nWhich row is correct?\n\n[Table]\n- A: least penetrating: α | most ionising: α\n- B: least penetrating: α | most ionising: γ\n- C: least penetrating: γ | most ionising: α\n- D: least penetrating: γ | most ionising: γ",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1561": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The radiation from a radioactive source passes between two metal plates, and is deflected as shown in the diagram. Between the plates there is a magnetic field directed into the plane of the paper, as indicated by the crosses.\n\n[Diagram showing a beam entering from the left between top and bottom plates, in a region with magnetic field into the paper represented by crosses. The beam deflects downwards toward the bottom plate.]\n\nOnly one type of radiation is present.\n\nWhich situation is possible?\n\nA The source emits alpha particles and there is an upwards electric field between the plates.\nB The source emits alpha particles and there is no electric field between the plates.\nC The source emits beta particles and there is an upwards electric field between the plates.\nD The source emits gamma radiation and there is a downwards electric field between the plates.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1562": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The nucleus of an isotope of nitrogen (N) absorbs a neutron. It then decays into an isotope of carbon (C) and emits x.\n\n^1_0 n + ^14_7 N -> ^14_6 C + x\n\nWhat is x?\n\nA α-particle\nB β-particle\nC γ-radiation\nD proton",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1563": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.1.2.4"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.1",
+  "difficulty": 2,
+  "text": "When a uranium-235 nucleus absorbs a neutron, it becomes unstable and undergoes fission.\n\nThe fission process produces a barium (Ba) nucleus, a krypton (Kr) nucleus and 3 neutrons.\n\nThe fission process is represented by the nuclear equation shown.\n\n^1_0 n + ^235_92 U -> ^144_56 Ba + ^..._... Kr + 3 ^1_0 n\n\nWhich symbol represents the resulting krypton nucleus?\n\nA ^89_36 Kr\nB ^91_34 Kr\nC ^91_35 Kr\nD ^91_36 Kr",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:19:47+00:00"
+ },
+ "q1564": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the paths of three different types of radiation X, Y and Z. [Diagram shows radiation X passing through 2 mm of plastic and stopping in 10 mm of aluminium; radiation Y stopped by 2 mm of plastic; radiation Z passing through plastic and aluminium, stopping in 50 mm of lead.] Which row correctly identifies X, Y and Z?\nA X: α-particles, Y: β-particles, Z: γ-rays\nB X: β-particles, Y: α-particles, Z: γ-rays\nC X: β-particles, Y: γ-rays, Z: α-particles\nD X: γ-rays, Y: α-particles, Z: β-particles",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1565": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A scientist measures the count rate of a radioactive sample in a laboratory over a period of 12 weeks. The background radiation count rate in the laboratory remains constant at 20 counts per minute. The table shows the scientist's results before the background radiation count rate is taken into account.\n[Table:\ntime / weeks | count rate / counts per minute\n0 | 100\n2 | 80\n4 | 65\n6 | 54\n8 | 45\n10 | 39\n12 | 34]\nIn which range does the half-life of the radioactive isotope lie?\nA between 4 and 6 weeks\nB between 6 and 8 weeks\nC between 8 and 10 weeks\nD more than 12 weeks",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1566": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive nucleus ^220_86 Rn decays in two stages to produce ^212_82 Pb.\nWhich two particles are emitted in this process?\nA an α-particle and a β-particle\nB an α-particle and a proton\nC two α-particles\nD two β-particles",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1567": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The count rate measured when near a radioactive source drops from 542 counts per minute to 94 counts per minute in 12 hours. The background count remains constant at 30 counts per minute.\nWhat is the half-life of the source?\nA 2 hours\nB 3 hours\nC 4 hours\nD 8 hours",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1568": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A nucleus of ^228_88 Ra decays into an isotope of actinium, which then decays into a nucleus of ^228_90 Th.\nWhat types of radiation have been emitted during this process?\nA one alpha particle only\nB one alpha particle and one beta particle\nC two alpha particles\nD two beta particles",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1569": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The count rate due to a sample of a radioactive isotope is measured for 80 minutes.\n[Table:\ntime / minutes | count rate / counts / second\n0 | 480\n20 | 380\n40 | 300\n60 | 240\n80 | 190]\nWhat is the half-life of the isotope?\nA 20 minutes\nB 40 minutes\nC 60 minutes\nD 80 minutes",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1570": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A radioactive substance emits radiation at a rate of 600 emissions per second. Four hours later, it emits radiation at a rate of 300 emissions per second.\nWhat is the half-life of the substance and what is the rate of emission after a further four hours?\n[Table:\nhalf-life / hours | rate of emission after a further four hours / emissions per second\nA: 2 | 0\nB: 2 | 150\nC: 4 | 0\nD: 4 | 150]",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1571": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.1",
+  "difficulty": 1,
+  "text": "The nuclide notation for an isotope of silver is ^109_47 Ag.\nHow many nucleons are in a nucleus of this isotope?\nA 47\nB 62\nC 109\nD 156",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:20:53+00:00"
+ },
+ "q1572": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The equation represents an isotope of radium Ra decaying to an isotope of radon Rn with the emission of particle X.\n\n$^{226}_{88}\\text{Ra} \\rightarrow ^{222}_{86}\\text{Rn} + \\text{X}$\n\nWhat is particle X?\n\nA $^{0}_{-1}\\text{e}$\nB $^{1}_{1}\\text{H}$\nC $^{4}_{2}\\text{He}$\nD $^{1}_{0}\\text{n}$",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1573": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An atomic nucleus decays by one or more radioactive decay processes.\n\nWhat causes the proton number to decrease by 1?\n\nA α-decay followed by β-decay\nB α-decay only\nC β-decay followed by γ-decay\nD β-decay only",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1574": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A nuclide of element X undergoes β-decay.\n\nWhich statement is correct?\n\nA The nucleon number increases by 1.\nB The nucleon number stays the same.\nC The product is another nuclide of an isotope of X.\nD The proton number decreases by 1.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1575": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A detector of ionising radiation gives a background reading of 20 counts / minute.\n\nA radioactive isotope with a half-life of 2.0 days is brought near to the detector. The reading on the detector increases to 100 counts / minute.\n\nHow long does it take for the reading on the detector to decrease to 40 counts / minute?\n\nA 2.0 days\nB 4.0 days\nC 5.0 days\nD 10 days",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1576": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.1",
+  "difficulty": 1,
+  "text": "A type of nuclear reaction takes place in stars.\n\nWhich row describes this type of reaction?\n\n[Table with columns: nuclear reaction, nuclei formed, energy transfer]\nA nuclear reaction: fission, nuclei formed: larger than original nuclei, energy transfer: released\nB nuclear reaction: fission, nuclei formed: smaller than original nuclei, energy transfer: absorbed\nC nuclear reaction: fusion, nuclei formed: larger than original nuclei, energy transfer: released\nD nuclear reaction: fusion, nuclei formed: smaller than original nuclei, energy transfer: absorbed",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1577": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.1",
+   "5.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A sample of radioactive isotope is decaying.\n\nThe nuclei of which atoms will decay first?\n\nA It is impossible to know because radioactive decay is random.\nB It is impossible to know unless the age of the material is known.\nC The atoms near the centre will decay first because they are surrounded by more atoms.\nD The atoms near the surface will decay first because the radiation can escape more easily.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1578": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sample of a radioactive isotope emits particles at a rate of 240 per minute.\n\nAfter 48 hours the rate of emission has decreased to 15 per minute.\n\nWhat is the half-life of the radioactive material?\n\nA 4.0 hours\nB 8.0 hours\nC 12 hours\nD 16 hours",
+  "type": "calculation",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1579": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the half-life of a radioactive isotope.\n\nThe student uses a detector over five minutes and plots a graph showing how the count rate shown on the detector varies with time.\n\nThe count rate due to background radiation is 30 counts per minute.\n\n[Graph of count rate in counts/minute against time in minutes, starting at 230 counts/minute at time 0]\n\nWhat is the half-life of this isotope?\n\nA 0.30 minutes\nB 1.2 minutes\nC 1.5 minutes\nD 5.0 minutes",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T22:21:55+00:00"
+ },
+ "q1580": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is meant by the half-life of a radioactive isotope?\n\nA half of the time taken for all of the original nuclei to decay\nB the time taken for half of the original nuclei to decay\nC the time taken for the charges on all the nuclei to halve\nD the time taken for the mass of each nucleus to halve",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:23:52+00:00"
+ },
+ "q1581": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The rate of emission of a radioactive source is measured until the reading reaches the background rate of 20 counts per minute. A decay curve graph of rate of emission counts/minute against time/minute is shown.] What is the best estimate of the half-life of the source?\n\nA 10 minutes\nB 12 minutes\nC 14 minutes\nD 30 minutes",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:23:52+00:00"
+ },
+ "q1582": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive source has a half-life of 0.5 hours. A detector near the source shows a reading of 6000 counts per second. Background radiation can be ignored. What is the reading on the detector 1.5 hours later?\n\nA 750 counts per second\nB 1500 counts per second\nC 2000 counts per second\nD 3000 counts per second",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:23:52+00:00"
+ },
+ "q1583": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Radioactive carbon-14 decays to nitrogen-14 by the emission of a particle. [Equation: ^14_6 C -> ^14_7 N + particle] Which particle has been emitted in this process?\n\nA a beta-particle\nB an alpha-particle\nC a neutron\nD a proton",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:23:52+00:00"
+ },
+ "q1584": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[Diagram shows alpha-particles passing through an electric field between two charged plates and being deflected downwards.] What happens to gamma-rays passing through the same electric field?\n\nA They are deflected downwards more than the alpha-particles.\nB They are deflected upwards.\nC They are not deflected at all.\nD They follow the same path as the alpha-particles.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:23:52+00:00"
+ },
+ "q1585": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.2.1",
+   "5.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Radioactive iodine-131 emits beta-particles and has a half-life of 8 days. It decays to produce xenon-131. Which statement about this decay is correct?\n\nA After 8 days no more beta-particles are emitted.\nB After 8 days the number of xenon-131 atoms has halved.\nC After 16 days the iodine-131 has decayed completely.\nD After 16 days the number of iodine-131 atoms has reduced to one quarter.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:23:52+00:00"
+ },
+ "q1586": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which data is needed to calculate the average orbital speed of a satellite around a planet?\n[Table with columns: the distance of the satellite from the centre of the planet, the radius of the planet, the period of rotation of the planet, the time for the satellite to orbit the planet once; and rows A to D showing combinations of check marks and crosses indicating needed or not needed]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1587": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Approximately how long does it take for the Moon to make one complete orbit of the Earth?\nA 24 hours\nB 1 month\nC 1 season\nD 1 year",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1588": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.1",
+   "6.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which planet in our Solar System is nearest to the Sun and what is the nature of the planet?\n[Table with columns planet and nature, listing Mercury and Venus with rocky or gaseous options]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1589": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the Solar System is correct?\nA All the planets are rocky.\nB Only the Earth has a moon.\nC Pluto is a dwarf planet.\nD There are many stars in the Solar System.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1590": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Comets are bodies which orbit the Sun in the Solar System.\nWhat is the shape of the orbit and how is the Sun positioned within the orbit?\n[Table with columns shape of orbit (circular/elliptical) and position of the Sun (centre of orbit / not at centre of orbit)]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1591": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.2",
+   "6.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row about the orbits of the Earth and the Moon is correct?\n[Table with columns: approximate time for the Earth to orbit the Sun, approximate time for the Moon to orbit the Earth]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1592": {
+  "status": "done",
+  "subpoints": [
+   "6.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The energy generated in stable stars comes from nuclear reactions.\nWhich type of reaction occurs in the Sun?\nA Helium nuclei break up to give hydrogen nuclei.\nB Helium nuclei join together to form hydrogen nuclei.\nC Hydrogen nuclei break up to give helium nuclei.\nD Hydrogen nuclei join together to form helium nuclei.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1593": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9",
+   "6.2.3.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two quantities define the Hubble constant H0.\n• the speed at which the galaxy is moving away from the Earth v\n• the distance of the galaxy from the Earth d\nWhat is the relationship between v and d and what is the current estimate for H0?\n[Table showing relationship and current estimate for H0 options]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:11+00:00"
+ },
+ "q1594": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A space station orbits the Earth at a distance of 7000 km from the Earth's centre. It makes 15 orbits in every 24-hour period.\nWhat is the speed of the space station in its orbit?\nA 2900 km/h\nB 4400 km/h\nC 8800 km/h\nD 27 000 km/h",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1595": {
+  "status": "done",
+  "subpoints": [
+   "6.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which nuclear reaction powers a stable star?\nA nuclear fission of nuclei producing hydrogen\nB nuclear fission of a uranium nucleus into a krypton nucleus and a barium nucleus\nC nuclear fusion of a krypton nucleus and a barium nucleus into a uranium nucleus\nD nuclear fusion of hydrogen nuclei producing helium",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1596": {
+  "status": "done",
+  "subpoints": [
+   "6.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which stages in the life cycle of a star are listed in the order that they occur?\nA interstellar dust cloud -> stable star -> protostar\nB protostar -> red giant -> stable star\nC red giant -> white dwarf -> protostar\nD stable star -> red giant -> white dwarf",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1597": {
+  "status": "done",
+  "subpoints": [
+   "6.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which nuclear reaction produces the release of energy to power a star?\nA nuclear fission of helium into hydrogen\nB nuclear fission of hydrogen into helium\nC nuclear fusion of helium into hydrogen\nD nuclear fusion of hydrogen into helium",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1598": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the definition of the Hubble constant?\nA the ratio of the speed at which a galaxy is receding from the Earth to its distance from the Earth\nB the value of the change in wavelength of the galaxy's starlight due to redshift\nC the constant used to represent the rate of expansion of the Universe in all directions\nD the estimated constant equal to the age of the Universe",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1599": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the orbits of comets is correct?\nA Comets have elliptical orbits and the Sun is at the centre of the orbit.\nB Comets have elliptical orbits and the Sun is not at the centre of the orbit.\nC Comets have circular orbits and the Sun is at the centre of the orbit.\nD Comets have circular orbits and the Sun is not at the centre of the orbit.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1600": {
+  "status": "done",
+  "subpoints": [
+   "6.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row describes the power source for a stable star?\n[Table with columns 'type of nuclear reaction' and 'fuel', and rows A (fission, hydrogen), B (fission, uranium), C (fusion, hydrogen), D (fusion, uranium)]\nA\nB\nC\nD",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
+ },
+ "q1601": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which quantity can be determined using the brightness of a supernova in a distant galaxy?\nA the speed at which the galaxy is moving away from the Earth\nB the distance of the galaxy from the Earth\nC the Hubble constant\nD the age of the Universe",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T22:24:31+00:00"
  }
 }
