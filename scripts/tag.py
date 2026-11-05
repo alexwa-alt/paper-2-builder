@@ -69,35 +69,68 @@ def make_client():
     return genai.Client(api_key=key)
 
 
-def ask(client, model, parts):
-    """One Gemini request returning parsed JSON.
+def model_list(gcfg):
+    """The main model first, then any fallbacks from config.yaml."""
+    models = [gcfg["model"]] + list(gcfg.get("fallback_models") or [])
+    return list(dict.fromkeys(models))
 
-    Rate limits (429) and temporary overloads (500/503) are retried a few
-    times with increasing waits. If they persist, QuotaExhausted is raised so
-    the run stops cleanly and the next scheduled run carries on.
+
+def is_temporary(e):
+    """Overloads, rate limits and dropped connections: worth retrying later."""
+    from google.genai import errors
+    if isinstance(e, errors.APIError):
+        code = getattr(e, "code", None)
+        return code in (429, 500, 502, 503, 504) or any(
+            s in str(e) for s in ("RESOURCE_EXHAUSTED", "UNAVAILABLE"))
+    # network problems, e.g. "Server disconnected without sending a response"
+    name = type(e).__name__
+    return any(s in name for s in ("Disconnected", "Timeout", "ConnectError",
+                                   "RemoteProtocolError", "ReadError"))
+
+
+def ask(client, models, parts):
+    """One Gemini request returning (parsed JSON, model used).
+
+    Tries each model in turn. A model that is overloaded (503), out of free
+    quota (429) or dropping connections is retried a couple of times, then
+    skipped for the rest of the run in favour of the next model. Only when
+    every model has failed is QuotaExhausted raised, so the run stops cleanly
+    and the next scheduled run carries on.
     """
     from google.genai import errors, types
     config = types.GenerateContentConfig(response_mime_type="application/json",
                                          temperature=0.2)
-    waits = [30, 90, 180]
-    for attempt in range(len(waits) + 1):
-        try:
-            resp = client.models.generate_content(model=model, contents=parts,
-                                                  config=config)
-            return parse_json_text(resp.text or "")
-        except errors.APIError as e:
-            code = getattr(e, "code", None)
-            if code == 404:
-                sys.exit(f"Gemini model '{model}' was not found: {str(e)[:300]}\n"
-                         "Update gemini.model in config.yaml.")
-            temporary = code in (429, 500, 502, 503, 504) or any(
-                s in str(e) for s in ("RESOURCE_EXHAUSTED", "UNAVAILABLE"))
-            if not temporary:
-                raise
-            if attempt == len(waits):
-                raise QuotaExhausted(str(e)[:200])
-            print(f"  Gemini busy or rate limited ({code}) - waiting {waits[attempt]} s")
-            time.sleep(waits[attempt])
+    waits = [20, 60]
+    last = None
+    for model in models:
+        if model in UNAVAILABLE:
+            continue
+        for attempt in range(len(waits) + 1):
+            try:
+                resp = client.models.generate_content(model=model, contents=parts,
+                                                      config=config)
+                return parse_json_text(resp.text or ""), model
+            except Exception as e:
+                code = getattr(e, "code", None)
+                if isinstance(e, errors.APIError) and code == 404:
+                    print(f"  Gemini model '{model}' was not found - check config.yaml")
+                    UNAVAILABLE.add(model)
+                    last = e
+                    break
+                if not is_temporary(e):
+                    raise
+                last = e
+                if attempt == len(waits):
+                    print(f"  {model} still unavailable - switching model for this run")
+                    UNAVAILABLE.add(model)
+                    break
+                print(f"  {model} busy or rate limited ({code or type(e).__name__})"
+                      f" - waiting {waits[attempt]} s")
+                time.sleep(waits[attempt])
+    raise QuotaExhausted(str(last)[:200] if last else "no Gemini model available")
+
+
+UNAVAILABLE = set()   # models that kept failing during this run
 
 
 def image_part(path):
@@ -137,7 +170,7 @@ def syllabus_outline(client, cfg, subject, pdf_part, data):
         return syl["chapters"], syl["sections"]
     if not data.get("outline"):
         print(f'Reading the {subject["subject_name"]} syllabus outline')
-        result = ask(client, cfg["gemini"]["model"], [pdf_part, OUTLINE_PROMPT.format(
+        result, _ = ask(client, model_list(cfg["gemini"]), [pdf_part, OUTLINE_PROMPT.format(
             subject=subject["subject_name"], code=subject["code"])])
         topics = [t for t in result.get("topics", []) if isinstance(t, dict) and t.get("subtopics")]
         if not topics:
@@ -164,7 +197,7 @@ def build_syllabus(client, cfg, subject, path):
     pdf_part = types.Part.from_bytes(data=pdf.read_bytes(), mime_type="application/pdf")
     chapters, sections = syllabus_outline(client, cfg, subject, pdf_part, data)
     save_json(path, data)
-    model = cfg["gemini"]["model"]
+    models = model_list(cfg["gemini"])
     for ch in chapters:
         if ch["num"] in data["chapters_done"]:
             continue
@@ -174,7 +207,7 @@ def build_syllabus(client, cfg, subject, path):
             num=ch["num"], title=ch["title"],
             sections="\n".join(f'{s["code"]} {s["title"]}' for s in secs))
         print(f'Reading {subject["subject_name"]} syllabus topic {ch["num"]} {ch["title"]}')
-        result = ask(client, model, [pdf_part, prompt])
+        result, _ = ask(client, models, [pdf_part, prompt])
         seen = {o["code"] for o in data["objectives"]}
         valid_sections = {s["code"] for s in secs}
         added = 0
@@ -384,7 +417,7 @@ def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags, chapt
         parts.extend(image_part(p) for p in question_images(q))
 
     try:
-        result = ask(client, gcfg["model"], parts)
+        result, used = ask(client, model_list(gcfg), parts)
     except QuotaExhausted:
         raise
     except Exception as e:  # malformed JSON, server error, etc.
@@ -401,7 +434,7 @@ def tag_batch(client, cfg, bank, batch, chapter, syllabus, sections, tags, chapt
             record_failure(tags, q["id"], "missing or invalid tags in response",
                            gcfg["max_attempts"])
             continue
-        clean.update({"model": gcfg["model"], "updated": now()})
+        clean.update({"model": used, "updated": now()})
         tags[q["id"]] = clean
         ok += 1
     return ok
@@ -458,7 +491,18 @@ def load_bank(cfg, bank_id):
     return {"id": bank_id, "cfg": get_bank(cfg, bank_id), "paths": paths,
             "questions": qdata["questions"], "sections": qdata["sections"],
             "chapter_titles": {c["num"]: c["title"] for c in qdata.get("chapters", [])},
-            "tags": load_json(paths["tags"], {})}
+            "tags": reopen_dropped(load_json(paths["tags"], {}))}
+
+
+def reopen_dropped(tags):
+    """Questions that only failed because Gemini dropped the connection or was
+    overloaded weren't the question's fault: give them a fresh set of attempts."""
+    for qid, t in list(tags.items()):
+        err = t.get("error", "")
+        if t.get("status") in ("failed", "retry") and any(
+                s in err for s in ("Server disconnected", "UNAVAILABLE", "RESOURCE_EXHAUSTED")):
+            del tags[qid]
+    return tags
 
 
 def pending_in(bank):
