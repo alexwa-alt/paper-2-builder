@@ -17043,54 +17043,6 @@
   "model": "gemini-3.8-flash",
   "updated": "2026-10-26T00:40:26+00:00"
  },
- "q1339": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1340": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1341": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1342": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1343": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1344": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1345": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
- "q1346": {
-  "status": "failed",
-  "attempts": 3,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-10-27T13:29:55+00:00"
- },
  "q1347": {
   "status": "done",
   "subpoints": [
@@ -18417,52 +18369,1046 @@
   "model": "gemini-3.8-flash",
   "updated": "2026-11-04T01:34:01+00:00"
  },
+ "q1339": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A coil XY is wound around a cardboard tube.\n\nWhen the S pole of a magnet is pushed into the coil XY, the galvanometer deflects to the left.\n\n[Diagram showing a magnet with poles N S moving right towards the left end X of coil XY connected to a galvanometer.]\n\nWhat other movement of the magnet will produce a deflection to the left?\n\nA [Diagram of N S magnet at left moving left (S pole moves out)]\nB [Diagram of N S magnet at right moving right (N pole moves out)]\nC [Diagram of S N magnet at left moving right (N pole moves in)]\nD [Diagram of S N magnet at right moving right (S pole moves out)]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1340": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2",
+   "4.5.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a current-carrying wire in a magnetic field.\n\n[Diagram showing a wire with current flowing diagonally away between magnetic poles N on the left and S on the right, with field lines pointing right.]\n\nIn which direction is the force acting on the wire?\n\nA towards the bottom of the page\nB to the left\nC to the right\nD towards the top of the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1341": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.5",
+   "4.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A wire XY is connected to a resistor R. The wire is moved in the magnetic field between two magnetic poles.\n\nIn which direction must the wire be moved so that the induced current is in the direction shown?\n\n[Diagram showing a wire XY connected in a circuit with resistor R. The wire is placed between S pole on the left and N pole on the right. Arrows for motion options: A (up), B (down), C (left), D (right). The induced current flows from Y to X.]\n\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1342": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.5",
+   "4.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The circuit shown consists of a vertical wire, a resistor R and a battery.\n\nThe magnetic field near the wire is also shown.\n\n[Diagram showing a circuit with a vertical wire passing through a card, connected to a battery and resistor R. Beside it, a top view showing concentric circular magnetic field lines with arrows around a wire carrying current into the page.]\n\nTwo changes are made to the circuit:\n• The polarity of the battery is reversed.\n• The resistor R is replaced with another resistor with a lower resistance than R.\n\nWhat effect will these changes have on the magnetic field near the wire?\n\n| | direction of magnetic field | strength of magnetic field |\nA | opposite | same |\nB | same | weaker |\nC | opposite | stronger |\nD | same | stronger |",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1343": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.1",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram represents a transformer.\n\n[Diagram of a transformer showing a rectangular core and primary coil wrapped around one side.]\n\nWhich row shows materials suitable for making the core and the primary coil?\n\n| | core | primary coil |\nA | iron | copper |\nB | iron | plastic |\nC | steel | copper |\nD | steel | plastic |",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1344": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.5.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show the magnetic field lines around a wire carrying a current, I.\n\n[Four diagrams numbered 1, 2, 3, 4 showing vertical wires with current I upwards (1 and 2) or downwards (3 and 4), each surrounded by concentric circular field lines with direction arrows.]\n\nWhich diagrams are correct?\n\nA 1 only\nB 2 and 3\nC 4 only\nD 1 and 3",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1345": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.1.1",
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about electromagnetic induction is correct?\n\nA A conductor moving parallel to magnetic field lines induces an electromotive force (e.m.f.) in the conductor.\nB The direction of the induced electromotive force (e.m.f.) opposes the change which produces it.\nC The induced current is in a direction parallel to the direction of motion producing it.\nD The induced electromotive force (e.m.f.) decreases when the speed of the conductor moving across the field lines increases.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
+ "q1346": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four small compasses are placed around a solenoid.\n\n[Diagram showing a solenoid with four compasses positioned above, below, to the left, and to the right, all initially pointing upwards.]\n\nA current is now switched on in the solenoid.\n\nWhich diagram shows possible new directions of the compass needles?\n\nA [Top: down, Left: right, Right: left, Bottom: up]\nB [Top: down, Left: right, Right: right, Bottom: up]\nC [Top: left, Left: right, Right: right, Bottom: right]\nD [Top: right, Left: left, Right: left, Bottom: right]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-05T07:02:48+00:00"
+ },
  "q1451": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement is correct for the nucleus of any atom?\n\nA The nucleus contains electrons, neutrons and protons.\nB The nucleus contains the same number of protons as neutrons.\nC The nucleus has a total charge of zero.\nD The nucleus is very small compared with the size of the atom.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00",
+  "repeat_of": "q1450"
  },
  "q1452": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.1",
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The symbol represents a nucleus of zinc. [68 over 30 Zn]\n\nWhich row gives the numbers of protons and neutrons in this nucleus?\n\n[Table with columns: number of protons, number of neutrons]\nA 30 | 38\nB 30 | 68\nC 38 | 30\nD 38 | 68",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
  },
  "q1453": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement is correct for the nucleus of any atom?\n\nA The nucleus contains electrons, neutrons and protons.\nB The nucleus contains the same number of protons as neutrons.\nC The nucleus has a total charge of zero.\nD The nucleus is very small compared with the size of the atom.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
  },
  "q1454": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What are isotopes of an element?\n\nA atoms of a different element with a different number of neutrons\nB atoms of a different element with a different number of protons\nC atoms of the same element with a different number of neutrons\nD atoms of the same element with a different number of protons",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
  },
  "q1455": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "alpha-particles are directed at a metal foil.\nMost of the particles pass through the foil with little change in direction.\nA small proportion of the particles are scattered back through large angles.\nWhat does this evidence suggest about the structure of an atom?\n\nA It consists of a charged centre much smaller than the size of the atom and with little of the mass of the atom.\nB It consists of a negative charge the size of the atom containing small positive charges scattered through it.\nC It consists of a charged centre much smaller than the size of the atom but with most of the mass of the atom.\nD It consists of a positive charge the size of the atom containing small negative charges scattered through it.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
  },
  "q1456": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1",
+   "5.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows a possible structure of a neutral atom?\n[Diagrams A, B, C, D showing orbits with electrons and nuclei with protons and neutrons, with a key: black circle = proton, white circle = neutron, grey circle = electron]\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
  },
  "q1457": {
-  "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The scattering of particles by a thin gold foil provided scientists with evidence for the nuclear atom.\n\nWhich particles were scattered by the gold nuclei in the thin foil?\n\nA alpha-particles\nB beta-particles\nC neutrons\nD protons",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
  },
  "q1458": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.1.2",
+   "5.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show the simple atomic structure for two neutral atoms X and Y of different elements. [Atom X has 2 orbits with 1 electron on the inner and 2 on the outer; Atom Y has 2 orbits with 2 electrons on the inner and 1 on the outer]\n\nWhich row is correct?\n\n[Table with columns: atom with more electrons, atom with a more positively charged nucleus]\nA X | X\nB X | Y\nC Y | X\nD Y | Y",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:11+00:00"
+ },
+ "q1459": {
+  "status": "done",
+  "subpoints": [
+   "5.2.5.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Why are some radioactive sources stored in boxes made from lead?\nA Lead absorbs emissions from the radioactive sources.\nB Lead decreases the half-life of radioactive sources.\nC Lead increases the half-life of radioactive sources.\nD Lead repels emissions from the radioactive sources.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1460": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1",
+   "5.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram represents a neutral atom. [Diagram showing nucleus containing 2 black circles and 2 white circles, surrounded by a dashed circular line and 2 orbiting grey circles containing negative signs]. Which row identifies each type of particle in the diagram?\nA electron, neutron, proton\nB electron, proton, neutron\nC neutron, electron, proton\nD proton, electron, neutron",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1461": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.1",
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The notation for an isotope of sodium is ^23_11 Na. Which row gives the composition of a neutral atom of this isotope of sodium?\nA number of protons: 11, number of neutrons: 12, number of electrons: 11\nB number of protons: 11, number of neutrons: 12, number of electrons: 12\nC number of protons: 11, number of neutrons: 23, number of electrons: 11\nD number of protons: 12, number of neutrons: 11, number of electrons: 12",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1462": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In the atomic model, an atom consists of a central mass, orbited by much smaller particles. [Diagram showing a central mass point and orbiting particles on a circular path]. What is the name of the central mass and of the orbiting particles?\nA central mass: neutron, orbiting particles: α-particles\nB central mass: neutron, orbiting particles: electrons\nC central mass: nucleus, orbiting particles: α-particles\nD central mass: nucleus, orbiting particles: electrons",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1463": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1",
+   "5.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram represents the structure of a neutral atom? [Four diagrams A, B, C, D of atoms with orbiting electrons and nuclei containing different numbers of protons (+) and neutrons (unlabelled circles), with key: white circle = neutron, crossed circle = proton, minus circle = electron].\nA [Atom with 1 neutron, 1 proton, 2 electrons]\nB [Atom with 2 protons, 1 neutron, 2 electrons]\nC [Atom with 2 protons, 1 neutron, 2 electrons with different arrangement]\nD [Atom with 3 protons, 4 neutrons, 2 electrons]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1464": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which row gives the relative charge of an electron, a neutron and a proton?\nA electron: -1, neutron: 0, proton: -1\nB electron: -1, neutron: 0, proton: +1\nC electron: +1, neutron: -1, proton: 0\nD electron: +1, neutron: 0, proton: +1",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1465": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.2",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which particle has a negative charge?\nA an alpha particle\nB an electron\nC a neutron\nD a proton",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1466": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "When a source of α-particles is directed towards a thin metal foil they become scattered. Which observation of this experiment provides evidence for a small charged nucleus?\nA A small proportion of the α-particles come straight back from the foil towards the source.\nB A small proportion of the α-particles pass straight through the foil.\nC Some of the α-particles are deflected by an angle of less than 90°.\nD Some of the α-particles follow a curved path after leaving the foil.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:32+00:00"
+ },
+ "q1467": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which description of a neutral atom of copper is correct?\nA a nucleus surrounded by electrons\nB a nucleus surrounded by molecules\nC electrons surrounded by a nucleus\nD electrons surrounded by molecules",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1468": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3",
+   "5.2.2.2",
+   "5.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[In the diagram, the circle represents an atom (not to scale) with the nucleus at its centre. A particle is emitted by a radioactive source and approaches the nucleus of the atom. The curved arrow shows the path of the particle.]\nWhat is the nature and charge of the particle?\nA nature of particle: alpha-particle, charge of particle: negative\nB nature of particle: alpha-particle, charge of particle: positive\nC nature of particle: beta-particle, charge of particle: negative\nD nature of particle: beta-particle, charge of particle: positive",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1469": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sample of a radioactive isotope has an initial rate of emission of 128 counts per minute and a half-life of 4 days.\nHow long will it take for the rate of emission to fall to 32 counts per minute?\nA 2 days\nB 4 days\nC 8 days\nD 12 days",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1470": {
+  "status": "done",
+  "subpoints": [
+   "5.2.5.2",
+   "5.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Several scientists are working in a laboratory. The scientists are experimenting with sources which emit ionising radiation. Each scientist is given a list of safety rules.\nThree of the rules are shown.\n1 Keep at least 2 m away from other people.\n2 Do not stay longer than 4 hours per day in the laboratory.\n3 Stay behind the lead-lined screen.\nWhich safety rules are for protection against the effects of ionising radiation?\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1471": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.4",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive source is placed near a detector connected to a counter.\n210 counts are recorded by the counter in 3 minutes.\nThe background count rate is 20 counts per minute (cpm).\nWhat is the corrected count rate for the radioactive source?\nA 50 cpm\nB 70 cpm\nC 190 cpm\nD 270 cpm",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1472": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The background count rate measured by a radiation counter is 40 counts per minute (cpm).\nWith the counter close to a radioactive source, the counter reading is 960 cpm.\nThe half-life of the source is 20 minutes.\nWhat is the counter reading one hour later?\nA 115 cpm\nB 120 cpm\nC 155 cpm\nD 160 cpm",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1473": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which change occurs in the nucleus of a radioactive atom during beta-emission?\nA A neutron transforms into a proton and an electron.\nB A neutron transforms into a proton only.\nC A proton transforms into a neutron and an electron.\nD A proton transforms into a neutron only.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1474": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive isotope has a half-life of 8 days.\nA detector close to a sample of this isotope gives a count rate of 200 counts per minute.\nWithout the source, the background count is 20 counts per minute.\nWhat is the count rate due to the source after 8 days?\nA 80 counts per minute\nB 90 counts per minute\nC 100 counts per minute\nD 110 counts per minute",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:05:57+00:00"
+ },
+ "q1475": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which change is occurring in a nucleus during beta-emission?\nA An electron and a neutron become one proton.\nB An electron and a proton become one neutron.\nC A neutron becomes one proton and one electron.\nD A proton becomes one neutron and one electron.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1476": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.5",
+   "5.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The graph shows how the count rate registered by a counter near to a sample of a radioactive isotope changes over a period of a few days. The background count rate is 5 counts per minute. [Line graph showing count rate on y-axis from 0 to 50 counts/minute vs time on x-axis from 0 to 8 days, starting at 45 counts/minute and decaying to about 7 counts/minute]\nWhat is the half-life of the isotope?\nA 2.0 days\nB 2.5 days\nC 3.0 days\nD 4.0 days",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1477": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Nuclear fusion is a reaction that takes place in stars.\nWhich row describes this reaction?\nA action of atomic nuclei: an atomic nucleus splits into two or more smaller nuclei, energy: absorbed\nB action of atomic nuclei: an atomic nucleus splits into two or more smaller nuclei, energy: released\nC action of atomic nuclei: atomic nuclei join together to form a larger nucleus, energy: absorbed\nD action of atomic nuclei: atomic nuclei join together to form a larger nucleus, energy: released",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1478": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "When a radioactive isotope is set up close to a counter, a count rate of 38 000 counts/s is obtained. The table shows the count rate from the isotope over a three-year period. [Table with time/years 0, 1, 2, 3 and corresponding count rate counts/s: 38 000, 26 000, 17 000, 12 000]\nWhat is the half-life of the isotope?\nA less than 1 year\nB more than 1 year but less than 2 years\nC more than 2 years but less than 3 years\nD more than 3 years",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1479": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "How do the sizes of the two nuclei produced in a nuclear fission reaction compare to the size of the original nucleus?\nA both larger than the original nucleus\nB one larger and one smaller than the original nucleus\nC both smaller than the original nucleus\nD one smaller and one the same size as the original nucleus",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1480": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.1",
+   "5.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about the radioactive decay of a substance is correct?\nA It cannot be predicted when a particular nucleus will decay.\nB Placing a radioactive substance inside a lead-lined box prevents it from decaying.\nC The decay always produces poisonous gases.\nD The rate of decay increases if the substance is dissolved in water.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1481": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a stream of beta-particles travelling in a line that passes between the poles of a magnet. [Diagram showing beta-particles moving horizontally right towards a region between a top magnetic pole N and a bottom magnetic pole S]\nIn which direction will the beta-particles be deflected by the magnet?\nA towards the N pole\nB towards the S pole\nC into the page\nD out of the page",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1482": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which radioactive source is used in a smoke alarm system and what is the reason for this?\nA source: alpha, reason: causes least ionisation of air\nB source: alpha, reason: causes most ionisation of air\nC source: gamma, reason: causes least ionisation of air\nD source: gamma, reason: causes most ionisation of air",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:17+00:00"
+ },
+ "q1483": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A beam of α-particles and β-particles is incident at right angles to an electric field.\n\nWhich statement about the deflection of the particles in the field is correct?\n\nA α-particles deflect, but β-particles do not deflect.\nB α-particles deflect in the opposite direction to β-particles.\nC β-particles deflect, but α-particles do not deflect.\nD Both α-particles and β-particles deflect in the same direction.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1484": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2",
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A beam of radiation, containing α-particles, β-particles and γ-rays, passes between two parallel plates. One plate is positively charged and the other is negatively charged.\n\nWhich radioactive emissions will be attracted towards the positively charged plate?\n\nA α-particles only\nB β-particles only\nC γ-rays only\nD α-particles, β-particles and γ-rays",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1485": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A scientist uses a counter to measure the radioactivity of a sample of nitrogen-13.\nThe counter and sample of nitrogen-13 are on a table in a laboratory.\nThe reading on the counter is recorded for a period of 80 min and a graph is drawn using the measurements.\n[Graph of count rate against time showing a decay curve starting at around 330 counts/min at 0 min, dropping to about 165 counts/min at 10 min, and approaching a low constant value around 30 counts/min at 80 min.]\nWhat is the best estimate for the half-life of the sample of nitrogen-13?\nA 10 min\nB 12 min\nC 14 min\nD 40 min",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1486": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Polonium, Po, has a proton number equal to 84 and a nucleon number equal to 218.\nPolonium changes into astatine, At, by emitting a β-particle.\nWhich equation represents this decay?\nA (^84 _218)Po -> (^85 _218)At + (^-1 _0)β\nB (^84 _218)Po + (^-1 _0)β -> (^85 _218)At\nC (^218 _84)Po -> (^218 _85)At + (^0 _-1)β\nD (^218 _84)Po + (^0 _-1)β -> (^218 _85)At",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1487": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows how the count rate from a radioactive isotope changes with time.\n[Graph showing count rate in counts/s vs time in s, with points plotted at (0, 50), (1, 40), (2, 25), (3, 20), (4, 13), (5, 10), (6, 6) and a curve drawn through them.]\nWhat is the half-life of this isotope?\nA 2.0 s\nB 6.0 s\nC 12 s\nD 53 s",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1488": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the nature of α-emission?\nA electromagnetic waves\nB negatively charged particles\nC positively charged particles\nD uncharged particles",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1489": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.4",
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Thorium-230 is represented by the symbol (^230 _90)Th. This isotope is radioactive and decays to radium by emitting α-particles.\nWhich nuclide is produced by this decay?\nA (^226 _88)Ra\nB (^230 _89)Ra\nC (^230 _91)Ra\nD (^234 _92)Ra",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1490": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a piece of apparatus used to determine the nature of the emissions from a radioactive source. The absorbers can be raised out of or lowered into the path of the radiation from the source to the detector. The apparatus is evacuated.\n[Diagram showing a vacuum chamber with a radioactive source, different absorbers on vertical rods (thin paper, 1.0 mm aluminium, 1.0 cm lead), and a detector.]\nThe table gives a set of results for a particular radioactive source.\n[Table showing: none -> 350 counts per second; thin paper -> 350 counts per second; 1.0 mm aluminium -> 180 counts per second; 1.0 cm lead -> 23 counts per second.]\nWhich types of radiation are being emitted by the radioactive source?\nA α-particles and β-particles\nB α-particles only\nC β-particles and γ-rays\nD β-particles only",
+  "type": "practical",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:06:38+00:00"
+ },
+ "q1491": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.1.5",
+   "5.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "[The graph shows count rate against time with an initial count rate X and a background radiation level Y shown by a horizontal asymptote.] The graph shows the measured count rate of radiation from a source containing a radioactive isotope. The detector is in a laboratory, with no shielding from background radiation. What is the measured count rate after a time of one half-life?\nA X / 2\nB Y / 2\nC (X - Y) / 2\nD (X + Y) / 2",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1492": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The table compares α-radiation, β-radiation and γ-radiation. Which row is correct?\nA [α: more ionising than β or γ | β: a proton | γ: electromagnetic radiation]\nB [α: less ionising than β or γ | β: an electron | γ: two protons and two neutrons]\nC [α: more ionising than β or γ | β: an electron | γ: electromagnetic radiation]\nD [α: less ionising than β or γ | β: electromagnetic radiation | γ: a proton]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1493": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.4",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A high-voltage power supply is connected to a metal grid and a wire, as shown. [Diagram shows radioactive source emitting alpha-particles above a metal grid with a wire underneath, showing sparks observed between grid and wire.] When the radioactive source is placed close to the grid, sparks are observed in the position indicated. Which statement explains why the sparks are formed?\nA α-particles have a long range.\nB α-particles have no charge.\nC α-particles have no mass.\nD α-particles are strongly ionising.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1494": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student investigates four different radioactive isotopes. The student places a detector near each radioactive material. The background count rate is 36 counts per minute throughout the investigation. The table shows the detector readings at the start and after 8 hours. Which isotope has a half-life of 4 hours?\nA [Start: 150 counts per minute, After 8 hours: 36 counts per minute]\nB [Start: 212 counts per minute, After 8 hours: 53 counts per minute]\nC [Start: 260 counts per minute, After 8 hours: 92 counts per minute]\nD [Start: 356 counts per minute, After 8 hours: 80 counts per minute]",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1495": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "When alpha particles are incident on a thin metal foil, most of them pass through undeviated. What does this observation reveal about the nature of the atom?\nA The atom has a dense nucleus.\nB The atom is mostly empty space.\nC The atom is very small.\nD The nucleus of the atom is positively charged.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1496": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A laboratory worker measures the count rate from a radioactive source. He records his results in a table. [Table shows time in minutes (0, 1.0, 2.0, 3.0, 4.0) and count rate in counts/s (100, 73, 54, 41, 31).] The average background radiation in the laboratory is 8 counts per second. What is the half-life of the source?\nA 1.5 minutes\nB 2.0 minutes\nC 3.0 minutes\nD 4.0 minutes",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1497": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Four students are asked to comment on the processes of nuclear fission and nuclear fusion. Their comments are recorded in the table. Which row is correct?\nA [fission: energy is absorbed | fusion: a large unstable nucleus splits]\nB [fission: a large unstable nucleus splits | fusion: energy is absorbed]\nC [fission: two light nuclei join | fusion: energy is absorbed]\nD [fission: energy is released | fusion: two light nuclei join]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1498": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Radon ^219 _86 Rn decays by emitting an α-particle. Which nuclide is formed in this decay?\nA ^215 _84 Po\nB ^223 _88 Ra\nC ^219 _87 Fr\nD ^219 _85 At",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:07:34+00:00"
+ },
+ "q1499": {
   "status": "retry",
-  "attempts": 2,
-  "error": "request failed: Server disconnected without sending a response.",
-  "updated": "2026-11-04T01:39:32+00:00"
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1500": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1501": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1502": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1503": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1504": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1505": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1506": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "request failed: Expecting value: line 1 column 1 (char 0)",
+  "updated": "2026-11-05T07:07:57+00:00"
+ },
+ "q1507": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The nucleus of an americium atom contains 146 neutrons and 95 protons. It decays by emitting an alpha-particle. How many neutrons and how many protons remain in the nucleus when this form of americium decays?\n\n[Table with options A, B, C, D showing numbers of neutrons and protons remaining]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1508": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A sample of americium decays and changes into neptunium. The half-life of americium is 432 years. Which fraction of the americium will remain after 1728 years?\n\nA 0\nB 1 / 16\nC 1 / 8\nD 1 / 4",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1509": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The graph shows the decay curves of four different radioactive isotopes. Which isotope has the largest half-life?\n\n[Graph of count rate against time showing four decay curves labeled A, B, C, D]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1510": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show alpha-particles and beta-particles passing through an electric field. Which diagram shows the correct paths of the alpha-particles and beta-particles?\n\n[Four diagrams A, B, C, D showing paths of alpha and beta particles between charged plates]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1511": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The nucleus of an americium atom contains 146 neutrons and 95 protons. It decays by emitting an alpha-particle. How many neutrons and how many protons remain in the nucleus when this form of americium decays?\n\n[Table with options A, B, C, D showing numbers of neutrons and protons remaining]",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00",
+  "repeat_of": "q1507"
+ },
+ "q1512": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The half-life for lead-202 is 52500 years. A sample of lead-202 produces 800 counts/s. How long will it take for the count rate to drop to 100 counts/s?\n\nA 105000 years\nB 157500 years\nC 210000 years\nD 420000 years",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1513": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Oxygen-15 is used in hospitals. The count rate from a detector placed close to a sample of oxygen-15 was recorded over a period of 15 min. The background count rate is 20 counts/min.\n\n[Graph of count rate against time for oxygen-15 with background count at 20 counts/min]\n\nWhat is the half-life of this sample of oxygen-15?\n\nA 2.0 min\nB 2.4 min\nC 2.8 min\nD 7.5 min",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1514": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Of the three types of ionising radiation, alpha, beta and gamma, why does alpha-emission cause the most ionisation?\n\nA alpha-particles have the smallest mass\nB alpha-particles have the greatest mass\nC alpha-particles move with the greatest speed\nD alpha-particles travel the greatest distance in matter",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:08:51+00:00"
+ },
+ "q1515": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "When Rutherford bombarded thin gold foil with α-particles, he found that some α-particles were deflected through large angles.\n\nWhich statement explains this deflection?\n\nA Most of the atom consists of empty space.\nB All of the positive charge and most of the mass of the gold atom are concentrated in a small volume.\nC Positive charge in the gold atom is spread evenly throughout the atom.\nD All of the negative charge is concentrated at its centre.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1516": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The diagram shows the path followed by α-particles as they pass between two charged plates. They are deflected downwards. An upper plate has positive charges and a lower plate has negative charges. β-particles and α-particles enter horizontally between the plates.]\n\nWhat happens to β-particles passing through the same electric field?\n\nA They are deflected downwards more than the α-particles.\nB They are deflected upwards.\nC They are not deflected at all.\nD They are deflected downwards by the same amount as the α-particles.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1517": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The graph shows the count rate in counts/s on the y-axis (from 0 to 2000) against time in hours on the x-axis (from 0 to 3). The curve starts at 2000 counts/s at time 0 and decreases exponentially.]\n\nWhat is the half-life of the source?\n\nA 0.5 hour\nB 1.0 hour\nC 1.5 hours\nD 3.0 hours",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1518": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.3",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Uranium-235 is a radioactive isotope. It undergoes a chain of decays and eventually forms the stable isotope lead-207. These two isotopes are represented as shown.\n\n[Diagram showing 235 92 U and 207 82 Pb]\n\nDuring this chain of decay, how many protons and how many neutrons are lost from a single nucleus of uranium-235 to form a single nucleus of lead-207?\n\n[Table with columns protons and neutrons, rows A to D]\nA protons: 10, neutrons: 18\nB protons: 10, neutrons: 28\nC protons: 18, neutrons: 10\nD protons: 28, neutrons: 10",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1519": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radioactive material has a half-life of 20 days.\n\nA sample of the material contains 8.0 × 10^10 atoms.\n\nHow many atomic nuclei have decayed after 60 days?\n\nA 1.0 × 10^10\nB 4.0 × 10^10\nC 6.0 × 10^10\nD 7.0 × 10^10",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1520": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "[A thin sheet of paper is placed between a radioactive source and a radiation detector. The count rate falls to a very low reading. Diagram shows source emitting radiation through paper to a detector connected to a counter.]\n\nFrom this result, which type of radiation is the source emitting?\n\nA α-particles\nB β-particles\nC γ-rays\nD X-rays",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1521": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.2",
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "α-particles, β-particles and γ-rays are emitted by radioactive nuclei when they decay.\n\nWhich emissions can be deflected by an electric field?\n\nA α-particles and β-particles only\nB β-particles and γ-rays only\nC γ-rays and α-particles only\nD α-particles, β-particles and γ-rays",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
+ },
+ "q1522": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Uranium-235 can undergo nuclear fission in many ways.\n\nWhich equation correctly shows a possible fission reaction for uranium-235?\n\nA 1_0 n + 235_92 U -> 141_56 Ba + 92_36 Kr + 3 1_0 n\nB 1_0 n + 235_92 U -> 91_38 Sr + 144_54 Xe + 2 1_0 n\nC 1_0 n + 235_92 U -> 95_37 Rb + 136_55 Cs + 3 1_0 n\nD 1_0 n + 235_92 U -> 87_35 Br + 146_57 La + 4 1_0 n",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-05T07:09:36+00:00"
  }
 }
