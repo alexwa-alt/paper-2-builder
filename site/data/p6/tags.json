@@ -1,1 +1,384 @@
-{}
+{
+ "p6-1": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates how the period of a pendulum depends on its length and mass. Part (a) asks for a diagram and explanation of using a metre rule and set square to measure pendulum length accurately. Part (b) involves reading a digital stopwatch for 20 complete oscillations and calculating the period T^1. Part (c) requires reading a balance display to record the bob's mass to the nearest gram. Part (d) requires choosing and justifying a conclusion about which factors affect period based on provided data. Part (e) asks how to measure the size of an oscillation and to identify a control variable.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-06T23:20:44+00:00"
+ },
+ "p6-2": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1",
+   "1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the relationship between the length and period of a simple pendulum to determine the acceleration of free fall g. Part (a) asks for a precaution when measuring length accurately. Part (b) involves reading a digital stopwatch for 20 oscillations, recording time t in a table, and calculating T and T^2. Part (c) requires plotting a graph of T^2 against length d. Part (d) asks to calculate the gradient G of the line. Part (e) requires calculating g using the given formula g = 0.395 / G and writing the result to appropriate significant figures.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-06T23:20:44+00:00"
+ },
+ "p6-3": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The investigation measures the period of a pendulum and its length. Part (a) asks students to mark the length l of the pendulum on a diagram and explain how to measure this length accurately using a metre rule and set square. Part (b) requires reading a digital timer displaying the time for 20 oscillations, calculating the period T, and explaining why timing multiple oscillations improves reliability. Part (c) requires calculating T^2, giving the answer to a suitable number of significant figures with the correct unit.",
+  "skills": [
+   "readings",
+   "precautions",
+   "calculations",
+   "drawings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-06T23:21:19+00:00"
+ },
+ "p6-4": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students plan an investigation to determine whether the diameter of a pendulum bob affects the period of a pendulum. Given polystyrene bobs of diameters 1 cm to 5 cm, thread, scissors, and a clamp stand, students must list additional required apparatus such as a stopwatch and ruler, explain the experimental procedure, identify key control variables such as pendulum length, draw a blank results table with appropriate column headings, and explain how to use the collected data to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-06T23:21:19+00:00"
+ },
+ "p6-5": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the period of oscillation of two pendulums with bobs of different shapes. The question requires measuring the length of a pendulum on a diagram, converting it to actual length using a given scale, and explaining how to use a set-square to prevent parallax error. The student reads time from a digital stopwatch for 20 oscillations and calculates the period T^1, then compares it to the period T^2 of a differently shaped bob to judge a student's statement. Additionally, the question asks why measuring multiple oscillations increases accuracy and requires categorizing a list of procedural items into variables and precautions.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-06T23:23:23+00:00"
+ },
+ "p6-6": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The student explores factors affecting oscillation period for a mass on a spring and a simple pendulum. First, students suggest two experimental variables that could be investigated for an oscillating mass-spring system. They are then given three data tables showing how pendulum period T varies with pendulum length l, bob mass m, and release angle θ. Students analyze the data to complete statements describing the effect of each variable on the period. Lastly, students suggest a practical precaution to ensure reliable measurements of pendulum period.",
+  "skills": [
+   "tables",
+   "conclusions",
+   "precautions",
+   "planning"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-06T23:23:23+00:00"
+ },
+ "p6-7": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The class investigates pendulum oscillations using a clamped string and a bob. A student measures length l and time for 20 oscillations to find period T, repeating for different lengths and plotting a T^2 against l graph. Questions ask to determine length l from the graph for a given period T, explain why measuring 20 swings rather than 1 gives a more accurate value for T, and suggest the number of different masses and suitable mass range to investigate the effect of bob mass on period T.",
+  "skills": [
+   "graphs",
+   "precautions",
+   "planning"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:25:04+00:00"
+ },
+ "p6-8": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.2",
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates a pendulum with length l = 50.0 cm. The student states a precaution for measuring length accurately, records time t for 20 complete oscillations from a stopwatch figure, and calculates period T. The student explains why timing 20 oscillations improves accuracy. After adjusting the length to l = 100.0 cm and obtaining a new period, the student evaluates whether doubling the length doubles the period, referencing the results. Finally, the student lists additional l values for continuing the investigation.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions",
+   "planning"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:25:04+00:00"
+ },
+ "p6-9": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A class investigates two different types of pendulum: a standard pendulum with a string and a bob, and a pendulum made from a uniform rule acting as a pivot strip. Students measure length and time periods for multiple oscillations using a stopwatch, calculate the period T for each pendulum, compare the results, explain why timing multiple oscillations improves accuracy, state reliability precautions, and discuss potential sources of error regarding the effective length of each pendulum setup.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions",
+   "planning"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:25:22+00:00"
+ },
+ "p6-10": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE student takes measurements of a pencil drawn full size. Students measure the total length l and the unsharpened section x using a rule, and calculate the sharpened section length y using y = l - x. They describe how to use a length of string and a rule to determine the circumference c of the unsharpened section, suggest a source of inaccuracy, calculate the volume V of the unsharpened section using a given formula, and estimate the volume VE of the sharpened section showing reasoning.",
+  "skills": [
+   "readings",
+   "calculations",
+   "planning",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:25:22+00:00"
+ },
+ "p6-11": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.1.3",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student measures the dimensions of a drinks cup from diagrams to find its height and top and bottom diameters. From these, the average diameter and approximate volume are calculated. The student then explains how to use string and a rule to find the average circumference more reliably. Next, the student pours water from a measuring cylinder into the cup until full, reads the remaining water volume from a cylinder diagram, and calculates the volume of water in the cup. Finally, the student indicates the correct line of sight for reading the measuring cylinder.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:25:40+00:00"
+ },
+ "p6-12": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.1.1",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student takes measurements of a sample of modelling clay molded into a cube. By measuring height, width, and depth from diagrams, the volume is calculated. The mass is obtained from a balance reading, and the density is calculated. The student then draws a diagram showing how to measure the diameter of a sphere using blocks and a rule. Water displacement in a measuring cylinder is used to find the volume of the irregularly shaped clay, and the student suggests reasons why calculated and measured volumes might differ.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:25:40+00:00"
+ },
+ "p6-13": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-11-06T23:26:11+00:00"
+ },
+ "p6-14": {
+  "status": "done",
+  "subpoints": [
+   "1.1.2",
+   "1.1.3",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the oscillation of a pendulum by measuring the height h of the pendulum bob above a bench and the time t for 10 complete oscillations for different lengths of string. First, a precaution for measuring height accurately is described. Next, students measure the height h from scale diagrams (drawn to 1/5 scale) and calculate actual heights H, time periods T, and T^2, recording them in a table. Then, they plot a graph of T^2 against H, determine its gradient G, and suggest a change to make the method more reliable.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:26:11+00:00"
+ },
+ "p6-15": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-11-06T23:26:38+00:00"
+ },
+ "p6-16": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student measures the capacity (maximum volume) of a drinks cup using three methods. In Method 1, the mass of water in the filled cup is measured using a balance, and capacity V_1 is calculated using density. In Method 2, the water is poured into a measuring cylinder to directly read the volume V_2. In Method 3, dimensions of the cup (top diameter d_1, base diameter d_2, and height h) are measured from a diagram to calculate an average diameter and the capacity V_3 using a formula. Students are asked to take readings from figures, perform calculations, state sources of inaccuracy for Methods 2 and 3, and suggest an improvement for Method 1.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:26:38+00:00"
+ },
+ "p6-17": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the internal volume of a test-tube using two displacement methods in a measuring cylinder. First, initial water volume V_1 is recorded from Fig. 5.1, along with line-of-sight requirements. Second, the test-tube is submerged closed-end first to find V_2, calculating glass volume V_G. Third, the test-tube is submerged open-end first to find V_3, calculating air volume V_A. Finally, the test-tube volume is measured directly by pouring its water into a measuring cylinder to find V_W, and students suggest sources of inaccuracy for both methods.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:26:56+00:00"
+ },
+ "p6-18": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class investigates the effect of load position on a metre rule attached to a forcemetre, pivoted near one end. A mass is moved to various distances d from the pivot, and the forcemetre reading F is recorded for each position to keep the rule horizontal. Students complete the table with d values and column headings, suggest a graph to test direct proportionality between F and d along with the line properties required, explain why a spirit level is unsuitable, and describe how to check if the rule is horizontal.",
+  "skills": [
+   "tables",
+   "graphs",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:26:56+00:00"
+ },
+ "p6-19": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student measures small glass spheres. In part (a), the student draws a diagram showing how to use a 30 cm rule and two rectangular blocks to measure the diameter of one sphere. In part (b), the student uses a measuring cylinder containing water to find the volume by a displacement method. She records the initial water volume, draws the correct line of sight for an accurate reading, and calculates the volume of a single sphere after adding 15 spheres to the cylinder.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:27:15+00:00"
+ },
+ "p6-20": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class investigates a pendulum. Students measure the length l of the pendulum from a diagram and calculate its actual length. They describe how to judge that a metre rule on the bench is vertically below the centre of the pendulum bob. Students record time t for 12 complete swings for varying horizontal distances d, complete table column headings, calculate the period T for each d value, and describe the effect of increasing d on the period with justification. Finally, they explain why timing multiple swings is preferred over a single swing.",
+  "skills": [
+   "readings",
+   "calculations",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-06T23:27:15+00:00"
+ }
+}
