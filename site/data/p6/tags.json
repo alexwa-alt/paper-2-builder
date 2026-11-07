@@ -248,10 +248,24 @@
   "updated": "2026-11-06T23:25:40+00:00"
  },
  "p6-13": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "missing or invalid tags in response",
-  "updated": "2026-11-06T23:26:11+00:00"
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates a simple pendulum by recording the time t for 20 complete oscillations across various string lengths x. The student calculates the period T for each length and completes the data table. The question asks for the reason for timing 20 oscillations rather than one, a practical precaution when measuring string length with a metre rule to ensure accuracy, and a procedure with an optional diagram explaining how to measure the diameter of the spherical pendulum bob accurately using a ruler and two rectangular wooden blocks.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T02:59:29+00:00"
  },
  "p6-14": {
   "status": "done",
@@ -276,10 +290,25 @@
   "updated": "2026-11-06T23:26:11+00:00"
  },
  "p6-15": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "missing or invalid tags in response",
-  "updated": "2026-11-06T23:26:38+00:00"
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into simple pendulums involves measuring the length of a pendulum drawn to scale on a diagram, calculating its actual length, and determining the period T from the time recorded for 20 oscillations. The student completes column headings and data in a results table. The question asks to evaluate whether doubling the length doubles the period based on table data, identify two graphical features indicating that length is directly proportional to T^2, and state a conclusion about the effect of doubling the pendulum bob's mass.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T02:59:29+00:00"
  },
  "p6-16": {
   "status": "done",
@@ -380,5 +409,363 @@
   "marks": 10,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-06T23:27:15+00:00"
+ },
+ "p6-21": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.2.8",
+   "1.1.1"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.1",
+  "difficulty": 2,
+  "text": "A student determines the acceleration of free fall g using a pendulum. The student measures the pendulum length on a scale diagram and calculates its actual length. Next, the time for 10 complete oscillations is read from a digital stopwatch display to calculate the period T, T^2, and g using a provided formula. The process is repeated for a second length of 100.0 cm, requiring the student to give the unit for T^2 and state g to a suitable number of significant figures. Finally, the student suggests two ways to improve reliability and one precaution to ensure accuracy.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T03:03:33+00:00"
+ },
+ "p6-22": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.2.8",
+   "1.1.1"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.1",
+  "difficulty": 2,
+  "text": "An experiment determines the acceleration of free fall g using a simple pendulum. The student measures the pendulum length on a diagram and explains how to avoid parallax error when measuring length. Given the time for 20 oscillations, the student calculates the period T, T^2, and the value of g to a suitable number of significant figures using a given equation. The student then explains why timing 200 oscillations is impractical, suggests reasons why the experimental g might differ from the textbook value of 9.8 m/s^2, and proposes two improvements to the experiment.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T03:03:33+00:00"
+ },
+ "p6-23": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.2.3",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment is set up to measure the average speed of a toy car travelling down an inclined slope. Students are asked to suggest realistic lab dimensions for the slope length l and height h. They then provide three practical suggestions to ensure the distance travelled and the time taken by the toy car are measured as reliably as possible, such as repeating measurements, using light gates, or using clear reference marks.",
+  "skills": [
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T03:04:32+00:00"
+ },
+ "p6-24": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment investigates the distance d a ball lands from a bench after rolling down a slope set at different angles θ. A data table showing θ against d is provided. Students describe the trend in the distance as angle increases, predict values of d for angles outside the given table (10° and 70°), suggest experimental improvements to accurately mark where the ball lands on the floor, and explain how to ensure the results are reliable.",
+  "skills": [
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T03:04:32+00:00"
+ },
+ "p6-26": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the density of a wooden rod by two methods. In Method 1, the student measures the length and diameter of the rod from full-size diagrams using a ruler, measures its mass using a balance, and calculates the density using the given formula. In Method 2, the student uses a measuring cylinder to find the volume of the floating rod directly, and then uses a piece of modelling clay as a sinker to find the volume of the rod when fully submerged. Finally, the student indicates the correct line of sight for reading a measuring cylinder and suggests a source of inaccuracy.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:06:10+00:00"
+ },
+ "p6-27": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the density of water using a plastic cup. She measures the diameter of the base from a drawing, calculates the average diameter using the rim diameter, measures the vertical height of the cup, and calculates its volume. She then fills the cup with water, measures the total mass on a balance, determines the density of water, evaluates sources of inaccuracy in the procedure, and draws a diagram showing the correct line of sight and meniscus for a measuring cylinder.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:06:10+00:00"
+ },
+ "p6-28": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the density of a block of modelling clay. First, the dimensions (length, width, and height) of the block are measured from diagrams to calculate its volume V1. A source of inaccuracy in measuring irregular blocks and an improvement are suggested. Next, the weight W of the clay is measured using a forcemeter, and density rho1 is calculated. The student then pours water into a measuring cylinder, records the initial volume V2, and explains how to read the meniscus accurately. The clay is lowered into the water, the new volume V3 is recorded, and a second density rho2 is calculated. Finally, the student justifies which density value is more accurate.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:06:28+00:00"
+ },
+ "p6-29": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the density of water using two methods. In Method 1, the weight W1 of a piece of modelling clay and the initial volume V1 of water in a measuring cylinder are recorded. The student explains how to read the measuring cylinder accurately. The clay is then lowered into the water on a forcemeter, and the new forcemeter reading W2 and measuring cylinder reading V2 are recorded to calculate density rho1. In Method 2, the mass m1 of the measuring cylinder and water is measured on a balance, and the mass m2 of the empty cylinder is given, allowing a second density rho2 to be calculated and averaged. Finally, a source of inaccuracy and an improvement for either method are suggested.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:06:28+00:00"
+ },
+ "p6-30": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the density of glass using a test-tube. They measure its length and external diameter from a diagram, describe how to measure diameter using wooden blocks with a precaution, and calculate external volume using V1 = πd^2l / 4. Next, they read the volume of water poured from the filled test-tube into a measuring cylinder, describe how to read the measuring cylinder reliably, and calculate the volume of the glass itself (V3 = V1 - V2). Using the mass measured from a balance shown in the figure, they calculate the density of the glass and record the mass to the nearest gram. Finally, they state a source of inaccuracy and explain its effect on the density value.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:07:10+00:00"
+ },
+ "p6-31": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.2",
+   "1.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the density of water using two methods. In Method 1, they record the mass of an empty measuring cylinder and the mass with water, read the volume of water from a diagram, and calculate the density with appropriate units. In Method 2, they measure the mass of a test-tube, lower it into the measuring cylinder so it floats, read the new water level, calculate the change in water level, and calculate a second density value for water. They find the average density, suggest a reading precaution for Method 1, and identify a source of experimental inaccuracy in Method 2 along with its effect on the calculated density.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:07:10+00:00"
+ },
+ "p6-32": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Students determine the density of an irregular object. Using measuring cylinder diagrams, they read and record the initial volume of water V1 and the final volume V2 after submerging the object. They also record the mass m of the object from a digital balance display. Using these values, students calculate the density of the object using the provided formula and suggest a practical source of inaccuracy in the method.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:07:30+00:00"
+ },
+ "p6-33": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the mass of a load using a balancing method with a metre rule pivoted at the 50.0 cm mark. Different masses m are placed on the rule to balance a fixed load X. Students read the distance d from the pivot for each mass from scale diagrams, record results in a table, and calculate 1/d. They plot a graph of m against 1/d, determine the gradient G, and use it to calculate the mass of load X. Finally, they describe a difficulty in carrying out the experiment and how to overcome it.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:07:30+00:00"
+ },
+ "p6-34": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3",
+   "1.4.1",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student plans an experiment to investigate how the quantity of water in a plastic bottle affects its stability. Part (a) requires writing a complete experimental plan including apparatus, instructions, values for water quantity, accuracy precautions, and the graph to be plotted. Part (b) asks to measure the angle through which the bottle has been tilted on Fig. 4.1 using a protractor.",
+  "skills": [
+   "planning",
+   "readings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:07:48+00:00"
+ },
+ "p6-35": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the balancing of a metre rule using a pivot, an object Q at a fixed position, and a variable load P placed at distance x. Part (a) asks to calculate and record reciprocal values of x in Table 1.1. Part (b) requires plotting a graph of P against 1/x. Part (c) involves calculating a maximum reciprocal value and using the graph to determine the minimum value of P. Parts (d) and (e) ask to explain how to position object Q accurately, why finding the exact balancing position is difficult, and how to find the best balancing position.",
+  "skills": [
+   "calculations",
+   "tables",
+   "graphs",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:07:48+00:00"
+ },
+ "p6-36": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.1",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student plans an investigation to study how the material from which 1 m long strips (wood, plastic, steel, aluminium) are made affects their bending when loaded at one end. The student must draw an apparatus diagram, explain the procedure and measurements taken, state key variables to keep constant, design a table for readings, and explain how to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:08:06+00:00"
+ },
+ "p6-37": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the weight of a metre rule using a pivot at the 10.0 cm mark and a forcemeeter at the 90.0 cm mark, balanced with a 2.0 N weight at distance l. Students read l from a figure showing scale readings, record forcemeeter force F, explain how to ensure the rule is horizontal, plot a graph of F against l, determine F_0 from the y-intercept, calculate the weight of the rule W_R = 2 * F_0, and suggest a more precise method for applying the 2.0 N load.",
+  "skills": [
+   "readings",
+   "calculations",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:08:06+00:00"
+ },
+ "p6-38": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.7",
+   "1.1.3",
+   "1.7.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student plans an experiment to investigate the effect of air resistance on the swing of a pendulum using a wooden rod, modelling clay as a bob, and a sheet of thick card. The plan requires listing additional apparatus like a stopwatch and metre rule, detailing the method of measuring time for multiple swings with and without the card attached, controlling key variables such as the amplitude and length of the pendulum, presenting a results table with appropriate column headings, and explaining how conclusions are reached based on the rate of decrease in amplitude or period.",
+  "skills": [
+   "planning",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:08:24+00:00"
+ },
+ "p6-39": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.3.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the weight of a metre rule using a balancing method with a load P placed at various positions from a pivot. Distance measurements a and b are recorded in a table. Parts ask to plot a graph of a against b, determine the gradient G, calculate the weight W_1 using G and P, suggest a practical difficulty in obtaining accurate readings, read a mass balance in Fig. 1.2 to the nearest gram, calculate weight W_2 from mass, and state and explain whether W_1 and W_2 are equal within experimental accuracy limits.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-07T03:08:24+00:00"
  }
 }
