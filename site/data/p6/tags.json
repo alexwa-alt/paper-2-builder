@@ -767,5 +767,415 @@
   "marks": 12,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-07T03:08:24+00:00"
+ },
+ "p6-40": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The investigation explores the principle of moments by balancing a metre rule on a pivot with two loads, P and Q. First, students explain why the rule's balance point without loads might differ from the 50.0 cm mark. From a table of distance a (from pivot to the far edge of P) against distance b (from pivot to the centre of Q), students plot a graph starting at the origin, determine its gradient G, and find the x-intercept C. They then measure the width w of load P directly with a ruler, evaluate a suggestion that C = w / 2, and identify a practical reason why measuring distances a and b accurately is difficult.",
+  "skills": [
+   "readings",
+   "graphs",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:29:50+00:00"
+ },
+ "p6-41": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.3.4",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the mass of block U by balancing a metre rule on a pivot with a second block M. The question begins by asking how to accurately align the centre of a block with a mark on the rule and how to determine the balanced position experimentally. Using given values for distance a (pivot to centre of U) and distance b (distance between centres of U and M), students plot a graph of b against a, find the gradient G, and use it to calculate the mass of block U to a suitable number of significant figures. Finally, they evaluate whether quantities a and b are directly proportional.",
+  "skills": [
+   "graphs",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:29:50+00:00"
+ },
+ "p6-42": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the weight of a metre rule using a balancing method. A load P is placed at the 90.0 cm mark and the rule is balanced on a pivot. The student calculates distance b and the ratio a/b from given data and records them in the table. A graph of load P against a/b is plotted, and the gradient G is calculated to determine the rule's weight W. The student then explains how to locate the centre of mass of the metre rule without additional equipment and states the main practical difficulty encountered when carrying out a balancing experiment.",
+  "skills": [
+   "calculations",
+   "tables",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:33:51+00:00"
+ },
+ "p6-43": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.6",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning task to investigate a factor affecting the time taken for metal balls to come to rest after being released on a curved, flexible track. Available apparatus includes metal balls of various masses, a flexible track, clamps, a stopwatch, a tape measure, and a metre rule. Students describe the expected motion of the ball, specify an independent variable to test (such as release height, mass, or track curvature), outline controlled variables and the procedure, design a results table with headings and units, and explain how the collected data would be analysed to reach a conclusion.",
+  "skills": [
+   "planning"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:33:51+00:00"
+ },
+ "p6-44": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.9",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The experiment investigates the extension of a coiled spring under various loads to determine the weight of an unknown object X. Students describe two precautions for measuring the stationary spring's length accurately with a ruler. They calculate extensions for given loads to complete a table, measure the stretched length under load X directly from a diagram, and estimate the weight of object X. Finally, they explain why a calculated weight has too many significant figures, evaluate whether extension is directly proportional to load using table data, and state the graphical criteria for direct proportionality.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:35:42+00:00"
+ },
+ "p6-45": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the mass of a metre rule by balancing it on a pivot using an added block Q. Students explain how to place the block accurately at a specific mark and describe a method to locate the balance point. Using a table of distances a and b, students plot a graph of a against b, determine its gradient, and calculate the mass of the metre rule using a provided formula to an appropriate number of significant figures. Finally, they explain whether larger measured distances of b improve experimental accuracy.",
+  "skills": [
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:35:42+00:00"
+ },
+ "p6-46": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.6",
+   "1.1.1",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Plan an investigation to determine whether the distance a toy truck travels along a horizontal floor before stopping depends on its mass. The apparatus provided includes an inclined ramp supported by blocks, a toy truck, and a selection of masses. The response requires outlining the experimental procedure, listing additional equipment needed (such as a metre rule and balance), identifying key control variables (such as release height and ramp angle), and designing a results table with suitable column headings and units.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:39:51+00:00"
+ },
+ "p6-47": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.6",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Plan an experiment to investigate how the force required to just slide a wooden block across a surface depends on the block's mass. The provided apparatus consists of a flat wooden block with a hook and a clamp-on bench pulley. The plan must list additional apparatus needed (such as a string, mass hanger with masses or a force meter, and a balance), provide a labelled diagram of the arrangement, write step-by-step instructions, state precautions to obtain reliable results, and suggest a graph to plot.",
+  "skills": [
+   "planning",
+   "drawings",
+   "precautions",
+   "graphs"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:39:51+00:00"
+ },
+ "p6-48": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.1.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the spring constant k using two methods. In Method 1, the unstretched length l_0 is measured from a diagram, the extension e caused by a 300 g mass (3.0 N) is found, and k is calculated. In Method 2, the mass is oscillated; a digital stopwatch reading for 10 complete oscillations is recorded, from which period T, T^2, and k are calculated using a given formula. The student is then asked to evaluate whether the two k values agree within experimental accuracy and suggest suitable additional mass values to repeat Method 1 to improve reliability.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:41:07+00:00"
+ },
+ "p6-49": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.9",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the extension of a spring to determine its spring constant k. The unstretched length l_0 is measured from a diagram, and a set-square is drawn on the diagram to show how to align measurements with a metre rule. Table readings for different loads L and lengths l are completed by adding headings and calculating extensions e. The student plots a graph of L against e, determines its gradient G from a large triangle, and quotes the resulting value of k to an appropriate number of significant figures.",
+  "skills": [
+   "readings",
+   "drawings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:41:07+00:00"
+ },
+ "p6-50": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The student must plan an experiment to test the extension of springs made from different types of wire using provided materials (wires of various thicknesses, lengths, and materials, mass sets with hangers, and a wooden rod). The plan requires detailing how to construct springs by winding wire around the rod, specifying measurements to make (initial length, stretched length or extension, load added), listing controlled variables (such as wire diameter, coil diameter, and number of turns), describing experimental procedures and precautions, and explaining how results will be displayed and compared (such as in tables or load–extension graphs).",
+  "skills": [
+   "planning"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:41:32+00:00"
+ },
+ "p6-51": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the stretching of a spring using a metre rule and slotted masses. The student measures the unstretched coiled length l_0 on a diagram, explains why the bottom loop is excluded from the measurement, and suggests a precaution for reliable readings (such as viewing the rule at eye level or using a fiducial aid). Data for lengths under various loads from 0.0 N to 5.0 N are recorded and plotted on a graph. Finally, the student assesses whether length is directly proportional to load and uses the graph to predict the load required to double the original length.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:41:32+00:00"
+ },
+ "p6-52": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The experiment investigates the principle of moments using a metre rule balanced on a pivot at the 45.0 cm mark with loads P and Q on either side. In part (a), candidates plot a graph of distance b against distance a starting from the origin and draw a line of best fit. In (b), they state and justify whether a is directly proportional to b. In (c), they calculate the moment of the rule's mass mX and evaluate clockwise and anticlockwise moments Pa and Qb for the first row. In (d), they identify that the student did not account for the weight of the rule acting at its centre of mass.",
+  "skills": [
+   "graphs",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:44:12+00:00"
+ },
+ "p6-53": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the weight of a load P using a balancing metre rule. In part (a), candidates calculate values of 1/Q and complete the table. In (b), they plot a graph of distance b against 1/Q. In (c), they determine the gradient G from the graph and calculate the weight P using P = G/a. In (d), they read the weight of load P directly from a spring balance (forcemeter). In (e), they suggest two practical reasons why the calculated value of P from the balancing method might differ from the reading on the forcemeter.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:44:12+00:00"
+ },
+ "p6-54": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning task to investigate how strips of rubber (rubber bands) of different widths stretch when loaded. The provided apparatus includes a clamp, stand, boss, a selection of rubber bands of varying widths, a metre rule, and loads. Candidates are asked to write an experimental procedure, state the key variables to control (such as original unstretched length, thickness, or material of the rubber bands), draw a results table with appropriate column headings, and explain how the collected data would be analysed to reach a conclusion.",
+  "skills": [
+   "planning"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:46:07+00:00"
+ },
+ "p6-55": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation to determine the weight of a metre rule using the principle of moments. One end of the rule is supported in a clamp while the opposite end is supported by a forcemeter, and a 200 g mass is suspended at varying distances d along the rule. Candidates read the force on a diagram of the spring balance, describe how to ensure the rule is kept horizontal, plot a graph of force against distance starting from the origin, determine the intercept F_0 at d = 0.0 cm, calculate the weight of the metre rule as 2 × F_0 to a suitable number of significant figures, discuss line-of-best-fit reproducibility, and suggest an improvement to obtain more reliable force readings.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:46:07+00:00"
+ },
+ "p6-56": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the principle of moments by balancing a metre rule on a pivot at the 50.0 cm mark, with a fixed load X at the 90.0 cm mark. Different masses m are placed at varying positions to achieve balance. Students read the distance d from ruler scale diagrams, calculate values of 1/d, suggest a difficulty in performing the experiment along with an improvement, plot a graph of m against 1/d, determine the gradient G, and calculate the mass of load X using μ = G / 40.0.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:47:40+00:00"
+ },
+ "p6-57": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning question investigating how the volume of water in a 2000 cm^3 plastic bottle affects its stability. Students plan an experiment including required apparatus, step-by-step instructions, suitable values for the water volume, precautions to ensure accuracy, and a suitable graph to plot. In the final part, students measure the tilt angle of the bottle shown in a diagram using a protractor.",
+  "skills": [
+   "planning",
+   "precautions",
+   "graphs",
+   "readings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:47:40+00:00"
+ },
+ "p6-58": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the weight of a metre rule using a balancing method. The rule is supported on a pivot at the 45.0 cm mark and balanced by two loads, P and Q, placed on opposite sides. Students calculate turning effects A and B for different distances, add units to table column headings, and plot a graph of A against B starting from the origin. From the vertical intercept, they calculate the rule's weight, suggest practical difficulties in obtaining exact balance, and evaluate whether this calculated weight agrees with a value measured using an electronic balance within experimental accuracy limits.",
+  "skills": [
+   "tables",
+   "calculations",
+   "graphs",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:49:02+00:00"
+ },
+ "p6-59": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the stretching of a helical spring suspended from a clamp. Candidates measure the unstretched length l0 of the spring directly from a diagram and record it in a results table. They calculate the extension e for various hanging loads up to 5.0 N, state a precaution to ensure reliable measurements, and plot a graph of extension against load. Finally, using a measured length for an unknown load X, candidates calculate its extension and determine the weight of load X from the plotted calibration graph.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions",
+   "graphs"
+  ],
+  "marks": 10,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T10:49:02+00:00"
  }
 }
