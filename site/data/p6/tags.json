@@ -1177,5 +1177,403 @@
   "marks": 10,
   "model": "gemini-3.8-flash",
   "updated": "2026-11-07T10:49:02+00:00"
+ },
+ "p6-60": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A balancing experiment is set up using a metre rule on a pivot to determine the weight of a piece of soft modelling clay Q balanced against a metal cube P. In (a), candidates mark the distance x on the diagram. In (b), they suggest how to reshape Q to locate its centre more accurately. In (c), they explain how to overcome the difficulty of obtaining an exact balance to improve reliability. In (d), they describe how to find the scale position of the centre of mass of cube P, which overhangs the rule. In (e), they explain how to determine the centre of mass of the metre rule alone.",
+  "skills": [
+   "drawings",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T21:05:23+00:00"
+ },
+ "p6-61": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation to determine the weight of a metre rule supported on a bench at one end and held by a forcemeter at the other, with varying loads placed on it. In (a), candidates determine the position of the centre of the circular load using the metre rule scale. In (b), they read five forcemeter dials and record the values in a table. In (c), they plot a graph of force against load starting from the origin. In (d), they determine the vertical intercept and calculate the weight of the metre rule to appropriate significant figures. In (e), they suggest a source of inaccuracy in the experiment.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-07T21:05:23+00:00"
+ },
+ "p6-62": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the extension of a spring. Part (a) asks to identify the length corresponding to the extension from a diagram of a loaded and unloaded spring. Part (b) provides a load–extension graph. The student states and justifies whether load and extension are directly proportional, then rounds a given gradient value to a suitable number of significant figures and provides the correct unit for the spring constant k.",
+  "skills": [
+   "graphs",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:07:10+00:00"
+ },
+ "p6-63": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the weight of a load using a principle of moments balancing method on a metre rule. In part (a), the student calculates the distance x of a known load from the pivot and explains how to align the centre of the load accurately. In part (b), the student calculates weight W from given values. In parts (c) and (d), the student suggests a new value for x, identifies reasons for discrepancies between repeated values of W, and calculates the average weight W_AV with appropriate significant figures.",
+  "skills": [
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:07:10+00:00"
+ },
+ "p6-64": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students plan an investigation to compare the tensile strength of different types of thin paper prepared with wooden end blocks and hooks. The plan must detail additional apparatus needed (such as a load hanger, slotted weights, or a spring balance), instructions for carrying out the test safely, control variables to ensure a fair test (e.g. paper dimensions), how measurements will be taken, how data will be presented, and how to determine which paper sample is the strongest based on the maximum force sustained before breaking.",
+  "skills": [
+   "planning",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:07:39+00:00"
+ },
+ "p6-65": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment determines the mass M_R of a metre rule using balancing and moments. Part (a) asks how to place a mass accurately at a target mark. Part (b) requires calculating values of the ratio S = a/b and completing a data table. Part (c) asks for a graph of S against M. Part (d) involves finding the gradient G of the graph and calculating the mass M_R = 1/G to appropriate significant figures. Part (e) asks for a practical method to verify whether the ruler's centre of mass is located precisely at the 50.0 cm mark.",
+  "skills": [
+   "precautions",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:07:39+00:00"
+ },
+ "p6-66": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the weight of a metre rule using a balancing method. A load of 2.0 N is placed near one end and the pivot position is adjusted until the rule balances horizontally. Students measure distances on a scale diagram, calculate the actual distances, and determine the weight of the metre rule using the principle of moments. They repeat the procedure with an additional load placed on the rule and mark its position on a diagram. Finally, students evaluate whether the two calculated weight values agree within experimental accuracy and suggest practical difficulties in obtaining exact balancing results.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:08:06+00:00"
+ },
+ "p6-67": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the mass of an unknown object using two vertical suspended strings pulled together by a horizontal loop. Scale readings at both string positions are recorded before and after applying the loop to calculate horizontal displacements for each string. Students calculate the mass of the object using a given proportional relationship. They explain practical steps to ensure the loop remains horizontal, such as measuring height at both ends. Lastly, they describe how to extend the experiment to test whether the displacement distances are directly proportional, detailing how to collect data for different masses and plot a graph.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "planning"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:08:06+00:00"
+ },
+ "p6-68": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the masses of two loads, P and Q, using a balanced metre rule supported on a pivot. First, distances x and y from the diagram are measured and scaled to actual values a and b to complete a table. Then, a graph of b against a is plotted, and its gradient G is determined. Finally, students use the gradient, which represents the mass ratio of the loads, together with an estimated mass for load P, to calculate an estimate for the mass of load Q.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:08:32+00:00"
+ },
+ "p6-69": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the extension of a vertical spring loaded with different weights to determine the weight of an unknown object. They suggest a practical precaution to ensure reliable length measurements before plotting a graph of stretched length l against load L. From the graph, they determine the unstretched length l_0 of the spring. They then measure the stretched length of the spring supporting an unknown object on a diagram, use the graph to find its weight W, and justify why expressing a result to four significant figures (2.564 N) is inappropriate for the precision of the apparatus used.",
+  "skills": [
+   "precautions",
+   "graphs",
+   "readings",
+   "conclusions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:08:32+00:00"
+ },
+ "p6-70": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.1.3",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the motion and extension of a spring with suspended masses. First, the unstretched length of a spring is measured from a scaled diagram to determine its actual length. A 300 g mass (3.0 N load) is added, and the extension and spring constant k are calculated. Next, the period of oscillation for 20 cycles is measured for both 300 g and 500 g masses to evaluate whether mass affects the period of oscillation. Finally, students explain how to avoid line-of-sight (parallax) error when measuring the length of the spring.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:09:01+00:00"
+ },
+ "p6-71": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.1",
+   "1.5.3.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the downward deflection of a metre rule clamped at one end when a mass is placed at various distances d from the free end. The height of the free end above the floor is measured from scale diagrams to find the unloaded height H^0 and loaded height H. Students calculate the downward deflection D and the product (d × D) to complete a data table. Using the table, they test a claim regarding inverse proportionality. Finally, they explain why the clamped rule deflects even without an added mass (due to its own weight) and suggest a method to measure this initial deflection.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:09:01+00:00"
+ },
+ "p6-72": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3",
+   "1.1.1",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The class investigates the stability of a wooden block. Part (a) requires measuring the height h, width w, and depth d of the block from diagrams, drawing line AC on the block diagram, and measuring the angle α between AD and AC. Part (b) describes pushing the top of the block on a bench edge until it tips, measuring angle θ using a protractor, and asking for a suitable number of repeat measurements. Part (c) asks the student to determine if the given average tipping angle supports the suggestion that θ_av equals α, justifying the conclusion based on the experimental data.",
+  "skills": [
+   "readings",
+   "drawings",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:09:47+00:00"
+ },
+ "p6-73": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The class determines the mass of a load X using a metre rule balanced on a pivot. Load X is fixed at the 90.0 cm mark, while variable mass m is placed at distance d from the pivot at 50.0 cm to achieve balance. Part (a) requires calculating the distance x between load X and the pivot. Part (b) asks for a reason why a range of mass values m was used. Part (c) asks to calculate the average mass of X from a set of calculated values and state it to a suitable number of significant figures. Part (d) asks for one practical difficulty in balancing experiments and a way to overcome it.",
+  "skills": [
+   "calculations",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:09:47+00:00"
+ },
+ "p6-74": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the mass of a metre rule using two different methods. In Method 1, a 100 g mass is placed on a rule supported by a pivot, and the distances from the pivot are recorded to calculate the rule's mass for two trials and find an average. In Method 2, the mass is measured using a spring balance. The student reads the value from the spring balance diagram, suggests practical reasons for potential discrepancies between the methods, and explains how to determine the exact position of the centre of the mass block on the metre rule.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:10:14+00:00"
+ },
+ "p6-75": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2",
+   "1.5.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students carry out a moments experiment by balancing a metre rule on a small pivot. The student explains how to locate the centre of mass of the metre rule and how to avoid errors if it does not lie at the 50.0 cm mark. Loads P and Q are placed on opposite sides of the pivot until balanced. The student completes the missing units in the table headings, calculates both clockwise and anticlockwise moments using the given data, and describes a practical way to minimize uncertainty when locating the exact balance position.",
+  "skills": [
+   "tables",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:10:14+00:00"
+ },
+ "p6-76": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the stretching of a spring using a forcemeter and a load. In part (a), the student measures the unstretched length l_0 of the spring directly from the diagram in millimetres. In part (b)(i), values of force and total length are provided in a table, and the student calculates the extension e = l - l_0 for each load. Part (b)(ii) requires plotting a graph of extension against force. In part (b)(iii), the student determines the gradient G of the line on the graph and shows the method used on the grid.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:10:38+00:00"
+ },
+ "p6-77": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment determining the mass of a metre rule using a balancing method with a pivot and a known mass M. In part (a), the student suggests a suitable value for mass M based on the typical mass of a metre rule. In part (b), the student describes and draws how to position a cylindrical mass so its centre of mass aligns with a specific mark on the rule. In part (c), a practical difficulty in obtaining an accurate balance point is identified. In part (d), a method to improve reliability is suggested. In part (e), the student evaluates the experimental accuracy and appropriate number of significant figures for a calculated mass compared to a balance reading.",
+  "skills": [
+   "drawings",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:10:38+00:00"
+ },
+ "p6-78": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the turning effect of a load on a pivoted metre rule attached to a forcemeter. In part (a), candidates complete the data table with given distances d and headers with units. In part (b), they state which variables to plot on a graph to test direct proportionality and identify the required characteristics of the line (straight line passing through the origin). In part (c), candidates explain why placing a spirit level on the rule is unsuitable. In part (d), they describe a practical method to check that the rule is horizontal.",
+  "skills": [
+   "tables",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:11:04+00:00"
+ },
+ "p6-79": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.2",
+   "1.5.1.9",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the extension of a spring suspended above a bench. In part (a), candidates measure distance d_0 on the diagram using a ruler. In part (b), they calculate the actual distance D_0 using the scale factor. In part (c), they calculate the extension e for given loads L and record the values in a table. In part (d), candidates plot a graph of extension against load. In part (e), they determine the gradient G of the graph. In part (f), they suggest an additional experimental precaution to take when measuring distance.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-07T21:11:04+00:00"
  }
 }
