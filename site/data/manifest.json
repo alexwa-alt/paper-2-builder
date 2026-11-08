@@ -24,7 +24,7 @@
      "focus": "theory",
      "minutes_per_mark": 1.0,
      "data": "data/physics/p4",
-     "available": false
+     "available": true
     },
     {
      "key": "physics-p6",
