@@ -1,0 +1,403 @@
+{
+ "p4-1": {
+  "status": "done",
+  "subpoints": [
+   "1.1.3",
+   "1.1.1",
+   "1.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question tests fundamental measurement techniques. In part (a), candidates describe an experimental method to measure the time period of a simple pendulum accurately using a stop-watch, which requires timing multiple complete oscillations and calculating the average period. In part (b), candidates match appropriate measurement instruments from a given list to three physical quantities: finding the volume of water in a glass, the width of a small swimming pool, and the thickness of a piece of aluminium foil.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T07:34:24+00:00"
+ },
+ "p4-2": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.1.4",
+   "1.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question assesses knowledge of vectors, scalars, and motion graphs. In part (a), candidates state the difference between scalar and vector quantities and identify the two scalar quantities from a given list. In part (b), candidates sketch a distance–time graph representing a boat moving at constant speed. In part (c), candidates construct a scale vector diagram to find the magnitude and direction of the resultant velocity of a boat moving due west across a river flowing due south.",
+  "types": [
+   "recall",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T07:34:24+00:00"
+ },
+ "p4-3": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.5.1.11",
+   "1.5.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns linear acceleration and forces acting on a train. In part (a), candidates state the definition of acceleration. In part (b), given the train's mass of 520 000 kg and an acceleration of 1.1 m/s^2, candidates calculate the time taken to increase speed from 15 m/s to 28 m/s, determine the resultant force required to achieve this acceleration using F = ma, and explain why the driving force produced by the motors must be greater than this calculated force due to opposing resistive forces such as friction and air resistance.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T07:40:07+00:00"
+ },
+ "p4-4": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.13",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question examines rocket motion, speed–time graphs, and terminal velocity. In part (a), candidates calculate the initial weight of a rocket from its mass and define the term weight. In part (b), a speed–time graph of the rocket launch is analyzed: candidates describe the motion from O to A and from A to B, and draw a tangent at time t = 400 s to calculate the gradient and determine the acceleration. In part (c), candidates explain in terms of forces (weight and air resistance) why the rocket reaches terminal velocity upon returning through the atmosphere.",
+  "types": [
+   "recall",
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T07:40:07+00:00"
+ },
+ "p4-5": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.1.5",
+   "1.1.6"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.1",
+  "difficulty": 2,
+  "text": "A boat crosses a river at 3.5 m/s perpendicular to the bank, while the river current flows at 2.5 m/s at right angles to the boat's heading. In (a), students must draw a scale diagram or calculate to find the boat's resultant speed and direction relative to the bank. In (b), students state one other scalar quantity and one other vector quantity.",
+  "types": [
+   "calculation",
+   "recall",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T07:41:53+00:00"
+ },
+ "p4-6": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.2.1",
+   "1.5.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A swimmer swims across a river at 0.72 m/s perpendicular to a river current of 0.54 m/s. In (a)(i), students determine the magnitude and direction of the swimmer's resultant velocity relative to the bank. In (a)(ii), they calculate the distance travelled in 1.5 minutes. In (b), students explain why the swimmer moves at a constant speed despite exerting a constant forward force.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T07:41:53+00:00"
+ },
+ "p4-7": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.7",
+   "1.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A speed–time graph is given for a ball rolling down a ramp and then moving across smooth and rough horizontal surfaces. In part (a), students state the time when the ball reaches the start of the rough section. In part (b), students explain how the graph indicates zero resultant force on the smooth section (constant speed). In part (c), students calculate the acceleration down the ramp using the gradient of the initial straight line. In part (d), students calculate the area under the curve for the first segment to show that the length of the ramp is 9.6 m.",
+  "types": [
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T07:42:16+00:00"
+ },
+ "p4-8": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.10",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A non-linear speed–time graph is given for the first 30 s of a space rocket's flight. In part (a), students describe how the acceleration changes between 10 s and 30 s based on the increasing gradient of the curve. In part (b), students draw a tangent at t = 25 s to calculate the instantaneous acceleration. In part (c), students estimate or calculate the distance travelled during the first 10 s by determining the area under the graph.",
+  "types": [
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T07:42:16+00:00"
+ },
+ "p4-9": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.7",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rocket accelerates uniformly from rest to 120 m/s in 8.0 s. Part (a) asks to calculate the acceleration of the rocket. Part (b)(i) asks to plot this initial section of motion on a speed–time graph. Part (b)(ii) requires using the area under the graph to determine the height reached at 8.0 s. Part (b)(iii) asks to complete the speed–time graph from 8.0 s to 25.0 s based on descriptions of decreasing acceleration and subsequent constant speed.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T07:43:58+00:00"
+ },
+ "p4-10": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.3",
+   "1.2.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A speed–time graph shows a person's journey combining walking, waiting, and travelling by bus over 74 minutes. In (a)(i), students calculate the total distance travelled by finding the area under the graph, converting time units appropriately. In (a)(ii), they calculate the average speed for the whole journey. In (b), they state and explain that the gradient of a speed–time graph represents acceleration. In (c), they state and explain the acceleration at t = 40 minutes, where the graph shows constant speed.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T07:43:58+00:00"
+ },
+ "p4-11": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.5",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for a definition of acceleration. Part (b) shows two speed-time graphs (A and B) and two distance-time graphs (C and D), and requires students to describe the motion shown in each of the four graphs, identifying features such as constant speed, deceleration, and increasing acceleration.",
+  "types": [
+   "recall",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:45:36+00:00"
+ },
+ "p4-12": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.4",
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) defines acceleration. Part (b) provides a distance-time graph for a cyclist's journey. Students must describe the motion during three specific time intervals: 0 to 15 s, 15 to 30 s, and 30 to 40 s. Additionally, students are asked to calculate the average speed and the maximum speed for the 40-second journey using the graph.",
+  "types": [
+   "recall",
+   "data",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:45:36+00:00"
+ },
+ "p4-13": {
+  "status": "done",
+  "subpoints": [
+   "1.2.10",
+   "1.2.3",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A speed-time graph shows the motion of a bus travelling between bus stops A, B, C and D. Part (a) requires describing the motion between the stops using given terms such as decreasing acceleration or moving forwards at constant speed. Part (b) asks to calculate the distance between A and D using the given average speed of 23 km/h and total time taken. Part (c) involves sketching additional motion on the graph for a stop at D followed by acceleration for 30 seconds, labeling specific points.",
+  "types": [
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:45:53+00:00"
+ },
+ "p4-14": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.6",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Figure 1.1 displays a distance-time graph for a cyclist travelling between points P and V. Part (a) asks to describe the motion between specific points on the graph (Q and R, R and S, S and T) in terms of acceleration or being stationary. Part (b) requires calculating the speed between U and V using the gradient of the straight-line section. Part (c) asks to sketch a possible continuation of the motion on the graph as the cyclist travels down a steep hill with no resistive forces.",
+  "types": [
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:45:53+00:00"
+ },
+ "p4-15": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.4",
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to define acceleration. Part (b)(i) requires drawing a speed-time graph for a car accelerating from rest to 28 m/s in 15 s, maintaining constant speed until 32 s, and then decelerating at 2.0 m/s^2 until it stops. Part (b)(ii) considers the car moving in a circle from 15 s to 32 s, asking for the direction of the resultant force and what happens to its velocity.",
+  "types": [
+   "recall",
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:46:10+00:00"
+ },
+ "p4-16": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.10",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) requires calculating the acceleration at time = 30 s from a given speed-time graph by finding the gradient of the tangent. Part (b) asks to compare the acceleration at 100 s with that at 10 s, and to explain the change in terms of forces. Part (c) requires determining the distance travelled between 120 s and 160 s by calculating the area under the speed-time graph.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:46:10+00:00"
+ },
+ "p4-17": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.4",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests motion analysis using distance-time and speed-time graphs. In part (a), students draw a constant-speed line on a distance-time graph, state the property representing speed, and calculate average acceleration given initial and final speeds over a time interval. In part (b), students plot a uniform deceleration on a speed-time graph and calculate the total distance travelled over 100 seconds by finding the area under the graph.",
+  "types": [
+   "calculation",
+   "data",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:46:43+00:00"
+ },
+ "p4-18": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.10",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "This question examines motion on the Moon using a speed-time graph for a space probe. Part (a) requires determining the acceleration at time = 0 by finding the gradient of the tangent to the curve at the origin. Part (b) asks how the graph shows changing acceleration and why the acceleration changes despite constant motor thrust, linking it to decreasing mass as fuel is consumed. Part (c) involves calculating the distance travelled between 200 s and 300 s by determining the area under the speed-time graph.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:46:43+00:00"
+ },
+ "p4-19": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4",
+   "1.2.6",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Using a distance-time graph for a moving car, students are asked to: (a) mark a point where acceleration is zero; (b) determine the speed of the car at t = 15 s and the average speed between t = 30 s and t = 45 s; and (c) draw a continuation of the graph showing the car decelerating to a stop by t = 55 s and remaining stationary for 5.0 s.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:47:00+00:00"
+ },
+ "p4-20": {
+  "status": "done",
+  "subpoints": [
+   "1.2.12",
+   "1.2.10",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Based on a speed-time graph for an ice skater, students: (a) explain deceleration; (b) determine the distance travelled and the average deceleration between t = 3.0 s and t = 6.0 s; and (c) state what happens to the size of the deceleration and the resultant force on the skater after time t = 6.0 s.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T07:47:00+00:00"
+ }
+}
