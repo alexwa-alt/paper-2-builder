@@ -399,5 +399,405 @@
   "marks": 7,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-08T07:47:00+00:00"
+ },
+ "p4-21": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.1.6",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify two vector quantities from a given list. Part (b)(i) requires calculating the final speed of a car accelerating uniformly from rest at 2.2 m/s^2 for 3.0 s. Part (b)(ii) asks for the calculation of the car's average speed given that it travels 9.9 m in the 3.0 s. Part (b)(iii) requires sketching a distance–time graph on the provided axes for the first 3.0 s of the motion.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:29:12+00:00"
+ },
+ "p4-22": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks for the definition of the term weight. Part (a)(ii) requires calculating the weight of 350 kg equipment on a planet where the acceleration of free fall is 7.5 m/s^2. Part (b) presents an inflated balloon of mass 80 g and volume 0.30 m^3 released in an atmosphere of density 0.35 kg/m^3, requiring a calculation of the balloon's density to predict and explain its direction of motion.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:29:12+00:00"
+ },
+ "p4-23": {
+  "status": "done",
+  "subpoints": [
+   "1.4.2",
+   "1.4.1",
+   "1.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses concepts related to density. In part (a), candidates describe and explain the relative position when oil of a given density is poured onto water of a higher density. In part (b)(i), candidates describe an experimental method to measure the volume of an irregularly shaped solid object using a measuring cylinder. In part (b)(ii), candidates calculate the mass of the object using the density equation given its volume and density.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:29:38+00:00"
+ },
+ "p4-24": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.4.3",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question combines density concepts with motion under terminal velocity. Part (a) asks for the overall density of a stationary weather balloon compared to the surrounding air. Part (b) asks candidates to state and explain whether the balloon rises or falls when the gas inside cools. Part (c)(i) requires sketching a speed–time graph for an object falling from rest through air until it reaches terminal velocity, and part (c)(ii) asks for the initial and final values of acceleration for this motion.",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:29:38+00:00"
+ },
+ "p4-25": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A block of wood has a volume of 210 cm^3 and a mass of 180 g. Part (a) asks for the calculation of the density of the block of wood. Part (b) states that the block is held above the surface of a liquid with a density of 0.88 g/cm^3 and asks to predict and explain what happens to the block of wood when it is released into the liquid.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 4,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:30:00+00:00"
+ },
+ "p4-26": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.3.3",
+   "1.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A load is suspended from a thread with a downward vertical force of 0.75 N. Part (a) asks to calculate the mass of the load. Part (b) states a horizontal wire pulls the load with a tension of 1.2 N, requiring the calculation or graphical determination of the magnitude and direction of the resultant force. Part (c) asks to state two changes that forces can produce other than altering an object's size and shape.",
+  "types": [
+   "calculation",
+   "recall",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:30:00+00:00"
+ },
+ "p4-27": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.9",
+   "1.2.12"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.2",
+  "difficulty": 2,
+  "text": "A ball of mass 130 g is launched vertically upwards at 14 m/s until it comes to rest momentarily at height h. Part (a) asks to define deceleration. Part (b) requires showing that the time taken to reach height h is 1.4 s using an acceleration of free fall of 9.8 m/s^2. Part (c) asks to calculate the height h. Part (d) requires describing and explaining the motion of the ball when dropped from the top of a tall building, considering the effect of air resistance.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:30:28+00:00"
+ },
+ "p4-28": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.11",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring suspended next to a metre ruler is loaded with weights, and a reading–weight graph is provided. Part (a) asks to read graph values to find ruler readings for 0 N and 5.6 N load and calculate the extension. Part (b) asks to calculate the spring constant using these values. Part (c) requires calculating the weight of a 0.50 kg object and then determining its acceleration immediately after being pulled down and released when spring tension is 6.5 N.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:30:28+00:00"
+ },
+ "p4-29": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.3.1",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests concepts of moments, centre of gravity, and conditions for equilibrium. Part (a) asks for the definition of the moment of a force and the effect it measures. Part (b)(i) asks for the definition of centre of gravity. Part (b)(ii) involves calculating the moment of a 1.3 × 10^7 N block's weight about a base corner using its base dimension of 3.4 m. Part (c) requires stating the two conditions necessary for an object to be in equilibrium.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:30:52+00:00"
+ },
+ "p4-30": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding of Hooke's law and spring behavior. Part (a) requires describing an experimental procedure to determine a spring's spring constant, specifying apparatus, measurements, and calculation steps. Part (b)(i) asks for the definition of the limit of proportionality. Part (b)(ii) requires calculating the extensions of two springs with different spring constants under a 120 N load. Part (b)(iii) asks students to select and justify which spring is more suitable for a baby bouncer using given dimensions.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:30:52+00:00"
+ },
+ "p4-31": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.5",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car park barrier arm of weight 60 N is pivoted with a soft iron bar attached at distance d. In part (a), the clockwise moment of the wooden arm about the pivot is calculated, and the distance d needed for equilibrium is determined using the mass of the soft iron bar. In part (b), an electromagnet is placed beneath the soft iron bar. Students describe and explain the movement of the barrier arm when the switch is closed, the effect of decreasing the potential difference across the coil, and why a steel bar would be less effective than a soft iron bar.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:31:43+00:00"
+ },
+ "p4-32": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9",
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A motorcyclist of combined mass 240 kg accelerates at 7.2 m/s^2 along a straight track from rest for 5.3 s. In part (a), the final speed and the resultant force acting on the motorcycle are calculated. In part (b), the track bends into a circular curve travelled at constant speed. Students state the difference between a scalar and a vector quantity, describe how the velocity changes along the bend, and explain why a resultant force must act on the motorcyclist during circular motion.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:31:43+00:00"
+ },
+ "p4-33": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.3.3",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A helium balloon has a mass of 120 kg. In part (a), candidates calculate the weight of the balloon. In part (b), given a resultant force of 54 N, they show that the acceleration of the balloon is 0.45 m/s^2 using F = ma. In part (c), candidates calculate the velocity of the balloon after accelerating from rest for 8.0 s. In part (d), they calculate the distance travelled by the balloon during this 8.0 s interval.",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:32:10+00:00"
+ },
+ "p4-34": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10",
+   "1.5.1.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers spring elasticity and circular motion. In part (a)(i), candidates calculate the spring constant using a given extension–load graph. In part (a)(ii), they mark and label the limit of proportionality, point L, on the graph. In part (b)(i), candidates draw an arrow indicating the direction of the resultant force on a car taking a curved corner. In part (b)(ii), they state how the magnitude of the resultant force changes when the car travels around a corner with a smaller radius.",
+  "types": [
+   "calculation",
+   "data",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:32:10+00:00"
+ },
+ "p4-35": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.2.12",
+   "1.5.1.11"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.2",
+  "difficulty": 2,
+  "text": "A car driver sees an obstruction and applies the brakes after a short delay. Part (a) asks for the definition of deceleration. Part (b) asks for a reason why the car does not decelerate immediately at t = 0. Part (c) presents a distance–time graph, asking for the property of the graph that corresponds to speed and for a calculation of the initial speed v. Part (d) states that a constant braking force F acts, and asks for explanations of why the deceleration is greater than F/m and why the deceleration is not constant.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:32:40+00:00"
+ },
+ "p4-36": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.2.9",
+   "1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 2.0 kg object on a horizontal bench is connected via a cord over a pulley to a 3.0 kg hanging object, accelerating at 4.0 m/s^2 upon release. Part (a) requires calculating the resultant force on the 2.0 kg object. Part (b) asks for the upward tension force F exerted by the cord on the 3.0 kg object. Part (c)(i) asks to show that the speed after 0.80 s is 3.2 m/s, and part (c)(ii) requires calculating the time taken for a 2.0 cm wide card fixed to the object to pass through a light beam.",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:32:40+00:00"
+ },
+ "p4-37": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.1.6",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boat is suspended from a ceiling by two ropes, each with a tension of 75 N at an angle of 60° to the ceiling. In part (a)(i), students draw a vector diagram to determine the magnitude and direction of the resultant force exerted by the ropes on the boat, stating the scale used. In (a)(ii), they use this resultant force to determine the mass of the boat. In part (b), students identify two vector quantities from a given list of physical quantities.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:33:06+00:00"
+ },
+ "p4-38": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks students to state two features of a vector quantity and name two examples of vector quantities. Part (b) presents an experiment measuring the length of a spring under different weights, plotted on a length–weight graph. Students determine the initial length of the spring from the graph, explain what is meant by the limit of proportionality and identify the corresponding weight on the graph, and calculate the spring constant of the spring.",
+  "types": [
+   "recall",
+   "explanation",
+   "data",
+   "calculation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:33:06+00:00"
+ },
+ "p4-39": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4",
+   "1.5.2.5",
+   "1.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A 62 kg rock climber holds herself in horizontal equilibrium against a vertical cliff using a rope angled at 60° to the horizontal. Part (a) asks to calculate her total weight. Part (b) asks to state the two conditions necessary for an object to be in equilibrium. Part (c)(i) requires calculating the moment of her weight about her feet, given her centre of mass is 0.90 m from the cliff. Part (c)(ii) requires using moments about her feet to determine the tension in the rope, where the rope line intersects her horizontal centre of mass line 1.2 m from the cliff.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:33:49+00:00"
+ },
+ "p4-40": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.5.1.11",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aeroplane accelerates along a runway for 35 s reaching a final speed of 72 m/s, shown on a non-linear speed–time graph. Part (a) asks to define acceleration. Part (b)(i) requires calculating the average acceleration over the 35 s. Part (b)(ii) requires calculating the average resultant force given a combined mass of 1.1 × 10^5 kg. Part (b)(iii) asks for a reason why acceleration decreases over time despite a constant engine force. Part (b)(iv) requires sketching a graph on given axes showing how the acceleration varies with time.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T15:33:49+00:00"
  }
 }
