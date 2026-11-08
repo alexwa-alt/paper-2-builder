@@ -1575,5 +1575,376 @@
   "marks": 11,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-07T21:11:04+00:00"
+ },
+ "p6-80": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.1.1",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment to determine the mass of a metal block using a suspended spring and a metre rule as an inclined lever. First, students measure the unstretched and stretched lengths of a spring under a 100 g load from full-size diagrams to calculate extension and the spring constant k. The spring is then connected to one end of a metre rule resting on a bench. Students describe how to accurately position a metal block at the 40.0 cm mark, calculate the change in extension when the block is added, determine its mass M using a given formula, and suggest two practical causes of inaccuracy in the experiment.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T00:47:56+00:00"
+ },
+ "p6-82": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning task to investigate how the electrical current in a resistor connected across a wind turbine varies with the speed of air flow driving it. Students are provided with a model turbine, an electric fan, and a device for measuring air speed. The plan requires listing any additional apparatus needed, completing the circuit diagram including an ammeter, identifying variables to keep constant, explaining the step-by-step procedure (including how air speed is adjusted), and describing how to present the data and draw a conclusion.",
+  "skills": [
+   "planning",
+   "drawings"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T00:47:56+00:00"
+ },
+ "p6-83": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1",
+   "1.7.1.2",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning investigation on how the potential difference across a solar cell varies with the angle of incident light from a laboratory lamp. Students are provided with a solar cell mounted on a stand and a laboratory lamp. They must specify additional apparatus (such as a voltmeter and protractor), identify control variables (such as distance and ambient light), outline the experimental procedure and precautions, design a results table with appropriate headings and units, and describe how to analyse the data to draw a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T00:50:23+00:00"
+ },
+ "p6-84": {
+  "status": "done",
+  "subpoints": [
+   "1.7.2.2",
+   "1.7.2.1",
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning question to investigate how the work required to pull a box up an inclined wooden board depends on the mass of the box and its contents. Using a wooden board, box with attached string, masses, metre rule, and electronic balance, students must identify additional apparatus (such as a newton meter/forcemeter), state control variables (such as angle of slope and distance pulled), explain the method and measurements needed to calculate work done (W = Fd), draw a suitable results table with headings and units, and explain how to use the results to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T00:50:23+00:00"
+ },
+ "p6-85": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question asks to plan an investigation to determine how the drop height of a ball affects its bounce height. Available apparatus includes balls of different materials and sizes, and sheets of floor coverings. The plan must list additional apparatus required (such as a metre ruler), explain the experimental procedure, describe a precaution for reliable bounce height measurements, specify key control variables, present a blank results table with column headings, and explain how to analyze the results to draw a conclusion.",
+  "skills": [
+   "planning",
+   "precautions",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:52:09+00:00"
+ },
+ "p6-86": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question requires planning an experiment to investigate one factor (such as drop height or ball mass) affecting the size of a crater produced when a ball is dropped into sand. Available apparatus includes metal balls of different sizes and a tray of sand. The plan must specify the factor being investigated, key control variables, additional apparatus needed (e.g. ruler), detailed procedure, precautions for obtaining reliable results, and a description of a suitable graph to plot.",
+  "skills": [
+   "planning",
+   "precautions",
+   "graphs"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:52:09+00:00"
+ },
+ "p6-87": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into how the output voltage of a solar panel varies with its angle θ relative to the vertical. Students measure the angles from diagrams using a protractor and record them in a table. They describe practical precautions for measuring the angle accurately, identify ambient light as a source of background voltage reading when the lamp is off and suggest a solution, and state two variables that must be kept constant to ensure a fair test.",
+  "skills": [
+   "readings",
+   "tables",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:52:57+00:00"
+ },
+ "p6-88": {
+  "status": "done",
+  "subpoints": [
+   "1.1.2",
+   "1.1.1",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into dropping a small steel ball from a height into a tray of sand to form a crater. Students suggest a cause of timing inaccuracy when measuring the fall time with a stopwatch. They explain how to reliably measure the diameter of the circular hole created in the sand and name an appropriate measuring device. Finally, they identify two variables other than drop height that could affect the size of the hole formed.",
+  "skills": [
+   "readings",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:52:57+00:00"
+ },
+ "p6-89": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1",
+   "1.7.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students carry out an experiment using a model wind turbine driven by an electric fan, which turns a small generator connected to a voltmeter. In part (a)(i), students complete the electrical circuit diagram for the fan by drawing standard symbols for a variable resistor and an ammeter. In part (a)(ii), they state a control variable that must be kept constant when conducting tests over multiple days. In part (b), they suggest two other independent variables regarding the turbine or setup that could be altered to observe their effect on the output of the generator.",
+  "skills": [
+   "drawings",
+   "planning"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:53:23+00:00"
+ },
+ "p6-90": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.3",
+   "1.7.3.7",
+   "1.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how a tennis ball bounces on different surfaces by dropping it alongside a metre rule and measuring its bounce height. In part (a), given a table of five bounce heights from a 100 cm release height, students explain how to calculate a valid average by identifying and excluding an anomalous reading. In part (b), they calculate the bounce efficiency for a release height of 100 cm and bounce height of 75 cm. In part (c), they compare and justify the bounce efficiency on a concrete floor given a release height of 85 cm and bounce height of 75 cm.",
+  "skills": [
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:53:23+00:00"
+ },
+ "p6-91": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation to determine the pressure exerted by a rectangular block on a bench. The user measures the length x and width y from an outline diagram of the block. The weight W of the block is read directly from a diagram of a forcemeter scale. The student then calculates the pressure P using P = W / A, where the area A = xy. Finally, the user identifies a practical source of inaccuracy that would explain why the calculated pressure is slightly lower than expected.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:53:51+00:00"
+ },
+ "p6-92": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment to determine the refractive index of a rectangular transparent block using a ray-trace sheet. The user draws a normal line, constructs an incident line at 20° to the normal, marks point F, and measures distance a. Using given pin positions P3 and P4, the user draws lines to locate point G and point H on the normal, measures distance b, and calculates the refractive index n using n = b / a. Finally, the user suggests a practical precaution for ray-trace experiments.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T00:53:51+00:00"
+ },
+ "p6-93": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1",
+   "1.1.2",
+   "1.8.1"
+  ],
+  "section_ok": false,
+  "suggested_section": "3.2",
+  "difficulty": 1,
+  "text": "Part (a) provides a list of laboratory apparatus and asks students to select the most suitable instrument to measure five given quantities: volume of water, a distance of about 50 m, the force required to lift a laboratory stool, the mass of a coin, and the pressure of the laboratory gas supply. Part (b) describes a lens experiment using an illuminated object, a screen, and a lens. Students are asked to explain how to avoid a parallax error when using a metre rule, and to state a precaution for ensuring a well-focused image on the screen.",
+  "skills": [
+   "precautions",
+   "readings"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:55:29+00:00"
+ },
+ "p6-95": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates thermal properties of sand and water using a thermometer, beakers, hot water, and sand. Part (a) requires reading a thermometer to record room temperature. Part (b) has students calculate temperature rises and falls for sand and hot water mixtures, compute a ratio S, and explain a procedure to ensure a reliable reading (stirring). Part (c) repeats similar calculations for a water-water mixture to find ratio W. Part (d) asks to justify whether results support a given prediction. Part (e) asks for two temperatures to keep constant. Part (f) requires identifying correct measuring cylinder precautions.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:55:47+00:00"
+ },
+ "p6-96": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student plans an experiment to investigate the relationship between the power produced by an electrical heater and the time taken to heat a beaker of water. The available apparatus includes an ammeter, voltmeter, variable power supply, beaker, heater, thermometer, and stopwatch. The tasks include completing a circuit diagram showing how the heater, ammeter, and voltmeter are connected to the power supply, explaining how to carry out the investigation, stating key controlled variables, designing a suitable table with headings, and explaining how to use the results to reach a conclusion.",
+  "skills": [
+   "planning",
+   "drawings",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:55:47+00:00"
+ },
+ "p6-97": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the scale of a thermometer. They read room temperature from a thermometer diagram, measure the liquid column distance d corresponding to various temperatures from cooling water, and complete table column headings. They analyze a sketch graph of temperature against distance, explaining why the variables are not directly proportional and why d is not zero at 0°C. Finally, they calculate the distance between 1°C marks on the thermometer showing working.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:56:06+00:00"
+ },
+ "p6-98": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Two students investigate the melting of ice cubes in water at different temperatures, recording temperature and time taken to melt. The student's notebook contains unsorted data with mixed units. Students are asked to draw a suitable table and enter the readings in a clear order to show patterns. They identify an anomalous reading that deviates from the trend and suggest plotting a graph to clearly highlight this anomaly, explaining how the graphical representation helps identify the error.",
+  "skills": [
+   "tables",
+   "graphs",
+   "conclusions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:56:06+00:00"
+ },
+ "p6-99": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the cooling of hot water in a beaker. They record room temperature from a thermometer and temperature values over time in a table. They complete table headings, state a precaution for accurate temperature reading, and calculate average cooling rates for three time intervals. Using these calculations, they describe the pattern of cooling rate over time, estimate the final temperature of the water, compare cooling rates with a lower initial temperature experiment, and state a controlled variable.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:56:24+00:00"
+ },
+ "p6-100": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the effect of a layer of cotton wool insulation on the cooling of a test-tube of water. They record room temperature from a thermometer, state a temperature reading precaution, complete a time column and headings in Table 2.1, and write a conclusion referring to readings and scientific principles. They discuss the quality of results, suggest improvements, identify laboratory conditions that could differ internationally, and estimate the volume of water a test-tube can hold.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-08T00:56:24+00:00"
  }
 }
