@@ -799,5 +799,407 @@
   "marks": 8,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-08T15:33:49+00:00"
+ },
+ "p4-41": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.1.4",
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question covers moments, scalar and vector quantities, and vector addition. In part (a), candidates state the definition of the moment of a force about a point and calculate the moment produced about a pivot on a crane arm by a 14000 kg block suspended 20 m away. In part (b), candidates state the difference between a scalar and a vector quantity and give an additional example of each. In part (c), candidates construct a scale diagram to determine the resultant force (magnitude and direction relative to a 20 N force) of two coplanar forces of 20 N and 30 N separated by an angle of 60°.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T23:53:08+00:00"
+ },
+ "p4-42": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.11",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question concerns terminal velocity and forces acting on a 76 kg skydiver who opens a parachute at t = 0. A speed-time graph is provided showing motion from t = 0 to 6.0 s. In part (a), candidates determine the deceleration immediately after the parachute opens from the initial gradient of the graph, and calculate the upward air resistance force acting at this moment. In part (b), candidates explain the skydiver's changing motion between t = 0 and 6.0 s in terms of resultant forces, weight, and drag until a new terminal velocity is reached. In part (c), candidates explain why opening the parachute cannot reduce the speed to zero.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-08T23:53:08+00:00"
+ },
+ "p4-43": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.6",
+   "1.5.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses knowledge of moments and equilibrium. Part (a) asks for the definition of the moment of a force. Part (b) presents a diagram of a pivoted L-shaped object in equilibrium and requires calculating an unknown force F using the principle of moments. Part (c) asks the student to describe an experiment using vertical forces to show that an object in equilibrium experiences no resultant moment.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:58:37+00:00"
+ },
+ "p4-44": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.1.4",
+   "1.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers scalars, vectors, and vector addition. Part (a) asks how a vector quantity differs from a scalar quantity. Part (b) asks to identify the vector quantities from a provided list. Part (c)(i) requires calculating the weight of a 0.55 kg microphone. Part (c)(ii) asks for a graphical vector diagram to determine the magnitude and direction of the resultant of the weight and a horizontal tension force. Part (c)(iii) asks to compare this resultant with the tension force in the supporting cord for a system in equilibrium.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:58:37+00:00"
+ },
+ "p4-45": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating Hooke's law. Part (b) presents an extension–load graph of a spring and requires: (i) marking the region where Hooke's law is obeyed, (ii) calculating the spring constant, and (iii) determining the total length of the spring under a given load of 8.5 N when its initial length is 120 mm. Part (c) asks to calculate the mass of an object given its weight of 4.0 N on a planet with a gravitational acceleration of 8.7 m/s^2.",
+  "types": [
+   "recall",
+   "data",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:59:03+00:00"
+ },
+ "p4-46": {
+  "status": "done",
+  "subpoints": [
+   "1.2.11",
+   "1.2.7",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A speed–time graph shows the first 100 minutes of a ship's journey. Part (a) asks for the maximum acceleration calculated from the steepest gradient of the graph. Part (b) asks for the total distance travelled between 42 minutes and 100 minutes, determined by finding the area under the graph. Part (c)(i) requires calculating the resultant force using F = ma given an acceleration of 0.0087 m/s^2 and a mass of 2.3 × 10^7 kg. Part (c)(ii) asks for an explanation of why the engine force must be greater than this resultant force.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:59:03+00:00"
+ },
+ "p4-47": {
+  "status": "done",
+  "subpoints": [
+   "1.5.3.3",
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses concepts of stability, centre of gravity, and Newton's second law. Part (a) asks candidates to explain why a double-decker bus on a tilted platform starts to topple. Part (b) asks how having 30 passengers on the top compartment and 2 on the bottom compartment affects stability and why. Part (c)(i) requires calculating the combined mass of the empty bus, driver, and 73 passengers. Part (c)(ii) requires calculating the resultant force needed to accelerate the fully loaded bus uniformly from rest to 14 m/s in 20 seconds.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:59:30+00:00"
+ },
+ "p4-48": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.3",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question evaluates understanding of terminal velocity, forces during free fall with air resistance, and speed-time graphs. In part (a), candidates label key points on a speed-time graph of a sky-diver: when the parachute opens and the two regions of terminal velocity. In part (b), candidates describe the sky-diver's motion from leaving the balloon to opening her parachute in terms of the forces acting (weight and air resistance). In part (c), candidates calculate her average speed during the first 4.0 seconds of the fall.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:59:30+00:00"
+ },
+ "p4-49": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding of moments and rotational equilibrium. Part (a) asks for the definition of the moment of a force. Part (b) presents a uniform wooden rod suspended from a pivot and held stationary by a horizontal force F; students calculate the weight of the rod, its moment about the pivot, the equal balancing moment produced by F, and the magnitude of force F. Part (c) requires students to state and explain how increasing the angle between the rod and the vertical affects the horizontal force needed to keep the rod stationary.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:59:58+00:00"
+ },
+ "p4-50": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.2.7",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates the motion of objects using different representations. Part (a) uses ticker tape to identify constant speed and asks students to describe and explain the change in motion when a ramp is tilted steeper. Part (b) asks students to calculate distance travelled from the area under a speed-time graph. Part (c) asks for an explanation of the motion of a metal ball falling through liquid from rest to terminal velocity, using concepts of force and acceleration.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-08T23:59:58+00:00"
+ },
+ "p4-51": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.12",
+   "1.1.5",
+   "1.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines scalar and vector quantities, basic speed calculations, and motion in a circular path. Part (a) asks for an example of a scalar quantity other than speed, and a vector quantity other than velocity. Part (b) involves a model car travelling around a circular track at constant speed. Students calculate the time for one complete revolution, draw an arrow representing the centripetal resultant force, explain why increasing speed causes the car to leave the track in terms of forces, and draw an arrow showing the car's direction of motion as it leaves the track.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-09T00:00:22+00:00"
+ },
+ "p4-52": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.5.1.5",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers the effects of forces on motion and vector diagrams for equilibrium. Part (a) asks students to state three ways a force can alter the motion of an object travelling in a straight line at constant speed. Part (b) shows a 360 N object supported symmetrically by two ropes angled at 45° to the horizontal. Students must draw a scale vector diagram of the forces to determine the tension T in each rope and state the scale used.",
+  "types": [
+   "recall",
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-09T00:00:22+00:00"
+ },
+ "p4-53": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3",
+   "1.5.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A diagram shows a road sign extending over a road, supported by a post with a concrete block on the opposite side. Students are asked to: (a) calculate the weight of the sign given its mass; (b)(i) calculate the moment about point P due to the sign's weight; (b)(ii) state the meaning of centre of mass and calculate the required weight of the concrete block to balance the moment; (c) state and explain what happens to the moment about point P as the sign and post rotate after the concrete block is removed.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:01+00:00"
+ },
+ "p4-54": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.5.1.11",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A speed-time graph shows a car accelerating from rest over 25 s. Students are asked to: (a)(i) determine the acceleration between t = 0 and t = 5.0 s; (a)(ii) calculate the resultant force acting on the car during this time; (b) describe the motion of the car between t = 10 s and t = 15 s and explain how the graph shows this; (c) suggest and explain why the car moves in this way given that the engine force remains constant.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:01+00:00"
+ },
+ "p4-55": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4",
+   "1.5.2.3",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state the two conditions for an object to be in equilibrium. Part (b) features a uniform metre rule in equilibrium on a pivot with a 0.50 N load at one end and an upward force F at the other end. Students must (i) draw and label the weight W and reaction force R on the diagram, (ii) calculate F by taking moments about the pivot, and (iii) calculate the upward force R at the pivot.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:18+00:00"
+ },
+ "p4-56": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.1",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating the equation defining the moment of a force in words, explaining what is meant by the moment of a force, and explaining the term vector quantity. Part (b) shows a tower crane with a counterweight and a load, asking students to explain how the counterweight prevents the crane from toppling over using the principle of moments.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:18+00:00"
+ },
+ "p4-57": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.3.1",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) completes the statement about the moment of a force. Part (b) considers a horizontal rod of length 2.4 m and weight 160 N, suspended by two vertical ropes X and Y with tensions of 80 N each. Sub-question (i) names the point where the weight acts, (ii) calculates the mass of the rod, and (iii) explains using data why the rod is in equilibrium.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:36+00:00"
+ },
+ "p4-58": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.5.1.11",
+   "1.2.12"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.2",
+  "difficulty": 2,
+  "text": "A train of mass 5.6 x 10^5 kg starts from rest and its motion for the first 120 s is represented on a distance-time graph. Part (a)(i) asks for the average speed and the speed at t = 100 s using the graph. Part (a)(ii) compares the acceleration at t = 100 s with t = 20 s. Part (b)(i) calculates the resultant force given the initial acceleration, and part (b)(ii) states the meaning of deceleration.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:36+00:00"
+ },
+ "p4-59": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.2.3",
+   "1.5.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A uniform plank AB of length 2.0 m and weight 210 N is suspended horizontally by two vertical ropes X and Y. Rope X is positioned 0.5 m from end A, and rope Y is at end B. (a) State the moment of force P about B in terms of P. (b) Calculate: (i) the moment of the plank's weight W about B; (ii) the tension force P in rope X; (iii) the tension force Q in rope Y using the principle of moments or equilibrium conditions.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:53+00:00"
+ },
+ "p4-60": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.2.3",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A distance-time graph for a lorry travelling along a straight horizontal road is given. (a) Using the graph, determine: (i) the speed of the lorry at t = 30 s by finding the gradient; (ii) the average speed between t = 60 s and t = 120 s. (b) Given the resistive force at t = 30 s, determine the acceleration and the forward engine force. (c) Describe the motion of the lorry between t = 60 s and t = 130 s by interpreting the shape of the distance-time curve.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T00:02:53+00:00"
  }
 }
