@@ -1201,5 +1201,396 @@
   "marks": 8,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-09T00:02:53+00:00"
+ },
+ "p4-61": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4",
+   "1.5.1.11",
+   "1.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question examines motion graphs and kinematics with force. In part (a), candidates sketch distance–time graphs for an object moving with constant speed and with decreasing speed. In part (b), candidates sketch speed–time graphs for an object moving with constant acceleration and with increasing acceleration. In part (c), an aeroplane accelerates from rest along a runway under a constant forward force; using the given force, mass, and time of travel, candidates calculate the take-off speed of the plane.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-09T06:57:36+00:00"
+ },
+ "p4-62": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4",
+   "1.5.2.2",
+   "1.5.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns equilibrium and the principle of moments. In part (a), candidates state the conditions required for a stationary object acted upon by forces to have no acceleration and no rotation. In part (b), a boat is suspended in equilibrium by two vertical ropes. Given its weight acting at the centre of mass and the relevant distances, candidates calculate the moment of the boat's weight about one rope's suspension point, followed by the tensions in each of the two supporting ropes.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-09T06:57:36+00:00"
+ },
+ "p4-63": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.11",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A speed-time graph shows the motion of a 1200 kg car over 40 s. Part (a) asks for calculations during the first 20 s of motion: (i) the distance travelled by calculating the area under the initial straight line, (ii) the acceleration from the gradient of the graph, and (iii) the resultant force acting on the car using F = ma. Part (b) requires a description of the motion of the car from 25 s to 40 s as its acceleration decreases.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-09T06:59:26+00:00"
+ },
+ "p4-64": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests understanding of Hooke's law and spring extension. Part (a) requires stating Hooke's law. Part (b)(i) asks to draw a force-extension graph for loads up to 120 N causing a 64 mm extension, and (b)(ii) asks to calculate the spring constant k. Part (c) requires suggesting and explaining why a spring balance calibrated up to 150 N gives an incorrect reading when tested with a 140 N load, referring to exceeding the limit of proportionality.",
+  "types": [
+   "recall",
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-09T06:59:26+00:00"
+ },
+ "p4-65": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.11",
+   "1.5.1.5",
+   "1.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests understanding of the effects of forces and basic kinematics calculations. Part (a) asks for the ways a resultant force can change an object's motion. Part (b) asks for one other effect of a force on an object, such as changing its shape or size. Part (c) considers a 1400 kg car accelerated from rest by a 3500 N resultant force up to a speed of 30 m/s: (i) calculate its average acceleration, (ii) calculate the time for which the force is applied, and (iii) name a force that opposes the motion of the car.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-09T06:59:53+00:00"
+ },
+ "p4-66": {
+  "status": "done",
+  "subpoints": [
+   "1.6.4",
+   "1.2.7",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 2.0 × 10^4 kg truck accelerates uniformly along a horizontal road from rest to 12 m/s in 30 s. In part (a)(i), students calculate the distance travelled by the truck during this time using average speed or speed-time graph principles. In part (a)(ii), students calculate the resultant force acting on the truck using acceleration or change in momentum. In part (b), students explain why the forward driving force must change over time to maintain uniform acceleration as air resistance increases with speed.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-09T06:59:53+00:00"
+ },
+ "p4-67": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to define impulse. Part (b)(i) provides details about a rocket emitting exhaust gases at a given velocity and rate, asking to show that the force exerted on the rocket is 3900 kN by stating the relevant equation. Part (b)(ii) calculates the maximum mass that this force can lift from the ground, ignoring air resistance.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:01:31+00:00"
+ },
+ "p4-68": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.5.1.11",
+   "1.2.13"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.2",
+  "difficulty": 3,
+  "text": "Part (a) defines acceleration. Part (b) calculates the resultant force on a ball of given mass accelerating downwards at a specified rate. Part (c)(i) describes and explains what happens to the acceleration of a falling ball between t = 0 and t = 0.040 s using a speed-time graph. Part (c)(ii) determines the acceleration of the ball at t = 0.010 s by drawing a tangent on the speed-time graph.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:01:31+00:00"
+ },
+ "p4-69": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.3",
+   "1.6.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A question featuring two children on a seesaw. Part (a) asks to explain why the seesaw rotates clockwise when child B moves further away from the pivot, and to calculate the mass of the backpack needed on child A to rebalance it. Part (b) asks to define impulse and explain using momentum and time how a rubber floor reduces injury when a child falls.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:01:49+00:00"
+ },
+ "p4-70": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A golfer hits a golf ball starting from rest. Part (a) asks to define momentum. Part (b) provides the contact time of the club, the mass of the ball, and its final velocity as it leaves the club, requiring the calculation of the impulse on the golf ball and the average force applied by the golf club.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:01:49+00:00"
+ },
+ "p4-71": {
+  "status": "done",
+  "subpoints": [
+   "1.1.4",
+   "1.6.1",
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating the difference between a scalar and a vector quantity, and defining momentum. Part (b) describes a test car of mass 950 kg moving at constant velocity for 4.0 s before hitting a barrier and coming to rest uniformly in 1.5 s with a resultant force of 27 000 N. It asks to calculate the initial velocity of the car and to sketch a speed-time graph representing the motion from t = 0 until the car stops.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:02:28+00:00"
+ },
+ "p4-72": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.3",
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) features a 15 g balloon attached to a straw on a string. As air escapes, it accelerates from rest to a constant speed, covering 0.67 m in 0.18 s at that speed. It asks to define impulse, calculate the resultant impulse during acceleration, and explain how momentum is conserved as the balloon accelerates. Part (b) shows two perpendicular forces acting on a different balloon (0.40 N horizontal and 0.74 N vertical) and asks to determine the magnitude and direction of the resultant force.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:02:28+00:00"
+ },
+ "p4-73": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.2",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question is about momentum and collisions. Two cars, A and B, undergo a slow-speed collision along a straight road. Given their masses and initial speeds, part (a) requires applying the principle of conservation of momentum to show that the speed of car B after the collision is approximately 0.4 m/s. Part (b)(i) asks to calculate the impulse exerted by car A on car B using change in momentum. Part (b)(ii) asks to state the magnitude and direction of the impulse exerted by car B on car A based on Newton's third law.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:02:46+00:00"
+ },
+ "p4-74": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.1",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns momentum, impulse, and force. An athlete of mass 71 kg slows down from 10.0 m/s to 4.0 m/s after crossing the finishing line. Part (a) asks to calculate the impulse applied to her using the change in momentum. Part (b)(i) requires recalling the definition of impulse in terms of force and time. Part (b)(ii) asks to calculate the average resultant force applied to her given the time taken to slow down. Part (c) requires using Newton's second law, F = ma, to calculate the force required to give the same mass a specified acceleration.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:02:46+00:00"
+ },
+ "p4-75": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.4",
+   "1.5.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A train of mass 750000 kg is travelling at 84 m/s. (a) Calculate the impulse applied as it slows to 42 m/s in 80 s. (b) Calculate the average resultant force applied. (c) Suggest how the train's shape helps it travel at high speeds. (d) Explain why, with the same braking force, it takes longer than 80 s to reduce its speed from 42 m/s to zero. (e) Suggest a reason why the train travels a greater distance before stopping on a wet day.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:03:04+00:00"
+ },
+ "p4-76": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2",
+   "1.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "An ice-hockey puck of mass 0.16 kg moves horizontally at 15 m/s. (a) Calculate the magnitude of its momentum. (b) The player strikes the disc, which gains 3.0 kg m/s of momentum at 45° to its original direction of travel. (i) State the magnitude and direction of the impulse exerted. (ii) Determine the magnitude of the new momentum and its new direction relative to the original path by drawing a scale diagram.",
+  "types": [
+   "calculation",
+   "recall",
+   "data"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:03:04+00:00"
+ },
+ "p4-77": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.6.3",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rocket accelerates upwards from rest, and its acceleration-time graph is given. Part (a) asks to define acceleration. Part (b) requires sketching a speed-time graph for the rocket between time t = 0 and t = tf based on the given acceleration graph. Part (c) involves stating the principle of the conservation of momentum and explaining how it applies to the accelerating rocket and its ejected exhaust gases in the absence of gravitational forces.",
+  "types": [
+   "recall",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:03:21+00:00"
+ },
+ "p4-78": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.4",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A model fire engine emits a jet of water with its brakes applied. Part (a) asks to calculate the change in momentum of the water ejected in 6.0 s. Part (b) requires calculating the magnitude of the force acting on the model due to the water jet. Part (c) asks to state and explain the direction of the model's acceleration when the brakes are released. Part (d) requires stating and explaining how the initial acceleration changes if the water tank is nearly empty when the brakes are released.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:03:21+00:00"
+ },
+ "p4-79": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4",
+   "1.7.1.4",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) features a speed-time graph for the first 5 minutes of a bus journey, requiring students to describe the motion between three specific time intervals. Part (b) considers another bus traveling at 8.9 m/s with a mass of 18000 kg that stops in a distance of 23 m under a constant braking force; students must calculate its initial kinetic energy and the braking force applied.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:03:39+00:00"
+ },
+ "p4-80": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.7.1.4",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two identical trolleys, P and Q, rest on a frictionless surface with a compressed spring between them, and trolley P has a 1.5 kg load fixed to it. When released, trolley Q moves right at 0.36 m/s. Students must calculate the speed at which trolley P moves left using conservation of momentum, calculate the kinetic energy of trolley Q, and state the energy transfer that takes place as the spring expands from elastic potential energy to kinetic energy.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-09T07:03:39+00:00"
  }
 }
