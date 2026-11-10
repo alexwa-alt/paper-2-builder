@@ -1592,5 +1592,394 @@
   "marks": 8,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-09T07:03:39+00:00"
+ },
+ "p4-81": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.1.4",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A heavy ball is dropped from a height of 1.8 m above the ground and does not bounce. Part (a) asks to describe the transfers of energy between stores from when the ball starts falling until it hits the ground. Part (b) requires calculating the maximum speed of the ball, ignoring air resistance.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-10T10:08:06+00:00"
+ },
+ "p4-82": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.3.2",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A diagram shows a solar-powered traffic warning light system that stores energy in a battery. Part (a) asks to name the energy store in the battery. Part (b) asks for one advantage of connecting the lights in parallel. Part (c)(i) asks for the meaning of 22% efficiency, and (c)(ii) requires calculating the solar power input given a power output of 15 W. Part (d) asks to suggest two advantages of using solar power rather than mains electricity for this application.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-10T10:08:06+00:00"
+ },
+ "p4-83": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain how a current is produced in the secondary coil of a wireless charging plate given an alternating current in the primary coil. Part (b)(i) requires showing that 0.012 kWh equals 4.3 x 10^4 J. Part (b)(ii) involves showing that a 15 W charging plate can charge the battery to 50% capacity in less than 30 minutes.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:10:17+00:00"
+ },
+ "p4-84": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.2.7",
+   "1.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A drag car accelerates from rest and then decelerates after a parachute opens, with data given on a speed-time graph. Part (a) asks to calculate the maximum momentum, state the feature representing distance on the graph, and determine the distance travelled in the first 6.5s. Part (b) asks to describe how the graph shows deceleration and non-constant deceleration. Part (c) describes the energy transfer as the car slows down.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:10:17+00:00"
+ },
+ "p4-85": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.4",
+   "1.7.1.4",
+   "1.7.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state two energy resources for which radiation from the Sun is the main source. Part (b)(i) requires showing that the mass of air hitting a turbine each second is approximately 550 kg using kinetic energy and velocity values. Part (b)(ii) involves calculating the turbine's efficiency given useful power output and kinetic energy input. Part (c) asks for one reason why tidal energy is more useful than wind energy, ignoring construction costs.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:11:59+00:00"
+ },
+ "p4-86": {
+  "status": "done",
+  "subpoints": [
+   "1.4.3",
+   "1.5.3.3",
+   "1.7.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain why a steel ship floats in water despite steel having a much higher density than water. Part (b) requires stating and explaining the effect on stability of loading containers with the greatest mass near the bottom of the ship. Part (c) asks to calculate the gravitational potential energy transferred when a crane lifts a container of given mass vertically upwards by a specified distance.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:11:59+00:00"
+ },
+ "p4-87": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.3",
+   "1.7.4.1",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a) State the principle of conservation of energy. (b) A wind turbine has a maximum output power of 1.8 MW and operates at maximum power for 4.0 h. Define the unit kWh, and calculate the energy produced by the wind turbine in kWh. (c) State two energy resources that are not due to radiation from the Sun.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:12:18+00:00"
+ },
+ "p4-88": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.4",
+   "1.7.1.5",
+   "1.2.13"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.2",
+  "difficulty": 3,
+  "text": "(a) A helicopter is stationary 1500 m above the ground. State the two conditions necessary for it to remain in equilibrium, and calculate the change in gravitational potential energy of the 3200 kg helicopter as it rises from the ground to 1500 m. (b) A speed-time graph shows a parachutist jumping from a hot-air balloon. Label points on the graph where acceleration is zero, negative, and decreasing. Explain, in terms of forces, the motion from the jump until point A where the parachute opens.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:12:18+00:00"
+ },
+ "p4-89": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.6.4",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student catches a cricket ball of mass 160g moving at 18 m/s. Part (a) asks to calculate the kinetic energy stored in the ball before it is caught. Part (b) asks to calculate the average force exerted on the ball given it takes 0.12 s to come to rest. Part (c) explains the effect on the student's hands when moving them backwards while catching the ball.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:12:45+00:00"
+ },
+ "p4-90": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.4",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rubber ball of mass 0.20 kg is held 10 m above a concrete path. Part (a) asks to calculate its gravitational potential energy relative to the path. Part (b)(i) calculates the kinetic energy immediately after it strikes the path at 12 m/s. Part (b)(ii) requires showing that the change in momentum is 5.2 kg m/s when it bounces off. Part (b)(iii) asks to calculate the average resultant force given the contact time is 0.25 s.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:12:45+00:00"
+ },
+ "p4-91": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1",
+   "1.7.3.2",
+   "1.7.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to describe one method of generating electrical power from energy stored in water. Part (b) requires one advantage and one disadvantage of the chosen method. Part (c) asks to state two methods of generating electrical power for which the main source of energy is not the Sun.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:13:02+00:00"
+ },
+ "p4-92": {
+  "status": "done",
+  "subpoints": [
+   "1.2.9",
+   "1.2.4",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A car accelerates uniformly from rest. Part (a) asks to calculate the acceleration and define the term in words. Part (b) involves plotting a speed-time graph for the car's motion and determining the distance travelled between t = 0 and t = 3.2 s by finding the area under the graph. Part (c) requires showing that the work done during deceleration matches a given value using kinetic energy changes or work done formulas. Part (d) asks to suggest and explain a reason why the stopping distance might increase on another day.",
+  "types": [
+   "calculation",
+   "recall",
+   "data",
+   "explanation"
+  ],
+  "marks": 13,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:13:02+00:00"
+ },
+ "p4-93": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.3",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A boy throws a ball of mass 190 g horizontally at a constant speed of 6.9 m/s. Part (a) asks to calculate the momentum of the ball. Part (b) states that after hitting an object of mass 1.8 kg, the ball bounces back along the same straight path at 1.5 m/s, and asks to calculate the speed of the object after the collision. Part (c) gives the kinetic energy of the ball before and after the collision, asking to calculate the change in total kinetic energy of the ball and object during the collision.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:13:21+00:00"
+ },
+ "p4-94": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.10",
+   "1.7.1.5",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A spring balance is used to measure the weight of a baby. Part (a)(i) asks to state Hooke's law, (ii) asks for the relationship between the mass and the force exerted on the spring, and (iii) asks to determine the force exerted on the spring for a reading of 8.0 kg. Part (b) requires sketching an extension-load graph for the spring beyond the limit of proportionality at 175 N. Part (c) asks to calculate the change in gravitational potential energy when the baby is carried to a bedroom at a height of 3.5 m.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:13:21+00:00"
+ },
+ "p4-95": {
+  "status": "done",
+  "subpoints": [
+   "1.7.4.1",
+   "1.7.1.1",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 1.1 shows an electrically powered bicycle with a battery and electric motor. (a)(i) Given that the battery delivers a power of 600 W for 60 min, calculate the energy stored in the battery in joules. (ii) State the form of energy stored by the battery. (b) For a motor with an electrical input power of 250 W, calculate the time for which the battery can power the bicycle. (c) State two environmental benefits of the electrically powered bicycle compared to a small motorcycle.",
+  "types": [
+   "calculation",
+   "recall",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:13:41+00:00"
+ },
+ "p4-96": {
+  "status": "done",
+  "subpoints": [
+   "1.1.7",
+   "1.7.1.4",
+   "1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "(a) Fig. 3.1 shows a river with water moving at 4.0 m/s and a canoe travelling at 2.5 m/s relative to the water at an angle of 38 degrees to the river bank. Draw a scale diagram to determine the canoe's resultant velocity, stating the scale used, the magnitude of the resultant velocity, and its direction (angle from the river bank). (b) Given the mass of the canoeist is 65 kg, calculate her kinetic energy when travelling on still water at 2.5 m/s.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:13:41+00:00"
+ },
+ "p4-97": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.3.7",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Water behind a dam in a hydroelectric power scheme. (a) State the main form of energy stored. (b) For water falling 410 m at 480 kg/s: (i) calculate the rate of energy transfer; (ii) given current of 270 A at 6000 V, calculate the efficiency of the power scheme. (c) (i) State one disadvantage of hydroelectric power schemes; (ii) state one other renewable energy source.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:14:24+00:00"
+ },
+ "p4-98": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.6.2",
+   "1.7.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Two blocks A and B are connected by a thread over a frictionless pulley. Block B falls a vertical distance of 0.45 m. (a) Calculate the change in gravitational potential energy of block B. (b) Block A (mass 2.0 kg) accelerates from rest to 0.60 m/s when the thread tightens: (i) calculate the impulse exerted on block A; (ii) explain the energy changes that take place in block A after block B stops moving and the thread becomes loose.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:14:24+00:00"
+ },
+ "p4-99": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2",
+   "1.7.3.1",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question is about energy resources. Part (a) asks to state a source of power derived from the Sun, and one not derived from the Sun. Part (b) presents a water turbine driven by tidal flow: it asks to explain whether this method is renewable, and to calculate the electrical power generated given the mass of water per second, speed, and efficiency percentage.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:14:43+00:00"
+ },
+ "p4-100": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.1",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns a tennis ball hitting a racket with given mass, initial speed, final speed in the opposite direction, and average force during contact. Part (a) asks to calculate the change in momentum, state the equation defining impulse in terms of force and time, and calculate the contact time. Part (b) asks to calculate the difference in kinetic energy of the ball before and after impact.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T10:14:43+00:00"
  }
 }
