@@ -1981,5 +1981,390 @@
   "marks": 9,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-10T10:14:43+00:00"
+ },
+ "p4-101": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.2",
+   "1.7.3.2",
+   "1.7.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 3.1 shows a barrage across a tidal bay part of a tidal power station. Part (a) requires completing sentences to describe energy transfers using words from a provided list. Part (b) asks for one advantage and one disadvantage of tidal power as an energy resource. Part (c) asks to state the main source of energy for tidal energy.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:11:37+00:00"
+ },
+ "p4-102": {
+  "status": "done",
+  "subpoints": [
+   "1.6.3",
+   "1.6.2",
+   "1.7.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Fig. 2.1 shows a wooden trolley of mass 1.2 kg at rest on a rough surface, about to be hit by a ball of mass 0.52 g. Part (a) asks to calculate the impulse exerted on the trolley and the initial speed of the ball using conservation of momentum principles. Part (b) asks to explain, in terms of work done, the energy changes that take place as the trolley slows down and stops on the rough surface.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:11:37+00:00"
+ },
+ "p4-103": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.1.4",
+   "1.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Water falls 15 m from a cliff edge. Part (a) asks to show that the velocity of the water when it strikes the rocks is 17 m/s using energy conservation or equations of motion. Part (b) states that 30 kg of water flows over the cliff edge every second, and asks to calculate the force exerted by the rocks on the falling water, ignoring splashing.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:12:01+00:00"
+ },
+ "p4-104": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A load is suspended from a spring with a spring constant of 0.20 N/cm, reaching its limit of proportionality at 15 N. Part (a) asks to calculate the extension for a 3.0 N load. Part (b) asks to explain the term limit of proportionality. Part (c) requires sketching an extension-load graph and labeling the limit of proportionality. Part (d) asks to describe energy transfers as a suspended load oscillates between positions A and B.",
+  "types": [
+   "calculation",
+   "recall",
+   "data",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:12:01+00:00"
+ },
+ "p4-105": {
+  "status": "done",
+  "subpoints": [
+   "1.2.1",
+   "1.5.1.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car travels at constant speed v on a road. Part (a) asks to explain why thinking distance is directly proportional to v. Part (b) asks to explain why braking distance is proportional to v^2. Part (c)(i) calculates the time taken to travel a given thinking distance at a specified speed. Part (c)(ii) calculates the force required to stop the car in a given time.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:12:21+00:00"
+ },
+ "p4-106": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4",
+   "1.7.1.4",
+   "1.7.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A train starts from rest, accelerates, travels at constant speed, and then decelerates to a stop. Part (a) requires completing a distance-time graph for the journey by drawing sections for constant speed and acceleration. Part (b) calculates the kinetic energy of the train during the constant speed phase. Part (c)(i) defines work done. Part (c)(ii) determines the deceleration distance from the graph. Part (c)(iii) calculates the resultant force acting during deceleration.",
+  "types": [
+   "data",
+   "calculation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:12:21+00:00"
+ },
+ "p4-107": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2",
+   "1.7.3.4",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), students state and explain whether wind energy generation is renewable. In part (b), two energy resources not sourced from the Sun are requested. In part (c), students state the energy stores for fossil fuels and water behind hydroelectric dams.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:12:39+00:00"
+ },
+ "p4-108": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Using a gravity lamp with a 12 kg load falling 1.7 m in 1200 s to power an LED, part (a) asks to calculate the rate of transfer of gravitational potential energy. Part (b) requires calculating the system's efficiency given the LED light output is 0.10 W. Part (c) asks for a social or environmental advantage of using a gravity lamp.",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:12:39+00:00"
+ },
+ "p4-109": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.4.1",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A model wind turbine is used to demonstrate electricity generation from wind. Given the mass of air passing through the blades each second and its kinetic energy, calculate the speed of the air. State the input power of the air. Given the generator's output current and potential difference, calculate its output power, and then calculate the overall efficiency of the wind turbine. Finally, given the density of air, calculate the volume of air passing through the circular area each second.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:14:41+00:00"
+ },
+ "p4-110": {
+  "status": "done",
+  "subpoints": [
+   "1.2.12",
+   "1.5.1.11",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aeroplane of given mass lands and decelerates uniformly along a horizontal runway from an initial speed to a final speed over a given time interval. Calculate the deceleration, the resultant force acting on the aeroplane, and its momentum at the final speed. Sketch the shape of the distance-time graph for the aeroplane's motion between landing and a later time during constant speed travel, without needing numerical values. Finally, suggest what happens to the energy as the aeroplane's kinetic energy decreases during deceleration.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:14:41+00:00"
+ },
+ "p4-111": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.10",
+   "1.5.1.9",
+   "1.5.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 2.1 shows an extension-load graph for a light spring S. Students are asked to state the range of loads for which S obeys Hooke's law, determine the spring constant k, name the form of energy stored in the stretched springs, determine the extension of an arrangement of two identical springs in series with a 4.0 N load, and calculate the distance moved by the load when the load is increased to 6.0 N.",
+  "types": [
+   "data",
+   "calculation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:15:04+00:00"
+ },
+ "p4-112": {
+  "status": "done",
+  "subpoints": [
+   "1.2.13",
+   "1.7.1.5",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal ball is held at rest by a thread just below the surface of a liquid in a vertical tube. When released, it accelerates downwards. Students describe what happens to its velocity during uniform acceleration, describe and explain the motion until terminal velocity is reached, calculate the gravitational potential energy transferred as it falls a distance of 0.80 m, calculate its kinetic energy at the bottom of the tube using its speed, and explain why the gravitational potential energy and kinetic energy values differ.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:15:04+00:00"
+ },
+ "p4-113": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The kinetic energy of air passing through a wind turbine every minute is given, along with its electrical output current and potential difference. Students are asked to calculate the percentage efficiency of the wind turbine.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:15:22+00:00"
+ },
+ "p4-114": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ball of known mass falls from a cliff of a given height into water. Part (a) asks to calculate the vertical speed of the ball as it hits the water, ignoring air resistance. Part (b) asks to calculate the vertical momentum of the ball as it hits the water.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:15:22+00:00"
+ },
+ "p4-115": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.2",
+   "1.4.1",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "For a wind turbine, state one advantage and one disadvantage. Using given wind data, calculate the mass of air passing through the swept area in 1.0 s, then calculate its kinetic energy. Suggest why not all kinetic energy is converted into electrical energy.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:15:53+00:00"
+ },
+ "p4-116": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.7",
+   "1.7.3.1",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Regarding solar cells generating electrical energy: state the main form of energy transferred from the Sun, state one environmental advantage and one environmental disadvantage, and explain whether the source is renewable. Given dimensions, solar energy received per square metre, current and potential difference, calculate the efficiency of the solar cells.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:15:53+00:00"
+ },
+ "p4-117": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.2.2",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A small ship of mass 1.2 x 10^6 kg moves sideways at 0.040 m/s and hits wooden pillars. Part (a) calculates the kinetic energy of the ship. Part (b) determines the average force exerted on the ship coming to rest in 0.30 s. Part (c) calculates the distance moved by the pillars assuming work done equals the kinetic energy. Part (d) explains how replacing pillars with rubber car tyres reduces damage.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:16:17+00:00"
+ },
+ "p4-118": {
+  "status": "done",
+  "subpoints": [
+   "1.5.1.9",
+   "1.5.1.10",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) states two properties of an object changed by forces. Part (b) considers a chest expander made of five identical parallel springs being stretched by two athletes. Sub-part (i) explains Hooke's law. Sub-part (ii) finds the tension in each spring and calculates the spring constant k given the stretched length. Sub-part (iii) states the energy changes taking place as the chest expander is stretched.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:16:17+00:00"
+ },
+ "p4-119": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.3.4",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A diagram shows a waterfall with height h. Part (a)(i) asks to describe the main energy transfer as water falls from gravitational potential energy to kinetic energy. Part (a)(ii) gives the speed of the water at the bottom as 21 m/s and asks to calculate the height h using energy conservation. Part (a)(iii) asks to state and explain an assumption made, such as no energy lost to air resistance or friction. Part (b) asks to state two energy resources that do not have the Sun as their main source of energy, such as geothermal, nuclear, or tidal.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:16:36+00:00"
+ },
+ "p4-120": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.3.7",
+   "1.7.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) asks to explain why the gravitational potential energy of an object increases when moved to a greater height. Part (b) presents a train transporting 80 passengers up a mountain and asks to calculate the increase in total gravitational potential energy given the vertical height of 1600 m and passenger mass. Part (c) gives the power of the engine as 1500 kW and the time taken as 30 minutes, and asks to calculate the efficiency of the engine in raising the passengers.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-10T18:16:36+00:00"
  }
 }
