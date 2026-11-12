@@ -2366,5 +2366,387 @@
   "marks": 7,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-10T18:16:36+00:00"
+ },
+ "p4-121": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.5",
+   "1.7.3.7",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question is about a battery-powered fork-lift truck lifting a load and energy resources. In part (a), candidates state the form of energy stored in the batteries. In part (b)(i), they calculate the gravitational potential energy gained by a 32 kg box lifted through a vertical distance of 2.5 m. In part (b)(ii), using the time of 5.4 s and an efficiency of 0.65, they calculate the input power to the lifting mechanism. In part (c), candidates state one advantage and one disadvantage of generating electricity using an oil-fired power station compared with a wind farm.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-12T20:59:33+00:00"
+ },
+ "p4-122": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aircraft of mass 9500 kg accelerates along the deck of an aircraft carrier to reach a take-off speed of 75 m/s. Part (a) asks to calculate the kinetic energy of the aircraft at take-off. Part (b) asks to calculate the constant resultant force acting on the aircraft over a catapult distance of 150 m, assuming all the kinetic energy gained comes from the work done by the catapult.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-12T20:59:33+00:00"
+ },
+ "p4-123": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.4",
+   "1.7.1.5",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bullet of mass 0.020 kg is fired vertically upwards at a speed of 350 m/s. Part (a)(i) asks to calculate its initial kinetic energy. Part (a)(ii) requires calculating the maximum theoretical height the bullet can reach assuming energy is conserved. Part (b)(i) asks for an explanation in terms of forces acting on the bullet as to why the actual height achieved is less than the calculated value. Part (b)(ii) asks to state what happens to the bullet's kinetic energy as it rises through the air.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-12T20:59:57+00:00"
+ },
+ "p4-124": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.3",
+   "1.7.1.2",
+   "1.6.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the definition of the principle of conservation of energy. Part (b)(i) asks to describe the sequence of energy changes that take place from when a girl begins to throw a heavy ball until it hits the ground and stops moving. Part (b)(ii) provides data for the mass of the ball (4.0 kg), the duration of force application (0.60 s), and the speed reached (12 m/s), asking for calculations of the momentum upon leaving the hand and the average resultant force exerted on the ball.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-12T20:59:57+00:00"
+ },
+ "p4-125": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2",
+   "1.7.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state the change in momentum of an object of mass m whose velocity increases from u to v. Part (b) describes a tennis player hitting a stationary ball with a racquet. Subpart (i) calculates the impulse given the contact time and average force. Subpart (ii) calculates the speed with which the ball leaves the racquet using its mass and the calculated impulse. Subpart (iii) requires stating the energy transfers taking place as the ball changes shape during contact and as it leaves the racquet.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:06:32+00:00"
+ },
+ "p4-126": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.2",
+   "1.7.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires completing a table with the physical quantities corresponding to mass × acceleration and force × time. Part (b) considers a man hitting a golf ball of given mass. Subpart (i) calculates the final momentum of the ball and the average resultant force acting on it while in contact with the golf club. Subpart (ii) asks to state the type of energy stored in the ball while it is compressed during contact.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:06:32+00:00"
+ },
+ "p4-127": {
+  "status": "done",
+  "subpoints": [
+   "1.1.4",
+   "1.6.2",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a) Explain why momentum is a vector quantity. (b) A car of mass 1200kg collides with a concrete wall and comes to rest from 7.5m/s in 0.36s. Calculate (i) the change of momentum of the car, and (ii) the average force acting on the car. (c) A different car of mass 1500kg has its energy fully absorbed by a crumple zone in a collision. (i) Given the energy absorbed is 4.3 x 10^5 J, show that the speed before the collision is 24m/s. (ii) Suggest what would happen to the car if it travelled faster than 24m/s when hitting the wall.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:06:50+00:00"
+ },
+ "p4-128": {
+  "status": "done",
+  "subpoints": [
+   "1.6.2",
+   "1.6.1",
+   "1.7.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a) A footballer kicks a stationary ball vertically upwards. The boot is in contact with the ball for 0.050s with an average resultant force of 180N, and the ball leaves the foot at 20m/s. Calculate (i) the impulse of the force acting on the ball, (ii) the mass of the ball, and (iii) the height to which the ball rises, ignoring air resistance. (b) State the word used to describe the energy stored in the ball while it is no longer spherical during contact with the boot.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:06:50+00:00"
+ },
+ "p4-129": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.3",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires identifying the quantities multiplied to calculate impulse. Part (b) presents a collision between block A and stationary block B on a smooth surface, where they stick together afterwards. Students must calculate the momentum of block A before collision, determine the combined velocity after impact, and calculate the impulse experienced by block B. Finally, they must suggest why total kinetic energy decreases after the collision.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:07:33+00:00"
+ },
+ "p4-130": {
+  "status": "done",
+  "subpoints": [
+   "1.6.1",
+   "1.6.3",
+   "1.6.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state the word equation for momentum. Part (b) describes a collision where block A of mass 3.2 kg and speed 4.0 m/s hits stationary block B of mass 1.6 kg, with A continuing at 1.5 m/s. Students calculate A's initial momentum and find the final velocity of B using conservation of momentum. Part (c) uses contact time to find the average force on B via impulse. Part (d) asks why kinetic energy decreases during the collision.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:07:33+00:00"
+ },
+ "p4-131": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.1",
+   "1.7.3.2",
+   "1.7.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), students name a fuel burnt to produce electrical energy and describe the process of obtaining electricity from it. Part (b) asks to explain why the Sun is the source of energy stored in that fuel. Part (c) requires explaining whether the chosen process is renewable.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:08:41+00:00"
+ },
+ "p4-132": {
+  "status": "done",
+  "subpoints": [
+   "1.7.3.5",
+   "1.7.3.1",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) features solar cells and asks for the name of the process releasing energy in the Sun and a description of the reaction. Part (b) requires naming another energy resource derived from the Sun and explaining its renewability. Part (c) asks for two advantages and two disadvantages of using solar cells to generate electricity.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:08:41+00:00"
+ },
+ "p4-133": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a)(i) Calculate the pressure on the road due to the weight of a car given its weight and tyre contact area. (a)(ii) Explain in terms of particles why tyre pressure increases as the car travels. (b) Calculate the maximum number of balloons that can be filled from a compressed helium gas cylinder given initial and final pressures and volumes.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:09:23+00:00"
+ },
+ "p4-134": {
+  "status": "done",
+  "subpoints": [
+   "1.8.2",
+   "1.8.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a) Explain why lying down to move across an ice-covered pond is safer than walking, using ideas about pressure. (b) Calculate the pressure at point X beneath the surface of a pond, due to both a floating layer of ice and the water column above point X, using given mass, surface area, depth, and density values.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:09:23+00:00"
+ },
+ "p4-135": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.8.3",
+   "1.7.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests pressure, energy resources, and renewable energy. Part (a) asks to define pressure and describe how pressure in a liquid varies with depth and density. Part (b) requires stating two energy resources for which the Sun is not the main source. Part (c) asks to state and explain whether power generation in a nuclear power station and from waves in the sea are renewable methods.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:09:48+00:00"
+ },
+ "p4-136": {
+  "status": "done",
+  "subpoints": [
+   "1.7.1.1",
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question is based on a hydroelectric dam setup. Part (a) asks for the form of energy stored in the reservoir. Part (b) gives dimensions, atmospheric pressure, and water density to calculate the total pressure at the turbine 150 m below the water level, and then calculates the force exerted on the turbine of cross-sectional area 3.5 m^2. Part (c) requires explaining why the kinetic energy of water flowing through a pipe of constant cross-sectional area remains constant.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:09:48+00:00"
+ },
+ "p4-137": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.7.1.5",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 1.1 shows sea water flowing into a tank at a rate of 800 kg/min. The tank has dimensions 3.10 m by 1.20 m, and the sea water has a density of 1020 kg/m^3. Part (a) asks to calculate the depth of water in the tank after 1.00 minute. Part (b) states that the height of water decreases by 0.420 m as it flows down the channel, and asks for the decrease in gravitational potential energy of the water each second. Part (c) asks to calculate the pressure at the bottom of the tank due to a water depth of 0.800 m.",
+  "types": [
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:10:08+00:00"
+ },
+ "p4-138": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.8.1",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 1.1 shows a piece of glass of thickness 2.0 cm, area 0.15 m^2, and density 2.6 x 10^3 kg/m^3. Part (a) asks to calculate the weight of the glass. Part (b) uses this glass as a vertical aquarium window with outside atmospheric pressure 1.0 x 10^5 Pa and inside average pressure 1.3 x 10^5 Pa, asking to calculate the resultant force on the window and state its direction. Part (c) shows a vacuum pump connected to a vertical tube of height 12 m immersed in a tank of liquid, where the pressure at point X is 9.6 x 10^4 Pa, and asks to calculate the density of the liquid.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:10:08+00:00"
+ },
+ "p4-139": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.8.4",
+   "1.8.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to explain why the pressure exerted on the shelf by group B books is less than by group A, given they have the same weight but different contact areas. Part (a)(ii) requires calculating the pressure exerted by group A on the shelf. Part (b) involves calculating the depth of a diver below the sea surface given the total pressure, atmospheric pressure, and sea water density using liquid pressure formulas.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:10:26+00:00"
+ },
+ "p4-140": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.8.4",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires calculating the mass of sea water in a rectangular container of given dimensions using its density. Part (b)(i) asks to calculate the depth of a submerged submarine given atmospheric pressure and total pressure at its top surface. Part (b)(ii) involves calculating the downward force on a hatch of a given area due to the total pressure.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-12T21:10:26+00:00"
  }
 }
