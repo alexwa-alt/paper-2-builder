@@ -3529,5 +3529,388 @@
   "marks": 7,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-13T09:51:22+00:00"
+ },
+ "p4-181": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1",
+   "2.1.2.1",
+   "2.2.1.3"
+  ],
+  "section_ok": false,
+  "suggested_section": "2.2",
+  "difficulty": 2,
+  "text": "The question concerns differences in molecular arrangement between solids and liquids and thermal expansion of a liquid-in-glass apparatus. In part (a), candidates state one structural difference between a solid and a liquid other than intermolecular spacing. In part (b), a liquid-filled glass flask with a narrow vertical tube is immersed in hot water. Candidates explain why the liquid level initially drops as the glass flask heats up and expands before heat conducts into the liquid, and why the level then rises significantly as the liquid expands more than the glass.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-13T17:56:41+00:00"
+ },
+ "p4-182": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question focuses on specific heat capacity and heating calculations. In part (a), candidates define specific heat capacity. In part (b), a volume of 0.0024 m^3 of oil is heated from 20 °C to 180 °C over 7.0 minutes. Given the density and specific heat capacity of the oil, candidates calculate the mass of the oil, determine the thermal energy required to produce the temperature increase, and calculate the power necessary to deliver this energy in the given time.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-13T17:56:41+00:00"
+ },
+ "p4-183": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.2.2",
+   "2.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An ice block floats in a beaker of warm water. Part (a) asks for one difference between particle motion in ice and in water. Part (b)(i) requires naming the thermal process transferring energy to the ice. Part (b)(ii) asks to calculate the energy transferred from 0.34 kg of water as its temperature decreases from 28 °C to 10 °C. Part (b)(iii) asks to explain how convection causes the temperature of all the water in the beaker to decrease. Part (b)(iv) asks for the change in internal energy and particle energy as the water cools.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:03:12+00:00"
+ },
+ "p4-184": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.2",
+   "2.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A stainless-steel saucepan containing water is heated on an electric cooker. Part (a) asks what happens to the water particles as the temperature increases. Part (b)(i) asks to show that 250 cm^3 of water has a mass of 0.25 kg. Part (b)(ii) requires calculating the thermal energy needed to heat the water from 20 °C to 65 °C. Part (b)(iii) asks to explain why the measured heating time is longer than the calculated time. Part (c) compares stainless-steel and aluminium pans using their specific heat capacities to explain the effect on heating time.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:03:12+00:00"
+ },
+ "p4-185": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.4",
+   "2.2.3.4",
+   "2.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires describing an experiment to measure the specific heat capacity of aluminium, listing the measurements to be taken and equations needed. Part (b) considers boiling water poured into an aluminium dish initially at room temperature. Part (b)(i) asks for an explanation of thermal equilibrium as heat transfers until temperatures equalise. Part (b)(ii) asks to explain why aluminium expands upon heating in terms of particle vibrations and separation. Part (b)(iii) asks to explain evaporation in terms of energetic water molecules escaping from the liquid surface.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:03:43+00:00"
+ },
+ "p4-186": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.1.2.7",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A pressure cooker half-full of water is heated on an electric element. Part (a) asks for two key differences between the process of evaporation and boiling of water in the cooker. Part (b) asks to explain the increase in pressure of the gas inside the pressure cooker as it is heated, in terms of particle motion, kinetic energy, collision frequency, and force per unit area exerted on the container walls.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:03:43+00:00"
+ },
+ "p4-187": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.3.3",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A campsite shower bag filled with water is heated by solar infrared radiation. Part (a) asks to explain why the shower bag is painted black and to state one disadvantage of relying on solar radiation as the only heat source. Part (b) asks to state two other renewable energy resources. Part (c) requires calculating the total energy incident on the shower bag during the day, given that 60% of the incident solar radiation is absorbed to heat 40 kg of water from 10 °C to 43 °C, with a specific heat capacity of 4200 J/(kg °C).",
+  "types": [
+   "explanation",
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:04:20+00:00"
+ },
+ "p4-188": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.2",
+   "2.3.2.2"
+  ],
+  "section_ok": false,
+  "suggested_section": "2.1",
+  "difficulty": 2,
+  "text": "A sealed rubber balloon filled with helium is placed near the ceiling of a room as heaters are turned on. Part (a) asks to explain why the air near the ceiling warms up faster than the rest of the room. Part (b)(i) asks for the effect of temperature increase on the motion of helium particles. Part (b)(ii) asks to explain in terms of helium particles how the gas pressure remains constant as the balloon expands.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:04:20+00:00"
+ },
+ "p4-189": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A filament lamp bulb is immersed in 600 g of water to investigate its efficiency. In (a)(i), students show that the increase in internal energy of the water, heated from 19.0 °C to 21.5 °C, is 6300 J using its specific heat capacity. In (a)(ii), given a 13 W power supply running for 500 s, students calculate the total input energy and determine the maximum possible efficiency of the lamp, treating heat transferred to water as wasted energy. In (b), students suggest a practical reason why the actual efficiency of the lamp is less than the calculated maximum.",
+  "types": [
+   "calculation",
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:04:55+00:00"
+ },
+ "p4-190": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.1.2.1",
+   "2.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In (a)(i), students identify which state of matter (solid, liquid, or gas) undergoes the greatest and least thermal expansion. In (a)(ii), they describe the structures of solids and gases in terms of particle motion and arrangement. In (b)(i), students state the definition of specific heat capacity. In (b)(ii), they list the necessary experimental readings needed to determine the specific heat capacity of a metal cylinder when using a 12 W electrical heater.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:04:55+00:00"
+ },
+ "p4-191": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question describes an electric tumble dryer with hot air circulating and passing through a condenser. Part (a) asks to identify the process by which hot air removes water from wet clothes and to describe and explain another change in the air after passing through the condenser. Part (b) asks to identify the force pulling falling clothes down and the direction of the resultant force during fast circular motion. Part (c) asks why using a clothesline to dry clothes in open air is better for the environment than using an electric tumble dryer.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:05:45+00:00"
+ },
+ "p4-192": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.1.3.1",
+   "2.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bottle part-filled with water and sealed air is heated. Part (a)(i) asks to explain, in terms of particles, how air pressure inside the bottle increases with temperature. Part (a)(ii) asks to state and explain the change in pressure when the lid is removed. Part (b) requires calculating the thermal energy needed to raise the temperature of 0.18 kg of water by 20 °C using its specific heat capacity. Part (c) requires calculating the pressure difference between the top and bottom of a 40.0 cm water column given its density.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T18:05:45+00:00"
+ },
+ "p4-193": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.3.7",
+   "2.2.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns a puddle of water evaporating over time. Part (a) asks to describe the process of evaporation by which the water volume decreases. Part (b) requires stating and explaining a weather change that causes slower evaporation. Part (c) asks to explain in terms of molecules how sweating cools the human body on a hot day.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:07:23+00:00"
+ },
+ "p4-194": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question is about thermocouples used as thermometers. In part (a)(i), students must sketch and label a thermocouple setup to measure the temperature of molten sulfur as it cools. Part (a)(ii) asks how the temperature is deduced from the thermocouple readings. Part (b) requires stating one advantage of using a thermocouple over a liquid-in-glass thermometer.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:07:23+00:00"
+ },
+ "p4-195": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating and explaining two features of a liquid-in-glass thermometer necessary for linearity. Part (b) asks to explain why a low heat capacity of the hot junction in a thermocouple thermometer is important for measuring rapid temperature changes. Part (c) is a calculation of the thermal energy required to increase the temperature of the hot junction, given its heat capacity and the temperature change.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:07:41+00:00"
+ },
+ "p4-196": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) requires a definition of specific heat capacity. Part (b)(i) asks to calculate the mass of a given volume of water using its density. Part (b)(ii) requires calculating the total energy given out as a specific mass of water cools from 5.0 °C, freezes, and then cools further as ice to -18.0 °C, using provided specific heat capacities and specific latent heat of fusion.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:07:41+00:00"
+ },
+ "p4-197": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.2.1.3",
+   "2.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A gas is trapped by a piston in a cylinder placed inside a freezer. Part (a) asks to calculate the force exerted on the piston by atmospheric pressure and the work done on the piston as it moves inward. Part (b) calculates the change in internal energy of the metal cylinder given its thermal capacity and temperature change. Part (c) requires an explanation, in terms of gas particles, of how the pressure remains constant despite the temperature drop. Part (d) asks to explain, in terms of particles, why the volume decrease of the metal is much less than that of the gas.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:07:59+00:00"
+ },
+ "p4-198": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 4.1 shows a liquid-in-glass thermometer. Part (a)(i) states the physical property that varies with temperature. Part (a)(ii) compares the sensitivity of thermometer Y, which has twice the bulb volume. Part (a)(iii) states and explains a design change to increase the thermometer's range. Part (b) states a physical property used in a thermometer capable of measuring a high temperature of 1300 °C.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:07:59+00:00"
+ },
+ "p4-199": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.8",
+   "2.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks students to explain, in terms of particles, why three identical dishes of water left in different conditions (sunlight with no wind, sunlight with strong wind, and a dark room) end up with different volumes after 12 hours. Part (b) asks for the definition of specific latent heat of vaporisation. Part (c) presents a temperature-time graph for crushed ice being heated from -60 °C using an immersion heater, and asks to describe what occurs in each of the four sections A, B, C, and D of the graph.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:08:17+00:00"
+ },
+ "p4-200": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.2.1.2",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain, in terms of molecules, why a liquid expands when heated. Part (b) requires explaining why a liquid expands more than a solid when heated. Part (c) considers a second thermometer with a larger bulb containing more liquid, asking how its sensitivity and range compare to the original thermometer. Part (d) asks to state one everyday problem resulting from thermal expansion and to suggest and explain one way of solving this problem.",
+  "types": [
+   "explanation",
+   "recall",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T18:08:17+00:00"
  }
 }
