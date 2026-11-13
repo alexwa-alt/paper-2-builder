@@ -3140,5 +3140,394 @@
   "marks": 9,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-13T02:18:42+00:00"
+ },
+ "p4-161": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.6",
+   "2.1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain in terms of molecules why liquids are very difficult to compress. Part (b) introduces a device using liquid pressure to lift heavy boxes. Part (b)(i) requires calculating the pressure of the oil at the bottom surface of the piston using the resultant force, piston area, and atmospheric pressure. Part (b)(ii) asks to explain why the pump must exert an increasing pressure as the depth of oil increases. Part (b)(iii) asks for one practical reason why an upward force of 8800 N cannot lift boxes with a weight of 8800 N.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:45:56+00:00"
+ },
+ "p4-162": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.3",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain, in terms of the momentum of molecules colliding with the inner surface, why air in an inflated balloon exerts pressure. Part (b)(i) requires calculating the volume of air inside the balloon when submerged in a lake at higher pressure and constant temperature using pV = constant. Part (b)(ii) asks to explain in terms of particle motion and kinetic energy why the volume of the air inside the balloon decreases as its temperature decreases.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:45:56+00:00"
+ },
+ "p4-163": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.3",
+   "2.1.3.1",
+   "2.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question concerns gas pressure, depth, and hydraulic systems. Part (a)(i) asks why the volume of a gas bubble increases as it rises from the bottom of a lake. Part (a)(ii) requires calculating the volume of the bubble at a depth of 0.50 m given its volume at 3.0 m depth, atmospheric pressure, and water density. Part (b) shows a diagram of a hydraulic press compressing paper and asks students to suggest and explain the effect on the press when a small quantity of air leaks into the oil.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:46:20+00:00"
+ },
+ "p4-164": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.1",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question focuses on the kinetic particle model of gases. Students are asked to explain what happens to the pressure of a fixed volume of air when its temperature increases. The explanation must incorporate microscopic particle behavior, specifically referencing the higher speed of molecules, the increased rate of collisions with container surfaces, and the greater change in momentum per collision resulting in an increased net force per unit area.",
+  "types": [
+   "explanation"
+  ],
+  "marks": 4,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:46:20+00:00"
+ },
+ "p4-165": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.3",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A J-tube contains trapped gas held by a dense liquid. Part (a) asks how the initial diagram shows that the trapped gas pressure equals atmospheric pressure. Part (b) asks to explain gas pressure on the tube walls in terms of molecular momentum during collisions. Part (c)(i) asks to calculate the new gas pressure when more liquid is poured in, compressing the gas to 50 cm^3 at constant temperature. Part (c)(ii) asks to calculate the density of the liquid using the 15 cm level difference and the calculated pressure difference.",
+  "types": [
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:46:48+00:00"
+ },
+ "p4-166": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.3.3",
+   "2.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify the solid, liquid, and gas states shown in particle diagrams. Part (b) asks to explain in terms of intermolecular forces why gases expand more than liquids for the same temperature rise. Part (c)(i) involves a gas inside a cylinder with a piston and requires calculating the new volume when pressure increases at constant temperature using pV = constant. Part (c)(ii) asks to state and explain, in terms of particle motion and collisions, what happens to the gas pressure when it is heated at fixed volume.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:46:48+00:00"
+ },
+ "p4-167": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.2",
+   "2.2.1.1"
+  ],
+  "section_ok": false,
+  "suggested_section": "2.2",
+  "difficulty": 2,
+  "text": "This question tests knowledge of thermometers and temperature measurement techniques. Part (a) asks for the values of the fixed points of a temperature scale. Part (b)(i) requires stating two assumptions (regarding liquid expansion and tube construction) for thermometer graduations to be equally spaced. Parts (b)(ii) and (b)(iii) ask how thermometer design affects range and sensitivity. Part (c)(i) requires a labelled diagram of a thermocouple thermometer, and part (c)(ii) asks for a situation where a thermocouple thermometer is more suitable than a liquid-in-glass thermometer.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:47:19+00:00"
+ },
+ "p4-168": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.3.3",
+   "2.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses states of matter, thermal expansion, and gas laws. Part (a) presents molecular arrangement diagrams and asks to identify the changes of state for melting and boiling. Part (b) asks for an explanation in terms of intermolecular forces as to why gases expand more than solids for the same temperature rise. Part (c) involves a compressed gas escaping from a cylinder into atmospheric pressure at constant temperature, requiring the calculation of the volume occupied by the escaped gas using Boyle's law (pV = constant).",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:47:19+00:00"
+ },
+ "p4-169": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cube floating in a liquid is analyzed in terms of air pressure, liquid pressure, and work done. In (a), candidates explain how air pressure produces a force on top of the cube in terms of air molecule collisions. In (b), given a liquid density of 1500 kg/m^3 and depth of 0.028 m, candidates calculate the liquid pressure and the upward force exerted on the bottom face of the 0.040 m cube. In (c), liquid is pumped into the container, raising the surface by 0.034 m; candidates calculate the work done by the upward liquid force and suggest why this method of lifting the cube is inefficient.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:47:49+00:00"
+ },
+ "p4-170": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.2.6",
+   "2.1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An air rifle fires metal pellets at targets with a given impulse of 0.019 N s. In (a), candidates define impulse. In (b), given the pellet mass of 1.1 × 10^-4 kg, candidates determine the launch speed of the pellet leaving the rifle and calculate its kinetic energy. In (c), as the pellet melts upon striking the target, candidates describe how the molecular structure (particle arrangement, separation, and motion) of the liquid metal differs from that of the solid metal.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:47:49+00:00"
+ },
+ "p4-171": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.3",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question shows a gas enclosed in a cylinder with a piston and pressure gauge. In part (a), students are asked to describe how pressure is exerted on the cylinder walls in terms of the momentum of the molecules as they collide with the surface. In part (b), the piston is pushed, causing the gas volume to decrease from 820 cm^3 to 330 cm^3. Given that the final pressure is 20 000 Pa and the temperature remains constant, students must calculate the pressure of the gas before compression.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:49:39+00:00"
+ },
+ "p4-172": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.6",
+   "2.1.2.1",
+   "2.1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question states that solids have a fixed shape, liquids adapt to the shape of their container, and gases fill their container. Students are required to explain these macroscopic physical properties for solids, liquids, and gases separately. The explanation must refer specifically to the forces existing between the molecules and the arrangement of the molecules in each of the three states of matter.",
+  "types": [
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:49:39+00:00"
+ },
+ "p4-173": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) describes an experiment observing Brownian motion of smoke particles suspended in air using a microscope. In (a)(i), students sketch the observed random path of a single smoke particle. In (a)(ii), students explain this motion in terms of collisions with light, fast-moving air molecules. Part (b) presents a scenario where a tennis ball hits a wall 20 times in 60 seconds with a given average momentum change per collision, and asks students to calculate the average force exerted on the wall.",
+  "types": [
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:50:04+00:00"
+ },
+ "p4-174": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.2.1",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks students to describe the motion of molecules in a solid, while part (a)(ii) asks for a description of molecular motion in a gas. Part (b) asks for a detailed explanation of how gas molecules exert pressure on the walls of a closed box, specifically requiring students to refer to the change in momentum during collisions with the surface and the resulting force per unit area.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:50:04+00:00"
+ },
+ "p4-175": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires sketching particle diagrams representing the arrangement of atoms in a crystalline solid and in a gas. Part (b)(i) asks for a description of the motion of atoms in a solid, while (b)(ii) asks for an explanation of why a large force is needed to cut crystalline rock in terms of interatomic forces. Part (c) asks to state and explain, in terms of gas particle behavior, what happens to helium atoms after a balloon bursts in a room.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:50:35+00:00"
+ },
+ "p4-176": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.3",
+   "2.1.3.1"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.8",
+  "difficulty": 2,
+  "text": "Part (a)(i) requires calculating the total pressure at a depth of 5.0 m underwater given atmospheric pressure and water density. Part (a)(ii) asks for the pressure of the gas inside the bubble at this depth. Part (b) asks for an explanation of why the bubble rises to the surface of the lake and why its volume increases as it ascends.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:50:35+00:00"
+ },
+ "p4-177": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) focuses on Brownian motion: drawing a random, zig-zag path for a smoke particle viewed under a microscope, and explaining how random collisions with light, fast-moving air molecules cause this motion. Part (b) presents a cylinder of gas with a movable piston surrounded by atmospheric pressure. It asks students to explain, in terms of molecular motion and collisions, why lowering the temperature of the gas causes the piston to move to the left until internal and external pressures balance again.",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:51:00+00:00"
+ },
+ "p4-178": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.3",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores the pressure-volume relationship for a fixed mass of gas in a balloon. Part (a) asks for an explanation of how gas exerts pressure in terms of molecular momentum change during collisions with the surface. Part (b) asks why decreasing volume at constant temperature increases pressure, explained in terms of molecular collision frequency per unit area. Part (c) requires a calculation of the new gas pressure using Boyle's law (pV = constant) when the volume decreases from 500 cm^3 to 200 cm^3.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:51:00+00:00"
+ },
+ "p4-179": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.3",
+   "2.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A child releases a helium balloon into the atmosphere. Part (a) asks to explain how helium particles inside the balloon produce pressure. Part (b)(i) requires stating the equation relating pressure and volume at constant temperature. Part (b)(ii) uses a graph showing atmospheric pressure versus height to determine the pressure and its unit at ground level, and to find the height where the balloon's volume doubles.",
+  "types": [
+   "recall",
+   "explanation",
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:51:22+00:00"
+ },
+ "p4-180": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.1",
+   "2.1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A helium-filled weather balloon rises through the atmosphere. Part (a) asks for an explanation in terms of momentum of how helium atoms exert a force on the balloon's inner wall. Part (b)(i) asks to explain why the helium pressure decreases as the balloon expands, in terms of particle motion. Part (b)(ii) requires calculating the new pressure when the balloon's volume increases from 9.6 m^3 to 12 m^3 at constant temperature.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T09:51:22+00:00"
  }
 }
