@@ -2748,5 +2748,397 @@
   "marks": 8,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-12T21:10:26+00:00"
+ },
+ "p4-141": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1",
+   "1.7.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A water manometer with both sides open to the atmosphere is connected on one side to a gas supply, causing the water level in that arm to drop by 0.200 m. In (a), students calculate the pressure of the gas supply using the atmospheric pressure and the liquid density. In (b), the gas supply is connected to a cylinder containing a piston open to the atmosphere. Students calculate the resultant force acting on the piston given its surface area in (b)(i), and determine the work done by the gas on the piston when it moves a distance of 0.50 m in (b)(ii).",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": null,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-13T02:03:50+00:00"
+ },
+ "p4-142": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A vertical mercury barometer measures atmospheric pressure. In (a)(i), students state what substance is present in the space above the mercury column. In (a)(ii), they calculate the vertical height of the mercury column from given values of atmospheric pressure and the density of mercury. In (a)(iii), they state and explain whether the vertical height changes when the tube is tilted by 10°. In (b), students suggest and explain a reason why a second barometer located in the same room at the same time shows a lower mercury height.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-13T02:03:50+00:00"
+ },
+ "p4-143": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1",
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rectangular paddling pool filled with sea water has dimensions 20.0 m by 44.0 m. In (a), students calculate the depth of the pool given that the total volume of water is 264 m^3. In (b), students calculate the density of the sea water using a given mass of 2.70 × 10^5 kg to three significant figures. In (c), students calculate the pressure at the bottom of the pool due to the sea water. In (d), students state a suitable instrument for measuring the large dimensions of the pool shown in the figure.",
+  "types": [
+   "calculation",
+   "recall",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T02:06:22+00:00"
+ },
+ "p4-144": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An L-shaped aquarium tank filled with salt water is shown from top view with given dimensions and a water depth of 2.0 m. In (a), students calculate the total volume of water in the tank by splitting the base area into rectangular sections. In (b), given a salt water density of 1.1 × 10^3 kg/m^3, students calculate the mass of the water. In (c), students determine the liquid depth above 0.80 m from the base and calculate the pressure due to the water at that specific level.",
+  "types": [
+   "calculation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T02:06:22+00:00"
+ },
+ "p4-145": {
+  "status": "done",
+  "subpoints": [
+   "1.8.1",
+   "1.4.1",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A rectangular container with base dimensions 0.12 m by 0.16 m contains 4.8 kg of liquid. Part (a) asks to calculate the weight of the liquid and the pressure it exerts on the base of the container. Part (b) asks for an explanation of why the total pressure on the base exceeds this calculated value. Part (c) provides a liquid depth of 0.32 m and asks to calculate the density of the liquid.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T02:15:00+00:00"
+ },
+ "p4-146": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.8.1",
+   "1.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A hollow metal cylinder containing air floats in seawater, submerged to a depth of 1.2 m. Part (a) asks why the cylinder floats even though the metal is denser than seawater. Part (b) requires calculating the upward force exerted by the seawater on the bottom of the cylinder, given a seawater density of 1020 kg/m^3 and base area of 0.80 m^2. Part (c) asks to deduce the total weight of the cylinder and explain the answer based on equilibrium.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T02:15:00+00:00"
+ },
+ "p4-147": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1",
+   "1.8.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), candidates calculate the density of a liquid inside a cylinder given its depth, radius, and weight. In part (b), candidates identify a manometer, calculate the pressure difference relative to atmospheric pressure using the liquid column height difference, and explain the effect on the column height if a tube of smaller cross-sectional area is used instead.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T02:15:35+00:00"
+ },
+ "p4-148": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), candidates use dimensions, liquid density, and the weight of an empty cylinder to calculate the total mass reading shown on a balance. In part (b), candidates identify the manometer, calculate the liquid density using a given pressure difference and height column, and state and explain the movement of the liquid when the open end is sealed with a rubber stopper and the gas pressure is increased.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T02:15:35+00:00"
+ },
+ "p4-149": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) features a mercury barometer: students name the instrument, identify the contents of the vacuum space above the mercury column, and calculate the atmospheric pressure using the given density and height. Part (b) asks students to calculate the weight of a cylindrical volume of mercury given its internal radius, depth, and density.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:17:13+00:00"
+ },
+ "p4-150": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.5.1.11",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) requires completing a table comparing the mass, weight, and deceleration of a lunar vehicle on the Moon versus Earth given that gravitational acceleration is one sixth. Part (b) presents a hydraulic brake pedal system with a pivot and piston; students calculate the force exerted by the driver on the pedal using the principles of moments and pressure calculations.",
+  "types": [
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:17:13+00:00"
+ },
+ "p4-151": {
+  "status": "done",
+  "subpoints": [
+   "1.5.2.2",
+   "1.8.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car braking system diagram shows a pedal pivoted at one end, pushed with a 200 N force at a distance of 22 cm from the pivot, connected to a piston and cylinder of area 5.0 x 10^-4 m^2 via a link at a distance of 8.0 cm from the pivot. Students must calculate the increase in pressure of the oil by first finding the force exerted on the piston using the principle of moments, and then dividing this force by the piston area.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 4,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:17:31+00:00"
+ },
+ "p4-152": {
+  "status": "done",
+  "subpoints": [
+   "1.8.4",
+   "1.4.1",
+   "1.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A plastic cube has sides of length 8.0 cm and a mass of 0.44 kg. Part (a) asks to explain what is meant by mass. Part (b)(i) requires calculating the density of the plastic, and (b)(ii) asks to state and explain whether it floats in a specific oil of known density. Part (c)(i) calculates the Moon's gravitational field strength given the weight of the cube on the Moon. Finally, part (c)(ii) uses this value and the depth of the cube's lower face in oil to calculate the pressure due to the oil on that lower face.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:17:31+00:00"
+ },
+ "p4-153": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.3.3",
+   "1.8.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A copper cylinder of known density and volume has its mass calculated using density and volume. Its weight is then calculated given the gravitational field strength, and the difference between mass and weight is stated. The cylinder is shown immersed in a liquid at a certain depth, and students calculate the density of the liquid from the pressure at its upper face, then explain why the cylinder does not float.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:17:49+00:00"
+ },
+ "p4-154": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1",
+   "1.8.4",
+   "1.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A measuring cylinder contains a liquid of given volume and density. Students calculate the mass of the liquid, and then calculate the liquid pressure at a point X at the bottom using its depth and density. They explain why the true pressure differs due to atmospheric pressure. Finally, students explain why a steel object sinks in the liquid and describe how its volume can be determined using the measuring cylinder.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:17:49+00:00"
+ },
+ "p4-155": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.3.3",
+   "2.1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state and explain in terms of particles how the pressure of a fixed mass of gas changes when its temperature decreases at constant volume. Part (b)(i) requires the value of absolute zero in degrees Celsius, and (b)(ii) asks to explain what absolute zero means in terms of particles. Part (c) gives initial pressure and volume of a gas in a cylinder and asks to calculate the volume when transferred to another cylinder at constant temperature using Boyle's law.",
+  "types": [
+   "explanation",
+   "recall",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:18:07+00:00"
+ },
+ "p4-156": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.6",
+   "2.1.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain in terms of particles why it is difficult to compress liquids. Part (b) presents a diagram of a rectangular block floating in water with a given depth and base area. Subpart (b)(i) requires showing that the pressure due to water at the base is approximately 850 Pa, (b)(ii) asks to calculate the force on the base caused by this pressure, and (b)(iii) asks to calculate the mass of the block given that the upward force equals its weight.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:18:07+00:00"
+ },
+ "p4-157": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.2",
+   "2.1.3.1",
+   "2.1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to state the name of absolute zero. Part (a)(ii) requires calculating the boiling point of nitrogen in degrees Celsius given its value in Kelvin. Part (b) asks to state and explain, in terms of particles, the effect on the pressure of a fixed mass of gas at constant volume when temperature increases from 300 K to 400 K. Part (c) asks to calculate the new pressure of a gas when its volume is doubled at constant temperature, starting from 120 kPa.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:18:24+00:00"
+ },
+ "p4-158": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.1.2.8",
+   "2.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to draw the random path of a smoke particle observed via a microscope (Brownian motion). Part (a)(ii) requires explaining the cause of the smoke particle's motion in terms of forces and the motion of air molecules. Part (b)(i) asks to explain why the internal energy of air in a sealed container increases when its temperature is increased. Part (b)(ii) asks to explain, in terms of molecules, why the pressure of the air also increases.",
+  "types": [
+   "data",
+   "explanation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:18:24+00:00"
+ },
+ "p4-159": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.1",
+   "2.1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain how a gas exerts pressure in terms of particle momentum. Part (b) asks to state and explain the change in pressure when a sample of gas is heated at constant volume. Part (c) requires calculating the new pressure of a gas when its volume decreases in a sealed container at constant temperature.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:18:42+00:00"
+ },
+ "p4-160": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.1.3.3",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain how a gas exerts pressure on container walls in terms of molecular momentum. Part (b)(i) requires completing the equation for final pressure p_2 when a gas is compressed at constant temperature. Part (b)(ii) asks to state and explain how the final pressure compares with p_2 if the temperature increases during compression.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T02:18:42+00:00"
  }
 }
