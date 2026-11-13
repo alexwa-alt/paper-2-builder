@@ -3912,5 +3912,388 @@
   "marks": 10,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-13T18:08:17+00:00"
+ },
+ "p4-201": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.5",
+   "2.2.3.8",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question examines Brownian motion and thermal cooling by evaporation. In part (a), candidates describe the observed motion of pollen particles suspended in a liquid and explain this movement in terms of random collisions with fast-moving liquid molecules. In part (b), candidates consider ethanol applied to the skin, stating and explaining that the patient experiences cooling due to thermal energy being transferred to evaporate the liquid, and stating the effect on the rate of evaporation when a fan blows air across the skin.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-13T23:47:28+00:00"
+ },
+ "p4-202": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.8",
+   "2.2.3.4",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question explores latent heat of fusion and cooling by evaporation. In part (a), candidates define the specific latent heat of fusion, then state and explain whether a cup of water or a cup of an ice-water mixture (both originally at 0 °C) has a lower temperature after 10 minutes in a 20 °C room. In part (b), candidates describe in terms of molecules how the evaporation of sweat cools a person and explain why blowing wind makes this cooling process more effective.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-13T23:47:28+00:00"
+ },
+ "p4-203": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.2",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student places 0.24 kg of water at 17 °C into a beaker and adds ice cubes at 0 °C. Part (a) asks to define thermal capacity. Part (b)(i) requires a molecular explanation for the decrease in internal energy of the water, and (b)(ii) asks for a calculation of this decrease in energy using the specific heat capacity of water. Part (c)(i) asks for an explanation of why the ice melts, and (c)(ii) asks how to determine the specific latent heat of fusion of ice from this experiment, including stating any additional measurements needed.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T23:49:41+00:00"
+ },
+ "p4-204": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.1",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A question regarding measuring temperatures using a thermocouple thermometer. Part (a) requires completing a diagram showing how a thermocouple thermometer is connected between a beaker with an ice-water mixture and a beaker with liquid mercury at 600 °C. Part (b) asks to state two other physical properties that vary with temperature and can be used to measure it. Part (c) asks for two advantages of using a thermocouple thermometer compared to a standard liquid-in-glass thermometer.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T23:49:41+00:00"
+ },
+ "p4-205": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests understanding of thermal energy transfers involving specific heat capacity and latent heat of fusion. Part (a) asks for the definition of specific latent heat of fusion. Part (b)(i) requires calculating the specific heat capacity of water using the mass of water, change in temperature, and total thermal energy lost. Part (b)(ii) involves calculating the mass of ice melted by using the thermal energy transferred and the specific latent heat of fusion of ice.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T23:50:11+00:00"
+ },
+ "p4-206": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.2.2.3",
+   "2.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses concepts of boiling, thermal energy transfer, heat capacity, and evaporation. Part (a) requires defining the term boiling point. Part (b)(i) involves calculating the energy transferred from water as it cools from its boiling point to 95 °C. Part (b)(ii) asks to calculate the thermal capacity of the copper container absorbing this energy. Part (b)(iii) requires a molecular explanation of why evaporation leads to a decrease in the temperature of the remaining liquid.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-13T23:50:11+00:00"
+ },
+ "p4-207": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), a solar panel receives energy from the Sun at 5.0 kW with 20% efficiency, transferring thermal energy to 15 kg of cold water entering every hour. Students calculate the temperature increase of the water using its specific heat capacity of 4200 J / (kg °C). In part (b), students state and explain one advantage and one disadvantage of heating water with a solar panel compared to a coal-burning boiler.",
+  "types": [
+   "calculation",
+   "application",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:51:52+00:00"
+ },
+ "p4-208": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.3",
+   "2.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks students to describe simple experiments to mark the fixed points on an uncalibrated liquid-in-glass thermometer. Part (b) requires explaining why a liquid with a melting point of -39 °C is unsuitable for measuring temperatures down to -90 °C at the South Pole. Part (c) asks for design changes to increase the sensitivity and the range of a liquid-in-glass thermometer. Part (d) asks to state the property of the liquid that ensures a linear scale.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:51:52+00:00"
+ },
+ "p4-209": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.4",
+   "2.3.3.6",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to describe evaporation in terms of molecules, focusing on more energetic molecules escaping from the surface. Part (b) presents a diagram of wet clothes drying on a washing line and requires stating two weather changes that help clothes dry more quickly, such as increased temperature or wind speed.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:52:10+00:00"
+ },
+ "p4-210": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.1",
+   "2.2.2.2",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires describing how a liquid differs from a gas in terms of molecules and their motion. Part (b) asks what happens to liquid molecules as temperature increases. Part (c)(i) asks why thermal energy is needed to change a liquid into a gas. Part (c)(ii) is a calculation of the specific latent heat of vaporisation given the liquid density, volume, and absorbed thermal energy.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:52:10+00:00"
+ },
+ "p4-211": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 4.1 shows a thermocouple thermometer with one junction in water at 0 °C and the other at 100 °C, giving a reading of 5.4 mV. Part (a) asks to state the name of this type of thermometer. Part (b) gives a reading of 1.7 mV when one junction is in water at 20 °C and the other in liquid X, and asks to calculate the temperature of liquid X. Part (c) asks to suggest an application for which this type of thermometer is more suitable than a liquid-in-glass thermometer.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 4,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:52:27+00:00"
+ },
+ "p4-212": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to define specific latent heat, and (a)(ii) explains melting in terms of molecules and energy. Part (b) shows an experimental setup with an electrical heater used to vaporise a liquid; given the thermal energy supplied and the change in mass on a balance, it asks to calculate the specific latent heat of vaporisation of the liquid. Part (c) asks to state and explain a precaution to improve the accuracy of the calculated specific latent heat.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:52:27+00:00"
+ },
+ "p4-213": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.3",
+   "2.2.3.1",
+   "2.1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A fixed mass of gas is trapped in a cylinder by a piston and heated by an electrical heater. Part (a) asks to calculate the energy required to increase the temperature of the trapped gas using its specific heat capacity, calculate the time taken given the heater's power, and suggest a practical reason for a discrepancy. Part (b) explores the behaviour of the gas and piston when the catch is released at constant temperature, asking to state and explain the motion of the piston and determine its final volume using the pressure-volume relationship.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:52:45+00:00"
+ },
+ "p4-214": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.3.5",
+   "2.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores thermal properties and particle models of matter. Part (a)(i) requires stating two differences between boiling and evaporation. Part (a)(ii) asks for an explanation in terms of molecules of how a volatile liquid on the skin cools it. Part (b) requires explaining in terms of molecules why liquids are incompressible compared to gases.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:52:45+00:00"
+ },
+ "p4-215": {
+  "status": "done",
+  "subpoints": [
+   "2.1.2.7",
+   "2.2.1.3",
+   "2.1.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating and explaining in terms of molecules how gas pressure changes when volume is reduced at constant temperature. Part (b) asks to complete a table comparing the relative order of magnitude of thermal expansion for gases, liquids, and solids for the same temperature increase using given words.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:53:03+00:00"
+ },
+ "p4-216": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.2.3",
+   "2.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to name the processes of boiling and evaporation based on descriptions of vapour bubbles and surface escape. Part (b) presents an experimental setup with an electric heater in a metal block to determine heater power; given mass, specific heat capacity, time, and temperature change, calculate the power. Finally, state and explain a precaution to improve experiment accuracy, such as lagging the block to reduce heat loss.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:53:03+00:00"
+ },
+ "p4-217": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.6",
+   "2.2.3.6",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating two differences between boiling and evaporation. Part (b) presents an electric heater in a metal block shown in Fig. 4.1. Given the power of the heater, time, specific heat capacity, and mass of the metal block, candidates must calculate the resulting increase in temperature of the block.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:53:20+00:00"
+ },
+ "p4-218": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric kettle containing water at 19 °C has a power rating of 3.0 kW and is switched on for 3.5 minutes. Part (a) asks to calculate the electrical energy supplied to the kettle. Part (b) requires calculating the thermal energy gained by the water using its volume, density, and specific heat capacity. Part (c) asks to calculate the efficiency of the kettle based on the previous results.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:53:20+00:00"
+ },
+ "p4-219": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.1",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Water at 22 °C in a beaker receives small pieces of ice at 0 °C until the temperature drops to 0 °C, using a total of 60 g of ice. Part (a) asks to calculate the thermal energy lost by the original water given its mass and specific heat capacity. Part (b) asks to calculate the specific latent heat of fusion of ice assuming all thermal energy lost by the water is transferred to the ice. Part (c) requires suggesting a reason for inaccuracy in this calculated value.",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:53:38+00:00"
+ },
+ "p4-220": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to draw and label a diagram of the structure of a thermocouple thermometer, including the reading device. Part (a)(ii) requires stating two reasons why a thermocouple thermometer is suitable for measuring the temperature of a small candle flame. Part (b) asks to state and explain the effect on the sensitivity of a liquid-in-glass thermometer of (i) reducing the diameter of the capillary tube and (ii) increasing the volume of the liquid-filled bulb.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-13T23:53:38+00:00"
  }
 }
