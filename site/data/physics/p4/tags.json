@@ -4295,5 +4295,392 @@
   "marks": 9,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-13T23:53:38+00:00"
+ },
+ "p4-221": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7",
+   "2.2.3.8",
+   "2.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns the process of evaporation. In part (a), candidates are asked to state three factors that affect the rate of evaporation of water. In part (b), an explanation is required for why a person climbing out of a swimming pool and standing in the open air feels cold as water evaporates from the surface of their skin.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-14T06:52:32+00:00"
+ },
+ "p4-222": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.4",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question investigates an experiment to measure the specific heat capacity of an iron block using an electric heater and a thermometer. Part (a)(i) asks to suggest a suitable material to surround the block and explain how it improves the accuracy of the experiment. Part (a)(ii) asks how using more of this material can further improve accuracy. Part (b) provides electrical data (current and potential difference), heating duration, mass of the iron block, and temperature change, asking candidates to calculate the specific heat capacity of iron.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-14T06:52:32+00:00"
+ },
+ "p4-223": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.4",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns determining the specific heat capacity of an iron block and calculating thermal capacity. In part (a), candidates describe an experiment using an electric heater and thermometer, stating the additional equipment needed, the measurements required, and the formula used to calculate specific heat capacity. In part (b), candidates define thermal capacity and use the specific heat capacity of iron along with the mass of an 85 kg wood-burning stove to calculate its thermal capacity.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-14T06:59:37+00:00"
+ },
+ "p4-224": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.3.3",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question focuses on changes of state and cooling curves. In part (a), candidates state two differences between evaporation and boiling, and give another example of a change of state. In part (b), a temperature-against-time cooling curve for a substance initially liquid is presented. Candidates state the process or change of state occurring at three different labeled points on the curve (liquid cooling, freezing, and solid cooling) and suggest why the gradient is steeper in the solid phase than in the liquid phase.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-14T06:59:37+00:00"
+ },
+ "p4-225": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3.1",
+   "2.1.2.7",
+   "2.1.2.3"
+  ],
+  "section_ok": false,
+  "suggested_section": "2.1",
+  "difficulty": 2,
+  "text": "A fixed mass of gas is trapped inside a metal cylinder by a movable piston. In part (a), with the piston fixed in place, the cylinder is moved from a cold room into a warm room; students must explain in terms of molecular motion and collisions what happens to the internal pressure. In part (b), the piston is released, moves to the right, and eventually stops; students explain this behavior in terms of the pressure and volume of the enclosed gas.",
+  "types": [
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-14T07:05:23+00:00"
+ },
+ "p4-226": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.2.3.1",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Water in a beaker is heated using a Bunsen burner. Part (a) asks for one key difference between evaporation and boiling, and asks students to state and explain how increasing temperature influences the rate of evaporation. Part (b) asks what happens to the water temperature once it reaches boiling point while still being heated, and requires a calculation of the average rate of energy supply (power) using the specific latent heat of vaporisation, the mass boiled away, and the elapsed time.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-14T07:05:23+00:00"
+ },
+ "p4-227": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.2.2.2",
+   "2.3.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines thermal capacity and internal energy. Part (a) asks for an explanation of thermal capacity. Part (b)(i) asks to calculate the increase in internal energy when a spoon with a thermal capacity of 7.2 J/°C is heated from 22 °C to 100 °C. Part (b)(ii) asks to define internal energy in terms of atoms. Part (c) asks to sketch a cooling curve on a temperature against time axis showing how the temperature of the spoon changes from 100 °C down towards room temperature (22 °C).",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-14T07:07:32+00:00"
+ },
+ "p4-228": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.6",
+   "2.1.2.7",
+   "2.1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of phase changes, temperature conversion, thermal transfer, and gas pressure. Part (a) asks for two differences between evaporation and boiling. Part (b)(i) requires converting -160 °C to Kelvin for liquid oxygen. Part (b)(ii) asks to state two methods of thermal energy transfer that a vacuum prevents. Part (c) asks for a description in terms of particles of how a gas exerts pressure on the walls of its container.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-14T07:07:32+00:00"
+ },
+ "p4-229": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two containers, one metal and one non-metal, are filled with hot water. Part (a) asks for an explanation of how free electrons transfer thermal energy through the metal container. Part (b) asks why non-metals conduct thermal energy less effectively than metals. Part (c) requires an explanation, in terms of particle arrangement and separation, of why gases are poor thermal conductors compared to non-metal solids.",
+  "types": [
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-14T07:07:55+00:00"
+ },
+ "p4-230": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.2.1",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "On a sunny day, the temperatures of a black tarmac road and the air above it increase. Part (a) asks for an explanation of why the surface temperature of the black tarmac increases. Part (b) asks for the method of thermal energy transfer from the tarmac to the air immediately above it. Part (c) asks for the main method of energy transfer to the rest of the air. Part (d) requires an explanation of why the tarmac surface temperature is higher than the surrounding air temperature.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-14T07:07:55+00:00"
+ },
+ "p4-231": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.2.2.3",
+   "2.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A metal pan containing 200 cm^3 of water is heated on an electric hotplate. In (a), candidates state and explain two mechanisms of thermal conduction in metals. In (b)(i), candidates explain why a gas occupies a much larger volume than a liquid in terms of forces and distances between particles, and in (b)(ii) state two differences between boiling and evaporation. In (c), candidates calculate the specific heat capacity of 200 cm^3 of milk using its density of 1.03 g/cm^3, temperature rise from 20.0 °C to 95.0 °C, and energy supplied of 60 700 J, giving the answer to three significant figures.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-14T07:08:44+00:00"
+ },
+ "p4-232": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.2.2.3",
+   "2.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric heater is used to heat a room measuring 4.5 m by 6.1 m by 2.4 m. In (a)(i), candidates show that the mass of air in the room is 79 kg given an air density of 1.2 kg/m^3. In (a)(ii), using a heater power of 1100 W and the specific heat capacity of air of 1000 J/(kg °C), candidates calculate the time taken to raise the temperature from 16.0 °C to 20.0 °C. In (a)(iii), candidates suggest why this calculated value represents a minimum time. In (b), candidates state the main methods of thermal energy transfer reduced by a double-glazed window.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-14T07:08:44+00:00"
+ },
+ "p4-233": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.3.3.3",
+   "2.3.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A copper cooking pan on a hotplate is considered. Part (a) asks to describe thermal energy conduction through copper via free electrons. Part (b) requires explaining an advantage of keeping the outer surface of the pan shiny in terms of thermal radiation emission. Part (c) asks to identify the main method of thermal energy transfer throughout the water inside the pan.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:10:23+00:00"
+ },
+ "p4-234": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.1.3",
+   "2.3.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A sample of sand has a given volume, density, and specific heat capacity. Part (a) requires calculating its mass, thermal capacity, and the time taken for an electrical heater to raise its temperature. Part (b) involves a setup where potted plants are placed in heated sand: subpart (i) asks to describe conduction through the plastic pot in terms of molecules, and subpart (ii) requires explaining why the temperature of the sand remains constant while being heated.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:10:23+00:00"
+ },
+ "p4-235": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.5",
+   "2.3.1.2",
+   "2.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests thermal physics concepts involving a damp cloth wrapping a metal can of lemonade. Part (a) asks to explain in terms of molecules how evaporation cools the water in the cloth, focusing on more energetic molecules escaping and leaving behind lower-energy ones. Part (b) asks to explain how delocalised electrons transfer thermal energy through the metal of the can from the warm lemonade to the cooled outer layer.",
+  "types": [
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:10:41+00:00"
+ },
+ "p4-236": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.1",
+   "2.3.3.3",
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores thermal energy transfer processes near a coastal road and the sea. Part (a) describes how thermal radiation from the Sun reaches the Earth through a vacuum. Part (b) asks for a reason why a black road has a greater temperature than the sea, relating to the absorption of infrared radiation. Part (c)(i) describes how heating affects air molecules, and part (c)(ii) asks to explain how convection currents produce a sea breeze from the sea to the land.",
+  "types": [
+   "explanation",
+   "recall",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:10:41+00:00"
+ },
+ "p4-237": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.3.1",
+   "2.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aluminium block leaves a factory furnace. Part (a) asks to calculate the thermal energy gained by the block given its mass, temperature change, and specific heat capacity. Part (b) requires stating and explaining the main process by which thermal energy is transferred from the block to a nearby factory worker. Part (c) asks to state and explain the main process of thermal energy transfer from the outer surface of the solid metal rollers to their interior.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:10:59+00:00"
+ },
+ "p4-238": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A power station burns waste materials from farm crops to generate electricity. Part (a) asks to state and explain whether this process is renewable. Part (b) asks to state one problem of using waste thermal energy to heat water for houses far away, and suggest a way of reducing this problem. Part (c) requires stating two environmental consequences of burning coal to generate electricity.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:10:59+00:00"
+ },
+ "p4-239": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.2.2.1",
+   "2.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An aluminium saucepan with a plastic handle contains cold water on a hotplate. (a) State why the pan is made from aluminium and the handle from plastic. (b)(i) State, in terms of molecules, what is meant by an increase in internal energy. (ii) Explain how thermal energy is transferred through the aluminium in terms of lattice and electrons. (iii) Explain, in terms of molecules, the effect of continued thermal energy transfer on the water when it reaches boiling point. (iv) Calculate the rate of thermal energy gain given the mass decrease and specific latent heat of vaporisation.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:11:18+00:00"
+ },
+ "p4-240": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.3",
+   "2.3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A machine delivers a hot drink in a plastic cup placed inside a holder made of paper cylinders with air gaps. (a) Explain how the holder makes the cup more comfortable to hold by reducing thermal conduction through trapped air. (b) Suggest and explain another action that reduces the rate of cooling more effectively, such as using a lid to prevent convection or evaporation. (c) State the method of thermal energy transfer from a star through the vacuum of space.",
+  "types": [
+   "explanation",
+   "application",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-14T07:11:18+00:00"
  }
 }
