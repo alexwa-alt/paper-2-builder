@@ -4682,5 +4682,393 @@
   "marks": 7,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-14T07:11:18+00:00"
+ },
+ "p4-241": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.1.2"
+  ],
+  "section_ok": false,
+  "suggested_section": "2.2",
+  "difficulty": 2,
+  "text": "An aluminium saucepan and a steel saucepan have identical dimensions. A table provides the specific heat capacity and density of aluminium and steel. Given the mass of the aluminium saucepan, part (a)(i) requires calculating the mass of the steel saucepan using density values. Part (a)(ii) asks for the thermal capacity of the aluminium saucepan. Part (a)(iii) involves calculating the energy needed to heat the steel saucepan from 20 °C to 100 °C. Part (b) asks for an explanation, in terms of particles, of why metals conduct thermal energy better than non-metals.",
+  "types": [
+   "calculation",
+   "explanation",
+   "data"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:23:23+00:00"
+ },
+ "p4-242": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.3.3.3",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify the main thermal energy transfer processes (conduction, radiation) in three everyday scenarios involving a man outdoors. Part (b) requires explaining thermal conduction through a metal gate using particle theory, referencing delocalised electrons or lattice vibrations. Part (c) presents a diagram of a car on a sunny day and asks to select the most suitable surface material for a windscreen shade (shiny white) to minimize heat gain inside the car, and to explain why in terms of absorption and reflection of infrared radiation.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:23:23+00:00"
+ },
+ "p4-243": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.3.3.3",
+   "2.3.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns thermal energy transfer processes in a metal cooking container containing hot oil. Part (a) asks for an explanation of thermal conduction in metals via delocalised electrons, given that atomic vibrations are already mentioned. Part (b) requires an explanation of how a polished, shiny outer surface reduces energy loss by being a poor emitter of thermal radiation. Part (c) asks students to explain the thermal advantage of using a spherical container, which has a smaller surface area for a given volume, thereby decreasing the rate of heat loss.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:23:46+00:00"
+ },
+ "p4-244": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.8",
+   "2.3.3.3",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates thermal radiation absorption using an experimental set-up with a central radiant heater placed between a shiny metal plate and a dull black metal plate, each holding a cork attached by wax. Part (a) asks students to state and explain what happens to the corks after the heater is switched on, identifying that the cork on the dull black plate falls off first because black surfaces absorb infrared radiation more effectively. Part (b) asks for the name of the thermal energy transfer process in solid metals.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:23:46+00:00"
+ },
+ "p4-245": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.2.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electrical heater of power 1.5 kW is placed on the floor of a room containing 65 kg of air. Part (a) asks for the main process by which thermal energy is transferred throughout the air in the room. Part (b)(i) requires calculating the time taken to raise the temperature of the air from 8.0 °C to 15.0 °C using the specific heat capacity of air, 720 J/(kg °C). Part (b)(ii) asks for two reasons why the calculated time is less than the actual time taken to heat the room.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:25:10+00:00"
+ },
+ "p4-246": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.2",
+   "2.3.3.3",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A diagram shows a cross-section of a vacuum flask containing a cold liquid on a hot day. The features labelled are a stopper, silvered surfaces, a vacuum, and glass walls. In part (a), students are asked to explain how these labelled features keep the liquid cool by reducing thermal energy transfer, naming the specific heat transfer processes involved (conduction, convection, and thermal radiation). In part (b), students must suggest a suitable insulating material for the stopper.",
+  "types": [
+   "explanation",
+   "application",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:25:10+00:00"
+ },
+ "p4-247": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), a metal block is heated by a 12 V, 3.0 A electric heater for 23 minutes, causing its temperature to rise from 20 °C to 70 °C. The thermal capacity of the block is calculated. In part (b)1, two metal spheres of different diameters are heated to 900 °C, and the difference in their initial rates of thermal energy radiation emission is stated and explained. In part (b)2, the effect on the rate of emission when one sphere is heated in a hotter oven is stated and explained.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:25:35+00:00"
+ },
+ "p4-248": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.2",
+   "2.2.2.3",
+   "2.3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A cold plastic spoon is placed into a hot liquid in a cup. In part (a), thermal conduction through the plastic spoon is described in terms of molecular motion and energy transfer between molecules. In part (b), the additional thermal conduction process in a metal spoon involving free electrons is described. In part (c), the loss of thermal energy from 150 g of liquid with specific heat capacity 4.2 J/(g °C) as its temperature decreases from 80 °C to 56 °C is calculated.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:25:35+00:00"
+ },
+ "p4-249": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.8",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates good and bad absorbers of thermal radiation using a polished can, a black-painted can, two thermometers, an electric heater, cold water, and a metre rule. The question asks to explain how to use the available apparatus to carry out the investigation, describe the expected results, and draw a diagram of the experimental set-up.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 4,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:27:35+00:00"
+ },
+ "p4-250": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.4",
+   "2.3.2.2",
+   "2.2.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Air is blown across the open top of a beaker of water using an electric fan. Part (a) asks to explain in terms of water molecules why the temperature at the surface decreases. Part (b) asks to name the transfer method (convection) causing the temperature at the bottom to decrease and explain the density changes involved. Part (c) asks for the definitions of range and sensitivity of a thermometer, and the effect on range of using a smaller bulb containing less liquid.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:27:35+00:00"
+ },
+ "p4-251": {
+  "status": "done",
+  "subpoints": [
+   "2.2.1.1",
+   "2.3.2.2",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A Galilean thermometer contains water and sealed glass bulbs of varying densities labeled with temperatures. In part (a), candidates explain in terms of density why bulb A sinks to the bottom at 21 °C while the other bulbs float. In part (b)(i), they suggest why a time delay occurs before the water warms when surrounding air temperature rises. In part (b)(ii), candidates explain why bulb B sinks after the delay as the water temperature increases and its density decreases. In part (c), candidates determine the temperature range of the water when bulbs A, B, and C are at the bottom while D and E float.",
+  "types": [
+   "explanation",
+   "application",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:28:16+00:00"
+ },
+ "p4-252": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.8",
+   "2.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An apparatus featuring a matt black glass bulb and a shiny glass bulb connected by a U-tube liquid manometer is placed equidistant from a heater. In part (a), candidates state two types of radiation emitted by the glowing red heater. In part (b), candidates state and explain the changes in the liquid levels after the heater is switched on, accounting for the difference in thermal radiation absorption between matt black and shiny surfaces, and the resulting gas expansion inside the bulbs.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:28:16+00:00"
+ },
+ "p4-253": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.7",
+   "2.3.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question investigates energy transfer and thermal radiation emission and absorption. Part (a) asks for the rate of energy transfer to surroundings from a 60 W lamp operating at constant temperature and the names of the transfer processes. Part (b) describes an experiment using a heated copper block with a dull black side and a polished shiny side to compare thermal radiation emission detected by black-painted thermometers, and subsequently by shiny silver-painted thermometers. Part (c) asks for the practical benefit of a firefighter wearing shiny silver-coloured protective clothing.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:29:13+00:00"
+ },
+ "p4-254": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.3",
+   "2.3.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question covers specific heat capacity calculations and experimental design for thermal radiation emission. Part (a) requires calculating the time taken by a 240 V, 12 A electric kettle to heat 600 g of water from 20 °C to 100 °C, along with stating one assumption made in the calculation. Part (b) asks students to describe an experiment using a metal water bottle with black and white sides, thermometers, hot water, and a ruler to demonstrate good and bad emitters of thermal radiation, including expected results and conclusions.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:29:13+00:00"
+ },
+ "p4-255": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.2.3.4",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A footballer wearing a white shirt and a referee wearing a black shirt stand near a puddle on a sunny day. In part (a), candidates state and explain how the temperature of the white shirt differs from that of the black shirt using concepts of thermal radiation absorption. In part (b)(i), candidates describe two changes in weather conditions that affect the rate at which the puddle dries. In part (b)(ii), candidates explain the drying process of the puddle in terms of the motion and energy of water molecules escaping from the liquid surface.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:35:39+00:00"
+ },
+ "p4-256": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.9",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain why houses in hot countries are often painted white, using concepts of thermal energy transfer by radiation, reflection, and absorption. Part (b) considers a star that is cooling down towards the end of its life and asks candidates to state the effect this temperature drop has on its rate of thermal radiation emission.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 4,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:35:39+00:00"
+ },
+ "p4-257": {
+  "status": "done",
+  "subpoints": [
+   "3.1.6",
+   "3.1.5",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of wave properties using seismic waves. Part (a) asks students to describe the difference between longitudinal and transverse waves. Part (b) presents a diagram of a longitudinal seismic wave showing compressions and rarefactions. In sub-part (i), students identify the wave as a P-wave and justify their choice based on its longitudinal structure. In sub-part (ii), given a wavelength of 1.2 × 10^4 m, students calculate the actual distance between points J and K on the diagram. In sub-part (iii), students calculate the time taken for 5 complete oscillations to pass a point when the wave travels at 4600 m/s.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:36:49+00:00"
+ },
+ "p4-258": {
+  "status": "done",
+  "subpoints": [
+   "3.1.6",
+   "3.1.5",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on seismic wave classifications and calculations using the wave equation. In part (a), students state the wave models (longitudinal or transverse) that P-waves and S-waves represent. In part (b), students are given the velocity of a P-wave in the Earth's crust as 7.2 km/s and its frequency as 4.5 Hz. They must calculate the wavelength of this P-wave using v = f λ, taking into account the conversion of kilometers per second into meters per second.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:36:49+00:00"
+ },
+ "p4-259": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding of wave diffraction through a narrow gap for different wavelengths of light. Part (a) shows a scale diagram of red light wavefronts approaching a gap in a barrier and asks the student to draw three wavefronts after passing through the gap. Part (b) presents the same barrier with blue light approaching; students must draw three wavefronts of blue light before the barrier, accounting for its shorter wavelength compared to red light, and three wavefronts after passing through the gap to illustrate the resulting diffraction pattern.",
+  "types": [
+   "data",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:37:46+00:00"
+ },
+ "p4-260": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.4",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates wave phenomena using a ripple tank. Part (a) shows water wave crests approaching a flat barrier; students draw the direction of travel of the reflected wave and three reflected wave crests. Part (b) shows the wave approaching a 1.3 cm gap in a barrier, where students draw three diffracted wave crests passing through the gap. Part (c) provides the wave frequency of 4.0 Hz and a wavelength of 1.6 cm, asking students to calculate the wave speed using v = f λ.",
+  "types": [
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-16T22:37:46+00:00"
  }
 }
