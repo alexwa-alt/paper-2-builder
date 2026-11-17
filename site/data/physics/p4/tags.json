@@ -5511,5 +5511,400 @@
   "marks": 9,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-17T15:01:01+00:00"
+ },
+ "p4-283": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.4",
+   "3.2.2.5",
+   "3.2.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state what is meant by total internal reflection. Part (b)(i) gives the refractive index of a liquid as 1.5 and requires the calculation of the largest value of the angle of incidence for total internal reflection to occur. Part (b)(ii) asks to calculate the speed of light in the liquid given that the speed of light in air is 3.0 x 10^8 m/s.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:04:35+00:00"
+ },
+ "p4-284": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4",
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires drawing two rays from an object on a full-scale ray diagram of a converging lens to determine the position of a virtual image, labeling it IJ, and measuring its length. Part (b) asks to ring three correct descriptions of this virtual image from a given list. Part (c) shows three rays of green light passing through a combination of glass blocks and prisms, and asks to draw the paths of three red light rays following the same initial paths to the right of the glass blocks, based on refraction and dispersion principles.",
+  "types": [
+   "data",
+   "application",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:04:35+00:00"
+ },
+ "p4-285": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.2.3",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows a ray of green light passing through a glass prism and asks to draw the path of a ray of blue light directed along the same path, demonstrating greater refraction due to its higher refractive index/shorter wavelength. Part (b) gives the wavelength of the blue light in air as 4.8 x 10^-7 m and asks to calculate its frequency using the wave speed equation.",
+  "types": [
+   "application",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:05:39+00:00"
+ },
+ "p4-286": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires marking the two principal foci on a full-scale diagram of a converging lens given its focal length of 3.5 cm. Part (b) asks to draw three rays to locate the real image and label it I. Part (c) requires stating three properties of image I. Part (d) asks how the image produced by a magnifying glass differs from image I, and to mark a possible new position P for the object to act as a magnifying glass.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:05:39+00:00"
+ },
+ "p4-287": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "This question tests understanding of thin converging lenses. Parts (a) and (b) ask to explain the term principal focus and define focal length. Part (c) provides a grid showing an object O and its inverted real image I on a translucent screen. Students must locate the position of the lens, draw a ray to determine the focal length, and calculate its value. Finally, students choose the correct orientation of the image of a letter R on a translucent screen and explain why it appears that way.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:05:58+00:00"
+ },
+ "p4-288": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.5",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "This question focuses on refraction and total internal reflection in a glass prism and an optical fibre. Part (a) requires measuring angles from a diagram, applying Snell's law with a refractive index of 1.5 to calculate the angle of refraction, and accurately drawing the refracted ray path to face AC, followed by determining the angle of incidence there. Part (b) asks to sketch the path of the ray exiting the prism. Part (c) involves completing the ray path inside an optical fibre and naming the optical process occurring at reflection point X.",
+  "types": [
+   "calculation",
+   "data",
+   "recall",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:05:58+00:00"
+ },
+ "p4-289": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3",
+   "3.1.4",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests properties of light and wave equations. Part (a)(i) asks to draw the path of green light entering and passing through a triangular glass prism. Part (a)(ii) requires defining monochromatic light in terms of a wave property. Part (b)(i) asks for the speed of light in air. Part (b)(ii) requires calculating the frequency of green light given its wavelength. Part (b)(iii) asks to calculate the speed of green light in glass using the given refractive index.",
+  "types": [
+   "recall",
+   "application",
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:06:58+00:00"
+ },
+ "p4-290": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.2",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers lenses and refraction. Part (a)(i) requires drawing two rays on a given diagram to locate the position of an object formed by a converging lens, and labelling it O. Part (a)(ii) asks to identify distances equal to the focal length from a list. Part (b) presents diagrams of triangular and rectangular glass blocks with green light passing through them, and asks the student to draw the corresponding paths for red light entering along the same path inside and leaving the blocks.",
+  "types": [
+   "application",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:06:58+00:00"
+ },
+ "p4-291": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.6",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to describe what is meant by the term principal focus for a thin converging lens. Part (b)(i) requires underlining terms that describe the nature of an image produced by a magnifying glass. Part (b)(ii) asks to mark both principal focuses on a full-scale grid diagram and to find the position of object O by drawing. Part (b)(iii) requires determining the distance of object O from the centre of the lens from the diagram.",
+  "types": [
+   "recall",
+   "application",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:07:16+00:00"
+ },
+ "p4-292": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.5",
+   "3.2.2.8",
+   "3.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) presents a diagram of a device with two 45°-45°-90° glass prisms used to view objects behind a wall; students must complete the ray path showing total internal reflection through the device and emergence towards the eye. Part (b) asks to show that the refractive index of glass with a critical angle of 45° is 1.41 using the appropriate formula.",
+  "types": [
+   "application",
+   "calculation",
+   "recall"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:07:16+00:00"
+ },
+ "p4-293": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.5",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 7.1 shows red light entering a diamond prism. (a) Given the refractive index of diamond is 2.42, students calculate angle x using Snell's law. (b) They explain the term total internal reflection, detailing conditions such as incidence in a denser medium exceeding the critical angle. (c) Knowing angle y is greater than the critical angle, they draw the path of the red light through and out of the prism after point A, demonstrating total internal reflection and refraction into the air.",
+  "types": [
+   "calculation",
+   "recall",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:08:00+00:00"
+ },
+ "p4-294": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.4",
+   "3.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 6.1 shows water waves passing across a boundary in a ripple tank between regions of different depth. (a) Students explain why the direction of the wavefronts changes, linking it to refraction caused by a change in speed due to depth. (b)(i) Using information from Fig. 6.1 such as wavelength, and the given speed in the left-hand part, they determine the frequency of the wave. (b)(ii) They determine the speed of the wave in the right-hand side of the tank using angle measurements and wave relations.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:08:00+00:00"
+ },
+ "p4-295": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.5",
+   "3.2.2.4",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to describe what is observed during total internal reflection. Part (a)(ii) requires stating two conditions required for light to be totally internally reflected. Part (b) asks to describe and explain the action of optical fibres in communication technology, optionally using a diagram.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:08:19+00:00"
+ },
+ "p4-296": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.5",
+   "3.2.2.8",
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) names the process occurring when light does not refract at points P and Q inside an optical fibre. Part (a)(ii) asks to calculate the minimum value of angle i for no refraction at point P given a refractive index of 1.4. Part (b) requires stating and explaining the use of optical fibres in medicine. Part (c) asks to state the meaning of monochromatic light using one of the provided quantities.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:08:19+00:00"
+ },
+ "p4-297": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.1",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 8.1 shows parallel wavefronts of a light wave incident from ice into air, with a known speed of light in air and refractive index of ice. Part (a) requires students to draw the refracted wavefronts in air, add arrows showing the direction of travel, and label the angles of incidence and refraction. Part (b) asks to calculate the speed of the light wave in the ice using the given refractive index.",
+  "types": [
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:08:37+00:00"
+ },
+ "p4-298": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.6",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Green light of a given frequency and speed in air is incident on a transparent solid of refractive index 1.3 at an angle of 67 degrees. Part (a) asks to explain in terms of wavefronts why the light changes direction as it enters the solid. Part (b)(i) requires calculating the angle of refraction in the solid. Part (b)(ii) asks to determine the wavelength of the green light inside the transparent solid using wave speed, frequency, and refractive index relations.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:08:37+00:00"
+ },
+ "p4-299": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4",
+   "3.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), complete the ray diagram to show the formation of a sharp image on a screen by a converging lens. In part (b), repeat this for a thinner converging lens with a longer focal length keeping object and screen positions fixed. In part (c), considering a converging lens of focal length 10 cm used as a magnifying glass, describe the position of the object relative to the lens, describe the position of the image in relation to the lens and object, and state three properties of the image formed.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:09:00+00:00"
+ },
+ "p4-300": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.6",
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 7.1 shows light approaching a boundary at speed v and crossing it at a speed of 1.3v with an angle of 50 degrees to the boundary. Part (a) asks to determine the angle of incidence. Part (b) asks to calculate the angle of refraction using the given speeds and Snell's law or refractive index definitions.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 4,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:09:00+00:00"
+ },
+ "p4-301": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.4.1",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of red light is incident on one side of a glass prism in air. Students are asked to calculate the refractive index of glass using angles of incidence and refraction, sketch emergent paths for red and violet light, explain why refractive index is dimensionless, and relate the speed of light in glass to its frequency based on the dispersion of white light.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:09:19+00:00"
+ },
+ "p4-302": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.3",
+   "3.2.2.6",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An empty container with a coin at the bottom is viewed by an observer who cannot initially see it. When filled with water, the coin becomes visible due to refraction. Questions require explaining why the coin is seen, naming the wave process, explaining why the image is virtual, stating the speed of light in air, and calculating the speed of light in water given its refractive index.",
+  "types": [
+   "explanation",
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T23:09:19+00:00"
  }
 }
