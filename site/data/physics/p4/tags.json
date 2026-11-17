@@ -5471,5 +5471,45 @@
   "marks": 5,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-17T04:48:50+00:00"
+ },
+ "p4-281": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.3",
+   "3.2.2.7",
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state what is meant by monochromatic. Part (b)(i) asks to explain why red light does not change direction as it enters a semicircular plastic block along the radius. Part (b)(ii) requires calculating the speed of red light in the plastic given an angle of incidence/refraction of 37 degrees and the speed of light in air. Part (b)(iii) asks to explain what happens when the red light is replaced by blue light, which has a smaller critical angle, hitting the straight edge at the same point M.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T15:01:01+00:00"
+ },
+ "p4-282": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.5",
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) requires drawing two rays from an object in front of a converging lens to locate a virtual image, drawing and labeling the image IY, and measuring its distance along the principal axis. Part (a)(ii) asks to state two reasons why the image is virtual. Part (b) presents a ray of green light passing through a glass prism and asks to draw the path of a ray of blue light incident along the same path, demonstrating dispersion and greater refraction.",
+  "types": [
+   "data",
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T15:01:01+00:00"
  }
 }
