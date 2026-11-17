@@ -5070,5 +5070,406 @@
   "marks": 8,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-16T22:37:46+00:00"
+ },
+ "p4-261": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8",
+   "3.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question explores wave phenomena using diagrams of water waves in a harbour. In part (a), candidates draw diffracted wavefronts as water waves pass the edge of a harbour wall and name the process as diffraction. In part (b), wavefronts pass from deep water into shallow water; candidates draw an arrow showing the direction of propagation in shallow water, identify the process as refraction, and complete a table indicating how wavelength, frequency, and wave speed change during refraction.",
+  "types": [
+   "data",
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:41:58+00:00"
+ },
+ "p4-262": {
+  "status": "done",
+  "subpoints": [
+   "3.1.3",
+   "3.1.4",
+   "3.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question asks students to analyze a transverse wave on a string shown on a full-size diagram. In part (a), candidates label the amplitude, wavelength, and a trough T directly on the figure. In part (b), given that 15 complete oscillations occur in 60 s, candidates use measurements from the full-size figure and wave calculations to show that the wave speed is 2.0 cm/s. In part (c), candidates state the difference between transverse waves and longitudinal waves in terms of the direction of oscillations relative to propagation.",
+  "types": [
+   "data",
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:41:58+00:00"
+ },
+ "p4-263": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.8",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines wave diffraction and reflection. In part (a), students complete two diagrams to show wavefronts after passing through a narrow gap and a wide gap, demonstrating the effect of gap size relative to wavelength on diffraction. In part (b), students describe, with the aid of a labelled diagram, a ripple tank experiment to demonstrate the reflection of water wavefronts at a straight barrier.",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:42:46+00:00"
+ },
+ "p4-264": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.5",
+   "3.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on wave speed, transverse wave characteristics, and wave diagrams. In part (a), students calculate the frequency of a water wave given its wave speed (0.15 m/s) and wavelength (0.030 m) using v = f λ. In part (b)(i), students explain the concept of transverse wave motion in terms of vibrations occurring perpendicular to the direction of wave travel. In part (b)(ii), students draw a transverse wave profile and correctly label its wavelength and amplitude.",
+  "types": [
+   "calculation",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:42:46+00:00"
+ },
+ "p4-265": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.3",
+   "3.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires determining the amplitude and wavelength of a wave on a rope from a position-distance graph. Part (b) asks for the frequency of a water wave using its given wavelength and speed. Part (c) presents a water wave approaching a barrier with a gap larger than its wavelength; candidates must draw the diffracted wavefront pattern after the gap, explain how increasing water depth affects the wavelength using wave speed and constant frequency, and describe another change to the resulting diffraction pattern.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:43:14+00:00"
+ },
+ "p4-266": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.4",
+   "3.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify the phenomenon occurring when a wave passes through a gap equal in width to its wavelength. Part (b) shows wavefronts in deep water approaching an angled boundary with shallow water. Candidates must draw the refracted wavefronts in the shallow water region where the wave travels slower, and calculate the wavelength in shallow water given the wave speeds in both regions and the wavelength in deep water.",
+  "types": [
+   "calculation",
+   "data",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:43:14+00:00"
+ },
+ "p4-267": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.1.7",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question shows wavefronts of a water wave approaching a gap in a barrier. Part (a) asks to name the process of wave spreading (diffraction) and to draw four diffracted wavefronts to the right of the barrier. Part (b)(i) asks for the effect on diffraction of increasing the gap width. Part (b)(ii) asks students to state and explain the effect of decreasing the frequency of the water wave on the degree of diffraction, requiring knowledge of the relationship between frequency, wavelength, and gap size.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:43:45+00:00"
+ },
+ "p4-268": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4",
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question shows a full-scale ray diagram with an object O and its inverted image I on a principal axis, without the converging lens drawn. In part (a), students must draw a straight ray through the lens center to locate and draw the position of lens L. In part (b), students draw another ray (e.g., parallel to the principal axis) to locate the principal focus and measure the focal length. In part (c), students state two changes to the image characteristics when the object is moved 2.0 cm closer to the lens.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:43:45+00:00"
+ },
+ "p4-269": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.8",
+   "3.2.3.7",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of converging lenses and refraction. Part (a) asks for the definition of focal point, marking object and eye positions on a diagram for a magnifying glass, and selecting the image properties. Part (b) involves calculating the speed of light in glass from its refractive index and stating what happens to the wavelength of light upon entering the lens. Part (c) requires naming the vision defect corrected by a converging lens (long-sightedness) and explaining how the correction works.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:44:19+00:00"
+ },
+ "p4-270": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.5",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers refraction, total internal reflection, and optical fibres. Part (a) asks why a light ray incident normally on a prism face does not change direction. Part (b) requires calculating the refractive index from a given critical angle of 42° using n = 1 / sin c, and completing the ray diagram as light undergoes total internal reflection inside the prism. Part (c) asks for two advantages of optical fibres for data transmission.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:44:19+00:00"
+ },
+ "p4-271": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for explanations of the terms principal focus and focal length for a thin converging lens. Part (b) shows an object AB positioned between the principal focus and a converging lens on a ray diagram, requiring the student to draw light rays to construct and locate the enlarged virtual image of AB.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:44:45+00:00"
+ },
+ "p4-272": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.3.6",
+   "3.2.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) involves calculating the critical angle for a plastic block of refractive index 1.5 and drawing the path of a ray passing through it. Part (b) uses a full-scale lens diagram where students measure the focal length and draw rays to locate the image. Part (c) requires drawing a correcting lens and ray paths for a short-sighted eye to focus light properly onto the retina.",
+  "types": [
+   "calculation",
+   "data",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:44:45+00:00"
+ },
+ "p4-273": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.8",
+   "3.2.2.5",
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of monochromatic light enters a glass block of refractive index 1.5 through a curved surface AB towards point P on straight side BC. Part (a) asks for the definition of monochromatic light. Part (b) asks to explain why the ray does not change direction upon entering surface AB. Part (c) requires showing that the critical angle of the glass is 42°. Part (d)(i) asks to state and explain what happens at point P when the angle of incidence θ increases to 45°, and part (d)(ii) asks what happens when the reflected ray strikes side CD.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:45:18+00:00"
+ },
+ "p4-274": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.6",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A light ray strikes the surface of oil with refractive index 1.47 in a container. Part (a) asks to draw the normal at the point of incidence on a diagram. Part (b) gives the angle between the incident ray and the oil surface as 56° and requires calculating the angle of refraction. Part (c) asks for the approximate speed of light in air. Part (d) asks to calculate the speed of light in the oil to three significant figures.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:45:18+00:00"
+ },
+ "p4-275": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.8",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question considers image formation by a converging lens and its application in vision correction. In part (a), an incomplete ray diagram shows an object positioned within the focal length of a converging lens. Candidates complete the diagram to locate the image and circle three terms describing its characteristics (enlarged, upright, virtual). In part (b), candidates identify long-sightedness as the vision defect corrected by a converging lens and explain how the lens converges light rays to enable clear focusing on the retina.",
+  "types": [
+   "data",
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:46:02+00:00"
+ },
+ "p4-276": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.7",
+   "3.2.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses ray diagram construction and applications of a converging lens as a magnifying glass and spectacle lens. In part (a), candidates draw rays on a scale grid to locate the virtual image of text placed inside the focal point and calculate the actual image distance from the lens. In part (b), candidates state whether the image in a magnifying glass is real or virtual and provide an explanation. In part (c), candidates describe how a converging lens assists a long-sighted person in reading near objects clearly.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-17T04:46:02+00:00"
+ },
+ "p4-277": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.3.8",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns reflection using plane mirrors and the correction of long-sightedness in the human eye. In part (a), students label a point on a road junction diagram where a truck driver first sees a moving car. Part (b) asks students to show on a diagram how a plane mirror allows the truck driver to see the car around a blind corner using reflection laws. Part (c) tests the correction of long-sightedness by adding a suitable lens in front of the eye and completing ray paths until they meet to form an image on the retina.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T04:48:02+00:00"
+ },
+ "p4-278": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.4",
+   "3.2.1.2",
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores plane mirror reflection, image characteristics, and wave calculations involving light. Part (a) requires drawing a reflected ray from a clock to a boy's eye, marking the virtual image position with an X, explaining why the image is virtual, and drawing what the boy sees when looking directly at the clock compared to its mirror image. Part (b) asks for the definition of monochromatic light and a calculation of the frequency of green light given its wavelength, using the wave speed equation.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T04:48:02+00:00"
+ },
+ "p4-279": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.1",
+   "3.2.3.2",
+   "3.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A full-scale grid shows a thin converging lens with a focal length of 3.0 cm and an object N placed in front of it. Part (a) asks to describe what happens to parallel rays of light passing through the lens. Part (b) requires marking and labelling the two principal focuses on the diagram. Part (c)(i) involves drawing rays on Fig. 7.1 to find the position of virtual image I and adding it to the diagram. Part (c)(ii) asks to state and explain whether image I is real or virtual. Part (c)(iii) asks for the name given to a lens when used in this way.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T04:48:50+00:00"
+ },
+ "p4-280": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.4",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A full-scale ray diagram illustrates the formation of an image by a thin glass lens. Part (a) asks to determine the focal length of the lens from the diagram. Part (b) requires circling three items from a given list that describe the nature of the image formed. Part (c) asks to state one feature of a virtual image.",
+  "types": [
+   "recall",
+   "data"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-17T04:48:50+00:00"
  }
 }
