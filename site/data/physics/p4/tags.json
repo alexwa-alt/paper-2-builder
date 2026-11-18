@@ -6618,5 +6618,403 @@
   "marks": 7,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-18T14:32:57+00:00"
+ },
+ "p4-339": {
+  "status": "done",
+  "subpoints": [
+   "3.1.8",
+   "3.1.5",
+   "3.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) tests wave phenomena using diagrams: (i) asks to draw three diffracted water wave crests passing through a gap, and (ii) asks to draw three refracted wave crests passing into shallow water and indicate the new direction of travel. Part (b) asks to state two differences between transverse and longitudinal waves. Part (c) asks for a typical value of the speed of sound in water and to explain why sound travels faster in water than in air.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:15:29+00:00"
+ },
+ "p4-340": {
+  "status": "done",
+  "subpoints": [
+   "3.4.8",
+   "3.1.4",
+   "3.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the name of the reflection of a sound or ultrasound wave. Part (b) gives the frequency and speed of an ultrasound wave used in medical scanning and asks to calculate its wavelength. Part (c) presents a diagram of circular wave crests from a point source approaching a straight barrier, asking to indicate and label one wavelength on the diagram and to draw three reflected wave crests from the barrier.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:15:29+00:00"
+ },
+ "p4-341": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.4",
+   "3.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires marking two points at the centre of different compressions on a full-scale diagram of a sound wave in air and labelling them C. Part (b) asks to measure the diagram and determine the frequency of the sound given its speed in air is 330 m/s. Part (c) considers the sound wave passing through a gap in a barrier, and asks to describe and explain two ways in which a diagram representing the wave with a much greater frequency differs from the original diagram.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:15:47+00:00"
+ },
+ "p4-342": {
+  "status": "done",
+  "subpoints": [
+   "3.1.2",
+   "3.1.9",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) requires drawing three circular wave crests inside a harbour after sea waves pass through a gap in the harbour walls. Part (a)(ii) asks to describe and explain how the wave pattern differs when the harbour has a much wider gap between its walls. Part (b) presents a calculation of the wavelength of a sound wave travelling through sea water, given its frequency as 850 Hz and the speed of sound in sea water as 1500 m/s.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:15:47+00:00"
+ },
+ "p4-343": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.4",
+   "3.4.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 6.1 shows particles of a material in a sound wave. (a) Students mark the centre of a compression with C, a rarefaction with R, and one wavelength with a double-ended arrow. (b) Circle the speed of sound in water from a list of values. (c) Calculate the frequency of a sound wave in water given its wavelength is 12 cm and using the chosen speed value. (d) State and explain whether this sound is ultrasound by comparing its frequency to the human hearing range.",
+  "types": [
+   "recall",
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:16:08+00:00"
+ },
+ "p4-344": {
+  "status": "done",
+  "subpoints": [
+   "3.4.6",
+   "3.1.9",
+   "3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a) Describe an experiment to determine the speed of sound in air, stating necessary apparatus, how measurements are taken, and how the speed is calculated. A space for a labelled diagram is provided. (b) Explain why sound waves from a television are diffracted through doorways while light waves from the television are not diffracted, relating the wavelength of each wave type to the size of the doorway gap.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:16:08+00:00"
+ },
+ "p4-345": {
+  "status": "done",
+  "subpoints": [
+   "3.4.3",
+   "3.1.6",
+   "3.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires calculating the wavelength range for audible human frequencies using the given wave speed. Part (b) asks to describe how a longitudinal wave differs from a transverse wave in terms of particle vibration. Part (c) presents a diagram of a band playing behind a building and asks to explain why a person standing to the side hears the low-frequency drum but not the high-frequency instruments, linking this to diffraction.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:16:26+00:00"
+ },
+ "p4-346": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.4",
+   "3.4.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to draw three reflected wave crests on a given diagram showing a wave approaching a barrier. Part (b) requires calculating the frequency of a wave given its wavelength and speed. Part (c) involves completing sentences about echoes being reflected sound waves and longitudinal waves consisting of compressions and rarefactions.",
+  "types": [
+   "data",
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:16:26+00:00"
+ },
+ "p4-347": {
+  "status": "done",
+  "subpoints": [
+   "3.4.8",
+   "3.4.3",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), students are given a diagram showing the reflection of sound wave crests from a solid surface and must draw three incident wave crests. Part (b) asks students to identify four false statements out of a list regarding the properties and audible range of a human-audible sound wave, covering frequency limits, wave type, and medium requirements. Part (c) requires stating a typical value for the speed of sound in water.",
+  "types": [
+   "recall",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:16:44+00:00"
+ },
+ "p4-348": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.4",
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), students explain the terms compression and rarefaction for sound waves in air in terms of molecular spacing and pressure. Part (b)(i) requires calculating the wavelength of a sound wave given its frequency of 4.4 kHz and the speed of sound in air as 340 m/s. Part (b)(ii) asks students to state how the speed and wavelength change when the frequency is increased to 5.1 kHz and the amplitude is increased, without doing further calculations.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:16:44+00:00"
+ },
+ "p4-349": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3",
+   "3.3.4",
+   "3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating two uses for infrared radiation. Part (b) asks to suggest and explain three precautions for the safe use of X-rays in hospitals. Part (c)(i) asks for the speed in a vacuum of microwaves and X-rays, and part (c)(ii) requires stating a possible frequency for an ultrasound wave.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:02+00:00"
+ },
+ "p4-350": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.8",
+   "3.4.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows a water wave in a ripple tank passing between regions A and B, asking for the name of the process and a cause for the change in direction. Part (b) requires drawing a wave with half the amplitude and greater frequency on a displacement-time graph. Part (c) involves explaining why sound travels faster through steel rails than air, and calculating the wavelength of a 1100 Hz sound wave travelling through steel at 5800 m/s.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:02+00:00"
+ },
+ "p4-351": {
+  "status": "done",
+  "subpoints": [
+   "3.4.8",
+   "3.4.12",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A submarine is submerged at a depth of 3.0 x 10^3 m in sea water of density 1030 kg/m^3. Students calculate the hydrostatic pressure on top of the submarine. Then, the submarine emits a sound pulse in sea water, receiving an echo after 0.50 s; students calculate the distance to another object using the given speed of sound in sea water (1500 m/s). Finally, another pulse is emitted in air with the same time delay, and students compare the object's distance in air with the previous distance in water, giving a reason based on the speed of sound.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:20+00:00"
+ },
+ "p4-352": {
+  "status": "done",
+  "subpoints": [
+   "3.4.1",
+   "3.1.4",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A loudspeaker cone produces a sound wave in air of frequency 15 000 Hz. Students describe how the cone produces this sound by vibrating back and forth. Given the speed of sound in air as 330 m/s, students calculate the wavelength of this sound. Finally, considering diffraction through a gap whose width is double the wavelength, students sketch a diagram representing wavefronts travelling towards the barrier, through the gap, and away from the barrier.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:20+00:00"
+ },
+ "p4-353": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.5",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests understanding of wave types and wave properties. Part (a)(i) asks to explain compressions and rarefactions using particles. Part (a)(ii) asks to describe another difference between longitudinal and transverse wave motion. Part (b)(i) is a calculation of wavelength given frequency and speed in rock. Part (b)(ii) asks whether the sound wave will be audible to a healthy human ear when it passes from rock into air, requiring calculation of frequency and reference to human audible range.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:40+00:00"
+ },
+ "p4-354": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.3",
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "This question examines sound waves represented by wavefronts. Part (a) asks to name regions representing compressions and rarefactions. Part (b) requires drawing a double-headed arrow to indicate one wavelength on the diagram. Part (c) asks to state and explain changes to the wavefront pattern when the loudness of the sound increases at constant pitch. Part (d) asks to explain changes in the wavefront pattern when the sound wave passes from air into water, considering speed and wavelength changes.",
+  "types": [
+   "recall",
+   "data",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:40+00:00"
+ },
+ "p4-355": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.3.4",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to choose two properties of an ultrasound wave travelling in air from a given list. Part (b) requires calculating the wavelength in a vacuum of X-rays given their frequency and the speed of light. Part (c) explains why it is safe for a patient to have an occasional X-ray but the dentist must stand away due to repeated exposure risks. Part (d) states and explains why microwave ovens only work with the door closed to prevent harmful microwave leakage.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:58+00:00"
+ },
+ "p4-356": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.4",
+   "3.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires sketching a longitudinal wave, labelling a compression, a rarefaction, and the wavelength distance. Part (b) asks what happens to the frequency and wavelength of a longitudinal wave when it enters a slower medium. Part (c) requires stating a typical value for the speed of sound in air.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:17:58+00:00"
+ },
+ "p4-357": {
+  "status": "done",
+  "subpoints": [
+   "3.4.2",
+   "3.4.10",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A vibrating source on a ship produces a sound wave in the ocean. Part (a) asks to explain what is meant by a longitudinal wave, mentioning the direction of vibration relative to energy propagation. Part (b)(i) requires stating a typical value for the speed of sound in a liquid. Part (b)(ii) asks to calculate the wavelength of the sound wave in the ocean using the frequency of 800 Hz and the stated speed in a liquid.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:18:16+00:00"
+ },
+ "p4-358": {
+  "status": "done",
+  "subpoints": [
+   "3.4.10",
+   "3.1.4",
+   "3.4.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 6.1 represents a sound wave showing compressions and rarefactions. Part (a) requires marking a compression C, a rarefaction R, and drawing an arrow representing 0.90 m. Part (b) asks to calculate the speed of the wave given a frequency of 750 Hz and the wavelength from the diagram. Part (c) asks to suggest a medium and reason based on typical sound speeds. Part (d) compares audible sound at 750 Hz with ultrasound, asking for one similarity and one difference.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T22:18:16+00:00"
  }
 }
