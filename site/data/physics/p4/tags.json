@@ -6307,5 +6307,316 @@
   "marks": null,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-18T05:00:40+00:00"
+ },
+ "p4-323": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3"
+  ],
+  "section_ok": false,
+  "suggested_section": "1.5",
+  "difficulty": 2,
+  "text": "This question examines centre of gravity, stability, moments, and electromagnetic radiation using a tall radio transmitter supported by guy wires. In part (a), candidates state the definition of centre of gravity and explain why the unsupported transmitter is unstable. In part (b), candidates mark the arrow for tension force T exerted by a wire on the transmitter and describe how to calculate its moment about the base, indicating the perpendicular distance on the diagram. In part (c), candidates state one use of radio waves other than broadcasting radio and television programmes.",
+  "types": [
+   "recall",
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T14:26:17+00:00"
+ },
+ "p4-324": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3",
+   "3.3.6",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses knowledge of the electromagnetic spectrum and wave calculations. In part (a), candidates match uses such as thermal imaging, face photography, and medical equipment sterilisation to regions of the spectrum. In part (b), candidates state the speed of electromagnetic waves in a vacuum. In part (c)(i), candidates calculate the wavelength of a Bluetooth signal at the midpoint frequency of 2.44 GHz using v = f λ. In part (c)(ii), candidates suggest why Bluetooth headsets only work over short distances.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T14:26:17+00:00"
+ },
+ "p4-325": {
+  "status": "done",
+  "subpoints": [
+   "3.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to describe the difference between a digital signal and an analogue signal. Part (b) provides a truth table for logic gate X and asks to name the logic gate and draw its symbol. Part (c) requires drawing a combination of two identical logic gates X to behave like an OR gate, labelling inputs A and B and output Q.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:28:00+00:00"
+ },
+ "p4-326": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.4",
+   "3.2.1.2",
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows a plan view of a room with a plane mirror and asks to draw a reflected ray and an incident ray to locate point P on wall AB. Part (b) asks to state two properties of the image formed by a plane mirror. Part (c) asks to state one region of the electromagnetic spectrum with shorter wavelengths than visible light and one with longer wavelengths.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:28:00+00:00"
+ },
+ "p4-327": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bathroom heater glows red and emits thermal radiation. Part (a) asks to state the part of the electromagnetic spectrum that transfers thermal energy. Part (b) requires stating one similarity and one difference between visible light and this radiation. Part (c) asks to describe an experiment to show whether a black or white surface is a better emitter of radiation, and to state two controlled variables for the test.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:28:27+00:00"
+ },
+ "p4-328": {
+  "status": "done",
+  "subpoints": [
+   "3.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to state the difference between an analogue signal and a digital signal, optionally using a diagram. Part (b) requires drawing the symbol for a NOR gate. Part (c) presents a combination of logic gates X, Y and Z with a partly completed truth table, asking to deduce the names of gates X and Y from the table, and to complete the final column F given that gate Z is a NAND gate.",
+  "types": [
+   "recall",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:28:27+00:00"
+ },
+ "p4-329": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.1.4",
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of the electromagnetic spectrum. Part (a) asks to identify missing components J, K, and L from an incomplete spectrum diagram arranged by increasing wavelength, and to state which has the lowest frequency. Part (b) is a calculation of the frequency of X-rays given their wavelength and the speed of light in a vacuum. Part (c) requires describing a medical use of X-rays and stating a safety precaution reason for their usage.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:29:19+00:00"
+ },
+ "p4-330": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.9",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) features wave diffraction through a narrow gap, asking for the name of the process and requiring the student to draw wavefronts for a wave of half the original wavelength approaching and passing the same gap. Part (b) asks to order five types of electromagnetic waves by wavelength in a table. Part (c) requires stating the speed of radio waves in air and calculating the wavelength of a radio station transmitting at a given frequency of 96 MHz.",
+  "types": [
+   "recall",
+   "data",
+   "calculation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:29:19+00:00"
+ },
+ "p4-331": {
+  "status": "done",
+  "subpoints": [
+   "3.3.1",
+   "3.2.2.7",
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires identifying four regions (A, B, C, D) of the electromagnetic spectrum in order from radio waves to gamma rays. Part (b) considers a ray of red light incident at 35 degrees on the face of a glass prism with a refractive index of 1.5. Students must calculate the angle of refraction, draw the refracted ray inside the prism and the emerging ray on Fig. 6.2 labeled R, and then draw and label the path of a blue light ray (labeled B) following the same incident path.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:29:42+00:00"
+ },
+ "p4-332": {
+  "status": "done",
+  "subpoints": [
+   "3.3.6",
+   "3.1.4",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to select the approximate speed of light in air from a given table. Part (a)(ii) requires calculating the wavelength of a light wave given its frequency and speed. Part (b)(i) asks to explain why refractive index has no unit and to calculate the speed of light in glass of refractive index 1.5. Part (b)(ii) asks for a description of one use of optical fibres in communication technology.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:29:42+00:00"
+ },
+ "p4-333": {
+  "status": "done",
+  "subpoints": [
+   "3.4.5",
+   "3.1.4",
+   "3.4.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) uses a pressure-time graph for a sound wave to test labeling compression and rarefaction points, explaining why wavelength cannot be found directly from time axes, and describing changes to amplitude and frequency when a sound becomes louder and of lower pitch. Part (b) asks to calculate the wavelength of a 13 kHz sound in water given a speed of 1500 m/s. Part (c) requires stating the approximate speed of sound in air.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:31:23+00:00"
+ },
+ "p4-334": {
+  "status": "done",
+  "subpoints": [
+   "3.4.9",
+   "3.4.11",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the definition of ultrasound, how the speed of sound in liquid compares to air, and the speed of X-rays in a vacuum. Part (b) requires describing three similarities or differences between the use of ultrasound and X-rays in medical scanning procedures.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:31:23+00:00"
+ },
+ "p4-335": {
+  "status": "done",
+  "subpoints": [
+   "3.1.4",
+   "3.1.9",
+   "3.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A loudspeaker produces a sound wave with compression-to-rarefaction distance given. Part (a) asks to calculate the wavelength. Part (b) requires stating a typical value for the speed of sound in air. Part (c)(i) asks for the frequency calculation using v = f lambda. Part (c)(ii) requires explaining if the sound is audible to humans. Part (d) presents a diagram with a sound wave of wavelength 0.40 m reaching a barrier with a 0.80 m gap, asking to explain whether sound can be detected at two points J and K.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:32:27+00:00"
+ },
+ "p4-336": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.4",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student plays a violin near a doorway, and a teacher can hear the sound without seeing the student. Part (a)(i) asks for the wave effect responsible. Part (a)(ii) requires calculating the frequency of sound given its wavelength and the speed of sound in air. Part (a)(iii) asks to explain why a frequency of 453.3 Hz diffracts noticeably through the 0.75 m doorway while a 3500 Hz frequency is much harder to hear based on wavelength and gap size. Part (b) requires drawing a ray diagram with a plane mirror at point X so the teacher can see the student.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:32:27+00:00"
+ },
+ "p4-337": {
+  "status": "done",
+  "subpoints": [
+   "3.4.9",
+   "3.4.8",
+   "3.4.12"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A fisherman uses high-frequency sound waves to locate fish and the seabed. Part (a) asks for the name of sound waves with a frequency greater than 20 kHz. Part (b) gives the speed of sound in water and the depth of the seabed, requiring a calculation of the time taken for a reflected wave to return to the boat. Part (c) asks to describe and explain how the reflected sound wave from a fish differs from that received from the seabed.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:32:57+00:00"
+ },
+ "p4-338": {
+  "status": "done",
+  "subpoints": [
+   "3.4.9",
+   "3.1.4",
+   "3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to state and explain the type of sound wave used in medical examinations given its frequency of 1.5 MHz. Part (a)(ii) requires calculating the wavelength of this wave in soft human tissue given its speed. Part (b) asks to describe one medical use of X-rays.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-18T14:32:57+00:00"
  }
 }
