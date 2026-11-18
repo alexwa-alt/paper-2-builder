@@ -5906,5 +5906,406 @@
   "marks": 8,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-17T23:09:19+00:00"
+ },
+ "p4-303": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.4",
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question investigates image formation by a converging lens. In part (a), an object is positioned between the focal point and the lens, and students draw a ray diagram using standard rays to locate and label the virtual image. In part (b), students describe the characteristics of the image formed, noting that it is virtual, enlarged, and upright. In part (c), students provide an explanation for why images formed by lenses can have coloured edges, attributing this effect to the dispersion of white light into different colours by refraction.",
+  "types": [
+   "data",
+   "explanation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-18T04:38:13+00:00"
+ },
+ "p4-304": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.3",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns refraction of light and wave behavior at a boundary. In part (a), students calculate the speed of light in water given its refractive index and the speed of light in air. In part (b), a diagram shows parallel wavefronts incident at an angle on a plastic boundary. Students draw the four refracted wavefronts showing reduced wavelength, indicate the direction of propagation of the refracted wave with an arrow perpendicular to the wavefronts, and correctly label the angle of refraction relative to the normal.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-18T04:38:13+00:00"
+ },
+ "p4-305": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.2.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding of refraction and image formation by a converging lens. Part (a) asks for the name and cause of the effect when a ray of light changes direction as it enters a glass block. Part (b) involves a ray diagram drawn to scale on a grid for an object placed in front of a thin converging lens. Candidates must mark the principal focuses, draw ray paths to locate and label the image, measure the height of the image, and state and explain whether the image formed is real or virtual.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:48:20+00:00"
+ },
+ "p4-306": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.2.3",
+   "3.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on refraction at a boundary and ray diagrams for virtual image formation by a converging lens. In part (a), candidates explain how the speed of light changes as it passes from water into a transparent plastic block, based on the direction of refraction shown in a diagram. In part (b), an object is placed close to a converging lens within its focal length. Candidates complete the ray paths, extrapolate them back to locate and label the virtual image I, find its height, and explain whether the image is real or virtual.",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:48:20+00:00"
+ },
+ "p4-307": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.3",
+   "3.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of light travelling in air strikes a glass block at an angle of 30° to the normal and slows down upon entering. Part (a) asks to state and explain, in terms of wavefronts, what happens to the light as it enters the glass block. Part (b) provides the speed of light in the glass block as 1.9 × 10^8 m/s and asks to calculate the refractive index of the glass.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:50:19+00:00"
+ },
+ "p4-308": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.2",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) provides a grid with an object O and its inverted image I formed on a screen. Part (a)(i)–(iii) requires drawing ray diagrams to locate the position of the converging lens and its principal focus F, and finding the focal length. Part (a)(iv) asks to state and explain one other characteristic of the image. Part (b) presents a water-filled spherical fishbowl acting as a converging lens in bright sunlight and asks for a potential hazard.",
+  "types": [
+   "data",
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:50:19+00:00"
+ },
+ "p4-309": {
+  "status": "done",
+  "subpoints": [
+   "3.1.7",
+   "3.1.3",
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the definition of monochromatic light. Part (b) shows wavefronts in air incident on a glass boundary, where students must draw the wavefronts for both the reflected wave and the refracted wave entering the glass block. Part (c) describes a transverse wave produced on a long horizontal rope and requires students to sketch a diagram showing the appearance of the rope as the wave passes, labeling two key features of the wave such as amplitude, wavelength, crest, or trough.",
+  "types": [
+   "recall",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:51:23+00:00"
+ },
+ "p4-310": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.2.8",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows white light from a filament lamp passing through a lens and glass prism onto a screen. Students identify the name of the process that splits white light, state the specific colours appearing at points A and B on the screen, and state the property of glass that causes this splitting. Part (b) shows a ray of light inside an optical fibre; students complete the ray diagram to show total internal reflection, calculate the critical angle for glass with a refractive index of 1.46, and state two practical uses of optical fibres.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:51:23+00:00"
+ },
+ "p4-311": {
+  "status": "done",
+  "subpoints": [
+   "3.2.4.1",
+   "3.2.2.5",
+   "3.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores dispersion, refraction, and total internal reflection of light in glass prisms. In part (a), students complete a ray diagram showing the dispersion of white light into red and violet rays onto a screen and identify the visible colour with the shortest wavelength. In part (b), students define the term monochromatic light. Given two triangular glass prisms with a critical angle of 42°, students describe and explain the behavior of a monochromatic light ray incident on internal glass-air boundaries, accounting for total internal reflection when the angle of incidence exceeds the critical angle and partial reflection/refraction when it does not.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:53:09+00:00"
+ },
+ "p4-312": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4",
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on ray diagrams and image formation for a converging lens. Given a full-size diagram containing an object, an inverted real image, and a ray passing through the optical centre, part (a) asks students to select the correct image characteristics from checkboxes. In part (b), students draw a ray passing through a principal focus F to the tip of the image and label F. In part (c), students determine the focal length of the lens using their ray construction. In part (d), students construct a third principal ray from the tip of the object to the tip of the image.",
+  "types": [
+   "recall",
+   "data"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:53:09+00:00"
+ },
+ "p4-313": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.5",
+   "3.2.2.8",
+   "3.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests understanding of critical angle, total internal reflection, and refractive index. Part (a) asks what happens to a light ray in glass incident on a boundary with air when the angle of incidence is less than and greater than the critical angle. Part (b) presents a ray incident on a glass block with a critical angle of 41°. Students must complete the path of the ray as it undergoes total internal reflection at point B and exits the block, and calculate the refractive index of the glass using n = 1 / sin c.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:55:33+00:00"
+ },
+ "p4-314": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.7",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on refraction, refractive index, and image formation by refraction. In part (a), given the speed of light in air and in a transparent liquid, students calculate the refractive index of the liquid using the ratio of speeds, and then calculate the angle of refraction for an angle of incidence of 40° using n = sin i / sin r. In part (b), students complete a ray diagram showing two rays traveling from an object at the bottom of a liquid tank into air, using them to locate and label the virtual image.",
+  "types": [
+   "calculation",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:55:33+00:00"
+ },
+ "p4-315": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.5",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A ray of red light in air enters a semi-circular glass block at point P along the radius and strikes the flat edge at point Q at an angle of 30° to the normal. Part (a) asks why the light does not change direction at P. Part (b)(i) requires calculating the angle of refraction in air as the light emerges at Q using a refractive index of 1.5, while (b)(ii) asks to sketch the emerging ray on the diagram. Part (c) asks to describe what happens to the light at Q as the angle of incidence is gradually increased from 30° to 90°.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:58:02+00:00"
+ },
+ "p4-316": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.7",
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows an object located beyond the principal focus of a converging lens and requires drawing two rays to locate and label the image. Part (b) asks to select three terms describing the nature of the image formed when a converging lens is used as a magnifying glass. Part (c) shows the path of a ray of red light passing through a triangular glass prism and requires drawing the path of a ray of green light entering along the same incident path, showing its correct relative deviation.",
+  "types": [
+   "data",
+   "recall",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:58:02+00:00"
+ },
+ "p4-317": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.1.4",
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), a diagram shows an object and its image formed by a converging lens; candidates state three terms describing the characteristics of the image. In part (b), candidates complete a ray diagram showing light rays from a point object reflecting off a plane mirror into an observer's eye, using geometric constructions to locate and label the position of the virtual image.",
+  "types": [
+   "recall",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:59:02+00:00"
+ },
+ "p4-318": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.6",
+   "3.2.3.4",
+   "3.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), candidates construct a ray diagram for an object placed closer than the principal focus of a converging lens to locate the virtual image, and then underline three terms describing the image produced when the object is moved further from the lens. In part (b), given the path of yellow light passing through a glass prism, candidates draw the path of blue light to demonstrate dispersion due to greater refraction.",
+  "types": [
+   "data",
+   "application",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:59:02+00:00"
+ },
+ "p4-319": {
+  "status": "done",
+  "subpoints": [
+   "3.3.3",
+   "3.1.9",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of electromagnetic spectrum applications and wave diffraction. In part (a)(i), a table matching applications like Bluetooth, optical fibres, security marking, sterilising food, and wireless internet to regions of the electromagnetic spectrum is completed. Part (a)(ii) asks for the speed of radio waves in air. In part (b)(i), three plane wavefronts are drawn before a narrow gap where semicircular diffracted wavefronts emerge. In part (b)(ii), wavefronts are drawn passing through a wider gap to demonstrate the effect of gap size on diffraction.",
+  "types": [
+   "recall",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:59:37+00:00"
+ },
+ "p4-320": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.7",
+   "3.2.2.8",
+   "3.2.2.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on refraction, total internal reflection, and optical fibres. Part (a)(i) asks how light speed, wavelength, and frequency change upon entering a plastic block. Part (a)(ii) requires showing that the refractive index is 1.4 using given angles of incidence and refraction. Part (a)(iii) involves calculating the critical angle of the plastic. Part (b)(i) asks to complete the path of a light ray undergoing total internal reflection inside a curved optical fibre, and part (b)(ii) asks for two uses of optical fibres.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T04:59:37+00:00"
+ },
+ "p4-321": {
+  "status": "done",
+  "subpoints": [
+   "3.3.8",
+   "3.3.10",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns microwave communication in mobile phone networks. In part (a), students calculate the wavelength of microwaves in air given their frequency (1.9 × 10^9 Hz) and speed (3.0 × 10^8 m/s). Part (b) asks for two reasons why microwaves are chosen for mobile phone signals. Part (c)(i) requires students to describe, aided by a diagram, how a digital signal differs from an analogue signal. Finally, part (c)(ii) asks for two advantages of using digital signals over analogue signals.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T05:00:40+00:00"
+ },
+ "p4-322": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.9",
+   "3.2.2.8",
+   "3.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question deals with optical fibres and electromagnetic radiation. In part (a)(i), students identify infrared as the electromagnetic radiation, besides visible light, used in glass optical fibres for broadband, and in (a)(ii) give two reasons for using these types of radiation. In part (b)(i), given a critical angle of 45°, students calculate the refractive index of the glass using n = 1 / sin c. In part (b)(ii), students carefully draw a light ray undergoing total internal reflection inside the curved optical fibre shown in Fig. 5.1.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-18T05:00:40+00:00"
  }
 }
