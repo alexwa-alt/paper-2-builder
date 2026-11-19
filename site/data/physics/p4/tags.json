@@ -7016,5 +7016,358 @@
   "marks": 8,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-18T22:18:16+00:00"
+ },
+ "p4-359": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.4.10",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A loudspeaker emits a sound wave of constant frequency. In part (a), candidates define frequency. In part (b), sound waves approach a barrier with a gap: candidates define a compression, draw the diffracted wavefront pattern for a gap narrower than the wavelength, and describe the change in the pattern when the gap width increases. In part (c), given a frequency of 6800 Hz and speed of 340 m/s in air, candidates calculate the wavelength and state a typical value for the speed of sound in a liquid.",
+  "types": [
+   "recall",
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T13:32:44+00:00"
+ },
+ "p4-360": {
+  "status": "done",
+  "subpoints": [
+   "3.1.9",
+   "3.4.2",
+   "3.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A loudspeaker in a swimming pool emits sound waves of wavelength 0.25 m. In part (a), candidates calculate the speed of sound in water given a frequency of 6.0 kHz, state a typical value for the speed of sound in air, and compare the wavelength of the sound in air to that in water. In part (b), candidates explain the meaning of a longitudinal wave. In part (c), candidates state how the width of a gap and the wavelength of the sound affect the extent of diffraction.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T13:32:44+00:00"
+ },
+ "p4-361": {
+  "status": "done",
+  "subpoints": [
+   "3.4.11",
+   "3.4.10",
+   "3.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of sound and light waves. Part (a) requires matching typical sound wave speeds to the correct medium: solid, liquid, or gas. Part (b) refers to a diagram of a sound wave showing compressions and rarefactions; students must identify the mid-points of two rarefactions with letters X and Y, and define a rarefaction in terms of pressure. Part (c) involves a calculation to find the distance between the Earth and the Moon using the time taken for a laser beam to travel to a mirror on the Moon and back, given the speed of light.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:36:00+00:00"
+ },
+ "p4-362": {
+  "status": "done",
+  "subpoints": [
+   "4.1.6",
+   "4.1.7",
+   "4.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question is about magnetic fields around bar magnets. Part (a) asks to draw the magnetic field pattern and direction for a single bar magnet. Part (b) requires drawing a line showing the direction of the field produced by a second bar magnet at a specific position. Part (c)(i) asks for the direction of the force exerted by the N pole of one magnet on the N pole of another, and part (c)(ii) requires justifying this answer using magnetic interactions.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:38:08+00:00"
+ },
+ "p4-363": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.8",
+   "4.2.1.10",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns a negatively charged metal sphere suspended by an insulating thread. Part (a)(i) asks to define an electric field, and part (a)(ii) requires drawing the electric field pattern and direction around the negatively charged sphere. Part (b)(i) asks to describe what happens in an earthed wire when the sphere is discharged, and part (b)(ii) asks to calculate the average current in the wire given the charge magnitude and discharge time.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:38:08+00:00"
+ },
+ "p4-364": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.2.5",
+   "4.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) asks to draw field lines between two oppositely charged metal plates. (ii) describes the effect on a negatively charged particle at X. Part (b)(i) calculates the charge flowing from a cloud to the ground given current and time. (ii) calculates the potential difference given energy transferred and charge.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:38:40+00:00"
+ },
+ "p4-365": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.9",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) requires drawing electric field lines around a negatively charged metal sphere. (ii) states the direction of the force on a negatively charged particle placed near it. (iii) describes the resulting motion of the particle. Part (b)(i) explains why positively charged paint particles spread out as they leave a nozzle. (ii) suggests and explains an advantage of using charged paint to coat a negatively charged sphere.",
+  "types": [
+   "data",
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:38:40+00:00"
+ },
+ "p4-366": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain compression and rarefaction in sound waves. Part (b) requires stating why light from the Sun is visible but sound is not heard. Part (c) is a calculation of distance given time delay and speed of sound. Part (d) involves calculating the charge that flows during a lightning strike given current and time.",
+  "types": [
+   "explanation",
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:39:06+00:00"
+ },
+ "p4-367": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.5.4",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) calculates the current in a resistance wire given its resistance and power dissipation. Part (b) calculates the resistance of a new wire of different length and cross-sectional area using proportionality rules. Part (c) calculates the cost of using the electric heater continuously for two days at a given electricity price per kilowatt-hour.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:39:06+00:00"
+ },
+ "p4-368": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.8",
+   "4.2.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to explain in terms of particles why a plastic rod becomes negatively charged when rubbed with a woollen cloth. Part (b)(i) asks to state what is meant by an electric field, and (b)(ii) asks to draw the electric field pattern and direction around a negatively charged sphere S. Part (c) asks to draw an arrow on Fig. 7.2 to show the direction of the force experienced by a small negative charge Z placed near sphere S.",
+  "types": [
+   "explanation",
+   "recall",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:39:33+00:00"
+ },
+ "p4-369": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.9",
+   "4.2.1.10",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) requires drawing an arrow to indicate the force on a negative point charge at point Y in a given electric field pattern, and (a)(ii) asks to state what is at point X to produce the field pattern. Part (b) asks to state what charge transfers occur when a piece of plastic is charged positively by friction. Part (c) asks to explain how the structure of an electrical conductor differs from that of an electrical insulator using free electrons.",
+  "types": [
+   "explanation",
+   "recall",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:39:33+00:00"
+ },
+ "p4-370": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric car of mass 1600 kg accelerates from rest with an acceleration of 2.9 m/s^2. (a)(i) Calculate the time taken to reach a speed of 28 m/s. (a)(ii) Calculate the force required to produce this acceleration. (a)(iii) Calculate the kinetic energy of the car at this speed. (b) A charging current of 32 A takes 8.3 h to fully recharge the battery; calculate the total charge supplied. (c) Suggest why, in normal use, the car needs to be recharged after travelling less than the theoretical maximum distance of 390 km.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:39:52+00:00"
+ },
+ "p4-371": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.2.2.5",
+   "4.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 8.1 shows a potential divider circuit with a light-dependent resistor Y. (a) State the effect on the resistance of Y and the reading of the voltmeter when light intensity increases from dark to bright. Fig. 8.2 shows a 4.0 ohm resistor connected to a 12 V supply with a current of 3.0 A. (b)(i) Given the charge on an electron is 1.6 x 10^-19 C, calculate the number of electrons passing through the resistor each second. (b)(ii) Calculate the power dissipated by the resistor.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:39:52+00:00"
+ },
+ "p4-372": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to describe and explain how the apparatus shown in Fig. 8.1 can be used to charge a metal plate by induction using a positively charged plastic rod and an earth lead. Part (b) requires drawing an arrow on Fig. 8.2 to show the direction of flow of electrons in a circuit containing a cell, resistor, and lamp, and explaining how that direction was determined.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:40:17+00:00"
+ },
+ "p4-373": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.2.2.6",
+   "4.2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to draw two clearly labelled arrows on Fig. 9.1 to show the direction of electron flow and conventional current in a circuit with a d.c. power supply, motor, and ammeter. Part (b) gives the current in the motor as 13 A and the charge on an electron as 1.6 x 10^-19 C, asking to calculate the number of electrons passing through the motor every second.",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:40:17+00:00"
+ },
+ "p4-374": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to describe, in terms of particles, how a plastic rod becomes negatively charged when rubbed with a woollen cloth. Part (b)(i) explains why a light, conducting ball resting on a metal table jumps up towards a negatively charged rod brought close above it. Part (b)(ii) explains why the ball falls back down to the table after touching the rod.",
+  "types": [
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:40:43+00:00"
+ },
+ "p4-375": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.8",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a)(i) requires drawing the distribution of charges on an uncharged conducting object A when a positively charged rod B is brought close to it. Part (a)(ii) asks to state and explain the movement of charge when a wire is connected from object A to earth. Part (b) is a calculation of the charge that flows in a wire given a current of 0.65 mA for 2.2 minutes.",
+  "types": [
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:40:43+00:00"
+ },
+ "p4-376": {
+  "status": "retry",
+  "attempts": 1,
+  "error": "missing or invalid tags in response",
+  "updated": "2026-11-19T13:41:09+00:00"
+ },
+ "p4-377": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.8",
+   "4.2.1.9",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students describe what is meant by an electric field and its direction. They explain why a charged polystyrene ball suspended between oppositely charged metal plates oscillates back and forth. Finally, they calculate the time taken for a charge of 15 C to flow through an electrical circuit carrying a current of 0.29 A.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-19T13:41:09+00:00"
  }
 }
