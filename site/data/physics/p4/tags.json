@@ -7345,10 +7345,22 @@
   "updated": "2026-11-19T13:40:43+00:00"
  },
  "p4-376": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "missing or invalid tags in response",
-  "updated": "2026-11-19T13:41:09+00:00"
+  "status": "done",
+  "subpoints": [
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric heater is placed in a plastic cup of sand with a thermometer. Given the power rating of 50 W and operating time of 2.0 minutes, candidates calculate the thermal energy supplied by the heater. Using the mass of sand and the measured temperature rise, candidates then calculate the specific heat capacity of sand and explain reasons why the experimental value might differ from the true value. Candidates also explain why beach sand gets hotter than the sea on a sunny day in terms of specific heat capacity, and draw a labelled diagram showing the structure of a thermocouple thermometer.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 12,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:19:04+00:00"
  },
  "p4-377": {
   "status": "done",
@@ -7369,5 +7381,375 @@
   "marks": 9,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-19T13:41:09+00:00"
+ },
+ "p4-378": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.1.6",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A negatively charged sphere is supported on an insulating stand. Candidates draw the pattern and direction of the electric field around it. A light, uncharged metal sphere suspended by an insulating thread is brought nearby; candidates draw the induced charge distribution on the sphere, state the resulting motion, and describe the movement of charge when the sphere is earthed. Finally, candidates explain the difference between electrical conductors and insulators in terms of their atomic structures and free electrons.",
+  "types": [
+   "data",
+   "explanation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:19:04+00:00"
+ },
+ "p4-379": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.4.5",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A resistance wire of length 1.0 m has a resistance of 7.6 Ω. In part (a), candidates sketch a graph of resistance R against length l from 0 to 1.0 m with appropriate axis values marked. In part (b), a 12 V battery is connected across the 1.0 m wire. Candidates define electromotive force (e.m.f.), calculate the current flowing through the wire, determine the potential difference between terminals P and Q when the slider is at 0.35 m, and calculate the total charge passing through the wire in 5.5 minutes.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:20:02+00:00"
+ },
+ "p4-380": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.8",
+   "4.2.1.10",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), candidates describe what is meant by an electric field. In part (b), they draw five field lines showing the electric field pattern between two oppositely charged parallel plates connected to a battery. In part (c), a 1.2 V rechargeable battery provides a current of 210 mA for 10 hours; candidates calculate the charge delivered, calculate the energy stored when fully charged, and state the type of energy stored in the battery.",
+  "types": [
+   "recall",
+   "data",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:20:02+00:00"
+ },
+ "p4-381": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Part (a) displays a diagram of a negatively charged conducting sphere and requires sketching the electric field pattern around it, including field line directions. Part (b) provides a current of 0.21 A passing through an electrical device and asks for the total charge that flows over a time interval of 75 s.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 4,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:22:03+00:00"
+ },
+ "p4-382": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) gives the power and voltage ratings of a car headlight (12 V, 50 W) and asks for the normal operating current. Part (b)(i) asks for the electrical energy transferred when a charge of 270 kC passes through a 12 V car battery. Part (b)(ii) specifies the energy density of the fuel (3.6 × 10^4 J/cm^3) and asks for the volume of fuel required to supply that calculated energy.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:22:03+00:00"
+ },
+ "p4-383": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2",
+   "4.2.2.3",
+   "4.2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question investigates electrostatic induction and forces between charges. In part (a), an uncharged conducting metal plate rests on insulating supports beneath a positively charged insulating plastic sheet. Candidates describe the movement of free electrons within the metal, draw the resulting induced charge distribution in the plate, and explain how the attractive force between unlike charges keeps the sheet in place. In part (b), two uncharged suspended conducting spheres are both given positive charges; candidates sketch the new positions of the spheres and threads and explain why they repel each other.",
+  "types": [
+   "explanation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:24:17+00:00"
+ },
+ "p4-384": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.2",
+   "4.2.1.6",
+   "4.2.1.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns electrostatics and electric fields. In part (a), charged insulating cubes are attached to a wooden disc floating on water; candidates predict and explain the translational motion caused by attraction to an oppositely charged rod, followed by the rotational motion caused by a pair of charged rods creating a couple. In part (b), students explain the difference between conductors and insulators using a simple electron model involving free and bound electrons. In part (c), candidates draw the radial electric field line pattern and direction around a single positive point charge.",
+  "types": [
+   "explanation",
+   "recall",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:24:17+00:00"
+ },
+ "p4-385": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.6",
+   "4.2.1.4",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns static charge and electric current in the context of a medical defibrillator. In part (a), candidates state how the internal structure of an electrical insulator differs from a conductor and explain why the handles are made of an insulator. In part (b), students explain, in terms of electron transfer, how one contact becomes negatively charged while the other becomes positively charged. In part (c), candidates calculate the average current delivered to the dummy using the charge transferred and time taken via I = Q / t.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:25:12+00:00"
+ },
+ "p4-386": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.2.3.7",
+   "4.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question examines current, potential difference, and energy transfer. In part (a), candidates describe the movement of free electrons from the negative terminal to the positive terminal in a circuit. Part (b) presents a lightning flash scenario transferring a specified charge over a short duration: (i) calculating the electric current produced using I = Q / t, (ii) calculating the energy transferred using the potential difference and charge, and (iii) stating the energy forms into which this transferred electrical energy is converted, such as thermal energy, light, and sound.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:25:12+00:00"
+ },
+ "p4-387": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.4",
+   "4.2.1.3",
+   "4.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns electrostatic charging and charging by induction. Part (a) asks candidates to describe the movement of charge (specifically the transfer or loss of electrons) that results in an object acquiring a positive charge. In part (b)(i), a negatively charged rod is held above an uncharged metal sphere on an insulating support, and candidates must label positive and negative charges on the sphere to represent induced charge separation. In part (b)(ii), candidates describe the steps required—earthing the sphere while the rod remains in place, breaking the earth connection, and then removing the rod—to leave the sphere with a uniform positive charge.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:27:04+00:00"
+ },
+ "p4-388": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question addresses renewable energy generation using water resources. In part (a), candidates describe a renewable process that generates electricity from water energy (such as hydroelectric, tidal, or wave power), explaining how the kinetic or potential energy of water is transferred to generate electricity. In part (b), candidates explain why the selected method is classified as renewable, noting that the resource is continually replenished and not depleted by use. In part (c), candidates explain whether the Sun is the ultimate source of the stored energy, discussing solar-driven evaporation and the hydrological cycle for hydroelectricity, or the gravitational pull of the Moon and Sun for tidal power.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:27:04+00:00"
+ },
+ "p4-389": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.2.5",
+   "4.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns electrostatics and electric current. In part (a), an uncharged conducting sphere on an insulating stand is placed near a positively charged rod; students describe how to charge the sphere by earthing and explain the sign of the resulting charge. Part (b) asks to draw the electric field pattern and direction around an isolated positive point charge. Part (c) requires calculating the current in a wire when 7.0 C of charge flows past a point in 5.0 minutes.",
+  "types": [
+   "explanation",
+   "data",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:28:25+00:00"
+ },
+ "p4-390": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.3",
+   "4.3.1.1",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question covers circuit symbols, potential dividers, and electric charge. In part (a), students draw the circuit symbol for a potential divider. Part (b) provides a circuit with a 6.0 V power source connected across a 1.0 kΩ resistor in series with a variable resistor R. Students calculate the output voltage across the 1.0 kΩ resistor when R is set to 3.0 kΩ, and calculate the total charge flowing through the circuit in 300 s when the current is adjusted to 1.7 mA.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:28:25+00:00"
+ },
+ "p4-391": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.3.1.1",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 7.5 V battery powers a series circuit. Part (a) asks for the definition of electromotive force. Part (b)(i) requires drawing a circuit diagram showing the five 1.5 V cells connected in series to produce the 7.5 V e.m.f., together with a variable resistor and a 30 Ω fixed resistor. Part (b)(ii) asks to sketch a graph showing how the circuit current varies as the variable resistor increases from 0 to 150 Ω, including calculating and labeling the maximum current value on the y-axis.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:31:34+00:00"
+ },
+ "p4-392": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.2.4.1",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) presents a light-activated night-light circuit containing a potential divider with an LDR connected in parallel with an LED. Students add a voltmeter symbol across the LDR, state how the resistance of the LDR changes when it gets dark, and explain the effect of this change on the potential difference across the LED. Part (b) shows two identical filament lamps connected in parallel to a 240 V supply drawing a total current of 0.50 A, and requires calculating the resistance of one lamp.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:31:34+00:00"
+ },
+ "p4-393": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.2.3.3",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A potential divider is formed by connecting an LDR and a thermistor in series with a d.c. power supply, with a voltmeter connected across the LDR. Part (a) asks for the definition of potential difference. Part (b) asks how the potential difference across the thermistor can be found from the supply electromotive force and the voltmeter reading. Part (c)(i) asks for the changes in incident light intensity and temperature that cause the LDR's resistance to decrease and the thermistor's resistance to increase. Part (c)(ii) asks for an explanation of the resulting change in the voltmeter reading.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:35:26+00:00"
+ },
+ "p4-394": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.2.4.1",
+   "4.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A washing machine circuit consists of an a.c. power supply connected to an electric heater and an electric motor in parallel, with an ammeter in the main branch. Part (a) asks for the definition or meaning of electromotive force. Part (b) asks to state the potential difference across the heater. Part (c) asks to calculate the current in the heater from its resistance and the supply e.m.f. Part (d) gives the current flowing through the motor and asks for the total reading on the ammeter along with an explanation based on parallel circuit rules.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:35:26+00:00"
+ },
+ "p4-395": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.2.5.3",
+   "4.3.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns a car windscreen heating system. Part (a) shows two configurations (series and parallel) of three identical resistors powered by a 12 V battery; students state two advantages of the parallel arrangement and describe the removal of water droplets by evaporation in terms of particle behaviour. Part (b) presents two resistors of 90 Ω and 70 Ω in parallel across a 12 V battery: students calculate the current in the 70 Ω resistor, determine the electrical energy transferred in 5 minutes, state the energy store in the battery, and calculate the total resistance of the circuit.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 12,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:40:37+00:00"
+ },
+ "p4-396": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.3",
+   "4.2.3.6",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the definition of potential difference (p.d.). Part (b) asks for the equation defining electromotive force (e.m.f.) and requires students to calculate the work done by a 9.0 V battery in moving a charge of 30 C around a complete circuit. Part (c) asks students to draw a series circuit diagram containing a d.c. power supply, a lamp, and a thermistor, and then explain the effect on the circuit when the temperature of the thermistor is increased.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": null,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-19T22:40:37+00:00"
  }
 }
