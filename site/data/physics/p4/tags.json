@@ -7751,5 +7751,398 @@
   "marks": null,
   "model": "gemini-3.8-flash",
   "updated": "2026-11-19T22:40:37+00:00"
+ },
+ "p4-397": {
+  "status": "done",
+  "subpoints": [
+   "4.3.3.2",
+   "4.3.2.10",
+   "4.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit contains a battery, three identical 40 Ω resistors (R1, R2, and R3), an open switch, and a voltmeter connected across R1. The candidate describes what is meant by a potential divider. With the switch open and a voltmeter reading of 7.5 V, the electromotive force (e.m.f.) of the battery is determined. The switch is then closed, connecting R3 in parallel with R2; the candidate calculates the new total circuit resistance and the resulting voltmeter reading across R1.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:33:30+00:00"
+ },
+ "p4-398": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.1.10",
+   "4.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question begins by asking for the definition and direction of a magnetic field, followed by drawing four electric field lines representing the electric field around a negatively charged metal sphere. It then presents a circuit containing three identical series cells providing 6.0 V, three identical resistors, and an ideal diode. The candidate determines the e.m.f. of a single cell and finds the ratio of the potential difference across R2 to that across R3. Finally, when the cells are reversed, the candidate explains the change in current through resistor R1 and determines the new ratio of the potential differences.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": null,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:33:30+00:00"
+ },
+ "p4-399": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.2.5",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A cylinder of conductive modelling clay is connected in series with a 9.0 V battery and a 4.0 Ω resistor P, giving a current of 1.5 A. In part (a), the charge X passing through P in 600 s and the resistance of the modelling clay cylinder are calculated. In part (b), the cylinder is replaced by a new one made from the same clay but having twice the length and half the cross-sectional area. The question requires calculating the new total resistance and determining the time needed for the same charge X to flow through resistor P.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:36:13+00:00"
+ },
+ "p4-400": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.2.8",
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A flashlight circuit comprises a 4.5 V battery, a 60 Ω fixed resistor, and a light-emitting diode (LED) connected in series, with an operating current of 0.020 A. In part (a), the potential difference across the LED is calculated. Part (b) asks to explain why the LED will not light up if the battery polarity is reversed. In part (c), using a stored chemical energy of 1050 J in the battery, the operating time is shown to be approximately 3 hours. Part (d) requires calculating the total charge that passes through the LED in 3600 s.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:36:13+00:00"
+ },
+ "p4-401": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.3.1.2",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to sketch the current–voltage characteristic for a filament lamp and explain its shape in terms of resistance and temperature. Part (b) shows a circuit containing a d.c. power supply, a battery, an ammeter, a voltmeter, and two parallel branches each containing a diode and a resistor in series facing opposite directions. Candidates must calculate the voltmeter reading, determine the current through each of the two resistors, state the ammeter reading, and calculate the electrical power transferred in the 4.2 Ω resistor.",
+  "types": [
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:38:01+00:00"
+ },
+ "p4-402": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.2.4.1",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question presents a circuit with a 12 V battery, a switch, an ammeter, a resistor Q, and two identical lamps connected in parallel. In (a), candidates determine the number of 1.5 V cells that make up the battery. In (b), they calculate the total circuit resistance using the given current and find the resistance of resistor Q given the resistance of each lamp. In (c), candidates add a voltmeter symbol to the diagram across the parallel lamps and calculate the power supplied to one lamp.",
+  "types": [
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:38:01+00:00"
+ },
+ "p4-403": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.2.4.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 12 V power supply is connected to a circuit containing a 3.0 Ω resistor, a 2.0 Ω motor, and a three-position switch with positions A, B, and C. In part (a), the current through the motor is determined when the switch is connected to position A (open circuit), position B (motor alone), and position C (resistor and motor in series). In part (b), the combined resistance of a 2.0 Ω resistor and a 3.0 Ω resistor connected in parallel is calculated.",
+  "types": [
+   "calculation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:40:16+00:00"
+ },
+ "p4-404": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.3.3.2",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A potential divider circuit is powered by a 12 V battery and consists of a light-dependent resistor (component X) in series with a 400 Ω resistor (component Y). Part (a) asks to identify component X, draw a voltmeter connected across component Y, calculate the circuit current and potential difference across Y when X has a resistance of 350 Ω in bright light, and state how the potential difference across Y changes in a dark room. Part (b) asks to suggest a practical use for component X.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:40:16+00:00"
+ },
+ "p4-405": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.2.3.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question examines the concepts of electromotive force (e.m.f.) and potential difference (p.d.), requiring candidates to state one similarity and one difference between them. A circuit is then presented containing a battery of four 1.2 V cells connected in series with a combination of four 12 Ω resistors: two resistors in series connected in parallel with a third, which is in series with a fourth resistor. Candidates calculate the total e.m.f. of the battery, determine the total equivalent resistance of the circuit network, and calculate the reading shown on a voltmeter connected across the fourth resistor.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:41:03+00:00"
+ },
+ "p4-406": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.5.2",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question begins by asking for the definition of electromotive force (e.m.f.). A circuit diagram is then shown containing a 60 V power source connected in series with a 22.5 Ω heater and a parallel arrangement of a 10 Ω resistor and an unknown resistor X. Given that the potential difference across the heater is 45 V, candidates must calculate the power dissipated by the heater, deduce the potential difference across parallel resistor X, and calculate the current flowing through the 10 Ω resistor.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-20T03:41:03+00:00"
+ },
+ "p4-407": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.3.3.3",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A potential divider circuit consists of a 12 V battery composed of eight identical cells connected in series, an 800 Ω resistor, and a thermistor connected across terminals P and Q in parallel with a voltmeter. Part (a) asks to complete the circuit diagram with the thermistor symbol. Part (b) requires calculating the e.m.f. of one cell. Part (c)(i) asks for the resistance of the thermistor when the voltmeter reads 8.0 V. Part (c)(ii) asks to explain what can be deduced about the thermistor and temperature when the voltmeter reading increases.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:42:46+00:00"
+ },
+ "p4-408": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.3.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A potential difference–current graph for component K is provided. In part (a), the resistance of component K is calculated at a current of 4.0 mA by reading values from the graph. In part (b), component K is connected in a potential divider circuit in series with resistor R, with a lamp connected in parallel with R. Candidates state and explain the effect on the lamp as temperature increases from low to high, referring to the voltage at point X. Part (c) asks to state the name of component K.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:42:46+00:00"
+ },
+ "p4-409": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.4.5",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the definition of electromotive force (e.m.f.). Part (b) shows a circuit with a 12 V battery connected in series with a uniform metal wire PQ and a parallel pair of identical lamps, each operating at 3.0 V and 2.0 A. Part (b)(i) requires calculating the resistance R of wire PQ by considering the circuit currents and potential differences. Part (b)(ii) asks for the resistance of another wire made of the same metal with twice the length and twice the diameter of wire PQ.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:43:10+00:00"
+ },
+ "p4-410": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.9",
+   "4.2.5.2",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the definition of electric current. Part (b) requires writing an equation relating the current in a 450 Ω resistor to currents I_1 and I_2 at a junction in a circuit containing an LDR and fixed resistors. Part (c) asks to calculate the power dissipated in the 800 Ω resistor using potential difference and resistance values. Part (d) asks for an explanation of how the potential difference across the 450 Ω resistor changes when the light intensity on the LDR increases.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:43:10+00:00"
+ },
+ "p4-411": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.3.2.3",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding of series e.m.f. and resistor combinations. In part (a), candidates calculate the combined e.m.f. of a 1.5 V cell and a 6.0 V battery connected in series. In part (b)(i), they determine the resistance of resistor R connected in series with a parallel network of 2.0 Ω and 3.0 Ω resistors, given a total resistance of 4.4 Ω. In part (b)(ii), given a current of 0.94 A, candidates calculate the total potential difference across the resistor combination using Ohm's law.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:43:35+00:00"
+ },
+ "p4-412": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.3.1.1",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "This question tests the analysis of non-linear circuit components using current–p.d. characteristic graphs. In part (a)(i) and (ii), candidates draw a circuit diagram showing a resistor, thermistor, and filament lamp in series with a power supply, adding a voltmeter across the resistor. In part (a)(iii), using the graph, candidates determine the total supply p.d. when the p.d. across the resistor is 6.0 V by identifying the circuit current and adding the corresponding p.d.s across all components. In part (b), candidates state a practical use for a thermistor.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:43:35+00:00"
+ },
+ "p4-413": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.3.2.4",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 12 V circuit contains an ammeter, a lamp of resistance 3.0 Ω, a 2.0 Ω resistor, and a uniform resistance wire XY of 6.0 Ω and length 2.0 m. In part (a), the complete wire is connected in series and the ammeter reading is calculated. In part (b), a 1.5 Ω resistor is connected in parallel with a 0.60 m section of the wire XQ, and the total circuit resistance is calculated.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:44:00+00:00"
+ },
+ "p4-414": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.3",
+   "4.2.5.2",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric vehicle power supply consists of 990 rechargeable cells, each with an e.m.f. of 1.2 V, arranged into series packs each providing 54 V. Part (a) asks to calculate the total number of packs in the power supply. Part (b)(i) asks for the rate of energy transfer for a single cell supplying 3.5 A. Part (b)(ii) asks for an explanation of why thick wires must be used when the packs are connected in parallel to supply a large current.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:44:00+00:00"
+ },
+ "p4-415": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.4.1",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to draw a standard circuit diagram showing a battery, fixed resistor, and light-emitting diode (LED) connected in series so that the LED is lit. Part (b) requires calculating the resistance of the LED given its potential difference (3.1 V) and current (0.030 A). Part (c) presents a series circuit with a 10.5 V supply, a lamp, and a heater. Given the p.d. across the lamp (2.1 V) and the circuit current (1.5 A), the student must calculate the resistance of the heater and the power output of the heater.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:44:36+00:00"
+ },
+ "p4-416": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.8",
+   "4.3.1.2",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "An incomplete circuit diagram features parallel branches containing 2.0 Ω and 4.0 Ω resistors in series with a 6.0 Ω resistor. Part (a) asks to add an ammeter symbol to measure current through the 6.0 Ω resistor, add a voltmeter across the 4.0 Ω resistor, and calculate the current in the 6.0 Ω resistor given a current of 2.5 A in the 2.0 Ω branch. Part (b) shows the circuit powered by an a.c. supply and asks the student to insert a diode symbol into the correct gap so that the 4.0 Ω resistor receives current in one specific direction while the 2.0 Ω resistor conducts alternating current.",
+  "types": [
+   "data",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-20T03:44:36+00:00"
  }
 }
