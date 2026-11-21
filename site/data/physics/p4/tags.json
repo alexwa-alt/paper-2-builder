@@ -8144,5 +8144,399 @@
   "marks": 9,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-20T03:44:36+00:00"
+ },
+ "p4-417": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1",
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A current-potential difference (p.d.) graph is provided for a resistor and a thermistor. Part (a) asks for the resistance of the thermistor at 7.0 V read from the graph. Part (b) asks to complete a table indicating how the resistance of each component changes as p.d. increases from 0 to 7.0 V. Part (c) considers both components connected in parallel across a 7.0 V supply, asking to calculate the total current supplied and the total energy transferred by the supply in 5.0 minutes.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:34:33+00:00"
+ },
+ "p4-418": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.3.2.10",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit diagram is shown featuring a battery, a switch, an ammeter, a 20 Ω resistor, a 30 Ω resistor, and component X in parallel with the 30 Ω resistor. Part (a) asks to identify component X as a thermistor. Part (b) requires equations relating the p.d. across X to the p.d. across the 30 Ω resistor, and to the battery e.m.f. and p.d. across the 20 Ω resistor. Part (c) involves calculating the total circuit resistance and the ammeter reading given a 6.0 V supply and 15 Ω resistance for X. Part (d) asks to state and explain the effect on the ammeter reading when the temperature of component X increases.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:34:33+00:00"
+ },
+ "p4-419": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.10",
+   "4.3.2.4",
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit diagram shows a filament lamp of resistance 0.30 Ω connected in parallel with a 0.20 Ω resistor, and this parallel combination connected in series with a second 0.20 Ω resistor. In part (a), the student is asked to calculate the total combined resistance of the circuit. In part (b), the potential difference across the supply is increased, increasing current through the lamp. The student must state and explain the resulting change in resistance of the filament lamp.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:36:00+00:00"
+ },
+ "p4-420": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.3.2.8",
+   "4.3.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 9.1 shows a circuit with a 3.7 V battery connected to two parallel resistors of resistance R, connected in series with a light-emitting diode (LED). In part (a), the student must draw the correct symbol and connection for a voltmeter measuring potential difference across the LED and an ammeter measuring current through the LED. In part (b), given that the LED operates normally at 2.1 V and 0.19 A, the student calculates the value of resistance R.",
+  "types": [
+   "data",
+   "calculation",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:36:00+00:00"
+ },
+ "p4-421": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.4.1",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question uses a current–potential difference graph for a resistor and a filament lamp. In part (a), candidates identify how resistance changes as potential difference increases for both components. In part (b), candidates read the current at 6.0 V from the graph to calculate the resistance of the lamp. In part (c), candidates calculate the total supply current when the lamp and resistor are connected in parallel across a 6.0 V supply. In part (d), candidates determine the total potential difference required when both components are connected in series with a circuit current of 4.0 A.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:36:54+00:00"
+ },
+ "p4-422": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.3.2.10",
+   "4.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses electrical conduction and circuit rules. In part (a), candidates state why metals are good conductors of electricity in terms of free electrons. In part (b), candidates calculate the resistance of a second wire with half the length and twice the cross-sectional area of a 16 Ω wire, and then calculate the effective resistance when both wires are connected in parallel. In part (c), candidates determine the total electromotive force of three identical cells connected in series and identify the relative magnitudes of the main current and individual branch currents.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:36:54+00:00"
+ },
+ "p4-423": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.3.2.6",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit diagram shows a 6.0 V battery, an ammeter, a 20 Ω resistor, and component X in series. Part (a) asks to name component X and draw a voltmeter connected across the 20 Ω resistor. Part (b) asks to plot a graph of current against potential difference across the 20 Ω resistor as the p.d. is varied from 0 to 6.0 V. Part (c) introduces a second resistor in parallel with the 20 Ω resistor; it asks how the combined resistance compares to each individual resistance and how the corresponding current-voltage graph line would differ from the first.",
+  "types": [
+   "recall",
+   "data",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:37:28+00:00"
+ },
+ "p4-424": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.3.3.2",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit contains a 12 V battery, an ammeter reading 0.15 A, a 20 Ω resistor, and a variable resistor in series with a voltmeter across it. Part (a) asks to calculate the total resistance of the circuit. Part (b) asks how decreasing the variable resistor's resistance affects the ammeter reading, and to state and explain the effect on the voltmeter reading. Part (c) asks for an explanation of an e.m.f. of 1.5 V in terms of energy, and to calculate how many 1.5 V cells in series form the 12 V battery.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:37:28+00:00"
+ },
+ "p4-425": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.2.5.3",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 9.1 shows a 12 V battery symbol. In (a), students complete the circuit diagram showing two lamps connected in parallel with the battery. In (b), given one lamp has a resistance of 6.0 Ω, students calculate the current in this lamp and its operating power. In (c), given that the other lamp has a power rating of 36 W, students calculate the total electrical energy delivered to it during a period of 20 hours.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:38:02+00:00"
+ },
+ "p4-426": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.5.2",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 7.1 shows three identical 60 W, 110 V lamps connected in parallel with an ammeter to a power supply. In (a), students calculate the current in each lamp, the total current through the ammeter, and state the voltage of the supply. In (b)(i), students calculate the resistance of a lamp filament during normal operation. In (b)(ii), given lamp X has twice the resistance, students identify possible changes to its filament length or cross-sectional area in Table 7.1.",
+  "types": [
+   "data",
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:38:02+00:00"
+ },
+ "p4-427": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.5",
+   "4.2.4.1",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 9.0 V battery is connected in series with a 120 Ω resistor and a wire P. A voltmeter measures 2.4 V across the resistor. Part (a) asks to state the energy transfers occurring in the circuit. Part (b) requires calculating the current in the 120 Ω resistor, the potential difference across wire P, and the resistance of wire P. Part (c) asks to calculate the resistance of a second wire Q made of the same material, but with 0.50 times the diameter and 5.0 times the length of wire P.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:38:42+00:00"
+ },
+ "p4-428": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.4",
+   "4.2.5.2",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A graph of current against potential difference (p.d.) for a filament lamp is provided. Part (a) asks how the resistance of the filament changes over two different voltage ranges. Part (b) requires reading values from the graph at 8.0 V to calculate the lamp's resistance and power. Part (c) describes five of these lamps connected in parallel operating at normal brightness (8.0 V), asking for the total e.m.f. of the power supply and the total current drawn from it.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:38:42+00:00"
+ },
+ "p4-429": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.3.3.3",
+   "4.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the name and circuit symbol of a component whose resistance varies with light brightness (LDR). Part (b) presents a potential divider circuit consisting of a 6.0 V battery, a 1.2 kΩ fixed resistor, and a thermistor connected in series, with a voltmeter across the thermistor. Candidates calculate the voltmeter reading when the thermistor resistance is 2.4 kΩ, and suggest a change to the circuit or environment that would cause the voltmeter reading to decrease.",
+  "types": [
+   "recall",
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:39:18+00:00"
+ },
+ "p4-430": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.2.4.1",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question features a circuit with a 12.0 V power supply, a 6.0 V, 9.0 W lamp, and a 1.00 m long resistance wire AB (5.0 Ω) with a sliding contact. In part (a), candidates calculate the current and resistance of the lamp at normal brightness. In part (b), they explain without calculation why moving the sliding contact to B dims the lamp, and calculate the length AX of wire needed for the lamp to operate at normal brightness.",
+  "types": [
+   "calculation",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-21T02:39:18+00:00"
+ },
+ "p4-431": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.2.4",
+   "4.3.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 12 V battery is connected in series with a 24 W lamp and a parallel pair of identical resistors X and Y. The lamp operates at normal brightness with a p.d. of 6.0 V across it. Students are asked to calculate the resistance of the lamp, determine the p.d. between points A and B, find the combined resistance of the parallel pair of resistors, and calculate the individual resistance of resistor X. Finally, explain why removing resistor X causes the lamp to become dimmer.",
+  "types": [
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T02:41:19+00:00"
+ },
+ "p4-432": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.3",
+   "4.3.2.4",
+   "4.3.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A circuit contains three 1.5 V cells connected in series, powering two parallel resistors of 3.0 ohm and 6.0 ohm. Students must calculate the total electromotive force of the cells, the total resistance of the circuit, and the current in the 3.0 ohm resistor. Additionally, using provided letter labels on the diagram, state how to connect an ammeter to measure the total circuit current and how to connect a voltmeter to measure the potential difference across the 6.0 ohm resistor.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T02:41:19+00:00"
+ },
+ "p4-433": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.4",
+   "4.3.2.6",
+   "4.3.2.10"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 8.1 shows a circuit diagram with a 24 V supply connected across a combination of resistors: an 8.0 \\Omega resistor and a 4.0 \\Omega resistor in series, with a 6.0 \\Omega resistor in parallel with them. Part (a) asks to calculate the total resistance of the circuit. Part (b) asks to calculate the potential difference across the 8.0 \\Omega resistor.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T02:41:36+00:00"
+ },
+ "p4-434": {
+  "status": "done",
+  "subpoints": [
+   "4.4.3",
+   "4.4.4",
+   "4.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Fig. 5.1 shows an instant boiling water tap containing an electric immersion heater connected to a 230 V mains supply carrying 13 A. Part (a) asks to state what is meant by boiling point. Part (b)(i) asks to calculate the thermal energy produced by the heater in 60 s. Part (b)(ii) asks to calculate the rate at which water at its boiling point emerges from the tap, given the specific heat capacity of water is 4200 J/(kg °C) and initial water temperature is 22 °C. Part (c) asks to explain how the earth wire protects the user and how the fuse protects the circuit.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T02:41:36+00:00"
+ },
+ "p4-435": {
+  "status": "done",
+  "subpoints": [
+   "4.2.1.10",
+   "4.2.5.2",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to draw five electric field lines between two parallel charged metal plates. Part (b) considers an electric iron connected to a mains supply: (i) calculates the electric current from power and p.d., (ii) calculates the electric charge flowing in 15 minutes, and (iii) selects a suitable fuse rating from a given list.",
+  "types": [
+   "calculation",
+   "recall"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T02:41:54+00:00"
+ },
+ "p4-436": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.1",
+   "4.2.4.1",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) defines electromotive force (e.m.f.). Part (b) presents an electric heater circuit containing a motor and two parallel heating elements connected to a 240V mains supply. Questions include: calculating current and power for element R1, comparing current in element R2 with R1 given different resistances, and suggesting and explaining a suitable fuse rating for the entire circuit based on operating currents.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": null,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T02:41:54+00:00"
  }
 }
