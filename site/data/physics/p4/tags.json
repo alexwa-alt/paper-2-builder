@@ -8538,5 +8538,236 @@
   "marks": null,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-21T02:41:54+00:00"
+ },
+ "p4-437": {
+  "status": "done",
+  "subpoints": [
+   "4.4.1",
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires candidates to state and explain why outdoor garden electrical sockets and plugs must be different from indoor ones, specifically considering damp conditions and the risk of water ingress. Part (b) asks to state and explain why fuses and circuit breakers are installed in mains-connected electrical circuits to protect against excess current.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 4,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:30:15+00:00"
+ },
+ "p4-438": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.4.3",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A 240 V mains supply is connected to an air-conditioning unit and a freezer, protected by fuse X. Part (a) calculates the current in the freezer given its power. Part (b) requires selecting a suitable fuse rating for fuse X based on total operating current and explaining the reasons. Part (c) explains why higher-rating fuses use thicker wire in terms of resistance and heating effect. Part (d) names two renewable energy sources and states a disadvantage of one.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall",
+   "application"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:30:15+00:00"
+ },
+ "p4-439": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An electric shower takes cold water and heats it using a 9000 W heater connected to a 230 V supply. (a)(i) Calculate the current in the heater. (a)(ii) Suggest a suitable fuse rating. (b) Given the specific heat capacity of water and initial temperature, determine the maximum mass of water heated in 1.0 s to 35 °C. (c)(i) Describe the structure of a thermocouple thermometer with a diagram. (c)(ii) State one reason why a thermocouple thermometer is suitable for this safety control purpose.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:30:39+00:00"
+ },
+ "p4-440": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.5.3.5",
+   "4.5.6.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "(a)(i) A wire carries a large current through a square card; draw three magnetic field lines indicating direction and strength variation with distance. (a)(ii) State how increasing and reversing the current affects the magnetic field. (b) Explain why transmitting electricity at high voltage increases transmission efficiency even when using thinner wires.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:30:39+00:00"
+ },
+ "p4-441": {
+  "status": "done",
+  "subpoints": [
+   "4.1.1",
+   "4.5.6.3",
+   "4.5.6.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), students describe and explain how to determine which of three pieces of steel (two magnetized, one unmagnetized) is unmagnetized using only the three bars. In part (b)(i), given the mains voltage and output power of a 100% efficient transformer, students calculate the input current. In part (b)(ii), students draw a labelled diagram of a step-down transformer and state suitable materials for each component.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:31:35+00:00"
+ },
+ "p4-442": {
+  "status": "done",
+  "subpoints": [
+   "4.1.3",
+   "4.1.6",
+   "4.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) asks for a suitable material for the bar inside a copper solenoid acting as an electromagnet. Part (b)(i) requires drawing at least six magnetic field lines with direction around a bar labeled with an S pole. Part (b)(ii) explains what happens to the magnetic field and field line spacing when the variable resistor's resistance increases. Part (c) explains electromagnetic induction in a square coil placed close to the bar when the variable resistance is alternately increased and decreased.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:31:35+00:00"
+ },
+ "p4-443": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.2.5.3",
+   "4.2.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines electromagnetic induction using a wireless mobile phone charging plate connected to an a.c. supply. Part (a) asks to describe the magnetic field in terms of magnitude and direction. Part (b)(i) asks to explain why a current is induced in the secondary coil, and (b)(ii) asks why the transformer is not 100% efficient. Part (c)(i) requires calculating the time taken to recharge a battery storing 4.5 x 10^4 J given a current and voltage, and (c)(ii) requires calculating the charge passing through the battery in 60 seconds.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:32:20+00:00"
+ },
+ "p4-444": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.1",
+   "4.5.4.2",
+   "4.5.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns a horizontal, flat coil carrying a current in a magnetic field, operating as a simple motor component. Part (a) asks for the direction of movement of side AB relative to the plane of the coil. Part (b) asks to explain how this direction is determined using Fleming's left-hand rule. Part (c) asks what happens to the coil as it reaches the vertical position and to explain why. Part (d) asks to explain the effects of adding a split-ring commutator and brushes on the action of the motor.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:32:20+00:00"
+ },
+ "p4-445": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.6",
+   "4.5.6.3",
+   "4.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A step-down transformer connected to a high-voltage cable has a soft-iron core. Part (a) asks to explain the principle of operation of a simple iron-cored transformer, mentioning alternating current in the primary coil, changing magnetic flux in the core, and electromagnetic induction of an e.m.f. in the secondary coil. Part (b)(i) requires calculating the number of turns on the primary coil given the voltages and secondary turns. Part (b)(ii) involves calculating the primary current given the power and primary voltage.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:32:41+00:00"
+ },
+ "p4-446": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.7",
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "For a 100% efficient transformer with given primary and secondary voltages, part (a) requires calculating the primary current using the secondary current and the transformer efficiency equation relating power or currents and voltages. Part (b) asks to calculate the ratio of the number of turns on the primary coil to the number of turns on the secondary coil using the voltage ratio.",
+  "types": [
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:32:41+00:00"
+ },
+ "p4-447": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.1",
+   "4.5.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) uses a simple direct current motor diagram with a coil between magnetic poles S and N: (i) asks to explain the direction of the turning effect as seen by an observer at O, (ii) compares the turning effect when the coil is replaced with a three-turn coil with the same current, and (iii) compares the turning effect when a coil with three times greater resistance is used at the same p.d. Part (b) uses a voltage-time graph for an a.c. generator and an end view of a coil rotating clockwise at time t_0: (i), (ii), and (iii) require drawing the end view of the plane of the coil at times t_1, t_2, and t_3 respectively, including labels A and B.",
+  "types": [
+   "explanation",
+   "application",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:34:52+00:00"
+ },
+ "p4-448": {
+  "status": "done",
+  "subpoints": [
+   "4.1.6",
+   "4.5.2.1",
+   "4.5.1.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Part (a) asks to sketch the pattern and direction of magnetic field lines between two bar magnets with facing N and S poles. Part (b) shows a simple a.c. generator with a coil rotating between magnets, connected to a galvanometer via parts labelled A: (i) names the parts labelled A as slip rings, (ii) requires drawing an arrow to show the direction of the current in the coil when rotated in a given direction and explaining the answer, and (iii) explains how continuously rotating the coil causes the galvanometer needle to show an alternating current.",
+  "types": [
+   "recall",
+   "explanation",
+   "application",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-21T11:34:52+00:00"
  }
 }
