@@ -9555,5 +9555,383 @@
   "marks": 10,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-22T08:25:16+00:00"
+ },
+ "p4-489": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.3.1.2",
+   "4.5.6.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses diodes and electromagnetic induction in the context of an electric toothbrush charger. In part (a), students draw the circuit symbol for a diode and state its function. In part (b)(i), students complete a circuit diagram connecting an induction coil (coil X) to a battery via a diode to allow charging. In part (b)(ii), students explain how an alternating voltage is induced in coil X due to the changing magnetic field produced by an alternating current in coil Y.",
+  "types": [
+   "recall",
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:28:24+00:00"
+ },
+ "p4-490": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.1.11",
+   "4.5.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates the magnetic field around a current-carrying conductor and the operation of an electromagnetic door lock. In part (a), students indicate the direction of the magnetic field around a wire carrying current into the page and explain why increasing line spacing represents decreasing field strength. In part (b), students describe and explain the motion of an unmagnetised iron bolt attached to a spring when a switch in a solenoid circuit is closed (attracting the bolt to lock the door) and reopened (allowing the spring to pull the bolt back).",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:28:24+00:00"
+ },
+ "p4-491": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.1.1",
+   "4.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding of alternating current generators and electromagnetic induction. In part (a), candidates sketch an e.m.f.–time graph for an a.c. generator over two complete rotations (0.040 s) and mark a point indicating when the coil is vertical. In part (b), an instrument containing a solenoid with an iron core is used to detect a hidden wall wire carrying alternating current. Candidates explain why an e.m.f. is induced to produce a voltmeter reading, and state the name and rectifying effect of diode X.",
+  "types": [
+   "explanation",
+   "data",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:28:45+00:00"
+ },
+ "p4-492": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines nuclear fission and nuclear fusion. In part (a)(i), candidates explain the meaning of nuclear fission. In part (a)(ii), they compare nuclear power stations to wind turbines by stating one advantage and one disadvantage of using nuclear power. In part (b), candidates use nuclide notation to write down a complete nuclide equation for the fusion of two deuterium nuclei (each having 1 proton and 1 neutron) forming a helium nucleus and a neutron.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:29:07+00:00"
+ },
+ "p4-493": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question addresses nuclear notation, nuclear fission, and power generation. In part (a), candidates state the meaning of the numbers 92 and 235 in the symbol ^235_92 U. In part (b)(i), they name the nuclear process that releases energy in a reactor, and in (b)(ii) they describe the mass and energy changes associated with a given fission equation. In part (c)(i), candidates describe the conversion of thermal energy into electrical energy in a nuclear power station, and in (c)(ii) they give one advantage and one disadvantage of nuclear fuels compared to fossil fuels.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:29:07+00:00"
+ },
+ "p4-494": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.1.2.5",
+   "5.1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns hydrogen isotopes and nuclear fusion. Part (a) asks for one similarity between the nuclei of hydrogen-2 and hydrogen-3, and how the nucleus of hydrogen-3 differs from hydrogen-2. Part (b)(i) asks for an explanation of why an extremely high temperature is required to force the two nuclei to fuse. Part (b)(ii) requires completing a nuclear fusion equation using nuclide notation for the reaction of hydrogen-2 with hydrogen-3.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:29:30+00:00"
+ },
+ "p4-495": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3",
+   "5.1.2.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates the alpha-particle scattering experiment and atomic structure. Part (a)(i) requires completing the paths of three alpha-particles directed towards gold nuclei in a diagram. Part (a)(ii) asks for the sign of the electric charge on alpha-particles. Part (b) asks to state the numbers of electrons, neutrons, and protons in a neutral atom of gold-198 given its nuclide notation ^198_79 Au.",
+  "types": [
+   "recall",
+   "data",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:29:30+00:00"
+ },
+ "p4-496": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses knowledge of isotopes, nuclide notation, and nuclear fusion. In part (a), candidates write nuclide symbols for hydrogen-2 and hydrogen-3. In part (b)(i), candidates define what is meant by nuclear fusion. In part (b)(ii), they write a balanced nuclide equation for the fusion of hydrogen-2 and hydrogen-3 to form a neutron and another nucleus (helium-4). In part (c), candidates state two energy resources on Earth for which nuclear fusion in the Sun is not the original energy source, such as geothermal, nuclear fission, or tidal energy.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:29:53+00:00"
+ },
+ "p4-497": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.1",
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines atomic structure and beta decay equations. In part (a), candidates describe the composition and structure of a neutral beryllium-8 atom, detailing the number of protons, neutrons, and orbiting electrons. In part (b), candidates use a provided table of elements with their corresponding proton numbers to write a complete nuclide equation for a radioactive decay by beta-emission that forms a barium-135 nucleus.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:29:53+00:00"
+ },
+ "p4-498": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.4.3"
+  ],
+  "section_ok": false,
+  "suggested_section": "5.2",
+  "difficulty": 2,
+  "text": "Fig. 11.1 shows a beam of α-particles, β-particles, and γ-rays directed between two parallel metal plates, where plate P is positively charged and plate Q is negatively charged. Part (a) requires drawing and labeling the trajectories of each of the three types of radiation while passing between the plates and after leaving them. Part (b) asks students to state one practical application of γ-rays and explain the reasoning behind its use.",
+  "types": [
+   "data",
+   "explanation",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:30:18+00:00"
+ },
+ "p4-499": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3",
+   "5.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 9.1 illustrates a beam of α-particles directed at a thin sheet of gold in a vacuum surrounded by detectors. Part (a) asks students to state deductions and explanations for three experimental observations: most α-particles pass through undeflected, a small number are deflected slightly, and a very small number are deflected through very large angles or backscattered. Part (b) asks students to state two ways the deflection of α-particles differs from that of β-particles in a perpendicular magnetic field.",
+  "types": [
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:30:18+00:00"
+ },
+ "p4-500": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.3",
+   "5.2.4.1",
+   "5.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests understanding of the alpha-particle scattering experiment and radioactive decay. Part (a) asks for conclusions about atomic structure and the nucleus based on observations of alpha particles directed at thin gold foil. Part (b)(i) requires stating the change in a nucleus when a β-particle is emitted. Part (b)(ii) involves calculating the mass of a strontium isotope that decays in 87 years, given an initial mass of 25 μg and a half-life of 29 years.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:30:40+00:00"
+ },
+ "p4-501": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.2.3",
+   "5.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on radioactive decay equations and the deflection of radiation in a magnetic field. Part (a)(i) requires completing the nuclide decay equation for the β-decay of thallium-208 to lead. Part (a)(ii) asks why accompanying γ-emission does not alter the numbers in the equation. Part (a)(iii) asks for a reason why a nucleus of thallium-208 is unstable. Part (b) asks to draw and label the paths of β-particles and γ-radiation as they pass through a uniform magnetic field directed into the page.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:30:40+00:00"
+ },
+ "p4-502": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.5.3",
+   "5.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question addresses safety precautions, tracer suitability, and radioactive decay equations. Part (a)(i) asks for two safety precautions when using radioactive isotopes in medical procedures along with an explanation for each. Part (a)(ii) requires two reasons why alpha-emitters are unsuitable as medical tracers inside the human body. Part (b) provides information on sodium-24, which undergoes beta-decay to form a magnesium isotope, and asks to write the full nuclide equation for this decay process.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:31:23+00:00"
+ },
+ "p4-503": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.3",
+   "5.2.1.5",
+   "5.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates the use of a radioactive tracer to detect leaks in underground water pipes. Part (a)(i) asks for the definition of background radiation, and part (a)(ii) asks for a significant source of background radiation. Part (a)(iii) requires calculating the corrected count rate of the tracer by subtracting the background count from the measured total count rate. Part (b) asks to choose and explain whether alpha, beta, or gamma radiation is most suitable for detecting the leak. Part (c) asks for explanations of why the tracer isotope must not have either a very short or a very long half-life.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:31:23+00:00"
+ },
+ "p4-504": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.3.4",
+   "5.1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines the structure and radioactive decay of carbon-14 (^14_6C). In part (a), candidates draw a diagram showing the arrangement and correct number of protons, neutrons, and electrons in a neutral carbon-14 atom. Part (b) asks candidates to describe how the composition of a carbon-14 atom differs from that of a nitrogen-14 (^14_7N) atom. Part (c) requires stating the particle identical to a beta-particle and describing the nuclear change taking place during beta decay. In part (d), candidates calculate the time elapsed for a wooden object whose carbon-14 content decreases from 9.6 × 10^11 to 1.2 × 10^11 atoms, given a half-life of 5700 years.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:32:06+00:00"
+ },
+ "p4-505": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.1",
+   "5.2.4.3",
+   "5.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns carbon isotopes, carbon dating, and practical uses of radioactive materials. In part (a), candidates explain how a carbon-14 atom differs from a carbon-12 atom. Part (b) asks candidates to describe how carbon-14 content decreases over time in a dead organism, and to calculate how many years ago a tree died given that the ratio of carbon-14 to carbon-12 dropped from 1 : 1 × 10^12 to 1 : 4 × 10^12, with a half-life of 5700 years. Part (c) requires suggesting a practical use for an isotope with a short half-life of one hour and explaining why a short half-life is suitable.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:32:06+00:00"
+ },
+ "p4-506": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.2.4.3",
+   "5.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns the use of a boron isotope in cancer treatment. Part (a)(i) asks for one difference between nuclear fission and nuclear fusion. Part (a)(ii) requires completing a nuclide equation for a boron nucleus absorbing a neutron and undergoing fission into a lithium nucleus and an alpha-particle. Part (b) asks to suggest and explain why alpha particles are more suitable than gamma radiation for treating brain cancer locally. Part (c) asks for one safety precaution taken by a health professional administering gamma radiation treatment.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:32:50+00:00"
+ },
+ "p4-507": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.3",
+   "5.2.3.4",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question evaluates atomic structure, radioactive decay, and half-life using an atomic diagram. Part (a) asks to determine the number of neutrons in a neutral atom of isotope X1 from a diagram and explain how it is obtained. Part (b)(i) asks how the nucleus of stable isotope X2 differs from beta-emitter X1, and part (b)(ii) asks why X1 is unstable compared to X2. Part (c)(i) requires defining the term half-life, and part (c)(ii) asks why isotopes with very short half-lives present a particular hazard.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T16:32:50+00:00"
  }
 }
