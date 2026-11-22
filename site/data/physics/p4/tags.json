@@ -9161,5 +9161,399 @@
   "marks": 8,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-22T00:50:04+00:00"
+ },
+ "p4-469": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.8",
+   "4.5.6.5",
+   "4.5.6.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns high-voltage power transmission and transformer efficiency. In part (a), candidates explain why electrical power is transmitted at 400 000 V rather than 22 000 V in terms of current reduction and minimizing power loss in transmission lines. In part (b), given the input voltage of 240 V, output voltage of 20 V, output current of 2.3 A, and an efficiency of 90%, candidates calculate the input current to the transformer.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T08:17:14+00:00"
+ },
+ "p4-470": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.3",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question relates to the operation of an electromagnetic relay. A diagram displays an electromagnet in circuit A and a motor circuit B controlled by relay contacts via a pivoted L-shaped soft-iron armature. In part (a), candidates describe how closing the switch in circuit A operates the motor in circuit B. In part (b), the soft-iron armature is replaced by steel, and candidates explain what happens to circuit B when the switch in circuit A is closed and then reopened.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T08:17:14+00:00"
+ },
+ "p4-471": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.5",
+   "4.5.6.3",
+   "4.5.6.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks why electrical energy produced by a power station is transmitted over long distances at a very high voltage. Part (b) shows a transformer diagram and asks to calculate the number of turns in the secondary coil given 4000 primary turns, an input voltage of 120 V, and an output voltage of 9.0 V. It also asks for a suitable material for the transformer core.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:19:30+00:00"
+ },
+ "p4-472": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.1",
+   "4.5.2.2",
+   "4.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question shows a diagram of an a.c. generator with a rotating coil, slip rings, and magnetic poles. Part (a)(i) asks why rotating the coil induces an output voltage, while (a)(ii) asks for the position of the coil when the voltage output is maximum and the reason for this. Part (b) asks for an explanation of why a greater force must be applied to keep turning the handle when a connected lamp circuit is closed and illuminated.",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:19:30+00:00"
+ },
+ "p4-473": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2",
+   "4.5.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers demagnetisation and the operation of a d.c. motor. Part (a) asks students to describe how to demagnetise a bar magnet using an alternating current (a.c.) inside a coil. Part (b) shows a diagram of a simple direct current (d.c.) motor. Subpart (i) requires an explanation of the purpose of the split-ring commutator in keeping the coil rotating continuously in one direction. Subpart (ii) asks to state the effect on the motor's operation when the supply voltage is increased.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:19:58+00:00"
+ },
+ "p4-474": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.2.1",
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on a simple alternating current (a.c.) generator. Part (a) asks to sketch a graph of induced electromotive force (e.m.f.) against time for one revolution of a coil starting horizontally, labeling 1/4 and 3/4 revolutions. Part (b) requires an explanation of why an e.m.f. is induced only when the coil turns, referencing the cutting of magnetic field lines. Part (c) asks to name components P and Q (slip rings) and explain their purpose. Part (d) requires stating two changes that increase the induced e.m.f.",
+  "types": [
+   "explanation",
+   "data",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:19:58+00:00"
+ },
+ "p4-475": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.5.1.3",
+   "4.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), a bar magnet on a trolley runs through a coil connected to a sensitive galvanometer. Students state and explain the galvanometer deflection when the trolley is released from point A, and how the deflection changes when it is released from a higher point B. In part (b), students analyze a diagram showing a 3 kW outdoor electric heater connected to an unsuitable extension lead on damp grass, identifying and explaining three electrical safety hazards.",
+  "types": [
+   "explanation",
+   "application",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:20:27+00:00"
+ },
+ "p4-476": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.5.1.3",
+   "4.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "In part (a), a magnet on a door passes a coil on a door frame connected to an LED indicator circuit. Students explain why the indicator turns on and off as the door opens, and why it flashes brighter and for a shorter duration when the door is shut quickly. In part (b), students state two reasons why using a circuit breaker is recommended when operating an electric lawnmower.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:20:27+00:00"
+ },
+ "p4-477": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.3",
+   "4.5.6.3",
+   "4.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) presents a straight wire AB moving vertically between magnet poles connected to a galvanometer and asks for three factors that affect the magnitude of the galvanometer deflection. Part (b)(i) provides a transformer with 8000 turns on the 240 V primary coil and 12 V output on the secondary coil, requiring the calculation of the number of turns in the secondary coil. Part (b)(ii) asks to complete the circuit diagram attached to terminals A and B containing a resistor, such that direct current (d.c.) flows through the resistor.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:21:26+00:00"
+ },
+ "p4-478": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2",
+   "4.5.5.1",
+   "4.1.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) describes a student's proposed four-step method for demagnetising a bar magnet using alternating current in a coil and asks whether the method will work, requiring an explanation. Part (b)(i) shows a diagram of a simple d.c. motor with a split-ring commutator and asks to state and explain the motion of the coil. Part (b)(ii) presents a table showing combinations of turns, current, and magnetic field strength, asking to choose the resulting turning effect (e.g. 4T, 2T, T/2) for each modified setup from a given box of values.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:21:26+00:00"
+ },
+ "p4-479": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.6",
+   "4.5.6.3",
+   "4.5.6.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses understanding and calculations related to transformers. In part (a), candidates explain why an alternating voltage supply is required for a transformer to function. Part (b) presents a transformer with an 8000-turn primary coil connected to a 240 V supply and a 6.0 V output. Candidates calculate the number of turns in the secondary coil, determine the primary current when a 2.0 A lamp is connected using 100% efficiency, and calculate the maximum number of identical lamps that can be connected in parallel without exceeding a 2 A primary fuse limit.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:22:09+00:00"
+ },
+ "p4-480": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.1",
+   "4.5.1.1",
+   "4.5.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates the turning effect on a current-carrying coil and electromagnetic induction. In part (a), candidates explain why a current-carrying coil in a magnetic field experiences a turning effect and complete a table indicating how changing the number of turns, current, or magnetic field strength alters the magnitude of the turning effect. In part (b), a magnet held below a vertical coil is released and falls. Candidates describe the resulting deflection on a connected galvanometer and state the effect on the magnetic field produced by the induced current in the coil.",
+  "types": [
+   "explanation",
+   "data",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:22:09+00:00"
+ },
+ "p4-481": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.6.3",
+   "4.3.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests electromagnetic induction, Lenz's law, transformer calculations, and rectification components. Part (a) presents a bar magnet being pulled out of a coil connected to a centre-zero galvanometer. Students describe the galvanometer reading over time and explain why an N-pole is produced at the coil's end as the magnet moves. Part (b)(i) requires calculating the turns ratio N_P / N_S for a transformer reducing 240 V mains supply to 12 V. Part (b)(ii) asks students to select the circuit component (diode) required to rectify alternating current to direct current.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:23:07+00:00"
+ },
+ "p4-482": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.6",
+   "4.5.6.3",
+   "4.5.6.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses knowledge of transformer construction, operation, calculations, and high-voltage electricity transmission. Part (a) asks for the metal used for the transformer core. Part (b)(i) asks for an explanation of how an alternating potential difference is induced across the secondary coil. Part (b)(ii) involves calculating the generator voltage given 560 primary turns, 910 secondary turns, and 78 V secondary voltage. Part (c) asks students to explain why transmitting electrical power at high voltage reduces energy losses in cables.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:23:07+00:00"
+ },
+ "p4-483": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.1.1",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates electromagnetic induction using a bar magnet and a coil connected to a galvanometer. Part (a) asks to suggest a suitable metal from which the permanent bar magnet is made. Part (b)(i) asks for an explanation of why a current is induced in the coil when the magnet is moved towards it. Part (b)(ii) requires stating the polarity at end Q of the coil as the magnet approaches and explaining this using Lenz's law. Part (c) asks for two methods to reverse the direction of the current deflection shown on the galvanometer.",
+  "types": [
+   "explanation",
+   "recall",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:24:00+00:00"
+ },
+ "p4-484": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.1.5",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on alternating current, an a.c. generator, and electromagnetic induction. Part (a) asks to state how direct current differs from alternating current. Part (b)(i) requires plotting a current-time graph for a connected heater based on a provided voltage-time graph. Part (b)(ii) asks for a calculation of the peak power produced by the heater. Part (c)(i)-(ii) asks to mark the direction of movement of coil side AB in a generator diagram, deduce the induced current direction using Fleming's right-hand rule, and explain the reasoning. Part (c)(iii) asks for two changes to the output voltage when the coil rotates faster.",
+  "types": [
+   "data",
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:24:00+00:00"
+ },
+ "p4-485": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.4",
+   "4.5.6.1",
+   "4.5.6.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers transformers and high-voltage electrical energy transmission. In part (a), candidates state materials used for transformer coils (copper, due to good electrical conductivity) and the core (soft iron, because it is easily magnetised and demagnetised). In part (b), using a schematic diagram of a power grid, candidates identify transformer X as a step-up transformer and Y as a step-down transformer. They explain why high voltage is used over long transmission distances to reduce current and thereby minimise I^2 R thermal power loss in cables, and state why a safer lower voltage of 240 V is supplied to domestic consumers.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:24:46+00:00"
+ },
+ "p4-486": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.2",
+   "4.5.1.4",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores permanent magnets and electromagnetic induction. In part (a), candidates identify a suitable metal for a permanent bar magnet (such as steel). In part (b), candidates explain why inserting a magnet into a coil connected to a galvanometer produces a deflection, referencing the magnetic field lines cutting the coil to induce an e.m.f./current, and describe what determines the direction of deflection (pole facing coil, direction of motion). In part (c), candidates describe a method for demagnetising a bar magnet, such as placing it in a solenoid connected to an a.c. supply and withdrawing it.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:24:46+00:00"
+ },
+ "p4-487": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2",
+   "4.5.3.1",
+   "4.5.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A horizontal wire PQ carrying current from P to Q is placed between the N and S poles of a magnet. In (a), students draw labelled arrows to show the magnetic field direction and the resulting force direction on the wire. In (b), they state the effect on the force when the current is reversed. In (c), they sketch the circular magnetic field pattern and direction around the isolated wire and state the effect of increasing current. In (d), they state the direction of force on an S pole in a vertically upward magnetic field.",
+  "types": [
+   "data",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:25:16+00:00"
+ },
+ "p4-488": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.6",
+   "4.5.6.3",
+   "4.5.6.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A transformer consists of a 200-turn primary coil P connected to a 4.0 V a.c. supply, a 340-turn secondary coil Q, and a soft iron core. In (a), students explain how an alternating current induces a voltage across coil Q and why soft iron is used for the core. In (b), they calculate the output voltage across coil Q and determine the primary current when a 3.5 A heater is powered assuming 100% efficiency. In (c), they state and explain one economic advantage of transmitting electrical energy at high voltage.",
+  "types": [
+   "explanation",
+   "calculation",
+   "recall"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T08:25:16+00:00"
  }
 }
