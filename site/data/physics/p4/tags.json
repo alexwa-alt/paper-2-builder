@@ -9933,5 +9933,402 @@
   "marks": 8,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-22T16:32:50+00:00"
+ },
+ "p4-508": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.2.2",
+   "5.2.5.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses radioactive emissions, decay, half-life calculations, and safety precautions. Part (a) asks to complete a table detailing the composition, charge, and absorbing materials for alpha, beta, and gamma radiation. Part (b) requires stating how beta-decay changes the nucleus of an atom. Part (c) involves calculating the expected detector reading after 75 minutes, taking into account a background count rate of 30 counts/min, an initial detector reading of 550 counts/min, and a half-life of 25 minutes. Part (d) asks for two safety precautions taken when moving, using, or storing radioactive sources in a laboratory.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:36:01+00:00"
+ },
+ "p4-509": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.4",
+   "5.2.3.5",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers nuclear decay processes and nuclide equations. Part (a)(i) asks what happens to a neutron during beta-decay. Part (a)(ii) requires an explanation of how charge is conserved during this neutron transformation. Part (b) asks to complete the balanced nuclide equation for the alpha-decay of radon-212 (^212_86 Rn) into an isotope of polonium.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:36:01+00:00"
+ },
+ "p4-510": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.2.4",
+   "5.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns americium-241, used in smoke detectors. In part (a), students compare the nuclear compositions of americium-241, americium-242, and an atom of a different element with nucleon number 241. Part (b)(i) asks students to complete a nuclide equation for the alpha decay of americium-241 into neptunium. Part (b)(ii) requires an explanation of why alpha-particles are more ionising than beta-particles. Part (b)(iii) asks for an explanation of the advantages of a long half-life for the decay product in terms of smoke alarm operation and safe disposal.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:36:25+00:00"
+ },
+ "p4-511": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.3",
+   "5.2.3.3",
+   "5.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests practical applications of radioisotopes, nuclear stability, and background radiation. In part (a), candidates select appropriate types of radiation emission and suitable half-lives for a household smoke alarm and for measuring the thickness of aluminium strips in a factory, explaining their reasoning. Part (b) asks candidates to explain why lead-214 is radioactive compared to stable lead-208. Part (c) requires stating two different sources of background radiation.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:36:25+00:00"
+ },
+ "p4-512": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.4.3",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question concerns the alpha decay of americium-241 to neptunium. In part (a), candidates complete the balanced nuclide equation for this decay process. Part (b) illustrates a simple smoke detector circuit containing americium-241. Sub-part (b)(i) asks candidates to describe how americium-241 ionises air particles. Sub-part (b)(ii) asks candidates to suggest and explain two reasons why an alpha emitter is preferred over a gamma emitter in smoke detectors.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:36:56+00:00"
+ },
+ "p4-513": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.5",
+   "5.2.4.2",
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question examines the decay of protactinium-234. Table 10.1 gives measured detector count rates over 180 seconds, while a graph shows corrected count rate against time. In part (a), candidates explain why the uncorrected table values differ from the plotted graph values. In part (b), candidates determine the half-life of protactinium-234 using the decay curve. In part (c), candidates write down the nuclide equation for the beta decay of protactinium-234 to uranium.",
+  "types": [
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:36:56+00:00"
+ },
+ "p4-514": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.3.4",
+   "5.1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns gold isotopes, beta decay, and radioactive decay curves. Part (a) asks what having only one naturally occurring isotope implies about the nuclear structure of gold atoms. Part (b)(i) requires determining the proton and neutron numbers for the mercury isotope formed after beta decay of gold-198. Part (b)(ii) asks to find the background count rate from a count rate versus time graph. Part (b)(iii) requires using the graph to calculate the half-life of gold-198, taking into account the background radiation.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:37:28+00:00"
+ },
+ "p4-515": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.4.1",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question deals with nuclear radiation properties, decay equations, and half-life calculations. Part (a)(i) asks for the proton number and nucleon number of an alpha-particle, and (a)(ii) asks for its total electric charge. Part (b) requires writing a balanced nuclide equation for the beta decay of radium-230 into actinium. Part (c) asks for a calculation of the remaining mass of radium-230 after 279 minutes, given an initial mass of 9.6 × 10^-12 g and a half-life of 93 minutes.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:37:28+00:00"
+ },
+ "p4-516": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.2.2",
+   "5.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) presents a cloud chamber diagram showing tracks produced by an alpha and beta particle source, asking students to identify which tracks correspond to alpha and beta particles and to explain their reasoning using ionizing power and range. Part (b)(i) asks for the definition of an isotope. Part (b)(ii) requires writing a nuclide equation for the beta-decay of sodium (with 11 protons and 13 neutrons) to magnesium. Part (b)(iii) asks students to explain why a half-life of 15 hours and a stable product make this sodium isotope suitable for detecting leaks in underground water pipes.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:38:17+00:00"
+ },
+ "p4-517": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.2.2",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the proton number, nucleon number, and relative charge of an alpha particle. Part (b) asks students to write down the nuclide equation for the beta decay of strontium-90 (containing 38 protons and 52 neutrons) into an isotope of yttrium. Part (c) presents a half-life problem where students must calculate the original mass of a radon-220 sample given its half-life of 56 seconds and a remaining mass of 9.2 mg after an elapsed time of 112 seconds.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T22:38:17+00:00"
+ },
+ "p4-518": {
+  "status": "done",
+  "subpoints": [
+   "5.2.4.2",
+   "5.2.1.5",
+   "5.2.5.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student investigates radioactive decay using a decay curve showing count rate against time with a given background radiation. Part (a) asks to determine the half-life of the substance by accounting for background radiation, and then calculate the count rate detected at a later time. Part (b) presents a substance emitting alpha particles and gamma rays, asking to state and explain whether it is safe to store it in a plastic container of thickness 2 mm, referencing the penetrating abilities of the emissions.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:39:54+00:00"
+ },
+ "p4-519": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.5.3",
+   "5.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows a beam of radiation containing alpha, beta, and gamma rays entering a region with a uniform magnetic field out of the page, and requires marking and labeling the paths of each type of radiation. Part (b) asks for two safety precautions when hospital staff work with gamma-ray sources. Part (c) provides information about iodine-131 (53 protons and 78 neutrons), asking to use nuclide notation to show this isotope, and to explain why its emission and half-life make it suitable as a medical tracer.",
+  "types": [
+   "application",
+   "recall",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:39:54+00:00"
+ },
+ "p4-520": {
+  "status": "done",
+  "subpoints": [
+   "5.1.1.1",
+   "5.1.2.3",
+   "5.1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of atomic structure, isotopes, and nuclear fission. Part (a) asks to describe the composition and structure of a neutral uranium-235 atom in terms of protons, neutrons, and electrons. Part (b) requires explaining how uranium-238 differs from uranium-235. Part (c) involves completing a nuclear fission equation for uranium-235 absorbing a neutron to produce xenon-140, element E, and neutrons. Part (d) asks to determine the proton number and nucleon number of isotope Q formed by the beta-emission of xenon-140.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:40:12+00:00"
+ },
+ "p4-521": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.2",
+   "5.2.2.1",
+   "5.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers background radiation, radioactive decay equations, and half-life calculations. Part (a) asks for a source of background count rate readings in an empty laboratory and why these readings are not constant due to the random nature of radioactive decay. Part (b) requires completing a nuclide equation for the alpha decay of a uranium nucleus into thorium. Part (c) is a half-life calculation to find the time taken for 16 mg of a radon isotope with a half-life of 3.8 days to decay to 2 mg.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:40:12+00:00"
+ },
+ "p4-522": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.3",
+   "5.1.2.8",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) gives details about hydrogen-1, helium-3, and helium-4, requiring students to complete a table for neutral atoms of the helium isotopes regarding the number of neutrons, electrons, and mass compared to hydrogen-1. Part (b) describes an experiment with a radioactive material wrapped in thin aluminium foil where a detector registers a reading. When a thicker piece of aluminium is added, the reading drops to zero. Students must state and explain which type of radiation can pass through the thin foil but is blocked by the thicker aluminium.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:40:30+00:00"
+ },
+ "p4-523": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.5",
+   "5.2.3.5",
+   "5.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) presents a diagram of a neutral atom of an isotope of element X (Fig. 10.1) and asks for one similarity between this atom and a different isotope of element X. Part (b)(i) asks students to deduce the nuclide notation for isotope Y produced when element X decays by emitting a beta-particle. Part (b)(ii) requires an explanation of why beta-particles ionise the air less strongly than alpha-particles, referring to their properties.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:40:30+00:00"
+ },
+ "p4-524": {
+  "status": "done",
+  "subpoints": [
+   "5.2.2.3",
+   "5.2.2.2",
+   "5.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Fig. 10.1 shows a vacuum tube with a radioactive source emitting alpha-particles, beta-particles, and gamma-rays through a lead cylinder with a narrow central hole into a magnetic field. Part (a) asks to state and explain the effect of the lead cylinder in producing a fine beam. Part (b) requires describing and explaining the paths of alpha-particles, beta-particles, and gamma-rays as they pass through the magnetic field, including their direction of deflection based on their charge and nature.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:40:49+00:00"
+ },
+ "p4-525": {
+  "status": "done",
+  "subpoints": [
+   "5.2.3.5",
+   "5.2.1.2",
+   "5.2.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to complete a nuclide equation for the beta decay of carbon-14 to nitrogen-14 and state the name of the emitted particle. Part (b)(i) asks to explain why a radiation detector records a background count rate in the absence of radioactive sources and to suggest a possible source. Part (b)(ii) provides data on the count rates of living and ancient wood samples to check via a half-life calculation whether a suggested age of 11,400 years is correct, accounting for background radiation.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:40:49+00:00"
+ },
+ "p4-526": {
+  "status": "done",
+  "subpoints": [
+   "5.2.1.1",
+   "5.2.3.5",
+   "5.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks students to state what is meant by background radiation and suggest a source for it. Part (b)(i) requires students to deduce the type of radiation emitted by polonium-208 based on count rate data when paper is inserted, and explain their answer. Part (b)(ii) asks students to write down the nuclide equation for the alpha decay of polonium-208 into lead.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:41:06+00:00"
+ },
+ "p4-527": {
+  "status": "done",
+  "subpoints": [
+   "5.1.2.6",
+   "5.2.4.3",
+   "5.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires stating two differences between nuclear fission and nuclear fusion. Part (b)(i) asks for an explanation of why a gamma-emitting radioactive tracer should not have a half-life significantly shorter or longer than about 6 hours. Part (b)(ii) asks to complete a nuclide equation for the beta decay of molybdenum-99 into technetium-99. Part (b)(iii) asks for another use of radioactive nuclides in medicine.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-22T22:41:06+00:00"
  }
 }
