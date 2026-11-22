@@ -8769,5 +8769,397 @@
   "marks": 9,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-21T11:34:52+00:00"
+ },
+ "p4-449": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.1",
+   "4.5.6.6",
+   "4.5.6.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A radio is connected to the mains supply using a step-down transformer. In part (a), draw a labelled diagram showing the structure of a basic step-down transformer. In part (b), explain the principle of operation of a basic transformer. In part (c), given a mains supply voltage of 230 V and an output voltage of 6.0 V, calculate the value of the turns ratio (N_s / N_p) to two significant figures.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:31:45+00:00"
+ },
+ "p4-450": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.4",
+   "4.5.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A cylindrical magnet is dropped through two vertical tubes of identical dimensions held in a vacuum: one plastic and one copper. In part (a), using the time taken to fall through the plastic tube without resistive force and the mass of the magnet, calculate its kinetic energy upon reaching the bottom. In part (b)(i), explain why an electric current is generated in the copper tube as the magnet falls through it. In part (b)(ii), explain why the magnet falls much more slowly through the copper tube than through the plastic tube.",
+  "types": [
+   "calculation",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:31:45+00:00"
+ },
+ "p4-451": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.2",
+   "4.5.4.3",
+   "4.1.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A plotting compass is placed between two magnetic poles of a U-shaped magnet. Part (a) asks to identify the magnetic polarity of each pole from the compass needle's orientation. Part (b) shows a current-carrying wire positioned between a north and south pole and requires drawing an arrow to show the direction of the magnetic force acting on the wire. Part (c) presents a beta-particle travelling through the same magnetic field and asks to draw an arrow representing the direction of the magnetic force acting on the moving charged particle.",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "marks": 5,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:37:04+00:00"
+ },
+ "p4-452": {
+  "status": "done",
+  "subpoints": [
+   "4.2.2.5",
+   "4.3.1.2",
+   "4.2.2.6"
+  ],
+  "section_ok": false,
+  "suggested_section": "4.3",
+  "difficulty": 2,
+  "text": "An alternating current supply is shown with an e.m.f.–time waveform at a frequency of 60 Hz. Part (a) asks to calculate the time period. Part (b) connects this supply to a diode, a lamp, and a resistor in series; it asks to name the diode component and calculate the average current over one time period given the number of electrons passing through the diode. Part (c) asks to mark the direction of electron flow through the lamp and conventional current through the resistor. Part (d) requires calculating the power delivered when the lamp and resistor are connected to a 12 V d.c. supply carrying 0.35 A.",
+  "types": [
+   "recall",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:37:04+00:00"
+ },
+ "p4-453": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.2",
+   "4.5.6.3",
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A bar magnet suspended from a spring oscillates vertically inside a coil connected to a centre-zero galvanometer. Part (a) asks to describe and explain the deflection and movement of the galvanometer needle as the magnet oscillates, and to state the effect on the needle when a stronger magnet is used. Part (b) presents a step-up transformer stepping up a power station voltage from 25000 V to 400000 V with 36000 turns on the secondary coil, requiring calculation of the number of turns on the primary coil.",
+  "types": [
+   "explanation",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:40:57+00:00"
+ },
+ "p4-454": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.3",
+   "4.2.5.2",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A car starter motor is operated via a magnetic relay containing two springy soft iron strips inside a magnetising coil. In part (a), students explain what happens to the iron strips when the coil switch is closed. In part (b), students calculate the current drawn by a 1.8 kW starter motor powered by a 12 V battery, and explain why wires with a large cross-sectional area are required for this high-current circuit. In part (c), students complete the circuit diagram connecting the starter motor and battery through the relay terminals.",
+  "types": [
+   "explanation",
+   "calculation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:40:57+00:00"
+ },
+ "p4-455": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.2",
+   "4.2.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An alternating current supply with a frequency of 50 Hz is connected in series with a diode and a resistor. Part (a) asks to calculate the time period of the a.c. supply. Part (b) states that the peak potential difference across the resistor is 340 V, and asks to sketch a potential difference against time graph showing the half-wave rectified waveform for two cycles, labelling the peak p.d. value and two corresponding time values on the axes.",
+  "types": [
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:43:07+00:00"
+ },
+ "p4-456": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.1",
+   "4.5.6.3",
+   "4.5.6.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A solenoid is connected across a d.c. battery. In part (a), candidates are asked to draw the pattern and direction of the magnetic field inside and around the solenoid. In part (b), an electrical transmission system reduces voltage from 400 kV to 33 kV using a step-down transformer; given that the primary coil has 11 000 turns, candidates must calculate the number of turns on the secondary coil.",
+  "types": [
+   "data",
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:43:07+00:00"
+ },
+ "p4-457": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.5",
+   "4.5.1.1",
+   "4.5.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A horizontal conducting wire XY forms a circuit with an ammeter and is positioned between magnetic north and south poles. Part (a) asks why the ammeter reading is zero when the wire is stationary. Part (b) presents a situation where moving the wire produces an induced current from X to Y; students must select the direction of motion from a table using Fleming's right-hand rule and explain their choice. Part (c) asks for the effect on the ammeter reading when the wire is moved in the opposite direction, and when moved in the same direction at a greater speed.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:46:04+00:00"
+ },
+ "p4-458": {
+  "status": "done",
+  "subpoints": [
+   "4.5.2.2",
+   "4.5.6.6",
+   "4.5.6.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An alternating current (a.c.) generator is shown with a coil rotating between magnetic poles. In part (a), students sketch a graph of electromotive force against time for two complete revolutions, label the point of maximum e.m.f. when the coil is horizontal, and state two ways the e.m.f. changes when the handle is rotated faster. In part (b), the output terminals are connected to a transformer; students state and explain what happens in the transformer as the generator turns. In part (c), students explain why power losses in transmission cables are reduced when electrical energy is transmitted at higher voltages.",
+  "types": [
+   "data",
+   "explanation",
+   "recall"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-22T00:46:04+00:00"
+ },
+ "p4-459": {
+  "status": "done",
+  "subpoints": [
+   "4.1.6",
+   "4.1.8",
+   "4.1.7"
+  ],
+  "section_ok": false,
+  "suggested_section": "4.1",
+  "difficulty": 2,
+  "text": "Part (a) asks to draw three magnetic field lines showing pattern and direction between the N and S poles of two magnets. Part (b)(i) asks to draw the orientation of a plotting compass needle in the gap between the poles, and (b)(ii) asks to explain why it comes to rest in that position. Part (c) asks to describe a method of demagnetising a bar magnet.",
+  "types": [
+   "explanation",
+   "data",
+   "recall"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:47:59+00:00"
+ },
+ "p4-460": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2",
+   "4.5.4.3",
+   "4.5.5.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify the deflection of alpha-particles and gamma-rays in an electric field between charged plates and in a magnetic field between N and S poles. Part (b) presents a d.c. electric motor with a split-ring commutator, asking to state and explain its direction of rotation, state the moment when the coil is perpendicular to the field, and explain how the commutator ensures continuous rotation.",
+  "types": [
+   "explanation",
+   "data",
+   "application"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:47:59+00:00"
+ },
+ "p4-461": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3",
+   "4.5.6.1",
+   "4.5.6.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) requires calculating the number of turns on the secondary coil of a transformer given the primary voltage, secondary voltage, and primary turn number. Part (b) asks for a labelled diagram of a step-down transformer including suitable materials for its components. Part (c) asks for an explanation of how a transformer operates using alternating current and magnetic flux induction.",
+  "types": [
+   "calculation",
+   "explanation",
+   "recall"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:48:25+00:00"
+ },
+ "p4-462": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.3",
+   "4.5.6.7",
+   "4.5.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) involves calculating the output voltage and output current for a 100% efficient transformer given turn numbers, primary voltage, and primary current. Part (b) asks students to determine the direction of current in a wire in a magnetic field using Fleming's left-hand rule and to state and explain the wire's motion when the current is reversed. Part (c) asks for the function of a split-ring commutator in a d.c. motor.",
+  "types": [
+   "calculation",
+   "data",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:48:25+00:00"
+ },
+ "p4-463": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.5.3.5",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question investigates electromagnetic induction using an induction hob setup. Part (a) asks students to describe the magnetic effect produced by an alternating current in a flat coil. Part (b) asks to state the quantity induced in the steel base of a pan placed above the coil. Part (c) asks students to state and explain how this induced quantity affects the temperature of water inside the pan, requiring an explanation of how induced currents (eddy currents) generate thermal energy due to electrical resistance.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:48:49+00:00"
+ },
+ "p4-464": {
+  "status": "done",
+  "subpoints": [
+   "4.5.1.1",
+   "4.1.3",
+   "4.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "This question assesses magnetic materials and mutual induction between concentric solenoids. Part (a) requires explanations for why copper is used for solenoid wire (free electron structure) and why soft iron is used for the core (easily magnetised and demagnetised). Part (b)(i) asks students to describe and explain what occurs in solenoid Y when solenoid X is powered by alternating current, focusing on electromagnetic induction caused by a changing magnetic field. Part (b)(ii) asks students to describe and explain the change in current in solenoid X when a circuit with a lamp connected to solenoid Y is closed.",
+  "types": [
+   "explanation",
+   "application"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:48:49+00:00"
+ },
+ "p4-465": {
+  "status": "done",
+  "subpoints": [
+   "4.5.6.6",
+   "4.5.6.7",
+   "4.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student designs a simple transformer using a U-shaped piece of iron to step down an alternating supply of 12.0 V to an output of 2.0 V. The student completes and labels the diagram showing the primary and secondary coils connected to the supply and output. The question asks to explain the function of the iron piece and to calculate the input current when the output connected to a lamp draws 100 mA, assuming 100% efficiency. Lastly, students must state and explain an essential safety feature required for a transformer enclosed in a metal case.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:49:17+00:00"
+ },
+ "p4-466": {
+  "status": "done",
+  "subpoints": [
+   "4.5.5.2",
+   "4.5.5.1",
+   "4.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram illustrates a simple direct current (d.c.) electric motor with a coil between permanent magnet poles, connected to brushes and a split-ring commutator. Students draw arrows to show the direction of rotation of the coil and explain their choice using the magnetic field and current directions. They also draw and explain the direction of electron flow in the coil relative to the battery terminals. Finally, they state the effect on rotation when the supply polarity is reversed, when additional turns are added to the coil, and when a stronger magnetic field is used.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:49:17+00:00"
+ },
+ "p4-467": {
+  "status": "done",
+  "subpoints": [
+   "4.5.4.3",
+   "4.1.7",
+   "4.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify the material used to make a permanent magnet from a given list. Part (b) shows a beam of electrons traveling vertically downwards between the N-pole and S-pole of a magnet; (b)(i) asks for the definition of magnetic field direction and the field direction between the poles, while (b)(ii) asks to describe and explain the deflection of the electron beam. Part (c) asks how a uniform magnetic field can be used to separate a beam containing alpha-particles, beta-particles, and gamma-rays.",
+  "types": [
+   "recall",
+   "explanation",
+   "application"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:50:04+00:00"
+ },
+ "p4-468": {
+  "status": "done",
+  "subpoints": [
+   "4.1.8",
+   "4.5.3.1",
+   "4.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) shows a bar magnet and four plotting compasses, asking to draw arrows indicating the magnetic field direction on three compasses and to label the magnet's poles. Part (b) asks to describe one method of demagnetising a bar magnet. Part (c) shows a cross-section of a wire carrying current into the plane of the paper; (c)(i) asks to draw the magnetic field pattern and direction around the wire, and (c)(ii) asks for the effect on the magnetic field when the current direction is reversed.",
+  "types": [
+   "recall",
+   "explanation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-22T00:50:04+00:00"
  }
 }
