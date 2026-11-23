@@ -10727,5 +10727,383 @@
   "marks": 10,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-23T03:56:09+00:00"
+ },
+ "p4-548": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.3",
+   "6.1.1.4",
+   "6.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores the motion of the Moon around Earth and the Earth around the Sun. Part (a) shows a diagram of the Moon at eight positions in its orbit around Earth with sunlight from the side, asking students to identify the positions corresponding to a quarter Moon and a full Moon, and state the orbital period of the Moon. Part (b) provides the average orbital distance of Earth from the Sun and asks for a calculation of Earth's average orbital speed in km/h. Finally, it asks for the calculation of the time taken for light from the Sun to reach Earth.",
+  "types": [
+   "recall",
+   "calculation",
+   "data"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:00:55+00:00"
+ },
+ "p4-549": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.10",
+   "6.1.2.7",
+   "6.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge of objects in the Solar System and planetary orbits. Part (a) asks for two types of natural objects other than planets that orbit the Sun. Part (b) asks for the shape of planetary orbits. Part (c) presents an elliptical orbit around the Sun and asks students to state and explain the energy transfer taking place as an object travels from its closest point A to its furthest point B. Part (d) gives the distance from the Sun to Jupiter and the speed of light, requiring a calculation of the time taken for sunlight to reach Jupiter.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:00:55+00:00"
+ },
+ "p4-550": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.10",
+   "6.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question explores the orbit and thermal properties of Pluto. Part (a) shows an elliptical orbit with points X (closest to the Sun) and Y (furthest away). Candidates describe how Pluto's orbital speed varies from X to Y and back, and explain this variation using kinetic and gravitational potential energy transfers. Part (b) presents Pluto's average temperature of 43 K, asking for conversion to degrees Celsius. Finally, it asks candidates to explain how Pluto's rotating white surface affects its surface temperature due to radiation absorption and emission.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:01:23+00:00"
+ },
+ "p4-551": {
+  "status": "done",
+  "subpoints": [
+   "6.1.2.2",
+   "6.1.2.3",
+   "6.1.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines planetary orbits, characteristics, and calculations for Jupiter, Saturn, and Earth. Given orbital periods for Saturn (30 years) and Jupiter (12 years), part (a) requires calculating angular positions and marking locations S1 and J1 after 5.0 years. Part (b) asks to mark positions S2 and J2 after 20 years and state what is observed from Earth. Part (c) involves classifying Jupiter and Earth using descriptors (gaseous, large, rocky, small) and explaining how their densities and surface gravitational field strengths relate to these classifications. Part (d) requires calculating Jupiter's mass given its average density and volume.",
+  "types": [
+   "calculation",
+   "explanation",
+   "data",
+   "recall"
+  ],
+  "marks": 12,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:01:23+00:00"
+ },
+ "p4-552": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.4",
+   "6.1.2.8",
+   "6.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question presents data in a table about mass, distance from the Sun, orbital period, and surface gravitational field strength for Earth, Jupiter, and an unknown planet X. In part (a), the student identifies planet X from its data. In part (b), the student describes the relationship between planetary mass and surface gravitational field strength shown in the table. In part (c), the student explains why distance from the Sun is an average value due to elliptical orbits. In part (d), the student uses the formula v = 2πr / T to show that Earth's average orbital speed is approximately 30 km/s.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation",
+   "data"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:01:49+00:00"
+ },
+ "p4-553": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9",
+   "6.2.3.11",
+   "6.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks for the condition needed for a protostar to become a stable star. Part (b)(i) requires defining the Hubble constant. Part (b)(ii) asks for the equation used to estimate the age of the Universe using the Hubble constant. Part (b)(iii) asks for a calculation of the age of the Universe in seconds given H_0 = 2.2 × 10^-18 s^-1.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:01:49+00:00"
+ },
+ "p4-554": {
+  "status": "done",
+  "subpoints": [
+   "6.2.2.3",
+   "6.2.1.1",
+   "6.1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question concerns the Sun, its emitted radiation, and its formation. Part (a) asks for the three regions of the electromagnetic spectrum in which the Sun emits most of its energy. Part (b) requires calculating the distance from the Sun to the Earth using the speed of electromagnetic radiation and travel time. Part (c)(i) asks to describe and explain the process by which an interstellar cloud of gas forms a protostar. Part (c)(ii) asks to explain how a protostar matures into a stable star.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:02:11+00:00"
+ },
+ "p4-555": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.6",
+   "6.2.3.4",
+   "6.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "This question tests knowledge of galaxies, cosmology, and cosmic microwave background radiation (CMBR). Part (a) asks for the name of the galaxy containing the Sun. Part (b) asks for the theory of the Universe supported by redshift observations from distant galaxies. Part (c)(i) asks when CMBR was produced, and part (c)(ii) asks for an explanation of why this radiation has expanded into the microwave region of the electromagnetic spectrum.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:02:11+00:00"
+ },
+ "p4-556": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9",
+   "6.2.3.10",
+   "6.2.3.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question addresses redshift, the Hubble constant, galaxy recession speed, and cosmological expansion. Part (a) asks to state the name of the effect where light wavelength from a distant galaxy is stretched (redshift). Part (b)(i) requires recalling the value of the Hubble constant H0. Part (b)(ii) involves calculating the recession speed of a galaxy at a given distance using the Hubble equation v = H0 * d. Part (b)(iii) asks for an explanation of how measurements of galaxy recession speeds and distances indicate that the Universe originated from a single point.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:02:38+00:00"
+ },
+ "p4-557": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.11",
+   "6.2.2.2",
+   "6.2.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on galaxies, astronomical distances, and cosmological observations. Part (a) asks for the definition of a galaxy. Part (b) requires converting a distance given in light-years (100 000 light-years) into kilometres using the value of a light-year. Part (c)(i) asks for the observation used to determine a galaxy's recession speed (redshift or wavelength change). Part (c)(ii) asks for the observation used to find the distance to a far galaxy (brightness of a supernova). Part (c)(iii) requires stating the relationship between galaxy recession speed and distance. Part (c)(iv) asks to calculate an estimate for the age of the Universe using the Hubble constant.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:02:38+00:00"
+ },
+ "p4-558": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.4",
+   "6.1.2.10",
+   "6.1.2.9"
+  ],
+  "section_ok": false,
+  "suggested_section": "6.1",
+  "difficulty": 2,
+  "text": "Part (a) asks to name one planet further from the Sun than Venus and one planet closer. Part (b) requires calculating the average orbital speed of Venus in m/s given its average orbital radius of 1.1 × 10^11 m and an orbital period of 220 Earth days. Part (c) asks to state the relationship between the orbital speeds of planets and their distances from the Sun. Part (d) asks to state how the speed of a comet changes as it orbits the Sun and to explain this behavior using the conservation of energy.",
+  "types": [
+   "recall",
+   "calculation",
+   "explanation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:03:10+00:00"
+ },
+ "p4-559": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.2",
+   "6.2.3.4",
+   "6.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Part (a) asks to identify all labels representing one wavelength from a diagram of a transverse wave. Part (b) presents observed electromagnetic wavelength data for hydrogen from a very distant galaxy versus a laboratory source, asking for the name of the effect and what it reveals about the galaxy's motion. Part (c) provides a table showing hydrogen wavelengths from galaxies at increasing distances and asks what this demonstrates regarding the motions of galaxies and the evolution of the Universe.",
+  "types": [
+   "data",
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:03:10+00:00"
+ },
+ "p4-560": {
+  "status": "done",
+  "subpoints": [
+   "6.2.2.3",
+   "6.2.2.1",
+   "6.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question tests knowledge about the life cycle of stars and astronomical distance measurements. In part (a), candidates describe the process by which a massive star forms a black hole at the end of its life cycle. In part (b)(i), candidates define the term light-year. In part (b)(ii), candidates calculate the distance in kilometers from Earth to a star system located 7800 light-years away.",
+  "types": [
+   "explanation",
+   "recall",
+   "calculation"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:03:34+00:00"
+ },
+ "p4-561": {
+  "status": "done",
+  "subpoints": [
+   "6.1.1.4",
+   "6.2.3.2",
+   "6.1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question examines planetary orbits and galactic redshift. In part (a), candidates use the given orbital radius and period of Mars to calculate its average orbital speed in km/s. In part (b), candidates state the elliptical shape of planetary orbits. In part (c)(i), candidates explain what is meant by redshift in terms of light emitted from receding galaxies. In part (c)(ii), candidates identify the quantity (recession speed) calculated using galactic redshift.",
+  "types": [
+   "calculation",
+   "recall",
+   "explanation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:03:34+00:00"
+ },
+ "p4-562": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9",
+   "6.2.2.3",
+   "6.1.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers planetary motion, seasonal variations, stellar evolution, and cosmology. Part (a) asks for the equation defining average orbital speed v and the meaning of its symbols. Part (b) asks for an explanation of why regions far from the Equator experience significant annual temperature variations. Part (c) requires completing a paragraph describing the life cycle of a high-mass star following its main sequence stage, including its supernova phase and final remnants. Part (d) requires calculating the distance to a receding galaxy in light-years given its recession speed and the Hubble constant.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:04:32+00:00"
+ },
+ "p4-563": {
+  "status": "done",
+  "subpoints": [
+   "6.2.2.2",
+   "6.2.3.9",
+   "6.2.3.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question assesses concepts related to light-years, galaxy recession speeds, and cosmic distance measurement. Part (a) requires showing that 1 light-year is equal to 9.5 × 10^15 m using the speed of light and time calculations. Part (b)(i) asks for one measurement used to determine the recession speed v of a galaxy. Part (b)(ii) asks for the equation relating recession speed v and distance d. Part (b)(iii) asks how the distance to a far galaxy can be determined without using Hubble's law, such as by observing supernova brightness.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:04:32+00:00"
+ },
+ "p4-564": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9",
+   "6.2.1.2",
+   "6.2.3.11"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question covers stellar energy processes, galactic redshift, and Hubble constant calculations. In part (a), candidates describe nuclear fusion of hydrogen into helium within the core of a stable star. In part (b)(i), candidates describe redshift in the light observed from a distant galaxy, and in part (b)(ii), state the quantity used to calculate its recession speed. In part (c)(i), candidates calculate the distance of a receding galaxy using the Hubble constant H0 = 2.2 × 10^-18 s^-1. Finally, in part (c)(ii), candidates calculate an estimate for the age of the Universe in years.",
+  "types": [
+   "recall",
+   "explanation",
+   "calculation"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:05:21+00:00"
+ },
+ "p4-565": {
+  "status": "done",
+  "subpoints": [
+   "6.2.2.3",
+   "6.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "This question assesses knowledge of stellar formation and the life cycle of stars through sentence-completion tasks. In part (a), candidates identify the interstellar cloud of gas and dust from which protostars form. In part (b), candidates state the balance between inward gravitational force and outward thermal or radiation pressure required for a protostar to become a stable star. In part (c), candidates state hydrogen as the initial fuel powering stellar nuclear reactions. In part (d), candidates identify the planetary nebula formed when a Sun-sized red giant star collapses to a white dwarf.",
+  "types": [
+   "recall",
+   "explanation"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:05:21+00:00"
+ },
+ "p4-566": {
+  "status": "done",
+  "subpoints": [
+   "6.2.3.9",
+   "6.2.3.11",
+   "6.2.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "This question focuses on cosmology, specifically the Hubble constant and cosmic microwave background radiation (CMBR). In part (a)(i), students state what the symbol H0 represents and write its defining equation in terms of galaxy speed and distance. In part (a)(ii), they state the unit of H0. In part (a)(iii), students use the value H0 = 2.2 × 10^-18 to calculate an estimate for the age of the Universe in seconds. In part (b), students state when cosmic microwave background radiation was formed and where it is detected coming from.",
+  "types": [
+   "recall",
+   "calculation"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-23T15:05:43+00:00"
  }
 }
