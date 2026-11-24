@@ -2623,16 +2623,46 @@
   "updated": "2026-11-24T12:49:17+00:00"
  },
  "p6-135": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Invalid \\escape: line 1 column 508 (char 507)",
-  "updated": "2026-11-24T12:49:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The experiment investigates the cooling rate of a thermometer bulb in air after removal from hot water and cooler water. Students read the initial water temperature from a thermometer diagram, fill in the missing units and time values in a results table, and calculate the temperature drops over 60 seconds for both trials. They explain why the temperature drop is smaller when the starting temperature is lower, provide a precaution to ensure reliable thermometer readings (such as avoiding parallax), and suggest a reason why different students might obtain different temperature drop values.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T23:08:59+00:00"
  },
  "p6-136": {
-  "status": "retry",
-  "attempts": 1,
-  "error": "request failed: Invalid \\escape: line 1 column 508 (char 507)",
-  "updated": "2026-11-24T12:49:53+00:00"
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.2.2.3",
+   "2.3.4.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The experiment models a heat exchanger by measuring thermal energy transfer from hot water in a beaker to cold water in a glass tube. Students read the initial temperatures of the cold and hot water from thermometer diagrams and complete the column headings in a results table. They deduce a conclusion relating cold water volume to its temperature rise, identify two control variables to ensure a fair test when testing another volume, and suggest two improvements to make thermal energy transfer more efficient (such as using a thin metal tube instead of glass) with an explanation.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T23:08:59+00:00"
  },
  "p6-137": {
   "status": "done",
@@ -2709,5 +2739,368 @@
   "marks": 8,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-24T12:51:09+00:00"
+ },
+ "p6-141": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the rate of cooling of hot water in a beaker with and without cotton wool insulation. Students record room temperature from a thermometer diagram, complete column headings in a results table, compare cooling rates with justification based on experimental data, suggest a practical method to reduce heat loss by evaporation, and state a control variable to keep constant when repeating the experiment.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:10:59+00:00"
+ },
+ "p6-142": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the cooling of hot water as cold water is added. Students record room temperature, complete a table of cold water volumes added and column headers, and suggest a way to reduce thermal energy loss. They then evaluate a dripping cup arrangement by taking readings from two digital stopwatch displays, calculating average flow rates R_1 and R_2, identifying a practical disadvantage of the method, and listing two control variables.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:10:59+00:00"
+ },
+ "p6-143": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.3",
+   "2.3.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into how the surface coating of a container affects the cooling rate of hot water, comparing an uncovered test-tube with a foil-wrapped test-tube. Students take initial temperature readings from thermometers, complete missing time values and unit headings in a data table, determine which test-tube cools faster with justification from the data, identify a potential source of unreliability in the practical procedure, and list two apparatus control variables required to ensure a fair test when extending the experiment to other surface materials.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:11:24+00:00"
+ },
+ "p6-144": {
+  "status": "done",
+  "subpoints": [
+   "2.2.2.1",
+   "2.3.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the cooling of hot water over time compared with cooling by adding cold water. Students read a thermometer to record cold water temperature, complete column headings in a table showing temperature change over 150 seconds, and read a measuring cylinder to record a volume of cold water added to hot water. They then calculate or estimate the volume of cold water required to produce an equivalent temperature drop, explaining their reasoning using the table data and initial readings, and suggest two experimental conditions to keep constant to ensure reliable results.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:11:24+00:00"
+ },
+ "p6-145": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.1",
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the cooling of water in a beaker using two thermometers set at different depths: one bulb near the bottom and one near the surface. In part (a), the student reads room temperature from a thermometer scale. In part (b), column headings and time values are added to the table. In part (c), students determine which thermometer position shows a greater cooling rate and justify using the data. Part (d) asks for a precaution suggested by the results when measuring liquid temperature and an explanation. Part (e) asks for two control variables to keep the same when repeating the investigation.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:11:47+00:00"
+ },
+ "p6-146": {
+  "status": "done",
+  "subpoints": [
+   "2.3.2.1",
+   "2.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation of the rate of cooling of a thermometer bulb positioned directly above a constant-temperature hot water bath (position A) compared to positioned in room air away from the bath (position B). Part (a) asks to read the water bath temperature from a thermometer diagram. Part (b) involves completing table units, identifying which position cools faster in the first 30 seconds with justification, calculating overall temperature changes between 30 s and 180 s, and estimating room temperature. Part (c) requires a practical precaution for reliable readings, and part (d) asks for two conditions to keep constant when repeating the experiment.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:11:47+00:00"
+ },
+ "p6-147": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate four methods of cooling hot water: stirring (Experiment A), pouring between beakers (Experiment B), cooling with a lid (Experiment C), and cooling without a lid (Experiment D). The student reads initial and final temperatures from three thermometer diagrams, calculates the temperature drops, and ranks all four cooling methods in order of greatest temperature drop. Finally, the student identifies two control variables required for reliable results when repeating the experiment and suggests how to make the comparison fairer.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:12:10+00:00"
+ },
+ "p6-148": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate methods of reducing thermal energy loss using beaker A (insulated, open top) and beaker B (uninsulated, with a lid). The student reads initial temperatures from thermometer diagrams, completes table headings with units, and inserts time values. The student determines which beaker loses thermal energy faster, justifying the answer using the data, states a control variable for a fair test, and suggests a modification to the experimental setup to evaluate insulation effectiveness independently.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:12:10+00:00"
+ },
+ "p6-149": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.1",
+   "2.3.2.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the heating of a thermometer bulb placed at different distances from a lamp. In part (a), candidates read room temperature from a thermometer scale. In part (b), they complete distance values and column headings in a data table. In part (c), they calculate the difference between the temperature reading above the lamp and the reading at the same horizontal distance beside it. In part (d), candidates suggest two control variables needed to investigate heat transfer by radiation and convection. In part (e), they state a practical precaution to obtain reliable results.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:12:31+00:00"
+ },
+ "p6-150": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.2.3.5",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the rate of cooling of hot water in a beaker. In part (a), candidates read room temperature from a thermometer diagram. In part (b), they plot a graph of temperature against time using given data from a table. In part (c), candidates suggest two differences in environmental conditions across different laboratories, such as room temperature or air draughts, that could affect the rate of cooling and produce different graphs.",
+  "skills": [
+   "readings",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:12:31+00:00"
+ },
+ "p6-151": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation of the rate of cooling of hot water in a beaker over a 150-second period. In part (a), candidates read the room temperature from a thermometer diagram. In part (b), candidates plot a graph of water temperature against time using given table readings. In part (c), candidates suggest two environmental conditions in different laboratories, such as ambient room temperature or air draughts, that could affect the cooling rate and lead to different graph curves.",
+  "skills": [
+   "readings",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:12:55+00:00"
+ },
+ "p6-152": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.2.3.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation compares the cooling rate of two different volumes of hot water, 150 cm^3 and 250 cm^3, over 150 seconds. In part (a), candidates record the room temperature shown on a thermometer diagram. In part (b), candidates complete the table column headers with appropriate units and draw a conclusion comparing the cooling rates of the two volumes based on table data. In part (c), candidates suggest two control variables needed to ensure reliable results when repeating the experiment.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:12:55+00:00"
+ },
+ "p6-153": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.9",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into the cooling rate of hot water. Students read room temperature from a thermometer diagram and calculate initial temperature differences above room temperature as well as total temperature drop after 100 seconds for hot water. The experiment is repeated with warm water formed by mixing hot and cold water. Students determine whether the rate of temperature change is proportional to the difference between starting temperature and room temperature by evaluating given ratios. Finally, they identify two variables that must be controlled when repeating the experiment to check results.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:13:17+00:00"
+ },
+ "p6-154": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.8",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment comparing how white and black surfaces absorb thermal radiation from a lamp. Students take an initial temperature reading from a thermometer diagram and complete column headings with appropriate units in a table. They calculate overall temperature changes for white and black cards over 300 seconds and identify which surface absorbs thermal radiation more efficiently. They also evaluate whether the rate of temperature rise is higher at the start than at the end of the experiment using black card data, and suggest a precaution needed to ensure a fair test.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:13:17+00:00"
+ },
+ "p6-156": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.4",
+   "3.2.1.2",
+   "3.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the position of the image formed in a plane mirror using a ray-trace sheet. The student marks pin positions for incident and reflected rays at angles of incidence 30° and 40°. The question asks to place a pin position P2, draw and extend reflected rays to find their intersection point Y, and measure perpendicular distances from object pin P1 and intersection point Y to the mirror line MR. The student also locates image pin P8 along the normal line, measures distance x, completes a diagram showing the appearance of pins over/in the mirror, draws conclusions comparing image and object distances, and identifies practical sources of inaccuracy.",
+  "skills": [
+   "readings",
+   "drawings",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:13:40+00:00"
+ },
+ "p6-157": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length of a converging lens using two different methods with an illuminated triangle object, lens, and screen. In Method 1, the student measures diagram distances u and v, calculates actual distances U and V using a scale factor, and calculates the focal length f1. In Method 2, the lens is moved closer to the screen to form another image; the student measures image distance v, height of object h_O, and height of image h_I, calculates magnification M, and determines a second focal length f2. The question also assesses experimental techniques for obtaining sharp images, precautions for accurate measurement, and evaluation of method accuracy.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:13:40+00:00"
+ },
+ "p6-158": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.4",
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the reflection of light using a plane mirror on a ray-trace sheet. The task involves measuring an angle θ, drawing a normal to line AB at point N and extending it to line CD at point L, evaluating if a ray-tracing point P is positioned at a suitable distance from N, drawing line NP to intersect line CD at point G, and measuring length LG. Using a given set of results in a table, students plot a graph of distance a against angle θ. Finally, students identify a potential source of inaccuracy and suggest an improvement to check the reliability of the results.",
+  "skills": [
+   "readings",
+   "drawings",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:14:25+00:00"
+ },
+ "p6-159": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students plan an investigation to determine the relationship between the thickness t of a converging lens and its focal length f. Available apparatus includes an illuminated object, lenses of different thicknesses in a holder, a screen, a metre rule, a 30 cm ruler, and two rectangular wooden blocks. The plan requires drawing a labelled diagram of the setup showing object distance u and image distance v, describing the experimental method and measurements, explaining how to determine lens thickness t using wooden blocks and ruler, and designing a suitable table for displaying the data.",
+  "skills": [
+   "planning",
+   "drawings",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T23:14:25+00:00"
  }
 }
