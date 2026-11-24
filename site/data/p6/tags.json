@@ -1946,5 +1946,410 @@
   "marks": 12,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-08T00:56:24+00:00"
+ },
+ "p6-101": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.7",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students plan an investigation into the effect of the colour of the surface of a metal container on the rate of heat loss. They are provided with metal containers painted in different colours, a thermometer, a stop-watch, and hot water. The task requires drawing a diagram of the experimental setup, explaining the procedure, identifying key control variables, drawing a results table with proper column headings and units, and describing how the data will be evaluated to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T02:22:33+00:00"
+ },
+ "p6-102": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment compares the rate of cooling of hot water in two beakers: beaker A with side insulation and beaker B with a lid. Students read room temperature from an enlarged thermometer scale, complete table headings and time values, draw and justify a conclusion regarding which method is more effective at reducing cooling, suggest a control experiment (beaker with neither lid nor insulation) to evaluate effectiveness, calculate the average cooling rate for beaker A with appropriate units, and explain why initial temperature must be controlled.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T02:22:33+00:00"
+ },
+ "p6-103": {
+  "status": "done",
+  "subpoints": [
+   "2.3.3.7",
+   "2.3.1.1",
+   "2.3.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the rate of cooling of hot water in a glass beaker compared to a matt black metal can. Room temperature is read from a thermometer diagram. Tables of cooling data over 150 s require appropriate units in column headings. Students select a conclusion regarding cooling rates and justify it using temperature changes from the data. They suggest two apparatus modifications to separate the effects of radiation and conduction, name two controlled variables to ensure a fair test, and state a practical precaution for taking accurate temperature readings.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T02:23:14+00:00"
+ },
+ "p6-104": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1",
+   "2.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the rate of cooling of water to compare the effectiveness of a lid versus an insulating mat. Room temperature is read from a thermometer scale. Cooling data over 150 s is tabulated for both setups, requiring completion of units in table headings. Students draw and justify a conclusion from the data, propose a change to decrease cooling rate, state a precaution for accurate thermometer readings, list two variables to control for a fair test, and identify the correct line of sight for reading a measuring cylinder.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T02:23:14+00:00"
+ },
+ "p6-105": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the transfer of thermal energy between hot water in a beaker and cold water in a glass boiling tube placed inside the beaker. The student records the room temperature from a magnified thermometer scale, then completes the time column and units in a table recording the temperatures of both containers every 30 seconds. A practical technique for accurately reading two thermometers concurrently is suggested. The student draws and justifies a conclusion regarding how temperature difference affects the heating rate, predicts the final temperatures when heating stops and after several hours, and suggests two modifications to increase the rate of temperature rise in the boiling tube.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T02:25:28+00:00"
+ },
+ "p6-106": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the cooling of hot water in a beaker. First, the student reads the initial room temperature from a thermometer diagram. In a results table, the student completes the column headings with appropriate units and fills in the time values recorded at 60 s intervals. The temperature drops during the first and last 120 s intervals are calculated, followed by concluding and justifying which period shows a greater rate of cooling. The student then suggests two ways to reduce thermal energy loss from the beaker, and draws a diagram of a measuring cylinder illustrating the correct meniscus level and perpendicular line of sight.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-24T02:25:28+00:00"
+ },
+ "p6-107": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question asks students to plan an experiment to investigate how different insulating materials affect the time taken for ice cubes in a copper container to melt. Students are provided with a list of available apparatus, including a copper container, insulating materials, thermometer, stopwatch, and ice cubes. The plan must include a labeled diagram of the apparatus, a brief description of the experimental procedure, key control variables, a results table with suitable column headings, and an explanation of how to use the readings to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "drawings",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:27:44+00:00"
+ },
+ "p6-108": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students are asked to plan an experiment to investigate whether the thickness of a lid affects the rate of cooling of hot liquids in a container. The plan must list all required apparatus, briefly explain the experimental method and measurements to be taken, state key variables to be kept constant, present a suitable table layout with appropriate column headings, and explain how the gathered readings will be analyzed to reach a valid conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:27:44+00:00"
+ },
+ "p6-109": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how the volume of water affects its rate of cooling in a beaker. Part (a) asks to read initial temperatures from thermometer diagrams, record them in a table, and complete table headings and time values. Part (b) asks for a precaution to take accurate temperature readings. Part (c) requires drawing a conclusion based on data. Part (d) asks to calculate the average cooling rates x1 and x2 for two 90 s intervals. Part (e) asks to evaluate a suggestion about starting temperatures. Part (f) asks for a plan to test whether more heat is lost from the surface or sides of the beaker.",
+  "skills": [
+   "readings",
+   "tables",
+   "precautions",
+   "conclusions",
+   "calculations",
+   "planning"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:28:16+00:00"
+ },
+ "p6-110": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students plan an experiment to investigate how the size of the air gap between an inner copper container and an outer metal container affects the rate of cooling of hot water. The prompt lists apparatus such as metal containers of various diameters, a thermometer, a stopwatch, a measuring cylinder, and hot water. The required response must describe the procedure, identify key control variables, include a table of results with clear column headings, and explain how to use the data to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:28:16+00:00"
+ },
+ "p6-111": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the cooling of hot water in a beaker. First, the student reads room temperature from a thermometer image. The student then records temperature values every 30 s. The question asks why a delay is needed before taking the first reading, requires completing table headings and time values, plotting a graph of temperature against time, and drawing a line for room temperature. Finally, it asks for two practical precautions to ensure accurate temperature readings and two modifications to increase the rate of cooling of the water.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 13,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:28:50+00:00"
+ },
+ "p6-112": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates how partly covering the surface of hot water affects its cooling rate using two lids with different uncovered surface areas. The student reads room temperature from a thermometer scale and completes time values and headings in a results table. The question asks for a precaution to ensure accuracy, a conclusion with supporting data, a modification to enhance the difference in cooling rates, how a graph line would demonstrate direct proportionality, and a control variable required when repeating the experiment.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:28:50+00:00"
+ },
+ "p6-113": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The student is asked to plan an investigation to determine whether the container material (copper, aluminium, or glass) affects the time required to heat water from room temperature to boiling point. The provided apparatus includes three 250 cm^3 containers, a Bunsen burner, measuring cylinder, thermometer, tripod, gauze, and stopwatch. The plan must describe the experimental procedure, list key control variables (such as volume of water and Bunsen burner flame intensity), present a sample results table with appropriate column headings, and explain how the readings will be used to draw a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:29:39+00:00"
+ },
+ "p6-114": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The student is asked to plan an experiment to compare the rates at which different metals conduct thermal energy using J-shaped metal strips, a test-tube in a clamp stand, a beaker, and supplies of hot and cold water. The candidate must list any additional apparatus needed (such as a stopwatch or thermometer), provide a clear labelled diagram showing how the apparatus will be assembled, outline the experimental procedure, describe how to compare the performance of different metals, and state necessary safety or procedural precautions to ensure reliable results.",
+  "skills": [
+   "planning",
+   "drawings",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:29:39+00:00"
+ },
+ "p6-115": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how surrounding temperature affects the cooling rate of hot water in test-tubes placed in beakers of cold and warm water. In part (a), thermometer readings for cold and warm water are taken. Part (b) asks to complete units and time values in a data table. Part (c) requires two precautions taken before reading a thermometer to ensure accuracy. Part (d) asks for a conclusion on how surrounding temperature affects cooling rate, justified using table data. Part (e) asks for one change to make the comparison a fair test. Part (f) requires describing how to accurately read a measuring cylinder.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:32:04+00:00"
+ },
+ "p6-116": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the cooling rate of hot water over time. In part (a), the initial room temperature is read from a thermometer diagram. Part (b) requires calculating the temperature drops over two consecutive 180 s intervals from given tabular data and explaining why the two temperature drops differ. Part (c) asks for two modifications to the procedure to produce a larger difference between the two temperature drops. Part (d) requires identifying the correct line of sight for reading a measuring cylinder from a labeled diagram and stating two reasons for the choice.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:32:04+00:00"
+ },
+ "p6-117": {
+  "status": "done",
+  "subpoints": [
+   "2.2.3.7",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question asks students to plan an investigation into how draughts (moving air) affect the cooling rate of hot water. Available apparatus includes an electric fan with four speed settings, a supply of hot water, a thermometer, a beaker, a measuring cylinder, a stopwatch, and a clamp stand. Students must explain the experimental procedure, list key control variables (such as volume of water and initial temperature), draw an appropriately labelled results table with unit-inclusive headings, and explain how to evaluate the data to form a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:32:32+00:00"
+ },
+ "p6-118": {
+  "status": "done",
+  "subpoints": [
+   "2.3.1.1",
+   "2.3.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The question requires planning an experiment to investigate how varying the number of layers of thermal insulation around a beaker affects the cooling rate of hot water. Students are required to specify the necessary apparatus, identify the independent, dependent, and controlled variables to ensure a fair test, detail step-by-step experimental instructions, describe how to display readings in a results table, and explain how the results will be used to reach a conclusion.",
+  "skills": [
+   "planning",
+   "tables",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:32:32+00:00"
+ },
+ "p6-119": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1",
+   "2.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates mixing hot and cold water in different quantities and measuring the resulting temperature change. The question involves reading a room temperature from a thermometer diagram, calculating temperature drops, explaining the need for stirring, suggesting reasons for differences in results due to heat transfer to surroundings, recommending apparatus improvements and control variables to ensure consistency, and drawing a line-of-sight diagram for reading a measuring cylinder meniscus accurately.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:33:05+00:00"
+ },
+ "p6-120": {
+  "status": "done",
+  "subpoints": [
+   "2.3.4.1",
+   "2.3.1.1",
+   "2.3.3.9"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how using a lid affects the rate of cooling of water in a beaker. The question requires completing a table with time values and units, describing precautions for taking accurate temperature readings, drawing conclusions supported by data about the effect of a lid on cooling rate, identifying fair test improvements such as keeping water volume constant, describing patterns in cooling curves, reading room temperature from a thermometer diagram, and predicting the effect of room temperature on heat transfer rate.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-24T02:33:05+00:00"
  }
 }
