@@ -3102,5 +3102,420 @@
   "marks": 7,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-24T23:14:25+00:00"
+ },
+ "p6-160": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length f of a lens using an illuminated object, lens, and screen setup. The distance d on a scale diagram is measured and converted to actual distance D. Using object distance u and image distance v, focal lengths are calculated using f = uv/D and recorded in a table. An average focal length f_A is calculated to a suitable number of significant figures. The student states a precaution for accurate readings. The screen position is then altered to calculate a new distance D and focal length f, which is compared with f_A to assess agreement within experimental accuracy.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-25T05:32:10+00:00"
+ },
+ "p6-161": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the focal length of a converging lens using two methods. In Method 1, object distance u and image distance v are measured from a scale diagram, scaled to actual values U and V, and used to calculate focal length f_1 using f_1 = UV/(U + V). A technique for obtaining a sharp image is described. In Method 2, object and image heights are measured to calculate magnification M and determine focal length f_2 using f_2 = V/(M + 1). The two focal length values are compared, a precaution for reliability is given, and the relative accuracy of the two methods is evaluated.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-25T05:32:10+00:00"
+ },
+ "p6-162": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.1",
+   "3.2.3.3",
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An optics experiment is performed to determine the focal length f of a lens using an illuminated object, a converging lens, and a screen. The distance D between the object and screen is set to various values, and the object distance u and image distance v are recorded. Part (a) asks to calculate and record values of uv in a table. Part (b) requires plotting a graph of uv against D. Part (c) asks to determine the gradient G of the line. Part (d) requires stating the focal length f to a suitable number of significant figures. Part (e) asks for two experimental difficulties in obtaining accurate readings.",
+  "skills": [
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-25T05:32:35+00:00"
+ },
+ "p6-163": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.1",
+   "3.2.3.3",
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment is conducted to determine the focal length of a thin converging lens using an illuminated object and a screen. Part (a) asks to measure the image distance v from a scaled diagram, calculate the actual image distance V using the scale factor, and calculate the focal length f_1 using a given lens formula. Part (b) asks to calculate an average focal length f_A from f_1 and a provided second measurement f_2, rounded to a suitable number of significant figures. Part (c) asks to suggest additional object distances U to improve reliability. Part (d) requires stating two practical precautions for obtaining accurate readings.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-25T05:32:35+00:00"
+ },
+ "p6-164": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the image produced by a converging lens using an illuminated triangular-shaped object and a screen. First, she measures the height h_o of the object from a full-size diagram. Next, she records the image height h_I for various object distances u and calculates N = h_o / h_I. She plots a graph of u against N, determines its gradient G, and discusses a difficulty in measuring image height along with an improvement.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:34:14+00:00"
+ },
+ "p6-165": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.3",
+   "3.2.2.1",
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the refractive index n of a transparent block using a ray-tracing experiment. On a diagram showing the block's outline ABCD, the student draws a normal, a ray at an angle of incidence i = 30°, and uses optical pins P_1, P_2, P_3, and P_4 to trace the refracted ray. The student measures lengths a and b to calculate n using a given equation, repeats the procedure for i = 45°, identifies experimental difficulties causing discrepancies in n, and selects the most sensible precaution for reliable results.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:34:14+00:00"
+ },
+ "p6-166": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.3",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the refractive index of a transparent glass block using ray-tracing pins. On a provided outline of the block ABCD, the student draws a normal, an incident ray at an angle of incidence i = 30°, and places pins P1 and P2. Looking through the opposite side CD, the student aligns pins P3 and P4 to trace the emergent ray. The student measures lengths a and b to calculate the refractive index n using the formula n = a / b. Finally, the student suggests additional angles of incidence to improve reliability and states a practical precaution.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:34:32+00:00"
+ },
+ "p6-167": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.1",
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the reflection of light by a plane mirror on a ray-trace sheet. First, the student measures the angle alpha between reference line AN and mirror line CD. A normal LN is drawn at point N, and pins P1 and P2 are placed on it. A mirror is placed on CD, and pins P3 and P4 are aligned with the images. The student draws the reflected ray and measures the angle theta between the ray and the normal. The experiment is repeated with the mirror moved to line EF at an angle alpha = 35°, using pins P5 and P6. The student records angles in a table, justifies whether the change in theta equals twice the change in alpha, and states two experimental precautions.",
+  "skills": [
+   "readings",
+   "tables",
+   "drawings",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:34:32+00:00"
+ },
+ "p6-168": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the magnification produced by a converging lens using an illuminated triangle, lens, and screen on a bench. In part (a), the student measures the image height hI from a diagram. In part (b), magnification M is calculated for various object distances u using M = hI / ho. Part (c) requires plotting a graph of M against u. Part (d) asks to determine u when M = 1.0 from the graph. Part (e) asks for a difficulty and improvement when measuring image height, and part (f) requires explaining why ensuring components are perpendicular to the bench is an important precaution.",
+  "skills": [
+   "readings",
+   "calculations",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:34:50+00:00"
+ },
+ "p6-169": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A class investigates the refraction of light passing through a transparent glass block using optics pins and a ray-trace sheet. In part (a), a normal and an incident ray at an angle of 30 degrees are drawn, and pin positions are indicated. In part (b), emergent ray positions are joined using pins P3 and P4. Part (c) requires measuring angle alpha and length x. Part (d) compares results with another angle of incidence and justifies whether the data supports a student's suggestion. Part (e) asks for one experimental precaution for reliable ray tracing results.",
+  "skills": [
+   "drawings",
+   "readings",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:34:50+00:00"
+ },
+ "p6-170": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.2",
+   "3.2.2.1",
+   "3.2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the refraction of light passing through a transparent block using optics pins. On a ray-trace sheet showing a glass block ABCD, the student draws a normal NL, an incident ray FE at 40^o to the normal, and marks pin positions. By viewing through side CD, the student places pins P_3 and P_4 to trace the emerging ray. The line is extended to the normal, and angle alpha and length x are measured. The procedure is repeated for an angle of incidence on the other side of the normal, giving angle beta and length y. Students evaluate whether results support a suggestion that corresponding angles and lengths should be equal, and state an experimental precaution.",
+  "skills": [
+   "readings",
+   "drawings",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:35:08+00:00"
+ },
+ "p6-171": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A class investigates images formed on a screen using a converging lens. Given a lens with a focal length of 15.0 cm, students suggest a suitable distance D between the illuminated object and the screen. Methods to find the best focused screen position reliably are discussed. Using given object distance u = 15.0 cm and image distance v = 29.7 cm, the focal length f is calculated using the formula f = uv / (u + v) to a suitable number of significant figures with units. Differences between the object and image appearance are noted, and sensible experimental procedures among options A to F are selected.",
+  "skills": [
+   "calculations",
+   "precautions",
+   "readings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:35:08+00:00"
+ },
+ "p6-172": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.2.3",
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the refraction and reflection of light using a transparent glass block, pins, a mirror, and a ray-trace sheet. Part (a) asks to measure angle theta. Part (b) suggests a suitable distance between pins. Part (c) involves drawing normals, line extensions, and measuring lengths a and b to calculate the refractive index n using n = a / b. Part (d) uses a plane mirror against the block to trace reflected rays, measure angle alpha, and compare it with theta. Part (e) asks for a source of experimental inaccuracy in ray-tracing.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:36:55+00:00"
+ },
+ "p6-173": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length f of a lens using an illuminated object, a converging lens, and a screen on a bench. Part (a) measures distance v and total distance d from a scale diagram drawn to 1/10th actual size. Part (b) calculates actual distances and the product UV to fill Table 2.1. Part (c) asks to state a difference in the image when object distance U changes. Part (d) calculates focal length values f1 and f2, and finds their average. Part (e) asks for sources of difficulty in obtaining reliable results. Part (f) requires planning by suggesting a suitable number and range of values for U to draw a graph.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "planning",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:36:55+00:00"
+ },
+ "p6-174": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length f of a lens using an illuminated object, lens, and screen. Table 3.1 gives values of image distance v for various object distances u. (a) Students plot v against u on a grid and draw a best-fit curve. (b) They mark specific points to draw a straight line intersection, recording coordinates u_1 and v_1, and calculate focal length f using a given formula. (c) Students suggest two differences between the illuminated object and the image appearance (e.g., inverted, magnified/diminished). (d) Two precautions for obtaining reliable readings in lens experiments are requested, such as carrying out the experiment in a dark room or ensuring the lens is perpendicular to the bench.",
+  "skills": [
+   "graphs",
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:37:13+00:00"
+ },
+ "p6-175": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student plans an experiment to determine the focal length f of a converging lens using the equation f = uv / (u + v). Provided apparatus includes a lens holder, a 12V lamp in a holder with power supply, and a card with a triangular hole covered with tracing paper. The student must list additional apparatus needed (such as a metre rule and a screen), draw a labelled diagram showing the arrangement with distances u and v, write a step-by-step method describing how to obtain a focused image and calculate f, state precautions for obtaining a clear focused image (such as using a darkened room), and state precautions for accurate measurements (such as viewing perpendicularly to avoid parallax).",
+  "skills": [
+   "planning",
+   "drawings",
+   "precautions",
+   "calculations"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:37:13+00:00"
+ },
+ "p6-176": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the refraction of light using a transparent glass block ABCD and a ray-trace sheet. Part (a) asks to draw a normal to line AB at point N extending to line CD, label the crossing point L, and measure angle theta between the normal and line NM. Part (b) asks to mark appropriate positions for pins P1 and P2 on line NM. Part (c) involves joining P3 and P4, finding intersection points E and F, measuring lengths a and b, and calculating the refractive index n = a / b. Part (d) requires describing two experimental precautions.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:37:32+00:00"
+ },
+ "p6-177": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length of a converging lens using an illuminated object, lens, and screen. Part (a) requires measuring distances u and v from the diagram. Part (b) involves calculating actual distances using scale and finding focal length f1 using a given formula. Part (c) asks to calculate an average focal length from a table of repeat values. Part (d) requires discussing whether experimental results confirm that u equals v when u = 2f, given measurements of x and y. Part (e) asks for two precautions to obtain reliable results in the lens investigation.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:37:32+00:00"
+ },
+ "p6-178": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates lens magnification using an illuminated object, a converging lens, and a screen fixed at a total distance D = 80.0 cm. In part (a), the student measures object distance a and image distance b for an enlarged image, and calculates the magnification m_1. In part (b), the student moves the lens to find a smaller image, measures distances x and y, and calculates m_2. In part (c), the student evaluates whether m_1 multiplied by m_2 equals 1. In parts (d) and (e), the student suggests experimental precautions and explains the difficulty in finding the sharpest focus.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:37:50+00:00"
+ },
+ "p6-179": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student plans an experiment to investigate how the size of an image varies with object distance for a converging lens. The plan must include a labelled diagram of the apparatus, instructions for carrying out the experiment, factors limiting the range of object distances, the graph to be plotted, and one experimental precaution with an explanation of the effect of not taking it.",
+  "skills": [
+   "planning",
+   "drawings",
+   "precautions",
+   "graphs"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-25T05:37:50+00:00"
  }
 }
