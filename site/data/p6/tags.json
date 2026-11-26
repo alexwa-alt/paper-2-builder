@@ -3927,5 +3927,409 @@
   "marks": 7,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-26T02:00:31+00:00"
+ },
+ "p6-200": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the focal length of a lens using an illuminated object, a converging lens, and a screen. The object distance u and image height h are recorded in a table with calculated values of 1/h. Part (a) requires plotting a graph of u against 1/h. Part (b) asks to determine the gradient G of the graph with clear indications shown. Part (c) involves calculating the focal length f using f = G / 1.5 to a suitable number of significant figures. Finally, part (d) asks to state two experimental precautions to obtain reliable results.",
+  "skills": [
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:13:44+00:00"
+ },
+ "p6-201": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.4",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the magnification produced by a converging lens using an illuminated triangle, a lens, and a screen. Part (a) requires measuring u and the total distance d from Fig. 5.1, then calculating magnification m using m = (d - u) / u. Part (b) asks to measure the object height h_o from Fig. 5.2 and image height h_i from Fig. 5.3, then calculate another magnification value M = h_i / h_o. Part (c) asks whether findings support the theory that m and M should be the same, with justification. Part (d) asks for a difficulty and solution when measuring image height, and a further precaution for reliability.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:13:44+00:00"
+ },
+ "p6-202": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the focal length of a converging lens using an illuminated object, lens, and screen. They measure distances u and v from the diagram, calculate product uv and sum (u+v), and compute x = uv / (u+v). Using the scale of the diagram, they calculate the focal length f. A student suggests a value for v and considers the range of values for a well-focused image. Finally, students state two precautions to obtain reliable results in the lens experiment.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:01+00:00"
+ },
+ "p6-203": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the focal length of a converging lens. They measure object distance u and image distance v in mm from a diagram, calculate uv and (u+v), and find the first focal length f1. Then, using new values of u and v obtained by moving the lens, they calculate a second focal length f2. They state whether the results support the suggestion that f1 equals f2 with justification, list two precautions for reliable results, and sketch the inverted image formed on the screen by a triangular object.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:01+00:00"
+ },
+ "p6-204": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class investigates the reflection of light by a plane mirror on a ray-trace sheet. Students draw a normal, place pins, position a mirror on lines CD and EF, and measure angles to determine the relationship between angle alpha and angle theta. Part (a) asks to draw a normal and label pin positions. Part (b) asks to draw a line through pins and measure an angle. Part (c) involves repeating the procedure for a second mirror position. Part (d) requires stating whether the results support the suggestion that theta equals 2 alpha and justifying with values. Part (e) asks for two precautions for accurate results.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:20+00:00"
+ },
+ "p6-205": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class determines the focal length of a lens using an illuminated object, a converging lens, and a screen on a bench. Part (a) asks students to measure lengths d and x from a diagram drawn one-tenth actual size, and calculate the actual distances D and X. Part (b) uses a second lens position to form a diminished image, recording distance Y and calculating the focal length f using the given equation f = XY / D. Part (c) requires comparing two focal length values to test a theory, with justification. Part (d) asks to state a practical precaution to obtain a reliable result in lens experiments.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:20+00:00"
+ },
+ "p6-206": {
+  "status": "done",
+  "subpoints": [
+   "1.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student measures small glass spheres. Part (a) asks for a diagram showing how to arrange a 30 cm rule and two rectangular wooden blocks to measure the diameter of one sphere. Part (b) involves a measuring cylinder containing water: students show the correct line of sight for an accurate reading, record the initial water volume V, and then calculate the volume V_1 of a single sphere after 15 spheres are added to raise the water level to 78 cm^3.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:38+00:00"
+ },
+ "p6-207": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.3",
+   "3.2.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class determines the refractive index of a transparent block using a ray-trace sheet. Part (a) requires drawing a normal to side AB, marking point N at 4.0 cm from E, drawing line NF at an angle of 20° to the normal, and measuring its length a. Part (b) uses pins P_1 to P_4 to trace the refracted ray through the block, finding points G and H, measuring the length b of line FH, and calculating the refractive index n = b/a. Part (c) asks for a practical precaution to obtain accurate readings.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:38+00:00"
+ },
+ "p6-208": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.2",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the refraction of light using a transparent block on a ray-trace sheet. They draw a normal at the centre of side AB, label point E, and construct an incident line at an angle of incidence i = 30°. They mark pin positions P1 and P2, view them through side CD, and place P3 and P4 to trace the emergent ray meeting CD at G. They draw the refracted ray GE, measure the angle of refraction r, and calculate the ratio i/r for two different angles. Finally, they evaluate whether their results support the suggestion that the ratio i/r is a constant.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:57+00:00"
+ },
+ "p6-209": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.2",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students carry out a refraction experiment using a rectangular glass block and optical pins on a blank sheet. They draw a 10 cm line representing one side of the glass block labeled AB, construct a normal at its centre, and draw an incident line EF at an angle of 30° to the normal. They indicate suitable positions for two optical pins P1 and P2 along the incident line to ensure accurate ray tracing. Finally, they suggest a practical reason why experimental results might differ slightly from theoretical expectations.",
+  "skills": [
+   "drawings",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:14:57+00:00"
+ },
+ "p6-210": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the focal length of a converging lens using an illuminated object, lens, and screen. They calculate the product uv values and complete the table with units. Students then plot a graph of uv against d, draw a line of best fit, determine the gradient G of the graph showing their working, and state the focal length f of the lens to a suitable number of significant figures.",
+  "skills": [
+   "calculations",
+   "tables",
+   "graphs",
+   "readings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:15:18+00:00"
+ },
+ "p6-211": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "An IGCSE class investigates the focal length of a converging lens using an illuminated object, lens, and screen set up on a bench. Students measure object distance u and image distance v from a scaled diagram, convert to actual values, and complete a table calculating 1/u and 1/v. They plot a graph of 1/v against 1/u starting both axes at the origin, find the x-intercept p and y-intercept q, calculate their average z, and determine the focal length f using f = 1/z.",
+  "skills": [
+   "readings",
+   "calculations",
+   "tables",
+   "graphs"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:15:18+00:00"
+ },
+ "p6-214": {
+  "status": "done",
+  "subpoints": [
+   "4.5.3.4",
+   "4.1.1",
+   "4.5.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the effect of an electromagnet on an iron block placed on a balance as the current is increased. In part (a), students draw a circuit diagram containing a variable resistor and an ammeter connected to the power supply and electromagnet. In part (b), students calculate values of M by subtracting balance readings m from m0, complete Table 4.1, and state and justify whether M is proportional to I based on the results.",
+  "skills": [
+   "drawings",
+   "tables",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:16:58+00:00"
+ },
+ "p6-215": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.1",
+   "4.2.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A student investigates a power supply using a circuit with a resistance wire, ammeter, voltmeter, and a sliding crocodile clip. In part (a), the student reads potential difference V0 and current I0 from meter dials and calculates resistance R0. In part (b), the student calculates 1/I values for different wire lengths l and records them in Table 3.1. In part (c), they plot a graph of l against 1/I. In part (d), they determine the gradient G and calculate the electromotive force E. In part (e), they state and explain which length l is most affected by the ammeter resistance.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:16:58+00:00"
+ },
+ "p6-216": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.3.1.1",
+   "4.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the effect of the length of resistance wire on the potential difference across a lamp. The student completes a circuit diagram by adding a voltmeter across the lamp, then takes a reading from a voltmeter dial for length l = 0.200 m. Given other readings in a table, the student predicts how increasing length affects lamp brightness, analyzes whether potential difference is directly proportional to length, suggests reasons for slight differences in repeat readings, and states a safety precaution for working with resistance wires.",
+  "skills": [
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:17:16+00:00"
+ },
+ "p6-217": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.3",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the resistance of a resistance wire using a circuit with an ammeter, voltmeter, and sliding contact. The student records voltmeter and ammeter readings for length l = 10.0 cm from meter dials, completes table headings, plots a graph of potential difference V against length l, writes a conclusion about the current in the circuit as the sliding contact position changes with justification, and determines a value of V_L from the graph for a given length l = 60.0 cm.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:17:16+00:00"
+ },
+ "p6-218": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of a resistance wire using a power supply, ammeter, and crocodile clip. The student draws a voltmeter in the circuit, reads values of potential difference and current from meter dials for a length l = 90.0 cm, and completes a table with given values for other lengths. Calculations involve determining the resistance R and R/l for each length, and predicting the resistance of a 25.0 cm wire. A reason for non-identical results among students is requested, followed by completing a circuit diagram to include a variable resistor to prevent the wire from becoming hot.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:17:34+00:00"
+ },
+ "p6-219": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the resistance of a resistance wire using a circuit containing a power supply, ammeter, voltmeter, and a sliding contact C. The student records the current from an ammeter diagram, records potential difference values across various lengths l of the wire, and calculates V/l ratios in a table. A conclusion is ticked and justified based on these values. The resistance of a 100 cm length of wire is calculated using V and I values, giving an answer to a suitable number of significant figures with units. Ways to minimise temperature rise and the circuit symbol for a variable resistor are also required.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:17:34+00:00"
+ },
+ "p6-220": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.2.4.2",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates electrical resistance using a circuit with a resistor P and a lamp L. She reads current and voltage from analogue meters, calculates resistances using R = V / I, compares resistance values for different resistors P and Q, suggests a method to confirm temperature changes in a lamp filament, completes a parallel circuit diagram containing two resistors, a lamp, and a voltmeter, and names a component to control the current.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:18:18+00:00"
+ },
+ "p6-221": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.2.4.2",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the resistance of a resistance wire using a power supply, ammeter, voltmeter, and a sliding contact C. She records current from an ammeter and potential difference values for various lengths l of the resistance wire in a table. She calculates missing resistance values using R = V / I, completes table headings, concludes the relationship between resistance and length, estimates potential difference, calculates resistance for a specific length, and suggests a precaution to minimise temperature rise in the wire.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T11:18:18+00:00"
  }
 }
