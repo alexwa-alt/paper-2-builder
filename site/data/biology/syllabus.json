@@ -1,0 +1,2697 @@
+{
+ "objectives": [
+  {
+   "code": "1.1.1",
+   "section": "1.1",
+   "level": "core",
+   "text": "Describe the characteristics of living organisms by describing: (a) movement... (b) respiration... (c) sensitivity... (d) growth... (e) reproduction... (f) excretion... (g) nutrition..."
+  },
+  {
+   "code": "1.2.1",
+   "section": "1.2",
+   "level": "core",
+   "text": "State that organisms can be classified into groups by the features that they share"
+  },
+  {
+   "code": "1.2.2",
+   "section": "1.2",
+   "level": "core",
+   "text": "Describe a species as a group of organisms that can reproduce to produce fertile offspring"
+  },
+  {
+   "code": "1.2.3",
+   "section": "1.2",
+   "level": "core",
+   "text": "Describe the binomial system of naming species as an internationally agreed system in which the scientific name of an organism is made up of two parts showing the genus and species"
+  },
+  {
+   "code": "1.2.4",
+   "section": "1.2",
+   "level": "core",
+   "text": "Construct and use dichotomous keys based on identifiable features"
+  },
+  {
+   "code": "1.2.5",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Explain that classification systems aim to reflect evolutionary relationships"
+  },
+  {
+   "code": "1.2.6",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Explain that the sequences of bases in DNA are used as a means of classification"
+  },
+  {
+   "code": "1.2.7",
+   "section": "1.2",
+   "level": "supplement",
+   "text": "Explain that groups of organisms which share a more recent ancestor have base sequences in DNA that are more similar"
+  },
+  {
+   "code": "1.3.1",
+   "section": "1.3",
+   "level": "core",
+   "text": "State the main features used to place animals and plants into the appropriate kingdoms"
+  },
+  {
+   "code": "1.3.2",
+   "section": "1.3",
+   "level": "core",
+   "text": "State the main features used to place organisms into groups within the animal kingdom, limited to vertebrates and arthropods"
+  },
+  {
+   "code": "1.3.3",
+   "section": "1.3",
+   "level": "core",
+   "text": "Classify organisms using the features identified in 1.3.1 and 1.3.2"
+  },
+  {
+   "code": "1.3.4",
+   "section": "1.3",
+   "level": "supplement",
+   "text": "State the main features used to place all organisms into one of the five kingdoms: animal, plant, fungus, prokaryote, protoctist"
+  },
+  {
+   "code": "1.3.5",
+   "section": "1.3",
+   "level": "supplement",
+   "text": "State the main features used to place organisms into groups within the plant kingdom, limited to ferns and flowering plants"
+  },
+  {
+   "code": "1.3.6",
+   "section": "1.3",
+   "level": "supplement",
+   "text": "Classify organisms using the features identified in 1.3.4 and 1.3.5"
+  },
+  {
+   "code": "1.3.7",
+   "section": "1.3",
+   "level": "supplement",
+   "text": "State the features of viruses, limited to a protein coat and genetic material"
+  },
+  {
+   "code": "2.1.1",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe and compare the structure of a plant cell with an animal cell, limited to: cell wall, cell membrane, nucleus, cytoplasm, chloroplasts, ribosomes, mitochondria, vacuoles"
+  },
+  {
+   "code": "2.1.2",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe the structure of a bacterial cell, limited to: cell wall, cell membrane, cytoplasm, ribosomes, circular DNA, plasmids"
+  },
+  {
+   "code": "2.1.3",
+   "section": "2.1",
+   "level": "core",
+   "text": "Identify the cell structures listed in 2.1.1 and 2.1.2 in diagrams and images of plant, animal and bacterial cells"
+  },
+  {
+   "code": "2.1.4",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe the functions of the structures listed in 2.1.1 and 2.1.2 in plant, animal and bacterial cells"
+  },
+  {
+   "code": "2.1.5",
+   "section": "2.1",
+   "level": "core",
+   "text": "State that new cells are produced by division of existing cells"
+  },
+  {
+   "code": "2.1.6",
+   "section": "2.1",
+   "level": "core",
+   "text": "State that specialised cells have specific functions, limited to: (a) ciliated cells – movement of mucus in the trachea and bronchi (b) root hair cells – absorption (c) palisade mesophyll cells – photosynthesis (d) neurones – conduction of electrical impulses (e) red blood cells – transport of oxygen (f) sperm and egg cells (gametes) – reproduction"
+  },
+  {
+   "code": "2.1.7",
+   "section": "2.1",
+   "level": "core",
+   "text": "Describe the meaning of the terms: cell, tissue, organ, organ system and organism as illustrated by examples given in the syllabus"
+  },
+  {
+   "code": "2.2.1",
+   "section": "2.2",
+   "level": "core",
+   "text": "State and use the formula: magnification = image size ÷ actual size"
+  },
+  {
+   "code": "2.2.2",
+   "section": "2.2",
+   "level": "core",
+   "text": "Calculate magnification and size of biological specimens using millimetres as units"
+  },
+  {
+   "code": "2.2.3",
+   "section": "2.2",
+   "level": "supplement",
+   "text": "Convert measurements between millimetres (mm) and micrometres (μm)"
+  },
+  {
+   "code": "3.1.1",
+   "section": "3.1",
+   "level": "core",
+   "text": "Describe diffusion as the net movement of particles from a region of their higher concentration to a region of their lower concentration"
+  },
+  {
+   "code": "3.1.2",
+   "section": "3.1",
+   "level": "core",
+   "text": "State that the energy for diffusion comes from the kinetic energy of random movement of molecules and ions"
+  },
+  {
+   "code": "3.1.3",
+   "section": "3.1",
+   "level": "core",
+   "text": "State that some substances move into and out of cells by diffusion through the cell membrane"
+  },
+  {
+   "code": "3.1.4",
+   "section": "3.1",
+   "level": "core",
+   "text": "Describe the importance of diffusion of gases and solutes in living organisms"
+  },
+  {
+   "code": "3.1.5",
+   "section": "3.1",
+   "level": "core",
+   "text": "Investigate the factors that influence diffusion, limited to: surface area, temperature, concentration gradient and distance"
+  },
+  {
+   "code": "3.2.1",
+   "section": "3.2",
+   "level": "core",
+   "text": "Describe the role of water as a solvent in organisms with reference to digestion, excretion and transport"
+  },
+  {
+   "code": "3.2.2",
+   "section": "3.2",
+   "level": "core",
+   "text": "State that water diffuses through partially permeable membranes by osmosis"
+  },
+  {
+   "code": "3.2.3",
+   "section": "3.2",
+   "level": "core",
+   "text": "State that water moves into and out of cells by osmosis through the cell membrane"
+  },
+  {
+   "code": "3.2.4",
+   "section": "3.2",
+   "level": "core",
+   "text": "Investigate osmosis using materials such as dialysis tubing"
+  },
+  {
+   "code": "3.2.5",
+   "section": "3.2",
+   "level": "core",
+   "text": "Investigate and describe the effects on plant tissues of immersing them in solutions of different concentrations"
+  },
+  {
+   "code": "3.2.6",
+   "section": "3.2",
+   "level": "core",
+   "text": "State that plants are supported by the pressure of water inside the cells pressing outwards on the cell wall"
+  },
+  {
+   "code": "3.2.7",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Describe osmosis as the net movement of water molecules from a region of higher water potential to a region of lower water potential"
+  },
+  {
+   "code": "3.2.8",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Explain the effects on plant cells of immersing them in solutions of different concentrations by using the terms: turgid, turgor pressure, plasmolysis, flaccid"
+  },
+  {
+   "code": "3.2.9",
+   "section": "3.2",
+   "level": "supplement",
+   "text": "Explain the importance of water potential and osmosis in the uptake and loss of water by organisms"
+  },
+  {
+   "code": "3.3.1",
+   "section": "3.3",
+   "level": "core",
+   "text": "Describe active transport as the movement of particles through a cell membrane from lower to higher concentration, using energy from respiration"
+  },
+  {
+   "code": "3.3.2",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "Explain the importance of active transport as a process for movement of molecules or ions across membranes, including ion uptake by root hairs"
+  },
+  {
+   "code": "3.3.3",
+   "section": "3.3",
+   "level": "supplement",
+   "text": "State that protein carriers move molecules or ions across a membrane during active transport"
+  },
+  {
+   "code": "4.1.1",
+   "section": "4.1",
+   "level": "core",
+   "text": "List the chemical elements that make up: carbohydrates, fats and proteins"
+  },
+  {
+   "code": "4.1.2",
+   "section": "4.1",
+   "level": "core",
+   "text": "State that large molecules are made from smaller molecules, limited to: (a) starch, glycogen and cellulose from glucose (b) proteins from amino acids (c) fats and oils from fatty acids and glycerol"
+  },
+  {
+   "code": "4.1.3",
+   "section": "4.1",
+   "level": "core",
+   "text": "Describe the use of: (a) iodine solution test for starch (b) Benedict’s solution test for reducing sugars (c) biuret test for proteins (d) ethanol emulsion test for fats and oils (e) DCPIP test for vitamin C"
+  },
+  {
+   "code": "4.1.4",
+   "section": "4.1",
+   "level": "supplement",
+   "text": "Describe the structure of a DNA molecule: (a) two strands coiled together to form a double helix (b) each strand contains chemicals called bases (c) bonds between pairs of bases hold the strands together (d) the bases always pair up in the same way: A with T, and C with G (full names are not required)"
+  },
+  {
+   "code": "5.1.1",
+   "section": "5.1",
+   "level": "core",
+   "text": "Describe a catalyst as a substance that increases the rate of a chemical reaction and is not changed by the reaction"
+  },
+  {
+   "code": "5.1.2",
+   "section": "5.1",
+   "level": "core",
+   "text": "Describe enzymes as proteins that are involved in all metabolic reactions, where they function as biological catalysts"
+  },
+  {
+   "code": "5.1.3",
+   "section": "5.1",
+   "level": "core",
+   "text": "Describe why enzymes are important in all living organisms in terms of a reaction rate necessary to sustain life"
+  },
+  {
+   "code": "5.1.4",
+   "section": "5.1",
+   "level": "core",
+   "text": "Describe enzyme action with reference to the shape of the active site of an enzyme being complementary to its substrate and the formation of products"
+  },
+  {
+   "code": "5.1.5",
+   "section": "5.1",
+   "level": "core",
+   "text": "Investigate and describe the effect of changes in temperature and pH on enzyme activity with reference to optimum temperature and denaturation"
+  },
+  {
+   "code": "5.1.6",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Explain enzyme action with reference to: active site, enzyme-substrate complex, substrate and product"
+  },
+  {
+   "code": "5.1.7",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Explain the specificity of enzymes in terms of the complementary shape and fit of the active site with the substrate"
+  },
+  {
+   "code": "5.1.8",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Explain the effect of changes in temperature on enzyme activity in terms of kinetic energy, shape and fit, frequency of effective collisions and denaturation"
+  },
+  {
+   "code": "5.1.9",
+   "section": "5.1",
+   "level": "supplement",
+   "text": "Explain the effect of changes in pH on enzyme activity in terms of shape and fit and denaturation"
+  },
+  {
+   "code": "6.1.1",
+   "section": "6.1",
+   "level": "core",
+   "text": "Describe photosynthesis as the process by which plants synthesise carbohydrates from raw materials using energy from light"
+  },
+  {
+   "code": "6.1.2",
+   "section": "6.1",
+   "level": "core",
+   "text": "State the word equation for photosynthesis as: carbon dioxide + water → glucose + oxygen in the presence of light and chlorophyll"
+  },
+  {
+   "code": "6.1.3",
+   "section": "6.1",
+   "level": "core",
+   "text": "State that chlorophyll is a green pigment that is found in chloroplasts"
+  },
+  {
+   "code": "6.1.4",
+   "section": "6.1",
+   "level": "core",
+   "text": "State that chlorophyll transfers energy from light into energy in chemicals, for the synthesis of carbohydrates"
+  },
+  {
+   "code": "6.1.5",
+   "section": "6.1",
+   "level": "core",
+   "text": "Outline the subsequent use and storage of the carbohydrates made in photosynthesis, limited to: starch, cellulose, glucose, sucrose, nectar"
+  },
+  {
+   "code": "6.1.6",
+   "section": "6.1",
+   "level": "core",
+   "text": "Explain the importance of: nitrate ions for making amino acids, magnesium ions for making chlorophyll"
+  },
+  {
+   "code": "6.1.7",
+   "section": "6.1",
+   "level": "core",
+   "text": "Investigate the need for chlorophyll, light and carbon dioxide for photosynthesis, using appropriate controls"
+  },
+  {
+   "code": "6.1.8",
+   "section": "6.1",
+   "level": "core",
+   "text": "Investigate and describe the effects of varying light intensity, carbon dioxide concentration and temperature on the rate of photosynthesis"
+  },
+  {
+   "code": "6.1.9",
+   "section": "6.1",
+   "level": "core",
+   "text": "Investigate and describe the effect of light and dark conditions on gas exchange in an aquatic plant using hydrogencarbonate indicator solution"
+  },
+  {
+   "code": "6.1.10",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "State the balanced chemical equation for photosynthesis as: 6CO2 + 6H2O → C6H12O6 + 6O2"
+  },
+  {
+   "code": "6.1.11",
+   "section": "6.1",
+   "level": "supplement",
+   "text": "Identify and explain the limiting factors of photosynthesis in different environmental conditions"
+  },
+  {
+   "code": "6.2.1",
+   "section": "6.2",
+   "level": "core",
+   "text": "State that most leaves have a large surface area and are thin, and explain how these features are adaptations for photosynthesis"
+  },
+  {
+   "code": "6.2.2",
+   "section": "6.2",
+   "level": "core",
+   "text": "Identify in diagrams and images the following structures in the leaf of a dicotyledonous plant: chloroplasts, cuticle, guard cells and stomata, and more"
+  },
+  {
+   "code": "6.2.3",
+   "section": "6.2",
+   "level": "core",
+   "text": "Explain how the structures listed in 6.2.2 adapt leaves for photosynthesis"
+  },
+  {
+   "code": "7.1.1",
+   "section": "7.1",
+   "level": "core",
+   "text": "Describe what is meant by a balanced diet"
+  },
+  {
+   "code": "7.1.2",
+   "section": "7.1",
+   "level": "core",
+   "text": "State the principal dietary sources and describe the importance of: (a) carbohydrates (b) fats and oils (c) proteins (d) vitamins, limited to C and D (e) mineral ions, limited to calcium and iron (f) fibre (roughage) (g) water"
+  },
+  {
+   "code": "7.1.3",
+   "section": "7.1",
+   "level": "core",
+   "text": "State the causes of scurvy and rickets"
+  },
+  {
+   "code": "7.2.1",
+   "section": "7.2",
+   "level": "core",
+   "text": "Identify in diagrams and images the main organs of the digestive system, limited to: (a) alimentary canal: mouth, oesophagus, stomach, small intestine (duodenum and ileum) and large intestine (colon, rectum, anus) (b) associated organs: salivary glands, pancreas, liver and gall bladder"
+  },
+  {
+   "code": "7.2.2",
+   "section": "7.2",
+   "level": "core",
+   "text": "Describe the functions of the organs of the digestive system listed in 7.2.1, in relation to: (a) ingestion – the taking of substances, e.g. food and drink, into the body (b) digestion – the breakdown of food (c) absorption – the movement of nutrients from the intestines into the blood (d) assimilation – uptake and use of nutrients by cells (e) egestion – the removal of undigested food from the body as faeces"
+  },
+  {
+   "code": "7.3.1",
+   "section": "7.3",
+   "level": "core",
+   "text": "Describe physical digestion as the breakdown of food into smaller pieces without chemical change to the food molecules"
+  },
+  {
+   "code": "7.3.2",
+   "section": "7.3",
+   "level": "core",
+   "text": "State that physical digestion increases the surface area of food for the action of enzymes in chemical digestion"
+  },
+  {
+   "code": "7.3.3",
+   "section": "7.3",
+   "level": "core",
+   "text": "Identify in diagrams and images the types of human teeth: incisors, canines, premolars and molars"
+  },
+  {
+   "code": "7.3.4",
+   "section": "7.3",
+   "level": "core",
+   "text": "Describe the structure of human teeth, limited to: enamel, dentine, pulp, nerves, blood vessels and cement, and understand that teeth are embedded in bone and the gums"
+  },
+  {
+   "code": "7.3.5",
+   "section": "7.3",
+   "level": "core",
+   "text": "Describe the functions of the types of human teeth in physical digestion of food"
+  },
+  {
+   "code": "7.3.6",
+   "section": "7.3",
+   "level": "core",
+   "text": "Describe the function of the stomach in physical digestion"
+  },
+  {
+   "code": "7.3.7",
+   "section": "7.3",
+   "level": "supplement",
+   "text": "Outline the role of bile in emulsifying fats and oils to increase the surface area for chemical digestion"
+  },
+  {
+   "code": "7.4.1",
+   "section": "7.4",
+   "level": "core",
+   "text": "Describe chemical digestion as the break down of large insoluble molecules into small soluble molecules"
+  },
+  {
+   "code": "7.4.2",
+   "section": "7.4",
+   "level": "core",
+   "text": "State the role of chemical digestion in producing small soluble molecules that can be absorbed"
+  },
+  {
+   "code": "7.4.3",
+   "section": "7.4",
+   "level": "core",
+   "text": "Describe the functions of enzymes as follows: (a) amylase breaks down starch to simple reducing sugars (b) proteases break down protein to amino acids (c) lipase breaks down fats and oils to fatty acids and glycerol"
+  },
+  {
+   "code": "7.4.4",
+   "section": "7.4",
+   "level": "core",
+   "text": "State where, in the digestive system, amylase, protease and lipase are secreted and where they act"
+  },
+  {
+   "code": "7.4.5",
+   "section": "7.4",
+   "level": "core",
+   "text": "Describe the functions of hydrochloric acid in gastric juice, limited to killing harmful microorganisms in food and providing an acidic pH for optimum enzyme activity"
+  },
+  {
+   "code": "7.4.6",
+   "section": "7.4",
+   "level": "supplement",
+   "text": "Describe the digestion of starch in the digestive system: (a) amylase breaks down starch to maltose (b) maltase breaks down maltose to glucose on the membranes of the epithelium lining the small intestine"
+  },
+  {
+   "code": "7.4.7",
+   "section": "7.4",
+   "level": "supplement",
+   "text": "Describe the digestion of protein by proteases in the digestive system: (a) pepsin breaks down protein in the acidic conditions of the stomach (b) trypsin breaks down protein in the alkaline conditions of the small intestine"
+  },
+  {
+   "code": "7.4.8",
+   "section": "7.4",
+   "level": "supplement",
+   "text": "Explain that bile is an alkaline mixture that neutralises the acidic mixture of food and gastric juices entering the duodenum from the stomach, to provide a suitable pH for enzyme action"
+  },
+  {
+   "code": "7.5.1",
+   "section": "7.5",
+   "level": "core",
+   "text": "State that the small intestine is the region where nutrients are absorbed"
+  },
+  {
+   "code": "7.5.2",
+   "section": "7.5",
+   "level": "core",
+   "text": "State that most water is absorbed from the small intestine but that some is also absorbed from the colon"
+  },
+  {
+   "code": "7.5.3",
+   "section": "7.5",
+   "level": "supplement",
+   "text": "Explain the significance of villi and microvilli in increasing the internal surface area of the small intestine"
+  },
+  {
+   "code": "7.5.4",
+   "section": "7.5",
+   "level": "supplement",
+   "text": "Describe the structure of a villus"
+  },
+  {
+   "code": "7.5.5",
+   "section": "7.5",
+   "level": "supplement",
+   "text": "Describe the roles of capillaries and lacteals in villi"
+  },
+  {
+   "code": "8.1.1",
+   "section": "8.1",
+   "level": "core",
+   "text": "State the functions of xylem and phloem: (a) xylem - transport of water and mineral ions, and support (b) phloem - transport of sucrose and amino acids"
+  },
+  {
+   "code": "8.1.2",
+   "section": "8.1",
+   "level": "core",
+   "text": "Identify in diagrams and images the position of xylem and phloem as seen in sections of roots, stems and leaves of non-woody dicotyledonous plants"
+  },
+  {
+   "code": "8.1.3",
+   "section": "8.1",
+   "level": "supplement",
+   "text": "Relate the structure of xylem vessels to their function, limited to: (a) thick walls with lignin (b) no cell contents (c) cells joined end to end"
+  },
+  {
+   "code": "8.2.1",
+   "section": "8.2",
+   "level": "core",
+   "text": "Identify in diagrams and images root hair cells and state their functions"
+  },
+  {
+   "code": "8.2.2",
+   "section": "8.2",
+   "level": "core",
+   "text": "State that the large surface area of root hairs increases the uptake of water and mineral ions"
+  },
+  {
+   "code": "8.2.3",
+   "section": "8.2",
+   "level": "core",
+   "text": "Outline the pathway taken by water through the root, stem and leaf as: root hair cells, root cortex cells, xylem, mesophyll cells"
+  },
+  {
+   "code": "8.2.4",
+   "section": "8.2",
+   "level": "core",
+   "text": "Investigate, using a suitable stain, the pathway of water through the above-ground parts of a plant"
+  },
+  {
+   "code": "8.3.1",
+   "section": "8.3",
+   "level": "core",
+   "text": "Describe transpiration as the loss of water vapour from leaves"
+  },
+  {
+   "code": "8.3.2",
+   "section": "8.3",
+   "level": "core",
+   "text": "State that water evaporates from the surfaces of the mesophyll cells into the air spaces and then diffuses out of the leaves through the stomata"
+  },
+  {
+   "code": "8.3.3",
+   "section": "8.3",
+   "level": "core",
+   "text": "Investigate and describe the effects of variation of temperature and wind speed on transpiration rate"
+  },
+  {
+   "code": "8.3.4",
+   "section": "8.3",
+   "level": "supplement",
+   "text": "Explain how water vapour loss is related to: the large internal surface area provided by interconnecting air spaces and the size and number of stomata"
+  },
+  {
+   "code": "8.3.5",
+   "section": "8.3",
+   "level": "supplement",
+   "text": "Explain the mechanism by which water moves upwards in the xylem in terms of a transpiration pull that draws up a column of water molecules"
+  },
+  {
+   "code": "8.3.6",
+   "section": "8.3",
+   "level": "supplement",
+   "text": "Explain the effects on the rate of transpiration of varying the following factors: temperature, wind speed and humidity"
+  },
+  {
+   "code": "8.3.7",
+   "section": "8.3",
+   "level": "supplement",
+   "text": "Explain how and why wilting occurs"
+  },
+  {
+   "code": "8.4.1",
+   "section": "8.4",
+   "level": "supplement",
+   "text": "Describe translocation as the movement of sucrose and amino acids in phloem from sources to sinks"
+  },
+  {
+   "code": "8.4.2",
+   "section": "8.4",
+   "level": "supplement",
+   "text": "Describe: (a) sources as the parts of plants that release sucrose or amino acids (b) sinks as the parts of plants that use or store them"
+  },
+  {
+   "code": "8.4.3",
+   "section": "8.4",
+   "level": "supplement",
+   "text": "Explain why some parts of a plant may act as a source and a sink at different times"
+  },
+  {
+   "code": "9.1.1",
+   "section": "9.1",
+   "level": "core",
+   "text": "Describe the circulatory system as a system of blood vessels with a pump and valves to ensure one-way flow of blood"
+  },
+  {
+   "code": "9.1.2",
+   "section": "9.1",
+   "level": "supplement",
+   "text": "Describe the single circulation of a fish"
+  },
+  {
+   "code": "9.1.3",
+   "section": "9.1",
+   "level": "supplement",
+   "text": "Describe the double circulation of a mammal"
+  },
+  {
+   "code": "9.1.4",
+   "section": "9.1",
+   "level": "supplement",
+   "text": "Explain the advantages of a double circulation"
+  },
+  {
+   "code": "9.2.1",
+   "section": "9.2",
+   "level": "core",
+   "text": "Identify in diagrams and images the structures of the mammalian heart, limited to: muscular wall, septum, left and right ventricles"
+  },
+  {
+   "code": "9.2.2",
+   "section": "9.2",
+   "level": "core",
+   "text": "State that blood is pumped away from the heart in arteries and returns to the heart in veins"
+  },
+  {
+   "code": "9.2.3",
+   "section": "9.2",
+   "level": "core",
+   "text": "State that the activity of the heart may be monitored by: ECG, pulse rate and listening to sounds of valves closing"
+  },
+  {
+   "code": "9.2.4",
+   "section": "9.2",
+   "level": "core",
+   "text": "Investigate and describe the effect of physical activity on the heart rate"
+  },
+  {
+   "code": "9.2.5",
+   "section": "9.2",
+   "level": "core",
+   "text": "Describe coronary heart disease in terms of the blockage of coronary arteries and state the possible risk factors including: diet"
+  },
+  {
+   "code": "9.2.6",
+   "section": "9.2",
+   "level": "core",
+   "text": "Discuss the roles of diet and exercise in reducing the risk of coronary heart disease"
+  },
+  {
+   "code": "9.2.7",
+   "section": "9.2",
+   "level": "supplement",
+   "text": "Identify in diagrams and images the atrioventricular and semilunar valves in the mammalian heart"
+  },
+  {
+   "code": "9.2.8",
+   "section": "9.2",
+   "level": "supplement",
+   "text": "Explain the relative thickness of: (a) the muscle walls of the left and right ventricles (b) the muscle walls"
+  },
+  {
+   "code": "9.2.9",
+   "section": "9.2",
+   "level": "supplement",
+   "text": "Explain the importance of the septum in separating oxygenated and deoxygenated blood"
+  },
+  {
+   "code": "9.2.10",
+   "section": "9.2",
+   "level": "supplement",
+   "text": "Describe the functioning of the heart in terms of the contraction of muscles of the atria and ventricles and the action of the valves"
+  },
+  {
+   "code": "9.2.11",
+   "section": "9.2",
+   "level": "supplement",
+   "text": "Explain the effect of physical activity on the heart rate"
+  },
+  {
+   "code": "9.3.1",
+   "section": "9.3",
+   "level": "core",
+   "text": "Describe the structure of arteries, veins and capillaries, limited to: relative thickness of wall, diameter of the lumen and the presence of valves"
+  },
+  {
+   "code": "9.3.2",
+   "section": "9.3",
+   "level": "core",
+   "text": "State the functions of capillaries"
+  },
+  {
+   "code": "9.3.3",
+   "section": "9.3",
+   "level": "core",
+   "text": "Identify in diagrams and images the main blood vessels to and from the: (a) heart, limited to: vena cava, aorta, pulmonary"
+  },
+  {
+   "code": "9.3.4",
+   "section": "9.3",
+   "level": "supplement",
+   "text": "Explain how the structure of arteries and veins is related to the pressure of the blood that they transport"
+  },
+  {
+   "code": "9.3.5",
+   "section": "9.3",
+   "level": "supplement",
+   "text": "Explain how the structure of capillaries is related to their functions"
+  },
+  {
+   "code": "9.3.6",
+   "section": "9.3",
+   "level": "supplement",
+   "text": "Identify, in diagrams and images, the main blood vessels to and from the liver as: hepatic artery, hepatic veins and hepatic portal vein"
+  },
+  {
+   "code": "9.4.1",
+   "section": "9.4",
+   "level": "core",
+   "text": "List the components of blood as: red blood cells, white blood cells, platelets and plasma"
+  },
+  {
+   "code": "9.4.2",
+   "section": "9.4",
+   "level": "core",
+   "text": "Identify red and white blood cells in photomicrographs and diagrams"
+  },
+  {
+   "code": "9.4.3",
+   "section": "9.4",
+   "level": "core",
+   "text": "State the functions of the following components of blood: (a) red blood cells in transporting oxygen, including the role of haemoglobin"
+  },
+  {
+   "code": "9.4.4",
+   "section": "9.4",
+   "level": "core",
+   "text": "State the roles of blood clotting as preventing blood loss and the entry of pathogens"
+  },
+  {
+   "code": "9.4.5",
+   "section": "9.4",
+   "level": "supplement",
+   "text": "Identify lymphocytes and phagocytes in photomicrographs and diagrams"
+  },
+  {
+   "code": "9.4.6",
+   "section": "9.4",
+   "level": "supplement",
+   "text": "State the functions of: (a) lymphocytes – antibody production (b) phagocytes – engulfing pathogens by phagocytosis"
+  },
+  {
+   "code": "9.4.7",
+   "section": "9.4",
+   "level": "supplement",
+   "text": "Describe the process of clotting as the conversion of fibrinogen to fibrin to form a mesh"
+  },
+  {
+   "code": "10.1.1",
+   "section": "10.1",
+   "level": "core",
+   "text": "Describe a pathogen as a disease-causing organism"
+  },
+  {
+   "code": "10.1.2",
+   "section": "10.1",
+   "level": "core",
+   "text": "Describe a transmissible disease as a disease in which the pathogen can be passed from one host to another"
+  },
+  {
+   "code": "10.1.3",
+   "section": "10.1",
+   "level": "core",
+   "text": "State that a pathogen is transmitted: (a) by direct contact, including through blood and other body fluids (b) indirectly, including from contaminated surfaces, food, animals and air"
+  },
+  {
+   "code": "10.1.4",
+   "section": "10.1",
+   "level": "core",
+   "text": "Describe the body defences, limited to: skin, hairs in the nose, mucus, stomach acid and white blood cells"
+  },
+  {
+   "code": "10.1.5",
+   "section": "10.1",
+   "level": "core",
+   "text": "Explain the importance of the following in controlling the spread of disease: (a) a clean water supply (b) hygienic food preparation (c) good personal hygiene (d) waste disposal (e) sewage treatment (details of the stages of sewage treatment are not required)"
+  },
+  {
+   "code": "10.1.6",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Describe active immunity as defence against a pathogen by antibody production in the body"
+  },
+  {
+   "code": "10.1.7",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "State that each pathogen has its own antigens, which have specific shapes"
+  },
+  {
+   "code": "10.1.8",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Describe antibodies as proteins that bind to antigens leading to direct destruction of pathogens or marking of pathogens for destruction by phagocytes"
+  },
+  {
+   "code": "10.1.9",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "State that specific antibodies have complementary shapes which fit specific antigens"
+  },
+  {
+   "code": "10.1.10",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Explain that active immunity is gained after an infection by a pathogen or by vaccination"
+  },
+  {
+   "code": "10.1.11",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Outline the process of vaccination: (a) weakened pathogens or their antigens are put into the body (b) the antigens stimulate an immune response by lymphocytes which produce antibodies (c) memory cells are produced that give long-term immunity"
+  },
+  {
+   "code": "10.1.12",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Explain the role of vaccination in controlling the spread of diseases"
+  },
+  {
+   "code": "10.1.13",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Explain that passive immunity is a short-term defence against a pathogen by antibodies acquired from another individual, including across the placenta and in breast milk"
+  },
+  {
+   "code": "10.1.14",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Explain the importance of breast-feeding for the development of passive immunity in infants"
+  },
+  {
+   "code": "10.1.15",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "State that memory cells are not produced in passive immunity"
+  },
+  {
+   "code": "10.1.16",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Describe cholera as a disease caused by a bacterium which is transmitted in contaminated water"
+  },
+  {
+   "code": "10.1.17",
+   "section": "10.1",
+   "level": "supplement",
+   "text": "Explain that the cholera bacterium produces a toxin that causes secretion of chloride ions into the small intestine, causing osmotic movement of water into the gut, causing diarrhoea, dehydration and loss of ions from the blood"
+  },
+  {
+   "code": "11.1.1",
+   "section": "11.1",
+   "level": "core",
+   "text": "Describe the features of gas exchange surfaces in humans, limited to: large surface area, thin surface, good blood supply and good ventilation with air"
+  },
+  {
+   "code": "11.1.2",
+   "section": "11.1",
+   "level": "core",
+   "text": "Identify in diagrams and images the following parts of the breathing system: lungs, diaphragm, ribs, intercostal muscles, larynx, trachea, bronchi, bronchioles, alveoli and associated capillaries"
+  },
+  {
+   "code": "11.1.3",
+   "section": "11.1",
+   "level": "core",
+   "text": "Investigate the differences in composition between inspired and expired air using limewater as a test for carbon dioxide"
+  },
+  {
+   "code": "11.1.4",
+   "section": "11.1",
+   "level": "core",
+   "text": "Describe the differences in composition between inspired and expired air, limited to: oxygen, carbon dioxide and water vapour"
+  },
+  {
+   "code": "11.1.5",
+   "section": "11.1",
+   "level": "core",
+   "text": "Investigate and describe the effects of physical activity on the rate and depth of breathing"
+  },
+  {
+   "code": "11.1.6",
+   "section": "11.1",
+   "level": "supplement",
+   "text": "Identify in diagrams and images the internal and external intercostal muscles"
+  },
+  {
+   "code": "11.1.7",
+   "section": "11.1",
+   "level": "supplement",
+   "text": "State the function of cartilage in the trachea"
+  },
+  {
+   "code": "11.1.8",
+   "section": "11.1",
+   "level": "supplement",
+   "text": "Explain the role of the ribs, the internal and external intercostal muscles and the diaphragm in producing volume and pressure changes in the thorax leading to the ventilation of the lungs"
+  },
+  {
+   "code": "11.1.9",
+   "section": "11.1",
+   "level": "supplement",
+   "text": "Explain the differences in composition between inspired and expired air"
+  },
+  {
+   "code": "11.1.10",
+   "section": "11.1",
+   "level": "supplement",
+   "text": "Explain the link between physical activity and the rate and depth of breathing in terms of: an increased carbon dioxide concentration in the blood, which is detected by the brain, leading to an increased rate and greater depth of breathing"
+  },
+  {
+   "code": "11.1.11",
+   "section": "11.1",
+   "level": "supplement",
+   "text": "Explain the role of goblet cells, mucus and ciliated cells in protecting the breathing system from pathogens and particles"
+  },
+  {
+   "code": "12.1.1",
+   "section": "12.1",
+   "level": "core",
+   "text": "State the uses of energy in living organisms, including: muscle contraction, protein synthesis, cell division, active transport, growth, the passage of nerve impulses and the maintenance of a constant body temperature"
+  },
+  {
+   "code": "12.1.2",
+   "section": "12.1",
+   "level": "core",
+   "text": "Investigate and describe the effect of temperature on respiration in yeast"
+  },
+  {
+   "code": "12.2.1",
+   "section": "12.2",
+   "level": "core",
+   "text": "Describe aerobic respiration as the chemical reactions in cells that use oxygen to break down nutrient molecules to release energy"
+  },
+  {
+   "code": "12.2.2",
+   "section": "12.2",
+   "level": "core",
+   "text": "State the word equation for aerobic respiration as: glucose + oxygen → carbon dioxide + water"
+  },
+  {
+   "code": "12.2.3",
+   "section": "12.2",
+   "level": "supplement",
+   "text": "State the balanced chemical equation for aerobic respiration as: C6H12O6 + 6O2 → 6CO2 + 6H2O"
+  },
+  {
+   "code": "12.3.1",
+   "section": "12.3",
+   "level": "core",
+   "text": "Describe anaerobic respiration as the chemical reactions in cells that break down nutrient molecules to release energy without using oxygen"
+  },
+  {
+   "code": "12.3.2",
+   "section": "12.3",
+   "level": "core",
+   "text": "State that anaerobic respiration releases much less energy per glucose molecule than aerobic respiration"
+  },
+  {
+   "code": "12.3.3",
+   "section": "12.3",
+   "level": "core",
+   "text": "State the word equation for anaerobic respiration in yeast as: glucose → alcohol + carbon dioxide"
+  },
+  {
+   "code": "12.3.4",
+   "section": "12.3",
+   "level": "core",
+   "text": "State the word equation for anaerobic respiration in muscles during vigorous exercise as: glucose → lactic acid"
+  },
+  {
+   "code": "12.3.5",
+   "section": "12.3",
+   "level": "supplement",
+   "text": "State the balanced chemical equation for anaerobic respiration in yeast as: C6H12O6 → 2C2H5OH + 2CO2"
+  },
+  {
+   "code": "12.3.6",
+   "section": "12.3",
+   "level": "supplement",
+   "text": "State that lactic acid builds up in muscles and blood during vigorous exercise causing an oxygen debt"
+  },
+  {
+   "code": "12.3.7",
+   "section": "12.3",
+   "level": "supplement",
+   "text": "Outline how the oxygen debt is removed after exercise, limited to: (a) continuation of fast heart rate to transport lactic acid in the blood from the muscles to the liver (b) continuation of deeper and faster breathing to supply oxygen for aerobic respiration of lactic acid (c) aerobic respiration of lactic acid in the liver"
+  },
+  {
+   "code": "13.1.1",
+   "section": "13.1",
+   "level": "core",
+   "text": "State that carbon dioxide is excreted through the lungs"
+  },
+  {
+   "code": "13.1.2",
+   "section": "13.1",
+   "level": "core",
+   "text": "State that the kidneys excrete urea and excess water and ions"
+  },
+  {
+   "code": "13.1.3",
+   "section": "13.1",
+   "level": "core",
+   "text": "Identify in diagrams and images the kidneys, ureters, bladder and urethra"
+  },
+  {
+   "code": "13.1.4",
+   "section": "13.1",
+   "level": "supplement",
+   "text": "Identify in diagrams and images the structure of the kidney, limited to the cortex and medulla"
+  },
+  {
+   "code": "13.1.5",
+   "section": "13.1",
+   "level": "supplement",
+   "text": "Outline the structure and function of a nephron and its associated blood vessels, limited to:"
+  },
+  {
+   "code": "13.1.6",
+   "section": "13.1",
+   "level": "supplement",
+   "text": "Describe the role of the liver in the assimilation of amino acids by converting them to proteins"
+  },
+  {
+   "code": "13.1.7",
+   "section": "13.1",
+   "level": "supplement",
+   "text": "State that urea is formed in the liver from excess amino acids"
+  },
+  {
+   "code": "13.1.8",
+   "section": "13.1",
+   "level": "supplement",
+   "text": "Describe deamination as the removal of the nitrogen-containing part of amino acids to form urea"
+  },
+  {
+   "code": "13.1.9",
+   "section": "13.1",
+   "level": "supplement",
+   "text": "Explain the importance of excretion, limited to toxicity of urea"
+  },
+  {
+   "code": "14.1.1",
+   "section": "14.1",
+   "level": "core",
+   "text": "State that electrical impulses travel along neurones"
+  },
+  {
+   "code": "14.1.2",
+   "section": "14.1",
+   "level": "core",
+   "text": "Describe the mammalian nervous system in terms of: (a) the central nervous system (CNS) consisting of the brain and the spinal cord (b) the peripheral nervous system (PNS) consisting of the nerves outside of the brain and spinal cord"
+  },
+  {
+   "code": "14.1.3",
+   "section": "14.1",
+   "level": "core",
+   "text": "Describe the role of the nervous system as coordination and regulation of body functions"
+  },
+  {
+   "code": "14.1.4",
+   "section": "14.1",
+   "level": "core",
+   "text": "Identify in diagrams and images sensory, relay and motor neurones"
+  },
+  {
+   "code": "14.1.5",
+   "section": "14.1",
+   "level": "core",
+   "text": "Describe a simple reflex arc in terms of: receptor, sensory neurone, relay neurone, motor neurone and effector"
+  },
+  {
+   "code": "14.1.6",
+   "section": "14.1",
+   "level": "core",
+   "text": "Describe a reflex action as a means of automatically and rapidly integrating and coordinating stimuli with the responses of effectors (muscles and glands)"
+  },
+  {
+   "code": "14.1.7",
+   "section": "14.1",
+   "level": "core",
+   "text": "Describe a synapse as a junction between two neurones"
+  },
+  {
+   "code": "14.1.8",
+   "section": "14.1",
+   "level": "supplement",
+   "text": "Describe the structure of a synapse, including the presence of vesicles containing neurotransmitter molecules, the synaptic gap and receptor proteins"
+  },
+  {
+   "code": "14.1.9",
+   "section": "14.1",
+   "level": "supplement",
+   "text": "Describe the events at a synapse as: (a) an impulse stimulates the release of neurotransmitter molecules from vesicles into the synaptic gap (b) the neurotransmitter molecules diffuse across the gap (c) neurotransmitter molecules bind with receptor proteins on the next neurone (d) an impulse is then stimulated in the next neurone"
+  },
+  {
+   "code": "14.1.10",
+   "section": "14.1",
+   "level": "supplement",
+   "text": "State that synapses ensure that impulses travel in one direction only"
+  },
+  {
+   "code": "14.2.1",
+   "section": "14.2",
+   "level": "core",
+   "text": "Describe sense organs as groups of receptor cells responding to specific stimuli: light, sound, touch, temperature and chemicals"
+  },
+  {
+   "code": "14.2.2",
+   "section": "14.2",
+   "level": "core",
+   "text": "Identify in diagrams and images the structures of the eye, limited to: cornea, iris, pupil, lens, retina, optic nerve and blind spot"
+  },
+  {
+   "code": "14.2.3",
+   "section": "14.2",
+   "level": "core",
+   "text": "Describe the function of each part of the eye, limited to: (a) cornea – refracts light (b) iris – controls how much light enters the pupil (c) lens – focuses light on to the retina (d) retina – contains light receptors, some sensitive to light of different colours (e) optic nerve – carries impulses to the brain"
+  },
+  {
+   "code": "14.2.4",
+   "section": "14.2",
+   "level": "core",
+   "text": "Explain the pupil reflex, limited to changes in light intensity and pupil diameter"
+  },
+  {
+   "code": "14.2.5",
+   "section": "14.2",
+   "level": "supplement",
+   "text": "Explain the pupil reflex in terms of the antagonistic action of circular and radial muscles in the iris"
+  },
+  {
+   "code": "14.2.6",
+   "section": "14.2",
+   "level": "supplement",
+   "text": "Explain accommodation to view near and distant objects in terms of the contraction and relaxation of the ciliary muscles, tension in the suspensory ligaments, shape of the lens and refraction of light"
+  },
+  {
+   "code": "14.2.7",
+   "section": "14.2",
+   "level": "supplement",
+   "text": "Describe the distribution of rods and cones in the retina of a human"
+  },
+  {
+   "code": "14.2.8",
+   "section": "14.2",
+   "level": "supplement",
+   "text": "Outline the function of rods and cones, limited to: (a) greater sensitivity of rods for night vision (b) three different kinds of cones, absorbing light of different colours, for colour vision"
+  },
+  {
+   "code": "14.2.9",
+   "section": "14.2",
+   "level": "supplement",
+   "text": "Identify in diagrams and images the position of the fovea and state its function"
+  },
+  {
+   "code": "14.3.1",
+   "section": "14.3",
+   "level": "core",
+   "text": "Describe a hormone as a chemical substance, produced by a gland and carried by the blood, which alters the activity of one or more specific target organs"
+  },
+  {
+   "code": "14.3.2",
+   "section": "14.3",
+   "level": "core",
+   "text": "Identify in diagrams and images specific endocrine glands and state the hormones they secrete, limited to: (a) adrenal glands and adrenaline (b) pancreas and insulin (c) testes and testosterone (d) ovaries and oestrogen"
+  },
+  {
+   "code": "14.3.3",
+   "section": "14.3",
+   "level": "core",
+   "text": "Describe adrenaline as the hormone secreted in ‘fight or flight’ situations and its effects, limited to: (a) increased breathing rate (b) increased heart rate (c) increased pupil diameter"
+  },
+  {
+   "code": "14.3.4",
+   "section": "14.3",
+   "level": "core",
+   "text": "Compare nervous and hormonal control, limited to speed of action and duration of effect"
+  },
+  {
+   "code": "14.3.5",
+   "section": "14.3",
+   "level": "supplement",
+   "text": "State that glucagon is secreted by the pancreas"
+  },
+  {
+   "code": "14.3.6",
+   "section": "14.3",
+   "level": "supplement",
+   "text": "Describe the role of adrenaline in the control of metabolic activity, limited to: (a) increasing the blood glucose concentration (b) increasing heart rate"
+  },
+  {
+   "code": "14.4.1",
+   "section": "14.4",
+   "level": "core",
+   "text": "Describe homeostasis as the maintenance of a constant internal environment"
+  },
+  {
+   "code": "14.4.2",
+   "section": "14.4",
+   "level": "core",
+   "text": "State that insulin decreases blood glucose concentration"
+  },
+  {
+   "code": "14.4.3",
+   "section": "14.4",
+   "level": "supplement",
+   "text": "Explain the concept of homeostatic control by negative feedback with reference to a set point"
+  },
+  {
+   "code": "14.4.4",
+   "section": "14.4",
+   "level": "supplement",
+   "text": "Describe the control of blood glucose concentration by the liver and the roles of insulin and glucagon"
+  },
+  {
+   "code": "14.4.5",
+   "section": "14.4",
+   "level": "supplement",
+   "text": "Outline the treatment of Type 1 diabetes"
+  },
+  {
+   "code": "14.4.6",
+   "section": "14.4",
+   "level": "supplement",
+   "text": "Identify in diagrams and images of the skin: hairs, hair erector muscles, sweat glands, receptors, sensory neurones, blood vessels and fatty tissue"
+  },
+  {
+   "code": "14.4.7",
+   "section": "14.4",
+   "level": "supplement",
+   "text": "Describe the maintenance of a constant internal body temperature in mammals in terms of: insulation, sweating, shivering and the role of the brain"
+  },
+  {
+   "code": "14.4.8",
+   "section": "14.4",
+   "level": "supplement",
+   "text": "Describe the maintenance of a constant internal body temperature in mammals in terms of vasodilation and vasoconstriction of arterioles supplying skin surface capillaries"
+  },
+  {
+   "code": "14.5.1",
+   "section": "14.5",
+   "level": "core",
+   "text": "Describe gravitropism as a response in which parts of a plant grow towards or away from gravity"
+  },
+  {
+   "code": "14.5.2",
+   "section": "14.5",
+   "level": "core",
+   "text": "Describe phototropism as a response in which parts of a plant grow towards or away from the direction of the light source"
+  },
+  {
+   "code": "14.5.3",
+   "section": "14.5",
+   "level": "core",
+   "text": "Investigate and describe gravitropism and phototropism in shoots and roots"
+  },
+  {
+   "code": "14.5.4",
+   "section": "14.5",
+   "level": "supplement",
+   "text": "Explain phototropism and gravitropism of a shoot as examples of the chemical control of plant growth"
+  },
+  {
+   "code": "14.5.5",
+   "section": "14.5",
+   "level": "supplement",
+   "text": "Explain the role of auxin in controlling shoot growth, limited to: (a) auxin is made in the shoot tip (b) auxin diffuses through the plant from the shoot tip (c) auxin is unequally distributed in response to light and gravity (d) auxin stimulates cell elongation"
+  },
+  {
+   "code": "15.1.1",
+   "section": "15.1",
+   "level": "core",
+   "text": "Describe a drug as any substance taken into the body that modifies or affects chemical reactions in the body"
+  },
+  {
+   "code": "15.1.2",
+   "section": "15.1",
+   "level": "core",
+   "text": "Describe the use of antibiotics for the treatment of bacterial infections"
+  },
+  {
+   "code": "15.1.3",
+   "section": "15.1",
+   "level": "core",
+   "text": "State that some bacteria are resistant to antibiotics which reduces the effectiveness of antibiotics"
+  },
+  {
+   "code": "15.1.4",
+   "section": "15.1",
+   "level": "core",
+   "text": "State that antibiotics kill bacteria but do not affect viruses"
+  },
+  {
+   "code": "15.1.5",
+   "section": "15.1",
+   "level": "supplement",
+   "text": "Explain how using antibiotics only when essential can limit the development of resistant bacteria such as MRSA"
+  },
+  {
+   "code": "16.1.1",
+   "section": "16.1",
+   "level": "core",
+   "text": "Describe asexual reproduction as a process resulting in the production of genetically identical offspring from one parent"
+  },
+  {
+   "code": "16.1.2",
+   "section": "16.1",
+   "level": "core",
+   "text": "Identify examples of asexual reproduction in diagrams, images and information provided"
+  },
+  {
+   "code": "16.1.3",
+   "section": "16.1",
+   "level": "supplement",
+   "text": "Discuss the advantages and disadvantages of asexual reproduction: (a) to a population of a species in the wild (b) to crop production"
+  },
+  {
+   "code": "16.2.1",
+   "section": "16.2",
+   "level": "core",
+   "text": "Describe sexual reproduction as a process involving the fusion of the nuclei of two gametes to form a zygote and the production of offspring that are genetically different from each other"
+  },
+  {
+   "code": "16.2.2",
+   "section": "16.2",
+   "level": "core",
+   "text": "Describe fertilisation as the fusion of the nuclei of gametes"
+  },
+  {
+   "code": "16.2.3",
+   "section": "16.2",
+   "level": "supplement",
+   "text": "State that nuclei of gametes are haploid and that the nucleus of a zygote is diploid"
+  },
+  {
+   "code": "16.2.4",
+   "section": "16.2",
+   "level": "supplement",
+   "text": "Discuss the advantages and disadvantages of sexual reproduction: (a) to a population of a species in the wild (b) to crop production"
+  },
+  {
+   "code": "16.3.1",
+   "section": "16.3",
+   "level": "core",
+   "text": "Identify in diagrams and images and draw the following parts of an insect-pollinated flower: sepals, petals, stamens, filaments, anthers, carpels, style, stigma, ovary and ovules"
+  },
+  {
+   "code": "16.3.2",
+   "section": "16.3",
+   "level": "core",
+   "text": "State the functions of the structures listed in 16.3.1"
+  },
+  {
+   "code": "16.3.3",
+   "section": "16.3",
+   "level": "core",
+   "text": "Identify in diagrams and images and describe the anthers and stigmas of a wind-pollinated flower"
+  },
+  {
+   "code": "16.3.4",
+   "section": "16.3",
+   "level": "core",
+   "text": "Distinguish between the pollen grains of insect-pollinated and wind-pollinated flowers"
+  },
+  {
+   "code": "16.3.5",
+   "section": "16.3",
+   "level": "core",
+   "text": "Describe pollination as the transfer of pollen grains from an anther to a stigma"
+  },
+  {
+   "code": "16.3.6",
+   "section": "16.3",
+   "level": "core",
+   "text": "State that fertilisation occurs when a pollen nucleus fuses with a nucleus in an ovule"
+  },
+  {
+   "code": "16.3.7",
+   "section": "16.3",
+   "level": "core",
+   "text": "Describe the structural adaptations of insect-pollinated and wind-pollinated flowers"
+  },
+  {
+   "code": "16.3.8",
+   "section": "16.3",
+   "level": "core",
+   "text": "Investigate and describe the environmental conditions that affect germination of seeds, limited to the requirement for: water, oxygen and a suitable temperature"
+  },
+  {
+   "code": "16.3.9",
+   "section": "16.3",
+   "level": "supplement",
+   "text": "Describe self-pollination as the transfer of pollen grains from the anther of a flower to the stigma of the same flower or a different flower on the same plant"
+  },
+  {
+   "code": "16.3.10",
+   "section": "16.3",
+   "level": "supplement",
+   "text": "Describe cross-pollination as the transfer of pollen grains from the anther of a flower to the stigma of a flower on a different plant of the same species"
+  },
+  {
+   "code": "16.3.11",
+   "section": "16.3",
+   "level": "supplement",
+   "text": "Discuss the potential effects of self-pollination and cross-pollination on a population, in terms of variation, capacity to respond to changes in the environment and reliance on pollinators"
+  },
+  {
+   "code": "16.3.12",
+   "section": "16.3",
+   "level": "supplement",
+   "text": "Describe the growth of the pollen tube and its entry into the ovule followed by fertilisation (details of production of endosperm and development are not required)"
+  },
+  {
+   "code": "16.4.1",
+   "section": "16.4",
+   "level": "core",
+   "text": "Identify on diagrams and state the functions of the following parts of the male reproductive system: testes, scrotum, sperm ducts, prostate gland, urethra and penis"
+  },
+  {
+   "code": "16.4.2",
+   "section": "16.4",
+   "level": "core",
+   "text": "Identify on diagrams and state the functions of the following parts of the female reproductive system: ovaries, oviducts, uterus, cervix and vagina"
+  },
+  {
+   "code": "16.4.3",
+   "section": "16.4",
+   "level": "core",
+   "text": "Describe fertilisation as the fusion of the nuclei from a male gamete (sperm) and a female gamete (egg cell)"
+  },
+  {
+   "code": "16.4.4",
+   "section": "16.4",
+   "level": "core",
+   "text": "Explain the adaptive features of sperm, limited to: flagellum, mitochondria and enzymes in the acrosome"
+  },
+  {
+   "code": "16.4.5",
+   "section": "16.4",
+   "level": "core",
+   "text": "Explain the adaptive features of egg cells, limited to: energy stores and the jelly coat that changes at fertilisation"
+  },
+  {
+   "code": "16.4.6",
+   "section": "16.4",
+   "level": "core",
+   "text": "Compare male and female gametes in terms of: size, structure, motility and numbers"
+  },
+  {
+   "code": "16.4.7",
+   "section": "16.4",
+   "level": "core",
+   "text": "State that in early development, the zygote forms an embryo which is a ball of cells that implants into the lining of the uterus"
+  },
+  {
+   "code": "16.4.8",
+   "section": "16.4",
+   "level": "core",
+   "text": "Identify on diagrams and state the functions of the following in the development of the fetus: umbilical cord, placenta, amniotic sac and amniotic fluid"
+  },
+  {
+   "code": "16.4.9",
+   "section": "16.4",
+   "level": "supplement",
+   "text": "Describe the function of the placenta and umbilical cord in relation to the exchange of dissolved nutrients, gases and excretory products between the blood of the mother and the blood of the fetus"
+  },
+  {
+   "code": "16.4.10",
+   "section": "16.4",
+   "level": "supplement",
+   "text": "State that some pathogens and toxins can pass across the placenta and affect the fetus"
+  },
+  {
+   "code": "16.5.1",
+   "section": "16.5",
+   "level": "core",
+   "text": "Describe the roles of testosterone and oestrogen in the development and regulation of secondary sexual characteristics during puberty"
+  },
+  {
+   "code": "16.5.2",
+   "section": "16.5",
+   "level": "core",
+   "text": "Describe the menstrual cycle in terms of changes in the ovaries and in the lining of the uterus"
+  },
+  {
+   "code": "16.5.3",
+   "section": "16.5",
+   "level": "supplement",
+   "text": "Describe the sites of production of oestrogen and progesterone in the menstrual cycle and in pregnancy"
+  },
+  {
+   "code": "16.5.4",
+   "section": "16.5",
+   "level": "supplement",
+   "text": "Explain the role of hormones in controlling the menstrual cycle and pregnancy, limited to FSH, LH, progesterone and oestrogen"
+  },
+  {
+   "code": "16.6.1",
+   "section": "16.6",
+   "level": "core",
+   "text": "Describe a sexually transmitted infection (STI) as an infection that is transmitted through sexual contact"
+  },
+  {
+   "code": "16.6.2",
+   "section": "16.6",
+   "level": "core",
+   "text": "State that human immunodeficiency virus (HIV) is a pathogen that causes an STI"
+  },
+  {
+   "code": "16.6.3",
+   "section": "16.6",
+   "level": "core",
+   "text": "State that HIV infection may lead to AIDS"
+  },
+  {
+   "code": "16.6.4",
+   "section": "16.6",
+   "level": "core",
+   "text": "Describe the methods of transmission of HIV"
+  },
+  {
+   "code": "16.6.5",
+   "section": "16.6",
+   "level": "core",
+   "text": "Explain how the spread of STIs is controlled"
+  },
+  {
+   "code": "17.1.1",
+   "section": "17.1",
+   "level": "core",
+   "text": "State that chromosomes are made of DNA, which contains genetic information in the form of genes"
+  },
+  {
+   "code": "17.1.2",
+   "section": "17.1",
+   "level": "core",
+   "text": "Define a gene as a length of DNA that codes for a protein"
+  },
+  {
+   "code": "17.1.3",
+   "section": "17.1",
+   "level": "core",
+   "text": "Define an allele as an alternative form of a gene"
+  },
+  {
+   "code": "17.1.4",
+   "section": "17.1",
+   "level": "core",
+   "text": "Describe the inheritance of sex in humans with reference to X and Y chromosomes"
+  },
+  {
+   "code": "17.1.5",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "State that the sequence of bases in a gene determines the sequence of amino acids used to make a specific protein"
+  },
+  {
+   "code": "17.1.6",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "Explain that different sequences of amino acids give different shapes to protein molecules"
+  },
+  {
+   "code": "17.1.7",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "Explain that DNA controls cell function by controlling the production of proteins, including enzymes, membrane carriers and receptors for neurotransmitters"
+  },
+  {
+   "code": "17.1.8",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "Explain how a protein is made, limited to transcription, mRNA, ribosomes, and amino acid assembly"
+  },
+  {
+   "code": "17.1.9",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "Explain that most body cells in an organism contain the same genes, but many genes in a particular cell are not expressed"
+  },
+  {
+   "code": "17.1.10",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "Describe a haploid nucleus as a nucleus containing a single set of chromosomes"
+  },
+  {
+   "code": "17.1.11",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "Describe a diploid nucleus as a nucleus containing two sets of chromosomes"
+  },
+  {
+   "code": "17.1.12",
+   "section": "17.1",
+   "level": "supplement",
+   "text": "State that in a diploid cell, there is a pair of each type of chromosome and in a human diploid cell there are 23 pairs"
+  },
+  {
+   "code": "17.2.1",
+   "section": "17.2",
+   "level": "supplement",
+   "text": "Describe mitosis as nuclear division giving rise to genetically identical cells"
+  },
+  {
+   "code": "17.2.2",
+   "section": "17.2",
+   "level": "supplement",
+   "text": "State the role of mitosis in growth, repair of damaged tissues, replacement of cells and asexual reproduction"
+  },
+  {
+   "code": "17.2.3",
+   "section": "17.2",
+   "level": "supplement",
+   "text": "State that the exact replication of chromosomes occurs before mitosis"
+  },
+  {
+   "code": "17.2.4",
+   "section": "17.2",
+   "level": "supplement",
+   "text": "State that during mitosis, the copies of chromosomes separate, maintaining the chromosome number in each daughter cell"
+  },
+  {
+   "code": "17.2.5",
+   "section": "17.2",
+   "level": "supplement",
+   "text": "Describe stem cells as unspecialised cells that divide by mitosis to produce daughter cells that can become specialised for specific functions"
+  },
+  {
+   "code": "17.3.1",
+   "section": "17.3",
+   "level": "supplement",
+   "text": "State that meiosis is involved in the production of gametes"
+  },
+  {
+   "code": "17.3.2",
+   "section": "17.3",
+   "level": "supplement",
+   "text": "Describe meiosis as a reduction division in which the chromosome number is halved from diploid to haploid resulting in genetically different cells"
+  },
+  {
+   "code": "17.4.1",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe inheritance as the transmission of genetic information from generation to generation"
+  },
+  {
+   "code": "17.4.2",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe genotype as the genetic make-up of an organism and in terms of the alleles present"
+  },
+  {
+   "code": "17.4.3",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe phenotype as the observable features of an organism"
+  },
+  {
+   "code": "17.4.4",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe homozygous as having two identical alleles of a particular gene"
+  },
+  {
+   "code": "17.4.5",
+   "section": "17.4",
+   "level": "core",
+   "text": "State that two identical homozygous individuals that breed together will be pure-breeding"
+  },
+  {
+   "code": "17.4.6",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe heterozygous as having two different alleles of a particular gene"
+  },
+  {
+   "code": "17.4.7",
+   "section": "17.4",
+   "level": "core",
+   "text": "State that a heterozygous individual will not be pure-breeding"
+  },
+  {
+   "code": "17.4.8",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe a dominant allele as an allele that is expressed if it is present in the genotype"
+  },
+  {
+   "code": "17.4.9",
+   "section": "17.4",
+   "level": "core",
+   "text": "Describe a recessive allele as an allele that is only expressed when there is no dominant allele of the gene present in the genotype"
+  },
+  {
+   "code": "17.4.10",
+   "section": "17.4",
+   "level": "core",
+   "text": "Interpret pedigree diagrams for the inheritance of a given characteristic"
+  },
+  {
+   "code": "17.4.11",
+   "section": "17.4",
+   "level": "core",
+   "text": "Use genetic diagrams to predict the results of monohybrid crosses and calculate phenotypic ratios, limited to 1 : 1 and 3 : 1 ratios"
+  },
+  {
+   "code": "17.4.12",
+   "section": "17.4",
+   "level": "core",
+   "text": "Use Punnett squares in crosses which result in more than one genotype to work out and show the possible different genotypes"
+  },
+  {
+   "code": "17.4.13",
+   "section": "17.4",
+   "level": "supplement",
+   "text": "Explain how to use a test cross to identify an unknown genotype"
+  },
+  {
+   "code": "17.4.14",
+   "section": "17.4",
+   "level": "supplement",
+   "text": "Describe codominance as a situation in which both alleles in heterozygous organisms contribute to the phenotype"
+  },
+  {
+   "code": "17.4.15",
+   "section": "17.4",
+   "level": "supplement",
+   "text": "Explain the inheritance of ABO blood groups: phenotypes are A, B, AB and O blood groups and alleles are IA, IB and Io"
+  },
+  {
+   "code": "17.4.16",
+   "section": "17.4",
+   "level": "supplement",
+   "text": "Describe a sex-linked characteristic as a feature in which the gene responsible is located on a sex chromosome"
+  },
+  {
+   "code": "17.4.17",
+   "section": "17.4",
+   "level": "supplement",
+   "text": "Describe red-green colour blindness as an example of sex linkage"
+  },
+  {
+   "code": "17.4.18",
+   "section": "17.4",
+   "level": "supplement",
+   "text": "Use genetic diagrams to predict the results of monohybrid crosses involving codominance or sex linkage and calculate phenotypic ratios"
+  },
+  {
+   "code": "18.1.1",
+   "section": "18.1",
+   "level": "core",
+   "text": "Describe variation as differences between individuals of the same species"
+  },
+  {
+   "code": "18.1.2",
+   "section": "18.1",
+   "level": "core",
+   "text": "State that continuous variation results in a range of phenotypes between two extremes; examples include body length and body mass"
+  },
+  {
+   "code": "18.1.3",
+   "section": "18.1",
+   "level": "core",
+   "text": "State that discontinuous variation results in a limited number of phenotypes with no intermediates; examples include ABO blood groups, seed shape in peas and seed colour in peas"
+  },
+  {
+   "code": "18.1.4",
+   "section": "18.1",
+   "level": "core",
+   "text": "State that discontinuous variation is usually caused by genes only and continuous variation is caused by both genes and the environment"
+  },
+  {
+   "code": "18.1.5",
+   "section": "18.1",
+   "level": "core",
+   "text": "Investigate and describe examples of continuous and discontinuous variation"
+  },
+  {
+   "code": "18.1.6",
+   "section": "18.1",
+   "level": "core",
+   "text": "Describe mutation as genetic change"
+  },
+  {
+   "code": "18.1.7",
+   "section": "18.1",
+   "level": "core",
+   "text": "State that mutation is the way in which new alleles are formed"
+  },
+  {
+   "code": "18.1.8",
+   "section": "18.1",
+   "level": "core",
+   "text": "State that ionising radiation and some chemicals increase the rate of mutation"
+  },
+  {
+   "code": "18.1.9",
+   "section": "18.1",
+   "level": "supplement",
+   "text": "Describe gene mutation as a random change in the base sequence of DNA"
+  },
+  {
+   "code": "18.1.10",
+   "section": "18.1",
+   "level": "supplement",
+   "text": "State that mutation, meiosis, random mating and random fertilisation are sources of genetic variation in populations"
+  },
+  {
+   "code": "18.2.1",
+   "section": "18.2",
+   "level": "core",
+   "text": "Describe an adaptive feature as an inherited feature that helps an organism to survive and reproduce in its environment"
+  },
+  {
+   "code": "18.2.2",
+   "section": "18.2",
+   "level": "core",
+   "text": "Interpret images or other information about a species to describe its adaptive features"
+  },
+  {
+   "code": "18.2.3",
+   "section": "18.2",
+   "level": "supplement",
+   "text": "Explain the adaptive features of hydrophytes and xerophytes to their environments"
+  },
+  {
+   "code": "18.3.1",
+   "section": "18.3",
+   "level": "core",
+   "text": "Describe natural selection with reference to: (a) genetic variation within populations (b) production of many offspring (c) struggle for survival, including competition for resources (d) a greater chance of reproduction by individuals that are better adapted to the environment than others (e) these individuals pass on their alleles to the next generation"
+  },
+  {
+   "code": "18.3.2",
+   "section": "18.3",
+   "level": "core",
+   "text": "Describe selective breeding with reference to: (a) selection by humans of individuals with desirable features (b) crossing these individuals to produce the next generation (c) selection of offspring showing the desirable features"
+  },
+  {
+   "code": "18.3.3",
+   "section": "18.3",
+   "level": "core",
+   "text": "Outline how selective breeding by artificial selection is carried out over many generations to improve crop plants and domesticated animals and apply this to given contexts"
+  },
+  {
+   "code": "18.3.4",
+   "section": "18.3",
+   "level": "supplement",
+   "text": "Describe adaptation as the process, resulting from natural selection, by which populations become more suited to their environment over many generations"
+  },
+  {
+   "code": "18.3.5",
+   "section": "18.3",
+   "level": "supplement",
+   "text": "Describe the development of strains of antibiotic resistant bacteria as an example of natural selection"
+  },
+  {
+   "code": "18.3.6",
+   "section": "18.3",
+   "level": "supplement",
+   "text": "Outline the differences between natural and artificial selection"
+  },
+  {
+   "code": "19.1.1",
+   "section": "19.1",
+   "level": "core",
+   "text": "State that the Sun is the principal source of energy input to biological systems"
+  },
+  {
+   "code": "19.1.2",
+   "section": "19.1",
+   "level": "core",
+   "text": "Describe the flow of energy through living organisms, including light energy from the Sun and chemical energy in organisms, and its eventual transfer to the environment"
+  },
+  {
+   "code": "19.2.1",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a food chain as showing the transfer of energy from one organism to the next, beginning with a producer"
+  },
+  {
+   "code": "19.2.2",
+   "section": "19.2",
+   "level": "core",
+   "text": "Construct and interpret simple food chains"
+  },
+  {
+   "code": "19.2.3",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a food web as a network of interconnected food chains and interpret food webs"
+  },
+  {
+   "code": "19.2.4",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a producer as an organism that makes its own organic nutrients, usually using energy from sunlight, through photosynthesis"
+  },
+  {
+   "code": "19.2.5",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a consumer as an organism that gets its energy by feeding on other organisms"
+  },
+  {
+   "code": "19.2.6",
+   "section": "19.2",
+   "level": "core",
+   "text": "State that consumers may be classed as primary, secondary, tertiary and quaternary according to their position in a food chain"
+  },
+  {
+   "code": "19.2.7",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a herbivore as an animal that gets its energy by eating plants"
+  },
+  {
+   "code": "19.2.8",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a carnivore as an animal that gets its energy by eating other animals"
+  },
+  {
+   "code": "19.2.9",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a decomposer as an organism that gets its energy from dead or waste organic material"
+  },
+  {
+   "code": "19.2.10",
+   "section": "19.2",
+   "level": "core",
+   "text": "Use food chains and food webs to describe the impact humans have through overharvesting of food species and through introducing foreign species to a habitat"
+  },
+  {
+   "code": "19.2.11",
+   "section": "19.2",
+   "level": "core",
+   "text": "Draw, describe and interpret pyramids of numbers and pyramids of biomass"
+  },
+  {
+   "code": "19.2.12",
+   "section": "19.2",
+   "level": "core",
+   "text": "Discuss the advantages of using a pyramid of biomass rather than a pyramid of numbers to represent a food chain"
+  },
+  {
+   "code": "19.2.13",
+   "section": "19.2",
+   "level": "core",
+   "text": "Describe a trophic level as the position of an organism in a food chain, food web or ecological pyramid"
+  },
+  {
+   "code": "19.2.14",
+   "section": "19.2",
+   "level": "core",
+   "text": "Identify the following as the trophic levels in food webs, food chains and ecological pyramids: producers, primary consumers, secondary consumers, tertiary consumers and quaternary consumers"
+  },
+  {
+   "code": "19.2.15",
+   "section": "19.2",
+   "level": "supplement",
+   "text": "Draw, describe and interpret pyramids of energy"
+  },
+  {
+   "code": "19.2.16",
+   "section": "19.2",
+   "level": "supplement",
+   "text": "Discuss the advantages of using a pyramid of energy rather than pyramids of numbers or biomass to represent a food chain"
+  },
+  {
+   "code": "19.2.17",
+   "section": "19.2",
+   "level": "supplement",
+   "text": "Explain why the transfer of energy from one trophic level to another is often not efficient"
+  },
+  {
+   "code": "19.2.18",
+   "section": "19.2",
+   "level": "supplement",
+   "text": "Explain, in terms of energy loss, why food chains usually have fewer than five trophic levels"
+  },
+  {
+   "code": "19.2.19",
+   "section": "19.2",
+   "level": "supplement",
+   "text": "Explain why it is more energy efficient for humans to eat crop plants than to eat livestock that have been fed on crop plants"
+  },
+  {
+   "code": "19.3.1",
+   "section": "19.3",
+   "level": "core",
+   "text": "Describe the carbon cycle, limited to: photosynthesis, respiration, feeding, decomposition, formation of fossil fuels and combustion"
+  },
+  {
+   "code": "19.3.2",
+   "section": "19.3",
+   "level": "supplement",
+   "text": "Describe the nitrogen cycle with reference to: decomposition of plant and animal protein to ammonium ions, nitrification, nitrogen fixation by lightning and bacteria, absorption of nitrate ions by plants, production of amino acids and proteins, feeding and digestion of proteins, deamination, denitrification"
+  },
+  {
+   "code": "19.3.3",
+   "section": "19.3",
+   "level": "supplement",
+   "text": "State the roles of microorganisms in the nitrogen cycle, limited to: decomposition, nitrification, nitrogen fixation and denitrification (generic names of individual bacteria, e.g. Rhizobium, are not required)"
+  },
+  {
+   "code": "19.4.1",
+   "section": "19.4",
+   "level": "core",
+   "text": "Describe a population as a group of organisms of one species, living in the same area, at the same time"
+  },
+  {
+   "code": "19.4.2",
+   "section": "19.4",
+   "level": "core",
+   "text": "Describe a community as all of the populations of different species in an ecosystem"
+  },
+  {
+   "code": "19.4.3",
+   "section": "19.4",
+   "level": "core",
+   "text": "Describe an ecosystem as a unit containing the community of organisms and their environment, interacting together"
+  },
+  {
+   "code": "19.4.4",
+   "section": "19.4",
+   "level": "core",
+   "text": "Identify and state the factors affecting the rate of population growth for a population of an organism, limited to food supply, competition, predation and disease"
+  },
+  {
+   "code": "19.4.5",
+   "section": "19.4",
+   "level": "core",
+   "text": "Identify the lag, exponential (log), stationary and death phases in the sigmoid curve of population growth for a population growing in an environment with limited resources"
+  },
+  {
+   "code": "19.4.6",
+   "section": "19.4",
+   "level": "core",
+   "text": "Interpret graphs and diagrams of population growth"
+  },
+  {
+   "code": "19.4.7",
+   "section": "19.4",
+   "level": "supplement",
+   "text": "Explain the factors that lead to each phase in the sigmoid curve of population growth, making reference, where appropriate, to the role of limiting factors"
+  },
+  {
+   "code": "20.1.1",
+   "section": "20.1",
+   "level": "core",
+   "text": "Describe how humans have increased food production, limited to agricultural machinery, chemical fertilisers, insecticides, herbicides and selective breeding."
+  },
+  {
+   "code": "20.1.2",
+   "section": "20.1",
+   "level": "core",
+   "text": "Describe the advantages and disadvantages of large-scale monocultures of crop plants"
+  },
+  {
+   "code": "20.1.3",
+   "section": "20.1",
+   "level": "core",
+   "text": "Describe the advantages and disadvantages of intensive livestock production"
+  },
+  {
+   "code": "20.2.1",
+   "section": "20.2",
+   "level": "core",
+   "text": "Describe biodiversity as the number of different species that live in an area"
+  },
+  {
+   "code": "20.2.2",
+   "section": "20.2",
+   "level": "core",
+   "text": "Describe the reasons for habitat destruction, including housing, crop plant and livestock production, extraction of natural resources, and freshwater and marine pollution."
+  },
+  {
+   "code": "20.2.3",
+   "section": "20.2",
+   "level": "core",
+   "text": "State that through altering food webs and food chains, humans can have a negative impact on habitats"
+  },
+  {
+   "code": "20.2.4",
+   "section": "20.2",
+   "level": "core",
+   "text": "Explain the undesirable effects of deforestation as an example of habitat destruction, to include reducing biodiversity, extinction, loss of soil, flooding and increase of carbon dioxide."
+  },
+  {
+   "code": "20.3.1",
+   "section": "20.3",
+   "level": "core",
+   "text": "Describe the effects of untreated sewage and excess fertiliser on aquatic ecosystems"
+  },
+  {
+   "code": "20.3.2",
+   "section": "20.3",
+   "level": "core",
+   "text": "Describe the effects of non-biodegradable plastics, in both aquatic and terrestrial ecosystems"
+  },
+  {
+   "code": "20.3.3",
+   "section": "20.3",
+   "level": "core",
+   "text": "Describe the sources and effects of pollution of the air by methane and carbon dioxide, limited to the enhanced greenhouse effect and climate change"
+  },
+  {
+   "code": "20.3.4",
+   "section": "20.3",
+   "level": "supplement",
+   "text": "Explain the process of eutrophication of water, limited to nitrate increase, producer growth, decomposition, aerobic respiration, oxygen reduction and death of organisms."
+  },
+  {
+   "code": "20.4.1",
+   "section": "20.4",
+   "level": "core",
+   "text": "Describe a sustainable resource as one which is produced as rapidly as it is removed from the environment so that it does not run out"
+  },
+  {
+   "code": "20.4.2",
+   "section": "20.4",
+   "level": "core",
+   "text": "State that some resources can be conserved and managed sustainably, limited to forests and fish stocks"
+  },
+  {
+   "code": "20.4.3",
+   "section": "20.4",
+   "level": "core",
+   "text": "Explain why organisms become endangered or extinct, including climate change, habitat destruction, hunting, overharvesting, pollution and introduced species"
+  },
+  {
+   "code": "20.4.4",
+   "section": "20.4",
+   "level": "core",
+   "text": "Describe how endangered species can be conserved, limited to monitoring and protecting species and habitats, education, captive breeding programmes and seed banks."
+  },
+  {
+   "code": "20.4.5",
+   "section": "20.4",
+   "level": "supplement",
+   "text": "Explain how forests can be conserved using education, protected areas, quotas and replanting"
+  },
+  {
+   "code": "20.4.6",
+   "section": "20.4",
+   "level": "supplement",
+   "text": "Explain how fish stocks can be conserved using education, closed seasons, protected areas, controlled net types and mesh size, quotas and monitoring"
+  },
+  {
+   "code": "20.4.7",
+   "section": "20.4",
+   "level": "supplement",
+   "text": "Describe the reasons for conservation programmes, limited to maintaining biodiversity, reducing extinction, protecting vulnerable ecosystems and maintaining ecosystem functions."
+  },
+  {
+   "code": "20.4.8",
+   "section": "20.4",
+   "level": "supplement",
+   "text": "Describe the use of artificial insemination and in vitro fertilisation in captive breeding programmes"
+  },
+  {
+   "code": "20.4.9",
+   "section": "20.4",
+   "level": "supplement",
+   "text": "Explain the risks to a species if its population size decreases, reducing genetic variation"
+  },
+  {
+   "code": "21.1.1",
+   "section": "21.1",
+   "level": "core",
+   "text": "State that bacteria are useful in biotechnology and genetic modification due to their rapid reproduction rate and their ability to make complex molecules"
+  },
+  {
+   "code": "21.1.2",
+   "section": "21.1",
+   "level": "supplement",
+   "text": "Discuss why bacteria are useful in biotechnology and genetic modification, limited to: (a) few ethical concerns over their manipulation and growth (b) the presence of plasmids"
+  },
+  {
+   "code": "21.2.1",
+   "section": "21.2",
+   "level": "core",
+   "text": "Describe the role of anaerobic respiration in yeast during the production of ethanol for biofuels"
+  },
+  {
+   "code": "21.2.2",
+   "section": "21.2",
+   "level": "core",
+   "text": "Describe the role of anaerobic respiration in yeast during bread-making"
+  },
+  {
+   "code": "21.2.3",
+   "section": "21.2",
+   "level": "core",
+   "text": "Describe the use of pectinase in fruit juice production"
+  },
+  {
+   "code": "21.2.4",
+   "section": "21.2",
+   "level": "core",
+   "text": "Investigate and describe the use of biological washing powders that contain enzymes"
+  },
+  {
+   "code": "21.2.5",
+   "section": "21.2",
+   "level": "supplement",
+   "text": "Explain the use of lactase to produce lactose-free milk"
+  },
+  {
+   "code": "21.2.6",
+   "section": "21.2",
+   "level": "supplement",
+   "text": "Describe how fermenters can be used for the large-scale production of useful products by bacteria and fungi, including insulin, penicillin and mycoprotein"
+  },
+  {
+   "code": "21.2.7",
+   "section": "21.2",
+   "level": "supplement",
+   "text": "Describe and explain the conditions that need to be controlled in a fermenter, including: temperature, pH, oxygen, nutrient supply and waste products"
+  },
+  {
+   "code": "21.3.1",
+   "section": "21.3",
+   "level": "core",
+   "text": "Describe genetic modification as changing the genetic material of an organism by removing, changing or inserting individual genes"
+  },
+  {
+   "code": "21.3.2",
+   "section": "21.3",
+   "level": "core",
+   "text": "Outline examples of genetic modification: (a) the insertion of human genes into bacteria to produce human proteins (b) the insertion of genes into crop plants to confer resistance to herbicides (c) the insertion of genes into crop plants to confer resistance to insect pests (d) the insertion of genes into crop plants to improve nutritional qualities"
+  },
+  {
+   "code": "21.3.3",
+   "section": "21.3",
+   "level": "supplement",
+   "text": "Outline the process of genetic modification using bacterial production of a human protein as an example, limited to: (a) isolation of the DNA making up a human gene using restriction enzymes, forming sticky ends (b) cutting of bacterial plasmid DNA with the same restriction enzymes, forming complementary sticky ends (c) insertion of human DNA into bacterial plasmid DNA using DNA ligase to form a recombinant plasmid (d) insertion of recombinant plasmids into bacteria (specific details are not required) (e) multiplication of bacteria containing recombinant plasmids (f) expression in bacteria of the human gene to make the human protein"
+  },
+  {
+   "code": "21.3.4",
+   "section": "21.3",
+   "level": "supplement",
+   "text": "Discuss the advantages and disadvantages of genetically modifying crops, including soya, maize and rice"
+  }
+ ],
+ "chapters_done": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "outline": {
+  "chapters": [
+   {
+    "num": 1,
+    "title": "Characteristics and classification of living organisms"
+   },
+   {
+    "num": 2,
+    "title": "Organisation of the organism"
+   },
+   {
+    "num": 3,
+    "title": "Movement into and out of cells"
+   },
+   {
+    "num": 4,
+    "title": "Biological molecules"
+   },
+   {
+    "num": 5,
+    "title": "Enzymes"
+   },
+   {
+    "num": 6,
+    "title": "Plant nutrition"
+   },
+   {
+    "num": 7,
+    "title": "Human nutrition"
+   },
+   {
+    "num": 8,
+    "title": "Transport in plants"
+   },
+   {
+    "num": 9,
+    "title": "Transport in animals"
+   },
+   {
+    "num": 10,
+    "title": "Diseases and immunity"
+   },
+   {
+    "num": 11,
+    "title": "Gas exchange in humans"
+   },
+   {
+    "num": 12,
+    "title": "Respiration"
+   },
+   {
+    "num": 13,
+    "title": "Excretion in humans"
+   },
+   {
+    "num": 14,
+    "title": "Coordination and response"
+   },
+   {
+    "num": 15,
+    "title": "Drugs"
+   },
+   {
+    "num": 16,
+    "title": "Reproduction"
+   },
+   {
+    "num": 17,
+    "title": "Inheritance"
+   },
+   {
+    "num": 18,
+    "title": "Variation and selection"
+   },
+   {
+    "num": 19,
+    "title": "Organisms and their environment"
+   },
+   {
+    "num": 20,
+    "title": "Human influences on ecosystems"
+   },
+   {
+    "num": 21,
+    "title": "Biotechnology and genetic modification"
+   }
+  ],
+  "sections": [
+   {
+    "code": "1.1",
+    "title": "Characteristics of living organisms"
+   },
+   {
+    "code": "1.2",
+    "title": "Concept and uses of classification systems"
+   },
+   {
+    "code": "1.3",
+    "title": "Features of organisms"
+   },
+   {
+    "code": "2.1",
+    "title": "Cell structure"
+   },
+   {
+    "code": "2.2",
+    "title": "Size of specimens"
+   },
+   {
+    "code": "3.1",
+    "title": "Diffusion"
+   },
+   {
+    "code": "3.2",
+    "title": "Osmosis"
+   },
+   {
+    "code": "3.3",
+    "title": "Active transport"
+   },
+   {
+    "code": "4.1",
+    "title": "Biological molecules"
+   },
+   {
+    "code": "5.1",
+    "title": "Enzymes"
+   },
+   {
+    "code": "6.1",
+    "title": "Photosynthesis"
+   },
+   {
+    "code": "6.2",
+    "title": "Leaf structure"
+   },
+   {
+    "code": "7.1",
+    "title": "Diet"
+   },
+   {
+    "code": "7.2",
+    "title": "Digestive system"
+   },
+   {
+    "code": "7.3",
+    "title": "Physical digestion"
+   },
+   {
+    "code": "7.4",
+    "title": "Chemical digestion"
+   },
+   {
+    "code": "7.5",
+    "title": "Absorption"
+   },
+   {
+    "code": "8.1",
+    "title": "Xylem and phloem"
+   },
+   {
+    "code": "8.2",
+    "title": "Water uptake"
+   },
+   {
+    "code": "8.3",
+    "title": "Transpiration"
+   },
+   {
+    "code": "8.4",
+    "title": "Translocation"
+   },
+   {
+    "code": "9.1",
+    "title": "Circulatory systems"
+   },
+   {
+    "code": "9.2",
+    "title": "Heart"
+   },
+   {
+    "code": "9.3",
+    "title": "Blood vessels"
+   },
+   {
+    "code": "9.4",
+    "title": "Blood"
+   },
+   {
+    "code": "10.1",
+    "title": "Diseases and immunity"
+   },
+   {
+    "code": "11.1",
+    "title": "Gas exchange in humans"
+   },
+   {
+    "code": "12.1",
+    "title": "Respiration"
+   },
+   {
+    "code": "12.2",
+    "title": "Aerobic respiration"
+   },
+   {
+    "code": "12.3",
+    "title": "Anaerobic respiration"
+   },
+   {
+    "code": "13.1",
+    "title": "Excretion in humans"
+   },
+   {
+    "code": "14.1",
+    "title": "Coordination and response"
+   },
+   {
+    "code": "14.2",
+    "title": "Sense organs"
+   },
+   {
+    "code": "14.3",
+    "title": "Hormones"
+   },
+   {
+    "code": "14.4",
+    "title": "Homeostasis"
+   },
+   {
+    "code": "14.5",
+    "title": "Tropic responses"
+   },
+   {
+    "code": "15.1",
+    "title": "Drugs"
+   },
+   {
+    "code": "16.1",
+    "title": "Asexual reproduction"
+   },
+   {
+    "code": "16.2",
+    "title": "Sexual reproduction"
+   },
+   {
+    "code": "16.3",
+    "title": "Sexual reproduction in plants"
+   },
+   {
+    "code": "16.4",
+    "title": "Sexual reproduction in humans"
+   },
+   {
+    "code": "16.5",
+    "title": "Sexual hormones in humans"
+   },
+   {
+    "code": "16.6",
+    "title": "Sexually transmitted infections"
+   },
+   {
+    "code": "17.1",
+    "title": "Chromosomes, genes and proteins"
+   },
+   {
+    "code": "17.2",
+    "title": "Mitosis"
+   },
+   {
+    "code": "17.3",
+    "title": "Meiosis"
+   },
+   {
+    "code": "17.4",
+    "title": "Monohybrid inheritance"
+   },
+   {
+    "code": "18.1",
+    "title": "Variation"
+   },
+   {
+    "code": "18.2",
+    "title": "Adaptive features"
+   },
+   {
+    "code": "18.3",
+    "title": "Selection"
+   },
+   {
+    "code": "19.1",
+    "title": "Energy flow"
+   },
+   {
+    "code": "19.2",
+    "title": "Food chains and food webs"
+   },
+   {
+    "code": "19.3",
+    "title": "Nutrient cycles"
+   },
+   {
+    "code": "19.4",
+    "title": "Populations"
+   },
+   {
+    "code": "20.1",
+    "title": "Food supply"
+   },
+   {
+    "code": "20.2",
+    "title": "Habitat destruction"
+   },
+   {
+    "code": "20.3",
+    "title": "Pollution"
+   },
+   {
+    "code": "20.4",
+    "title": "Conservation"
+   },
+   {
+    "code": "21.1",
+    "title": "Biotechnology and genetic modification"
+   },
+   {
+    "code": "21.2",
+    "title": "Biotechnology"
+   },
+   {
+    "code": "21.3",
+    "title": "Genetic modification"
+   }
+  ]
+ },
+ "generated": "2026-11-26T02:08:57+00:00",
+ "complete": true
+}

@@ -3517,5 +3517,415 @@
   "marks": 7,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-25T05:37:50+00:00"
+ },
+ "p6-180": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.2",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates refraction through a transparent rectangular block. The student draws an incident line FE at an angle i = 20° to the normal on a ray trace diagram and marks a suitable pin position P, explaining why the pin position is chosen for accuracy. The student measures angle θ on the diagram and records it in a table of results for different values of i. A graph of θ against i is plotted, and the student calculates the gradient G of the graph showing working.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-26T01:55:47+00:00"
+ },
+ "p6-181": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.4",
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates reflection using a plane mirror. The student measures length l of line AB on a ray-trace diagram and marks a suitable position for pin P_2. Pin positions P_3 and P_4 are placed to trace the reflected ray, defining distance d on line XY. Given a set of readings for angle of incidence i and distance d, a graph of d against i is plotted. The student evaluates whether i is directly proportional to d using the graph and suggests two practical difficulties in obtaining accurate readings.",
+  "skills": [
+   "readings",
+   "graphs",
+   "conclusions",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-26T01:55:47+00:00"
+ },
+ "p6-182": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation to determine the focal length of a converging lens using two different methods. Students measure the height of an illuminated triangular object and its image on a screen to calculate magnification M and focal length f_1. They identify a practical difficulty in measuring image height and propose an improvement. Next, they measure the distance between the lens and screen on a 1/5th scale diagram to determine actual image distance v and calculate a second focal length f_2. Finally, they judge whether f_1 and f_2 support the suggestion that they should be equal and state a precaution to make the experiment reliable.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-26T01:56:34+00:00"
+ },
+ "p6-183": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An optics experiment assessing the focal length of a small converging lens. A student measures full-size diagram distances u_1 (object to lens) and v_1 (lens to screen) for a sharp image and calculates the focal length f using a given formula. Keeping the object and screen fixed, the lens is shifted to find a second sharp image, and the new object distance u_2 is measured. The student determines whether u_2 and v_1 are equal, supporting their conclusion with data. Finally, the student describes two practical precautions required to obtain reliable results in lens experiments.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-26T01:56:34+00:00"
+ },
+ "p6-184": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.1",
+   "3.2.2.3",
+   "3.2.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the refraction of light through a transparent block using a ray-trace sheet, pins, and a glass block. Students draw a normal, incident ray lines at a given angle, place pins to trace the emergent ray, measure lengths between specific intersection points on the ray trace sheet, and calculate the refractive index using a given formula. Additional parts ask for experimental precautions and drawing the correct position of a ray box as an alternative to pins.",
+  "skills": [
+   "readings",
+   "calculations",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:58:16+00:00"
+ },
+ "p6-185": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.1",
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates reflection using a plane mirror, ray-trace sheet, and optical pins. The student labels the normal, positions two pins on an incident line, and views their reflections to locate the reflected ray when the mirror is tilted at various angles theta. Data for angle alpha versus angle theta is recorded in a table. The student plots a graph of alpha against theta, determines direct proportionality from the graph line, and suggests sources of experimental inaccuracy.",
+  "skills": [
+   "readings",
+   "graphs",
+   "conclusions",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:58:16+00:00"
+ },
+ "p6-186": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A class investigates the image formed by a converging lens using an illuminated object, a lens, and a screen. Given measured distances u and v, part (a) asks to calculate the focal length f using a provided formula and give the answer to a suitable number of significant figures. Part (b) asks to state two precautions for obtaining reliable measurements. Part (c) asks to suggest two differences between the appearance of the illuminated triangular object and its well-focused image on the screen.",
+  "skills": [
+   "calculations",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:58:34+00:00"
+ },
+ "p6-187": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length of a converging lens by two methods. First, using an illuminated object, lens, and mirror, part (a) asks to measure distance f on a scaled diagram and calculate the actual focal length F, recording it in a table. Part (b) calculates an average value F1. Part (c) uses a lens, illuminated object, and screen setup to find F2 from distances u and v, then asks whether F1 and F2 are equal with justification. Part (d) requires describing a precaution to obtain reliable results.",
+  "skills": [
+   "readings",
+   "calculations",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:58:34+00:00"
+ },
+ "p6-188": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The class investigates reflection using a plane mirror on a ray-trace sheet. Students draw a normal, an incident ray at an angle of 30 degrees, and position pins to locate the reflected ray. Part (a) asks to draw a normal line NL crossing MR at point A, and an 8.0 cm incident line AB. Part (b) labels a suitable position for pin P2. Part (c) involves extending the line through P3 and P4 to meet NL and measuring angle r. Part (d) requires stating two precautions for reliable readings. Part (e) asks for a practical reason why the reflected ray might differ from theory.",
+  "skills": [
+   "drawings",
+   "readings",
+   "precautions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:58:54+00:00"
+ },
+ "p6-189": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The class performs a lens experiment to determine the focal length using an illuminated object, a converging lens, and a screen. Part (a) requires drawing a diagram showing how the apparatus is arranged on a laboratory bench. Part (b) asks for a suitable distance d between the illuminated object and the screen given a focal length of approximately 15 cm. Part (c) requires suggesting two practical difficulties causing inaccuracy. Part (d) provides a triangular illuminated object shape and asks to draw the expected focused image on the screen.",
+  "skills": [
+   "drawings",
+   "planning",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:58:54+00:00"
+ },
+ "p6-190": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.1",
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates reflection using a plane mirror, a ray-trace sheet, and optical pins. On a ray-trace sheet showing a mirror line MR, the student draws a normal NL passing through its centre A and an incident ray AB at an angle of incidence of 30 degrees. Pins P1 and P2 are placed along AB. Viewing the images from a specific direction, the student aligns pins P3 and P4 so they appear directly behind the images of P1 and P2. The student joins P3 and P4, extends the line to meet NL, and measures the angle of reflection r. The procedure is repeated with the sheet turned 180 degrees. Finally, the student suggests a practical reason why the lines may not meet exactly at point A and states experimental precautions.",
+  "skills": [
+   "drawings",
+   "readings",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:59:12+00:00"
+ },
+ "p6-191": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.6",
+   "3.2.2.3",
+   "3.2.2.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the refraction of light through a transparent block using a ray-trace sheet, a rectangular block ABCD, and optical pins. A normal NL is drawn through point N on the lower boundary DC, crossing upper boundary AB at E. Pin P1 is placed at N and viewed through side AB, with pins P2 and P3 aligned with its image. The connecting line of P2 and P3 is extended to cross NL at F. The lengths of EN and EF are measured to calculate the refractive index n using n = a / b. Precautions for ensuring reliable results are considered, and a second method involving the block standing on edge is evaluated for reliability.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:59:12+00:00"
+ },
+ "p6-192": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate reflection using a plane mirror on a ray-trace sheet. First, they draw a normal and an incident ray at an angle of 30 degrees to the normal. Using pin positions P3 and P4, students measure the reflected angle alpha for different mirror rotation angles theta. They record their readings in a table, plot a graph of alpha against theta, find the gradient of the line, complete a derived table for (alpha - alpha0), and suggest the relationship between these angular changes. Finally, they state an experimental precaution to improve accuracy.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:59:31+00:00"
+ },
+ "p6-193": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the focal length of a converging lens using an illuminated object, lens, and screen. Keeping the object-screen distance D fixed at 80.0 cm, the student finds two lens positions where a sharply focused image is formed on the screen, measuring distances x and y from the object to the lens. Questions include labelling these distances on a diagram, calculating d, d^2, and the focal length f using given formulas. Students state two experimental precautions for reliability, describe two differences and one similarity between the two formed images, and suggest a variable to change to check accuracy.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions",
+   "conclusions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:59:31+00:00"
+ },
+ "p6-194": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE student investigates shadows by placing an object at various distances d from a lamp, measuring the width w and height h of the shadow on a screen. The student measures the shadow dimensions from a full-size diagram for a given distance, calculates the average side length s using s = (w + h) / 2, and records the values in a table. A graph of s against d is plotted. Questions ask to measure shadow dimensions, complete the table, explain the usefulness of calculating s, explain the choice of data intervals, and suggest a reason for limiting the minimum distance between lamp and object.",
+  "skills": [
+   "readings",
+   "calculations",
+   "graphs",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:59:50+00:00"
+ },
+ "p6-195": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.1",
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class investigates the reflection of light by a plane mirror using a ray-trace sheet. Students are asked to draw a normal to the centre of a mirror, construct an incident ray at 30° to the normal, position a ray box correctly to produce this incident ray, and draw the corresponding reflected ray. Finally, students state two experimental precautions to obtain reliable results, such as viewing pins/rays carefully or keeping the ray thin and sharp.",
+  "skills": [
+   "drawings",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T01:59:50+00:00"
+ },
+ "p6-196": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A class determines the magnification of an image produced by a lens using an illuminated object, a converging lens, and a screen on a bench. Students measure the object distance u and image distance v from diagram measurements. Using the scale given, actual distances U and V are calculated. The student measures the image height h and object height x, calculating the magnification ratio h/x and comparing it with v/u. Additional questions ask to state a statement and justification regarding whether the results support the suggested relationship, list precautions for reliable results, identify differences between image and object, and suggest a focusing precaution.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T02:00:12+00:00"
+ },
+ "p6-197": {
+  "status": "done",
+  "subpoints": [
+   "3.2.2.2",
+   "3.2.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An IGCSE class investigates refraction of light through a transparent block using a ray-trace sheet. On Fig. 4.1, students label points on the incident ray and draw a refracted ray at a specified angle of refraction into the block to meet side CD, predicting and drawing the emergent ray H. Pins P3 and P4 are marked at suitable positions for viewing the images of P1 and P2 through the block. Two precautions for reliable results are stated. Finally, the experiment is repeated with the block turned through 90 degrees, and students state whether the resulting angle of refraction supports the suggestion that it should remain the same.",
+  "skills": [
+   "drawings",
+   "readings",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T02:00:12+00:00"
+ },
+ "p6-198": {
+  "status": "done",
+  "subpoints": [
+   "3.2.3.2",
+   "3.2.3.3",
+   "3.2.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the magnification produced by a converging lens using an illuminated object, lens, and screen. First, students measure the height h_0 of the triangular object in a diagram. For various object-lens distances u, the image height h_i is measured and recorded in a table. Students calculate S = h_0 / h_i for each row. A graph of S against u is plotted, the gradient G of the graph is determined, and the focal length f of the lens is calculated using f = 1 / G.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 10,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T02:00:31+00:00"
+ },
+ "p6-199": {
+  "status": "done",
+  "subpoints": [
+   "3.2.1.2",
+   "3.2.1.3",
+   "3.2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the position of the image in a plane mirror using a ray-trace sheet, pins, and a mirror represented by line MR. Pins P_1 and P_2 mark an incident ray, while pins P_3 and P_4 locate the reflected ray. Students draw lines connecting these pins and extend them beyond the mirror. The procedure is repeated with a different angle of incidence using marked positions C and D, and the intersection point Y of the extended lines is labeled. Students measure the perpendicular distances a from P_1 to the mirror and b from Y to the mirror, state whether their results support the suggestion that a equals b with justification, and suggest a precaution for placing pins.",
+  "skills": [
+   "readings",
+   "drawings",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-26T02:00:31+00:00"
  }
 }
