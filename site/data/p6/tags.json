@@ -4331,5 +4331,434 @@
   "marks": 11,
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-26T11:18:18+00:00"
+ },
+ "p6-222": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.4",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates how the resistance of a filament lamp varies with potential difference using a slide wire. The student draws a voltmeter in parallel with the lamp on a circuit diagram, then reads analogue meters to obtain the potential difference and current for a wire length of 20.0 cm. After calculating resistance using R = V / I and entering it into a table, the student plots a graph of resistance against wire length. From the graph and the observed lamp brightness, the student states and justifies how resistance changes with filament temperature. Finally, the student completes a circuit diagram showing a variable resistor replacing the slide wire.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "graphs",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-27T03:01:21+00:00"
+ },
+ "p6-223": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.3.1.1",
+   "4.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the electrical power dissipated by different resistors in a d.c. circuit. The student draws a voltmeter symbol connected in parallel across a resistor in a circuit diagram, reads an analogue ammeter and voltmeter, and records the values in a data table with correct units for resistance, current, and potential difference. The student calculates the power supplied to each resistor using P = I × V to a consistent number of significant figures. Finally, the student describes the trend in power as resistance increases and suggests two practical modifications to the procedure to investigate the relationship in greater detail.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-27T03:01:21+00:00"
+ },
+ "p6-224": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.3",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student determines the resistance of a piece of wire using a circuit with an ammeter, a power supply, a sliding contact, and a voltmeter. The student records the current from an analogue ammeter and the potential difference from an analogue voltmeter for a wire length of 20.0 cm. After completing the table column headings, the student plots a graph of potential difference against length, determines the gradient of the best-fit line, and calculates the resistance per centimetre of the wire, stating the correct unit.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-27T03:06:43+00:00"
+ },
+ "p6-225": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the resistance per unit length of a wire X. They complete a circuit diagram by drawing a voltmeter connected across wire X and read the potential difference from an analogue voltmeter scale. They then plot a graph of potential difference against current, find the gradient of the graph, measure a diagram of wire X to calculate its actual length using a scale factor, and calculate the resistance per centimetre to a suitable number of significant figures. Finally, they suggest an improvement to reduce heating in the circuit wire.",
+  "skills": [
+   "drawings",
+   "readings",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-27T03:06:43+00:00"
+ },
+ "p6-226": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.1",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of three wires, A, B, and C. First, the student draws a voltmeter connected across wire A on a circuit diagram, reads potential difference and current from analogue meters, and enters them into a results table. The resistance of each wire is calculated using R = V / I, followed by finding the resistance per unit length r = R / l for each wire. The student evaluates whether r is constant, stating a conclusion with justification. Finally, the student indicates precisely on a diagram where the wire's length should be measured between crocodile clips and suggests a precaution to prevent wire heating.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-27T03:15:02+00:00"
+ },
+ "p6-227": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "Students plan an experiment to investigate whether the resistance of a wire depends on the material from which it is made, using an ammeter, voltmeter, micrometer screw gauge, power supply, variable resistor, and wires of different materials. The plan requires drawing a suitable circuit diagram to determine resistance, explaining the experimental method and measurements to be taken, identifying key variables to keep constant (such as the length and cross-sectional area/diameter of the wires), and drafting a results table with proper column headings and units.",
+  "skills": [
+   "planning",
+   "drawings",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.8-flash",
+  "updated": "2026-11-27T03:15:02+00:00"
+ },
+ "p6-228": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.3",
+   "4.3.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The experiment investigates the resistance of two resistance wires AB and CD using a sliding contact, an ammeter, and a voltmeter. Students read potential difference V and current I from analogue meters for a length l = 0.200 m of wire AB and calculate the resistance R using R = V / I. They compare this result with R at l = 0.400 m to state a relationship between length and resistance. Next, they compare the resistance of a single wire AB with the combined resistance of wires AB and CD connected in parallel. Finally, students suggest two reasons why different students might obtain different experimental results.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:17:03+00:00"
+ },
+ "p6-229": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the resistance of a power supply using a resistance wire, crocodile clip, ammeter, and voltmeter. First, students draw a voltmeter connected across terminals P and Q in a circuit diagram. They read an ammeter scale to complete a table of current and potential difference values. They plot a graph of V on the y-axis against I on the x-axis, draw a best-fit line, and determine its gradient M to find the internal resistance R to an appropriate number of significant figures. Finally, they give a practical reason against using very short wire lengths and draw the standard circuit symbol for a variable resistor.",
+  "skills": [
+   "drawings",
+   "readings",
+   "tables",
+   "graphs",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:17:03+00:00"
+ },
+ "p6-230": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.1",
+   "4.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the relationship between potential difference V and current I for a resistor using a slide wire potential divider circuit. Part (a) asks to draw pointer positions on analogue voltmeter and ammeter scales corresponding to given values. Part (b) involves plotting a V against I graph. Part (c) requires determining the gradient G of the line and stating the resistance R with appropriate unit and significant figures. Part (d) asks to evaluate whether V is directly proportional to I based on the graph. Part (e) asks for a practical procedure or apparatus modification to prevent the slide wire from overheating.",
+  "skills": [
+   "readings",
+   "graphs",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 12,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:17:28+00:00"
+ },
+ "p6-231": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.2.3.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into how changing the length of resistance wire in a circuit affects the potential difference across a lamp. Part (a) requires completing a circuit diagram by adding a voltmeter in parallel across the lamp. Part (b) asks to read an analogue voltmeter scale and record the reading in a table. Part (c) asks to predict the effect of wire length on lamp brightness using potential difference data. Part (d) requires evaluating whether potential difference is directly proportional to wire length. Parts (e) and (f) ask for practical reasons for slight variations in repeat readings and a safety precaution when using resistance wires.",
+  "skills": [
+   "drawings",
+   "readings",
+   "tables",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:17:28+00:00"
+ },
+ "p6-232": {
+  "status": "done",
+  "subpoints": [
+   "4.2.3.5",
+   "4.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A student heats water using an electrical heater. In part (a), the student reads the potential difference V and current I from voltmeter and ammeter scale diagrams. In part (b), the student reads the temperature from a thermometer scale diagram. In part (c), the student draws a line of sight and eye position on a diagram of a measuring cylinder to demonstrate how to correctly measure the volume of water without parallax error.",
+  "skills": [
+   "readings",
+   "precautions"
+  ],
+  "marks": 5,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:17:52+00:00"
+ },
+ "p6-233": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.2.4.4",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of a lamp filament using a circuit with a resistance wire and sliding contact. In part (a), the student calculates the resistance R = V / I for four lengths of wire and completes the missing units in the table column headings. In part (b), the student evaluates whether the filament is broken when the lamp stops glowing by checking if current is still present. In part (c), the student explains why filament resistance is not constant with reference to brightness and temperature change. In part (d), the student identifies a variable resistor as a replacement for the resistance wire and draws the modified circuit diagram.",
+  "skills": [
+   "tables",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:17:52+00:00"
+ },
+ "p6-234": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.3",
+   "4.2.4.2",
+   "4.2.4.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The student plans an investigation to determine how the resistance of a wire depends on its length. The available apparatus includes an ammeter, voltmeter, power supply, variable resistor, switch, connecting leads, resistance wires of different lengths, and a metre rule. The task requires drawing a circuit diagram to determine resistance, explaining the procedure, suggesting suitable lengths of wire, stating controlled variables, and drawing a results table with appropriate column headings.",
+  "skills": [
+   "planning",
+   "drawings",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:18:17+00:00"
+ },
+ "p6-235": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of a resistor R using a circuit containing resistance wires AB and CD, a voltmeter, an ammeter, and a wandering lead. Part (a) asks to read analogue scale values for potential difference and current and calculate resistance R. Part (b) asks to evaluate whether given resistance values support the statement that resistance remains constant, justifying the conclusion. Part (c) asks to name a circuit component that can control current in place of the resistance wires and draw the updated circuit diagram.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:18:17+00:00"
+ },
+ "p6-236": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates how the resistance of a lamp changes with potential difference using a slide wire circuit. The student reads ammeter values from dial diagrams for five potential difference settings, records them to two significant figures, and calculates the resistance for each setting using R = V/I. The student plots a graph of resistance against potential difference on a grid and interprets its shape to describe the change in resistance. Finally, the student completes a circuit diagram showing how a variable resistor can replace the slide wire to vary potential difference and current.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "graphs",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:19:37+00:00"
+ },
+ "p6-237": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.3.5",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the link between the brightness of a filament lamp and its resistance by varying the length of a resistance wire connected in series. The student adds a voltmeter to the circuit diagram, selects the most suitable voltmeter range for a 3V power supply, and marks a specific voltmeter reading on the scale. The student calculates resistance values using R = V/I and draws a conclusion linking brightness to resistance based on observational data. Finally, the student proposes an alternative circuit setup to investigate a lamp requiring a higher voltage.",
+  "skills": [
+   "drawings",
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "planning"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:19:37+00:00"
+ },
+ "p6-238": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.1",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the resistance per unit length of a resistance wire. A circuit diagram is provided containing a power supply, switch, ammeter, and a resistance wire mounted on a metre rule. Students draw a voltmeter in parallel across the length l of the wire. They calculate resistance R for five lengths using R = V / I and complete the table. Next, they plot a graph of R against l and determine its gradient G. Finally, they use G to state the resistance per unit length r to an appropriate number of significant figures with units.",
+  "skills": [
+   "drawings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:20:12+00:00"
+ },
+ "p6-239": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.3.5",
+   "4.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the resistance of a resistor using a circuit containing a resistor, a wire with a sliding contact, an ammeter, and a voltmeter. Students read values from analogue voltmeter and ammeter dials and record the potential difference for l = 100.0 cm in a data table. They plot a graph of potential difference V against length l, starting both axes at (0, 0). They determine the y-intercept Y from the graph, calculate the ratio Y / I, and use this to state the resistance R of the resistor with appropriate significant figures and units.",
+  "skills": [
+   "readings",
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:20:12+00:00"
+ },
+ "p6-240": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.4",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment investigates the resistance of a lamp filament using a circuit containing a sliding contact on a resistance wire. Students record potential difference and current from analogue meter readings to calculate resistance R = V / I. They describe the expected change in lamp brightness as the sliding contact moves along the wire, suggest a practical reason for slight variations in repeated meter readings, and evaluate a V-I graph of a filament lamp to draw a conclusion about how its resistance changes as current increases.",
+  "skills": [
+   "readings",
+   "calculations",
+   "graphs",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:20:37+00:00"
+ },
+ "p6-241": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment investigates the resistance of a fixed resistor using a circuit with a resistance wire and sliding contact acting as a variable resistor. Students read an analogue voltmeter and ammeter to calculate the resistance using R = V / I. They state how moving the sliding contact affects circuit current, draw the standard circuit symbol for a variable resistor, and explain how to find the gradient of a linear V-I graph.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "graphs"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T03:20:37+00:00"
  }
 }
