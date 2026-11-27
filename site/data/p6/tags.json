@@ -4760,5 +4760,424 @@
   "marks": 8,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-27T03:20:37+00:00"
+ },
+ "p6-242": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how wire length affects resistance using crocodile clips and meter readings. In part (a), potential difference V and current I are read from analogue meter dials for wire A and recorded in a table. In part (b), column headings for the table units are completed. In part (c), resistances R for wires A, B, and C are calculated using R = V / I, and a student's claim that R_A = R_B + R_C is evaluated and justified. In part (d), a practical technique to minimize heating effects in the wire during testing is suggested.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:54:40+00:00"
+ },
+ "p6-243": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.5",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the relationship between resistance and length for a resistance wire. In part (a), resistance values R for five different lengths l of wire AB are calculated using R = V / I and recorded in a table. In part (b), a graph of R on the y-axis against l on the x-axis is plotted starting from the origin (0,0). In part (c), students evaluate whether R is directly proportional to l by reference to their graph line. In part (d), a procedure to further extend and test this hypothesis using larger lengths of the same apparatus is suggested.",
+  "skills": [
+   "tables",
+   "calculations",
+   "graphs",
+   "conclusions",
+   "planning"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:54:40+00:00"
+ },
+ "p6-244": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.1",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how the resistance of a wire varies with its length using a circuit with a power supply, ammeter, voltmeter, switch, and resistance wire on a metre rule. Part (a) asks students to calculate resistance R = V / I for six given wire lengths and complete table headers with units. Part (b) requires plotting a graph of R against length l. Part (c) involves determining the gradient G of the line. Part (d) asks to predict the resistance R1 for a 1.00 m length of the wire to an appropriate number of significant figures.",
+  "skills": [
+   "tables",
+   "calculations",
+   "graphs"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:57:01+00:00"
+ },
+ "p6-245": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.3.5",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the current in copper wires using laboratory apparatus. Part (a) asks to select the most suitable device from a given list to measure approximately 20 m of copper wire. Part (b)(i) requires drawing a complete circuit diagram to measure current across a wire sample for a range of potential differences. Part (b)(ii) asks how to check if a lamp filament in the circuit is broken without removing the lamp. Part (b)(iii) requires evaluating whether a 0–300 V voltmeter is suitable for measuring p.d. in the circuit and justifying the choice.",
+  "skills": [
+   "drawings",
+   "planning",
+   "precautions"
+  ],
+  "marks": 6,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:57:01+00:00"
+ },
+ "p6-246": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.2.4.2",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the resistance of a wire of varying length x using a power supply, ammeter, voltmeter, and sliding contact. In part (a), they calculate resistance values R using R = V / I for different lengths and complete the table with these values and appropriate column headings. In part (b), they plot a graph of potential difference V against resistance R. In part (c), they determine the gradient G of the plotted line, showing their construction on the graph.",
+  "skills": [
+   "tables",
+   "calculations",
+   "graphs"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:57:42+00:00"
+ },
+ "p6-247": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.2.4.2",
+   "4.2.4.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how resistance depends on wire length. In part (a), they read current I from an ammeter scale and potential difference V from a voltmeter scale, calculate the resistance R using R = V / I for a length x = 0.200 m, and complete the table. In part (b), they plot a graph of resistance R against length x. In part (c), they use the graph to find the length l corresponding to a resistance of 1.20 Ω. In part (d), they predict the resistance Z for a 1.50 m length of wire.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "graphs"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:57:42+00:00"
+ },
+ "p6-248": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate potential difference V and current I in a circuit containing a resistance wire with a crocodile clip connected at different positions. Students draw a voltmeter symbol between terminals X and Y on the circuit diagram. They plot a graph of potential difference against current, determine its gradient M, and deduce the internal resistance R of the power supply to an appropriate number of significant figures.",
+  "skills": [
+   "drawings",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:58:25+00:00"
+ },
+ "p6-249": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students determine the resistance of a fixed resistor R in a circuit with a resistance wire and sliding contact. They complete the missing column heading in a data table showing distance d, potential difference V, and current I. They plot a graph of V against I, calculate the gradient G of the line, and state the value of resistance R to an appropriate number of significant figures.",
+  "skills": [
+   "tables",
+   "graphs",
+   "calculations"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:58:25+00:00"
+ },
+ "p6-250": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.2",
+   "4.3.2.4",
+   "4.2.4.1"
+  ],
+  "section_ok": false,
+  "suggested_section": "4.3",
+  "difficulty": 2,
+  "text": "An investigation of resistor combinations in circuits. Students measure the potential difference V1 and current I1 from analogue meter scales for two resistors connected in parallel. They calculate the total parallel resistance R_P and 4R_P. Next, they calculate the total resistance R_S for the same resistors connected in series using given values of V2 and I2, and evaluate whether the theoretical relationship R_S = 4R_P holds. Students then draw a circuit diagram with two lamps in series, and explain the function and purpose of adding a variable resistor to the circuit.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:59:30+00:00"
+ },
+ "p6-251": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.2.4.4",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An experiment to investigate how the resistance of a lamp changes with potential difference and brightness. Students add a voltmeter symbol across a lamp in a given circuit diagram. They complete the column headings with units in a data table showing potential difference V, current I, resistance R, and visual observations of lamp brightness. Using R = V / I, they calculate resistance values for different voltages. Finally, students evaluate a claim that the resistance of a lamp remains constant regardless of temperature, justifying their conclusion using calculated resistances and observations of brightness.",
+  "skills": [
+   "drawings",
+   "tables",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:59:30+00:00"
+ },
+ "p6-252": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of filament lamps in a circuit. First, a single lamp L1 is connected, and the student reads the potential difference V1 from a voltmeter scale and the current I1 from an ammeter scale to calculate the resistance R1. Next, lamps L2 and L3 are added in series one by one, and their potential differences and currents are recorded to calculate resistances R2 and R3. The student calculates the total resistance R1 + R2 + R3, compares it with 3 × R1, and selects the matching suggestion with justification. Finally, a complete circuit diagram showing all three lamps connected in series is drawn.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:59:59+00:00"
+ },
+ "p6-253": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate combinations of resistors. First, they complete a circuit diagram by adding an ammeter in series and a voltmeter across terminals P and Q. They read potential difference V1 and current I1 from meter dials and calculate single-resistor resistance R1. They repeat measurements for two resistors in series and two resistors in parallel to calculate effective single-resistor resistances R2 and R3 using given formulas. They evaluate whether R1, R2, and R3 are equal based on experimental data. Lastly, they draw the circuit symbol for a potential divider and explain how using it improves the reliability of the resistance determination.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "conclusions",
+   "precautions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T12:59:59+00:00"
+ },
+ "p6-254": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate a circuit containing three resistors in series and parallel combinations. Part (a) asks to draw a voltmeter connected across resistor X on a given circuit diagram. Part (b) involves reading an ammeter and voltmeter to record initial current and voltage values in a table, and completing column headings. Part (c) requires evaluating whether current remains constant across different resistor combinations using table data. Part (d) asks to calculate total resistances using R = V / I and determine individual resistances R_Y and R_Z. Part (e) requires drawing a circuit diagram with three resistors in parallel and comparing parallel resistance R_P to series resistance R_S.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:00:27+00:00"
+ },
+ "p6-255": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of lamps connected in series and parallel. In part (a), readings from a voltmeter and an ammeter are taken to record potential difference V1 and current I1, then resistance R1 is calculated using R1 = V1 / I1. In part (b), combined resistance R2 of two series lamps is calculated. In part (c), the student evaluates whether the total resistance of three lamps in series equals three times R1, justifying the answer with data. In part (d), a circuit diagram is completed to show three lamps in parallel, a voltmeter measuring potential difference across them, and a variable resistor controlling circuit current.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:00:27+00:00"
+ },
+ "p6-256": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.3.2.8",
+   "4.2.4.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates a circuit containing two lamps in series. First, the student completes a circuit diagram by adding a voltmeter across one lamp. Readings from an ammeter and voltmeters measuring potential differences across individual lamps and both lamps combined are recorded. The student evaluates whether the total potential difference equals the sum of individual potential differences. The resistance of one lamp in series is calculated using R = V / I. Next, a circuit diagram is drawn for the lamps connected in parallel with an ammeter in one branch. Finally, the student explains how temperature affects lamp resistance by comparing resistance values obtained when the lamp is dim versus bright.",
+  "skills": [
+   "readings",
+   "drawings",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:01:20+00:00"
+ },
+ "p6-257": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.2.4",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of three resistors connected in series. The potential difference across the first resistor and the total current are read from meter displays, and the resistance R1 is calculated using R = V / I. The student then evaluates whether the three resistors have the same resistance based on experimental values. The combined series resistance is calculated to an appropriate number of significant figures, and the expected total potential difference is identified. Finally, the student completes a circuit diagram showing the three resistors connected in parallel with a voltmeter across them and a variable resistor controlling the overall current.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:01:20+00:00"
+ },
+ "p6-258": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the electrical power of two lamps connected in series. The student reads potential difference and current from meter scales, then calculates total power P_T and individual powers P_X and P_Y using P = VI. The student evaluates whether the individual powers are equal within the limits of experimental accuracy. In a follow-up test with two different lamps where one is dimly lit and the other does not light, the student assesses whether a filament is broken. Finally, the student draws a circuit diagram showing two lamps connected in parallel with a variable resistor, an ammeter, and a voltmeter.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:02:02+00:00"
+ },
+ "p6-259": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates the resistance of resistors connected in series and parallel. The student reads voltmeter and ammeter scales to determine potential difference V_1 and current I_1 for a single resistor, and calculates its resistance using R = V / I. Combined resistances for two and three resistors in series are calculated similarly. The student draws a needle on an ammeter scale, decides whether R_3 = 3 R_1, and explains how to test if all three resistors have equal resistance. Finally, the student completes a circuit diagram for three resistors in parallel controlled by a variable resistor and explains the role of the variable resistor.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 10,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:02:02+00:00"
+ },
+ "p6-260": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.2.2",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A student investigates a series and parallel resistor circuit. First, a voltmeter is added to a circuit diagram to measure potential difference across a resistor. The student reads current from an ammeter scale and potential differences across individual resistors and their series combination from voltmeter dials. The student evaluates whether the total potential difference equals the sum of individual potential differences. The combined series resistance is calculated using R = V / I. Next, the student draws a circuit diagram showing two resistors in parallel with an ammeter measuring total current and a voltmeter across the pair, and uses parallel circuit data to verify correct setup.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:02:32+00:00"
+ },
+ "p6-261": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.2",
+   "4.2.4.2",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation of a circuit containing two lamps in series. The student adds a voltmeter symbol across one lamp in a circuit diagram and reads the current from an analogue ammeter dial. Potential differences across both lamps are read from voltmeter dials and recorded in a table alongside brightness observations. The student explains why a non-glowing lamp does not have a broken filament and relates observed brightness to potential difference values. Total resistance is calculated using R = (V_P + V_Q) / I. Finally, the total series potential difference is compared with the power supply voltage to draw a conclusion.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 11,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-27T13:02:32+00:00"
  }
 }
