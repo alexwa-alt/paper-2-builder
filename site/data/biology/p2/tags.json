@@ -414,5 +414,1091 @@
   "type": "conceptual",
   "model": "gemini-3.5-flash-lite",
   "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q33": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The scientific name for the golden eagle is Aquila chrysaetos.\n\nWhat is the genus of the golden eagle?\n\nA Aquila\nB chrysaetos\nC eagle\nD golden",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q34": {
+  "status": "done",
+  "subpoints": [
+   "1.2.2",
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Some statements about species are given.\n\n1 Members of a species all look identical.\n2 Members of a species belong to the same genus.\n3 Members of a species can produce fertile offspring.\n4 Species are named using an international system.\n\nWhich statements are correct?\n\nA 1, 2, 3 and 4\nB 1, 2 and 3 only\nC 2 and 4 only\nD 2, 3 and 4 only",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q35": {
+  "status": "done",
+  "subpoints": [
+   "1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which name is given to a group of individuals that can reproduce to produce fertile offspring?\n\nA a genus\nB a kingdom\nC a species\nD an organ system",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q36": {
+  "status": "done",
+  "subpoints": [
+   "1.2.2",
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which species can breed with Prunella vulgaris to produce fertile offspring?\n\n[Table showing options for Prunella modularis and Vespula vulgaris, key: ✓ = yes, ✗ = no]\n\nA Prunella modularis: ✓, Vespula vulgaris: ✓\nB Prunella modularis: ✓, Vespula vulgaris: ✗\nC Prunella modularis: ✗, Vespula vulgaris: ✓\nD Prunella modularis: ✗, Vespula vulgaris: ✗",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q37": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The table shows a section of DNA taken from four different organisms.\n\n[Table showing base sequences for four organisms:]\norganism: W | base sequence: C A C A A T C G A A\norganism: X | base sequence: G T C A A T G G T G\norganism: Y | base sequence: C T C A A T C G T A\norganism: Z | base sequence: C T C A T T C G T A\n\nWhich two organisms are the most distantly related to each other?\n\nA W and X\nB W and Z\nC X and Y\nD X and Z",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q38": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The bonobo and the chimpanzee are two closely related species.\n\nWhat is the most accurate method of deciding how closely related species are?\n\nA compare evolutionary relationships of other species\nB compare the base sequences of their DNA\nC compare their anatomy\nD compare their morphology",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q39": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the most accurate method of classifying animals?\n\nA comparing bones\nB comparing the morphology of organisms\nC identifying similarities in anatomy\nD identifying similarities in DNA base sequences",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q40": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two animals have an identical sequence of amino acids in one of the proteins found in their cells.\n\nWhat does this indicate about these animals?\n\nA They have been eating the same types of food.\nB They have not been exposed to substances that cause mutation.\nC They must be members of the same genus.\nD They share an ancestor.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:18:50+00:00"
+ },
+ "q41": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Using the binomial naming system, the Arctic fox is called Vulpes lagopus.\n\nWhich row is correct?\n\n[Table with columns 'Vulpes' and 'lagopus']\nA Vulpes: genus, lagopus: kingdom\nB Vulpes: genus, lagopus: species\nC Vulpes: species, lagopus: genus\nD Vulpes: species, lagopus: kingdom",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q42": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "A rat has the scientific name Rattus rattus.\n\nWhat do the two parts of this name refer to?\n\nA genus and species\nB kingdom and genus\nC kingdom and species\nD variety and genus",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q43": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is a correct way of naming a species using the binomial system?\n\nA Homo sapiens\nB Homo Sapiens\nC human being\nD sapiens",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q44": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3",
+   "1.2.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows how Homo sapiens (modern people) could have evolved from earlier ancestors.\n\n[Diagram showing evolutionary sequence: Homo habilis -> Homo erectus -> Homo heidelbergensis -> Homo sapiens (modern people)]\n\nWhich statement about modern people and their ancestors is correct?\n\nA They are in the same species and the same genus.\nB They are in the same species but not the same genus.\nC They are in the same genus but not the same species.\nD They are neither the same species nor the same genus.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q45": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Using the binomial system of naming organisms, the name of the lion is Panthera leo.\n\nWhich statement is correct?\n\nA The lion belongs to the kingdom Panthera.\nB The lion belongs to the genus Panthera.\nC The lion belongs to the species Panthera.\nD The lion belongs to the genus leo.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q46": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which shows an organism that has been named using the binomial system?\n\nA Brown seaweed\nB Polar bear\nC Red fox\nD Vulpes vulpes",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q47": {
+  "status": "done",
+  "subpoints": [
+   "1.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Donkeys and zebras are different species. They can breed to produce an animal called a zedonk.\n\nZedonks are not fertile.\n\nWhich statement is correct?\n\nA Zedonks and donkeys are the same species.\nB Zedonks and zebras are the same species.\nC Zedonks are a species.\nD Zedonks are not a species.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q48": {
+  "status": "done",
+  "subpoints": [
+   "1.2.7",
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two animals have an identical sequence of amino acids in one of the proteins found in their cells.\n\nWhat does this indicate about these animals?\n\nA They have been eating the same types of food.\nB They have not been exposed to substances that cause mutation.\nC They must be members of the same genus.\nD They share a recent ancestor.",
+  "type": "conceptual",
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T13:20:10+00:00"
+ },
+ "q49": {
+  "status": "done",
+  "subpoints": [
+   "1.2.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows an animal whose scientific name is Falco peregrinus. [Diagram of a falcon on a rock] To which species does it belong?\nA bird\nB F. peregrinus\nC Falco\nD vertebrate",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q50": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a flowering plant. [Diagram of a flowering plant] Use the key to identify the plant. [Dichotomous key flowchart leading to options A, B, C, D based on flower petals and leaf edges]\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q51": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Systems of classification show which organisms share more recent ancestors. What is the most accurate system of classification?\nA using anatomy\nB using DNA base sequences\nC using morphology\nD using a pedigree diagram",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q52": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows part of the classification of the animal kingdom with an example of each group. [Classification tree showing invertebrates and vertebrates with various animal examples] Which pair of animals have the most recent common ancestor as suggested by the classification?\nA centipede and carp\nB flea and frog\nC lizard and parrot\nD spider and rat",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q53": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a section of DNA from a chimpanzee. [DNA sequence: A G C T A C A G A G] Which diagram shows a section of DNA from the organism that is most closely related to the chimpanzee?\nA [DNA sequence: A G C T A C A G A T]\nB [DNA sequence: A G C T A C A G T T]\nC [DNA sequence: A T C A A C A G T T]\nD [DNA sequence: A T C T A C A G T T]",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q54": {
+  "status": "done",
+  "subpoints": [
+   "1.2.5",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows an evolutionary tree based on a computer-generated study of different sea mammals. [Evolutionary tree of fin whale, humpback whale, sperm whale, beaked whale, dolphin, and porpoise branching from a common ancestor] According to this evolutionary tree, which whale has DNA base sequences that are least shared with the other whales?\nA beaked whale\nB fin whale\nC humpback whale\nD sperm whale",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q55": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "How many jointed legs does an insect have?\nA two pairs\nB three pairs\nC four pairs\nD more than six pairs",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q56": {
+  "status": "done",
+  "subpoints": [
+   "1.3.1",
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The photograph shows an organism. [Photograph of a bird standing in a nest with eggs] Which visible feature can be used to classify this organism as a bird?\nA feathers\nB lays eggs\nC two legs\nD wings",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:21:56+00:00"
+ },
+ "q57": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The key shows some features of living organisms that can be used to place them into one of three different kingdoms. [A flowchart key starting with 'living organism' branching into 'nucleus present' and 'no nucleus (kingdom Z)'. 'nucleus present' branches into 'no cell wall' and 'cell wall present'. 'cell wall present' branches into 'cell wall made of cellulose: yes (kingdom X) / no (kingdom Y)']. Which row correctly identifies these three kingdoms?\nA fungi, plant, prokaryote\nB fungi, plant, protoctist\nC plant, fungi, prokaryote\nD plant, fungi, protoctist",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q58": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which diagram shows a flower from a monocotyledon? [Four flower diagrams labeled A to D showing different petal and stamen arrangements]\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q59": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6",
+   "1.2.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "With which kingdoms do bacteria share the same genetic code?\nA animal, plant, fungus and protoctist\nB animal, plant and fungus only\nC animal and plant only\nD animal only",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q60": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "What is the correct order of arthropod groups, from those with the most legs to those with the fewest legs?\nA arachnids -> crustaceans -> insects -> myriapods\nB arachnids -> insects -> myriapods -> crustaceans\nC myriapods -> crustaceans -> arachnids -> insects\nD myriapods -> insects -> arachnids -> crustaceans",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q61": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Scientists discover a new species of animal. It has a segmented body with two pairs of legs on each segment. To which group of animals does this new species belong?\nA arachnids\nB crustaceans\nC insects\nD myriapods",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q62": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is a characteristic of both insects and arachnids?\nA eight legs\nB exoskeleton\nC three pairs of legs\nD wings",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q63": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "What are features of the leaves of a plant that is a dicotyledon? [A table with columns 'broad leaves' and 'parallel veins', with various combinations of ticks and crosses]\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q64": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The table shows the number of animals collected in a sample from a woodland and the groups to which they belong. [Table: arachnids 10, crustaceans 8, insects 80, myriapods 7]. How many arthropods in total, in this sample, have six or eight legs?\nA 15\nB 88\nC 90\nD 98",
+  "type": "calculation",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:15+00:00"
+ },
+ "q65": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2",
+   "1.3.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "[The diagram shows an arthropod, specifically a scorpion, with labeled pedipalp and legs.] To which group does it belong? A arachnids B crustaceans C insects D myriapods",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q66": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which feature is characteristic only of birds? A hair and wings B hard-shelled eggs and feathers C scales and soft-shelled eggs D wings and soft-shelled eggs",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q67": {
+  "status": "done",
+  "subpoints": [
+   "1.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The diagram shows part of a flowering plant with flowers and leaves.] Using the key, identify this plant. 1 three petals ... go to 2 / more than three petals ... go to 3. 2 leaves longer than they are wide ... A / leaves wider than they are long ... B. 3 leaves parallel-veined ... C / leaves not parallel-veined ... D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q68": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What kind of skin do amphibians have? A dry without scales B dry with scales C moist without scales D moist with scales",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q71": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Lichens are formed from two different organisms living together. The table shows some of the characteristics of two organisms, X and Y, found in most lichens. [Table showing X: made of strands called hyphae, hyphae have cell walls and many nuclei; Y: single celled, cell contains a nucleus and chloroplasts] Which kingdoms are represented by X and Y? A X: Fungus, Y: Plant B X: Fungus, Y: Protoctist C X: Protoctist, Y: Fungus D X: Protoctist, Y: Plant",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q72": {
+  "status": "done",
+  "subpoints": [
+   "1.3.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "[The diagrams show four microorganisms labelled A, B, C, D, with A showing a bacterium with no distinct nucleus, B an amoeba-like cell, C an euglena-like cell, and D a yeast-like cell.] Which organism is a prokaryote? A B C D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q73": {
+  "status": "done",
+  "subpoints": [
+   "1.3.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "[The drawing shows a ground squirrel eating.] Which feature identifies this animal as a mammal? A eye B four limbs C fur D tail",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q74": {
+  "status": "done",
+  "subpoints": [
+   "1.3.5",
+   "1.3.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "[The diagram shows two plants with leaf-like fronds which have structures containing spores on their lower surface.] To which group do both the organisms shown in the diagram belong? A dicotyledons B ferns C fungi D monocotyledons",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:35+00:00"
+ },
+ "q76": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[Photomicrograph showing a plant cell with labels P, Q, R, S] Which labelled parts indicate that this is a plant cell?\nA P and R\nB P and S\nC Q and R\nD Q and S",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q77": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which row shows structures that are present in both root hair cells and palisade mesophyll cells?\n[Table with columns: cell wall, chloroplasts, cytoplasm, vacuole and rows A to D]\nA Row A\nB Row B\nC Row C\nD Row D",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q78": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.2",
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which structures are found in the cells of all living organisms?\n1 cell membrane\n2 chloroplast\n3 cytoplasm\nA 1, 2 and 3\nB 1 and 2 only\nC 1 and 3 only\nD 2 and 3 only",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q79": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which statement about cell structure is correct?\nA An animal cell has a cell wall.\nB A bacterium has a cell wall.\nC An animal cell has chloroplasts.\nD A bacterium has chloroplasts.",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q80": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Two types of cell, one animal and one plant, were examined using a light microscope. Which row shows the correct combination of structures that would be observed in the cells?\n[Table comparing animal cell and plant cell structures]\nA Row A\nB Row B\nC Row C\nD Row D",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q81": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[Diagram showing a cross-section through two guard cells of a leaf with labels W, X, Y, Z] Which labelled structures would also be found in an animal cell?\nA W and X\nB X and Y\nC Y and Z\nD Z and W",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q82": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a cross-section through a leaf. Which label shows a tissue?\n[Diagram of leaf cross-section with labels A, B, C, D]\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q83": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The table shows some structures found in the human body. Which row shows the correct level of organisation, from the simplest structure to the most complex?\n[Table with columns: simple to complex showing various arrangements of red blood cell, heart, heart muscle, circulatory system]\nA Row A\nB Row B\nC Row C\nD Row D",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:22:54+00:00"
+ },
+ "q84": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which level of organisation is shown by the heart of a mammal?\nA a cell\nB a tissue\nC an organ\nD an organ system",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q85": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Root hair cells are found on plant roots.\nWhich feature is present in a root hair cell but not in a sperm cell?\nA cell membrane\nB cell wall\nC chloroplasts\nD cytoplasm",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q86": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a cross-section of part of a leaf.\nWhich type of cell carries out the most photosynthesis?\n[Diagram showing leaf layers with cells labeled A (palisade mesophyll), B (upper epidermis), C (spongy mesophyll), D (guard cell/lower epidermis)]\nA A\nB B\nC C\nD D",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q87": {
+  "status": "done",
+  "subpoints": [
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The cells listed have specialised structures that allow them to carry out their functions.\n1 ciliated cell\n2 nerve cell\n3 root cortex cell\n4 sperm cell\nWhich cells have structures that can move?\nA 1 and 2\nB 1 and 4\nC 2 and 3\nD 3 and 4",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q88": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is an example of a tissue?\nA a chloroplast\nB the palisade mesophyll\nC a neurone\nD the pancreas",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q89": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows four animal cells, as seen under a light microscope.\n[Diagram of four adjacent animal cells with a pointer X between two touching cell boundaries]\nWhat will be present at X?\nA one cell membrane\nB one cell wall\nC two cell membranes\nD two cell walls",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q90": {
+  "status": "done",
+  "subpoints": [
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a root hair cell.\n[Diagram of a root hair cell showing nucleus, vacuole, cytoplasm, and cellulose cell wall with an extension]\nHow is this cell modified for the absorption of water?\nA It has a cellulose cell wall.\nB It has a thin layer of cytoplasm.\nC It has a large surface area.\nD It has a large vacuole.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q91": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a single-celled organism called Euglena.\n[Diagram of Euglena showing cell membrane, cytoplasm, nucleus, large permanent vacuole, chloroplasts, and flagellum]\nWhich labelled structures would also be found in an animal cell?\nA cell membrane, chloroplast, nucleus\nB chloroplast, cytoplasm, nucleus\nC cell membrane, cytoplasm, nucleus\nD cell membrane, cytoplasm, large permanent vacuole",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:13+00:00"
+ },
+ "q92": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows some of the blood vessels and other structures in the human body. [Diagram showing human circulatory system with heart, blood vessels, and outline of organs] The blood vessels shown are all parts of the same A cell. B organ. C organ system. D tissue.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q93": {
+  "status": "done",
+  "subpoints": [
+   "2.1.4",
+   "6.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which part of a cell makes glucose? A cell membrane B chloroplast C nucleus D vacuole",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q94": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In which part of a cell does photosynthesis take place? A vacuole B nucleus C chloroplast D cytoplasm",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q95": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.3",
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which row shows the structure on the outside of a plant cell and the location of the chloroplasts in the cell? [Table with columns 'structure on the outside of a plant cell' and 'location of chloroplasts'] A | cell membrane | in the cytoplasm B | cell membrane | in the vacuole C | cell wall | in the cytoplasm D | cell wall | in the vacuole",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q96": {
+  "status": "done",
+  "subpoints": [
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows some cells. [Diagram showing ciliated cells with cilia, cytoplasm, and nucleus] Where are these cells found? A alimentary canal B blood C bronchus D plant roots",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q97": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "The diagram shows some tissues in part of a plant root. The arrows represent the movement of water into and across the plant root tissues. [Diagram of root hair cells and cortex cells with arrows showing water movement] How many different tissues are shown? A 2 B 4 C 5 D 7",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q98": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows two guard cells. Which label is correct? [Diagram of guard cells with labels A pointing to cell membrane, B pointing to cell wall, C pointing to vacuole, D pointing to cytoplasm] A cell membrane B cell wall C vacuole D cytoplasm",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q99": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What structures can be found in both plant and animal cells? A cell walls and cell membranes B nuclei and cell walls C cytoplasm and chloroplasts D cell membranes and nuclei",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:32+00:00"
+ },
+ "q100": {
+  "status": "done",
+  "subpoints": [
+   "2.1.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is the function of a root hair cell?\nA absorption\nB photosynthesis\nC reproduction\nD support",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q101": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The diagram shows two guard cells.]\nWhich label shows the cell wall?\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q102": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The diagrams show different levels of organisation in a plant. (Not drawn to scale.) 1: tree, 2: tissue, 3: root/organ, 4: root hair cell]\nWhich sequence shows the levels of organisation in order from smallest to largest?\nA 4 -> 2 -> 3 -> 1\nB 4 -> 3 -> 1 -> 2\nC 3 -> 4 -> 2 -> 1\nD 3 -> 2 -> 1 -> 4",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q103": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.4",
+   "17.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The diagram shows a plant cell with labels A (nucleus), B (vacuole), C (cytoplasm), D (cell wall).] A biologist wants to find out the number of chromosomes it contains. Which labelled part should be examined more closely?\nA\nB\nC\nD",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q104": {
+  "status": "done",
+  "subpoints": [
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Onion plant cells swell but do not burst when placed in distilled water.\nWhich cell component prevents the onion plant cells from bursting?\nA cell membrane\nB cell wall\nC nucleus\nD vacuole",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q105": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The photomicrograph shows a cell from a type of aquatic plant with labels S, R, Q, P.]\nWhich parts labelled on the photomicrograph indicate that this is a plant cell?\nA P and R\nB P and S\nC Q and R\nD Q and S",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q106": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The drawing is of a magnified human liver cell with structure X pointing to the rough endoplasmic reticulum.]\nWhat is structure X?\nA cytoplasm\nB mitochondrion\nC nucleus\nD rough endoplasmic reticulum",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q107": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.4",
+   "6.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "[The diagram shows two cells: an animal cell and a plant cell.]\nWhich process can be carried out by only one of these cells?\nA controlling the chemical reactions in the cell\nB controlling the movement of substances into the cell\nC making starch inside the cell\nD using glucose inside the cell",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:23:51+00:00"
+ },
+ "q108": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The photograph shows a cross-section of a root. [Cross-section of root with labels for root hair and xylem] The root hair and the xylem are part of the same A cell and organism. B cell and tissue. C organ and organism. D tissue and organ.",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q109": {
+  "status": "done",
+  "subpoints": [
+   "2.1.3",
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The photomicrograph shows part of an animal cell. [Transmission electron micrograph showing a mitochondrion labeled X] What is the structure labelled X? A chloroplast B mitochondrion C ribosome D vacuole",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q110": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1",
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which features are possessed by all plant cells? [Table with columns: a cell wall, chloroplasts; and rows with ticks and crosses] key: checkmark = present, cross = absent A B C D",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q111": {
+  "status": "done",
+  "subpoints": [
+   "2.1.7"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows part of the skin. [Diagram showing skin layers, hair follicle, sweat gland, and nerve endings] What is the correct level of organisation for the skin? A cell B organ C organ system D tissue",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q112": {
+  "status": "done",
+  "subpoints": [
+   "2.1.4",
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Heart muscle cells have a high rate of metabolism. Which structure do they require to be present in high numbers? A chloroplasts B mitochondria C cell walls D vacuoles",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q113": {
+  "status": "done",
+  "subpoints": [
+   "2.1.4",
+   "2.1.1",
+   "12.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "In cells with a high respiration rate, what would be found in the cytoplasm in increased numbers? A mitochondria B ribosomes C rough endoplasmic reticulum D vesicles",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q114": {
+  "status": "done",
+  "subpoints": [
+   "2.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which features do animal cells share with plant cells? [Table comparing chloroplast, cytoplasm, and nucleus between animal and plant cells] key: checkmark = yes, cross = no A B C D",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
+ },
+ "q115": {
+  "status": "done",
+  "subpoints": [
+   "2.1.6",
+   "3.3.1",
+   "2.1.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows a root hair cell. [Diagram of a root hair cell showing vacuole, cytoplasm, mitochondria, and nucleus] Why does a root hair cell contain a large number of mitochondria? A to provide energy for the absorption of water from the soil B to provide energy for the diffusion of mineral ions from the soil C to provide energy for osmosis D to provide energy for the active transport of mineral ions from the soil",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T13:24:10+00:00"
  }
 }
