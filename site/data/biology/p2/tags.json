@@ -1,1 +1,418 @@
-{}
+{
+ "q1": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What are characteristics of all organisms?\n\nA egestion and excretion\nB egestion and nutrition\nC excretion and nutrition\nD excretion and photosynthesis",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q2": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which process occurs both in plants and in animals?\n\nA excretion\nB phagocytosis\nC photosynthesis\nD transpiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q3": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What are two characteristics of all living organisms?\n\nA breathing and reproduction\nB photosynthesis and excretion\nC reproduction and respiration\nD respiration and photosynthesis",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q4": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show a test-tube containing pond water. The green colour is caused by microorganisms that have chloroplasts. [Diagram showing test-tube with pale green pond water labelled 'light off' and test-tube with dark green area at the bottom and oxygen bubbles at the top labelled 'light on']\n\nWhich characteristics of living organisms are shown?\n\nA excretion, growth and movement\nB movement, nutrition and sensitivity\nC nutrition, reproduction and respiration\nD reproduction, sensitivity and growth",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q5": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "All living organisms release energy from nutrient molecules within their cells.\nWhat is the name of this characteristic?\n\nA growth\nB nutrition\nC respiration\nD sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q6": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which process provides an organism with the raw materials needed for tissue repair?\n\nA excretion\nB growth\nC nutrition\nD respiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q7": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Woodlice are small organisms that live in damp places.\nIn an experiment, three live woodlice are put into a glass container. The diagram shows what happens after 30 minutes. [Diagram showing a glass container divided into damp side with water and dry side with chemical to absorb water, with woodlice on the damp side]\n\nWhich characteristic of living organisms is shown by this experiment?\n\nA growth\nB nutrition\nC respiration\nD sensitivity",
+  "type": "practical",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q8": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is a characteristic of all living organisms?\n\nA breathing\nB circulation\nC egestion\nD sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:19+00:00"
+ },
+ "q9": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which characteristics of all living organisms are needed to release energy for growth?\n\nA breathing and respiration\nB excretion and nutrition\nC excretion and respiration\nD nutrition and respiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q10": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "All living things can remove toxic materials and other substances that are in excess of requirements.\nWhat is this process called?\n\nA egestion\nB excretion\nC nutrition\nD respiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q11": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An Amoeba is a single-celled organism.\nThe diagram shows an Amoeba engulfing a food particle. [Diagram showing Amoeba extending pseudopodia to engulf a food particle]\nWhich characteristics of living organisms are shown?\n\nA excretion, movement and nutrition\nB excretion, nutrition and sensitivity\nC movement, nutrition and sensitivity\nD movement, reproduction and sensitivity",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q12": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which characteristic do all living organisms show?\n\nA breathing\nB excretion\nC photosynthesis\nD tropism",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q13": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows what happened in an experiment with plant seedlings. [Diagram showing seedlings bending towards light from the side over time]\nWhich characteristic of living things made the seedlings grow towards the light?\n\nA excretion\nB nutrition\nC respiration\nD sensitivity",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q14": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Hedgehogs are mammals. Touching a hedgehog causes it to roll into a ball to protect itself.\nWhich characteristics is it displaying?\n\nA excretion and movement\nB growth and sensitivity\nC movement and growth\nD movement and sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q15": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which process is carried out by all organisms?\n\nA growth\nB photosynthesis\nC sexual reproduction\nD transpiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q16": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows some of the processes carried out by living organisms. [Flow chart showing carbon dioxide going to green plant with arrow X, green plant to chicken with arrow X, green plant producing waste products via arrow Y, and chicken producing waste products via arrow Y]\nWhich two characteristics of living organisms are represented by arrows X and Y?\n\nA excretion and sensitivity\nB nutrition and excretion\nC respiration and growth\nD sensitivity and reproduction",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:39+00:00"
+ },
+ "q17": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A living organism, X, can make its own food, get rid of toxic materials and detect and respond to stimuli. What other four processes must organism X carry out to stay alive?\nA excretion, growth, movement, sensitivity\nB excretion, growth, nutrition, respiration\nC growth, movement, reproduction, respiration\nD movement, reproduction, respiration, sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q18": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a leaf on a plant. [Diagram showing a leaf with carbon dioxide from the air entering, water from the soil entering, simple sugars made in the leaf, and sunlight shining on it] Which characteristic of life is represented by this diagram?\nA excretion\nB nutrition\nC respiration\nD sensitivity",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q19": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Carbon dioxide diffuses into a leaf. Which characteristic of living things requires this?\nA excretion\nB movement\nC nutrition\nD respiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q20": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students find a small organism in a pond. They catch it and put it into a large jar of water. They see that the organism swims away from light. It lays some eggs before they put it back into the pond. Which characteristics of living things did the students see in this organism?\nA excretion, growth and respiration\nB growth, nutrition and sensitivity\nC movement, reproduction and sensitivity\nD movement, reproduction and respiration",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q21": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The diagram shows a plant. [Diagram showing a potted plant bending towards light coming from the left] Which characteristic of living organisms is shown by the plant in the diagram?\nA excretion\nB reproduction\nC respiration\nD sensitivity",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q22": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagrams show a plant at the start of an experiment, and the same plant two weeks later. [Diagram showing a small plant at the start and the same plant larger and bent towards light after two weeks] Which characteristics of living organisms are demonstrated by this experiment?\nA excretion, growth, movement\nB excretion, movement, reproduction\nC growth, movement, sensitivity\nD sensitivity, growth, respiration",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q23": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Biology is the study of living things. Which characteristic applies to all forms of life?\nA able to move from place to place\nB able to reproduce\nC carry out photosynthesis\nD possess a nervous system",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q24": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Which organisms carry out respiration, growth, movement and excretion?\nA all animals and all plants\nB animals only\nC arthropods and flowering plants only\nD plants only",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:08:58+00:00"
+ },
+ "q25": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The sundew is a carnivorous plant that can trap small insects with sticky hairs and then digest them. When an insect gets stuck, other nearby sticky hairs bend over to trap the insect.\n\nWhich characteristics of living organisms are demonstrated when the sundew traps insects?\n\nA growth and excretion\nB growth and sensitivity\nC movement and excretion\nD movement and sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q26": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "A person drinks a glass of iced water and the volume of sweat they secrete decreases.\n\nThis is an example of which characteristic of living organisms?\n\nA growth\nB movement\nC respiration\nD sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q27": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The Venus flytrap is a plant that feeds on insects. When a fly lands on the leaf, the leaf folds very quickly and traps the fly. The leaves produce enzymes which digest the fly.\n\nWhich characteristics of living organisms are involved?\n\nA excretion, growth, nutrition\nB movement, excretion, nutrition\nC movement, sensitivity, growth\nD movement, sensitivity, nutrition",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q28": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows how a seed changes after it is planted in soil and watered. [Diagram showing seed germination stages from underground seed to a seedling with roots and shoot above ground]\n\nWhich characteristics of living things are demonstrated by this sequence?\n\nA excretion and growth\nB growth and sensitivity\nC nutrition and reproduction\nD nutrition and sensitivity",
+  "type": "graph_or_diagram",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q29": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "Which term is defined as all the chemical reactions that occur in cells?\n\nA photosynthesis\nB protein synthesis\nC respiration\nD metabolism",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q30": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "The plant Mimosa pudica has leaves that fold in when touched.\n\nThis demonstrates movement and which other characteristic?\n\nA excretion\nB growth\nC nutrition\nD sensitivity",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q31": {
+  "status": "done",
+  "subpoints": [
+   "1.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The diagram shows the apparatus at the beginning of an investigation into temperature change during the germination of seeds. The temperature at the start of the investigation was 25 degrees C in both flasks.\nAfter two days the temperature in flask 1 is 25 degrees C. The temperature in flask 2 is 28 degrees C.\n[Diagram showing flask 1 with dead and disinfected seeds and flask 2 with living seeds, both in vacuum flasks connected to thermometers]\n\nWhich characteristic of living organisms is shown in this experiment?\n\nA excretion\nB growth\nC reproduction\nD respiration",
+  "type": "practical",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ },
+ "q32": {
+  "status": "done",
+  "subpoints": [
+   "1.2.6"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 1,
+  "text": "What is used as a means of classification?\n\nA the number of strands of mRNA\nB the shape of DNA molecules\nC the sequence of bases in DNA\nD the types of bases in DNA",
+  "type": "conceptual",
+  "model": "gemini-3.5-flash-lite",
+  "updated": "2026-11-28T04:09:18+00:00"
+ }
+}

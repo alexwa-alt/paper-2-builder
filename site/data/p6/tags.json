@@ -5179,5 +5179,257 @@
   "marks": 11,
   "model": "gemini-3.6-flash",
   "updated": "2026-11-27T13:02:32+00:00"
+ },
+ "p6-262": {
+  "status": "done",
+  "subpoints": [
+   "4.3.2.6",
+   "4.2.4.2",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 3,
+  "text": "A planning task where students design an investigation into how the combined resistance of resistors connected in parallel depends on the number of resistors. Apparatus provided includes a power supply, ammeter, voltmeter, variable resistor, switch, and a box of identical resistors. Students must draw a circuit diagram showing two parallel resistors, describe the experimental procedure for varying the number of resistors, and draw a results table with appropriate column headings and units.",
+  "skills": [
+   "planning",
+   "drawings",
+   "tables"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:02:57+00:00"
+ },
+ "p6-263": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.2.2",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation comparing the resistance of lamp filaments in series and parallel circuits. Students read a voltmeter scale and an ammeter scale to determine values for lamps in series and calculate the series resistance R_S. They then draw a circuit diagram showing the lamps in parallel with meters correctly positioned, calculate the parallel resistance R_P using given data, and determine the ratio R_S / R_P. Lastly, they suggest a variable to alter for further readings and explain how to change it.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "precautions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:02:57+00:00"
+ },
+ "p6-264": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question investigates the resistance of lamps connected in parallel and in series. In part (a), the student reads the voltmeter and ammeter dials for three lamps connected in parallel and calculates their combined resistance R_P using R_P = V_P / I_P. In part (b), the student draws a circuit diagram showing the three lamps connected in series with an ammeter and a voltmeter across all three lamps. In part (c), the student calculates the series resistance R_S using provided readings. In part (d), the student draws the symbol for a variable resistor and indicates its position in the circuit to control current in all lamps.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:04:38+00:00"
+ },
+ "p6-265": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.1.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "The question investigates the combined resistance of three resistors in series and combination circuit arrangements. In part (a), the student reads analogue voltmeter and ammeter scales for three series resistors and calculates their combined resistance R_1. In part (b), the student completes a circuit diagram showing two resistors connected in parallel, placed in series with the third resistor. In part (c), the student calculates the new resistance R_2 and the ratio R_1 / R_2 using given current and voltage values. In part (d), the student states a conclusion and provides a justification on whether the three resistors are identical based on the calculated ratio.",
+  "skills": [
+   "readings",
+   "drawings",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:04:38+00:00"
+ },
+ "p6-266": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.2.6",
+   "4.3.1.1"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the total resistance of identical wires connected in parallel. A circuit diagram is provided with crocodile clips connecting wire A, and then combinations of A and B, and A, B, and C in parallel. Students draw a voltmeter across wire A in the diagram, take readings from analogue voltmeter and ammeter displays, draw pointer positions on meter scales for given values, record readings in a results table, calculate the resistance for each combination using R = V / I, evaluate a suggestion about parallel wire resistance, and deduce the relationship between the resistance of three parallel wires and a single wire.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:05:03+00:00"
+ },
+ "p6-267": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.2.4.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate how the resistance of a filament lamp changes across two different circuit configurations. In circuit 1, lamp L is connected in series with an ammeter and two parallel lamps; students draw a voltmeter across lamp L, read analogue meters, and calculate resistance. In circuit 2, three lamps are connected in series. Students complete column headings in the results table, calculate lamp resistance for both circuits, evaluate whether lamp resistance remains constant, relate lamp brightness to temperature and resistance changes, and draw a circuit diagram incorporating a variable resistor to control current.",
+  "skills": [
+   "readings",
+   "tables",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:05:03+00:00"
+ },
+ "p6-268": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into combinations of three lamps in series and parallel circuits. Students read analog voltmeter and ammeter scales to determine potential differences across three series-connected lamps and total circuit current. They calculate the resistance of one lamp and the total series potential difference. Students then draw a circuit diagram with the three lamps connected in parallel, complete with an ammeter and voltmeter. Finally, they evaluate whether parallel resistance matches theoretical predictions and state visual evidence (brightness) indicating filament temperature differences between series and parallel arrangements.",
+  "skills": [
+   "readings",
+   "calculations",
+   "drawings",
+   "conclusions"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:05:27+00:00"
+ },
+ "p6-269": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.2",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation of the resistance of various lamp combinations in parallel and series-parallel arrangements. Students add a voltmeter symbol to a circuit diagram to measure potential difference across parallel branches. They calculate the total resistance for three different circuit configurations using potential difference and current data, complete table column headings with appropriate units, and evaluate whether the experimental results support a theoretical relationship regarding resistance ratios. Lastly, they draw the connection of a voltmeter to measure potential difference across a specific single lamp in a combined circuit.",
+  "skills": [
+   "drawings",
+   "tables",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:05:27+00:00"
+ },
+ "p6-270": {
+  "status": "done",
+  "subpoints": [
+   "4.2.5.2",
+   "4.3.1.1",
+   "4.3.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate the power of lamps connected in a circuit. In part (a), potential difference across each of three lamps in series and current in the circuit are read from analogue meters to calculate the power of each lamp and the total power P_T. In part (b), students compare the total power P_T to a measured overall power P to evaluate a given suggestion. In part (c), students draw a circuit diagram containing a variable resistor in series with three parallel lamps and a voltmeter across them, and state the function of the variable resistor.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": 9,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:05:55+00:00"
+ },
+ "p6-271": {
+  "status": "done",
+  "subpoints": [
+   "4.2.4.1",
+   "4.3.1.1",
+   "4.3.2.4"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "Students investigate resistor combinations in circuits. In part (a), potential difference V_1 and current I_1 are read from analogue meters for a parallel resistor combination to calculate resistance R_P and 4R_P. In part (b), series resistance R_S is calculated from given readings V_2 and I_2. In part (c), students compare R_S to 4R_P to evaluate whether the resistors have equal values. In part (d), students draw a circuit diagram representing the two series resistors replaced by two lamps.",
+  "skills": [
+   "readings",
+   "calculations",
+   "conclusions",
+   "drawings"
+  ],
+  "marks": null,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:05:55+00:00"
+ },
+ "p6-272": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.2.4.1",
+   "4.3.2.8"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into potential differences across circuit components in combined series-parallel and series arrangements. Students draw a circuit diagram using standard circuit symbols from a physical setup diagram showing lamps L, M, and N connected with a power pack, ammeter, and voltmeter. They calculate combined potential difference V_A across lamps L and M, determine the total resistance R_A using R = V / I, and mark a current value of 0.65 A on an analogue ammeter scale. In a rearranged series circuit, students calculate total potential difference V_B across all three lamps and evaluate whether V_A equals V_B with justification based on experimental results.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "conclusions"
+  ],
+  "marks": 8,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:06:39+00:00"
+ },
+ "p6-273": {
+  "status": "done",
+  "subpoints": [
+   "4.3.1.1",
+   "4.3.2.9",
+   "4.2.2.2"
+  ],
+  "section_ok": true,
+  "suggested_section": null,
+  "difficulty": 2,
+  "text": "An investigation into current and potential difference in a parallel circuit containing three identical lamps. Students add a voltmeter to a given circuit diagram to measure total potential difference and mark a specific reading on an analogue voltmeter scale. They read ammeter values at three different branch positions, calculate total branch current I_C = I_2 + I_3, and suggest practical reasons why the measured main current I_1 might differ from I_C. Students then redraw the circuit diagram incorporating a variable resistor to control main current and suggest a procedure to identify a faulty lamp when lamps in a series branch fail to glow.",
+  "skills": [
+   "drawings",
+   "readings",
+   "calculations",
+   "precautions"
+  ],
+  "marks": 7,
+  "model": "gemini-3.6-flash",
+  "updated": "2026-11-28T04:06:39+00:00"
  }
 }
